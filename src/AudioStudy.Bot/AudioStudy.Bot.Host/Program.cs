@@ -1,17 +1,33 @@
+using AudioStudy.Bot.Application;
+using AudioStudy.Bot.DataAccess.Abstractions;
+using AudioStudy.Bot.DataAccess.Telegram;
+using AudioStudy.Bot.Domain.Model.Telegram;
+using AudioStudy.Bot.Domain.Services;
+using AudioStudy.Bot.Domain.Services.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 namespace AudioStudy.Bot.Host
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
+        private static IHostBuilder CreateHostBuilder(string[] args) =>
             Microsoft.Extensions.Hosting.Host.CreateDefaultBuilder(args)
-                .ConfigureServices((hostContext, services) => { services.AddHostedService<Worker>(); });
+                .ConfigureServices((hostContext, services) =>
+                {
+                    services.AddOptions<TelegramOptions>()
+                        .Bind(hostContext.Configuration.GetSection("Telegram")).ValidateDataAnnotations();
+                    services.AddOptions<WorkerOptions>()
+                        .Bind(hostContext.Configuration.GetSection("Worker")).ValidateDataAnnotations();
+                    
+                    services.AddSingleton<ITelegramClient, TelegramClient>();
+                    services.AddSingleton<IUpdatesQueueProducer<TelegramUpdate>, UpdatesQueueProducer<TelegramUpdate>>();
+                    services.AddHostedService<Worker>();
+                });
     }
 }

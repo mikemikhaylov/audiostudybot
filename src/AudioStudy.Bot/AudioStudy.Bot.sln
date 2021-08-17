@@ -2,6 +2,18 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudy.Bot.Host", "AudioStudy.Bot.Host\AudioStudy.Bot.Host.csproj", "{6793B013-94A8-4AF1-8338-0D6C62BA7A58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudy.Bot.DataAccess.Telegram", "AudioStudy.Bot.DataAccess.Telegram\AudioStudy.Bot.DataAccess.Telegram.csproj", "{E8DC19D7-4C8C-49DF-98EF-5AFF53D93F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudy.Bot.DataAccess.Abstractions", "AudioStudy.Bot.DataAccess.Abstractions\AudioStudy.Bot.DataAccess.Abstractions.csproj", "{5BB863A2-FA42-4848-82AE-ABF0A1F9A564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudy.Bot.DataAccess.Db", "AudioStudy.Bot.DataAccess.Db\AudioStudy.Bot.DataAccess.Db.csproj", "{566E7BC3-E3AC-4489-A15E-5CDB7C77480E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudy.Bot.Domain.Model", "AudioStudy.Bot.Domain.Model\AudioStudy.Bot.Domain.Model.csproj", "{1A208782-667F-4878-BAC2-F60E75090B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudy.Bot.Domain.Services", "AudioStudy.Bot.Domain.Services\AudioStudy.Bot.Domain.Services.csproj", "{050209A3-6F48-4E34-BCED-090816706908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudy.Bot.Application", "AudioStudy.Bot.Application\AudioStudy.Bot.Application.csproj", "{DFAB44AE-E954-402E-8D03-7A1241D66870}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +24,29 @@ Global
 		{6793B013-94A8-4AF1-8338-0D6C62BA7A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6793B013-94A8-4AF1-8338-0D6C62BA7A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6793B013-94A8-4AF1-8338-0D6C62BA7A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DC19D7-4C8C-49DF-98EF-5AFF53D93F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DC19D7-4C8C-49DF-98EF-5AFF53D93F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DC19D7-4C8C-49DF-98EF-5AFF53D93F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DC19D7-4C8C-49DF-98EF-5AFF53D93F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB863A2-FA42-4848-82AE-ABF0A1F9A564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB863A2-FA42-4848-82AE-ABF0A1F9A564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB863A2-FA42-4848-82AE-ABF0A1F9A564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB863A2-FA42-4848-82AE-ABF0A1F9A564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566E7BC3-E3AC-4489-A15E-5CDB7C77480E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566E7BC3-E3AC-4489-A15E-5CDB7C77480E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566E7BC3-E3AC-4489-A15E-5CDB7C77480E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566E7BC3-E3AC-4489-A15E-5CDB7C77480E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A208782-667F-4878-BAC2-F60E75090B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A208782-667F-4878-BAC2-F60E75090B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A208782-667F-4878-BAC2-F60E75090B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A208782-667F-4878-BAC2-F60E75090B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050209A3-6F48-4E34-BCED-090816706908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050209A3-6F48-4E34-BCED-090816706908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050209A3-6F48-4E34-BCED-090816706908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050209A3-6F48-4E34-BCED-090816706908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAB44AE-E954-402E-8D03-7A1241D66870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAB44AE-E954-402E-8D03-7A1241D66870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAB44AE-E954-402E-8D03-7A1241D66870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAB44AE-E954-402E-8D03-7A1241D66870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
