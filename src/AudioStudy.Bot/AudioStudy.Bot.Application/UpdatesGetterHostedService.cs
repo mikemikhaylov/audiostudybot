@@ -17,14 +17,14 @@ namespace AudioStudy.Bot.Application
         private readonly ILogger<UpdatesGetterHostedService> _logger;
         private readonly IOptions<UpdatesGetterOptions> _config;
         private readonly ITelegramClient _telegramClient;
-        private readonly IUpdatesQueuePublisher<TelegramUpdate> _updatesQueuePublisher;
+        private readonly IUpdatesQueuePublisher<TelegramRequestMessage> _updatesQueuePublisher;
         private int _currentOffset;
 
         public UpdatesGetterHostedService(
             ILogger<UpdatesGetterHostedService> logger,
             IOptions<UpdatesGetterOptions> config,
             ITelegramClient telegramClient,
-            IUpdatesQueuePublisher<TelegramUpdate> updatesQueuePublisher)
+            IUpdatesQueuePublisher<TelegramRequestMessage> updatesQueuePublisher)
         {
             _logger = logger;
             _config = config;
@@ -45,7 +45,7 @@ namespace AudioStudy.Bot.Application
             _logger.LogInformation("{serviceName} finished at: {time}", nameof(UpdatesGetterHostedService), DateTimeOffset.UtcNow);
         }
 
-        private async Task ProcessUpdates(IReadOnlyList<TelegramUpdate> updates, CancellationToken cancellationToken)
+        private async Task ProcessUpdates(IReadOnlyList<TelegramRequestMessage> updates, CancellationToken cancellationToken)
         {
             if (!updates.Any())
             {

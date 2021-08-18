@@ -8,6 +8,6 @@ namespace AudioStudy.Bot.DataAccess.Abstractions
 {
     public interface ITelegramClient
     {
-        Task<IReadOnlyList<TelegramUpdate>> GetUpdatesAsync(int offset, int limit, CancellationToken cancellationToken);
+        Task<IReadOnlyList<TelegramRequestMessage>> GetUpdatesAsync(int offset, int limit, CancellationToken cancellationToken);
     }
 }

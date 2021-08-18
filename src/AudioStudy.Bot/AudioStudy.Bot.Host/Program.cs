@@ -27,9 +27,9 @@ namespace AudioStudy.Bot.Host
                         .Bind(hostContext.Configuration.GetSection("Queue")).ValidateDataAnnotations();
                     
                     services.AddSingleton<ITelegramClient, TelegramClient>();
-                    services.AddSingleton<UpdatesQueue<TelegramUpdate>>(); // We must explicitly register Foo
-                    services.AddSingleton<IUpdatesQueuePublisher<TelegramUpdate>>(x => x.GetRequiredService<UpdatesQueue<TelegramUpdate>>()); 
-                    services.AddSingleton<IUpdatesQueueSubscriber<TelegramUpdate>>(x => x.GetRequiredService<UpdatesQueue<TelegramUpdate>>()); 
+                    services.AddSingleton<UpdatesQueue<TelegramRequestMessage>>(); // We must explicitly register Foo
+                    services.AddSingleton<IUpdatesQueuePublisher<TelegramRequestMessage>>(x => x.GetRequiredService<UpdatesQueue<TelegramRequestMessage>>()); 
+                    services.AddSingleton<IUpdatesQueueSubscriber<TelegramRequestMessage>>(x => x.GetRequiredService<UpdatesQueue<TelegramRequestMessage>>()); 
                     services.AddHostedService<TelegramPipelineHostedService>();
                     services.AddHostedService<UpdatesGetterHostedService>();
                 });

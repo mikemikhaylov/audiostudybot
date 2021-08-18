@@ -22,7 +22,7 @@ namespace AudioStudy.Bot.DataAccess.Telegram
             _telegramBotClient = new TelegramBotClient(_config.Token);
         }
 
-        public async Task<IReadOnlyList<TelegramUpdate>> GetUpdatesAsync(int offset, int limit,
+        public async Task<IReadOnlyList<TelegramRequestMessage>> GetUpdatesAsync(int offset, int limit,
             CancellationToken cancellationToken)
         {
             var result =
@@ -31,16 +31,32 @@ namespace AudioStudy.Bot.DataAccess.Telegram
                     UpdateType.Message,
                     UpdateType.CallbackQuery
                 }, cancellationToken);
-            return result.Select(x => new TelegramUpdate
+            return result.Select(x =>
             {
-                Id = x.Id,
-                Message = x.Message == null
-                    ? null
-                    : new TelegramMessage
-                    {
-                        Text = x.Message.Text
-                    }
+                var chat = x.Message?.Chat ?? x.CallbackQuery?.Message?.Chat;
+                return new TelegramRequestMessage
+                {
+                    Id = x.Id,
+                    Text = x.Message?.Text,
+                    ChatId = chat?.Id ?? default,
+                    ChatType = GetTelegramChatType(chat?.Type),
+                    CallbackMessageId = x.CallbackQuery?.Message?.MessageId,
+                    CallbackQueryId = x.CallbackQuery?.Id,
+                    CallbackData = x.CallbackQuery?.Data
+                };
             }).ToList();
+        }
+        
+        private static TelegramChatType GetTelegramChatType(ChatType? chatType)
+        {
+            return chatType switch
+            {
+                ChatType.Channel => TelegramChatType.Channel,
+                ChatType.Group => TelegramChatType.Group,
+                ChatType.Private => TelegramChatType.Private,
+                ChatType.Supergroup => TelegramChatType.SuperGroup,
+                _ => TelegramChatType.Unknown
+            };
         }
     }
 }
