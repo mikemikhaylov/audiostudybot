@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
 
-namespace AudioStudy.Bot.Domain.Services.Queue
+namespace AudioStudy.Bot.SharedUtils.Queue
 {
     public interface IUpdatesQueueSubscriber<out T>
     {
         void Subscribe(Func<T, Task> handler);
-        void Unsubscribe();
+        Task UnsubscribeAsync();
     }
 }

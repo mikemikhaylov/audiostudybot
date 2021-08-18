@@ -11,6 +11,7 @@
     <ItemGroup>
       <ProjectReference Include="..\AudioStudy.Bot.DataAccess.Abstractions\AudioStudy.Bot.DataAccess.Abstractions.csproj" />
       <ProjectReference Include="..\AudioStudy.Bot.Domain.Services\AudioStudy.Bot.Domain.Services.csproj" />
+      <ProjectReference Include="..\AudioStudy.Bot.SharedUtils\AudioStudy.Bot.SharedUtils.csproj" />
     </ItemGroup>
 
 </Project>

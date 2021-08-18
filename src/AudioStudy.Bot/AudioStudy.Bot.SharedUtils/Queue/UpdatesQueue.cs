@@ -5,14 +5,14 @@ using System.Threading.Tasks.Dataflow;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace AudioStudy.Bot.Domain.Services.Queue
+namespace AudioStudy.Bot.SharedUtils.Queue
 {
     public class UpdatesQueue<T> : IUpdatesQueuePublisher<T>, IUpdatesQueueSubscriber<T>
     {
         private readonly IOptions<QueueOptions> _config;
         private readonly ILogger<UpdatesQueue<T>> _logger;
         private readonly BufferBlock<T> _bufferBlock;
-        private IDisposable _subscription;
+        private ActionBlock<T> _subscriptionBlock;
 
         public UpdatesQueue(IOptions<QueueOptions> config, ILogger<UpdatesQueue<T>> logger)
         {
@@ -23,6 +23,7 @@ namespace AudioStudy.Bot.Domain.Services.Queue
                 BoundedCapacity = config.Value.BoundedCapacity
             });
         }
+
         public async Task ProduceAsync(T update, CancellationToken cancellationToken)
         {
             await _bufferBlock.SendAsync(update, cancellationToken);
@@ -30,41 +31,36 @@ namespace AudioStudy.Bot.Domain.Services.Queue
 
         public void Subscribe(Func<T, Task> handler)
         {
-            lock (_bufferBlock)
+            _subscriptionBlock = new ActionBlock<T>(async item =>
             {
-                if (_subscription != null)
+                try
                 {
-                    throw new InvalidOperationException("Already subscribed");
+                    await handler(item);
                 }
-                _subscription =  _bufferBlock.LinkTo(new ActionBlock<T>(async item =>
+                catch (Exception e)
                 {
-                    try
-                    {
-                        await handler(item);
-                    }
-                    catch (Exception e)
-                    {
-                        _logger.LogError(e, "Error in handler");
-                    }
-                }, new ExecutionDataflowBlockOptions
-                {
-                    MaxDegreeOfParallelism = _config.Value.MaxDegreeOfParallelism,
-                    BoundedCapacity = _config.Value.BoundedCapacity,
-                    EnsureOrdered = false
-                }));
-            }
+                    _logger.LogError(e, "Error in handler");
+                }
+            }, new ExecutionDataflowBlockOptions
+            {
+                MaxDegreeOfParallelism = _config.Value.MaxDegreeOfParallelism,
+                BoundedCapacity = _config.Value.BoundedCapacity,
+                EnsureOrdered = false
+            });
+            _bufferBlock.LinkTo(_subscriptionBlock, new DataflowLinkOptions
+            {
+                PropagateCompletion = true
+            });
         }
 
-        public void Unsubscribe()
+        public Task UnsubscribeAsync()
         {
-            lock (_bufferBlock)
+            if (_subscriptionBlock == null)
             {
-                if (_subscription != null)
-                {
-                    _subscription.Dispose();
-                    _subscription = null;
-                }
+                return Task.CompletedTask;
             }
+            _bufferBlock.Complete();
+            return _subscriptionBlock.Completion;
         }
     }
 }

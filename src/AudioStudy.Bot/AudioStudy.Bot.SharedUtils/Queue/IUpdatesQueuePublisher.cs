@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace AudioStudy.Bot.Domain.Services.Queue
+namespace AudioStudy.Bot.SharedUtils.Queue
 {
     public interface IUpdatesQueuePublisher<in T>
     {

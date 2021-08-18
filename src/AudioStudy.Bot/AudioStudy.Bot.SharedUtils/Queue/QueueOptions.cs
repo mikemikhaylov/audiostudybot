@@ -1,4 +1,4 @@
-namespace AudioStudy.Bot.Domain.Services.Queue
+namespace AudioStudy.Bot.SharedUtils.Queue
 {
     public class QueueOptions
     {

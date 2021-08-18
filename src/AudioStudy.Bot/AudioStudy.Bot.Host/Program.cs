@@ -2,8 +2,7 @@ using AudioStudy.Bot.Application;
 using AudioStudy.Bot.DataAccess.Abstractions;
 using AudioStudy.Bot.DataAccess.Telegram;
 using AudioStudy.Bot.Domain.Model.Telegram;
-using AudioStudy.Bot.Domain.Services;
-using AudioStudy.Bot.Domain.Services.Queue;
+using AudioStudy.Bot.SharedUtils.Queue;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
