@@ -5,36 +5,36 @@ using System.Threading;
 using System.Threading.Tasks;
 using AudioStudy.Bot.DataAccess.Abstractions;
 using AudioStudy.Bot.Domain.Model.Telegram;
-using AudioStudy.Bot.Domain.Services.Abstractions;
+using AudioStudy.Bot.Domain.Services.Queue;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 namespace AudioStudy.Bot.Application
 {
-    public class Worker : BackgroundService
+    public class UpdatesGetterHostedService : BackgroundService
     {
-        private readonly ILogger<Worker> _logger;
-        private readonly IOptions<WorkerOptions> _config;
+        private readonly ILogger<UpdatesGetterHostedService> _logger;
+        private readonly IOptions<UpdatesGetterOptions> _config;
         private readonly ITelegramClient _telegramClient;
-        private readonly IUpdatesQueueProducer<TelegramUpdate> _updatesQueueProducer;
+        private readonly IUpdatesQueuePublisher<TelegramUpdate> _updatesQueuePublisher;
         private int _currentOffset;
 
-        public Worker(
-            ILogger<Worker> logger,
-            IOptions<WorkerOptions> config,
+        public UpdatesGetterHostedService(
+            ILogger<UpdatesGetterHostedService> logger,
+            IOptions<UpdatesGetterOptions> config,
             ITelegramClient telegramClient,
-            IUpdatesQueueProducer<TelegramUpdate> updatesQueueProducer)
+            IUpdatesQueuePublisher<TelegramUpdate> updatesQueuePublisher)
         {
             _logger = logger;
             _config = config;
             _telegramClient = telegramClient;
-            _updatesQueueProducer = updatesQueueProducer;
+            _updatesQueuePublisher = updatesQueuePublisher;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            _logger.LogInformation("Worker started at: {time}", DateTimeOffset.UtcNow);
+            _logger.LogInformation("{serviceName} started at: {time}", nameof(UpdatesGetterHostedService), DateTimeOffset.UtcNow);
             while (!stoppingToken.IsCancellationRequested)
             {
                 var updates 
@@ -42,7 +42,7 @@ namespace AudioStudy.Bot.Application
                 _logger.LogDebug("Got {count} updates", updates.Count);
                 await ProcessUpdates(updates, stoppingToken);
             }
-            _logger.LogInformation("Worker finished at: {time}", DateTimeOffset.UtcNow);
+            _logger.LogInformation("{serviceName} finished at: {time}", nameof(UpdatesGetterHostedService), DateTimeOffset.UtcNow);
         }
 
         private async Task ProcessUpdates(IReadOnlyList<TelegramUpdate> updates, CancellationToken cancellationToken)
@@ -53,7 +53,7 @@ namespace AudioStudy.Bot.Application
             }
             foreach (var update in updates)
             {
-                await _updatesQueueProducer.ProduceAsync(update, cancellationToken);
+                await _updatesQueuePublisher.ProduceAsync(update, cancellationToken);
             }
             _currentOffset = updates[^1].Id + 1;
         }

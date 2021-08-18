@@ -1,9 +1,9 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace AudioStudy.Bot.Domain.Services.Abstractions
+namespace AudioStudy.Bot.Domain.Services.Queue
 {
-    public interface IUpdatesQueueProducer<in T>
+    public interface IUpdatesQueuePublisher<in T>
     {
         Task ProduceAsync(T update, CancellationToken cancellationToken);
     }

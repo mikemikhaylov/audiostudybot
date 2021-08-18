@@ -8,4 +8,10 @@
       <ProjectReference Include="..\AudioStudy.Bot.Domain.Model\AudioStudy.Bot.Domain.Model.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+      <PackageReference Include="System.Threading.Tasks.Dataflow" Version="5.0.0" />
+    </ItemGroup>
+
 </Project>

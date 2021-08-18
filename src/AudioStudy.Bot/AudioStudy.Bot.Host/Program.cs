@@ -3,7 +3,7 @@ using AudioStudy.Bot.DataAccess.Abstractions;
 using AudioStudy.Bot.DataAccess.Telegram;
 using AudioStudy.Bot.Domain.Model.Telegram;
 using AudioStudy.Bot.Domain.Services;
-using AudioStudy.Bot.Domain.Services.Abstractions;
+using AudioStudy.Bot.Domain.Services.Queue;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -22,12 +22,17 @@ namespace AudioStudy.Bot.Host
                 {
                     services.AddOptions<TelegramOptions>()
                         .Bind(hostContext.Configuration.GetSection("Telegram")).ValidateDataAnnotations();
-                    services.AddOptions<WorkerOptions>()
-                        .Bind(hostContext.Configuration.GetSection("Worker")).ValidateDataAnnotations();
+                    services.AddOptions<UpdatesGetterOptions>()
+                        .Bind(hostContext.Configuration.GetSection("UpdatesGetterHostedService")).ValidateDataAnnotations();
+                    services.AddOptions<QueueOptions>()
+                        .Bind(hostContext.Configuration.GetSection("Queue")).ValidateDataAnnotations();
                     
                     services.AddSingleton<ITelegramClient, TelegramClient>();
-                    services.AddSingleton<IUpdatesQueueProducer<TelegramUpdate>, UpdatesQueueProducer<TelegramUpdate>>();
-                    services.AddHostedService<Worker>();
+                    services.AddSingleton<UpdatesQueue<TelegramUpdate>>(); // We must explicitly register Foo
+                    services.AddSingleton<IUpdatesQueuePublisher<TelegramUpdate>>(x => x.GetRequiredService<UpdatesQueue<TelegramUpdate>>()); 
+                    services.AddSingleton<IUpdatesQueueSubscriber<TelegramUpdate>>(x => x.GetRequiredService<UpdatesQueue<TelegramUpdate>>()); 
+                    services.AddHostedService<TelegramPipelineHostedService>();
+                    services.AddHostedService<UpdatesGetterHostedService>();
                 });
     }
 }
