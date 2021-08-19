@@ -5,9 +5,17 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
 {
     public class TelegramMessagePipeline : ITelegramMessagePipeline
     {
-        public Task HandleMessageAsync(TelegramRequestMessage requestMessage)
+        private readonly IUserService _userService;
+
+        public TelegramMessagePipeline(IUserService userService)
         {
-            throw new System.NotImplementedException();
+            _userService = userService;
+        }
+        
+        public async Task HandleMessageAsync(TelegramRequestMessage requestMessage)
+        {
+            var user = await _userService.GetOrCreateAsync(requestMessage.ChatId);
+            var context = new TelegramPipelineContext(requestMessage, user);
         }
     }
 }

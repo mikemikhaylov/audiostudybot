@@ -1,7 +1,10 @@
 using AudioStudy.Bot.Application;
 using AudioStudy.Bot.DataAccess.Abstractions;
+using AudioStudy.Bot.DataAccess.Db;
 using AudioStudy.Bot.DataAccess.Telegram;
 using AudioStudy.Bot.Domain.Model.Telegram;
+using AudioStudy.Bot.Domain.Services;
+using AudioStudy.Bot.Domain.Services.Telegram;
 using AudioStudy.Bot.SharedUtils.Queue;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,9 +28,15 @@ namespace AudioStudy.Bot.Host
                         .Bind(hostContext.Configuration.GetSection("UpdatesGetterHostedService")).ValidateDataAnnotations();
                     services.AddOptions<QueueOptions>()
                         .Bind(hostContext.Configuration.GetSection("Queue")).ValidateDataAnnotations();
-                    
+                    services.AddOptions<DbOptions>()
+                        .Bind(hostContext.Configuration.GetSection("Db")).ValidateDataAnnotations();
+
+                    services.AddSingleton<MongoDbContext>();
                     services.AddSingleton<ITelegramClient, TelegramClient>();
-                    services.AddSingleton<UpdatesQueue<TelegramRequestMessage>>(); // We must explicitly register Foo
+                    services.AddSingleton<IUserRepository, MongoDbUserRepository>();
+                    services.AddSingleton<IUserService, UserService>();
+                    services.AddSingleton<ITelegramMessagePipeline, TelegramMessagePipeline>();
+                    services.AddSingleton<UpdatesQueue<TelegramRequestMessage>>();
                     services.AddSingleton<IUpdatesQueuePublisher<TelegramRequestMessage>>(x => x.GetRequiredService<UpdatesQueue<TelegramRequestMessage>>()); 
                     services.AddSingleton<IUpdatesQueueSubscriber<TelegramRequestMessage>>(x => x.GetRequiredService<UpdatesQueue<TelegramRequestMessage>>()); 
                     services.AddHostedService<TelegramPipelineHostedService>();

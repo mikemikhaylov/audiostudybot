@@ -4,4 +4,8 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AudioStudy.Bot.SharedUtils\AudioStudy.Bot.SharedUtils.csproj" />
+    </ItemGroup>
+
 </Project>

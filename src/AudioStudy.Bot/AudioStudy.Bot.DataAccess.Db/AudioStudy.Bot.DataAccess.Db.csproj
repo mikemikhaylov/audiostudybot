@@ -8,4 +8,8 @@
       <ProjectReference Include="..\AudioStudy.Bot.DataAccess.Abstractions\AudioStudy.Bot.DataAccess.Abstractions.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Driver" Version="2.13.1" />
+    </ItemGroup>
+
 </Project>
