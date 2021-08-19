@@ -5,6 +5,9 @@ using AudioStudy.Bot.DataAccess.Telegram;
 using AudioStudy.Bot.Domain.Model.Telegram;
 using AudioStudy.Bot.Domain.Services;
 using AudioStudy.Bot.Domain.Services.Telegram;
+using AudioStudy.Bot.Domain.Services.Telegram.Middlewares;
+using AudioStudy.Bot.SharedUtils.Localization;
+using AudioStudy.Bot.SharedUtils.Localization.LocalizationSource;
 using AudioStudy.Bot.SharedUtils.Queue;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -32,9 +35,14 @@ namespace AudioStudy.Bot.Host
                         .Bind(hostContext.Configuration.GetSection("Db")).ValidateDataAnnotations();
 
                     services.AddSingleton<MongoDbContext>();
+                    services.AddSingleton<ILocalizationSource, JsonLocalizationSource>();
+                    services.AddSingleton<IBotLocalization, BotLocalization>();
                     services.AddSingleton<ITelegramClient, TelegramClient>();
                     services.AddSingleton<IUserRepository, MongoDbUserRepository>();
                     services.AddSingleton<IUserService, UserService>();
+                    services.AddSingleton<ChatTypeCheckerMiddleware>();
+                    services.AddSingleton<UserContextProviderMiddleware>();
+                    services.AddSingleton<CommandExecutorMiddleware>();
                     services.AddSingleton<ITelegramMessagePipeline, TelegramMessagePipeline>();
                     services.AddSingleton<UpdatesQueue<TelegramRequestMessage>>();
                     services.AddSingleton<IUpdatesQueuePublisher<TelegramRequestMessage>>(x => x.GetRequiredService<UpdatesQueue<TelegramRequestMessage>>()); 

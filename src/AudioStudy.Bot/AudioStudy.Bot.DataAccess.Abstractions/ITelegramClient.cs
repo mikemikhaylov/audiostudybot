@@ -9,5 +9,6 @@ namespace AudioStudy.Bot.DataAccess.Abstractions
     public interface ITelegramClient
     {
         Task<IReadOnlyList<TelegramRequestMessage>> GetUpdatesAsync(int offset, int limit, CancellationToken cancellationToken);
+        Task SendAsync(TelegramResponseMessage message);
     }
 }

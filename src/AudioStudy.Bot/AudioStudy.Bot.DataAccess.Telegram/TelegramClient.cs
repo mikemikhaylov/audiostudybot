@@ -46,7 +46,12 @@ namespace AudioStudy.Bot.DataAccess.Telegram
                 };
             }).ToList();
         }
-        
+
+        public async Task SendAsync(TelegramResponseMessage message)
+        {
+            await _telegramBotClient.SendTextMessageAsync(message.ChatId, message.Text, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+        }
+
         private static TelegramChatType GetTelegramChatType(ChatType? chatType)
         {
             return chatType switch

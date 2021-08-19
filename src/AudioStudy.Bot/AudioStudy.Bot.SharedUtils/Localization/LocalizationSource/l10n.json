@@ -2,5 +2,13 @@
   "msg:chooselanguage": {
     "ru": "Выберите язык бота",
     "en": "Choose bot language"
+  },
+  "msg:unexpectederror": {
+    "ru": "Произошла неожиданная ошибка. Если это повторится, пожалуйста, попробуйте снова позже.",
+    "en": "Unexpected error has occured. If it happens again, please try again later."
+  },
+  "msg:help": {
+    "ru": "Хелп гоус хере",
+    "en": "Help goes here"
   }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using Microsoft.Extensions.Logging;
@@ -14,11 +15,11 @@ namespace AudioStudy.Bot.SharedUtils.Localization.LocalizationSource
             _logger = logger;
         }
 
-        private static readonly Lazy<dynamic> Source = new(() =>
+        private static readonly Lazy<Dictionary<string, Dictionary<string, string>>> Source = new(() =>
         {
             using var stream =
                 typeof(JsonLocalizationSource).Assembly.GetManifestResourceStream(
-                    "AudioStudy.Bot.Domain.Services.Localization.LocalizationSource.l10n.json");
+                    "AudioStudy.Bot.SharedUtils.Localization.LocalizationSource.l10n.json");
             if (stream == null)
             {
                 throw new Exception("Localization file is missing");
@@ -26,7 +27,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization.LocalizationSource
 
             using var reader = new StreamReader(stream);
             var l10NFile = reader.ReadToEnd();
-            return JsonSerializer.Deserialize<dynamic>(l10NFile);
+            return JsonSerializer.Deserialize<Dictionary<string, Dictionary<string, string>>>(l10NFile);
         });
 
         public string GetKey(string locale, string key)
