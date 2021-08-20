@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="lessons" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="courses\en-ru\top3000.json" />
+      <EmbeddedResource Include="courses\en-ru\top3000.json" />
+      <None Remove="courses\en-es\top3000spanish.json" />
+      <EmbeddedResource Include="courses\en-es\top3000spanish.json" />
+    </ItemGroup>
+
+</Project>

@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\AudioStudy.Bot.Courses\AudioStudy.Bot.Courses.csproj" />
       <ProjectReference Include="..\AudioStudy.Bot.DataAccess.Abstractions\AudioStudy.Bot.DataAccess.Abstractions.csproj" />
       <ProjectReference Include="..\AudioStudy.Bot.Domain.Model\AudioStudy.Bot.Domain.Model.csproj" />
     </ItemGroup>
