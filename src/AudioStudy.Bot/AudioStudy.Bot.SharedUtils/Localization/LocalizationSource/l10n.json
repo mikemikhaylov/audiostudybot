@@ -10,5 +10,45 @@
   "msg:help": {
     "ru": "Хелп гоус хере",
     "en": "Help goes here"
+  },
+  "msg:settingsbtn": {
+    "ru": "Настройки",
+    "en": "Settings"
+  },
+  "msg:cancelbtn": {
+    "ru": "Отмена",
+    "en": "Cancel"
+  },
+  "msg:backbtn": {
+    "ru": "Назад",
+    "en": "Back"
+  },
+  "msg:ihaveratedbtn": {
+    "ru": "Я уже оценили",
+    "en": "I have rated already"
+  },
+  "msg:willratelaterbtn": {
+    "ru": "Я оценю позже",
+    "en": "I will rate later"
+  },
+  "msg:idontwanttoratebtn": {
+    "ru": "Я не хочу оценивать",
+    "en": "I do not want to rate"
+  },
+  "msg:learnbtn": {
+    "ru": "Учить",
+    "en": "Learn"
+  },
+  "msg:coursesbtn": {
+    "ru": "Курсы",
+    "en": "Courses"
+  },
+  "msg:mycoursesbtn": {
+    "ru": "Мои курсы",
+    "en": "My courses"
+  },
+  "msg:helpbtn": {
+    "ru": "Справка",
+    "en": "Help"
   }
 }

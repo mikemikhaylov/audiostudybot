@@ -27,7 +27,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
             text = text.TrimStart();
             if (IsCommand(text, CommandConstants.StartCommand))
             {
-                //IMenuSubMiddleware sm = MenuSubMiddlewareFactory.Create(TelegramState.OnMainWindow);
+                //IMenuSubMiddleware sm = MenuSubMiddlewareFactory.Get(TelegramState.OnMainWindow);
                 //await sm.ChangeState(pipelineContext);
                 pipelineContext.Intent = Intent.StartCommand;
                 pipelineContext.Processed = true;
@@ -44,7 +44,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
             }
             else if (IsCommand(text, CommandConstants.SettingsCommand))
             {
-                //IMenuSubMiddleware sm = MenuSubMiddlewareFactory.Create(TelegramState.OnSettingsWindow);
+                //IMenuSubMiddleware sm = MenuSubMiddlewareFactory.Get(TelegramState.OnSettingsWindow);
                 //await sm.ChangeState(pipelineContext);
                 pipelineContext.Intent = Intent.SettingsScreenOpen;
                 pipelineContext.Processed = true;
