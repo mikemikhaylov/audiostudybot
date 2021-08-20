@@ -4,6 +4,7 @@ namespace AudioStudy.Bot.Domain.Model.Courses
     {
         public string Id { get; set; }
         public int Version { get; set; }
+        public int Weight { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public string NameTranslation { get; set; }

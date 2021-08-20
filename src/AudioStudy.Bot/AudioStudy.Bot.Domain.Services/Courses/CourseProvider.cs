@@ -12,10 +12,10 @@ namespace AudioStudy.Bot.Domain.Services.Courses
     {
         private static readonly Lazy<Course[]> Courses = new(GetAllCourses);
 
-        private static readonly Lazy<string[]> CoursesLanguages = new(() => Courses.Value.SelectMany(x =>
+        private static readonly Lazy<string[]> CoursesLanguages = new(() => SortLanguages(Courses.Value.SelectMany(x =>
         {
             return x.CanBeReversed ? new[] {x.Language, x.TranslationLanguage} : new[] {x.Language};
-        }).ToArray());
+        }).Distinct()));
 
         private static readonly Lazy<Dictionary<string, string[]>> TranslationLanguages = new(() =>
         {
@@ -26,6 +26,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 {
                     return new[] {new[] {x.Language, x.TranslationLanguage}, new[] {x.TranslationLanguage, x.Language}};
                 }
+
                 return new[] {new[] {x.Language, x.TranslationLanguage}};
             }))
             {
@@ -33,9 +34,11 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 {
                     result[languagePairs[0]] = new HashSet<string>();
                 }
+
                 result[languagePairs[0]].Add(languagePairs[1]);
             }
-            return result.ToDictionary(x => x.Key, x => x.Value.ToArray());
+
+            return result.ToDictionary(x => x.Key, x => SortLanguages(x.Value));
         });
 
         public string[] GetCoursesLanguages()
@@ -49,6 +52,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             {
                 return languages;
             }
+
             return Array.Empty<string>();
         }
 
@@ -64,11 +68,24 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 ValidateCourse(course);
                 result.Add(course);
             }
-
-            return result.ToArray();
+            return result.OrderBy(x => x.Weight).ThenBy(x => x.Id).ToArray();
         }
 
-        private static readonly HashSet<string> SupportedLanguages = new HashSet<string>() {"en", "ru", "es"};
+        private static readonly Dictionary<string, int> SupportedLanguages = new() {{"en", 0}, {"ru", 1}, {"es", 2}};
+
+        private static string[] SortLanguages(IEnumerable<string> languages)
+        {
+            var endWeight = int.MaxValue;
+            return languages.Select(x =>
+            {
+                if (!SupportedLanguages.TryGetValue(x, out var weight))
+                {
+                    weight = endWeight--;
+                }
+
+                return new {language = x, weight};
+            }).OrderBy(x => x.weight).Select(x => x.language).ToArray();
+        }
 
         private static void ValidateCourse(Course course)
         {
@@ -97,7 +114,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 throw new Exception($"{nameof(course.Language)} is required. CourseId {course.Id}");
             }
 
-            if (!SupportedLanguages.Contains(course.Language))
+            if (!SupportedLanguages.ContainsKey(course.Language))
             {
                 throw new Exception($"{course.Language} language is not supported. CourseId {course.Id}");
             }
@@ -107,7 +124,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 throw new Exception($"{nameof(course.TranslationLanguage)} is required. CourseId {course.Id}");
             }
 
-            if (!SupportedLanguages.Contains(course.TranslationLanguage))
+            if (!SupportedLanguages.ContainsKey(course.TranslationLanguage))
             {
                 throw new Exception($"{course.TranslationLanguage} language is not supported. CourseId {course.Id}");
             }

@@ -41,6 +41,8 @@ namespace AudioStudy.Bot.SharedUtils.Helpers
 
         public const string EmojiCheckboxChecked = "\U00002611";
         public const string EmojiCheckboxUnchecked = "\U000025FD";
+        
+        public const string EmojiAddAsCancel = "\U0001F519";
 
         public static string FormatTelegramReminderText(string reminderText)
         {
