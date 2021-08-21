@@ -56,6 +56,11 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             return Array.Empty<string>();
         }
 
+        public void Load()
+        {
+            GetAllCourses();
+        }
+
         private static Course[] GetAllCourses()
         {
             var result = new List<Course>();

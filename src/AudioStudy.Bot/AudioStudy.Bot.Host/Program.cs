@@ -21,7 +21,9 @@ namespace AudioStudy.Bot.Host
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var host = CreateHostBuilder(args).Build();
+            host.Services.GetService<CourseProvider>()!.Load();
+            host.Run();
         }
 
         private static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -31,7 +33,8 @@ namespace AudioStudy.Bot.Host
                     services.AddOptions<TelegramOptions>()
                         .Bind(hostContext.Configuration.GetSection("Telegram")).ValidateDataAnnotations();
                     services.AddOptions<UpdatesGetterOptions>()
-                        .Bind(hostContext.Configuration.GetSection("UpdatesGetterHostedService")).ValidateDataAnnotations();
+                        .Bind(hostContext.Configuration.GetSection("UpdatesGetterHostedService"))
+                        .ValidateDataAnnotations();
                     services.AddOptions<QueueOptions>()
                         .Bind(hostContext.Configuration.GetSection("Queue")).ValidateDataAnnotations();
                     services.AddOptions<DbOptions>()
@@ -44,6 +47,7 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<IUserRepository, MongoDbUserRepository>();
                     services.AddSingleton<IUserService, UserService>();
                     services.AddSingleton<ITelegramButtonsHelper, TelegramButtonsHelper>();
+                    services.AddSingleton<CourseProvider>();
                     services.AddSingleton<ICourseProvider, CourseProvider>();
                     services.AddSingleton<ChatTypeCheckerMiddleware>();
                     services.AddSingleton<UserContextProviderMiddleware>();
@@ -53,8 +57,10 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<IMenuSubMiddlewareFactory, MenuSubMiddlewareFactory>();
                     services.AddSingleton<ITelegramMessagePipeline, TelegramMessagePipeline>();
                     services.AddSingleton<UpdatesQueue<TelegramRequestMessage>>();
-                    services.AddSingleton<IUpdatesQueuePublisher<TelegramRequestMessage>>(x => x.GetRequiredService<UpdatesQueue<TelegramRequestMessage>>()); 
-                    services.AddSingleton<IUpdatesQueueSubscriber<TelegramRequestMessage>>(x => x.GetRequiredService<UpdatesQueue<TelegramRequestMessage>>()); 
+                    services.AddSingleton<IUpdatesQueuePublisher<TelegramRequestMessage>>(x =>
+                        x.GetRequiredService<UpdatesQueue<TelegramRequestMessage>>());
+                    services.AddSingleton<IUpdatesQueueSubscriber<TelegramRequestMessage>>(x =>
+                        x.GetRequiredService<UpdatesQueue<TelegramRequestMessage>>());
                     services.AddHostedService<TelegramPipelineHostedService>();
                     services.AddHostedService<UpdatesGetterHostedService>();
                 });
