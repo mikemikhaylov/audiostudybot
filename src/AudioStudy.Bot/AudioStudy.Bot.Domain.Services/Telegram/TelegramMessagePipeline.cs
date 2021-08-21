@@ -23,7 +23,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
             IBotLocalization botLocalization,
             UserContextProviderMiddleware userContextProviderMiddleware,
             ChatTypeCheckerMiddleware chatTypeCheckerMiddleware,
-            CommandExecutorMiddleware commandExecutorMiddleware
+            CommandExecutorMiddleware commandExecutorMiddleware,
+            SettingsCheckerMiddleware settingsCheckerMiddleware
             )
         {
             _logger = logger;
@@ -33,6 +34,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
             {
                 chatTypeCheckerMiddleware,
                 userContextProviderMiddleware,
+                settingsCheckerMiddleware,
                 commandExecutorMiddleware
             };
         }

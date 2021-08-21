@@ -8,6 +8,7 @@ using AudioStudy.Bot.Domain.Model.Telegram;
 using Microsoft.Extensions.Options;
 using Telegram.Bot;
 using Telegram.Bot.Types.Enums;
+using Telegram.Bot.Types.ReplyMarkups;
 
 namespace AudioStudy.Bot.DataAccess.Telegram
 {
@@ -49,7 +50,9 @@ namespace AudioStudy.Bot.DataAccess.Telegram
 
         public async Task SendAsync(TelegramResponseMessage message)
         {
-            await _telegramBotClient.SendTextMessageAsync(message.ChatId, message.Text, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+            IReplyMarkup replyMarkup;
+            GetMarkUp(message, out replyMarkup);
+            await _telegramBotClient.SendTextMessageAsync(message.ChatId, message.Text, replyMarkup: replyMarkup, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
         }
 
         private static TelegramChatType GetTelegramChatType(ChatType? chatType)
@@ -62,6 +65,27 @@ namespace AudioStudy.Bot.DataAccess.Telegram
                 ChatType.Supergroup => TelegramChatType.SuperGroup,
                 _ => TelegramChatType.Unknown
             };
+        }
+        
+        private static void GetMarkUp(TelegramResponseMessage message, out IReplyMarkup replyMarkup)
+        {
+            replyMarkup = null;
+            // if (message.InlineButtons?.Where(x => x != null).SelectMany(x => x).Any() == true)
+            // {
+            //     replyMarkup = new InlineKeyboardMarkup(message.InlineButtons.Where(x => x != null)
+            //         .Select(x => x.Select(xx => InlineKeyboardButton.WithCallbackData(xx.Text, xx.CallbackData))
+            //             .ToArray()).ToArray());
+            // }
+            // else 
+            if (message.ReplyButtons?.Where(x => x != null).SelectMany(x => x).Any() == true)
+            {
+                replyMarkup = new ReplyKeyboardMarkup(message.ReplyButtons.Where(x => x != null).Select(x => x.Select(xx => new KeyboardButton(xx.Text)).ToArray()).ToArray(),
+                    resizeKeyboard: true);
+            }
+            else if (message.ReplyButtons?.Length == 0)
+            {
+                replyMarkup = new ReplyKeyboardRemove();
+            }
         }
     }
 }

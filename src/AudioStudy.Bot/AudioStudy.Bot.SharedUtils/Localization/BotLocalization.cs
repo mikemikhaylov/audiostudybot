@@ -14,6 +14,8 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         }
 
         public string ChooseLanguage(Language language) => GetKey(language, "msg:chooselanguage");
+        public string ChooseLearningLanguage(Language language) => GetKey(language, "msg:chooselearninglanguage");
+        public string ChooseKnowsLanguage(Language language) => GetKey(language, "msg:chooseknowslanguage");
         public string TelegramChatTypeIsNotSupported() => "Chat type is not supported";
         public string UnexpectedErrorHasOccured(Language language) => FormatHelper.EmojiPockerFace + GetKey(language, "msg:unexpectederror");
         public string Help(Language language) => GetKey(language, "msg:help");
@@ -38,6 +40,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         public string HelpBtnLabel(Language language) => GetKey(language, "msg:helpbtn");
 
         public string CourseLanguage(Language language, string courseLanguage) => GetKey(language, "msg:help");
+        public string DoYouLikeThisBotBtnLabel(Language language)=> FormatHelper.EmojiHeart + GetKey(language, "msg:ilikethisbotbtn");
 
         private string GetKey(Language language, string key) => _localizationSource.GetKey((language == Language.Unknown ? Language.English : language).GetMetadata().Short, key);
     }

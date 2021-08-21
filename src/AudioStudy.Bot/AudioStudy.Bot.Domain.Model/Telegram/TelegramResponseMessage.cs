@@ -1,3 +1,5 @@
+using AudioStudy.Bot.SharedUtils.Helpers;
+
 namespace AudioStudy.Bot.Domain.Model.Telegram
 {
     public class TelegramResponseMessage
@@ -5,5 +7,25 @@ namespace AudioStudy.Bot.Domain.Model.Telegram
         public long ChatId { get; set; }
         public string Text { get; set; }
         public bool Html { get; set; }
+        public TelegramReplyBtn[][] ReplyButtons { get; set; }
+    }
+    
+    public static class TelegramResponseMessageExtensions
+    {
+        public static TelegramResponseMessage AddText(this TelegramResponseMessage responseMessage, string text)
+        {
+            if (responseMessage == null)
+            {
+                responseMessage = new TelegramResponseMessage();
+            }
+
+            if (responseMessage.Text != null)
+            {
+                responseMessage.Text += FormatHelper.TelegramConcatenatedMessagesSeparator;
+            }
+
+            responseMessage.Text += text;
+            return responseMessage;
+        }
     }
 }

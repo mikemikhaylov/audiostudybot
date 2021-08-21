@@ -15,5 +15,6 @@ namespace AudioStudy.Bot.Domain.Model.Telegram
         public bool Processed { get; set; }
         public TelegramResponseMessage ResponseMessage { get; set; }
         public Intent Intent { get; set; } = Intent.Unknown;
+        public bool IntentNotHandled { get; set; }
     }
 }

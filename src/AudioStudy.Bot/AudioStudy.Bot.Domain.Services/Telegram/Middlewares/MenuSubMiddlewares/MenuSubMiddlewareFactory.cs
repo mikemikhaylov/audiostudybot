@@ -4,11 +4,11 @@ using AudioStudy.Bot.Domain.Model.Telegram;
 
 namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares
 {
-    public class MenuSubMiddlewareFactory
+    public class MenuSubMiddlewareFactory : IMenuSubMiddlewareFactory
     {
         private readonly Dictionary<TelegramState, IMenuSubMiddleware> _subMiddlewareByState = new();
 
-        public MenuSubMiddlewareFactory(IMenuSubMiddleware[] subMiddlewares)
+        public MenuSubMiddlewareFactory(IEnumerable<IMenuSubMiddleware> subMiddlewares)
         {
             foreach (var subMiddleware in subMiddlewares)
             {

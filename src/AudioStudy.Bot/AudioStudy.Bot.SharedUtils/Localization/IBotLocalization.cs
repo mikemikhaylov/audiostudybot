@@ -5,6 +5,8 @@ namespace AudioStudy.Bot.SharedUtils.Localization
     public interface IBotLocalization
     {
         string ChooseLanguage(Language language);
+        string ChooseLearningLanguage(Language language);
+        string ChooseKnowsLanguage(Language language);
         string TelegramChatTypeIsNotSupported();
         string UnexpectedErrorHasOccured(Language language);
         string Help(Language language);
@@ -14,10 +16,11 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string WillRateLaterBtnLabel(Language language);
         string WillNotRateBtnLabel(Language language);
         string SettingsBtnLabel(Language language);
-        string LearnBtnLabel(Language language);˜
+        string LearnBtnLabel(Language language);
         string CoursesBtnLabel(Language language);
         string MyCoursesBtnLabel(Language language);
         string HelpBtnLabel(Language language);
         string CourseLanguage(Language language, string courseLanguage);
+        string DoYouLikeThisBotBtnLabel(Language language);
     }
 }

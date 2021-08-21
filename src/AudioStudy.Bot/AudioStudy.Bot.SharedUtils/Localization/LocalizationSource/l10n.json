@@ -3,6 +3,14 @@
     "ru": "Выберите язык бота",
     "en": "Choose bot language"
   },
+  "msg:chooselearninglanguage": {
+    "ru": "Язык для изучения",
+    "en": "Learning language"
+  },
+  "msg:chooseknowslanguage": {
+    "ru": "я знаю язык",
+    "en": "i know language"
+  },
   "msg:unexpectederror": {
     "ru": "Произошла неожиданная ошибка. Если это повторится, пожалуйста, попробуйте снова позже.",
     "en": "Unexpected error has occured. If it happens again, please try again later."
@@ -50,5 +58,9 @@
   "msg:helpbtn": {
     "ru": "Справка",
     "en": "Help"
+  },
+  "msg:ilikethisbotbtn": {
+    "ru": "Мне нравится этот бот",
+    "en": "I like this bot"
   }
 }

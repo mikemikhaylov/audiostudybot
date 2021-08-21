@@ -40,6 +40,18 @@ namespace AudioStudy.Bot.DataAccess.Db
                 updateActions.Add(u => u.Language = command.Language.Value);
                 update = GetUpdateDef(update, u => u.Language, command.Language.Value);
             }
+            
+            if (command.LearningLanguage != null)
+            {
+                updateActions.Add(u => u.LearningLanguage = command.LearningLanguage.Value);
+                update = GetUpdateDef(update, u => u.LearningLanguage, command.LearningLanguage.Value);
+            }
+            
+            if (command.KnowsLanguage != null)
+            {
+                updateActions.Add(u => u.KnowsLanguage = command.KnowsLanguage.Value);
+                update = GetUpdateDef(update, u => u.KnowsLanguage, command.KnowsLanguage.Value);
+            }
 
             if (command.RatingDate != null)
             {
