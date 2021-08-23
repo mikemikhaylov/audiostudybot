@@ -14,10 +14,7 @@ namespace AudioStudy.Bot.Domain.Model.Telegram
     {
         public static TelegramResponseMessage AddText(this TelegramResponseMessage responseMessage, string text)
         {
-            if (responseMessage == null)
-            {
-                responseMessage = new TelegramResponseMessage();
-            }
+            responseMessage ??= new TelegramResponseMessage();
 
             if (responseMessage.Text != null)
             {
@@ -25,6 +22,13 @@ namespace AudioStudy.Bot.Domain.Model.Telegram
             }
 
             responseMessage.Text += text;
+            return responseMessage;
+        }
+        
+        public static TelegramResponseMessage SetReplyButtons(this TelegramResponseMessage responseMessage, TelegramReplyBtn[][] replyButtons)
+        {
+            responseMessage ??= new TelegramResponseMessage();
+            responseMessage.ReplyButtons = replyButtons;
             return responseMessage;
         }
     }

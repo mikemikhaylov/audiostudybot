@@ -1,9 +1,12 @@
+using System;
+using System.Linq;
 using AudioStudy.Bot.SharedUtils.Helpers;
 using AudioStudy.Bot.SharedUtils.Localization.Enums;
 using AudioStudy.Bot.SharedUtils.Localization.LocalizationSource;
 
 namespace AudioStudy.Bot.SharedUtils.Localization
 {
+    
     public class BotLocalization : IBotLocalization
     {
         private readonly ILocalizationSource _localizationSource;
@@ -12,6 +15,8 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         {
             _localizationSource = localizationSource;
         }
+
+        public string ChooseLanguage() => FormatHelper.ConcatTelegramMessages(LanguageHelper.AllowedLanguages.Select(x => GetKey(x, "msg:chooselanguage")).ToArray());
 
         public string ChooseLanguage(Language language) => GetKey(language, "msg:chooselanguage");
         public string ChooseLearningLanguage(Language language) => GetKey(language, "msg:chooselearninglanguage");
@@ -39,7 +44,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string HelpBtnLabel(Language language) => GetKey(language, "msg:helpbtn");
 
-        public string CourseLanguage(Language language, string courseLanguage) => GetKey(language, "msg:help");
+        public string CourseLanguage(Language language, string courseLanguage) => GetKey(language, $"msg:{courseLanguage}");
         public string DoYouLikeThisBotBtnLabel(Language language)=> FormatHelper.EmojiHeart + GetKey(language, "msg:ilikethisbotbtn");
 
         private string GetKey(Language language, string key) => _localizationSource.GetKey((language == Language.Unknown ? Language.English : language).GetMetadata().Short, key);

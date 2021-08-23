@@ -24,13 +24,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         }
 
         private static readonly Lazy<Dictionary<string, Language>> LangByBtn = new(() =>
-        {
-            return
-                Enum.GetValues(typeof(Language))
-                    .Cast<Language>()
-                    .Where(x=>x != Language.Unknown)
-                    .ToDictionary(x => x.GetMetadata().Label, x => x);
-        });
+            LanguageHelper.AllowedLanguages.ToDictionary(x => x.GetMetadata().Label, x => x)
+            );
 
         public bool TryGetLang(string text, out Language language)
         {
@@ -43,11 +38,34 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             return LangByBtn.Value.TryGetValue(text.Trim(), out language);
         }
 
+        private static bool _courseLanguageByButtonSet;
         private static readonly ConcurrentDictionary<string, string> CourseLanguageByButton =
             new(StringComparer.InvariantCultureIgnoreCase);
 
         public bool TryCourseLang(string text, out string language)
         {
+            if (!_courseLanguageByButtonSet)
+            {
+                lock (CourseLanguageByButton)
+                {
+                    if (!_courseLanguageByButtonSet)
+                    {
+                        foreach (var courseLanguage in _courseProvider.GetCoursesLanguages()
+                            .SelectMany(x=> _courseProvider.GetTranslationLanguages(x).Union(new []{x})))
+                        {
+                            foreach (var allowedLanguage in LanguageHelper.AllowedLanguages)
+                            {
+                                var label = _botLocalization.CourseLanguage(allowedLanguage, courseLanguage);
+                                if (!CourseLanguageByButton.ContainsKey(label))
+                                {
+                                    CourseLanguageByButton[label] = courseLanguage;
+                                }
+                            }
+                        }
+                        _courseLanguageByButtonSet = true;
+                    }
+                }
+            }
             return CourseLanguageByButton.TryGetValue(text, out language);
         }
 
@@ -60,15 +78,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         private TelegramReplyBtn[][] GetCourseLanguageButtons(Language language, string[] languages)
         {
             return
-                languages.Select(x =>
-                    {
-                        var text = _botLocalization.CourseLanguage(language, x);
-                        if (!CourseLanguageByButton.ContainsKey(x))
-                        {
-                            CourseLanguageByButton[x] = text;
-                        }
-                        return text;
-                    })
+                languages.Select(x =>_botLocalization.CourseLanguage(language, x))
                     .Concat(new[] {_botLocalization.BackBtnLabel(language)})
                     .Select((item, inx) => new {item, inx})
                     .GroupBy(x => x.inx / 2)
@@ -77,13 +87,11 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         }
 
         private static readonly Lazy<TelegramReplyBtn[]> LangBtns = new(() =>
-        {
-            return Enum.GetValues(typeof(Language))
-                .Cast<Language>().Select(x => new TelegramReplyBtn
-                {
-                    Text = x.GetMetadata().Label
-                }).ToArray();
-        });
+            LanguageHelper.AllowedLanguages.Select(x => new TelegramReplyBtn
+            {
+                Text = x.GetMetadata().Label
+            }).ToArray()
+        );
 
         public TelegramReplyBtn[][] ForceLanguageButtons => new[] {LangBtns.Value};
 

@@ -4,6 +4,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 {
     public interface IBotLocalization
     {
+        string ChooseLanguage();
         string ChooseLanguage(Language language);
         string ChooseLearningLanguage(Language language);
         string ChooseKnowsLanguage(Language language);

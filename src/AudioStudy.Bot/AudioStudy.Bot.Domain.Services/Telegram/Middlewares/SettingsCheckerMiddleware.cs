@@ -30,18 +30,19 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
 
         public async Task HandleMessageAsync(TelegramPipelineContext pipelineContext)
         {
-            var user = pipelineContext.User;
-            var settingsSet = user.Language == Language.Unknown 
-                               || string.IsNullOrWhiteSpace(user.LearningLanguage) 
-                               || string.IsNullOrWhiteSpace(user.KnowsLanguage);
-            pipelineContext.Processed = settingsSet;
-            settingsSet = await HandleUnknownLanguageAsync(pipelineContext);
-            settingsSet = settingsSet && await HandleUnknownLearningLanguageAsync(pipelineContext);
-            settingsSet = settingsSet && await HandleUnknownKnowsLanguageAsync(pipelineContext);
-            
-            if (settingsSet)
+            if (!(pipelineContext.User.Language == Language.Unknown
+                  || string.IsNullOrWhiteSpace(pipelineContext.User.LearningLanguage)
+                  || string.IsNullOrWhiteSpace(pipelineContext.User.KnowsLanguage)))
             {
-                pipelineContext.Processed = true;
+                return;
+            }
+            pipelineContext.Processed = true;
+            var missingSettings = await HandleUnknownLanguageAsync(pipelineContext);
+            missingSettings = missingSettings || await HandleUnknownLearningLanguageAsync(pipelineContext);
+            missingSettings = missingSettings || await HandleUnknownKnowsLanguageAsync(pipelineContext);
+            
+            if (!missingSettings)
+            {
                 IMenuSubMiddleware menuSubMiddleware = _menuSubMiddlewareFactory.Get(TelegramState.OnMainWindow);
                 pipelineContext.ResponseMessage = pipelineContext.ResponseMessage.AddText("наконец-то этот экран сделан");
                 pipelineContext.ResponseMessage.Html = true;
@@ -64,19 +65,18 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                     {
                         pipelineContext.IntentNotHandled = true;
                         pipelineContext.ResponseMessage = CreateLangRequest();
-                        return false;
+                        return true;
                     }
                 }
                 else
                 {
                     pipelineContext.Intent = Intent.Initial;
-                    pipelineContext.Processed = true;
                     await _userService.UpdateAsync(pipelineContext.User, UserUpdateCommand.Factory.UpdateState(TelegramState.AwaitingForLanguage));
                     pipelineContext.ResponseMessage = CreateLangRequest();
-                    return false;
+                    return true;
                 }
             }
-            return true;
+            return false;
         }
         private async Task<bool> HandleUnknownLearningLanguageAsync(TelegramPipelineContext pipelineContext)
         {
@@ -89,8 +89,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                     {
                         pipelineContext.Intent = Intent.FirstLanguageSet;
                         await _userService.UpdateAsync(pipelineContext.User, UserUpdateCommand.Factory.UpdateLanguage(Language.Unknown));
-                        await HandleUnknownLanguageAsync(pipelineContext);
-                        return false;
+                        return await HandleUnknownLanguageAsync(pipelineContext);
                     }
 
                     if (_telegramButtonsHelper.TryCourseLang(pipelineContext.RequestMessage.Text, out var language))
@@ -101,22 +100,22 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                     {
                         pipelineContext.IntentNotHandled = true;
                         pipelineContext.ResponseMessage = CreateLearningLangRequest(pipelineContext.User.Language);
-                        return false;
+                        return true;
                     }
                 }
                 else
                 {
                     await _userService.UpdateAsync(pipelineContext.User, UserUpdateCommand.Factory.UpdateState(TelegramState.AwaitingLearningLanguage));
                     pipelineContext.ResponseMessage = CreateLearningLangRequest(pipelineContext.User.Language);
-                    return false;
+                    return true;
                 }
             }
-            return true;
+            return false;
         }
         
         private async Task<bool> HandleUnknownKnowsLanguageAsync(TelegramPipelineContext pipelineContext)
         {
-            if (pipelineContext.User.LearningLanguage == null)
+            if (pipelineContext.User.KnowsLanguage == null)
             {
                 if (pipelineContext.User.State == TelegramState.AwaitingKnowsLanguage)
                 {
@@ -125,8 +124,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                     {
                         pipelineContext.Intent = Intent.FirstLearningLanguageSet;
                         await _userService.UpdateAsync(pipelineContext.User, UserUpdateCommand.Factory.UpdateLearningLanguage(null));
-                        await HandleUnknownLearningLanguageAsync(pipelineContext);
-                        return false;
+                        return await HandleUnknownLearningLanguageAsync(pipelineContext);
                     }
 
                     if (_telegramButtonsHelper.TryCourseLang(pipelineContext.RequestMessage.Text, out var language))
@@ -137,17 +135,17 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                     {
                         pipelineContext.IntentNotHandled = true;
                         pipelineContext.ResponseMessage = CreateKnowsLangRequest(pipelineContext.User.Language, pipelineContext.User.LearningLanguage);
-                        return false;
+                        return true;
                     }
                 }
                 else
                 {
-                    await _userService.UpdateAsync(pipelineContext.User, UserUpdateCommand.Factory.UpdateState(TelegramState.AwaitingLearningLanguage));
+                    await _userService.UpdateAsync(pipelineContext.User, UserUpdateCommand.Factory.UpdateState(TelegramState.AwaitingKnowsLanguage));
                     pipelineContext.ResponseMessage = CreateKnowsLangRequest(pipelineContext.User.Language, pipelineContext.User.LearningLanguage);
-                    return false;
+                    return true;
                 }
             }
-            return true;
+            return false;
         }
 
         private TelegramResponseMessage CreateLangRequest()

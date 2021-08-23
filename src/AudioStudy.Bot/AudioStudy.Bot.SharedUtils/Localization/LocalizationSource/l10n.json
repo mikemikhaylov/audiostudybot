@@ -1,4 +1,16 @@
 {
+  "msg:en": {
+    "ru": "Английский",
+    "en": "English"
+  },
+  "msg:ru": {
+    "ru": "Русский",
+    "en": "Russian"
+  },
+  "msg:es": {
+    "ru": "Испанский",
+    "en": "Spainish"
+  },
   "msg:chooselanguage": {
     "ru": "Выберите язык бота",
     "en": "Choose bot language"

@@ -21,10 +21,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares
 
         public async Task ChangeState(TelegramPipelineContext pipelineContext, UserUpdateCommand updateCommand = null)
         {
-            pipelineContext.ResponseMessage = new TelegramResponseMessage
-            {
-                ReplyButtons = _buttonsHelper.GetStateButtons(TelegramState.OnMainWindow, pipelineContext.User)
-            };
+            pipelineContext.ResponseMessage.SetReplyButtons(
+                _buttonsHelper.GetStateButtons(TelegramState.OnMainWindow, pipelineContext.User));
             updateCommand = updateCommand.Combine((uc, fu) => uc.State = fu, TelegramState.OnMainWindow);
             await _userService.UpdateAsync(pipelineContext.User, updateCommand);
         }
