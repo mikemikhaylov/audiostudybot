@@ -69,7 +69,10 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             {
                 using var stream = typeof(CoursesAnchor).Assembly.GetManifestResourceStream(resource);
                 using var reader = new StreamReader(stream!);
-                var course = JsonSerializer.Deserialize<Course>(reader.ReadToEnd());
+                var course = JsonSerializer.Deserialize<Course>(reader.ReadToEnd(), new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
                 ValidateCourse(course);
                 result.Add(course);
             }
