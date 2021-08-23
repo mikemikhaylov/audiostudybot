@@ -104,6 +104,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                         user.RatingDate <= DateTime.UtcNow
                             ? MainWindowWithRateButtons(user.Language)
                             : MainWindowButtons(user.Language);
+                case TelegramState.OnSettingsWindow:
+                    return SettingsButtons(user.Language);
                 case TelegramState.AwaitingForLanguage:
                     return LanguageSettingButtons(user.Language);
                 case TelegramState.OnRatingWindow:
@@ -160,5 +162,16 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                 new TelegramReplyBtn {Text = _botLocalization.WillNotRateBtnLabel(user.Language)}
             }
         };
+        
+        private TelegramReplyBtn[][] SettingsButtons(Language language) => new[] {
+            new[]
+            {
+                new TelegramReplyBtn { Text = _botLocalization.LanguageBtnLabel(language) },
+                new TelegramReplyBtn { Text = _botLocalization.HelpBtnLabel(language) }
+            },
+            new[]
+            {
+                new TelegramReplyBtn { Text = _botLocalization.BackBtnLabel(language) }
+            }};
     }
 }

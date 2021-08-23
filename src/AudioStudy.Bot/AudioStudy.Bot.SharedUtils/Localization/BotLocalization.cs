@@ -43,9 +43,16 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         public string MyCoursesBtnLabel(Language language) => GetKey(language, "msg:mycoursesbtn");
 
         public string HelpBtnLabel(Language language) => GetKey(language, "msg:helpbtn");
+        public string LanguageBtnLabel(Language language)=> GetKey(language, "msg:languagebtn");
 
         public string CourseLanguage(Language language, string courseLanguage) => GetKey(language, $"msg:{courseLanguage}");
         public string DoYouLikeThisBotBtnLabel(Language language)=> FormatHelper.EmojiHeart + GetKey(language, "msg:ilikethisbotbtn");
+        public string YourSettings(Language language)
+        {
+            return "<b>" + GetKey(language, "msg:currentsettings")
+                         + ":</b>\n\n - " + $"{GetKey(language, "msg:language")}: <b>" + language.GetMetadata().Label +
+                         "</b>";
+        }
 
         private string GetKey(Language language, string key) => _localizationSource.GetKey((language == Language.Unknown ? Language.English : language).GetMetadata().Short, key);
     }

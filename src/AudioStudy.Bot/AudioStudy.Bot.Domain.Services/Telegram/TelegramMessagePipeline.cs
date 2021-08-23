@@ -24,7 +24,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
             UserContextProviderMiddleware userContextProviderMiddleware,
             ChatTypeCheckerMiddleware chatTypeCheckerMiddleware,
             CommandExecutorMiddleware commandExecutorMiddleware,
-            SettingsCheckerMiddleware settingsCheckerMiddleware
+            SettingsCheckerMiddleware settingsCheckerMiddleware,
+            MenuMiddleware menuMiddleware
             )
         {
             _logger = logger;
@@ -35,7 +36,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
                 chatTypeCheckerMiddleware,
                 userContextProviderMiddleware,
                 settingsCheckerMiddleware,
-                commandExecutorMiddleware
+                commandExecutorMiddleware,
+                menuMiddleware
             };
         }
         public async Task HandleMessageAsync(TelegramRequestMessage requestMessage)

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using AudioStudy.Bot.Domain.Model.Telegram;
+using AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares;
 using AudioStudy.Bot.SharedUtils.Localization;
 using AudioStudy.Bot.SharedUtils.Metrics;
 
@@ -9,26 +10,29 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
     public class CommandExecutorMiddleware : ITelegramPipelineMiddleware
     {
         private readonly IBotLocalization _botLocalization;
+        private readonly IMenuSubMiddlewareFactory _menuSubMiddlewareFactory;
 
         public CommandExecutorMiddleware(
-            IBotLocalization botLocalization
+            IBotLocalization botLocalization,
+            IMenuSubMiddlewareFactory menuSubMiddlewareFactory
             )
         {
             _botLocalization = botLocalization;
+            _menuSubMiddlewareFactory = menuSubMiddlewareFactory;
         }
 
-        public Task HandleMessageAsync(TelegramPipelineContext pipelineContext)
+        public async Task HandleMessageAsync(TelegramPipelineContext pipelineContext)
         {
             string text = pipelineContext.RequestMessage.Text;
             if (string.IsNullOrWhiteSpace(text))
             {
-                return Task.CompletedTask;
+                return;
             }
             text = text.TrimStart();
             if (IsCommand(text, CommandConstants.StartCommand))
             {
-                //IMenuSubMiddleware sm = MenuSubMiddlewareFactory.Get(TelegramState.OnMainWindow);
-                //await sm.ChangeState(pipelineContext);
+                var sm = _menuSubMiddlewareFactory.Get(TelegramState.OnMainWindow);
+                await sm.ChangeState(pipelineContext);
                 pipelineContext.Intent = Intent.StartCommand;
                 pipelineContext.Processed = true;
             }
@@ -44,12 +48,11 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
             }
             else if (IsCommand(text, CommandConstants.SettingsCommand))
             {
-                //IMenuSubMiddleware sm = MenuSubMiddlewareFactory.Get(TelegramState.OnSettingsWindow);
-                //await sm.ChangeState(pipelineContext);
+                IMenuSubMiddleware sm = _menuSubMiddlewareFactory.Get(TelegramState.OnSettingsWindow);
+                await sm.ChangeState(pipelineContext);
                 pipelineContext.Intent = Intent.SettingsScreenOpen;
                 pipelineContext.Processed = true;
             }
-            return Task.CompletedTask;
         }
 
         private static bool IsCommand(string text, string command)

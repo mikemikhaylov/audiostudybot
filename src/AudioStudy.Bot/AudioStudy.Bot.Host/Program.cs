@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using AudioStudy.Bot.Application;
 using AudioStudy.Bot.DataAccess.Abstractions;
 using AudioStudy.Bot.DataAccess.Db;
@@ -53,7 +55,12 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<UserContextProviderMiddleware>();
                     services.AddSingleton<CommandExecutorMiddleware>();
                     services.AddSingleton<SettingsCheckerMiddleware>();
+                    services.AddSingleton<MenuMiddleware>();
                     services.AddSingleton<IMenuSubMiddleware, MainWindowSubMiddleware>();
+                    services.AddSingleton<IMenuSubMiddleware, SettingsSubMiddleware>();
+                    services.AddSingleton<IMenuSubMiddleware, LanguageSettingSubMiddleware>();
+                    services.AddTransient<Func<IEnumerable<IMenuSubMiddleware>>>(provider =>
+                        provider.GetServices<IMenuSubMiddleware>);
                     services.AddSingleton<IMenuSubMiddlewareFactory, MenuSubMiddlewareFactory>();
                     services.AddSingleton<ITelegramMessagePipeline, TelegramMessagePipeline>();
                     services.AddSingleton<UpdatesQueue<TelegramRequestMessage>>();

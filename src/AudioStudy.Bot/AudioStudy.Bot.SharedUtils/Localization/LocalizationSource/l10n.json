@@ -35,6 +35,14 @@
     "ru": "Настройки",
     "en": "Settings"
   },
+  "msg:languagebtn": {
+    "ru": "Язык",
+    "en": "Language"
+  },
+  "msg:helpbtn": {
+    "ru": "Справка",
+    "en": "Help"
+  },
   "msg:cancelbtn": {
     "ru": "Отмена",
     "en": "Cancel"
@@ -67,12 +75,16 @@
     "ru": "Мои курсы",
     "en": "My courses"
   },
-  "msg:helpbtn": {
-    "ru": "Справка",
-    "en": "Help"
-  },
   "msg:ilikethisbotbtn": {
     "ru": "Мне нравится этот бот",
     "en": "I like this bot"
+  },
+  "msg:currentsettings": {
+    "ru": "Ваши текущие настройки",
+    "en": "Your current settings"
+  },
+  "msg:language": {
+    "ru": "язык",
+    "en": "language"
   }
 }

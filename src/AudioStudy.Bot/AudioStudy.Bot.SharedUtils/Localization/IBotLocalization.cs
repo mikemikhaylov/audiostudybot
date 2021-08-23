@@ -21,7 +21,9 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string CoursesBtnLabel(Language language);
         string MyCoursesBtnLabel(Language language);
         string HelpBtnLabel(Language language);
+        string LanguageBtnLabel(Language language);
         string CourseLanguage(Language language, string courseLanguage);
         string DoYouLikeThisBotBtnLabel(Language language);
+        public string YourSettings(Language language);
     }
 }
