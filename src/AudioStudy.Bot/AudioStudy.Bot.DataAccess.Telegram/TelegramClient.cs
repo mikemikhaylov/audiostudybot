@@ -70,13 +70,13 @@ namespace AudioStudy.Bot.DataAccess.Telegram
         private static void GetMarkUp(TelegramResponseMessage message, out IReplyMarkup replyMarkup)
         {
             replyMarkup = null;
-            // if (message.InlineButtons?.Where(x => x != null).SelectMany(x => x).Any() == true)
-            // {
-            //     replyMarkup = new InlineKeyboardMarkup(message.InlineButtons.Where(x => x != null)
-            //         .Select(x => x.Select(xx => InlineKeyboardButton.WithCallbackData(xx.Text, xx.CallbackData))
-            //             .ToArray()).ToArray());
-            // }
-            // else 
+            if (message.InlineButtons?.Where(x => x != null).SelectMany(x => x).Any() == true)
+            {
+                replyMarkup = new InlineKeyboardMarkup(message.InlineButtons.Where(x => x != null)
+                    .Select(x => x.Select(xx => InlineKeyboardButton.WithCallbackData(xx.Text, xx.CallbackData))
+                        .ToArray()).ToArray());
+            }
+            else 
             if (message.ReplyButtons?.Where(x => x != null).SelectMany(x => x).Any() == true)
             {
                 replyMarkup = new ReplyKeyboardMarkup(message.ReplyButtons.Where(x => x != null).Select(x => x.Select(xx => new KeyboardButton(xx.Text)).ToArray()).ToArray(),
