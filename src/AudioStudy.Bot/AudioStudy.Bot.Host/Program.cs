@@ -50,6 +50,7 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<IUserService, UserService>();
                     services.AddSingleton<ITelegramButtonsHelper, TelegramButtonsHelper>();
                     services.AddSingleton<IFullCourseListPagingHelper, FullCourseListPagingHelper>();
+                    services.AddSingleton<IFilterHelper, FilterHelper>();
                     services.AddSingleton<CourseProvider>();
                     services.AddSingleton<ICourseProvider, CourseProvider>();
                     services.AddSingleton<ChatTypeCheckerMiddleware>();
@@ -57,6 +58,7 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<CommandExecutorMiddleware>();
                     services.AddSingleton<SettingsCheckerMiddleware>();
                     services.AddSingleton<MenuMiddleware>();
+                    services.AddSingleton<InlineKeyboardMiddleware>();
                     services.AddSingleton<IMenuSubMiddleware, MainWindowSubMiddleware>();
                     services.AddSingleton<IMenuSubMiddleware, SettingsSubMiddleware>();
                     services.AddSingleton<IMenuSubMiddleware, LanguageSettingSubMiddleware>();services.AddTransient<Func<IEnumerable<IMenuSubMiddleware>>>(provider =>

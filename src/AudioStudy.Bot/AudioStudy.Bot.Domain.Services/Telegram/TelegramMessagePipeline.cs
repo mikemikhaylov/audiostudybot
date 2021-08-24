@@ -25,7 +25,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
             ChatTypeCheckerMiddleware chatTypeCheckerMiddleware,
             CommandExecutorMiddleware commandExecutorMiddleware,
             SettingsCheckerMiddleware settingsCheckerMiddleware,
-            MenuMiddleware menuMiddleware
+            MenuMiddleware menuMiddleware,
+            InlineKeyboardMiddleware inlineKeyboardMiddleware
             )
         {
             _logger = logger;
@@ -36,6 +37,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
                 chatTypeCheckerMiddleware,
                 userContextProviderMiddleware,
                 settingsCheckerMiddleware,
+                inlineKeyboardMiddleware,
                 commandExecutorMiddleware,
                 menuMiddleware
             };
@@ -69,6 +71,10 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
                 context.ResponseMessage.ChatId = requestMessage.ChatId;
                 try
                 {
+                    if (context.ResponseMessage.CallbackQueryId != null)
+                    {
+                        await _telegramClient.AnswerCallbackQuery(context.ResponseMessage.CallbackQueryId);
+                    }
                     await _telegramClient.SendAsync(context.ResponseMessage);
                 }
                 catch (Exception e)

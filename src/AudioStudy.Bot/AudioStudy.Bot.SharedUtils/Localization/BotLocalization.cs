@@ -61,6 +61,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         public string FilterCoursesBtn(Language language)=> "фильтр";
 
         public string CoursesMessage(Language language) => "вот это наши курсы";
+        public string InlineBackBtn(Language language)=> "назад";
 
         private string GetKey(Language language, string key) => _localizationSource.GetKey((language == Language.Unknown ? Language.English : language).GetMetadata().Short, key);
     }

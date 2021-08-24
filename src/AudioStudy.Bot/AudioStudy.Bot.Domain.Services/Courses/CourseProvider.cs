@@ -58,7 +58,8 @@ namespace AudioStudy.Bot.Domain.Services.Courses
         
         public IReadOnlyList<Course> GetCourses(string language, string translationLanguage)
         {
-            return Courses.Value.Where(x => x.Language == language && x.TranslationLanguage == translationLanguage)
+            return Courses.Value.Where(x => x.Language == language && x.TranslationLanguage == translationLanguage
+                || (x.CanBeReversed && x.Language == translationLanguage && x.TranslationLanguage == language))
                 .ToList();
         }
 

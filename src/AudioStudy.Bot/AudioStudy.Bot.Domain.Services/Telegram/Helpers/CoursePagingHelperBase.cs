@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using AudioStudy.Bot.Domain.Model;
 using AudioStudy.Bot.Domain.Model.Courses;
 using AudioStudy.Bot.Domain.Model.Telegram;
+using AudioStudy.Bot.Domain.Model.Telegram.CallbackData;
 using AudioStudy.Bot.SharedUtils.Localization;
 
 namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
@@ -19,8 +20,10 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             _botLocalization = botLocalization;
         }
 
-        public Task<TelegramResponseMessage> GetPageAsync(User user, int page, int pageSize)
+        public Task<TelegramResponseMessage> GetPageAsync(User user, OpenPageCallbackData data)
         {
+            var page = data.Page;
+            var pageSize = data.PageSize;
             var skip = page * pageSize;
             var courses = GetCourses(user, skip, pageSize + 1);
             string responseText;

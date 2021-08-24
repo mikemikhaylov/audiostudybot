@@ -10,5 +10,6 @@ namespace AudioStudy.Bot.DataAccess.Abstractions
     {
         Task<IReadOnlyList<TelegramRequestMessage>> GetUpdatesAsync(int offset, int limit, CancellationToken cancellationToken);
         Task SendAsync(TelegramResponseMessage message);
+        Task AnswerCallbackQuery(string callBackQueryId);
     }
 }

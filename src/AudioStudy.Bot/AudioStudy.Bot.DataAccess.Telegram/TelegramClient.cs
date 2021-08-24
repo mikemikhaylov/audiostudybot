@@ -52,7 +52,21 @@ namespace AudioStudy.Bot.DataAccess.Telegram
         {
             IReplyMarkup replyMarkup;
             GetMarkUp(message, out replyMarkup);
+            if (message.CallbackMessageId != null)
+            {
+                await
+                    _telegramBotClient.EditMessageTextAsync(message.ChatId, message.CallbackMessageId.Value,
+                        message.Text, disableWebPagePreview: true,
+                        replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null,
+                        parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+                return;
+            }
             await _telegramBotClient.SendTextMessageAsync(message.ChatId, message.Text, replyMarkup: replyMarkup, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+        }
+
+        public async Task AnswerCallbackQuery(string callBackQueryId)
+        {
+            await _telegramBotClient.AnswerCallbackQueryAsync(callBackQueryId);
         }
 
         private static TelegramChatType GetTelegramChatType(ChatType? chatType)

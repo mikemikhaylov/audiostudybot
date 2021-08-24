@@ -29,5 +29,6 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string NoCoursesMessage(Language language);
         string FilterCoursesBtn(Language language);
         string CoursesMessage(Language language);
+        string InlineBackBtn(Language language);
     }
 }

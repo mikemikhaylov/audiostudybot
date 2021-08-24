@@ -24,7 +24,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             _courseProvider = courseProvider;
         }
 
-        public Task<TelegramResponseMessage> GetFirstPageAsync(User user) => GetPageAsync(user, 0, PageSize);
+        public Task<TelegramResponseMessage> GetFirstPageAsync(User user) => GetPageAsync(user, new OpenPageCallbackData(0, PageSize));
 
         protected override IReadOnlyList<Course> GetCourses(User user, int skip, int take)
         {
