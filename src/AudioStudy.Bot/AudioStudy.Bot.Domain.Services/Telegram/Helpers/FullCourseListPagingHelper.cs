@@ -15,7 +15,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
     {
         private readonly IBotLocalization _botLocalization;
         private readonly ICourseProvider _courseProvider;
-        private const int PageSize = 7;
+        private const int PageSize = 1;
 
         public FullCourseListPagingHelper(IBotLocalization botLocalization,
             ICourseProvider courseProvider) : base(botLocalization)

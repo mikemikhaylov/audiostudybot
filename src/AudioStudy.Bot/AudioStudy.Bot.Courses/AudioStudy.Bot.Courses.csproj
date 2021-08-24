@@ -9,6 +9,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <EmbeddedResource Include="courses\en-ru\top3000-2.json" />
       <None Remove="courses\en-ru\top3000.json" />
       <EmbeddedResource Include="courses\en-ru\top3000.json" />
       <None Remove="courses\en-es\top3000spanish.json" />

@@ -22,7 +22,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         public Task<TelegramResponseMessage> GetPageAsync(User user, int page, int pageSize)
         {
             var skip = page * pageSize;
-            var courses = GetCourses(user, skip, pageSize);
+            var courses = GetCourses(user, skip, pageSize + 1);
             string responseText;
             if (courses.Any())
             {
@@ -43,8 +43,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             TelegramInlineBtn[] pagesBtns = null;
             if (courses.Any())
             {
-                var coursesOnPage = courses.Count > pageSize ? pageSize : courses.Count;
                 coursesBtns = courses
+                    .Take(pageSize)
                     .Select((x, i) =>
                         new[]
                         {
