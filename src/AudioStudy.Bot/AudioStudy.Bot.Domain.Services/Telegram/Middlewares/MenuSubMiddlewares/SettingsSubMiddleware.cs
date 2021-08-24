@@ -54,7 +54,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares
             {
                 IMenuSubMiddleware sm = _menuSubMiddlewareFactory.Get(TelegramState.OnMainWindow);
                 await sm.ChangeState(pipelineContext);
-                pipelineContext.Intent = Intent.HomeScreenOpen;
+                pipelineContext.Intent = Intent.MainScreenOpen;
             }
             else
             {

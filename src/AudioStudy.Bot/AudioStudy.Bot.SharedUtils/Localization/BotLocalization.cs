@@ -40,8 +40,6 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string CoursesBtnLabel(Language language) => GetKey(language, "msg:coursesbtn");
 
-        public string MyCoursesBtnLabel(Language language) => GetKey(language, "msg:mycoursesbtn");
-
         public string HelpBtnLabel(Language language) => GetKey(language, "msg:helpbtn");
         public string LanguageBtnLabel(Language language)=> GetKey(language, "msg:languagebtn");
 
@@ -53,6 +51,16 @@ namespace AudioStudy.Bot.SharedUtils.Localization
                          + ":</b>\n\n - " + $"{GetKey(language, "msg:language")}: <b>" + language.GetMetadata().Label +
                          "</b>";
         }
+
+        public string NoCoursesOnCurrentPage(Language language) => "нет курсов на странице, запросите заново";
+
+        public string PageBtnLabel(Language language) => "страница";
+
+        public string NoCoursesMessage(Language language) => "в базе нет курсов попробуйте изменить фильтра";
+
+        public string FilterCoursesBtn(Language language)=> "фильтр";
+
+        public string CoursesMessage(Language language) => "вот это наши курсы";
 
         private string GetKey(Language language, string key) => _localizationSource.GetKey((language == Language.Unknown ? Language.English : language).GetMetadata().Short, key);
     }

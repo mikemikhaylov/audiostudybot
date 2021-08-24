@@ -13,5 +13,6 @@ namespace AudioStudy.Bot.Domain.Model
         public DateTime? RatingDate { get; set; }
         public string LearningLanguage { get; set; }
         public string KnowsLanguage { get; set; }
+        public UserCourse[] Courses { get; set; }
     }
 }

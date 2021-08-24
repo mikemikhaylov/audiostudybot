@@ -32,7 +32,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             {
                 responseText = page == 0
                     ? GetNoCoursesMessage(user)
-                    : _botLocalization.NoRemindersOnCurrentPage(user.Language);
+                    : _botLocalization.NoCoursesOnCurrentPage(user.Language);
             }
 
             var result = new TelegramResponseMessage
@@ -49,7 +49,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                         new[]
                         {
                             new TelegramInlineBtn(GetCourseName(user, x),
-                                GetOpenCourseData(user, coursesOnPage))
+                                GetOpenCourseData(user, page, pageSize))
                         }).ToArray();
             }
 
@@ -90,8 +90,9 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                 }
             }
 
-            var additionalBottom = GetAdditionalBottomButtons(user);
-            var buttons = new[] {coursesBtns, pagesBtns == null ? null : new[] {pagesBtns}, additionalBottom}
+            var additionalTop = GetAdditionalTopButtons(user, page, pageSize);
+            var additionalBottom = GetAdditionalBottomButtons(user, page, pageSize);
+            var buttons = new[] {additionalTop, coursesBtns, pagesBtns == null ? null : new[] {pagesBtns}, additionalBottom}
                 .Where(x => x != null).SelectMany(x => x).ToArray();
             if (buttons.Any())
             {
@@ -104,8 +105,9 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         protected abstract IReadOnlyList<Course> GetCourses(User user, int skip, int take);
         protected abstract string GetCoursesMessage(User user);
         protected abstract string GetNoCoursesMessage(User user);
-        protected abstract TelegramInlineBtn[][] GetAdditionalBottomButtons(User user);
-        protected abstract string GetOpenCourseData(User user, int coursesOnPage);
+        protected abstract TelegramInlineBtn[][] GetAdditionalTopButtons(User user, int page, int pageSize);
+        protected abstract TelegramInlineBtn[][] GetAdditionalBottomButtons(User user, int page, int pageSize);
+        protected abstract string GetOpenCourseData(User user, int page, int pageSize);
         protected abstract string GetCourseName(User user, Course course);
         protected abstract string GetOpenPageData(User user, int page, int pageSize);
     }

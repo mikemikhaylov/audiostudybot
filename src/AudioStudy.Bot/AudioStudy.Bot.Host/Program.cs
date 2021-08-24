@@ -49,6 +49,7 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<IUserRepository, MongoDbUserRepository>();
                     services.AddSingleton<IUserService, UserService>();
                     services.AddSingleton<ITelegramButtonsHelper, TelegramButtonsHelper>();
+                    services.AddSingleton<IFullCourseListPagingHelper, FullCourseListPagingHelper>();
                     services.AddSingleton<CourseProvider>();
                     services.AddSingleton<ICourseProvider, CourseProvider>();
                     services.AddSingleton<ChatTypeCheckerMiddleware>();
@@ -58,8 +59,7 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<MenuMiddleware>();
                     services.AddSingleton<IMenuSubMiddleware, MainWindowSubMiddleware>();
                     services.AddSingleton<IMenuSubMiddleware, SettingsSubMiddleware>();
-                    services.AddSingleton<IMenuSubMiddleware, LanguageSettingSubMiddleware>();
-                    services.AddTransient<Func<IEnumerable<IMenuSubMiddleware>>>(provider =>
+                    services.AddSingleton<IMenuSubMiddleware, LanguageSettingSubMiddleware>();services.AddTransient<Func<IEnumerable<IMenuSubMiddleware>>>(provider =>
                         provider.GetServices<IMenuSubMiddleware>);
                     services.AddSingleton<IMenuSubMiddlewareFactory, MenuSubMiddlewareFactory>();
                     services.AddSingleton<ITelegramMessagePipeline, TelegramMessagePipeline>();

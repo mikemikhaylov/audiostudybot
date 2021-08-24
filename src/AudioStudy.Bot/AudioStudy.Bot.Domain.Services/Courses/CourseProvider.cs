@@ -55,10 +55,16 @@ namespace AudioStudy.Bot.Domain.Services.Courses
 
             return Array.Empty<string>();
         }
+        
+        public IReadOnlyList<Course> GetCourses(string language, string translationLanguage)
+        {
+            return Courses.Value.Where(x => x.Language == language && x.TranslationLanguage == translationLanguage)
+                .ToList();
+        }
 
         public void Load()
         {
-            GetAllCourses();
+            var loaded = Courses.Value;
         }
 
         private static Course[] GetAllCourses()

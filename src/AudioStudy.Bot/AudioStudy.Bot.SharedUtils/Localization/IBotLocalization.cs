@@ -19,13 +19,15 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string SettingsBtnLabel(Language language);
         string LearnBtnLabel(Language language);
         string CoursesBtnLabel(Language language);
-        string MyCoursesBtnLabel(Language language);
         string HelpBtnLabel(Language language);
         string LanguageBtnLabel(Language language);
         string CourseLanguage(Language language, string courseLanguage);
         string DoYouLikeThisBotBtnLabel(Language language);
         string YourSettings(Language language);
-        string NoRemindersOnCurrentPage(Language language);
+        string NoCoursesOnCurrentPage(Language language);
         string PageBtnLabel(Language language);
+        string NoCoursesMessage(Language language);
+        string FilterCoursesBtn(Language language);
+        string CoursesMessage(Language language);
     }
 }

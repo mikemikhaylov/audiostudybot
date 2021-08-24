@@ -130,8 +130,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         {
             new[]
             {
-                new TelegramReplyBtn {Text = _botLocalization.LearnBtnLabel(language)},
-                new TelegramReplyBtn {Text = _botLocalization.MyCoursesBtnLabel(language)}
+                new TelegramReplyBtn {Text = _botLocalization.LearnBtnLabel(language)}
             },
             new[]
             {

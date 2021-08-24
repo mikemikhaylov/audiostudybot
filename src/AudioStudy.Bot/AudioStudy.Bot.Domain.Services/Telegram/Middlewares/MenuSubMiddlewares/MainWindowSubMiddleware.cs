@@ -14,16 +14,19 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares
         private readonly IUserService _userService;
         private readonly IMenuSubMiddlewareFactory _menuSubMiddlewareFactory;
         private readonly IBotLocalization _botLocalization;
+        private readonly IFullCourseListPagingHelper _fullCourseListPagingHelper;
 
         public MainWindowSubMiddleware(ITelegramButtonsHelper buttonsHelper,
                                         IUserService userService,
                                         IMenuSubMiddlewareFactory menuSubMiddlewareFactory,
-                                        IBotLocalization botLocalization)
+                                        IBotLocalization botLocalization,
+                                        IFullCourseListPagingHelper fullCourseListPagingHelper)
         {
             _buttonsHelper = buttonsHelper;
             _userService = userService;
             _menuSubMiddlewareFactory = menuSubMiddlewareFactory;
             _botLocalization = botLocalization;
+            _fullCourseListPagingHelper = fullCourseListPagingHelper;
         }
 
         public async Task ChangeState(TelegramPipelineContext pipelineContext, UserUpdateCommand updateCommand = null)
@@ -39,17 +42,22 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares
         {
             if (pipelineContext.RequestMessage.Text == _botLocalization.SettingsBtnLabel(pipelineContext.User.Language))
             {
-                IMenuSubMiddleware sm = _menuSubMiddlewareFactory.Get(TelegramState.OnSettingsWindow);
+                var sm = _menuSubMiddlewareFactory.Get(TelegramState.OnSettingsWindow);
                 await sm.ChangeState(pipelineContext);
-                pipelineContext.Processed = true;
                 pipelineContext.Intent = Intent.SettingsScreenOpen;
+            }
+            else if (pipelineContext.RequestMessage.Text == _botLocalization.CoursesBtnLabel(pipelineContext.User.Language))
+            {
+                pipelineContext.ResponseMessage
+                    = await _fullCourseListPagingHelper.GetFirstPageAsync(pipelineContext.User);
+                pipelineContext.Intent = Intent.CoursesList;
             }
             else
             {
                 pipelineContext.ResponseMessage = pipelineContext.ResponseMessage.SetReplyButtons(
                     _buttonsHelper.GetStateButtons(TelegramState.OnMainWindow, pipelineContext.User)).AddText("непонятно");
-                pipelineContext.Processed = true;
             }
+            pipelineContext.Processed = true;
         }
     }
 }
