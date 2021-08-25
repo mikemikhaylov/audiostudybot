@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using AudioStudy.Bot.Courses;
 using AudioStudy.Bot.Domain.Model.Courses;
+using AudioStudy.Bot.SharedUtils.Localization.Enums;
 
 namespace AudioStudy.Bot.Domain.Services.Courses
 {
@@ -61,6 +62,28 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             return Courses.Value.Where(x => x.Language == language && x.TranslationLanguage == translationLanguage
                 || (x.CanBeReversed && x.Language == translationLanguage && x.TranslationLanguage == language))
                 .ToList();
+        }
+
+        public string GetCourseName(Language language, Course course)
+        {
+            var languageShort = language.GetMetadata().Short;
+            if (string.Equals(course.TranslationLanguage, languageShort, StringComparison.InvariantCultureIgnoreCase))
+            {
+                return course.NameTranslation ?? course.Name;
+            }
+
+            return course.Name;
+        }
+
+        public string GetCourseDescription(Language language, Course course)
+        {
+            var languageShort = language.GetMetadata().Short;
+            if (string.Equals(course.TranslationLanguage, languageShort, StringComparison.InvariantCultureIgnoreCase))
+            {
+                return course.DescriptionTranslation ?? course.Description;
+            }
+
+            return course.Description;
         }
 
         public void Load()

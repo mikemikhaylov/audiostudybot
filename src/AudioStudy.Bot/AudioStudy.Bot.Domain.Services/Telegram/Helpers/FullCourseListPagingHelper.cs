@@ -63,9 +63,10 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
 
         protected override string GetCourseName(User user, Course course)
         {
+            var name = _courseProvider.GetCourseName(user.Language, course);
             return user.Courses?.Any(x => x.Id == course.Id) == true
-                ? FormatHelper.EmojiStar + course.Name
-                : course.Name;
+                ? FormatHelper.EmojiStar + name
+                : name;
         }
 
         protected override string GetOpenPageData(User user, int page, int pageSize)
