@@ -11,5 +11,6 @@ namespace AudioStudy.Bot.Domain.Services.Courses
         IReadOnlyList<Course> GetCourses(string language, string translationLanguage);
         string GetCourseName(Language language, Course course);
         string GetCourseDescription(Language language, Course course);
+        Course GetCourse(string courseId);
     }
 }

@@ -13,6 +13,11 @@ namespace AudioStudy.Bot.Domain.Services.Courses
     {
         private static readonly Lazy<Course[]> Courses = new(GetAllCourses);
 
+        private static readonly Lazy<Dictionary<string, Course>> CoursesById = new(() =>
+        {
+            return Courses.Value.ToDictionary(x => x.Id, x => x);
+        });
+
         private static readonly Lazy<string[]> CoursesLanguages = new(() => SortLanguages(Courses.Value.SelectMany(x =>
         {
             return x.CanBeReversed ? new[] {x.Language, x.TranslationLanguage} : new[] {x.Language};
@@ -56,11 +61,12 @@ namespace AudioStudy.Bot.Domain.Services.Courses
 
             return Array.Empty<string>();
         }
-        
+
         public IReadOnlyList<Course> GetCourses(string language, string translationLanguage)
         {
             return Courses.Value.Where(x => x.Language == language && x.TranslationLanguage == translationLanguage
-                || (x.CanBeReversed && x.Language == translationLanguage && x.TranslationLanguage == language))
+                                            || (x.CanBeReversed && x.Language == translationLanguage &&
+                                                x.TranslationLanguage == language))
                 .ToList();
         }
 
@@ -86,16 +92,26 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             return course.Description;
         }
 
+        public Course GetCourse(string courseId)
+        {
+            CoursesById.Value.TryGetValue(courseId, out var course);
+            return course;
+        }
+
         public void Load()
         {
             var loaded = Courses.Value;
+            var tmp = CoursesLanguages.Value;
+            var tmp2 = TranslationLanguages.Value;
+            var tmp3 = CoursesById.Value;
         }
 
         private static Course[] GetAllCourses()
         {
             var result = new List<Course>();
             var assembly = typeof(CoursesAnchor).Assembly;
-            var resources = assembly.GetManifestResourceNames().Where(x => x.StartsWith($"{assembly.GetName().Name}.courses.") &&  x.EndsWith(".json"));
+            var resources = assembly.GetManifestResourceNames().Where(x =>
+                x.StartsWith($"{assembly.GetName().Name}.courses.") && x.EndsWith(".json"));
             foreach (var resource in resources)
             {
                 using var stream = typeof(CoursesAnchor).Assembly.GetManifestResourceStream(resource);
@@ -126,7 +142,5 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 return new {language = x, weight};
             }).OrderBy(x => x.weight).ThenBy(x => x.language).Select(x => x.language).ToArray();
         }
-
-        
     }
 }

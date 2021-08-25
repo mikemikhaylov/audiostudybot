@@ -7,5 +7,10 @@ namespace AudioStudy.Bot.Domain.Model.Telegram
         OpenCourseFilter = 3,
         OpenKnowsLanguageFilter = 4,
         SetCourseFilter = 5,
+        ShowCards = 6,
+        StartLearning = 7,
+        StopLearning = 8,
+        StartOverFromCoursePage = 9,
+        GetNextLesson = 10
     }
 }

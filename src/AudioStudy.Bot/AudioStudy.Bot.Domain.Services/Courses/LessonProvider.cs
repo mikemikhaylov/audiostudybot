@@ -16,7 +16,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
         {
             return CourseLessonsLazy.Value
                 .GroupBy(x => x.CourseId)
-                .ToDictionary(x => x.Key, 
+                .ToDictionary(x => x.Key,
                     x => x.ToDictionary(xx => xx.CourseVersion, xx => xx.Lessons));
         });
 
@@ -36,11 +36,20 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             return Array.Empty<Lesson>();
         }
 
-        public Lesson GetNextLesson(string courseId, int courseVersion, int currentLesson)
+        public bool TryGetNextLesson(string courseId, int courseVersion, int currentLesson, out Lesson lesson,
+            out int lessonNumber)
         {
-            var nextLesson = currentLesson < 0 ? 0 : currentLesson + 1;
+            lessonNumber = currentLesson < 0 ? 0 : currentLesson + 1;
             var lessons = GetCourseLessons(courseId, courseVersion);
-            return lessons.Length >= nextLesson ? null : lessons[nextLesson];
+            if (lessonNumber < lessons.Length)
+            {
+                lesson = lessons[lessonNumber];
+                return true;
+            }
+
+            lessonNumber = 0;
+            lesson = null;
+            return false;
         }
 
         public void Load()

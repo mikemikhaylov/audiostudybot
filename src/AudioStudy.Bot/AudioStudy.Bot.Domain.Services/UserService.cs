@@ -1,7 +1,9 @@
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using AudioStudy.Bot.DataAccess.Abstractions;
 using AudioStudy.Bot.Domain.Model;
+using AudioStudy.Bot.Domain.Model.Courses;
 using AudioStudy.Bot.Domain.Model.Telegram;
 using AudioStudy.Bot.SharedUtils.Localization.Enums;
 
@@ -15,7 +17,7 @@ namespace AudioStudy.Bot.Domain.Services
         {
             _userRepository = userRepository;
         }
-        
+
         public async Task<User> GetOrCreateAsync(long chatId)
         {
             var user = await _userRepository.GetUserByChatIdAsync(chatId);
@@ -23,6 +25,7 @@ namespace AudioStudy.Bot.Domain.Services
             {
                 return user;
             }
+
             user = new User
             {
                 Language = Language.Unknown,
@@ -41,8 +44,10 @@ namespace AudioStudy.Bot.Domain.Services
                 {
                     return user;
                 }
+
                 throw;
             }
+
             return user;
         }
 

@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using AudioStudy.Bot.DataAccess.Abstractions;
 using AudioStudy.Bot.Domain.Model;
+using AudioStudy.Bot.Domain.Model.Courses;
 
 namespace AudioStudy.Bot.Domain.Services
 {
