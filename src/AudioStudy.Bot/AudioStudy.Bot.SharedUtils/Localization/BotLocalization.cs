@@ -63,6 +63,12 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         public string CoursesMessage(Language language) => "вот это наши курсы";
         public string InlineBackBtn(Language language)=> "назад";
 
+        public string Course(Language language, string courseName, string courseDescription, int numberOfCards, int numberOfLessons,
+            bool isMyCourse, int lessonsLearned)
+        {
+            return courseName;
+        }
+
         private string GetKey(Language language, string key) => _localizationSource.GetKey((language == Language.Unknown ? Language.English : language).GetMetadata().Short, key);
     }
 }

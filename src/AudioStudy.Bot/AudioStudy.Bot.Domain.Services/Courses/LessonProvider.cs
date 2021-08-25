@@ -54,7 +54,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             var result = new List<CourseLessons>();
             var assembly = typeof(CoursesAnchor).Assembly;
             var resources = assembly.GetManifestResourceNames()
-                .Where(x => x.StartsWith($"{assembly.FullName}.lessons.") && x.EndsWith(".json"));
+                .Where(x => x.StartsWith($"{assembly.GetName().Name}.lessons.") && x.EndsWith(".json"));
             foreach (var resource in resources)
             {
                 using var stream = typeof(CoursesAnchor).Assembly.GetManifestResourceStream(resource);
