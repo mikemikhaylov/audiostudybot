@@ -30,5 +30,8 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string FilterCoursesBtn(Language language);
         string CoursesMessage(Language language);
         string InlineBackBtn(Language language);
+
+        string Course(Language language, string courseName, string courseDescription, int numberOfCards,
+            int numberOfLessons, bool isMyCourse, int lessonsLearned);
     }
 }

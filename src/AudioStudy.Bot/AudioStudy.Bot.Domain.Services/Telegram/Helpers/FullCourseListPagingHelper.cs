@@ -56,9 +56,9 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             return null;
         }
 
-        protected override string GetOpenCourseData(User user, int page, int pageSize)
+        protected override string GetOpenCourseData(User user, string courseId, int page, int pageSize)
         {
-            return TelegramCallbackDataBase.OpenCourseToString(page, pageSize);
+            return new OpenCourseCallbackData(courseId, page, pageSize).ToString();
         }
 
         protected override string GetCourseName(User user, Course course)

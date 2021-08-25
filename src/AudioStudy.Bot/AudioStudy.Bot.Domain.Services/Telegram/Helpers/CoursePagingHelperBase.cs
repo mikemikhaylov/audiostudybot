@@ -52,7 +52,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                         new[]
                         {
                             new TelegramInlineBtn(GetCourseName(user, x),
-                                GetOpenCourseData(user, page, pageSize))
+                                GetOpenCourseData(user, x.Id, page, pageSize))
                         }).ToArray();
             }
 
@@ -110,7 +110,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         protected abstract string GetNoCoursesMessage(User user);
         protected abstract TelegramInlineBtn[][] GetAdditionalTopButtons(User user, int page, int pageSize);
         protected abstract TelegramInlineBtn[][] GetAdditionalBottomButtons(User user, int page, int pageSize);
-        protected abstract string GetOpenCourseData(User user, int page, int pageSize);
+        protected abstract string GetOpenCourseData(User user, string courseId, int page, int pageSize);
         protected abstract string GetCourseName(User user, Course course);
         protected abstract string GetOpenPageData(User user, int page, int pageSize);
     }

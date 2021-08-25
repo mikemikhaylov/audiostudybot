@@ -94,7 +94,8 @@ namespace AudioStudy.Bot.Domain.Services.Courses
         private static Course[] GetAllCourses()
         {
             var result = new List<Course>();
-            var resources = typeof(CoursesAnchor).Assembly.GetManifestResourceNames().Where(x => x.EndsWith(".json"));
+            var assembly = typeof(CoursesAnchor).Assembly;
+            var resources = assembly.GetManifestResourceNames().Where(x => x.StartsWith($"{assembly.FullName}.courses.") &&  x.EndsWith(".json"));
             foreach (var resource in resources)
             {
                 using var stream = typeof(CoursesAnchor).Assembly.GetManifestResourceStream(resource);
@@ -103,7 +104,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 {
                     PropertyNameCaseInsensitive = true
                 });
-                ValidateCourse(course);
+                CourseValidator.ValidateCourse(course, SupportedLanguages.Keys.ToHashSet());
                 result.Add(course);
             }
 
@@ -126,78 +127,6 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             }).OrderBy(x => x.weight).ThenBy(x => x.language).Select(x => x.language).ToArray();
         }
 
-        private static void ValidateCourse(Course course)
-        {
-            if (course == null)
-            {
-                throw new ArgumentNullException(nameof(course));
-            }
-
-            if (string.IsNullOrWhiteSpace(course.Id))
-            {
-                throw new Exception($"{nameof(course.Id)} CourseId required");
-            }
-
-            if (string.IsNullOrWhiteSpace(course.Name))
-            {
-                throw new Exception($"{nameof(course.Name)} is required. CourseId {course.Id}");
-            }
-
-            if (string.IsNullOrWhiteSpace(course.Description))
-            {
-                throw new Exception($"{nameof(course.Description)} is required. CourseId {course.Id}");
-            }
-
-            if (string.IsNullOrWhiteSpace(course.Language))
-            {
-                throw new Exception($"{nameof(course.Language)} is required. CourseId {course.Id}");
-            }
-
-            if (!SupportedLanguages.ContainsKey(course.Language))
-            {
-                throw new Exception($"{course.Language} language is not supported. CourseId {course.Id}");
-            }
-
-            if (string.IsNullOrWhiteSpace(course.TranslationLanguage))
-            {
-                throw new Exception($"{nameof(course.TranslationLanguage)} is required. CourseId {course.Id}");
-            }
-
-            if (!SupportedLanguages.ContainsKey(course.TranslationLanguage))
-            {
-                throw new Exception($"{course.TranslationLanguage} language is not supported. CourseId {course.Id}");
-            }
-
-            if (course.Cards == null || !course.Cards.Any())
-            {
-                throw new Exception($"{nameof(course.Cards)} should contain items. CourseId {course.Id}");
-            }
-
-            CheckTextLength(course.Id, course.Name, course.Description, course.NameTranslation,
-                course.DescriptionTranslation);
-            foreach (var card in course.Cards)
-            {
-                CheckTextLength(card.Text, card.Translation, card.Transcription, card.Usage, card.UsageTranslation);
-                if (string.IsNullOrWhiteSpace(card.Text))
-                {
-                    throw new Exception($"{nameof(card.Text)} is required");
-                }
-
-                if (string.IsNullOrWhiteSpace(card.Translation))
-                {
-                    throw new Exception($"{nameof(card.Translation)} is required. Text: {card.Text}");
-                }
-            }
-        }
-
-        private const int MaxTextLength = 1000;
-
-        private static void CheckTextLength(params string[] texts)
-        {
-            if (texts.Any(x => x is {Length: > MaxTextLength}))
-            {
-                throw new Exception("Max text length violation");
-            }
-        }
+        
     }
 }

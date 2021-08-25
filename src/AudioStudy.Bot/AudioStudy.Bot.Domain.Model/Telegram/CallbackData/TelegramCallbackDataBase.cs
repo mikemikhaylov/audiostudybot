@@ -25,12 +25,7 @@ namespace AudioStudy.Bot.Domain.Model.Telegram.CallbackData
         {
             return ToString(TelegramInlineBtnType.OpenCourseListPage, page.ToString(), pageSize.ToString());
         }
-        
-        public static string OpenCourseToString(int page, int pageSize)
-        {
-            return ToString(TelegramInlineBtnType.OpenCourse, page.ToString(), pageSize.ToString());
-        }
-        
+
         public static string OpenFilterToString(int page, int pageSize)
         {
             return ToString(TelegramInlineBtnType.OpenCourseFilter, page.ToString(), pageSize.ToString());

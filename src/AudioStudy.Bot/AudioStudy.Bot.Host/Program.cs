@@ -25,6 +25,7 @@ namespace AudioStudy.Bot.Host
         {
             var host = CreateHostBuilder(args).Build();
             host.Services.GetService<CourseProvider>()!.Load();
+            host.Services.GetService<LessonProvider>()!.Load();
             host.Run();
         }
 
@@ -51,8 +52,11 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<ITelegramButtonsHelper, TelegramButtonsHelper>();
                     services.AddSingleton<IFullCourseListPagingHelper, FullCourseListPagingHelper>();
                     services.AddSingleton<IFilterHelper, FilterHelper>();
+                    services.AddSingleton<ICourseHelper, CourseHelper>();
                     services.AddSingleton<CourseProvider>();
                     services.AddSingleton<ICourseProvider, CourseProvider>();
+                    services.AddSingleton<LessonProvider>();
+                    services.AddSingleton<ILessonProvider, LessonProvider>();
                     services.AddSingleton<ChatTypeCheckerMiddleware>();
                     services.AddSingleton<UserContextProviderMiddleware>();
                     services.AddSingleton<CommandExecutorMiddleware>();

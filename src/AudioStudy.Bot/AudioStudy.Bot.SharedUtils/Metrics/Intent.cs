@@ -17,6 +17,7 @@ namespace AudioStudy.Bot.SharedUtils.Metrics
         OpenLearningLanguageFilter,
         OpenKnowsLanguageFilter,
         SetCourseFilter,
+        OpenCourse,
         RateAskScreenOpen,
         HaveRated,
         WillRateLater,

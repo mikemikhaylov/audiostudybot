@@ -11,12 +11,15 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
     {
         private readonly IFilterHelper _filterHelper;
         private readonly IFullCourseListPagingHelper _fullCourseListPagingHelper;
+        private readonly ICourseHelper _courseHelper;
 
         public InlineKeyboardMiddleware(IFilterHelper filterHelper,
-            IFullCourseListPagingHelper fullCourseListPagingHelper)
+            IFullCourseListPagingHelper fullCourseListPagingHelper,
+            ICourseHelper courseHelper)
         {
             _filterHelper = filterHelper;
             _fullCourseListPagingHelper = fullCourseListPagingHelper;
+            _courseHelper = courseHelper;
         }
         public async Task HandleMessageAsync(TelegramPipelineContext pipelineContext)
         {
@@ -51,6 +54,11 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                     responseMessage = await _filterHelper.SetFilter(pipelineContext.User,
                         new SetFilterCallbackData(data.Skip(1)));
                     pipelineContext.Intent = Intent.SetCourseFilter;
+                    break;
+                case TelegramInlineBtnType.OpenCourse:
+                    responseMessage = _courseHelper.GetCoursePage(pipelineContext.User,
+                        new OpenCourseCallbackData(data.Skip(1)));
+                    pipelineContext.Intent = Intent.OpenCourse;
                     break;
             }
 
