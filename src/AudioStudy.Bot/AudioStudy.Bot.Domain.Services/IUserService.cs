@@ -9,5 +9,8 @@ namespace AudioStudy.Bot.Domain.Services
     {
         Task<User> GetOrCreateAsync(long chatId);
         Task UpdateAsync(User user, UserUpdateCommand command);
+        Task StartLearningCourse(User user, Course course);
+        Task StopLearningCourse(User user, Course course);
+        Task StartOverCourse(User user, Course course);
     }
 }

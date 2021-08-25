@@ -55,5 +55,20 @@ namespace AudioStudy.Bot.Domain.Services
         {
             return _userRepository.UpdateAsync(user, command);
         }
+
+        public async Task StartLearningCourse(User user, Course course)
+        {
+            
+        }
+
+        public Task StopLearningCourse(User user, Course course)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task StartOverCourse(User user, Course course)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

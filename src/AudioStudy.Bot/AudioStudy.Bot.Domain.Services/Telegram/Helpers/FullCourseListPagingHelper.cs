@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -24,14 +25,20 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             _courseProvider = courseProvider;
         }
 
-        public Task<TelegramResponseMessage> GetFirstPageAsync(User user) => GetPageAsync(user, new OpenPageCallbackData(0, PageSize));
+        public Task<TelegramResponseMessage> GetFirstPageAsync(User user) =>
+            GetPageAsync(user, new OpenPageCallbackData(0, PageSize));
 
         protected override IReadOnlyList<Course> GetCourses(User user, int skip, int take)
         {
-            var userCourses = new HashSet<string>(user.Courses?.Select(x => x.Id) ?? new string[] { });
+            var userCourses = (user.Courses ?? Array.Empty<UserCourse>()).Select((x, i) => new {id = x.Id, index = i})
+                .ToDictionary(x => x.id, x => x.index);
             return _courseProvider.GetCourses(user.LearningLanguage, user.KnowsLanguage)
-                .Select((course, index) => new {course, isUserCourse = userCourses.Contains(course.Id), index})
-                .OrderBy(x => x.isUserCourse)
+                .Select((course, index) =>
+                {
+                    var isUserCourse = userCourses.TryGetValue(course.Id, out var userCourseIndex);
+                    return new {course, isUserCourse = isUserCourse, index = isUserCourse ? userCourseIndex : index};
+                })
+                .OrderBy(x => !x.isUserCourse)
                 .ThenBy(x => x.index)
                 .Select(x => x.course)
                 .Skip(skip)
@@ -47,7 +54,11 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         {
             return new[]
             {
-                new []{new TelegramInlineBtn(_botLocalization.FilterCoursesBtn(user.Language), TelegramCallbackDataBase.OpenFilterToString(page, pageSize))}
+                new[]
+                {
+                    new TelegramInlineBtn(_botLocalization.FilterCoursesBtn(user.Language),
+                        TelegramCallbackDataBase.OpenFilterToString(page, pageSize))
+                }
             };
         }
 
