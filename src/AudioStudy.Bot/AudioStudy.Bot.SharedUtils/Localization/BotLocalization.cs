@@ -81,7 +81,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
             int numberOfLessons,
             bool isMyCourse, int? lessonsLearned)
         {
-            return string.Join(Environment.NewLine, $"Name {courseName}", $"isMyCourse {isMyCourse}",$"course completed {numberOfLessons - 1 > lessonsLearned}",
+            return string.Join(Environment.NewLine, $"Name {courseName}", $"isMyCourse {isMyCourse}",$"course completed {numberOfLessons <= lessonsLearned + 1}",
                 $"Desc {courseDescription}", $"numberOfCards {numberOfCards}", $"lessons {numberOfLessons}",
                 $"lessonsLearned {lessonsLearned}");
         }
@@ -125,6 +125,26 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         public string No(Language language)
         {
             return "no";
+        }
+
+        public string YouFinishedTheCourse(Language language)
+        {
+            return "Congrats! U finished the course";
+        }
+
+        public string ToTheCoursesList(Language language)
+        {
+            return "go to the course list";
+        }
+
+        public string CourseStartedOver(Language language)
+        {
+            return "course started over";
+        }
+
+        public string HereIsYourLesson(Language language)
+        {
+            return "here is your lesson";
         }
 
         private string GetKey(Language language, string key) =>

@@ -34,7 +34,15 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             {
                 return new TelegramResponseMessage
                 {
-                    Text = _botLocalization.CourseNotFound(user.Language)
+                    Text = _botLocalization.CourseNotFound(user.Language),
+                    InlineButtons = new[]
+                    {
+                        new[]
+                        {
+                            new TelegramInlineBtn(_botLocalization.InlineBackBtn(user.Language),
+                                new OpenPageCallbackData(data.Page, data.PageSize).ToString())
+                        }
+                    }
                 };
             }
 
@@ -81,6 +89,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                         new StartOverFromCoursePageCallbackData(data.CourseId, data.Page, data.PageSize).ToString())
                 });
             }
+
             inlineButtons.Add(new[]
             {
                 new TelegramInlineBtn(_botLocalization.InlineBackBtn(user.Language),
@@ -103,6 +112,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             {
                 await _userService.StartLearningCourse(user, course);
             }
+
             return GetCoursePage(user, new OpenCourseCallbackData(data.CourseId, data.Page, data.PageSize));
         }
 
@@ -124,7 +134,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             };
         }
 
-        public async Task<TelegramResponseMessage> StartOverCourse(User user, StartOverFromCoursePageCallbackData data)
+        public async Task<TelegramResponseMessage> StartOverFromPageCourse(User user,
+            StartOverFromCoursePageCallbackData data)
         {
             return new TelegramResponseMessage
             {
@@ -134,7 +145,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                     new[]
                     {
                         new TelegramInlineBtn(_botLocalization.Yes(user.Language),
-                            new ConfirmStartOverFromCoursePageCallbackData(data.CourseId, data.Page, data.PageSize).ToString()),
+                            new ConfirmStartOverFromCoursePageCallbackData(data.CourseId, data.Page, data.PageSize)
+                                .ToString()),
                         new TelegramInlineBtn(_botLocalization.No(user.Language),
                             new OpenCourseCallbackData(data.CourseId, data.Page, data.PageSize).ToString())
                     }
@@ -149,17 +161,91 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             {
                 await _userService.StopLearningCourse(user, course);
             }
+
             return GetCoursePage(user, new OpenCourseCallbackData(data.CourseId, data.Page, data.PageSize));
         }
 
-        public async Task<TelegramResponseMessage> ConfirmStartOverCourse(User user, ConfirmStartOverFromCoursePageCallbackData data)
+        public async Task<TelegramResponseMessage> ConfirmStartOverCourse(User user,
+            ConfirmStartOverFromCoursePageCallbackData data)
         {
             var course = _courseProvider.GetCourse(data.CourseId);
             if (course != null)
             {
                 await _userService.StartOverCourse(user, course);
             }
+
             return GetCoursePage(user, new OpenCourseCallbackData(data.CourseId, data.Page, data.PageSize));
+        }
+
+        public async Task<TelegramResponseMessage> GetNextLessonAsync(User user, GetNextLessonCallbackData data)
+        {
+            var course = _courseProvider.GetCourse(data.CourseId);
+            if (course == null)
+            {
+                return GetCoursePage(user, new OpenCourseCallbackData(data.CourseId, 0, Consts.CoursePerPage));
+            }
+
+            if (user.Courses?.Any(x => x.Id == data.CourseId) != true)
+            {
+                await _userService.StartLearningCourse(user, course);
+            }
+
+            var userCourse = user.Courses!.Single(x => x.Id == course.Id);
+            if (_lessonProvider.TryGetNextLesson(course.Id, userCourse.Version, userCourse.LastLesson, out var lesson,
+                out var lessonNumber))
+            {
+                await _userService.SetCurrentLesson(user, course, lessonNumber);
+                return new TelegramResponseMessage
+                {
+                    Text = _botLocalization.HereIsYourLesson(user.Language),
+                    InlineButtons = new[]
+                    {
+                        new[]
+                        {
+                            new TelegramInlineBtn(_botLocalization.GetNextLesson(user.Language),
+                                new GetNextLessonCallbackData(course.Id).ToString())
+                        }
+                    }
+                };
+            }
+
+            return new TelegramResponseMessage
+            {
+                Text = _botLocalization.YouFinishedTheCourse(user.Language),
+                InlineButtons = new[]
+                {
+                    new[]
+                    {
+                        new TelegramInlineBtn(_botLocalization.StartOverCourseLearning(user.Language),
+                            new StartOverCallbackData(course.Id).ToString()),
+                        new TelegramInlineBtn(_botLocalization.ToTheCoursesList(user.Language),
+                            new OpenPageCallbackData(0, Consts.CoursePerPage).ToString())
+                    }
+                }
+            };
+        }
+
+        public async Task<TelegramResponseMessage> StartOver(User user, StartOverCallbackData data)
+        {
+            var course = _courseProvider.GetCourse(data.CourseId);
+            if (course == null)
+            {
+                return GetCoursePage(user, new OpenCourseCallbackData(data.CourseId, 0, Consts.CoursePerPage));
+            }
+
+            await _userService.StartOverCourse(user, course);
+            return new TelegramResponseMessage
+            {
+                Text = _botLocalization.CourseStartedOver(user.Language),
+                InlineButtons = new[]
+                {
+                    new[]
+                    {
+                        new TelegramInlineBtn(_botLocalization.GetNextLesson(user.Language),
+                            new GetNextLessonCallbackData(course.Id).ToString())
+                    }
+                }
+            };
         }
     }
 }

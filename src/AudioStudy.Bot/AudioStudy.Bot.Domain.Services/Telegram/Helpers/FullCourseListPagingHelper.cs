@@ -16,7 +16,6 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
     {
         private readonly IBotLocalization _botLocalization;
         private readonly ICourseProvider _courseProvider;
-        private const int PageSize = 1;
 
         public FullCourseListPagingHelper(IBotLocalization botLocalization,
             ICourseProvider courseProvider) : base(botLocalization)
@@ -26,7 +25,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         }
 
         public Task<TelegramResponseMessage> GetFirstPageAsync(User user) =>
-            GetPageAsync(user, new OpenPageCallbackData(0, PageSize));
+            GetPageAsync(user, new OpenPageCallbackData(0, Consts.CoursePerPage));
 
         protected override IReadOnlyList<Course> GetCourses(User user, int skip, int take)
         {

@@ -92,6 +92,16 @@ namespace AudioStudy.Bot.Domain.Services
                 new[] {CreateUserCourse(course)}.Concat(courses.Where(x => x.Id != course.Id)).ToArray());
         }
 
+        public async Task SetCurrentLesson(User user, Course course, int currentLesson)
+        {
+            var userCourses = GetUserCourses(user);
+            var userCourse = userCourses.FirstOrDefault(x => x.Id == course.Id)
+                ?? CreateUserCourse(course);
+            userCourse.LastLesson = currentLesson;
+            await SetUserCourses(user,
+                new[] {userCourse}.Concat(userCourses.Where(x => x.Id != course.Id)).ToArray());
+        }
+
         private async Task SetUserCourses(User user, UserCourse[] userCourses)
         {
             await UpdateAsync(user, UserUpdateCommand.Factory.UpdateCourses(userCourses));

@@ -43,5 +43,9 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string AreYouSureStartOrStartOver(Language language);
         string Yes(Language language);
         string No(Language language);
+        string YouFinishedTheCourse(Language language);
+        string ToTheCoursesList(Language language);
+        string CourseStartedOver(Language language);
+        string HereIsYourLesson(Language language);
     }
 }

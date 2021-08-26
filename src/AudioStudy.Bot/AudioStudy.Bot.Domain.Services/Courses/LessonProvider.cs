@@ -76,7 +76,10 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 CourseValidator.ValidateCourseLessons(courseLessons);
                 result.Add(courseLessons);
             }
-
+            if (!result.Any())
+            {
+                throw new Exception("No lessons were loaded");
+            }
             return result.ToArray();
         }
     }

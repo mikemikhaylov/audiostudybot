@@ -12,5 +12,6 @@ namespace AudioStudy.Bot.Domain.Services
         Task StartLearningCourse(User user, Course course);
         Task StopLearningCourse(User user, Course course);
         Task StartOverCourse(User user, Course course);
+        Task SetCurrentLesson(User user, Course course, int currentLesson);
     }
 }

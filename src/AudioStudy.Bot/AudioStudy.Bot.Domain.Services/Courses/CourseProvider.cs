@@ -124,6 +124,10 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 result.Add(course);
             }
 
+            if (!result.Any())
+            {
+                throw new Exception("No courses were loaded");
+            }
             return result.OrderBy(x => x.Weight).ThenBy(x => x.Id).ToArray();
         }
 

@@ -1,0 +1,31 @@
+{
+  "courseId": "baf853cf-dc4f-445d-86f0-7e0563633665",
+  "courseVersion": 1,
+  "lessons": [
+    {
+      "fileId": 1,
+      "cards": [
+        {
+          "text": "behavior",
+          "transcription": "bɪˈheɪvjə",
+          "translation": "поведение",
+          "usage": "good [behavior]",
+          "usageTranslation": "хорошее поведение"
+        },
+        {
+          "text": "disability",
+          "transcription": "ˌdɪsəˈbɪlɪti",
+          "translation": "инвалидность",
+          "usage": "to have a [disability]"
+        },
+        {
+          "text": "squad",
+          "transcription": "skwɒd",
+          "translation": "отряд, команда",
+          "usage": "rescue [squad] has arrived",
+          "usageTranslation": "спасательный отряд прибыл"
+        }
+      ]
+    }
+  ]
+}

@@ -5,15 +5,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="lessons" />
-    </ItemGroup>
-
-    <ItemGroup>
       <EmbeddedResource Include="courses\en-ru\top3000-2.json" />
       <None Remove="courses\en-ru\top3000.json" />
       <EmbeddedResource Include="courses\en-ru\top3000.json" />
       <None Remove="courses\en-es\top3000spanish.json" />
       <EmbeddedResource Include="courses\en-es\top3000spanish.json" />
+      <None Remove="lessons\en-ru\top3000\1.json" />
+      <EmbeddedResource Include="lessons\en-ru\top3000\1.json" />
     </ItemGroup>
 
 </Project>
