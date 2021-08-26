@@ -108,11 +108,9 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                     pipelineContext.Intent = Intent.ShowCourseCards;
                     break;
                 case TelegramInlineBtnType.OpenLessonCardsPage:
-                case TelegramInlineBtnType.OpenLessonCardsPageSeparateMessage:
                     responseMessage = await _lessonCardsPagingHelper.GetPageAsync(pipelineContext.User,
                         new OpenLessonCardsPageCallbackData(data.Skip(1)));
                     pipelineContext.Intent = Intent.ShowLessonCards;
-                    sendAsCallback = btnType != TelegramInlineBtnType.OpenLessonCardsPageSeparateMessage;
                     break;
             }
 

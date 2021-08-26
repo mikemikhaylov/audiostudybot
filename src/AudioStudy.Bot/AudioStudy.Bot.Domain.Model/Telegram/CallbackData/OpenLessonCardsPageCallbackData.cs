@@ -4,7 +4,7 @@ namespace AudioStudy.Bot.Domain.Model.Telegram.CallbackData
 {
     public class OpenLessonCardsPageCallbackData : TelegramCallbackDataBase
     {
-        protected virtual TelegramInlineBtnType BtnType => TelegramInlineBtnType.OpenLessonCardsPage;
+        private TelegramInlineBtnType BtnType => TelegramInlineBtnType.OpenLessonCardsPage;
         public string CourseId { get; }
         public int Version { get; set; }
         public int Lesson { get; set; }

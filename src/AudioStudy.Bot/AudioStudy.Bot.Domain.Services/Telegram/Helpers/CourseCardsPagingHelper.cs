@@ -34,6 +34,11 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             return (course?.Cards ?? Array.Empty<Card>()).Skip(skip).Take(take).ToList();
         }
 
+        protected override string GetFile(User user, OpenCourseCardsPageCallbackData data)
+        {
+            return null;
+        }
+
         protected override string GetNoCardsMessage(User user)
         {
             return _botLocalization.NoCardsInCourse(user.Language);

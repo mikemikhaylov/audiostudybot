@@ -90,10 +90,17 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                 result.InlineButtons = buttons;
             }
 
+            result.FileId = GetFile(user, data);
+            if (!string.IsNullOrWhiteSpace(result.FileId))
+            {
+                result.IsCaption = true;
+            }
+
             return Task.FromResult(result);
         }
         
         protected abstract IReadOnlyList<Card> GetCards(User user, int skip, int take, TData data);
+        protected abstract string GetFile(User user, TData data);
         protected abstract string GetNoCardsMessage(User user);
         protected abstract TelegramInlineBtn[][] GetAdditionalTopButtons(User user, int page, int pageSize, TData data);
         protected abstract TelegramInlineBtn[][] GetAdditionalBottomButtons(User user, int page, int pageSize, TData data);

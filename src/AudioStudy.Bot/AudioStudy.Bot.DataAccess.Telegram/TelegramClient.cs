@@ -55,10 +55,9 @@ namespace AudioStudy.Bot.DataAccess.Telegram
             GetMarkUp(message, out replyMarkup);
             if (message.CallbackMessageId != null)
             {
-                if (string.IsNullOrWhiteSpace(message.FileId))
+                if (!string.IsNullOrWhiteSpace(message.FileId) || message.IsCaption)
                 {
                     await _telegramBotClient.EditMessageCaptionAsync(message.ChatId, message.CallbackMessageId.Value, message.Text, replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
-                    return;
                 }
                 else
                 {
@@ -67,11 +66,11 @@ namespace AudioStudy.Bot.DataAccess.Telegram
                             message.Text, disableWebPagePreview: true,
                             replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null,
                             parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
-                    return;
                 }
+                return;
             }
 
-            if (string.IsNullOrWhiteSpace(message.FileId))
+            if (!string.IsNullOrWhiteSpace(message.FileId))
             {
                 await _telegramBotClient.SendAudioAsync(message.ChatId, new InputOnlineFile(message.FileId), message.Text, replyMarkup: replyMarkup, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
                 return;

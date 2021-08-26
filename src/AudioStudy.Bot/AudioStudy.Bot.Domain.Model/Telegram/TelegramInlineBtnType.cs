@@ -15,7 +15,6 @@ namespace AudioStudy.Bot.Domain.Model.Telegram
         GetNextLesson = 12,
         StartOver = 13,
         OpenCourseCardsPage = 14,
-        OpenLessonCardsPage = 15,
-        OpenLessonCardsPageSeparateMessage = 16
+        OpenLessonCardsPage = 15
     }
 }

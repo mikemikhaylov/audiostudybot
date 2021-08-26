@@ -12,6 +12,7 @@ namespace AudioStudy.Bot.Domain.Model.Telegram
         public string CallbackQueryId { get; set; }
         public int? CallbackMessageId { get; set; }
         public string FileId { get; set; }
+        public bool IsCaption { get; set; }
     }
     
     public static class TelegramResponseMessageExtensions

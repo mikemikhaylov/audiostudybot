@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,16 +16,19 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         private readonly ILessonProvider _lessonProvider;
         private readonly ICourseProvider _courseProvider;
         private readonly IUserService _userService;
+        private readonly ILessonCardsPagingHelper _lessonCardsPagingHelper;
 
         public CourseHelper(IBotLocalization botLocalization,
             ILessonProvider lessonProvider,
             ICourseProvider courseProvider,
-            IUserService userService)
+            IUserService userService,
+            ILessonCardsPagingHelper lessonCardsPagingHelper)
         {
             _botLocalization = botLocalization;
             _lessonProvider = lessonProvider;
             _courseProvider = courseProvider;
             _userService = userService;
+            _lessonCardsPagingHelper = lessonCardsPagingHelper;
         }
 
         public TelegramResponseMessage GetCoursePage(User user, OpenCourseCallbackData data)
@@ -195,23 +199,9 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                 out var lessonNumber))
             {
                 await _userService.SetCurrentLesson(user, course, lessonNumber);
-                return new TelegramResponseMessage
-                {
-                    Text = _botLocalization.HereIsYourLesson(user.Language),
-                    InlineButtons = new[]
-                    {
-                        new[]
-                        {
-                            new TelegramInlineBtn(_botLocalization.ShowCards(user.Language),
-                                new OpenLessonCardsPageSeparateCallbackData(course.Id, userCourse.Version, lessonNumber, 0, Consts.CardsPerPage).ToString())
-                        },
-                        new[]
-                        {
-                            new TelegramInlineBtn(_botLocalization.GetNextLesson(user.Language),
-                                new GetNextLessonCallbackData(course.Id).ToString())
-                        }
-                    }
-                };
+                return await _lessonCardsPagingHelper.GetPageAsync(user,
+                    new OpenLessonCardsPageCallbackData(course.Id, userCourse.Version, lessonNumber, 0,
+                        Consts.CardsPerPage));
             }
 
             return new TelegramResponseMessage
