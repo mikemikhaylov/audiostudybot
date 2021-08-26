@@ -58,17 +58,65 @@ namespace AudioStudy.Bot.Domain.Services
 
         public async Task StartLearningCourse(User user, Course course)
         {
-            
+            var courses = GetUserCourses(user);
+            var index = Array.FindIndex(courses, x => x.Id == course.Id);
+            if (index > -1)
+            {
+                if (index == 0)
+                {
+                    return;
+                }
+
+                await SetUserCourses(user,
+                    new[] {courses[index]}.Concat(courses.Where(x => x.Id != course.Id)).ToArray());
+            }
+            else
+            {
+                await SetUserCourses(user, new[] {CreateUserCourse(course)}.Concat(courses).ToArray());
+            }
         }
 
-        public Task StopLearningCourse(User user, Course course)
+        public async Task StopLearningCourse(User user, Course course)
         {
-            throw new NotImplementedException();
+            var courses = GetUserCourses(user);
+            if (courses.Any(x => x.Id == course.Id))
+            {
+                await SetUserCourses(user, courses.Where(x => x.Id != course.Id).ToArray());
+            }
         }
 
-        public Task StartOverCourse(User user, Course course)
+        public async Task StartOverCourse(User user, Course course)
         {
-            throw new NotImplementedException();
+            var courses = GetUserCourses(user);
+            await SetUserCourses(user,
+                new[] {CreateUserCourse(course)}.Concat(courses.Where(x => x.Id != course.Id)).ToArray());
+        }
+
+        private async Task SetUserCourses(User user, UserCourse[] userCourses)
+        {
+            await UpdateAsync(user, UserUpdateCommand.Factory.UpdateCourses(userCourses));
+        }
+
+        private UserCourse CreateUserCourse(Course course) => new UserCourse
+        {
+            Id = course.Id,
+            LastLesson = -1,
+            Version = course.Version
+        };
+
+        private UserCourse[] GetUserCourses(User user)
+        {
+            if (user.Courses == null)
+            {
+                return Array.Empty<UserCourse>();
+            }
+
+            if (!user.Courses.Any())
+            {
+                return user.Courses;
+            }
+
+            return user.Courses.GroupBy(x => x.Id).Select(x => x.First()).ToArray();
         }
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using AudioStudy.Bot.Domain.Model;
 using AudioStudy.Bot.Domain.Model.Telegram;
 using AudioStudy.Bot.SharedUtils.Localization.Enums;
 
@@ -11,6 +12,7 @@ namespace AudioStudy.Bot.DataAccess.Abstractions
         public FieldUpdateCommand<string> KnowsLanguage { get; set; }
         public FieldUpdateCommand<TelegramState> State { get; set; }
         public FieldUpdateCommand<DateTime?> RatingDate { get; set; }
+        public FieldUpdateCommand<UserCourse[]> UserCourses { get; set; }
 
         public static class Factory
         {
@@ -40,6 +42,14 @@ namespace AudioStudy.Bot.DataAccess.Abstractions
                 return new UserUpdateCommand()
                 {
                     KnowsLanguage = new FieldUpdateCommand<string>(language)
+                };
+            }
+            
+            public static UserUpdateCommand UpdateCourses(UserCourse[] userCourses)
+            {
+                return new UserUpdateCommand()
+                {
+                    UserCourses = new FieldUpdateCommand<UserCourse[]>(userCourses)
                 };
             }
         }
