@@ -91,7 +91,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
 
             foreach (var lesson in courseLessons.Lessons)
             {
-                if (lesson.FileId < 1)
+                if (string.IsNullOrWhiteSpace(lesson.FileId))
                 {
                     throw new Exception($"{nameof(lesson.FileId)} is required");
                 }

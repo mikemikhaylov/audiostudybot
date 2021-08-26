@@ -47,5 +47,10 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string ToTheCoursesList(Language language);
         string CourseStartedOver(Language language);
         string HereIsYourLesson(Language language);
+        string NoCardsOnCurrentPage(Language language);
+        string Cards(params (string Text, string Transcription, string Translation, string Usage, string UsageTranslation)[] cards);
+        string NoCardsInCourse(Language language);
+        string NoCardsInLesson(Language language);
+        string BackToTheCourse(Language language);
     }
 }

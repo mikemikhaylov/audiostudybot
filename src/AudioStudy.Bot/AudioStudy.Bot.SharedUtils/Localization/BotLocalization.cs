@@ -81,12 +81,14 @@ namespace AudioStudy.Bot.SharedUtils.Localization
             int numberOfLessons,
             bool isMyCourse, int? lessonsLearned)
         {
-            return string.Join(Environment.NewLine, $"Name {courseName}", $"isMyCourse {isMyCourse}",$"course completed {numberOfLessons <= lessonsLearned + 1}",
+            return string.Join(Environment.NewLine, $"Name {courseName}", $"isMyCourse {isMyCourse}",
+                $"course completed {numberOfLessons <= lessonsLearned + 1}",
                 $"Desc {courseDescription}", $"numberOfCards {numberOfCards}", $"lessons {numberOfLessons}",
                 $"lessonsLearned {lessonsLearned}");
         }
 
         public string CourseNotFound(Language language) => "курс не найден";
+
         public string ShowCards(Language language)
         {
             return "show cards";
@@ -145,6 +147,35 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         public string HereIsYourLesson(Language language)
         {
             return "here is your lesson";
+        }
+
+        public string NoCardsOnCurrentPage(Language language)
+        {
+            return "no cards on current page";
+        }
+
+        public string Cards(
+            params (string Text, string Transcription, string Translation, string Usage, string UsageTranslation)[]
+                cards)
+        {
+            return string.Join(Environment.NewLine, cards.Select(x => string.Join(Environment.NewLine, $"Text {x.Text}",
+                $"Transcription {x.Transcription}",
+                $"Translation {x.Translation}", $"Usage {x.Usage}", $"UsageTranslation {x.UsageTranslation}")));
+        }
+
+        public string NoCardsInCourse(Language language)
+        {
+            return "в курсе нет карточек";
+        }
+
+        public string NoCardsInLesson(Language language)
+        {
+            return "в уроке нет карточек";
+        }
+
+        public string BackToTheCourse(Language language)
+        {
+            return "back to the course";
         }
 
         private string GetKey(Language language, string key) =>

@@ -25,6 +25,8 @@ namespace AudioStudy.Bot.SharedUtils.Metrics
         StartCourseOver,
         StartLearning,
         StopLearning,
-        GetNextLesson
+        GetNextLesson,
+        ShowCourseCards,
+        ShowLessonCards
     }
 }

@@ -8,6 +8,7 @@ using AudioStudy.Bot.Domain.Model.Telegram;
 using Microsoft.Extensions.Options;
 using Telegram.Bot;
 using Telegram.Bot.Types.Enums;
+using Telegram.Bot.Types.InputFiles;
 using Telegram.Bot.Types.ReplyMarkups;
 
 namespace AudioStudy.Bot.DataAccess.Telegram
@@ -54,11 +55,25 @@ namespace AudioStudy.Bot.DataAccess.Telegram
             GetMarkUp(message, out replyMarkup);
             if (message.CallbackMessageId != null)
             {
-                await
-                    _telegramBotClient.EditMessageTextAsync(message.ChatId, message.CallbackMessageId.Value,
-                        message.Text, disableWebPagePreview: true,
-                        replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null,
-                        parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+                if (string.IsNullOrWhiteSpace(message.FileId))
+                {
+                    await _telegramBotClient.EditMessageCaptionAsync(message.ChatId, message.CallbackMessageId.Value, message.Text, replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+                    return;
+                }
+                else
+                {
+                    await
+                        _telegramBotClient.EditMessageTextAsync(message.ChatId, message.CallbackMessageId.Value,
+                            message.Text, disableWebPagePreview: true,
+                            replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null,
+                            parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+                    return;
+                }
+            }
+
+            if (string.IsNullOrWhiteSpace(message.FileId))
+            {
+                await _telegramBotClient.SendAudioAsync(message.ChatId, new InputOnlineFile(message.FileId), message.Text, replyMarkup: replyMarkup, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
                 return;
             }
             await _telegramBotClient.SendTextMessageAsync(message.ChatId, message.Text, replyMarkup: replyMarkup, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);

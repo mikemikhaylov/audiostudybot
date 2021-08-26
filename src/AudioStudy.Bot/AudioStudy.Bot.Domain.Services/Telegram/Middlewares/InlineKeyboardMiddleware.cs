@@ -12,14 +12,20 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
         private readonly IFilterHelper _filterHelper;
         private readonly IFullCourseListPagingHelper _fullCourseListPagingHelper;
         private readonly ICourseHelper _courseHelper;
+        private readonly ICourseCardsPagingHelper _courseCardsPagingHelper;
+        private readonly ILessonCardsPagingHelper _lessonCardsPagingHelper;
 
         public InlineKeyboardMiddleware(IFilterHelper filterHelper,
             IFullCourseListPagingHelper fullCourseListPagingHelper,
-            ICourseHelper courseHelper)
+            ICourseHelper courseHelper,
+            ICourseCardsPagingHelper courseCardsPagingHelper,
+            ILessonCardsPagingHelper lessonCardsPagingHelper)
         {
             _filterHelper = filterHelper;
             _fullCourseListPagingHelper = fullCourseListPagingHelper;
             _courseHelper = courseHelper;
+            _courseCardsPagingHelper = courseCardsPagingHelper;
+            _lessonCardsPagingHelper = lessonCardsPagingHelper;
         }
         public async Task HandleMessageAsync(TelegramPipelineContext pipelineContext)
         {
@@ -95,6 +101,18 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                         new GetNextLessonCallbackData(data.Skip(1)));
                     pipelineContext.Intent = Intent.GetNextLesson;
                     sendAsCallback = false;
+                    break;
+                case TelegramInlineBtnType.OpenCourseCardsPage:
+                    responseMessage = await _courseCardsPagingHelper.GetPageAsync(pipelineContext.User,
+                        new OpenCourseCardsPageCallbackData(data.Skip(1)));
+                    pipelineContext.Intent = Intent.ShowCourseCards;
+                    break;
+                case TelegramInlineBtnType.OpenLessonCardsPage:
+                case TelegramInlineBtnType.OpenLessonCardsPageSeparateMessage:
+                    responseMessage = await _lessonCardsPagingHelper.GetPageAsync(pipelineContext.User,
+                        new OpenLessonCardsPageCallbackData(data.Skip(1)));
+                    pipelineContext.Intent = Intent.ShowLessonCards;
+                    sendAsCallback = btnType != TelegramInlineBtnType.OpenLessonCardsPageSeparateMessage;
                     break;
             }
 

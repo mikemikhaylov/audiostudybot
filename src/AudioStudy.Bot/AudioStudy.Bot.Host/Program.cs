@@ -51,6 +51,8 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<IUserService, UserService>();
                     services.AddSingleton<ITelegramButtonsHelper, TelegramButtonsHelper>();
                     services.AddSingleton<IFullCourseListPagingHelper, FullCourseListPagingHelper>();
+                    services.AddSingleton<ICourseCardsPagingHelper, CourseCardsPagingHelper>();
+                    services.AddSingleton<ILessonCardsPagingHelper, LessonCardsPagingHelper>();
                     services.AddSingleton<IFilterHelper, FilterHelper>();
                     services.AddSingleton<ICourseHelper, CourseHelper>();
                     services.AddSingleton<CourseProvider>();

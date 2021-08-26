@@ -57,7 +57,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             inlineButtons.Add(new[]
             {
                 new TelegramInlineBtn(_botLocalization.ShowCards(user.Language),
-                    new ShowCardsCallbackData(data.CourseId, data.Page, data.PageSize).ToString())
+                    new OpenCourseCardsPageCallbackData(data.CourseId, 0, Consts.CardsPerPage, data.Page, data.PageSize).ToString())
             });
             if (userCourse == null)
             {
@@ -200,6 +200,11 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                     Text = _botLocalization.HereIsYourLesson(user.Language),
                     InlineButtons = new[]
                     {
+                        new[]
+                        {
+                            new TelegramInlineBtn(_botLocalization.ShowCards(user.Language),
+                                new OpenLessonCardsPageSeparateCallbackData(course.Id, userCourse.Version, lessonNumber, 0, Consts.CardsPerPage).ToString())
+                        },
                         new[]
                         {
                             new TelegramInlineBtn(_botLocalization.GetNextLesson(user.Language),

@@ -11,6 +11,7 @@ namespace AudioStudy.Bot.Domain.Model.Telegram
         public TelegramInlineBtn[][] InlineButtons { get; set; }
         public string CallbackQueryId { get; set; }
         public int? CallbackMessageId { get; set; }
+        public string FileId { get; set; }
     }
     
     public static class TelegramResponseMessageExtensions
