@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using AudioStudy.Bot.Domain.Model;
 using AudioStudy.Bot.Domain.Model.Telegram;
 using AudioStudy.Bot.Domain.Model.Telegram.CallbackData;
@@ -93,6 +94,72 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                 Html = true,
                 InlineButtons = inlineButtons.ToArray()
             };
+        }
+
+        public async Task<TelegramResponseMessage> StartCourse(User user, StartLearningCallbackData data)
+        {
+            var course = _courseProvider.GetCourse(data.CourseId);
+            if (course != null)
+            {
+                await _userService.StartLearningCourse(user, course);
+            }
+            return GetCoursePage(user, new OpenCourseCallbackData(data.CourseId, data.Page, data.PageSize));
+        }
+
+        public async Task<TelegramResponseMessage> StopCourse(User user, StopLearningCallbackData data)
+        {
+            return new TelegramResponseMessage
+            {
+                Text = _botLocalization.AreYouSureStartOrStartOver(user.Language),
+                InlineButtons = new[]
+                {
+                    new[]
+                    {
+                        new TelegramInlineBtn(_botLocalization.Yes(user.Language),
+                            new ConfirmStopLearningCallbackData(data.CourseId, data.Page, data.PageSize).ToString()),
+                        new TelegramInlineBtn(_botLocalization.No(user.Language),
+                            new OpenCourseCallbackData(data.CourseId, data.Page, data.PageSize).ToString())
+                    }
+                }
+            };
+        }
+
+        public async Task<TelegramResponseMessage> StartOverCourse(User user, StartOverFromCoursePageCallbackData data)
+        {
+            return new TelegramResponseMessage
+            {
+                Text = _botLocalization.AreYouSureStartOrStartOver(user.Language),
+                InlineButtons = new[]
+                {
+                    new[]
+                    {
+                        new TelegramInlineBtn(_botLocalization.Yes(user.Language),
+                            new ConfirmStartOverFromCoursePageCallbackData(data.CourseId, data.Page, data.PageSize).ToString()),
+                        new TelegramInlineBtn(_botLocalization.No(user.Language),
+                            new OpenCourseCallbackData(data.CourseId, data.Page, data.PageSize).ToString())
+                    }
+                }
+            };
+        }
+
+        public async Task<TelegramResponseMessage> ConfirmStopCourse(User user, ConfirmStopLearningCallbackData data)
+        {
+            var course = _courseProvider.GetCourse(data.CourseId);
+            if (course != null)
+            {
+                await _userService.StopLearningCourse(user, course);
+            }
+            return GetCoursePage(user, new OpenCourseCallbackData(data.CourseId, data.Page, data.PageSize));
+        }
+
+        public async Task<TelegramResponseMessage> ConfirmStartOverCourse(User user, ConfirmStartOverFromCoursePageCallbackData data)
+        {
+            var course = _courseProvider.GetCourse(data.CourseId);
+            if (course != null)
+            {
+                await _userService.StartOverCourse(user, course);
+            }
+            return GetCoursePage(user, new OpenCourseCallbackData(data.CourseId, data.Page, data.PageSize));
         }
     }
 }

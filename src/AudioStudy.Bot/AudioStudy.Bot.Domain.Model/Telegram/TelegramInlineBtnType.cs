@@ -11,6 +11,8 @@ namespace AudioStudy.Bot.Domain.Model.Telegram
         StartLearning = 7,
         StopLearning = 8,
         StartOverFromCoursePage = 9,
-        GetNextLesson = 10
+        ConfirmStopLearning = 10,
+        ConfirmStartOverFromCoursePage = 11,
+        GetNextLesson = 12
     }
 }

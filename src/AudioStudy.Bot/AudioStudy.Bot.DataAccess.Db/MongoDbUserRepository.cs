@@ -58,6 +58,12 @@ namespace AudioStudy.Bot.DataAccess.Db
                 updateActions.Add(u => u.RatingDate = command.RatingDate.Value);
                 update = GetUpdateDef(update, u => u.RatingDate, command.RatingDate.Value);
             }
+            
+            if (command.UserCourses != null)
+            {
+                updateActions.Add(u => u.Courses = command.UserCourses.Value);
+                update = GetUpdateDef(update, u => u.Courses, command.UserCourses.Value);
+            }
 
             if (update != null)
             {

@@ -112,6 +112,21 @@ namespace AudioStudy.Bot.SharedUtils.Localization
             return "start over";
         }
 
+        public string AreYouSureStartOrStartOver(Language language)
+        {
+            return "уверены? весь прогресс будет потерян";
+        }
+
+        public string Yes(Language language)
+        {
+            return "yes";
+        }
+
+        public string No(Language language)
+        {
+            return "no";
+        }
+
         private string GetKey(Language language, string key) =>
             _localizationSource.GetKey((language == Language.Unknown ? Language.English : language).GetMetadata().Short,
                 key);

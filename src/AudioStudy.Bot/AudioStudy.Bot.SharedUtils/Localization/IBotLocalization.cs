@@ -40,5 +40,8 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string StopCourseLearning(Language language);
         string GetNextLesson(Language language);
         string StartOverCourseLearning(Language language);
+        string AreYouSureStartOrStartOver(Language language);
+        string Yes(Language language);
+        string No(Language language);
     }
 }

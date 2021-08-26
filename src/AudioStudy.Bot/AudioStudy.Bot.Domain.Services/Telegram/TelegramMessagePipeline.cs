@@ -73,7 +73,14 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
                 {
                     if (context.ResponseMessage.CallbackQueryId != null)
                     {
-                        await _telegramClient.AnswerCallbackQuery(context.ResponseMessage.CallbackQueryId);
+                        try
+                        {
+                            await _telegramClient.AnswerCallbackQuery(context.ResponseMessage.CallbackQueryId);
+                        }
+                        catch (Exception e)
+                        {
+                            _logger.LogError(e, "AnswerCallbackQuery error");
+                        }
                     }
                     await _telegramClient.SendAsync(context.ResponseMessage);
                 }

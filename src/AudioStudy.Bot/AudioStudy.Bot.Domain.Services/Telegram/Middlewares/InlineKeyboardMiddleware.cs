@@ -60,6 +60,31 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                         new OpenCourseCallbackData(data.Skip(1)));
                     pipelineContext.Intent = Intent.OpenCourse;
                     break;
+                case TelegramInlineBtnType.StartLearning:
+                    responseMessage = await _courseHelper.StartCourse(pipelineContext.User,
+                        new StartLearningCallbackData(data.Skip(1)));
+                    pipelineContext.Intent = Intent.StartLearning;
+                    break;
+                case TelegramInlineBtnType.StopLearning:
+                    responseMessage = await _courseHelper.StopCourse(pipelineContext.User,
+                        new StopLearningCallbackData(data.Skip(1)));
+                    pipelineContext.Intent = Intent.StopLearning;
+                    break;
+                case TelegramInlineBtnType.StartOverFromCoursePage:
+                    responseMessage = await _courseHelper.StartOverCourse(pipelineContext.User,
+                        new StartOverFromCoursePageCallbackData(data.Skip(1)));
+                    pipelineContext.Intent = Intent.StartCourseOver;
+                    break;
+                case TelegramInlineBtnType.ConfirmStopLearning:
+                    responseMessage = await _courseHelper.ConfirmStopCourse(pipelineContext.User,
+                        new ConfirmStopLearningCallbackData(data.Skip(1)));
+                    pipelineContext.Intent = Intent.StopLearning;
+                    break;
+                case TelegramInlineBtnType.ConfirmStartOverFromCoursePage:
+                    responseMessage = await _courseHelper.ConfirmStartOverCourse(pipelineContext.User,
+                        new ConfirmStartOverFromCoursePageCallbackData(data.Skip(1)));
+                    pipelineContext.Intent = Intent.StartCourseOver;
+                    break;
             }
 
             if (responseMessage != null)
