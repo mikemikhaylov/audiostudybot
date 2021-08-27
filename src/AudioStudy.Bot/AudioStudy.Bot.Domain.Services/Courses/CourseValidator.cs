@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using AudioStudy.Bot.Domain.Model.Courses;
 
 namespace AudioStudy.Bot.Domain.Services.Courses
@@ -64,7 +65,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
 
         public static void ValidateCard(Card card)
         {
-            CheckTextLength(card.Text, card.Translation, card.Transcription, card.Usage, card.UsageTranslation);
+            CheckTextLength(JsonSerializer.Serialize(card));
             if (string.IsNullOrWhiteSpace(card.Text))
             {
                 throw new Exception($"{nameof(card.Text)} is required");

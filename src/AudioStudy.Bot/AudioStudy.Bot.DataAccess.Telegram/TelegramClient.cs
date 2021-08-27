@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using AudioStudy.Bot.DataAccess.Abstractions;
 using AudioStudy.Bot.Domain.Model.Telegram;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Telegram.Bot;
 using Telegram.Bot.Types.Enums;
@@ -15,11 +16,14 @@ namespace AudioStudy.Bot.DataAccess.Telegram
 {
     public class TelegramClient : ITelegramClient
     {
+        private readonly ILogger<TelegramClient> _logger;
         private readonly TelegramOptions _config;
         private readonly TelegramBotClient _telegramBotClient;
 
-        public TelegramClient(IOptions<TelegramOptions> config)
+        public TelegramClient(IOptions<TelegramOptions> config,
+            ILogger<TelegramClient> logger)
         {
+            _logger = logger;
             _config = config.Value;
             _telegramBotClient = new TelegramBotClient(_config.Token);
         }
@@ -57,30 +61,49 @@ namespace AudioStudy.Bot.DataAccess.Telegram
             {
                 if (!string.IsNullOrWhiteSpace(message.FileId) || message.IsCaption)
                 {
-                    await _telegramBotClient.EditMessageCaptionAsync(message.ChatId, message.CallbackMessageId.Value, message.Text, replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+                    await _telegramBotClient.EditMessageCaptionAsync(message.ChatId, message.CallbackMessageId.Value,
+                        SanitizeText(message.Text, _config.CaptionMaxLength),
+                        replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null,
+                        parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
                 }
                 else
                 {
                     await
                         _telegramBotClient.EditMessageTextAsync(message.ChatId, message.CallbackMessageId.Value,
-                            message.Text, disableWebPagePreview: true,
+                            SanitizeText(message.Text, _config.TextMaxLength), disableWebPagePreview: true,
                             replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null,
                             parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
                 }
+
                 return;
             }
 
             if (!string.IsNullOrWhiteSpace(message.FileId))
             {
-                await _telegramBotClient.SendAudioAsync(message.ChatId, new InputOnlineFile(message.FileId), message.Text, replyMarkup: replyMarkup, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+                await _telegramBotClient.SendAudioAsync(message.ChatId, new InputOnlineFile(message.FileId),
+                    SanitizeText(message.Text, _config.CaptionMaxLength), replyMarkup: replyMarkup,
+                    parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
                 return;
             }
-            await _telegramBotClient.SendTextMessageAsync(message.ChatId, message.Text, replyMarkup: replyMarkup, parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+
+            await _telegramBotClient.SendTextMessageAsync(message.ChatId,
+                SanitizeText(message.Text, _config.TextMaxLength), replyMarkup: replyMarkup,
+                parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
         }
 
         public async Task AnswerCallbackQuery(string callBackQueryId)
         {
             await _telegramBotClient.AnswerCallbackQueryAsync(callBackQueryId);
+        }
+
+        private string SanitizeText(string text, int maxLength)
+        {
+            if (text == null || text.Length <= maxLength)
+            {
+                return text;
+            };
+            _logger.LogError($"Message text is greater than {maxLength}: ${text.Substring(0, 50)}");
+            return text.Substring(0, maxLength);
         }
 
         private static TelegramChatType GetTelegramChatType(ChatType? chatType)
@@ -94,7 +117,7 @@ namespace AudioStudy.Bot.DataAccess.Telegram
                 _ => TelegramChatType.Unknown
             };
         }
-        
+
         private static void GetMarkUp(TelegramResponseMessage message, out IReplyMarkup replyMarkup)
         {
             replyMarkup = null;
@@ -104,10 +127,11 @@ namespace AudioStudy.Bot.DataAccess.Telegram
                     .Select(x => x.Select(xx => InlineKeyboardButton.WithCallbackData(xx.Text, xx.CallbackData))
                         .ToArray()).ToArray());
             }
-            else 
-            if (message.ReplyButtons?.Where(x => x != null).SelectMany(x => x).Any() == true)
+            else if (message.ReplyButtons?.Where(x => x != null).SelectMany(x => x).Any() == true)
             {
-                replyMarkup = new ReplyKeyboardMarkup(message.ReplyButtons.Where(x => x != null).Select(x => x.Select(xx => new KeyboardButton(xx.Text)).ToArray()).ToArray(),
+                replyMarkup = new ReplyKeyboardMarkup(
+                    message.ReplyButtons.Where(x => x != null)
+                        .Select(x => x.Select(xx => new KeyboardButton(xx.Text)).ToArray()).ToArray(),
                     resizeKeyboard: true);
             }
             else if (message.ReplyButtons?.Length == 0)
