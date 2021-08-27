@@ -13,6 +13,8 @@ namespace AudioStudy.Bot.DataAccess.Abstractions
         public FieldUpdateCommand<TelegramState> State { get; set; }
         public FieldUpdateCommand<DateTime?> RatingDate { get; set; }
         public FieldUpdateCommand<UserCourse[]> UserCourses { get; set; }
+        public FieldUpdateCommand<string> LearningCourseId { get; set; }
+        
 
         public static class Factory
         {
@@ -50,6 +52,14 @@ namespace AudioStudy.Bot.DataAccess.Abstractions
                 return new UserUpdateCommand()
                 {
                     UserCourses = new FieldUpdateCommand<UserCourse[]>(userCourses)
+                };
+            }
+            
+            public static UserUpdateCommand UpdateLearningCourse(string courseId)
+            {
+                return new UserUpdateCommand
+                {
+                    LearningCourseId = new FieldUpdateCommand<string>(courseId)
                 };
             }
         }

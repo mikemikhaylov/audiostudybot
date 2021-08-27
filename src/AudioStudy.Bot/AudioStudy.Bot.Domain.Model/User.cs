@@ -14,5 +14,6 @@ namespace AudioStudy.Bot.Domain.Model
         public string LearningLanguage { get; set; }
         public string KnowsLanguage { get; set; }
         public UserCourse[] Courses { get; set; }
+        public string LearningCourseId { get; set; }
     }
 }

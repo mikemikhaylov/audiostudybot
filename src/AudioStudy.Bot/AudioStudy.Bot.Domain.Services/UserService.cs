@@ -81,7 +81,19 @@ namespace AudioStudy.Bot.Domain.Services
             var courses = GetUserCourses(user);
             if (courses.Any(x => x.Id == course.Id))
             {
-                await SetUserCourses(user, courses.Where(x => x.Id != course.Id).ToArray());
+                Action<UserUpdateCommand> additionalUpdate =
+                    user.LearningCourseId == course.Id ? (c) =>
+                    {
+                        c.Combine((uc, fu) => uc.LearningCourseId = fu, (string)null);
+                    } : null; 
+                await SetUserCourses(user, courses.Where(x => x.Id != course.Id).ToArray(), additionalUpdate);
+            }
+            else
+            {
+                if (user.LearningCourseId == course.Id)
+                {
+                    await UpdateAsync(user, UserUpdateCommand.Factory.UpdateLearningCourse(null));
+                }
             }
         }
 
@@ -102,9 +114,11 @@ namespace AudioStudy.Bot.Domain.Services
                 new[] {userCourse}.Concat(userCourses.Where(x => x.Id != course.Id)).ToArray());
         }
 
-        private async Task SetUserCourses(User user, UserCourse[] userCourses)
+        private async Task SetUserCourses(User user, UserCourse[] userCourses, Action<UserUpdateCommand> additionalUpdate = null)
         {
-            await UpdateAsync(user, UserUpdateCommand.Factory.UpdateCourses(userCourses));
+            var cmd = UserUpdateCommand.Factory.UpdateCourses(userCourses);
+            additionalUpdate?.Invoke(cmd);
+            await UpdateAsync(user, cmd);
         }
 
         private UserCourse CreateUserCourse(Course course) => new UserCourse
