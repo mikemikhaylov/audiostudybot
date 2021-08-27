@@ -57,5 +57,10 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string CoursesToLearnMessage(Language language);
         string NoCoursesToLearnMessage(Language language);
         string InlineCoursesBtnLabel(Language language);
+        string RatingInstruction(Language language);
+        string ThanksForRating(Language language);
+        string WillRateLaterAnswer(Language language);
+        string WillNotRateAnswer(Language language);
+        string UnknownCommand(Language language);
     }
 }

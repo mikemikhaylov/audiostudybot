@@ -14,18 +14,21 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
         private readonly ICourseHelper _courseHelper;
         private readonly ICourseCardsPagingHelper _courseCardsPagingHelper;
         private readonly ILessonCardsPagingHelper _lessonCardsPagingHelper;
+        private readonly ILearnHelper _learnHelper;
 
         public InlineKeyboardMiddleware(IFilterHelper filterHelper,
             IFullCourseListPagingHelper fullCourseListPagingHelper,
             ICourseHelper courseHelper,
             ICourseCardsPagingHelper courseCardsPagingHelper,
-            ILessonCardsPagingHelper lessonCardsPagingHelper)
+            ILessonCardsPagingHelper lessonCardsPagingHelper,
+            ILearnHelper learnHelper)
         {
             _filterHelper = filterHelper;
             _fullCourseListPagingHelper = fullCourseListPagingHelper;
             _courseHelper = courseHelper;
             _courseCardsPagingHelper = courseCardsPagingHelper;
             _lessonCardsPagingHelper = lessonCardsPagingHelper;
+            _learnHelper = learnHelper;
         }
         public async Task HandleMessageAsync(TelegramPipelineContext pipelineContext)
         {
@@ -111,6 +114,18 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                     responseMessage = await _lessonCardsPagingHelper.GetPageAsync(pipelineContext.User,
                         new OpenLessonCardsPageCallbackData(data.Skip(1)));
                     pipelineContext.Intent = Intent.ShowLessonCards;
+                    break;
+                case TelegramInlineBtnType.OpenCourseListPageToStudy:
+                    responseMessage = await _learnHelper.GetPageAsync(pipelineContext.User, new OpenPageToStudyCallbackData(data.Skip(1)));
+                    pipelineContext.Intent = Intent.OpenCourseListToStudyPage;
+                    break;
+                case TelegramInlineBtnType.OpenLearnPage:
+                    responseMessage = await _learnHelper.GetLearnPage(pipelineContext.User);
+                    pipelineContext.Intent = Intent.LearnPage;
+                    break;
+                case TelegramInlineBtnType.SetCourseToLearn:
+                    responseMessage = await _learnHelper.SetCourseToLearn(pipelineContext.User, new SetCourseToLearnCallbackData(data.Skip(1)));
+                    pipelineContext.Intent = Intent.SetCourseToLearn;
                     break;
             }
 

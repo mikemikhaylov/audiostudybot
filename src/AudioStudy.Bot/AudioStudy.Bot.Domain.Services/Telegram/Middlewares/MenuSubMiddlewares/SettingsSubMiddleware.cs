@@ -58,8 +58,9 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares
             }
             else
             {
-                pipelineContext.ResponseMessage = pipelineContext.ResponseMessage.AddText("пожалуйста используйте кнопки").SetReplyButtons(
-                    _buttonsHelper.GetStateButtons(TelegramState.OnSettingsWindow, pipelineContext.User));
+                pipelineContext.ResponseMessage = pipelineContext.ResponseMessage.SetReplyButtons(
+                        _buttonsHelper.GetStateButtons(TelegramState.OnSettingsWindow, pipelineContext.User))
+                    .AddText(_botLocalization.UnknownCommand(pipelineContext.User.Language));
             }
             pipelineContext.Processed = true;
         }

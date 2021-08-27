@@ -59,6 +59,11 @@ namespace AudioStudy.Bot.Domain.Services
         public async Task StartLearningCourse(User user, Course course)
         {
             var courses = GetUserCourses(user);
+            Action<UserUpdateCommand> additionalUpdate =
+                string.IsNullOrWhiteSpace(user.LearningCourseId)  ? (c) =>
+                {
+                    c.Combine((uc, fu) => uc.LearningCourseId = fu, course.Id);
+                } : null; 
             var index = Array.FindIndex(courses, x => x.Id == course.Id);
             if (index > -1)
             {
@@ -68,11 +73,11 @@ namespace AudioStudy.Bot.Domain.Services
                 }
 
                 await SetUserCourses(user,
-                    new[] {courses[index]}.Concat(courses.Where(x => x.Id != course.Id)).ToArray());
+                    new[] {courses[index]}.Concat(courses.Where(x => x.Id != course.Id)).ToArray(), additionalUpdate);
             }
             else
             {
-                await SetUserCourses(user, new[] {CreateUserCourse(course)}.Concat(courses).ToArray());
+                await SetUserCourses(user, new[] {CreateUserCourse(course)}.Concat(courses).ToArray(), additionalUpdate);
             }
         }
 
@@ -99,9 +104,14 @@ namespace AudioStudy.Bot.Domain.Services
 
         public async Task StartOverCourse(User user, Course course)
         {
+            Action<UserUpdateCommand> additionalUpdate =
+                string.IsNullOrWhiteSpace(user.LearningCourseId)  ? (c) =>
+                {
+                    c.Combine((uc, fu) => uc.LearningCourseId = fu, course.Id);
+                } : null; 
             var courses = GetUserCourses(user);
             await SetUserCourses(user,
-                new[] {CreateUserCourse(course)}.Concat(courses.Where(x => x.Id != course.Id)).ToArray());
+                new[] {CreateUserCourse(course)}.Concat(courses.Where(x => x.Id != course.Id)).ToArray(), additionalUpdate);
         }
 
         public async Task SetCurrentLesson(User user, Course course, int currentLesson)

@@ -4,6 +4,7 @@ using AudioStudy.Bot.Application;
 using AudioStudy.Bot.DataAccess.Abstractions;
 using AudioStudy.Bot.DataAccess.Db;
 using AudioStudy.Bot.DataAccess.Telegram;
+using AudioStudy.Bot.Domain.Model.Courses;
 using AudioStudy.Bot.Domain.Model.Telegram;
 using AudioStudy.Bot.Domain.Services;
 using AudioStudy.Bot.Domain.Services.Courses;
@@ -55,6 +56,7 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<ILessonCardsPagingHelper, LessonCardsPagingHelper>();
                     services.AddSingleton<IFilterHelper, FilterHelper>();
                     services.AddSingleton<ICourseHelper, CourseHelper>();
+                    services.AddSingleton<ILearnHelper, LearnHelper>();
                     services.AddSingleton<CourseProvider>();
                     services.AddSingleton<ICourseProvider, CourseProvider>();
                     services.AddSingleton<LessonProvider>();

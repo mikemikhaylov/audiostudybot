@@ -178,6 +178,56 @@ namespace AudioStudy.Bot.SharedUtils.Localization
             return "back to the course";
         }
 
+        public string CurrentlyLearningCourse(Language language, (string name, int totalNumberOfLessons) course)
+        {
+            return "вот этот курс сейчас " + course.name;
+        }
+
+        public string ChooseAnotherCourse(Language language)
+        {
+            return "выбрать другой курс";
+        }
+
+        public string CoursesToLearnMessage(Language language)
+        {
+            return "choose course to learn";
+        }
+
+        public string NoCoursesToLearnMessage(Language language)
+        {
+            return "no courses to learn";
+        }
+
+        public string InlineCoursesBtnLabel(Language language)
+        {
+            return "open courses";
+        }
+
+        public string RatingInstruction(Language language)
+        {
+            return "please rate";
+        }
+
+        public string ThanksForRating(Language language)
+        {
+            return "thanks for rating";
+        }
+
+        public string WillRateLaterAnswer(Language language)
+        {
+            return "ok, see u";
+        }
+
+        public string WillNotRateAnswer(Language language)
+        {
+            return "that is pity";
+        }
+
+        public string UnknownCommand(Language language)
+        {
+            return "unknown command";
+        }
+
         private string GetKey(Language language, string key) =>
             _localizationSource.GetKey((language == Language.Unknown ? Language.English : language).GetMetadata().Short,
                 key);

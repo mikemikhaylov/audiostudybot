@@ -15,24 +15,27 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares
         private readonly IMenuSubMiddlewareFactory _menuSubMiddlewareFactory;
         private readonly IBotLocalization _botLocalization;
         private readonly IFullCourseListPagingHelper _fullCourseListPagingHelper;
+        private readonly ILearnHelper _learnHelper;
 
         public MainWindowSubMiddleware(ITelegramButtonsHelper buttonsHelper,
-                                        IUserService userService,
-                                        IMenuSubMiddlewareFactory menuSubMiddlewareFactory,
-                                        IBotLocalization botLocalization,
-                                        IFullCourseListPagingHelper fullCourseListPagingHelper)
+            IUserService userService,
+            IMenuSubMiddlewareFactory menuSubMiddlewareFactory,
+            IBotLocalization botLocalization,
+            IFullCourseListPagingHelper fullCourseListPagingHelper,
+            ILearnHelper learnHelper)
         {
             _buttonsHelper = buttonsHelper;
             _userService = userService;
             _menuSubMiddlewareFactory = menuSubMiddlewareFactory;
             _botLocalization = botLocalization;
             _fullCourseListPagingHelper = fullCourseListPagingHelper;
+            _learnHelper = learnHelper;
         }
 
         public async Task ChangeState(TelegramPipelineContext pipelineContext, UserUpdateCommand updateCommand = null)
         {
             pipelineContext.ResponseMessage = pipelineContext.ResponseMessage.SetReplyButtons(
-                _buttonsHelper.GetStateButtons(TelegramState.OnMainWindow, pipelineContext.User))
+                    _buttonsHelper.GetStateButtons(TelegramState.OnMainWindow, pipelineContext.User))
                 .AddText("мы на главном меню");
             updateCommand = updateCommand.Combine((uc, fu) => uc.State = fu, TelegramState.OnMainWindow);
             await _userService.UpdateAsync(pipelineContext.User, updateCommand);
@@ -46,17 +49,33 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares
                 await sm.ChangeState(pipelineContext);
                 pipelineContext.Intent = Intent.SettingsScreenOpen;
             }
-            else if (pipelineContext.RequestMessage.Text == _botLocalization.CoursesBtnLabel(pipelineContext.User.Language))
+            else if (pipelineContext.RequestMessage.Text ==
+                     _botLocalization.CoursesBtnLabel(pipelineContext.User.Language))
             {
                 pipelineContext.ResponseMessage
                     = await _fullCourseListPagingHelper.GetFirstPageAsync(pipelineContext.User);
                 pipelineContext.Intent = Intent.CoursesList;
             }
+            else if (pipelineContext.RequestMessage.Text ==
+                     _botLocalization.LearnBtnLabel(pipelineContext.User.Language))
+            {
+                pipelineContext.ResponseMessage
+                    = await _learnHelper.GetLearnPage(pipelineContext.User);
+                pipelineContext.Intent = Intent.LearnPage;
+            }
+            else if (pipelineContext.RequestMessage.Text == _botLocalization.DoYouLikeThisBotBtnLabel(pipelineContext.User.Language))
+            {
+                IMenuSubMiddleware sm = _menuSubMiddlewareFactory.Get(TelegramState.OnRatingWindow);
+                await sm.ChangeState(pipelineContext);
+                pipelineContext.Intent = Intent.RateAskScreenOpen;
+            }
             else
             {
                 pipelineContext.ResponseMessage = pipelineContext.ResponseMessage.SetReplyButtons(
-                    _buttonsHelper.GetStateButtons(TelegramState.OnMainWindow, pipelineContext.User)).AddText("непонятно");
+                        _buttonsHelper.GetStateButtons(TelegramState.OnMainWindow, pipelineContext.User))
+                    .AddText(_botLocalization.UnknownCommand(pipelineContext.User.Language));
             }
+
             pipelineContext.Processed = true;
         }
     }

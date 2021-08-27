@@ -27,7 +27,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             _userService = userService;
         }
 
-        public Task<TelegramResponseMessage> GetFirstPageAsync(User user)
+        private Task<TelegramResponseMessage> GetFirstPageAsync(User user)
         {
             return GetPageAsync(user, new OpenPageToStudyCallbackData(0, Consts.CoursePerPage));
         }
@@ -95,14 +95,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
 
         protected override TelegramInlineBtn[][] GetNoCoursesButtons(User user)
         {
-            return new[]
-            {
-                new[]
-                {
-                    new TelegramInlineBtn(_botLocalization.InlineCoursesBtnLabel(user.Language),
-                        new OpenPageCallbackData(0, Consts.CoursePerPage).ToString())
-                }
-            }; 
+            return null;
         }
         
         protected override TelegramInlineBtn[][] GetAdditionalTopButtons(User user, int page, int pageSize)
@@ -112,9 +105,17 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
 
         protected override TelegramInlineBtn[][] GetAdditionalBottomButtons(User user, int page, int pageSize)
         {
+            var buttons = new[]
+            {
+                new[]
+                {
+                    new TelegramInlineBtn(_botLocalization.InlineCoursesBtnLabel(user.Language),
+                        new OpenPageCallbackData(0, Consts.CoursePerPage).ToString())
+                }
+            };
             if (string.IsNullOrWhiteSpace(user.LearningCourseId))
             {
-                return null;
+                return buttons;
             }
 
             return new[]
@@ -122,9 +123,9 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                 new[]
                 {
                     new TelegramInlineBtn(_botLocalization.InlineBackBtn(user.Language),
-                        TelegramCallbackDataBase.OpenFilterToString(page, pageSize))
+                        new OpenLearnPageCallbackData().ToString())
                 }
-            };
+            }.Concat(buttons).ToArray();
         }
 
         protected override string GetOpenCourseData(User user, string courseId, int page, int pageSize)
