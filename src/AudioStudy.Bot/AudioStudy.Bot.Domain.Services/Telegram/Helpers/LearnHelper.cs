@@ -1,5 +1,8 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using AudioStudy.Bot.DataAccess.Abstractions;
 using AudioStudy.Bot.Domain.Model;
 using AudioStudy.Bot.Domain.Model.Courses;
 using AudioStudy.Bot.Domain.Model.Telegram;
@@ -13,52 +16,95 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
     {
         private readonly IBotLocalization _botLocalization;
         private readonly ICourseProvider _courseProvider;
+        private readonly IUserService _userService;
+
         public LearnHelper(IBotLocalization botLocalization,
-            ICourseProvider courseProvider) : base(botLocalization)
+            ICourseProvider courseProvider,
+            IUserService userService) : base(botLocalization)
         {
             _botLocalization = botLocalization;
             _courseProvider = courseProvider;
+            _userService = userService;
         }
-        
+
         public Task<TelegramResponseMessage> GetFirstPageAsync(User user)
         {
-            throw new System.NotImplementedException();
+            return GetPageAsync(user, new OpenPageToStudyCallbackData(0, Consts.CoursePerPage));
         }
 
-        public Task<TelegramResponseMessage> GetPageAsync(User user, OpenPageToStudyCallbackData data)
+        public async Task<TelegramResponseMessage> GetPageAsync(User user, OpenPageToStudyCallbackData data)
         {
-            throw new System.NotImplementedException();
+            return await GetPageAsync(user, data.Page, data.PageSize);
         }
 
-        public Task<TelegramResponseMessage> GetLearnPage(User user)
+        public async Task<TelegramResponseMessage> GetLearnPage(User user)
         {
-            throw new System.NotImplementedException();
+            if (string.IsNullOrWhiteSpace(user.LearningCourseId))
+            {
+                return await GetFirstPageAsync(user);
+            }
+
+            var course = _courseProvider.GetCourse(user.LearningCourseId);
+            if (course == null)
+            {
+                await _userService.UpdateAsync(user, UserUpdateCommand.Factory.UpdateLearningCourse(null));
+                return await GetFirstPageAsync(user);
+            }
+
+            return new TelegramResponseMessage
+            {
+                Text = _botLocalization.CurrentlyLearningCourse(user.Language,
+                    (_courseProvider.GetCourseName(user.Language, course), 0)),
+                InlineButtons = new[]
+                {
+                    new[]
+                    {
+                        new TelegramInlineBtn(_botLocalization.GetNextLesson(user.Language),
+                            new GetNextLessonCallbackData(course.Id).ToString())
+                    },
+                    new[]
+                    {
+                        new TelegramInlineBtn(_botLocalization.ChooseAnotherCourse(user.Language),
+                            new OpenPageToStudyCallbackData(0, Consts.CoursePerPage).ToString())
+                    }
+                }
+            };
         }
 
-        public Task<TelegramResponseMessage> SetCourseToLearn(User user, SetCourseToLearnCallbackData data)
+        public async Task<TelegramResponseMessage> SetCourseToLearn(User user, SetCourseToLearnCallbackData data)
         {
-            throw new System.NotImplementedException();
-        }
-
-        public LearnHelper(IBotLocalization botLocalization) : base(botLocalization)
-        {
+            await _userService.UpdateAsync(user, UserUpdateCommand.Factory.UpdateLearningCourse(data.CourseId));
+            return await GetLearnPage(user);
         }
 
         protected override IReadOnlyList<Course> GetCourses(User user, int skip, int take)
         {
-            throw new System.NotImplementedException();
+            return (user.Courses ?? Array.Empty<UserCourse>()).Select(x => _courseProvider.GetCourse(x.Id))
+                .Where(x => x != null).Skip(skip).Take(take).ToList();
         }
 
         protected override string GetCoursesMessage(User user)
         {
-            throw new System.NotImplementedException();
+            return _botLocalization.CoursesToLearnMessage(user.Language);
         }
 
         protected override string GetNoCoursesMessage(User user)
         {
-            throw new System.NotImplementedException();
+            return _botLocalization.NoCoursesToLearnMessage(user.Language);
         }
 
+        protected override TelegramInlineBtn[][] GetNoCoursesButtons(User user)
+        {
+            return new[]
+            {
+                new[]
+                {
+                    new TelegramInlineBtn(_botLocalization.InlineCoursesBtnLabel(user.Language),
+                        new OpenPageCallbackData(0, Consts.CoursePerPage).ToString())
+                }
+            }; 
+        }
+        
         protected override TelegramInlineBtn[][] GetAdditionalTopButtons(User user, int page, int pageSize)
         {
             return null;
@@ -70,6 +116,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             {
                 return null;
             }
+
             return new[]
             {
                 new[]

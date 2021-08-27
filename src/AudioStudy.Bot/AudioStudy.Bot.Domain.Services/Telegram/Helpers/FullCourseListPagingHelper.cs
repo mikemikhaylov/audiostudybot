@@ -27,6 +27,11 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         public Task<TelegramResponseMessage> GetFirstPageAsync(User user) =>
             GetPageAsync(user, new OpenPageCallbackData(0, Consts.CoursePerPage));
 
+        public async Task<TelegramResponseMessage> GetPageAsync(User user, OpenPageCallbackData data)
+        {
+            return await base.GetPageAsync(user, data.Page, data.PageSize);
+        }
+
         protected override IReadOnlyList<Course> GetCourses(User user, int skip, int take)
         {
             var userCourses = (user.Courses ?? Array.Empty<UserCourse>()).Select((x, i) => new {id = x.Id, index = i})

@@ -20,28 +20,38 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             _botLocalization = botLocalization;
         }
 
-        public Task<TelegramResponseMessage> GetPageAsync(User user, OpenPageCallbackData data)
+        public Task<TelegramResponseMessage> GetPageAsync(User user, int page, int pageSize)
         {
-            var page = data.Page;
-            var pageSize = data.PageSize;
             var skip = page * pageSize;
             var courses = GetCourses(user, skip, pageSize + 1);
             string responseText;
+            TelegramInlineBtn[][] noCoursesButtons = null;
             if (courses.Any())
             {
                 responseText = GetCoursesMessage(user);
             }
             else
             {
-                responseText = page == 0
-                    ? GetNoCoursesMessage(user)
-                    : _botLocalization.NoCoursesOnCurrentPage(user.Language);
+                if (page == 0)
+                {
+                    responseText = GetNoCoursesMessage(user);
+                    noCoursesButtons = GetNoCoursesButtons(user);
+                }
+                else
+                {
+                    responseText = _botLocalization.NoCoursesOnCurrentPage(user.Language);
+                }
             }
 
             var result = new TelegramResponseMessage
             {
                 Text = responseText
             };
+            if (noCoursesButtons != null)
+            {
+                result.InlineButtons = noCoursesButtons;
+                return Task.FromResult(result);
+            }
             TelegramInlineBtn[][] coursesBtns = null;
             TelegramInlineBtn[] pagesBtns = null;
             if (courses.Any())
@@ -95,6 +105,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
 
             var additionalTop = GetAdditionalTopButtons(user, page, pageSize);
             var additionalBottom = GetAdditionalBottomButtons(user, page, pageSize);
+            
             var buttons = new[] {additionalTop, coursesBtns, pagesBtns == null ? null : new[] {pagesBtns}, additionalBottom}
                 .Where(x => x != null).SelectMany(x => x).ToArray();
             if (buttons.Any())
@@ -108,6 +119,11 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         protected abstract IReadOnlyList<Course> GetCourses(User user, int skip, int take);
         protected abstract string GetCoursesMessage(User user);
         protected abstract string GetNoCoursesMessage(User user);
+
+        protected virtual TelegramInlineBtn[][] GetNoCoursesButtons(User user)
+        {
+            return null;
+        }
         protected abstract TelegramInlineBtn[][] GetAdditionalTopButtons(User user, int page, int pageSize);
         protected abstract TelegramInlineBtn[][] GetAdditionalBottomButtons(User user, int page, int pageSize);
         protected abstract string GetOpenCourseData(User user, string courseId, int page, int pageSize);
