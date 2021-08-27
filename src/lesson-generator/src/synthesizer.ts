@@ -12,7 +12,7 @@ const neuralVoicesSet = new Set();
 
 type speed = 'slow' | 'medium' | 'fast';
 export default class Synthesizer {
-    async synthesize(text: string, voiceId: VoiceId, speed?: speed): Promise<Buffer> {
+    public async synthesize(text: string, voiceId: VoiceId, speed?: speed): Promise<Buffer> {
         if (!speed) {
             speed = 'medium';
         }

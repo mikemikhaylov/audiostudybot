@@ -1,9 +1,10 @@
 {
-  "name": "audio-generator",
+  "name": "lesson-generator",
   "version": "1.0.0",
-  "description": "Generates audio files for AudioStudy.Bot lessons",
+  "description": "Generates lessons for AudioStudy.Bot courses",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/mikemikhaylov/audiostudybot#readme",
   "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
     "@types/node": "^16.7.2",
     "typescript": "^4.4.2"
   },
