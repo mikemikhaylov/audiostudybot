@@ -1,4 +1,5 @@
 import {VoiceId } from "aws-sdk/clients/polly";
+import {Speed} from "./types";
 
 const AWS = require('aws-sdk')
 
@@ -10,13 +11,12 @@ const polly = new AWS.Polly({
 const neuralVoicesSet = new Set();
 //neuralVoicesSet.add('Matthew');
 
-type speed = 'slow' | 'medium' | 'fast';
 export default class Synthesizer {
-    public async synthesize(text: string, voiceId: VoiceId, speed?: speed): Promise<Buffer> {
+    public async synthesize(text: string, voiceId: VoiceId, speed?: Speed): Promise<Buffer> {
         if (!speed) {
             speed = 'medium';
         }
-        text = `<prosody rate="${speed}">${text}</prosody><break time="1200ms"/>`;
+        text = `<prosody rate="${speed}">${text}</prosody>`;
         if (neuralVoicesSet.has(voiceId)) {
             text = `<amazon:domain name="conversational">${text}</amazon:domain>`
         }

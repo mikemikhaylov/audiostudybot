@@ -1,5 +1,5 @@
 import FileProvider from "./file-provider";
-import {Course, CourseLessons, LessonCard} from "./types";
+import {Course, CourseLessons} from "./types";
 
 const {resolve} = require('path');
 
@@ -12,12 +12,11 @@ export default class LessonGenerator {
     constructor(private readonly fileProvider: FileProvider) {
     }
 
-    public async generate(courseFilePath: string, dir: string): Promise<void> {
+    public async generate(course: Course, dir: string): Promise<void> {
         if (!await this.fileProvider.isEmpty(dir)) {
-            console.log('Lessons dir is not empty, skipping lessons generation');
+            console.log(`Dir ${dir} is not empty, skipping lessons generation`);
             return;
         }
-        const course: Course = JSON.parse(await this.fileProvider.readFile(courseFilePath));
         await this.createLessons(dir, course, false);
         if (course.canBeReversed) {
             await this.createLessons(dir, course, true);

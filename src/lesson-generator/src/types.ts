@@ -2,13 +2,20 @@ export type GeneratorConfig = {
     mediaOutputDirectory: string;
     courseFilePath: string;
     courseLessonsDirectory: string;
+    tmpDir: string;
+    botToken: string;
+    pauseFilePath: string;
+    chatId: number;
 }
 
 export type Course = {
     id: string;
+    name: string;
     cards: Card[];
     canBeReversed: boolean;
     version: number;
+    language: string;
+    translationLanguage: string;
 }
 
 export type LessonCard = {
@@ -34,3 +41,5 @@ export type Lesson = {
     fileId?: string;
     cards: LessonCard[];
 }
+
+export type Speed = 'slow' | 'medium' | 'fast';
