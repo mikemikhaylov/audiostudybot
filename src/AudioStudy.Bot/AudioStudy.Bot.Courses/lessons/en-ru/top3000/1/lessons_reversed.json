@@ -10,28 +10,33 @@
           "transcription": "lal",
           "translation": "behavior",
           "usage": "хорошее поведение",
-          "usageTranslation": "good behavior"
+          "usageTranslation": "good behavior",
+          "isNew": true
         },
         {
           "text": "инвалидность",
           "translation": "disability",
-          "usageTranslation": "to have a disability"
+          "usageTranslation": "to have a disability",
+          "isNew": true
         },
         {
           "text": "отряд, команда",
           "translation": "squad",
           "usage": "спасательный отряд прибыл",
-          "usageTranslation": "rescue squad has arrived"
+          "usageTranslation": "rescue squad has arrived",
+          "isNew": true
         },
         {
           "text": "пользователь, пользовательский",
           "translation": "user",
-          "usageTranslation": "I accept the user agreement"
+          "usageTranslation": "I accept the user agreement",
+          "isNew": true
         },
         {
           "text": "рождение, роды",
           "translation": "birth",
-          "usageTranslation": "the birth of an idea"
+          "usageTranslation": "the birth of an idea",
+          "isNew": true
         }
       ],
       "fileId": "CQACAgIAAxkDAAICKWEuClUqUTblW8ARdxOLKqIxJPjyAALPEAACHmRxSXfryg54RIIFIAQ"
@@ -41,27 +46,32 @@
         {
           "text": "служить, подавать, отбывать срок",
           "translation": "serve",
-          "usageTranslation": "to serve and protect"
+          "usageTranslation": "to serve and protect",
+          "isNew": true
         },
         {
           "text": "требование",
           "translation": "requirement",
-          "usageTranslation": "system requirements"
+          "usageTranslation": "system requirements",
+          "isNew": true
         },
         {
           "text": "простой",
           "translation": "plain",
-          "usageTranslation": "written in plain English"
+          "usageTranslation": "written in plain English",
+          "isNew": true
         },
         {
           "text": "вызов, оспаривание, испытывать",
           "translation": "challenge",
-          "usageTranslation": "challenge accepted"
+          "usageTranslation": "challenge accepted",
+          "isNew": true
         },
         {
           "text": "пересмотр, рецензия, отзыв",
           "translation": "review",
-          "usageTranslation": "film review"
+          "usageTranslation": "film review",
+          "isNew": true
         },
         {
           "text": "поведение",
@@ -99,27 +109,32 @@
         {
           "text": "популярный",
           "translation": "popular",
-          "usageTranslation": "popular music"
+          "usageTranslation": "popular music",
+          "isNew": true
         },
         {
           "text": "взволнованный",
           "translation": "excited",
-          "usageTranslation": "she was excited about it"
+          "usageTranslation": "she was excited about it",
+          "isNew": true
         },
         {
           "text": "слабость",
           "translation": "weakness",
-          "usageTranslation": "he had a great weakness for Scotch whisky"
+          "usageTranslation": "he had a great weakness for Scotch whisky",
+          "isNew": true
         },
         {
           "text": "через, с помощью ",
           "translation": "via",
-          "usageTranslation": "to share a Tweet via direct message"
+          "usageTranslation": "to share a Tweet via direct message",
+          "isNew": true
         },
         {
           "text": "восстанавливать",
           "translation": "recover",
-          "usageTranslation": "the economy has begun to recover"
+          "usageTranslation": "the economy has begun to recover",
+          "isNew": true
         },
         {
           "text": "поведение",
@@ -182,27 +197,32 @@
         {
           "text": "смущённый",
           "translation": "embarrassed",
-          "usageTranslation": "he felt embarrassed about it"
+          "usageTranslation": "he felt embarrassed about it",
+          "isNew": true
         },
         {
           "text": "ответственность, обязанность",
           "translation": "responsibility",
-          "usageTranslation": "with great power there must also come great responsibility"
+          "usageTranslation": "with great power there must also come great responsibility",
+          "isNew": true
         },
         {
           "text": "кислота",
           "translation": "acid",
-          "usageTranslation": "stomach acid"
+          "usageTranslation": "stomach acid",
+          "isNew": true
         },
         {
           "text": "отдельно, за исключением, на расстоянии",
           "translation": "apart",
-          "usageTranslation": "we're 600 miles apart"
+          "usageTranslation": "we're 600 miles apart",
+          "isNew": true
         },
         {
           "text": "история",
           "translation": "history",
-          "usageTranslation": "ancient history"
+          "usageTranslation": "ancient history",
+          "isNew": true
         },
         {
           "text": "поведение",
@@ -290,27 +310,32 @@
         {
           "text": "полностью",
           "translation": "fully",
-          "usageTranslation": "you are not fully qualified yet"
+          "usageTranslation": "you are not fully qualified yet",
+          "isNew": true
         },
         {
           "text": "помнить",
           "translation": "remember",
-          "usageTranslation": "the North remembers"
+          "usageTranslation": "the North remembers",
+          "isNew": true
         },
         {
           "text": "полицейский",
           "translation": "policeman",
-          "usageTranslation": "the policeman caught the thief"
+          "usageTranslation": "the policeman caught the thief",
+          "isNew": true
         },
         {
           "text": "язык",
           "translation": "tongue",
-          "usageTranslation": "she burned her tongue"
+          "usageTranslation": "she burned her tongue",
+          "isNew": true
         },
         {
           "text": "современный",
           "translation": "contemporary",
-          "usageTranslation": "museum of contemporary art"
+          "usageTranslation": "museum of contemporary art",
+          "isNew": true
         },
         {
           "text": "служить, подавать, отбывать срок",
@@ -395,27 +420,32 @@
         {
           "text": "экономист",
           "translation": "economist",
-          "usageTranslation": "The Economist is an international weekly newspaper"
+          "usageTranslation": "The Economist is an international weekly newspaper",
+          "isNew": true
         },
         {
           "text": "подметать, сметать",
           "translation": "sweep",
-          "usageTranslation": "I need to sweep the kitchen"
+          "usageTranslation": "I need to sweep the kitchen",
+          "isNew": true
         },
         {
           "text": "если не, до тех пор пока",
           "translation": "unless",
-          "usageTranslation": "unless you have a photographic memory, repetition is important"
+          "usageTranslation": "unless you have a photographic memory, repetition is important",
+          "isNew": true
         },
         {
           "text": "толстый, плотный",
           "translation": "thick",
-          "usageTranslation": "a thick sandwich"
+          "usageTranslation": "a thick sandwich",
+          "isNew": true
         },
         {
           "text": "каждый",
           "translation": "everyone",
-          "usageTranslation": "he knew everyone in the business"
+          "usageTranslation": "he knew everyone in the business",
+          "isNew": true
         },
         {
           "text": "поведение",
@@ -528,27 +558,32 @@
         {
           "text": "бронирование, резервация",
           "translation": "reservation",
-          "usageTranslation": "a dinner reservation"
+          "usageTranslation": "a dinner reservation",
+          "isNew": true
         },
         {
           "text": "юмор",
           "translation": "humor",
-          "usageTranslation": "humor often helps a tense situation"
+          "usageTranslation": "humor often helps a tense situation",
+          "isNew": true
         },
         {
           "text": "июнь",
           "translation": "June",
-          "usageTranslation": "his birthday is on 21 June"
+          "usageTranslation": "his birthday is on 21 June",
+          "isNew": true
         },
         {
           "text": "сохранять",
           "translation": "preserve",
-          "usageTranslation": "this vase has been preserved intact"
+          "usageTranslation": "this vase has been preserved intact",
+          "isNew": true
         },
         {
           "text": "контекст, обстоятельства",
           "translation": "context",
-          "usageTranslation": "put it into context"
+          "usageTranslation": "put it into context",
+          "isNew": true
         },
         {
           "text": "служить, подавать, отбывать срок",
@@ -658,27 +693,32 @@
         {
           "text": "воздух",
           "translation": "air",
-          "usageTranslation": "they travelled to France by air"
+          "usageTranslation": "they travelled to France by air",
+          "isNew": true
         },
         {
           "text": "тип, разновидность",
           "translation": "sort",
-          "usageTranslation": "we both like the same sort of music"
+          "usageTranslation": "we both like the same sort of music",
+          "isNew": true
         },
         {
           "text": "хлеб",
           "translation": "bread",
-          "usageTranslation": "this bakery bakes fresh bread every day"
+          "usageTranslation": "this bakery bakes fresh bread every day",
+          "isNew": true
         },
         {
           "text": "подсудимый",
           "translation": "defendant",
-          "usageTranslation": "the defendant tried to claim that it was self-defense"
+          "usageTranslation": "the defendant tried to claim that it was self-defense",
+          "isNew": true
         },
         {
           "text": "проверять",
           "translation": "check",
-          "usageTranslation": "the doctor checked my ears and my eyes"
+          "usageTranslation": "the doctor checked my ears and my eyes",
+          "isNew": true
         },
         {
           "text": "поведение",
@@ -816,27 +856,32 @@
         {
           "text": "значительно",
           "translation": "greatly",
-          "usageTranslation": "education can greatly enrich your life"
+          "usageTranslation": "education can greatly enrich your life",
+          "isNew": true
         },
         {
           "text": "тонуть, погружаться, раковина",
           "translation": "sink",
-          "usageTranslation": "I let my body sink into the bed"
+          "usageTranslation": "I let my body sink into the bed",
+          "isNew": true
         },
         {
           "text": "молитва",
           "translation": "prayer",
-          "usageTranslation": "I'll say a prayer for him"
+          "usageTranslation": "I'll say a prayer for him",
+          "isNew": true
         },
         {
           "text": "жульничать, изменять, мошенник",
           "translation": "cheat",
-          "usageTranslation": "a liar and a cheat"
+          "usageTranslation": "a liar and a cheat",
+          "isNew": true
         },
         {
           "text": "инженер, проектировать",
           "translation": "engineer",
-          "usageTranslation": "Senior Software Engineer"
+          "usageTranslation": "Senior Software Engineer",
+          "isNew": true
         },
         {
           "text": "служить, подавать, отбывать срок",
@@ -971,27 +1016,32 @@
         {
           "text": "взрослый, предназначенный для взрослых",
           "translation": "adult",
-          "usageTranslation": "an adult must drink two litres of water every day"
+          "usageTranslation": "an adult must drink two litres of water every day",
+          "isNew": true
         },
         {
           "text": "физический",
           "translation": "physical",
-          "usageTranslation": "physical appearance"
+          "usageTranslation": "physical appearance",
+          "isNew": true
         },
         {
           "text": "серебро",
           "translation": "silver",
-          "usageTranslation": "she was wearing a delicate chain made of silver"
+          "usageTranslation": "she was wearing a delicate chain made of silver",
+          "isNew": true
         },
         {
           "text": "миска",
           "translation": "bowl",
-          "usageTranslation": "fill the bowl with sugar"
+          "usageTranslation": "fill the bowl with sugar",
+          "isNew": true
         },
         {
           "text": "разнообразие",
           "translation": "diversity",
-          "usageTranslation": "what is diversity and inclusion?"
+          "usageTranslation": "what is diversity and inclusion?",
+          "isNew": true
         },
         {
           "text": "популярный",
@@ -1126,27 +1176,32 @@
         {
           "text": "решение, решимость",
           "translation": "decision",
-          "usageTranslation": "Mr James has announced his decision to retire"
+          "usageTranslation": "Mr James has announced his decision to retire",
+          "isNew": true
         },
         {
           "text": "переводить, перемещать",
           "translation": "transfer",
-          "usageTranslation": "he would have to transfer money to his own account"
+          "usageTranslation": "he would have to transfer money to his own account",
+          "isNew": true
         },
         {
           "text": "постыдный",
           "translation": "embarrassing",
-          "usageTranslation": "she got herself into an embarrassing situation"
+          "usageTranslation": "she got herself into an embarrassing situation",
+          "isNew": true
         },
         {
           "text": "картина",
           "translation": "painting",
-          "usageTranslation": "he bought the painting as an investment"
+          "usageTranslation": "he bought the painting as an investment",
+          "isNew": true
         },
         {
           "text": "приоритет",
           "translation": "priority",
-          "usageTranslation": "to learn English words is our top priority"
+          "usageTranslation": "to learn English words is our top priority",
+          "isNew": true
         },
         {
           "text": "поведение",
@@ -1309,27 +1364,32 @@
         {
           "text": "впечатленный, поражённый",
           "translation": "impressed",
-          "usageTranslation": "I was really impressed by langcentral.com"
+          "usageTranslation": "I was really impressed by langcentral.com",
+          "isNew": true
         },
         {
           "text": "младенец",
           "translation": "infant",
-          "usageTranslation": "an infant's skin is very sensitive"
+          "usageTranslation": "an infant's skin is very sensitive",
+          "isNew": true
         },
         {
           "text": "частота",
           "translation": "frequency",
-          "usageTranslation": "a sound wave of high frequency"
+          "usageTranslation": "a sound wave of high frequency",
+          "isNew": true
         },
         {
           "text": "читатель",
           "translation": "reader",
-          "usageTranslation": "a regular reader"
+          "usageTranslation": "a regular reader",
+          "isNew": true
         },
         {
           "text": "свидетельство",
           "translation": "testimony",
-          "usageTranslation": "she gave testimony against the plaintiff"
+          "usageTranslation": "she gave testimony against the plaintiff",
+          "isNew": true
         },
         {
           "text": "служить, подавать, отбывать срок",
@@ -1489,27 +1549,32 @@
         {
           "text": "решать, снасть",
           "translation": "tackle",
-          "usageTranslation": "I'll tackle this difficult task"
+          "usageTranslation": "I'll tackle this difficult task",
+          "isNew": true
         },
         {
           "text": "безопасность",
           "translation": "security",
-          "usageTranslation": "a matter of national security"
+          "usageTranslation": "a matter of national security",
+          "isNew": true
         },
         {
           "text": "сумасшедший",
           "translation": "mad",
-          "usageTranslation": "Mad Max: Fury Road"
+          "usageTranslation": "Mad Max: Fury Road",
+          "isNew": true
         },
         {
           "text": "птица",
           "translation": "bird",
-          "usageTranslation": "most birds lay eggs in the spring"
+          "usageTranslation": "most birds lay eggs in the spring",
+          "isNew": true
         },
         {
           "text": "гора",
           "translation": "mountain",
-          "usageTranslation": "mountain biking is a sport of riding bicycles off-road"
+          "usageTranslation": "mountain biking is a sport of riding bicycles off-road",
+          "isNew": true
         },
         {
           "text": "популярный",
@@ -1669,27 +1734,32 @@
         {
           "text": "уходить, бросать, оставлять",
           "translation": "leave",
-          "usageTranslation": "leave me alone"
+          "usageTranslation": "leave me alone",
+          "isNew": true
         },
         {
           "text": "пара",
           "translation": "couple",
-          "usageTranslation": "a couple of women came in"
+          "usageTranslation": "a couple of women came in",
+          "isNew": true
         },
         {
           "text": "колонна, столбик",
           "translation": "column",
-          "usageTranslation": "we walked in a column"
+          "usageTranslation": "we walked in a column",
+          "isNew": true
         },
         {
           "text": "настраивать",
           "translation": "tune",
-          "usageTranslation": "the piano is out of tune"
+          "usageTranslation": "the piano is out of tune",
+          "isNew": true
         },
         {
           "text": "заменять",
           "translation": "replace",
-          "usageTranslation": "this antique vase can never be replaced"
+          "usageTranslation": "this antique vase can never be replaced",
+          "isNew": true
         },
         {
           "text": "поведение",
@@ -1877,27 +1947,32 @@
         {
           "text": "офис",
           "translation": "office",
-          "usageTranslation": "see you in my office"
+          "usageTranslation": "see you in my office",
+          "isNew": true
         },
         {
           "text": "представлять, внедрять ",
           "translation": "introduce",
-          "usageTranslation": "I would like to introduce you to my friends."
+          "usageTranslation": "I would like to introduce you to my friends.",
+          "isNew": true
         },
         {
           "text": "создание",
           "translation": "creation",
-          "usageTranslation": "he had been with the company since its creation"
+          "usageTranslation": "he had been with the company since its creation",
+          "isNew": true
         },
         {
           "text": "выступление, производительность",
           "translation": "performance",
-          "usageTranslation": "the annual performance review"
+          "usageTranslation": "the annual performance review",
+          "isNew": true
         },
         {
           "text": "внимание",
           "translation": "attention",
-          "usageTranslation": "attention please"
+          "usageTranslation": "attention please",
+          "isNew": true
         },
         {
           "text": "служить, подавать, отбывать срок",
@@ -2082,27 +2157,32 @@
         {
           "text": "синий",
           "translation": "blue",
-          "usageTranslation": "a dark blue raincoat"
+          "usageTranslation": "a dark blue raincoat",
+          "isNew": true
         },
         {
           "text": "проницательность, озарение",
           "translation": "insight",
-          "usageTranslation": "I had a sudden insight"
+          "usageTranslation": "I had a sudden insight",
+          "isNew": true
         },
         {
           "text": "тренажёрный зал",
           "translation": "gym",
-          "usageTranslation": "I go to the gym twice a week"
+          "usageTranslation": "I go to the gym twice a week",
+          "isNew": true
         },
         {
           "text": "наш",
           "translation": "our",
-          "usageTranslation": "we bought our house several years ago"
+          "usageTranslation": "we bought our house several years ago",
+          "isNew": true
         },
         {
           "text": "полый, пустой",
           "translation": "hollow",
-          "usageTranslation": "a hollow promise"
+          "usageTranslation": "a hollow promise",
+          "isNew": true
         },
         {
           "text": "популярный",
@@ -2287,27 +2367,32 @@
         {
           "text": "дверь",
           "translation": "door",
-          "usageTranslation": "hold the door, please"
+          "usageTranslation": "hold the door, please",
+          "isNew": true
         },
         {
           "text": "темп, курс, оценивать",
           "translation": "rate",
-          "usageTranslation": "I'd rate this film 8 out of 10"
+          "usageTranslation": "I'd rate this film 8 out of 10",
+          "isNew": true
         },
         {
           "text": "экзамен",
           "translation": "exam",
-          "usageTranslation": "she passed her exam"
+          "usageTranslation": "she passed her exam",
+          "isNew": true
         },
         {
           "text": "уход на пенсию",
           "translation": "retirement",
-          "usageTranslation": "he lived in retirement in Miami"
+          "usageTranslation": "he lived in retirement in Miami",
+          "isNew": true
         },
         {
           "text": "часто",
           "translation": "often",
-          "usageTranslation": "we often met over a cup of coffee"
+          "usageTranslation": "we often met over a cup of coffee",
+          "isNew": true
         },
         {
           "text": "смущённый",
@@ -2492,27 +2577,32 @@
         {
           "text": "разделять",
           "translation": "split",
-          "usageTranslation": "let's split"
+          "usageTranslation": "let's split",
+          "isNew": true
         },
         {
           "text": "понимать",
           "translation": "understand",
-          "usageTranslation": "I don't understand what that means"
+          "usageTranslation": "I don't understand what that means",
+          "isNew": true
         },
         {
           "text": "заголовок, название",
           "translation": "title",
-          "usageTranslation": "what's the title of the book?"
+          "usageTranslation": "what's the title of the book?",
+          "isNew": true
         },
         {
           "text": "ребёнок",
           "translation": "child",
-          "usageTranslation": "a naughty child"
+          "usageTranslation": "a naughty child",
+          "isNew": true
         },
         {
           "text": "кто бы ни",
           "translation": "whoever",
-          "usageTranslation": "whoever broke the window will have to pay for it"
+          "usageTranslation": "whoever broke the window will have to pay for it",
+          "isNew": true
         },
         {
           "text": "полностью",
@@ -2697,27 +2787,32 @@
         {
           "text": "происшествие, инцидент",
           "translation": "incident",
-          "usageTranslation": "two people often remember the same incident differently"
+          "usageTranslation": "two people often remember the same incident differently",
+          "isNew": true
         },
         {
           "text": "пуговица, кнопка",
           "translation": "button",
-          "usageTranslation": "click the button"
+          "usageTranslation": "click the button",
+          "isNew": true
         },
         {
           "text": "напряжение",
           "translation": "tension",
-          "usageTranslation": "he suffered from emotional tension"
+          "usageTranslation": "he suffered from emotional tension",
+          "isNew": true
         },
         {
           "text": "транспортное средство",
           "translation": "vehicle",
-          "usageTranslation": "possible stolen vehicle involved in accident"
+          "usageTranslation": "possible stolen vehicle involved in accident",
+          "isNew": true
         },
         {
           "text": "болезнь",
           "translation": "illness",
-          "usageTranslation": "he missed five days of school because of illness"
+          "usageTranslation": "he missed five days of school because of illness",
+          "isNew": true
         },
         {
           "text": "экономист",
@@ -2902,27 +2997,32 @@
         {
           "text": "граница",
           "translation": "border",
-          "usageTranslation": "borders are closed"
+          "usageTranslation": "borders are closed",
+          "isNew": true
         },
         {
           "text": "отсутствующий",
           "translation": "missing",
-          "usageTranslation": "you can fill in the missing details later"
+          "usageTranslation": "you can fill in the missing details later",
+          "isNew": true
         },
         {
           "text": "обязательно",
           "translation": "necessarily",
-          "usageTranslation": "that is not necessarily true"
+          "usageTranslation": "that is not necessarily true",
+          "isNew": true
         },
         {
           "text": "директор школы, главный",
           "translation": "principal",
-          "usageTranslation": "my principal goal is to learn English words on langcentral.com"
+          "usageTranslation": "my principal goal is to learn English words on langcentral.com",
+          "isNew": true
         },
         {
           "text": "восприятие",
           "translation": "perception",
-          "usageTranslation": "perception can be as important as reality"
+          "usageTranslation": "perception can be as important as reality",
+          "isNew": true
         },
         {
           "text": "бронирование, резервация",
@@ -3107,27 +3207,32 @@
         {
           "text": "газета",
           "translation": "newspaper",
-          "usageTranslation": "did you see today's newspaper?"
+          "usageTranslation": "did you see today's newspaper?",
+          "isNew": true
         },
         {
           "text": "газ",
           "translation": "gas",
-          "usageTranslation": "oxygen, hydrogen and nitrogen are all gases"
+          "usageTranslation": "oxygen, hydrogen and nitrogen are all gases",
+          "isNew": true
         },
         {
           "text": "аргумент, спор",
           "translation": "argument",
-          "usageTranslation": "to lose an argument"
+          "usageTranslation": "to lose an argument",
+          "isNew": true
         },
         {
           "text": "фермер",
           "translation": "farmer",
-          "usageTranslation": "the number of farmers is gradually decreasing"
+          "usageTranslation": "the number of farmers is gradually decreasing",
+          "isNew": true
         },
         {
           "text": "меньше, несколько",
           "translation": "fewer",
-          "usageTranslation": "the fewer the better"
+          "usageTranslation": "the fewer the better",
+          "isNew": true
         },
         {
           "text": "воздух",
@@ -3312,27 +3417,32 @@
         {
           "text": "парень, приятель",
           "translation": "fellow",
-          "usageTranslation": "there’s a fellow at the door"
+          "usageTranslation": "there’s a fellow at the door",
+          "isNew": true
         },
         {
           "text": "пятнадцать",
           "translation": "fifteen",
-          "usageTranslation": "fifteen and fifteen make thirty"
+          "usageTranslation": "fifteen and fifteen make thirty",
+          "isNew": true
         },
         {
           "text": "легко, охотно",
           "translation": "readily",
-          "usageTranslation": "she readily agreed to do it"
+          "usageTranslation": "she readily agreed to do it",
+          "isNew": true
         },
         {
           "text": "высота",
           "translation": "height",
-          "usageTranslation": "columns rising to 65 feet in height"
+          "usageTranslation": "columns rising to 65 feet in height",
+          "isNew": true
         },
         {
           "text": "прекрасный, роскошный",
           "translation": "gorgeous",
-          "usageTranslation": "it's a gorgeous night"
+          "usageTranslation": "it's a gorgeous night",
+          "isNew": true
         },
         {
           "text": "значительно",
@@ -3517,27 +3627,32 @@
         {
           "text": "агентство",
           "translation": "agency",
-          "usageTranslation": "an estate agency"
+          "usageTranslation": "an estate agency",
+          "isNew": true
         },
         {
           "text": "доброта",
           "translation": "goodness",
-          "usageTranslation": "but her spirit, her goodness"
+          "usageTranslation": "but her spirit, her goodness",
+          "isNew": true
         },
         {
           "text": "прохладный, спокойный, отлично",
           "translation": "cool",
-          "usageTranslation": "the cool of the night air"
+          "usageTranslation": "the cool of the night air",
+          "isNew": true
         },
         {
           "text": "вечер",
           "translation": "evening",
-          "usageTranslation": "good evening"
+          "usageTranslation": "good evening",
+          "isNew": true
         },
         {
           "text": "стремительно",
           "translation": "rapidly",
-          "usageTranslation": "that object was moving rapidly"
+          "usageTranslation": "that object was moving rapidly",
+          "isNew": true
         },
         {
           "text": "взрослый, предназначенный для взрослых",
@@ -3722,27 +3837,32 @@
         {
           "text": "стена",
           "translation": "wall",
-          "usageTranslation": "I would like to put pictures on the wall"
+          "usageTranslation": "I would like to put pictures on the wall",
+          "isNew": true
         },
         {
           "text": "осторожный",
           "translation": "careful",
-          "usageTranslation": "just be careful"
+          "usageTranslation": "just be careful",
+          "isNew": true
         },
         {
           "text": "принуждение",
           "translation": "enforcement",
-          "usageTranslation": "he works for law enforcement"
+          "usageTranslation": "he works for law enforcement",
+          "isNew": true
         },
         {
           "text": "команда, владение",
           "translation": "command",
-          "usageTranslation": "who's in command?"
+          "usageTranslation": "who's in command?",
+          "isNew": true
         },
         {
           "text": "вытирать",
           "translation": "wipe",
-          "usageTranslation": "wipe your feet on the way in"
+          "usageTranslation": "wipe your feet on the way in",
+          "isNew": true
         },
         {
           "text": "решение, решимость",
@@ -3927,27 +4047,32 @@
         {
           "text": "сообщать",
           "translation": "inform",
-          "usageTranslation": "he informed us about his arrival"
+          "usageTranslation": "he informed us about his arrival",
+          "isNew": true
         },
         {
           "text": "растущий",
           "translation": "growing",
-          "usageTranslation": "his business is growing very fast"
+          "usageTranslation": "his business is growing very fast",
+          "isNew": true
         },
         {
           "text": "ферма",
           "translation": "farm",
-          "usageTranslation": "she grew up on a dairy farm"
+          "usageTranslation": "she grew up on a dairy farm",
+          "isNew": true
         },
         {
           "text": "класть",
           "translation": "lay",
-          "usageTranslation": "Carmen laid her head on my shoulder"
+          "usageTranslation": "Carmen laid her head on my shoulder",
+          "isNew": true
         },
         {
           "text": "волшебный",
           "translation": "magic",
-          "usageTranslation": "the witch put a magic spell on the prince"
+          "usageTranslation": "the witch put a magic spell on the prince",
+          "isNew": true
         },
         {
           "text": "впечатленный, поражённый",
@@ -4132,27 +4257,32 @@
         {
           "text": "предупреждать",
           "translation": "warn",
-          "usageTranslation": "the doctor warned me about the dangers of smoking"
+          "usageTranslation": "the doctor warned me about the dangers of smoking",
+          "isNew": true
         },
         {
           "text": "чрезвычайно, особенно",
           "translation": "particularly",
-          "usageTranslation": "I don't particularly want to be reminded of that time"
+          "usageTranslation": "I don't particularly want to be reminded of that time",
+          "isNew": true
         },
         {
           "text": "преподаватель",
           "translation": "educator",
-          "usageTranslation": "a private educator"
+          "usageTranslation": "a private educator",
+          "isNew": true
         },
         {
           "text": "качество",
           "translation": "quality",
-          "usageTranslation": "the hotel offers comfort and quality"
+          "usageTranslation": "the hotel offers comfort and quality",
+          "isNew": true
         },
         {
           "text": "уважение",
           "translation": "respect",
-          "usageTranslation": "show some respect"
+          "usageTranslation": "show some respect",
+          "isNew": true
         },
         {
           "text": "решать, снасть",
@@ -4337,27 +4467,32 @@
         {
           "text": "сотрудничество",
           "translation": "cooperation",
-          "usageTranslation": "we would like to ask for your cooperation"
+          "usageTranslation": "we would like to ask for your cooperation",
+          "isNew": true
         },
         {
           "text": "автор",
           "translation": "author",
-          "usageTranslation": "he is the author of several books"
+          "usageTranslation": "he is the author of several books",
+          "isNew": true
         },
         {
           "text": "время жизни",
           "translation": "lifetime",
-          "usageTranslation": "this is the chance of a lifetime"
+          "usageTranslation": "this is the chance of a lifetime",
+          "isNew": true
         },
         {
           "text": "презентация",
           "translation": "presentation",
-          "usageTranslation": "your presentation was great"
+          "usageTranslation": "your presentation was great",
+          "isNew": true
         },
         {
           "text": "вспоминать",
           "translation": "recall",
-          "usageTranslation": "Total Recall is a 1990 American science fiction action film"
+          "usageTranslation": "Total Recall is a 1990 American science fiction action film",
+          "isNew": true
         },
         {
           "text": "уходить, бросать, оставлять",
@@ -4542,27 +4677,32 @@
         {
           "text": "компания",
           "translation": "company",
-          "usageTranslation": "Mike opened his own company"
+          "usageTranslation": "Mike opened his own company",
+          "isNew": true
         },
         {
           "text": "подпись",
           "translation": "signature",
-          "usageTranslation": "put your signature on these documents"
+          "usageTranslation": "put your signature on these documents",
+          "isNew": true
         },
         {
           "text": "описание",
           "translation": "description",
-          "usageTranslation": "the catalogue gives a full description of each product"
+          "usageTranslation": "the catalogue gives a full description of each product",
+          "isNew": true
         },
         {
           "text": "украшение",
           "translation": "decoration",
-          "usageTranslation": "Christmas decorations"
+          "usageTranslation": "Christmas decorations",
+          "isNew": true
         },
         {
           "text": "реклама",
           "translation": "advertising",
-          "usageTranslation": "an advertising agency"
+          "usageTranslation": "an advertising agency",
+          "isNew": true
         },
         {
           "text": "офис",
@@ -4747,27 +4887,32 @@
         {
           "text": "спасать",
           "translation": "rescue",
-          "usageTranslation": "rescue squad has arrived"
+          "usageTranslation": "rescue squad has arrived",
+          "isNew": true
         },
         {
           "text": "всё",
           "translation": "everything",
-          "usageTranslation": "everything is fine"
+          "usageTranslation": "everything is fine",
+          "isNew": true
         },
         {
           "text": "искать, стремиться",
           "translation": "seek",
-          "usageTranslation": "the prince is seeking a wife"
+          "usageTranslation": "the prince is seeking a wife",
+          "isNew": true
         },
         {
           "text": "брать на время",
           "translation": "borrow",
-          "usageTranslation": "you can borrow an umbrella if you need one"
+          "usageTranslation": "you can borrow an umbrella if you need one",
+          "isNew": true
         },
         {
           "text": "в любом случае",
           "translation": "anyway",
-          "usageTranslation": "it's too late now anyway."
+          "usageTranslation": "it's too late now anyway.",
+          "isNew": true
         },
         {
           "text": "синий",
@@ -4952,27 +5097,32 @@
         {
           "text": "сбегать",
           "translation": "flee",
-          "usageTranslation": "he was forced to flee the country"
+          "usageTranslation": "he was forced to flee the country",
+          "isNew": true
         },
         {
           "text": "чушь собачья, дерьмо",
           "translation": "shit",
-          "usageTranslation": "I don't believe this shit!"
+          "usageTranslation": "I don't believe this shit!",
+          "isNew": true
         },
         {
           "text": "ассортимент, диапазон",
           "translation": "range",
-          "usageTranslation": "she was gifted with an incredible vocal range"
+          "usageTranslation": "she was gifted with an incredible vocal range",
+          "isNew": true
         },
         {
           "text": "единственный, не состоящий в браке",
           "translation": "single",
-          "usageTranslation": "he sent her a single red rose"
+          "usageTranslation": "he sent her a single red rose",
+          "isNew": true
         },
         {
           "text": "характеризовать, давать определение",
           "translation": "define",
-          "usageTranslation": "it's hard to define it precisely"
+          "usageTranslation": "it's hard to define it precisely",
+          "isNew": true
         },
         {
           "text": "дверь",
@@ -5157,27 +5307,32 @@
         {
           "text": "разделять",
           "translation": "split",
-          "usageTranslation": "let's split"
+          "usageTranslation": "let's split",
+          "isNew": true
         },
         {
           "text": "понимать",
           "translation": "understand",
-          "usageTranslation": "I don't understand what that means"
+          "usageTranslation": "I don't understand what that means",
+          "isNew": true
         },
         {
           "text": "заголовок, название",
           "translation": "title",
-          "usageTranslation": "what's the title of the book?"
+          "usageTranslation": "what's the title of the book?",
+          "isNew": true
         },
         {
           "text": "ребёнок",
           "translation": "child",
-          "usageTranslation": "a naughty child"
+          "usageTranslation": "a naughty child",
+          "isNew": true
         },
         {
           "text": "кто бы ни",
           "translation": "whoever",
-          "usageTranslation": "whoever broke the window will have to pay for it"
+          "usageTranslation": "whoever broke the window will have to pay for it",
+          "isNew": true
         },
         {
           "text": "газета",
@@ -5337,27 +5492,32 @@
         {
           "text": "происшествие, инцидент",
           "translation": "incident",
-          "usageTranslation": "two people often remember the same incident differently"
+          "usageTranslation": "two people often remember the same incident differently",
+          "isNew": true
         },
         {
           "text": "пуговица, кнопка",
           "translation": "button",
-          "usageTranslation": "click the button"
+          "usageTranslation": "click the button",
+          "isNew": true
         },
         {
           "text": "напряжение",
           "translation": "tension",
-          "usageTranslation": "he suffered from emotional tension"
+          "usageTranslation": "he suffered from emotional tension",
+          "isNew": true
         },
         {
           "text": "транспортное средство",
           "translation": "vehicle",
-          "usageTranslation": "possible stolen vehicle involved in accident"
+          "usageTranslation": "possible stolen vehicle involved in accident",
+          "isNew": true
         },
         {
           "text": "болезнь",
           "translation": "illness",
-          "usageTranslation": "he missed five days of school because of illness"
+          "usageTranslation": "he missed five days of school because of illness",
+          "isNew": true
         },
         {
           "text": "парень, приятель",
@@ -5492,27 +5652,32 @@
         {
           "text": "граница",
           "translation": "border",
-          "usageTranslation": "borders are closed"
+          "usageTranslation": "borders are closed",
+          "isNew": true
         },
         {
           "text": "отсутствующий",
           "translation": "missing",
-          "usageTranslation": "you can fill in the missing details later"
+          "usageTranslation": "you can fill in the missing details later",
+          "isNew": true
         },
         {
           "text": "обязательно",
           "translation": "necessarily",
-          "usageTranslation": "that is not necessarily true"
+          "usageTranslation": "that is not necessarily true",
+          "isNew": true
         },
         {
           "text": "директор школы, главный",
           "translation": "principal",
-          "usageTranslation": "my principal goal is to learn English words on langcentral.com"
+          "usageTranslation": "my principal goal is to learn English words on langcentral.com",
+          "isNew": true
         },
         {
           "text": "восприятие",
           "translation": "perception",
-          "usageTranslation": "perception can be as important as reality"
+          "usageTranslation": "perception can be as important as reality",
+          "isNew": true
         },
         {
           "text": "агентство",
@@ -5622,27 +5787,32 @@
         {
           "text": "газета",
           "translation": "newspaper",
-          "usageTranslation": "did you see today's newspaper?"
+          "usageTranslation": "did you see today's newspaper?",
+          "isNew": true
         },
         {
           "text": "газ",
           "translation": "gas",
-          "usageTranslation": "oxygen, hydrogen and nitrogen are all gases"
+          "usageTranslation": "oxygen, hydrogen and nitrogen are all gases",
+          "isNew": true
         },
         {
           "text": "аргумент, спор",
           "translation": "argument",
-          "usageTranslation": "to lose an argument"
+          "usageTranslation": "to lose an argument",
+          "isNew": true
         },
         {
           "text": "фермер",
           "translation": "farmer",
-          "usageTranslation": "the number of farmers is gradually decreasing"
+          "usageTranslation": "the number of farmers is gradually decreasing",
+          "isNew": true
         },
         {
           "text": "меньше, несколько",
           "translation": "fewer",
-          "usageTranslation": "the fewer the better"
+          "usageTranslation": "the fewer the better",
+          "isNew": true
         },
         {
           "text": "стена",
@@ -5727,27 +5897,32 @@
         {
           "text": "парень, приятель",
           "translation": "fellow",
-          "usageTranslation": "there’s a fellow at the door"
+          "usageTranslation": "there’s a fellow at the door",
+          "isNew": true
         },
         {
           "text": "пятнадцать",
           "translation": "fifteen",
-          "usageTranslation": "fifteen and fifteen make thirty"
+          "usageTranslation": "fifteen and fifteen make thirty",
+          "isNew": true
         },
         {
           "text": "легко, охотно",
           "translation": "readily",
-          "usageTranslation": "she readily agreed to do it"
+          "usageTranslation": "she readily agreed to do it",
+          "isNew": true
         },
         {
           "text": "высота",
           "translation": "height",
-          "usageTranslation": "columns rising to 65 feet in height"
+          "usageTranslation": "columns rising to 65 feet in height",
+          "isNew": true
         },
         {
           "text": "прекрасный, роскошный",
           "translation": "gorgeous",
-          "usageTranslation": "it's a gorgeous night"
+          "usageTranslation": "it's a gorgeous night",
+          "isNew": true
         },
         {
           "text": "сообщать",
@@ -5832,27 +6007,32 @@
         {
           "text": "агентство",
           "translation": "agency",
-          "usageTranslation": "an estate agency"
+          "usageTranslation": "an estate agency",
+          "isNew": true
         },
         {
           "text": "доброта",
           "translation": "goodness",
-          "usageTranslation": "but her spirit, her goodness"
+          "usageTranslation": "but her spirit, her goodness",
+          "isNew": true
         },
         {
           "text": "прохладный, спокойный, отлично",
           "translation": "cool",
-          "usageTranslation": "the cool of the night air"
+          "usageTranslation": "the cool of the night air",
+          "isNew": true
         },
         {
           "text": "вечер",
           "translation": "evening",
-          "usageTranslation": "good evening"
+          "usageTranslation": "good evening",
+          "isNew": true
         },
         {
           "text": "стремительно",
           "translation": "rapidly",
-          "usageTranslation": "that object was moving rapidly"
+          "usageTranslation": "that object was moving rapidly",
+          "isNew": true
         },
         {
           "text": "предупреждать",
@@ -5912,27 +6092,32 @@
         {
           "text": "стена",
           "translation": "wall",
-          "usageTranslation": "I would like to put pictures on the wall"
+          "usageTranslation": "I would like to put pictures on the wall",
+          "isNew": true
         },
         {
           "text": "осторожный",
           "translation": "careful",
-          "usageTranslation": "just be careful"
+          "usageTranslation": "just be careful",
+          "isNew": true
         },
         {
           "text": "принуждение",
           "translation": "enforcement",
-          "usageTranslation": "he works for law enforcement"
+          "usageTranslation": "he works for law enforcement",
+          "isNew": true
         },
         {
           "text": "команда, владение",
           "translation": "command",
-          "usageTranslation": "who's in command?"
+          "usageTranslation": "who's in command?",
+          "isNew": true
         },
         {
           "text": "вытирать",
           "translation": "wipe",
-          "usageTranslation": "wipe your feet on the way in"
+          "usageTranslation": "wipe your feet on the way in",
+          "isNew": true
         },
         {
           "text": "сотрудничество",
@@ -5992,27 +6177,32 @@
         {
           "text": "сообщать",
           "translation": "inform",
-          "usageTranslation": "he informed us about his arrival"
+          "usageTranslation": "he informed us about his arrival",
+          "isNew": true
         },
         {
           "text": "растущий",
           "translation": "growing",
-          "usageTranslation": "his business is growing very fast"
+          "usageTranslation": "his business is growing very fast",
+          "isNew": true
         },
         {
           "text": "ферма",
           "translation": "farm",
-          "usageTranslation": "she grew up on a dairy farm"
+          "usageTranslation": "she grew up on a dairy farm",
+          "isNew": true
         },
         {
           "text": "класть",
           "translation": "lay",
-          "usageTranslation": "Carmen laid her head on my shoulder"
+          "usageTranslation": "Carmen laid her head on my shoulder",
+          "isNew": true
         },
         {
           "text": "волшебный",
           "translation": "magic",
-          "usageTranslation": "the witch put a magic spell on the prince"
+          "usageTranslation": "the witch put a magic spell on the prince",
+          "isNew": true
         },
         {
           "text": "компания",
@@ -6047,27 +6237,32 @@
         {
           "text": "предупреждать",
           "translation": "warn",
-          "usageTranslation": "the doctor warned me about the dangers of smoking"
+          "usageTranslation": "the doctor warned me about the dangers of smoking",
+          "isNew": true
         },
         {
           "text": "чрезвычайно, особенно",
           "translation": "particularly",
-          "usageTranslation": "I don't particularly want to be reminded of that time"
+          "usageTranslation": "I don't particularly want to be reminded of that time",
+          "isNew": true
         },
         {
           "text": "преподаватель",
           "translation": "educator",
-          "usageTranslation": "a private educator"
+          "usageTranslation": "a private educator",
+          "isNew": true
         },
         {
           "text": "качество",
           "translation": "quality",
-          "usageTranslation": "the hotel offers comfort and quality"
+          "usageTranslation": "the hotel offers comfort and quality",
+          "isNew": true
         },
         {
           "text": "уважение",
           "translation": "respect",
-          "usageTranslation": "show some respect"
+          "usageTranslation": "show some respect",
+          "isNew": true
         },
         {
           "text": "спасать",
@@ -6102,27 +6297,32 @@
         {
           "text": "сотрудничество",
           "translation": "cooperation",
-          "usageTranslation": "we would like to ask for your cooperation"
+          "usageTranslation": "we would like to ask for your cooperation",
+          "isNew": true
         },
         {
           "text": "автор",
           "translation": "author",
-          "usageTranslation": "he is the author of several books"
+          "usageTranslation": "he is the author of several books",
+          "isNew": true
         },
         {
           "text": "время жизни",
           "translation": "lifetime",
-          "usageTranslation": "this is the chance of a lifetime"
+          "usageTranslation": "this is the chance of a lifetime",
+          "isNew": true
         },
         {
           "text": "презентация",
           "translation": "presentation",
-          "usageTranslation": "your presentation was great"
+          "usageTranslation": "your presentation was great",
+          "isNew": true
         },
         {
           "text": "вспоминать",
           "translation": "recall",
-          "usageTranslation": "Total Recall is a 1990 American science fiction action film"
+          "usageTranslation": "Total Recall is a 1990 American science fiction action film",
+          "isNew": true
         },
         {
           "text": "сбегать",
@@ -6157,27 +6357,32 @@
         {
           "text": "компания",
           "translation": "company",
-          "usageTranslation": "Mike opened his own company"
+          "usageTranslation": "Mike opened his own company",
+          "isNew": true
         },
         {
           "text": "подпись",
           "translation": "signature",
-          "usageTranslation": "put your signature on these documents"
+          "usageTranslation": "put your signature on these documents",
+          "isNew": true
         },
         {
           "text": "описание",
           "translation": "description",
-          "usageTranslation": "the catalogue gives a full description of each product"
+          "usageTranslation": "the catalogue gives a full description of each product",
+          "isNew": true
         },
         {
           "text": "украшение",
           "translation": "decoration",
-          "usageTranslation": "Christmas decorations"
+          "usageTranslation": "Christmas decorations",
+          "isNew": true
         },
         {
           "text": "реклама",
           "translation": "advertising",
-          "usageTranslation": "an advertising agency"
+          "usageTranslation": "an advertising agency",
+          "isNew": true
         }
       ],
       "fileId": "CQACAgIAAxkDAAICUWEuCujVA0Mc35OHhoy9gzL_y9kwAAL4EAACHmRxSUlZYWg3ySBvIAQ"
@@ -6187,27 +6392,32 @@
         {
           "text": "спасать",
           "translation": "rescue",
-          "usageTranslation": "rescue squad has arrived"
+          "usageTranslation": "rescue squad has arrived",
+          "isNew": true
         },
         {
           "text": "всё",
           "translation": "everything",
-          "usageTranslation": "everything is fine"
+          "usageTranslation": "everything is fine",
+          "isNew": true
         },
         {
           "text": "искать, стремиться",
           "translation": "seek",
-          "usageTranslation": "the prince is seeking a wife"
+          "usageTranslation": "the prince is seeking a wife",
+          "isNew": true
         },
         {
           "text": "брать на время",
           "translation": "borrow",
-          "usageTranslation": "you can borrow an umbrella if you need one"
+          "usageTranslation": "you can borrow an umbrella if you need one",
+          "isNew": true
         },
         {
           "text": "в любом случае",
           "translation": "anyway",
-          "usageTranslation": "it's too late now anyway."
+          "usageTranslation": "it's too late now anyway.",
+          "isNew": true
         }
       ],
       "fileId": "CQACAgIAAxkDAAICUmEuCupKz0QyVpjVSKTrYDsWoheXAAL5EAACHmRxSS3eTDh1QB9YIAQ"
@@ -6217,27 +6427,32 @@
         {
           "text": "сбегать",
           "translation": "flee",
-          "usageTranslation": "he was forced to flee the country"
+          "usageTranslation": "he was forced to flee the country",
+          "isNew": true
         },
         {
           "text": "чушь собачья, дерьмо",
           "translation": "shit",
-          "usageTranslation": "I don't believe this shit!"
+          "usageTranslation": "I don't believe this shit!",
+          "isNew": true
         },
         {
           "text": "ассортимент, диапазон",
           "translation": "range",
-          "usageTranslation": "she was gifted with an incredible vocal range"
+          "usageTranslation": "she was gifted with an incredible vocal range",
+          "isNew": true
         },
         {
           "text": "единственный, не состоящий в браке",
           "translation": "single",
-          "usageTranslation": "he sent her a single red rose"
+          "usageTranslation": "he sent her a single red rose",
+          "isNew": true
         },
         {
           "text": "характеризовать, давать определение",
           "translation": "define",
-          "usageTranslation": "it's hard to define it precisely"
+          "usageTranslation": "it's hard to define it precisely",
+          "isNew": true
         }
       ],
       "fileId": "CQACAgIAAxkDAAICU2EuCu0uRwMpvlLOtxdkjj2DiO41AAL6EAACHmRxSR2HOH0JTAABLCAE"

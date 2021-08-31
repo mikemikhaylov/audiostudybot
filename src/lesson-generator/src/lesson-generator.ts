@@ -33,13 +33,14 @@ export default class LessonGenerator {
                 const cards = x.map(xx => course.cards[xx]);
                 return {
                     fileId: undefined,
-                    cards: cards.map(card => {
+                    cards: cards.map((card, index) => {
                         return {
                             text: reverse ? card.translation : card.text,
                             transcription: reverse ? card.translationTranscription : card.transcription,
                             translation: reverse ? card.text : card.translation,
                             usage: reverse ? card.usageTranslation : card.usage,
-                            usageTranslation: reverse ? card.usage : card.usageTranslation
+                            usageTranslation: reverse ? card.usage : card.usageTranslation,
+                            isNew: index < newCardsPerLesson
                         };
                     })
                 }

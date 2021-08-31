@@ -29,7 +29,7 @@ export default class LessonAudioGenerator {
             for (const lesson of courseLessons.lessons) {
                 lessonNumber++;
                 if (lesson.fileId) {
-                    //continue;
+                    continue;
                 }
                 const audioFiles: string[] = [];
                 for (const card of lesson.cards) {

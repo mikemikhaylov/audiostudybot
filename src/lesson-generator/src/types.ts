@@ -26,6 +26,7 @@ export type LessonCard = {
     translation: string;
     usage: string;
     usageTranslation: string;
+    isNew: boolean
 }
 
 export type Card = LessonCard & {
