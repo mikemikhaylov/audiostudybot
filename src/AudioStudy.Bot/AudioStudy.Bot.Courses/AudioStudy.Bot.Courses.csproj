@@ -11,7 +11,10 @@
       <None Remove="courses\en-es\top3000spanish.json" />
       <EmbeddedResource Include="courses\en-es\top3000spanish.json" />
       <None Remove="lessons\en-ru\top3000\1.json" />
-      <EmbeddedResource Include="lessons\en-ru\top3000\1.json" />
+      <None Remove="lessons\en-ru\top3000\1\lessons.json" />
+      <EmbeddedResource Include="lessons\en-ru\top3000\1\lessons.json" />
+      <None Remove="lessons\en-ru\top3000\1\lessons_reversed.json" />
+      <EmbeddedResource Include="lessons\en-ru\top3000\1\lessons_reversed.json" />
     </ItemGroup>
 
 </Project>

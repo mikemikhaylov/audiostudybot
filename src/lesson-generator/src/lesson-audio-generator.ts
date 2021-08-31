@@ -1,6 +1,7 @@
 import {Course, CourseLessons, Speed} from "./types";
 import FileProvider from "./file-provider";
 import AudioManager from "./audio-manager";
+
 const ffmetadata = require("ffmetadata");
 const audioconcat = require('audioconcat');
 import {v4 as uuidv4} from 'uuid';
@@ -16,15 +17,19 @@ export default class LessonAudioGenerator {
                 private readonly audioMetadataProvider: AudioMetadataProvider) {
     }
 
-    public async generate(options: { course: Course, lessonsDir: string, mediaDir: string, tmpDir: string, botToken: string, chatId: number, pauseFilePath: string, longPauseFilePath: string }): Promise<void> {
-        const {course, lessonsDir, mediaDir, tmpDir, botToken, chatId, pauseFilePath, longPauseFilePath} = options;
+    public async generate(options: { courses: Course[], lessonsDir: string, mediaDir: string, tmpDir: string, botToken: string, chatId: number, pauseFilePath: string, longPauseFilePath: string }): Promise<void> {
+        const {courses, lessonsDir, mediaDir, tmpDir, botToken, chatId, pauseFilePath, longPauseFilePath} = options;
         if (!await this.fileProvider.fileExists(pauseFilePath)) {
             throw new Error('Pause file does not exist');
+        }
+        if (!await this.fileProvider.fileExists(longPauseFilePath)) {
+            throw new Error('Long pause file does not exist');
         }
         const bot = new TelegramBot(botToken);
         for (const lessonPath of await this.fileProvider.getAllFilesInDirectory(lessonsDir, file => file.endsWith('.json'))) {
             console.log(`Working on audio for ${lessonPath}.`);
             const courseLessons: CourseLessons = JSON.parse(await this.fileProvider.readFile(lessonPath));
+            const course = courses.find(x => x.id === courseLessons.courseId)!;
             let lessonNumber = 0;
             for (const lesson of courseLessons.lessons) {
                 lessonNumber++;
@@ -33,12 +38,12 @@ export default class LessonAudioGenerator {
                 }
                 const audioFiles: string[] = [];
                 for (const card of lesson.cards) {
-                    await this.addPath(audioFiles, mediaDir, card.text, courseLessons.reversed ? course.translationLanguage : course.language, true);
+                    await this.addPath(audioFiles, mediaDir, card.text,  course.language, true);
                     audioFiles.push(longPauseFilePath);
-                    await this.addPath(audioFiles, mediaDir, card.translation, courseLessons.reversed ? course.language : course.translationLanguage, false);
+                    await this.addPath(audioFiles, mediaDir, card.translation,  course.translationLanguage, false);
                     if (card.usage) {
                         audioFiles.push(pauseFilePath);
-                        await this.addPath(audioFiles, mediaDir, card.usage, courseLessons.reversed ? course.translationLanguage : course.language, true);
+                        await this.addPath(audioFiles, mediaDir, card.usage,  course.language, true);
                     }
                     audioFiles.push(pauseFilePath);
                 }
@@ -47,14 +52,15 @@ export default class LessonAudioGenerator {
                 console.log(`Concatenating ${audioFiles.length} files for ${lessonPath}`);
                 await concatFiles(audioFiles, output);
                 console.log(`Setting artist for ${output}`);
-                await setArtist(output);
-                const fileName = `${padBatchAudioNumber(lessonNumber)}. ${courseLessons.reversed && (course.nameTranslation && course.nameTranslation.trim()) ? course.nameTranslation : course.name}.mp3`
+                const fileName = `${padBatchAudioNumber(lessonNumber)}. ${course.name}.mp3`;
+                await setMeta(output, fileName, course.name, `${lessonNumber}/${courseLessons.lessons.length + 1}`);
                 console.log(`Sending file to Telegram for ${course.id}`);
                 const sendingResult: { audio: { file_id: string } } = await bot.sendAudio(chatId, output, {}, {
                     filename: fileName
                 });
                 console.log(JSON.stringify(sendingResult));
                 lesson.fileId = sendingResult.audio.file_id;
+                //it is ok for now
                 await this.fileProvider.writeFile(lessonPath, JSON.stringify(courseLessons, null, 2));
                 await sleep(getRandomArbitrary(1000, 4000));
             }
@@ -93,11 +99,14 @@ function getRandomArbitrary(min: number, max: number) {
     return Math.random() * (max - min) + min;
 }
 
-function setArtist(path: string) {
+function setMeta(path: string, title: string, courseName: string, track: string) {
     return new Promise<void>((resolve, reject) => {
         ffmetadata.write(path, {
             artist: "AudioStudyBot",
-        }, function(err?: Error) {
+            album: courseName,
+            title: title,
+            track: track
+        }, function (err?: Error) {
             if (err) reject(err)
             else resolve();
         });

@@ -1,6 +1,7 @@
 export type GeneratorConfig = {
     mediaOutputDirectory: string;
     courseFilePath: string;
+    reversedCourseFilePath?: string;
     courseLessonsDirectory: string;
     tmpDir: string;
     botToken: string;
@@ -14,10 +15,11 @@ export type Course = {
     name: string;
     nameTranslation: string;
     cards: Card[];
-    canBeReversed: boolean;
     version: number;
     language: string;
     translationLanguage: string;
+    description: string;
+    descriptionTranslation: string;
 }
 
 export type LessonCard = {
@@ -35,7 +37,6 @@ export type Card = LessonCard & {
 
 export type CourseLessons = {
     courseId: string;
-    reversed: boolean;
     courseVersion: number;
     lessons: Lesson[];
 }

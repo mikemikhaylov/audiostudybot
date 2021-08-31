@@ -121,6 +121,10 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                     PropertyNameCaseInsensitive = true
                 });
                 CourseValidator.ValidateCourse(course, SupportedLanguages.Keys.ToHashSet());
+                foreach (var card in course!.Cards)
+                {
+                    card.SanitizeCourseCard(); 
+                }
                 result.Add(course);
             }
 

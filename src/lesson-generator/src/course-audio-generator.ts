@@ -24,11 +24,6 @@ export default class CourseAudioGenerator {
             await this.ensureAudio(dir, card.text, course.language, targetVoice, targetLangSpeed);
             await this.ensureAudio(dir, card.translation, course.translationLanguage, translationVoice, translationSpeed);
             await this.ensureAudio(dir, card.usage, course.language, targetVoice, targetLangSpeed);
-            if (course.canBeReversed) {
-                await this.ensureAudio(dir, card.translation, course.translationLanguage, translationVoice, targetLangSpeed);
-                await this.ensureAudio(dir, card.text, course.language, targetVoice, translationSpeed);
-                await this.ensureAudio(dir, card.usageTranslation, course.translationLanguage, translationVoice, targetLangSpeed);
-            }
         }
     }
 

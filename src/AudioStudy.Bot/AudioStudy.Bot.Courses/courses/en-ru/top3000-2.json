@@ -8,7 +8,6 @@
   "descriptionTranslation": "топ 300 самых используемых слов",
   "language": "en",
   "translationLanguage": "ru",
-  "canBeReversed": true,
   "cards": [
     {
       "text": "behavior",

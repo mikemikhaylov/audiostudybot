@@ -1,0 +1,916 @@
+{
+  "id": "b3d8f9e2-1e01-4abd-b5b7-97522f05feab",
+  "version": 1,
+  "weight": 0,
+  "name": "ТОП 3000 слов",
+  "description": "топ 300 самых используемых слов",
+  "nameTranslation": "TOP 3000 English words",
+  "descriptionTranslation": "top 3000 most used words",
+  "language": "ru",
+  "translationLanguage": "en",
+  "cards": [
+    {
+      "text": "поведение",
+      "transcription": "lal",
+      "translation": "behavior",
+      "translationTranscription": "bɪˈheɪvjə",
+      "usage": "хорошее поведение",
+      "usageTranslation": "good behavior"
+    },
+    {
+      "text": "инвалидность",
+      "translation": "disability",
+      "usageTranslation": "to have a disability",
+      "translationTranscription": "ˌdɪsəˈbɪlɪti"
+    },
+    {
+      "text": "отряд, команда",
+      "translation": "squad",
+      "usage": "спасательный отряд прибыл",
+      "usageTranslation": "rescue squad has arrived",
+      "translationTranscription": "skwɒd"
+    },
+    {
+      "text": "пользователь, пользовательский",
+      "translation": "user",
+      "usageTranslation": "I accept the user agreement",
+      "translationTranscription": "ˈjuːzə"
+    },
+    {
+      "text": "рождение, роды",
+      "translation": "birth",
+      "usageTranslation": "the birth of an idea",
+      "translationTranscription": "bɜːθ"
+    },
+    {
+      "text": "служить, подавать, отбывать срок",
+      "translation": "serve",
+      "usageTranslation": "to serve and protect",
+      "translationTranscription": "sɜːv"
+    },
+    {
+      "text": "требование",
+      "translation": "requirement",
+      "usageTranslation": "system requirements",
+      "translationTranscription": "rɪˈkwaɪəmənt"
+    },
+    {
+      "text": "простой",
+      "translation": "plain",
+      "usageTranslation": "written in plain English",
+      "translationTranscription": "pleɪn"
+    },
+    {
+      "text": "вызов, оспаривание, испытывать",
+      "translation": "challenge",
+      "usageTranslation": "challenge accepted",
+      "translationTranscription": "ˈʧælɪnʤ"
+    },
+    {
+      "text": "пересмотр, рецензия, отзыв",
+      "translation": "review",
+      "usageTranslation": "film review",
+      "translationTranscription": "rɪˈvjuː"
+    },
+    {
+      "text": "популярный",
+      "translation": "popular",
+      "usageTranslation": "popular music",
+      "translationTranscription": "ˈpɒpjʊlə"
+    },
+    {
+      "text": "взволнованный",
+      "translation": "excited",
+      "usageTranslation": "she was excited about it",
+      "translationTranscription": "ɪkˈsaɪtɪd"
+    },
+    {
+      "text": "слабость",
+      "translation": "weakness",
+      "usageTranslation": "he had a great weakness for Scotch whisky",
+      "translationTranscription": "ˈwiːknəs"
+    },
+    {
+      "text": "через, с помощью ",
+      "translation": "via",
+      "usageTranslation": "to share a Tweet via direct message",
+      "translationTranscription": "ˈvaɪə"
+    },
+    {
+      "text": "восстанавливать",
+      "translation": "recover",
+      "usageTranslation": "the economy has begun to recover",
+      "translationTranscription": "rɪˈkʌvə"
+    },
+    {
+      "text": "смущённый",
+      "translation": "embarrassed",
+      "usageTranslation": "he felt embarrassed about it",
+      "translationTranscription": "ɪmˈbærəst"
+    },
+    {
+      "text": "ответственность, обязанность",
+      "translation": "responsibility",
+      "usageTranslation": "with great power there must also come great responsibility",
+      "translationTranscription": "rɪsˌpɒnsəˈbɪlɪti"
+    },
+    {
+      "text": "кислота",
+      "translation": "acid",
+      "usageTranslation": "stomach acid",
+      "translationTranscription": "ˈæsɪd"
+    },
+    {
+      "text": "отдельно, за исключением, на расстоянии",
+      "translation": "apart",
+      "usageTranslation": "we're 600 miles apart",
+      "translationTranscription": "əˈpɑːt"
+    },
+    {
+      "text": "история",
+      "translation": "history",
+      "usageTranslation": "ancient history",
+      "translationTranscription": "ˈhɪstəri"
+    },
+    {
+      "text": "полностью",
+      "translation": "fully",
+      "usageTranslation": "you are not fully qualified yet",
+      "translationTranscription": "ˈfʊli"
+    },
+    {
+      "text": "помнить",
+      "translation": "remember",
+      "usageTranslation": "the North remembers",
+      "translationTranscription": "rɪˈmɛmbə"
+    },
+    {
+      "text": "полицейский",
+      "translation": "policeman",
+      "usageTranslation": "the policeman caught the thief",
+      "translationTranscription": "pəˈliːsmən"
+    },
+    {
+      "text": "язык",
+      "translation": "tongue",
+      "usageTranslation": "she burned her tongue",
+      "translationTranscription": "tʌŋ"
+    },
+    {
+      "text": "современный",
+      "translation": "contemporary",
+      "usageTranslation": "museum of contemporary art",
+      "translationTranscription": "kənˈtɛmpərəri"
+    },
+    {
+      "text": "экономист",
+      "translation": "economist",
+      "usageTranslation": "The Economist is an international weekly newspaper",
+      "translationTranscription": "i(ː)ˈkɒnəmɪst"
+    },
+    {
+      "text": "подметать, сметать",
+      "translation": "sweep",
+      "usageTranslation": "I need to sweep the kitchen",
+      "translationTranscription": "swiːp"
+    },
+    {
+      "text": "если не, до тех пор пока",
+      "translation": "unless",
+      "usageTranslation": "unless you have a photographic memory, repetition is important",
+      "translationTranscription": "ʌnˈlɛs"
+    },
+    {
+      "text": "толстый, плотный",
+      "translation": "thick",
+      "usageTranslation": "a thick sandwich",
+      "translationTranscription": "θɪk"
+    },
+    {
+      "text": "каждый",
+      "translation": "everyone",
+      "usageTranslation": "he knew everyone in the business",
+      "translationTranscription": "ˈɛvrɪwʌn"
+    },
+    {
+      "text": "бронирование, резервация",
+      "translation": "reservation",
+      "usageTranslation": "a dinner reservation",
+      "translationTranscription": "ˌrɛzəˈveɪʃən"
+    },
+    {
+      "text": "юмор",
+      "translation": "humor",
+      "usageTranslation": "humor often helps a tense situation",
+      "translationTranscription": "ˈhjuːmə"
+    },
+    {
+      "text": "июнь",
+      "translation": "June",
+      "usageTranslation": "his birthday is on 21 June",
+      "translationTranscription": "ʤuːn"
+    },
+    {
+      "text": "сохранять",
+      "translation": "preserve",
+      "usageTranslation": "this vase has been preserved intact",
+      "translationTranscription": "prɪˈzɜːv"
+    },
+    {
+      "text": "контекст, обстоятельства",
+      "translation": "context",
+      "usageTranslation": "put it into context",
+      "translationTranscription": "ˈkɒntɛkst"
+    },
+    {
+      "text": "воздух",
+      "translation": "air",
+      "usageTranslation": "they travelled to France by air",
+      "translationTranscription": "eə"
+    },
+    {
+      "text": "тип, разновидность",
+      "translation": "sort",
+      "usageTranslation": "we both like the same sort of music",
+      "translationTranscription": "sɔːt"
+    },
+    {
+      "text": "хлеб",
+      "translation": "bread",
+      "usageTranslation": "this bakery bakes fresh bread every day",
+      "translationTranscription": "brɛd"
+    },
+    {
+      "text": "подсудимый",
+      "translation": "defendant",
+      "usageTranslation": "the defendant tried to claim that it was self-defense",
+      "translationTranscription": "dɪˈfɛndənt"
+    },
+    {
+      "text": "проверять",
+      "translation": "check",
+      "usageTranslation": "the doctor checked my ears and my eyes",
+      "translationTranscription": "ʧɛk"
+    },
+    {
+      "text": "значительно",
+      "translation": "greatly",
+      "usageTranslation": "education can greatly enrich your life",
+      "translationTranscription": "ˈgreɪtli"
+    },
+    {
+      "text": "тонуть, погружаться, раковина",
+      "translation": "sink",
+      "usageTranslation": "I let my body sink into the bed",
+      "translationTranscription": "sɪŋk"
+    },
+    {
+      "text": "молитва",
+      "translation": "prayer",
+      "usageTranslation": "I'll say a prayer for him",
+      "translationTranscription": "preə"
+    },
+    {
+      "text": "жульничать, изменять, мошенник",
+      "translation": "cheat",
+      "usageTranslation": "a liar and a cheat",
+      "translationTranscription": "ʧiːt"
+    },
+    {
+      "text": "инженер, проектировать",
+      "translation": "engineer",
+      "usageTranslation": "Senior Software Engineer",
+      "translationTranscription": "ˌɛnʤɪˈnɪə"
+    },
+    {
+      "text": "взрослый, предназначенный для взрослых",
+      "translation": "adult",
+      "usageTranslation": "an adult must drink two litres of water every day",
+      "translationTranscription": "ˈædʌlt"
+    },
+    {
+      "text": "физический",
+      "translation": "physical",
+      "usageTranslation": "physical appearance",
+      "translationTranscription": "ˈfɪzɪkəl"
+    },
+    {
+      "text": "серебро",
+      "translation": "silver",
+      "usageTranslation": "she was wearing a delicate chain made of silver",
+      "translationTranscription": "ˈsɪlvə"
+    },
+    {
+      "text": "миска",
+      "translation": "bowl",
+      "usageTranslation": "fill the bowl with sugar",
+      "translationTranscription": "bəʊl"
+    },
+    {
+      "text": "разнообразие",
+      "translation": "diversity",
+      "usageTranslation": "what is diversity and inclusion?",
+      "translationTranscription": "daɪˈvɜːsɪti"
+    },
+    {
+      "text": "решение, решимость",
+      "translation": "decision",
+      "usageTranslation": "Mr James has announced his decision to retire",
+      "translationTranscription": "dɪˈsɪʒən"
+    },
+    {
+      "text": "переводить, перемещать",
+      "translation": "transfer",
+      "usageTranslation": "he would have to transfer money to his own account",
+      "translationTranscription": "ˈtrænsfə(ː)"
+    },
+    {
+      "text": "постыдный",
+      "translation": "embarrassing",
+      "usageTranslation": "she got herself into an embarrassing situation",
+      "translationTranscription": "ɪmˈbærəsɪŋ"
+    },
+    {
+      "text": "картина",
+      "translation": "painting",
+      "usageTranslation": "he bought the painting as an investment",
+      "translationTranscription": "ˈpeɪntɪŋ"
+    },
+    {
+      "text": "приоритет",
+      "translation": "priority",
+      "usageTranslation": "to learn English words is our top priority",
+      "translationTranscription": "praɪˈɒrɪti"
+    },
+    {
+      "text": "впечатленный, поражённый",
+      "translation": "impressed",
+      "usageTranslation": "I was really impressed by langcentral.com",
+      "translationTranscription": "ɪmˈprɛst"
+    },
+    {
+      "text": "младенец",
+      "translation": "infant",
+      "usageTranslation": "an infant's skin is very sensitive",
+      "translationTranscription": "ˈɪnfənt"
+    },
+    {
+      "text": "частота",
+      "translation": "frequency",
+      "usageTranslation": "a sound wave of high frequency",
+      "translationTranscription": "ˈfriːkwənsi"
+    },
+    {
+      "text": "читатель",
+      "translation": "reader",
+      "usageTranslation": "a regular reader",
+      "translationTranscription": "ˈriːdə"
+    },
+    {
+      "text": "свидетельство",
+      "translation": "testimony",
+      "usageTranslation": "she gave testimony against the plaintiff",
+      "translationTranscription": "ˈtɛstɪməni"
+    },
+    {
+      "text": "решать, снасть",
+      "translation": "tackle",
+      "usageTranslation": "I'll tackle this difficult task",
+      "translationTranscription": "ˈtækl"
+    },
+    {
+      "text": "безопасность",
+      "translation": "security",
+      "usageTranslation": "a matter of national security",
+      "translationTranscription": "sɪˈkjʊərɪti"
+    },
+    {
+      "text": "сумасшедший",
+      "translation": "mad",
+      "usageTranslation": "Mad Max: Fury Road",
+      "translationTranscription": "mæd"
+    },
+    {
+      "text": "птица",
+      "translation": "bird",
+      "usageTranslation": "most birds lay eggs in the spring",
+      "translationTranscription": "bɜːd"
+    },
+    {
+      "text": "гора",
+      "translation": "mountain",
+      "usageTranslation": "mountain biking is a sport of riding bicycles off-road",
+      "translationTranscription": "ˈmaʊntɪn"
+    },
+    {
+      "text": "уходить, бросать, оставлять",
+      "translation": "leave",
+      "usageTranslation": "leave me alone",
+      "translationTranscription": "liːv"
+    },
+    {
+      "text": "пара",
+      "translation": "couple",
+      "usageTranslation": "a couple of women came in",
+      "translationTranscription": "ˈkʌpl"
+    },
+    {
+      "text": "колонна, столбик",
+      "translation": "column",
+      "usageTranslation": "we walked in a column",
+      "translationTranscription": "ˈkɒləm"
+    },
+    {
+      "text": "настраивать",
+      "translation": "tune",
+      "usageTranslation": "the piano is out of tune",
+      "translationTranscription": "tjuːn"
+    },
+    {
+      "text": "заменять",
+      "translation": "replace",
+      "usageTranslation": "this antique vase can never be replaced",
+      "translationTranscription": "rɪˈpleɪs"
+    },
+    {
+      "text": "офис",
+      "translation": "office",
+      "usageTranslation": "see you in my office",
+      "translationTranscription": "ˈɒfɪs"
+    },
+    {
+      "text": "представлять, внедрять ",
+      "translation": "introduce",
+      "usageTranslation": "I would like to introduce you to my friends.",
+      "translationTranscription": "ˌɪntrəˈdjuːs"
+    },
+    {
+      "text": "создание",
+      "translation": "creation",
+      "usageTranslation": "he had been with the company since its creation",
+      "translationTranscription": "kri(ː)ˈeɪʃən"
+    },
+    {
+      "text": "выступление, производительность",
+      "translation": "performance",
+      "usageTranslation": "the annual performance review",
+      "translationTranscription": "pəˈfɔːməns"
+    },
+    {
+      "text": "внимание",
+      "translation": "attention",
+      "usageTranslation": "attention please",
+      "translationTranscription": "əˈtɛnʃ(ə)n"
+    },
+    {
+      "text": "синий",
+      "translation": "blue",
+      "usageTranslation": "a dark blue raincoat",
+      "translationTranscription": "bluː"
+    },
+    {
+      "text": "проницательность, озарение",
+      "translation": "insight",
+      "usageTranslation": "I had a sudden insight",
+      "translationTranscription": "ˈɪnsaɪt"
+    },
+    {
+      "text": "тренажёрный зал",
+      "translation": "gym",
+      "usageTranslation": "I go to the gym twice a week",
+      "translationTranscription": "ʤɪm"
+    },
+    {
+      "text": "наш",
+      "translation": "our",
+      "usageTranslation": "we bought our house several years ago",
+      "translationTranscription": "ˈaʊə"
+    },
+    {
+      "text": "полый, пустой",
+      "translation": "hollow",
+      "usageTranslation": "a hollow promise",
+      "translationTranscription": "ˈhɒləʊ"
+    },
+    {
+      "text": "дверь",
+      "translation": "door",
+      "usageTranslation": "hold the door, please",
+      "translationTranscription": "dɔː"
+    },
+    {
+      "text": "темп, курс, оценивать",
+      "translation": "rate",
+      "usageTranslation": "I'd rate this film 8 out of 10",
+      "translationTranscription": "reɪt"
+    },
+    {
+      "text": "экзамен",
+      "translation": "exam",
+      "usageTranslation": "she passed her exam",
+      "translationTranscription": "ɪgˈzæm"
+    },
+    {
+      "text": "уход на пенсию",
+      "translation": "retirement",
+      "usageTranslation": "he lived in retirement in Miami",
+      "translationTranscription": "rɪˈtaɪəmənt"
+    },
+    {
+      "text": "часто",
+      "translation": "often",
+      "usageTranslation": "we often met over a cup of coffee",
+      "translationTranscription": "ˈɒf(ə)n"
+    },
+    {
+      "text": "разделять",
+      "translation": "split",
+      "usageTranslation": "let's split",
+      "translationTranscription": "splɪt"
+    },
+    {
+      "text": "понимать",
+      "translation": "understand",
+      "usageTranslation": "I don't understand what that means",
+      "translationTranscription": "ˌʌndəˈstænd"
+    },
+    {
+      "text": "заголовок, название",
+      "translation": "title",
+      "usageTranslation": "what's the title of the book?",
+      "translationTranscription": "ˈtaɪtl"
+    },
+    {
+      "text": "ребёнок",
+      "translation": "child",
+      "usageTranslation": "a naughty child",
+      "translationTranscription": "ʧaɪld"
+    },
+    {
+      "text": "кто бы ни",
+      "translation": "whoever",
+      "usageTranslation": "whoever broke the window will have to pay for it",
+      "translationTranscription": "hu(ː)ˈɛvə"
+    },
+    {
+      "text": "происшествие, инцидент",
+      "translation": "incident",
+      "usageTranslation": "two people often remember the same incident differently",
+      "translationTranscription": "ˈɪnsɪdənt"
+    },
+    {
+      "text": "пуговица, кнопка",
+      "translation": "button",
+      "usageTranslation": "click the button",
+      "translationTranscription": "ˈbʌtn"
+    },
+    {
+      "text": "напряжение",
+      "translation": "tension",
+      "usageTranslation": "he suffered from emotional tension",
+      "translationTranscription": "ˈtɛnʃən"
+    },
+    {
+      "text": "транспортное средство",
+      "translation": "vehicle",
+      "usageTranslation": "possible stolen vehicle involved in accident",
+      "translationTranscription": "ˈviːɪkl"
+    },
+    {
+      "text": "болезнь",
+      "translation": "illness",
+      "usageTranslation": "he missed five days of school because of illness",
+      "translationTranscription": "'ilnəs"
+    },
+    {
+      "text": "граница",
+      "translation": "border",
+      "usageTranslation": "borders are closed",
+      "translationTranscription": "ˈbɔːdə"
+    },
+    {
+      "text": "отсутствующий",
+      "translation": "missing",
+      "usageTranslation": "you can fill in the missing details later",
+      "translationTranscription": "ˈmɪsɪŋ"
+    },
+    {
+      "text": "обязательно",
+      "translation": "necessarily",
+      "usageTranslation": "that is not necessarily true",
+      "translationTranscription": "ˈnɛsɪsərɪli"
+    },
+    {
+      "text": "директор школы, главный",
+      "translation": "principal",
+      "usageTranslation": "my principal goal is to learn English words on langcentral.com",
+      "translationTranscription": "ˈprɪnsəpəl"
+    },
+    {
+      "text": "восприятие",
+      "translation": "perception",
+      "usageTranslation": "perception can be as important as reality",
+      "translationTranscription": "pəˈsɛpʃən"
+    },
+    {
+      "text": "газета",
+      "translation": "newspaper",
+      "usageTranslation": "did you see today's newspaper?",
+      "translationTranscription": "ˈnjuːzˌpeɪpə"
+    },
+    {
+      "text": "газ",
+      "translation": "gas",
+      "usageTranslation": "oxygen, hydrogen and nitrogen are all gases",
+      "translationTranscription": "gæs"
+    },
+    {
+      "text": "аргумент, спор",
+      "translation": "argument",
+      "usageTranslation": "to lose an argument",
+      "translationTranscription": "ˈɑːgjʊmənt"
+    },
+    {
+      "text": "фермер",
+      "translation": "farmer",
+      "usageTranslation": "the number of farmers is gradually decreasing",
+      "translationTranscription": "ˈfɑːmə"
+    },
+    {
+      "text": "меньше, несколько",
+      "translation": "fewer",
+      "usageTranslation": "the fewer the better",
+      "translationTranscription": "ˈfjuːə"
+    },
+    {
+      "text": "парень, приятель",
+      "translation": "fellow",
+      "usageTranslation": "there’s a fellow at the door",
+      "translationTranscription": "ˈfɛləʊ"
+    },
+    {
+      "text": "пятнадцать",
+      "translation": "fifteen",
+      "usageTranslation": "fifteen and fifteen make thirty",
+      "translationTranscription": "ˈfɪfˈtiːn"
+    },
+    {
+      "text": "легко, охотно",
+      "translation": "readily",
+      "usageTranslation": "she readily agreed to do it",
+      "translationTranscription": "ˈrɛdɪli"
+    },
+    {
+      "text": "высота",
+      "translation": "height",
+      "usageTranslation": "columns rising to 65 feet in height",
+      "translationTranscription": "hait"
+    },
+    {
+      "text": "прекрасный, роскошный",
+      "translation": "gorgeous",
+      "usageTranslation": "it's a gorgeous night",
+      "translationTranscription": "ˈgɔːʤəs"
+    },
+    {
+      "text": "агентство",
+      "translation": "agency",
+      "usageTranslation": "an estate agency",
+      "translationTranscription": "ˈeɪʤənsi"
+    },
+    {
+      "text": "доброта",
+      "translation": "goodness",
+      "usageTranslation": "but her spirit, her goodness",
+      "translationTranscription": "ˈgʊdnɪs"
+    },
+    {
+      "text": "прохладный, спокойный, отлично",
+      "translation": "cool",
+      "usageTranslation": "the cool of the night air",
+      "translationTranscription": "kuːl"
+    },
+    {
+      "text": "вечер",
+      "translation": "evening",
+      "usageTranslation": "good evening",
+      "translationTranscription": "ˈiːvnɪŋ"
+    },
+    {
+      "text": "стремительно",
+      "translation": "rapidly",
+      "usageTranslation": "that object was moving rapidly",
+      "translationTranscription": "ˈræpɪdli"
+    },
+    {
+      "text": "стена",
+      "translation": "wall",
+      "usageTranslation": "I would like to put pictures on the wall",
+      "translationTranscription": "wɔːl"
+    },
+    {
+      "text": "осторожный",
+      "translation": "careful",
+      "usageTranslation": "just be careful",
+      "translationTranscription": "ˈkeəfʊl"
+    },
+    {
+      "text": "принуждение",
+      "translation": "enforcement",
+      "usageTranslation": "he works for law enforcement",
+      "translationTranscription": "ɪnˈfɔːsmənt"
+    },
+    {
+      "text": "команда, владение",
+      "translation": "command",
+      "usageTranslation": "who's in command?",
+      "translationTranscription": "kəˈmɑːnd"
+    },
+    {
+      "text": "вытирать",
+      "translation": "wipe",
+      "usageTranslation": "wipe your feet on the way in",
+      "translationTranscription": "waɪp"
+    },
+    {
+      "text": "сообщать",
+      "translation": "inform",
+      "usageTranslation": "he informed us about his arrival",
+      "translationTranscription": "ɪnˈfɔːm"
+    },
+    {
+      "text": "растущий",
+      "translation": "growing",
+      "usageTranslation": "his business is growing very fast",
+      "translationTranscription": "ˈgrəʊɪŋ"
+    },
+    {
+      "text": "ферма",
+      "translation": "farm",
+      "usageTranslation": "she grew up on a dairy farm",
+      "translationTranscription": "fɑːm"
+    },
+    {
+      "text": "класть",
+      "translation": "lay",
+      "usageTranslation": "Carmen laid her head on my shoulder",
+      "translationTranscription": "leɪ"
+    },
+    {
+      "text": "волшебный",
+      "translation": "magic",
+      "usageTranslation": "the witch put a magic spell on the prince",
+      "translationTranscription": "ˈmæʤɪk"
+    },
+    {
+      "text": "предупреждать",
+      "translation": "warn",
+      "usageTranslation": "the doctor warned me about the dangers of smoking",
+      "translationTranscription": "wɔːn"
+    },
+    {
+      "text": "чрезвычайно, особенно",
+      "translation": "particularly",
+      "usageTranslation": "I don't particularly want to be reminded of that time",
+      "translationTranscription": "pəˈtɪkjʊləli"
+    },
+    {
+      "text": "преподаватель",
+      "translation": "educator",
+      "usageTranslation": "a private educator",
+      "translationTranscription": "ˈɛdju(ː)keɪtə"
+    },
+    {
+      "text": "качество",
+      "translation": "quality",
+      "usageTranslation": "the hotel offers comfort and quality",
+      "translationTranscription": "ˈkwɒlɪti"
+    },
+    {
+      "text": "уважение",
+      "translation": "respect",
+      "usageTranslation": "show some respect",
+      "translationTranscription": "rɪsˈpɛkt"
+    },
+    {
+      "text": "сотрудничество",
+      "translation": "cooperation",
+      "usageTranslation": "we would like to ask for your cooperation",
+      "translationTranscription": "kəʊˌɒpəˈreɪʃən"
+    },
+    {
+      "text": "автор",
+      "translation": "author",
+      "usageTranslation": "he is the author of several books",
+      "translationTranscription": "ˈɔːθə"
+    },
+    {
+      "text": "время жизни",
+      "translation": "lifetime",
+      "usageTranslation": "this is the chance of a lifetime",
+      "translationTranscription": "ˈlaɪftaɪm"
+    },
+    {
+      "text": "презентация",
+      "translation": "presentation",
+      "usageTranslation": "your presentation was great",
+      "translationTranscription": "ˌprɛzɛnˈteɪʃən"
+    },
+    {
+      "text": "вспоминать",
+      "translation": "recall",
+      "usageTranslation": "Total Recall is a 1990 American science fiction action film",
+      "translationTranscription": "rɪˈkɔːl"
+    },
+    {
+      "text": "компания",
+      "translation": "company",
+      "usageTranslation": "Mike opened his own company",
+      "translationTranscription": "ˈkʌmpəni"
+    },
+    {
+      "text": "подпись",
+      "translation": "signature",
+      "usageTranslation": "put your signature on these documents",
+      "translationTranscription": "ˈsɪgnɪʧə"
+    },
+    {
+      "text": "описание",
+      "translation": "description",
+      "usageTranslation": "the catalogue gives a full description of each product",
+      "translationTranscription": "dɪsˈkrɪpʃən"
+    },
+    {
+      "text": "украшение",
+      "translation": "decoration",
+      "usageTranslation": "Christmas decorations",
+      "translationTranscription": "ˌdɛkəˈreɪʃən"
+    },
+    {
+      "text": "реклама",
+      "translation": "advertising",
+      "usageTranslation": "an advertising agency",
+      "translationTranscription": "ˈædvətaɪzɪŋ"
+    },
+    {
+      "text": "спасать",
+      "translation": "rescue",
+      "usageTranslation": "rescue squad has arrived",
+      "translationTranscription": "ˈrɛskjuː"
+    },
+    {
+      "text": "всё",
+      "translation": "everything",
+      "usageTranslation": "everything is fine",
+      "translationTranscription": "ˈɛvrɪθɪŋ"
+    },
+    {
+      "text": "искать, стремиться",
+      "translation": "seek",
+      "usageTranslation": "the prince is seeking a wife",
+      "translationTranscription": "siːk"
+    },
+    {
+      "text": "брать на время",
+      "translation": "borrow",
+      "usageTranslation": "you can borrow an umbrella if you need one",
+      "translationTranscription": "ˈbɒrəʊ"
+    },
+    {
+      "text": "в любом случае",
+      "translation": "anyway",
+      "usageTranslation": "it's too late now anyway.",
+      "translationTranscription": "ˈɛnɪweɪ"
+    },
+    {
+      "text": "сбегать",
+      "translation": "flee",
+      "usageTranslation": "he was forced to flee the country",
+      "translationTranscription": "fliː"
+    },
+    {
+      "text": "чушь собачья, дерьмо",
+      "translation": "shit",
+      "usageTranslation": "I don't believe this shit!",
+      "translationTranscription": "ʃɪt"
+    },
+    {
+      "text": "ассортимент, диапазон",
+      "translation": "range",
+      "usageTranslation": "she was gifted with an incredible vocal range",
+      "translationTranscription": "reɪnʤ"
+    },
+    {
+      "text": "единственный, не состоящий в браке",
+      "translation": "single",
+      "usageTranslation": "he sent her a single red rose",
+      "translationTranscription": "ˈsɪŋgl"
+    },
+    {
+      "text": "характеризовать, давать определение",
+      "translation": "define",
+      "usageTranslation": "it's hard to define it precisely",
+      "translationTranscription": "dɪˈfaɪn"
+    }
+  ]
+}
