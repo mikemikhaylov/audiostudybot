@@ -11,7 +11,6 @@ namespace AudioStudy.Bot.Domain.Model.Courses
         public string DescriptionTranslation { get; set; }
         public string Language { get; set; }
         public string TranslationLanguage { get; set; }
-        public bool CanBeReversed { get; set; }
         public Card[] Cards { get; set; }
     }
 }

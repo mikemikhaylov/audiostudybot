@@ -18,21 +18,14 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             return Courses.Value.ToDictionary(x => x.Id, x => x);
         });
 
-        private static readonly Lazy<string[]> CoursesLanguages = new(() => SortLanguages(Courses.Value.SelectMany(x =>
-        {
-            return x.CanBeReversed ? new[] {x.Language, x.TranslationLanguage} : new[] {x.Language};
-        }).Distinct()));
+        private static readonly Lazy<string[]> CoursesLanguages = new(() => SortLanguages(Courses.Value.Select(x =>
+        x.Language).Distinct()));
 
         private static readonly Lazy<Dictionary<string, string[]>> TranslationLanguages = new(() =>
         {
             var result = new Dictionary<string, HashSet<string>>();
             foreach (var languagePairs in Courses.Value.SelectMany(x =>
             {
-                if (x.CanBeReversed)
-                {
-                    return new[] {new[] {x.Language, x.TranslationLanguage}, new[] {x.TranslationLanguage, x.Language}};
-                }
-
                 return new[] {new[] {x.Language, x.TranslationLanguage}};
             }))
             {
@@ -64,9 +57,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
 
         public IReadOnlyList<Course> GetCourses(string language, string translationLanguage)
         {
-            return Courses.Value.Where(x => x.Language == language && x.TranslationLanguage == translationLanguage
-                                            || (x.CanBeReversed && x.Language == translationLanguage &&
-                                                x.TranslationLanguage == language))
+            return Courses.Value.Where(x => x.Language == language && x.TranslationLanguage == translationLanguage)
                 .ToList();
         }
 
