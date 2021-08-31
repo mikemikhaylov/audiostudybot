@@ -1,7 +1,7 @@
 import {Course, CourseLessons, Speed} from "./types";
 import FileProvider from "./file-provider";
 import AudioManager from "./audio-manager";
-
+const ffmetadata = require("ffmetadata");
 const audioconcat = require('audioconcat');
 import {v4 as uuidv4} from 'uuid';
 import AudioMetadataProvider from "./audio-metadata-provider";
@@ -46,6 +46,8 @@ export default class LessonAudioGenerator {
                 const output = resolve(tmpDir, `${Date.now()}_${uuidv4()}.mp3`);
                 console.log(`Concatenating ${audioFiles.length} files for ${lessonPath}`);
                 await concatFiles(audioFiles, output);
+                console.log(`Setting artist for ${output}`);
+                await setArtist(output);
                 const fileName = `${padBatchAudioNumber(lessonNumber)}. ${courseLessons.reversed && (course.nameTranslation && course.nameTranslation.trim()) ? course.nameTranslation : course.name}.mp3`
                 console.log(`Sending file to Telegram for ${course.id}`);
                 const sendingResult: { audio: { file_id: string } } = await bot.sendAudio(chatId, output, {}, {
@@ -89,4 +91,15 @@ function padBatchAudioNumber(n: number) {
 
 function getRandomArbitrary(min: number, max: number) {
     return Math.random() * (max - min) + min;
+}
+
+function setArtist(path: string) {
+    return new Promise<void>((resolve, reject) => {
+        ffmetadata.write(path, {
+            artist: "AudioStudyBot",
+        }, function(err?: Error) {
+            if (err) reject(err)
+            else resolve();
+        });
+    });
 }
