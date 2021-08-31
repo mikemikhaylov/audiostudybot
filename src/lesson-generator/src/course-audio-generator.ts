@@ -25,9 +25,9 @@ export default class CourseAudioGenerator {
             await this.ensureAudio(dir, card.translation, course.translationLanguage, translationVoice, translationSpeed);
             await this.ensureAudio(dir, card.usage, course.language, targetVoice, targetLangSpeed);
             if (course.canBeReversed) {
-                await this.ensureAudio(dir, card.translation, course.translationLanguage, targetVoice, targetLangSpeed);
-                await this.ensureAudio(dir, card.text, course.language, translationVoice, translationSpeed);
-                await this.ensureAudio(dir, card.usageTranslation, course.translationLanguage, targetVoice, targetLangSpeed);
+                await this.ensureAudio(dir, card.translation, course.translationLanguage, translationVoice, targetLangSpeed);
+                await this.ensureAudio(dir, card.text, course.language, targetVoice, translationSpeed);
+                await this.ensureAudio(dir, card.usageTranslation, course.translationLanguage, translationVoice, targetLangSpeed);
             }
         }
     }
@@ -44,6 +44,5 @@ export default class CourseAudioGenerator {
         console.log(`Generating audio for ${logText}`);
         const audio = await this.synthesizer.synthesize(text, voiceId, speed);
         await this.audioManager.saveFile(dir, text, language, voiceId, speed, audio);
-        console.log(`Generated audio for ${logText}`);
     }
 }

@@ -27,9 +27,9 @@ export default class AudioManager {
 
     private static getFileName(text: string) {
         const hash = crypto
-            .createHash("sha256")
+            .createHash("md5")
             .update(text)
             .digest("hex");
-        return `${filenamify(text, {replacement: '_', maxLength: 30})}${hash}.mp3`;
+        return `${filenamify(text, {replacement: '_', maxLength: 60})}_${hash}.mp3`;
     }
 }

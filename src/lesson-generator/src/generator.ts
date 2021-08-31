@@ -8,7 +8,7 @@ export default class Generator {
     constructor(
         private readonly lessonGenerator: LessonGenerator,
         private readonly fileProvider: FileProvider,
-        private readonly audioGenerator: CourseAudioGenerator,
+        private readonly courseAudioGenerator: CourseAudioGenerator,
         private readonly lessonAudioGenerator: LessonAudioGenerator) {
     }
 
@@ -16,7 +16,7 @@ export default class Generator {
         console.log(`Generating for course file ${config.courseFilePath}`)
         const course = await this.getCourse(config.courseFilePath);
         await this.lessonGenerator.generate(course, config.courseLessonsDirectory);
-        await this.audioGenerator.generate(course, config.mediaOutputDirectory);
+        await this.courseAudioGenerator.generate(course, config.mediaOutputDirectory);
         await this.lessonAudioGenerator.generate({
             course,
             lessonsDir: config.courseLessonsDirectory,
@@ -24,7 +24,8 @@ export default class Generator {
             tmpDir: config.tmpDir,
             chatId: config.chatId,
             botToken: config.botToken,
-            pauseFilePath: config.pauseFilePath
+            pauseFilePath: config.pauseFilePath,
+            longPauseFilePath: config.longPauseFilePath
         });
     }
 

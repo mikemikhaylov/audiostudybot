@@ -5,10 +5,10 @@ export default class FileProvider {
     public async isEmpty(directory: string): Promise<boolean> {
         return (await fs.promises.readdir(directory)).length === 0;
     }
-    
+
     public async ensureDirExists(dir: string): Promise<void> {
-        if (!fs.existsSync(dir)){
-            fs.mkdirSync(dir, { recursive: true });
+        if (!fs.existsSync(dir)) {
+            fs.mkdirSync(dir, {recursive: true});
         }
     }
 
@@ -16,13 +16,13 @@ export default class FileProvider {
         let result: string[] = [];
         for (const sub of await fs.promises.readdir(directory)) {
             const res = resolve(directory, sub);
-            if (await fs.promises.stat(res).isDirectory()) {
+            if (fs.lstatSync(res).isDirectory()) {
                 result = result.concat(await this.getAllFilesInDirectory(sub, filter))
             } else if (!filter || filter(sub)) {
                 result.push(sub);
             }
         }
-        return result;
+        return result.map(x => resolve(directory, x));
     }
 
     public async readFile(path: string): Promise<string> {

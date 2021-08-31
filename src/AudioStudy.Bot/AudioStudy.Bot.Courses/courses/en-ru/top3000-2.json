@@ -9,7 +9,7 @@
   "language": "en",
   "translationLanguage": "ru",
   "canBeReversed": true,
-  "cards": 
+  "cards": [
     {
       "text": "behavior",
       "transcription": "bɪˈheɪvjə",
@@ -912,5 +912,5 @@
       "translation": "характеризовать, давать определение",
       "usage": "it's hard to define it precisely"
     }
-  
+  ]
 }

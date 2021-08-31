@@ -24,7 +24,7 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
-    "audioconcat": "^0.1.4",
+    "audioconcat": "^0.1.3",
     "aws-sdk": "^2.977.0",
     "filenamify": "^4.3.0",
     "node-telegram-bot-api": "^0.54.0",

@@ -5,12 +5,14 @@ export type GeneratorConfig = {
     tmpDir: string;
     botToken: string;
     pauseFilePath: string;
+    longPauseFilePath: string;
     chatId: number;
 }
 
 export type Course = {
     id: string;
     name: string;
+    nameTranslation: string;
     cards: Card[];
     canBeReversed: boolean;
     version: number;

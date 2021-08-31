@@ -24,9 +24,10 @@ const lessonAudioGenerator = new LessonAudioGenerator(fileProvider, audioManager
         courseLessonsDirectory: '../AudioStudy.Bot/AudioStudy.Bot.Courses/lessons/en-ru/top3000/1',
         mediaOutputDirectory: '../../media_output',
         tmpDir: '../../media_output/tmp',
-        botToken: '1',
-        pauseFilePath: 'assets/pause.mp3',
-        chatId: 1
-    })
+        botToken: '',
+        pauseFilePath: 'assets/1300_pause.mp3',
+        longPauseFilePath: 'assets/2500_pause.mp3',
+        chatId: -504745169
+    });
 })();
 
