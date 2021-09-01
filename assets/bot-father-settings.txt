@@ -1,0 +1,11 @@
+About:
+Бот для изучения слов через аудио со встроенным интервальным повторением.
+
+Bot for learning words via audio lessons.
+
+Description:
+Бот для изучения английских (и не только) слов через аудио уроки со встроенным интервальным повторением.
+Выбираете набор слов для изучения, каждый день получаете короткое аудио с 5 новыми словами, а также каким-то количеством слов из прошлых уроков для повторения.
+
+Bot for learning words via audio lessons with built-in spaced repetition. 
+Choose word set and get a short audio lesson every day with 5 new words and a bunch of words from previous lessons to review.
