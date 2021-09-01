@@ -28,6 +28,9 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string Help(Language language) => GetKey(language, "msg:help");
 
+        public string EveryThingSetUp(Language language) => string.Format(GetKey(language, "msg:everythingsetup"),
+            FormatHelper.EmojiAddAsThumbsUp);
+
         public string CancelBtnLabel(Language language) =>
             FormatHelper.EmojiAddAsCancel + GetKey(language, "msg:cancelbtn");
 
@@ -66,16 +69,16 @@ namespace AudioStudy.Bot.SharedUtils.Localization
                          "</b>";
         }
 
-        public string NoCoursesOnCurrentPage(Language language) => "нет курсов на странице, запросите заново";
+        public string NoCoursesOnCurrentPage(Language language) => GetKey(language, "msg:nocoursesonthepage");
 
-        public string PageBtnLabel(Language language) => "страница";
+        public string PageBtnLabel(Language language) => GetKey(language, "msg:page");
 
-        public string NoCoursesMessage(Language language) => "в базе нет курсов попробуйте изменить фильтра";
+        public string NoCoursesMessage(Language language) => GetKey(language, "msg:nocourses");
 
-        public string FilterCoursesBtn(Language language) => "фильтр";
+        public string FilterCoursesBtn(Language language) => GetKey(language, "msg:filter") + FormatHelper.EmojiFilter;
 
-        public string CoursesMessage(Language language) => "вот это наши курсы";
-        public string InlineBackBtn(Language language) => "назад";
+        public string CoursesMessage(Language language) => GetKey(language, "msg:listofcourses");
+        public string InlineBackBtn(Language language) => GetKey(language, "msg:inlinebackbtn");
 
         public string Course(Language language, string courseName, string courseDescription, int numberOfCards,
             int numberOfLessons,
@@ -91,67 +94,62 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string ShowCards(Language language)
         {
-            return "show cards";
+            return GetKey(language, "msg:showcards");
         }
 
         public string StartCourseLearning(Language language)
         {
-            return "start course";
+            return GetKey(language, "msg:startcourse");
         }
 
         public string StopCourseLearning(Language language)
         {
-            return "stop course";
+            return GetKey(language, "msg:getnextlesson");
         }
 
         public string GetNextLesson(Language language)
         {
-            return "get next lesson";
+            return GetKey(language, "msg:getnextlesson");
         }
 
         public string StartOverCourseLearning(Language language)
         {
-            return "start over";
+            return GetKey(language, "msg:startover");
         }
 
         public string AreYouSureStartOrStartOver(Language language)
         {
-            return "уверены? весь прогресс будет потерян";
+            return GetKey(language, "msg:suretostartoverorstop");
         }
 
         public string Yes(Language language)
         {
-            return "yes";
+            return GetKey(language, "msg:yes");
         }
 
         public string No(Language language)
         {
-            return "no";
+            return GetKey(language, "msg:no");
         }
 
         public string YouFinishedTheCourse(Language language)
         {
-            return "Congrats! U finished the course";
+            return GetKey(language, "msg:finishcoursecongrats");
         }
 
         public string ToTheCoursesList(Language language)
         {
-            return "go to the course list";
+            return GetKey(language, "msg:tothecourseslist");
         }
 
         public string CourseStartedOver(Language language)
         {
-            return "course started over";
-        }
-
-        public string HereIsYourLesson(Language language)
-        {
-            return "here is your lesson";
+            return GetKey(language, "msg:coursestartedover");
         }
 
         public string NoCardsOnCurrentPage(Language language)
         {
-            return "no cards on current page";
+            return GetKey(language, "msg:nocardsonthepage");
         }
 
         public string Cards(
@@ -165,17 +163,17 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string NoCardsInCourse(Language language)
         {
-            return "в курсе нет карточек";
+            return GetKey(language, "msg:nocardsincourse");
         }
 
         public string NoCardsInLesson(Language language)
         {
-            return "в уроке нет карточек";
+            return GetKey(language, "msg:nocardsinlesson");
         }
 
         public string BackToTheCourse(Language language)
         {
-            return "back to the course";
+            return InlineBackBtn(language);
         }
 
         public string CurrentlyLearningCourse(Language language, (string name, int totalNumberOfLessons) course)
@@ -185,47 +183,47 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string ChooseAnotherCourse(Language language)
         {
-            return "выбрать другой курс";
+            return GetKey(language, "msg:selectanothercourse");
         }
 
         public string CoursesToLearnMessage(Language language)
         {
-            return "choose course to learn";
+            return GetKey(language, "msg:choosecoursetolearn");
         }
 
         public string NoCoursesToLearnMessage(Language language)
         {
-            return "no courses to learn";
+            return GetKey(language, "msg:nocoursestolearn");
         }
 
         public string InlineCoursesBtnLabel(Language language)
         {
-            return "open courses";
+            return GetKey(language, "msg:inlinecoursesbtn");
         }
 
         public string RatingInstruction(Language language)
         {
-            return "please rate";
+            return GetKey(language, "msg:ohgreate");
         }
 
         public string ThanksForRating(Language language)
         {
-            return "thanks for rating";
+            return FormatHelper.EmojiSmile + GetKey(language, "msg:thankyou");
         }
 
         public string WillRateLaterAnswer(Language language)
         {
-            return "ok, see u";
+            return FormatHelper.EmojiSmile + GetKey(language, "msg:iwillhideratebtn");
         }
 
         public string WillNotRateAnswer(Language language)
         {
-            return "that is pity";
+            return FormatHelper.EmojiSleepy + GetKey(language, "msg:thatsok");
         }
 
         public string UnknownCommand(Language language)
         {
-            return "unknown command";
+            return GetKey(language, "msg:unknowncommand");
         }
 
         private string GetKey(Language language, string key) =>

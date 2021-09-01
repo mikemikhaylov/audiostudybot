@@ -42,6 +42,7 @@ namespace AudioStudy.Bot.SharedUtils.Helpers
         public const string EmojiCheckboxChecked = "\U00002611";
         public const string EmojiCheckboxUnchecked = "\U000025FD";
         public const string EmojiStar = "⭐";
+        public const string EmojiFilter = "\U0001F32A";
         
         public const string EmojiAddAsCancel = "\U0001F519";
 

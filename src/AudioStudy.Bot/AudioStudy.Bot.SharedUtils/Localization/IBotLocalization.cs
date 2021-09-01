@@ -46,7 +46,6 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string YouFinishedTheCourse(Language language);
         string ToTheCoursesList(Language language);
         string CourseStartedOver(Language language);
-        string HereIsYourLesson(Language language);
         string NoCardsOnCurrentPage(Language language);
         string Cards(params (string Text, string Transcription, string Translation, string Usage, string UsageTranslation)[] cards);
         string NoCardsInCourse(Language language);
@@ -62,5 +61,6 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string WillRateLaterAnswer(Language language);
         string WillNotRateAnswer(Language language);
         string UnknownCommand(Language language);
+        string EveryThingSetUp(Language language);
     }
 }

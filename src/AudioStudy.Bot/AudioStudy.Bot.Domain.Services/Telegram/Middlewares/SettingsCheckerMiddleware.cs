@@ -44,7 +44,9 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
             if (!missingSettings)
             {
                 IMenuSubMiddleware menuSubMiddleware = _menuSubMiddlewareFactory.Get(TelegramState.OnMainWindow);
-                pipelineContext.ResponseMessage = pipelineContext.ResponseMessage.AddText("наконец-то этот экран сделан");
+                pipelineContext.ResponseMessage = pipelineContext.ResponseMessage
+                    .AddText(_botLocalization.EveryThingSetUp(pipelineContext.User.Language))
+                    .AddText(_botLocalization.Help(pipelineContext.User.Language));
                 pipelineContext.ResponseMessage.Html = true;
                 await menuSubMiddleware.ChangeState(pipelineContext);
             }
