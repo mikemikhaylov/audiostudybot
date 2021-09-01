@@ -5,7 +5,13 @@ Bot for learning words via audio lessons.
 
 Description:
 Бот для изучения английских (и не только) слов через аудио уроки со встроенным интервальным повторением.
-Выбираете набор слов для изучения, каждый день получаете короткое аудио с 5 новыми словами, а также каким-то количеством слов из прошлых уроков для повторения.
+Выбираете курс для изучения, каждый день получаете короткое аудио с 5 новыми словами, а также каким-то количеством слов из прошлых уроков для повторения.
 
 Bot for learning words via audio lessons with built-in spaced repetition. 
-Choose word set and get a short audio lesson every day with 5 new words and a bunch of words from previous lessons to review.
+Choose course and get a short audio lesson every day with 5 new words and a bunch of words from previous lessons to review.
+
+Commands:
+learn - начать учиться/start learning
+help - открыть справку/open help
+courses - перейти к курсам/go to courses
+settings - открыть настройки/open settings

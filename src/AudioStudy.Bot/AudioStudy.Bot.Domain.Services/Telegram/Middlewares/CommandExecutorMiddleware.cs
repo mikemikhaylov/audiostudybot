@@ -13,16 +13,19 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
         private readonly IBotLocalization _botLocalization;
         private readonly IMenuSubMiddlewareFactory _menuSubMiddlewareFactory;
         private readonly IFullCourseListPagingHelper _fullCourseListPagingHelper;
+        private readonly ILearnHelper _learnHelper;
 
         public CommandExecutorMiddleware(
             IBotLocalization botLocalization,
             IMenuSubMiddlewareFactory menuSubMiddlewareFactory,
-            IFullCourseListPagingHelper fullCourseListPagingHelper
+            IFullCourseListPagingHelper fullCourseListPagingHelper,
+            ILearnHelper learnHelper
             )
         {
             _botLocalization = botLocalization;
             _menuSubMiddlewareFactory = menuSubMiddlewareFactory;
             _fullCourseListPagingHelper = fullCourseListPagingHelper;
+            _learnHelper = learnHelper;
         }
 
         public async Task HandleMessageAsync(TelegramPipelineContext pipelineContext)
@@ -62,6 +65,13 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
                 pipelineContext.ResponseMessage
                     = await _fullCourseListPagingHelper.GetFirstPageAsync(pipelineContext.User);
                 pipelineContext.Intent = Intent.CoursesList;
+                pipelineContext.Processed = true;
+            }
+            else if (IsCommand(text, CommandConstants.LearnCommand))
+            {
+                pipelineContext.ResponseMessage
+                    = await _learnHelper.GetLearnPage(pipelineContext.User);
+                pipelineContext.Intent = Intent.LearnPage;
                 pipelineContext.Processed = true;
             }
         }

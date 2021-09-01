@@ -6,5 +6,6 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
         public const string HelpCommand = "/help";
         public const string SettingsCommand = "/settings";
         public const string CoursesCommand = "/courses";
+        public const string LearnCommand = "/learn";
     }
 }
