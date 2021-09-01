@@ -25,6 +25,10 @@ namespace AudioStudy.Bot.SharedUtils.Helpers
         public const string EmojiFilter = "\U0001F32A";
         public const string CongratsEmoji = "🎉";
         public const string EmojiCheckMark = "✅";
+        public const string EmojiStop = "⏹️";
+        public const string EmojiStart = "▶️";
+        public const string EmojiStartOver = "⏪";
+        public const string EmojiCards = "🗃️";
         
         public const string EmojiAddAsCancel = "\U0001F519";
 

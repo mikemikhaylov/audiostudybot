@@ -8,6 +8,7 @@ using AudioStudy.Bot.Domain.Model.Courses;
 using AudioStudy.Bot.Domain.Model.Telegram;
 using AudioStudy.Bot.Domain.Model.Telegram.CallbackData;
 using AudioStudy.Bot.Domain.Services.Courses;
+using AudioStudy.Bot.SharedUtils.Helpers;
 using AudioStudy.Bot.SharedUtils.Localization;
 
 namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
@@ -55,6 +56,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             {
                 Text = _botLocalization.CurrentlyLearningCourse(user.Language,
                     (_courseProvider.GetCourseName(user.Language, course), 0)),
+                Html = true,
                 InlineButtons = new[]
                 {
                     new[]
@@ -97,7 +99,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         {
             return null;
         }
-        
+
         protected override TelegramInlineBtn[][] GetAdditionalTopButtons(User user, int page, int pageSize)
         {
             return null;
@@ -105,27 +107,23 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
 
         protected override TelegramInlineBtn[][] GetAdditionalBottomButtons(User user, int page, int pageSize)
         {
-            var buttons = new[]
-            {
-                new[]
-                {
-                    new TelegramInlineBtn(_botLocalization.InlineCoursesBtnLabel(user.Language),
-                        new OpenPageCallbackData(0, Consts.CoursePerPage).ToString())
-                }
-            };
+            var coursesBtn = new TelegramInlineBtn(_botLocalization.InlineCoursesBtnLabel(user.Language),
+                new OpenPageCallbackData(0, Consts.CoursePerPage).ToString());
+
             if (string.IsNullOrWhiteSpace(user.LearningCourseId))
             {
-                return buttons;
+                return new[] {new[] {coursesBtn}};
             }
 
             return new[]
             {
                 new[]
                 {
+                    coursesBtn,
                     new TelegramInlineBtn(_botLocalization.InlineBackBtn(user.Language),
                         new OpenLearnPageCallbackData().ToString())
                 }
-            }.Concat(buttons).ToArray();
+            };
         }
 
         protected override string GetOpenCourseData(User user, string courseId, int page, int pageSize)
@@ -135,7 +133,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
 
         protected override string GetCourseName(User user, Course course)
         {
-            return _courseProvider.GetCourseName(user.Language, course);
+            return _courseProvider.GetCourseName(user.Language, course) + FormatHelper.EmojiStar;
         }
 
         protected override string GetOpenPageData(User user, int page, int pageSize)

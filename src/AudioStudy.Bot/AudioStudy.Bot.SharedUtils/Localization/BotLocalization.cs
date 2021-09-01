@@ -84,7 +84,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         public string FilterCoursesBtn(Language language) => GetKey(language, "msg:filter") + FormatHelper.EmojiFilter;
 
         public string CoursesMessage(Language language) => GetKey(language, "msg:listofcourses");
-        public string InlineBackBtn(Language language) => GetKey(language, "msg:inlinebackbtn");
+        public string InlineBackBtn(Language language) => FormatHelper.EmojiAddAsCancel + GetKey(language, "msg:inlinebackbtn");
 
         public string Course(Language language, string courseName, string courseDescription, int numberOfCards,
             int numberOfLessons,
@@ -133,27 +133,27 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string ShowCards(Language language)
         {
-            return GetKey(language, "msg:showcards");
+            return FormatHelper.EmojiCards + GetKey(language, "msg:showcards");
         }
 
         public string StartCourseLearning(Language language)
         {
-            return GetKey(language, "msg:startcourse");
+            return FormatHelper.EmojiStart + GetKey(language, "msg:startcourse");
         }
 
         public string StopCourseLearning(Language language)
         {
-            return GetKey(language, "msg:stopcourse");
+            return FormatHelper.EmojiStop + GetKey(language, "msg:stopcourse");
         }
 
         public string GetNextLesson(Language language)
         {
-            return GetKey(language, "msg:getnextlesson");
+            return FormatHelper.EmojiLearn + GetKey(language, "msg:getnextlesson");
         }
 
         public string StartOverCourseLearning(Language language)
         {
-            return GetKey(language, "msg:startover");
+            return FormatHelper.EmojiStartOver + GetKey(language, "msg:startover");
         }
 
         public string AreYouSureStartOrStartOver(Language language)
@@ -217,17 +217,17 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string CurrentlyLearningCourse(Language language, (string name, int totalNumberOfLessons) course)
         {
-            return "вот этот курс сейчас " + course.name;
+            return $"<b>{GetKey(language, "msg:course")}:</b> {course.name}";
         }
 
         public string ChooseAnotherCourse(Language language)
         {
-            return GetKey(language, "msg:selectanothercourse");
+            return FormatHelper.EmojiCourses + GetKey(language, "msg:selectanothercourse");
         }
 
         public string CoursesToLearnMessage(Language language)
         {
-            return GetKey(language, "msg:choosecoursetolearn");
+            return string.Format(GetKey(language, "msg:choosecoursetolearn"), ChooseAnotherCourse(language));
         }
 
         public string NoCoursesToLearnMessage(Language language)
@@ -237,7 +237,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string InlineCoursesBtnLabel(Language language)
         {
-            return GetKey(language, "msg:inlinecoursesbtn");
+            return FormatHelper.EmojiCourses + GetKey(language, "msg:inlinecoursesbtn");
         }
 
         public string RatingInstruction(Language language)

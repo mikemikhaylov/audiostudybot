@@ -140,12 +140,12 @@
     "en": "Currently you don't have any courses to learn. Please use the button below and go to the list of courses and start course you would like to learn."
   },
   "msg:choosecoursetolearn": {
-    "ru": "Выберите курс для изучения",
-    "en": "Select course to learn"
+    "ru": "Выберите курс для изучения. Только курсы, которые вы начали, перечислены здесь. Нажмите кнопку \"{0}\", если вы хотите начать другой курс.",
+    "en": "Select course to learn. Only courses you started are listed here. Click the \"{0}\" button, if you want to start another course."
   },
   "msg:selectanothercourse": {
-    "ru": "Выбрать другой курс",
-    "en": "Select Another Course"
+    "ru": "Другой курс",
+    "en": "Another Course"
   },
   "msg:nocardsinlesson": {
     "ru": "В уроке нет карточек",
@@ -226,5 +226,9 @@
   "msg:coursecompleted": {
     "ru": "Курс завершен",
     "en": "Course completed"
+  },
+  "msg:course": {
+    "ru": "Курс",
+    "en": "Course"
   }
 }

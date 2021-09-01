@@ -59,6 +59,22 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             var isUserCourse = userCourse != null;
             var lessonsLearned = userCourse == null ? 0 : (userCourse.LastLesson < 0 ? 0 : userCourse.LastLesson + 1);
             var inlineButtons = new List<TelegramInlineBtn>();
+            if (userCourse != null)
+            {
+                if (lessonsLearned < numberOfCards)
+                {
+                    inlineButtons.Add(
+                
+                        new TelegramInlineBtn(_botLocalization.GetNextLesson(user.Language),
+                            new GetNextLessonCallbackData(data.CourseId).ToString())
+                    );
+                }
+            }
+            inlineButtons.Add(
+            
+                new TelegramInlineBtn(_botLocalization.ShowCards(user.Language),
+                    new OpenCourseCardsPageCallbackData(data.CourseId, 0, Consts.CardsPerPage, data.Page, data.PageSize).ToString())
+            );
             if (userCourse == null)
             {
                 inlineButtons.Add(
@@ -69,11 +85,6 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             }
             else
             {
-                inlineButtons.Add(
-                
-                    new TelegramInlineBtn(_botLocalization.GetNextLesson(user.Language),
-                        new GetNextLessonCallbackData(data.CourseId).ToString())
-                );
                 inlineButtons.Add(
                 
                     new TelegramInlineBtn(_botLocalization.StopCourseLearning(user.Language),
@@ -89,11 +100,6 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                         new StartOverFromCoursePageCallbackData(data.CourseId, data.Page, data.PageSize).ToString())
                 );
             }
-            inlineButtons.Add(
-            
-                new TelegramInlineBtn(_botLocalization.ShowCards(user.Language),
-                    new OpenCourseCardsPageCallbackData(data.CourseId, 0, Consts.CardsPerPage, data.Page, data.PageSize).ToString())
-            );
             inlineButtons.Add(
             
                 new TelegramInlineBtn(_botLocalization.InlineBackBtn(user.Language),
