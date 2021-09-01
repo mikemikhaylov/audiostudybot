@@ -29,6 +29,12 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             return base.GetPageAsync(user, data.Page, data.PageSize, data);
         }
 
+        protected override string GetFirstPageHeader(User user, OpenLessonCardsPageCallbackData data)
+        {
+            var numberOfLessons = _lessonProvider.GetCourseLessons(data.CourseId, data.Version).Length;
+            return _botLocalization.LessonNOfN(user.Language, numberOfLessons, data.Lesson + 1);
+        }
+
         protected override IReadOnlyList<Card> GetCards(User user, int skip, int take,
             OpenLessonCardsPageCallbackData data)
         {

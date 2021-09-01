@@ -154,7 +154,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares
         {
             return new TelegramResponseMessage
             {
-                Text = _botLocalization.ChooseLanguage(Language.Unknown),
+                Text = _botLocalization.ChooseLanguage(),
                 ReplyButtons = _telegramButtonsHelper.ForceLanguageButtons
             };
         }

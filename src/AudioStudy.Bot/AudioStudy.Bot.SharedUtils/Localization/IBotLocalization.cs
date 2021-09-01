@@ -38,6 +38,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string ShowCards(Language language);
         string StartCourseLearning(Language language);
         string StopCourseLearning(Language language);
+        string GetLesson(Language language);
         string GetNextLesson(Language language);
         string StartOverCourseLearning(Language language);
         string AreYouSureStartOrStartOver(Language language);
@@ -47,7 +48,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string ToTheCoursesList(Language language);
         string CourseStartedOver(Language language);
         string NoCardsOnCurrentPage(Language language);
-        string Cards(params (string Text, string Transcription, string Translation, string Usage, string UsageTranslation)[] cards);
+        string Cards(params (string Text, string Transcription, string Translation, string Usage, string UsageTranslation, bool isNew)[] cards);
         string NoCardsInCourse(Language language);
         string NoCardsInLesson(Language language);
         string BackToTheCourse(Language language);
@@ -63,5 +64,6 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string UnknownCommand(Language language);
         string EveryThingSetUp(Language language);
         string MainMenuText(Language language);
+        string LessonNOfN(Language language, int numberOfLessons, int currentLesson);
     }
 }

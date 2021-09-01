@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web;
 using AudioStudy.Bot.SharedUtils.Helpers;
 using AudioStudy.Bot.SharedUtils.Localization.Enums;
 using AudioStudy.Bot.SharedUtils.Localization.LocalizationSource;
@@ -33,6 +34,10 @@ namespace AudioStudy.Bot.SharedUtils.Localization
             FormatHelper.EmojiAddAsThumbsUp);
 
         public string MainMenuText(Language language) => GetKey(language, "msg:mainmenutext");
+        public string LessonNOfN(Language language, int numberOfLessons, int currentLesson)
+        {
+            return $"<b>{string.Format(GetKey(language, "msg:lessonnofn"), currentLesson, numberOfLessons)}</b>";
+        }
 
         public string CancelBtnLabel(Language language) =>
             FormatHelper.EmojiAddAsCancel + GetKey(language, "msg:cancelbtn");
@@ -146,6 +151,11 @@ namespace AudioStudy.Bot.SharedUtils.Localization
             return FormatHelper.EmojiStop + GetKey(language, "msg:stopcourse");
         }
 
+        public string GetLesson(Language language)
+        {
+            return FormatHelper.EmojiLearn + GetKey(language, "msg:getlesson");
+        }
+
         public string GetNextLesson(Language language)
         {
             return FormatHelper.EmojiLearn + GetKey(language, "msg:getnextlesson");
@@ -192,12 +202,39 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         }
 
         public string Cards(
-            params (string Text, string Transcription, string Translation, string Usage, string UsageTranslation)[]
+            params (string Text, string Transcription, string Translation, string Usage, string UsageTranslation, bool isNew)[]
                 cards)
         {
-            return string.Join(Environment.NewLine, cards.Select(x => string.Join(Environment.NewLine, $"Text {x.Text}",
-                $"Transcription {x.Transcription}",
-                $"Translation {x.Translation}", $"Usage {x.Usage}", $"UsageTranslation {x.UsageTranslation}")));
+            var lines = new List<string>();
+            for (int i = 0; i < cards.Length; i++)
+            {
+                var card = cards[i];
+                var line = card.isNew ? FormatHelper.EmojiNew : string.Empty;
+                line += HttpUtility.HtmlEncode(card.Text.Trim());
+                if (!string.IsNullOrWhiteSpace(card.Transcription))
+                {
+                    line += HttpUtility.HtmlEncode($" [{card.Transcription.Trim()}]");
+                }
+                if (!string.IsNullOrWhiteSpace(card.Translation))
+                {
+                    line += $" - {HttpUtility.HtmlEncode(card.Translation.Trim())}";
+                }
+                lines.Add(line);
+                if (!string.IsNullOrWhiteSpace(card.Usage))
+                {
+                    lines.Add(HttpUtility.HtmlEncode(card.Usage.Trim()));
+                }
+                if (!string.IsNullOrWhiteSpace(card.UsageTranslation))
+                {
+                    lines.Add(HttpUtility.HtmlEncode(card.UsageTranslation.Trim()));
+                }
+
+                if (i != cards.Length - 1)
+                {
+                    lines.Add(string.Empty);
+                }
+            }
+            return FormatHelper.ConcatTelegramLines(lines);
         }
 
         public string NoCardsInCourse(Language language)

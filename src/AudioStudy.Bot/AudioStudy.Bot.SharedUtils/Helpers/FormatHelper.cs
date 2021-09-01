@@ -29,6 +29,7 @@ namespace AudioStudy.Bot.SharedUtils.Helpers
         public const string EmojiStart = "▶️";
         public const string EmojiStartOver = "⏪";
         public const string EmojiCards = "🗃️";
+        public const string EmojiNew = "🆕";
         
         public const string EmojiAddAsCancel = "\U0001F519";
 

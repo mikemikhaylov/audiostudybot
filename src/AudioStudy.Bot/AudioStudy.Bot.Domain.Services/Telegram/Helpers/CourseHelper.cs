@@ -65,7 +65,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                 {
                     inlineButtons.Add(
                 
-                        new TelegramInlineBtn(_botLocalization.GetNextLesson(user.Language),
+                        new TelegramInlineBtn(_botLocalization.GetLesson(user.Language),
                             new GetNextLessonCallbackData(data.CourseId).ToString())
                     );
                 }
@@ -244,7 +244,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                 {
                     new[]
                     {
-                        new TelegramInlineBtn(_botLocalization.GetNextLesson(user.Language),
+                        new TelegramInlineBtn(_botLocalization.GetLesson(user.Language),
                             new GetNextLessonCallbackData(course.Id).ToString())
                     }
                 }

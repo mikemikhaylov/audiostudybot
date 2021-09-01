@@ -187,9 +187,13 @@
     "ru": "Начать Заново",
     "en": "Start Over"
   },
-  "msg:getnextlesson": {
+  "msg:getlesson": {
     "ru": "Получить Урок",
     "en": "Get Lesson"
+  },
+  "msg:getnextlesson": {
+    "ru": "Получить Следующий Урок",
+    "en": "Get Next Lesson"
   },
   "msg:stopcourse": {
     "ru": "Закончить",
@@ -230,5 +234,9 @@
   "msg:course": {
     "ru": "Курс",
     "en": "Course"
+  },
+  "msg:lessonnofn": {
+    "ru": "Урок {0} из {1}",
+    "en": "Lesson {0} out of {1}"
   }
 }

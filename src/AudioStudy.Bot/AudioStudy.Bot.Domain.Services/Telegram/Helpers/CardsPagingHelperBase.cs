@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using AudioStudy.Bot.Domain.Model;
 using AudioStudy.Bot.Domain.Model.Courses;
 using AudioStudy.Bot.Domain.Model.Telegram;
+using AudioStudy.Bot.SharedUtils.Helpers;
 using AudioStudy.Bot.SharedUtils.Localization;
 
 namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
@@ -23,12 +24,16 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         {
             var skip = page * pageSize;
             var cards = GetCards(user, skip, pageSize + 1, data);
-            string responseText;
+            string responseText = string.Empty;
+            if (page == 0)
+            {
+                responseText = FormatHelper.ConcatTelegramLines(GetFirstPageHeader(user, data), string.Empty, string.Empty);
+            }
             if (cards.Any())
             {
-                responseText = _botLocalization.Cards(cards.Take(pageSize).Select(x => (Text: x.Text,
+                responseText += _botLocalization.Cards(cards.Take(pageSize).Select(x => (Text: x.Text,
                     Transcription: x.Transcription, Translation: x.Translation, Usage: x.Usage,
-                    UsageTranslation: x.UsageTranslation)).ToArray());
+                    UsageTranslation: x.UsageTranslation, x.IsNew)).ToArray());
             }
             else
             {
@@ -39,7 +44,8 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
 
             var result = new TelegramResponseMessage
             {
-                Text = responseText
+                Text = responseText,
+                Html = true
             };
             TelegramInlineBtn[] pagesBtns = null;
 
@@ -98,7 +104,11 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
 
             return Task.FromResult(result);
         }
-        
+
+        protected virtual string GetFirstPageHeader(User user, TData data)
+        {
+            return null;
+        }
         protected abstract IReadOnlyList<Card> GetCards(User user, int skip, int take, TData data);
         protected abstract string GetFile(User user, TData data);
         protected abstract string GetNoCardsMessage(User user);
