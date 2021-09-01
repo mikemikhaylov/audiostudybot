@@ -57,55 +57,57 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             var numberOfLessons = _lessonProvider.GetCourseLessons(course.Id, userCourse?.Version ?? course.Version)
                 .Length;
             var isUserCourse = userCourse != null;
-            var inlineButtons = new List<TelegramInlineBtn[]>();
-            inlineButtons.Add(new[]
-            {
-                new TelegramInlineBtn(_botLocalization.ShowCards(user.Language),
-                    new OpenCourseCardsPageCallbackData(data.CourseId, 0, Consts.CardsPerPage, data.Page, data.PageSize).ToString())
-            });
+            var lessonsLearned = userCourse == null ? 0 : (userCourse.LastLesson < 0 ? 0 : userCourse.LastLesson + 1);
+            var inlineButtons = new List<TelegramInlineBtn>();
             if (userCourse == null)
             {
-                inlineButtons.Add(new[]
-                {
+                inlineButtons.Add(
+                
                     new TelegramInlineBtn(_botLocalization.StartCourseLearning(user.Language),
                         new StartLearningCallbackData(data.CourseId, data.Page, data.PageSize).ToString())
-                });
+                );
             }
             else
             {
-                inlineButtons.Add(new[]
-                {
+                inlineButtons.Add(
+                
                     new TelegramInlineBtn(_botLocalization.GetNextLesson(user.Language),
                         new GetNextLessonCallbackData(data.CourseId).ToString())
-                });
-                inlineButtons.Add(new[]
-                {
+                );
+                inlineButtons.Add(
+                
                     new TelegramInlineBtn(_botLocalization.StopCourseLearning(user.Language),
                         new StopLearningCallbackData(data.CourseId, data.Page, data.PageSize).ToString())
-                });
+                );
             }
 
             if (userCourse?.LastLesson >= 0)
             {
-                inlineButtons.Add(new[]
-                {
+                inlineButtons.Add(
+                
                     new TelegramInlineBtn(_botLocalization.StartOverCourseLearning(user.Language),
                         new StartOverFromCoursePageCallbackData(data.CourseId, data.Page, data.PageSize).ToString())
-                });
+                );
             }
-
-            inlineButtons.Add(new[]
-            {
+            inlineButtons.Add(
+            
+                new TelegramInlineBtn(_botLocalization.ShowCards(user.Language),
+                    new OpenCourseCardsPageCallbackData(data.CourseId, 0, Consts.CardsPerPage, data.Page, data.PageSize).ToString())
+            );
+            inlineButtons.Add(
+            
                 new TelegramInlineBtn(_botLocalization.InlineBackBtn(user.Language),
                     new OpenPageCallbackData(data.Page, data.PageSize).ToString())
-            });
-
+            );
             return new TelegramResponseMessage
             {
                 Text = _botLocalization.Course(user.Language, courseName, courseDescription, numberOfCards,
-                    numberOfLessons, isUserCourse, userCourse?.LastLesson),
+                    numberOfLessons, isUserCourse, lessonsLearned),
                 Html = true,
-                InlineButtons = inlineButtons.ToArray()
+                InlineButtons = inlineButtons.Select((item, inx) => new {item, inx})
+                    .GroupBy(x => x.inx / 2)
+                    .Select(g => g.Select(x => x.item))
+                    .Select(x => x.Select(xx => xx).ToArray()).ToArray()
             };
         }
 

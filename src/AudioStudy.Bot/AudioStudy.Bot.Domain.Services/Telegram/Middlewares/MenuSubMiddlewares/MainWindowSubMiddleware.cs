@@ -36,7 +36,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares
         {
             pipelineContext.ResponseMessage = pipelineContext.ResponseMessage.SetReplyButtons(
                     _buttonsHelper.GetStateButtons(TelegramState.OnMainWindow, pipelineContext.User))
-                .AddText("мы на главном меню");
+                .AddText(_botLocalization.MainMenuText(pipelineContext.User.Language));
             updateCommand = updateCommand.Combine((uc, fu) => uc.State = fu, TelegramState.OnMainWindow);
             await _userService.UpdateAsync(pipelineContext.User, updateCommand);
         }

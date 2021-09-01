@@ -67,6 +67,7 @@ namespace AudioStudy.Bot.Host
                     services.AddSingleton<SettingsCheckerMiddleware>();
                     services.AddSingleton<MenuMiddleware>();
                     services.AddSingleton<InlineKeyboardMiddleware>();
+                    services.AddSingleton<IMenuSubMiddleware, RatingSubMiddleware>();
                     services.AddSingleton<IMenuSubMiddleware, MainWindowSubMiddleware>();
                     services.AddSingleton<IMenuSubMiddleware, SettingsSubMiddleware>();
                     services.AddSingleton<IMenuSubMiddleware, LanguageSettingSubMiddleware>();services.AddTransient<Func<IEnumerable<IMenuSubMiddleware>>>(provider =>

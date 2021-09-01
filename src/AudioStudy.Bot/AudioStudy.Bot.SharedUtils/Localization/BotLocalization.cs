@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using AudioStudy.Bot.SharedUtils.Helpers;
 using AudioStudy.Bot.SharedUtils.Localization.Enums;
@@ -31,6 +32,8 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         public string EveryThingSetUp(Language language) => string.Format(GetKey(language, "msg:everythingsetup"),
             FormatHelper.EmojiAddAsThumbsUp);
 
+        public string MainMenuText(Language language) => GetKey(language, "msg:mainmenutext");
+
         public string CancelBtnLabel(Language language) =>
             FormatHelper.EmojiAddAsCancel + GetKey(language, "msg:cancelbtn");
 
@@ -49,12 +52,15 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         public string SettingsBtnLabel(Language language) =>
             FormatHelper.EmojiSettings + GetKey(language, "msg:settingsbtn");
 
-        public string LearnBtnLabel(Language language) => GetKey(language, "msg:learnbtn");
+        public string LearnBtnLabel(Language language) => FormatHelper.EmojiLearn + GetKey(language, "msg:learnbtn");
 
-        public string CoursesBtnLabel(Language language) => GetKey(language, "msg:coursesbtn");
+        public string CoursesBtnLabel(Language language) =>
+            FormatHelper.EmojiCourses + GetKey(language, "msg:coursesbtn");
 
-        public string HelpBtnLabel(Language language) => GetKey(language, "msg:helpbtn");
-        public string LanguageBtnLabel(Language language) => GetKey(language, "msg:languagebtn");
+        public string HelpBtnLabel(Language language) => FormatHelper.EmojiHelp + GetKey(language, "msg:helpbtn");
+
+        public string LanguageBtnLabel(Language language) =>
+            FormatHelper.EmojiLanguage + GetKey(language, "msg:languagebtn");
 
         public string CourseLanguage(Language language, string courseLanguage) =>
             GetKey(language, $"msg:{courseLanguage}");
@@ -82,15 +88,48 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string Course(Language language, string courseName, string courseDescription, int numberOfCards,
             int numberOfLessons,
-            bool isMyCourse, int? lessonsLearned)
+            bool isMyCourse, int lessonsLearned)
         {
-            return string.Join(Environment.NewLine, $"Name {courseName}", $"isMyCourse {isMyCourse}",
-                $"course completed {numberOfLessons <= lessonsLearned + 1}",
-                $"Desc {courseDescription}", $"numberOfCards {numberOfCards}", $"lessons {numberOfLessons}",
-                $"lessonsLearned {lessonsLearned}");
+            if (isMyCourse)
+            {
+                courseName = courseName + FormatHelper.EmojiStar;
+            }
+
+            var lines = new List<string> {$"<b>{courseName}</b>"};
+            if (!string.IsNullOrWhiteSpace(courseDescription))
+            {
+                lines.Add(string.Empty);
+                lines.Add(courseDescription);
+            }
+
+            lines.Add(string.Empty);
+            lines.Add($"<b>{GetKey(language, "msg:numberofcards")}:</b> {numberOfCards}");
+            lines.Add(string.Empty);
+            var lessonsLine = $"<b>{GetKey(language, "msg:numberoflessons")}:</b> {numberOfLessons}";
+            if (isMyCourse)
+            {
+                if (lessonsLearned < 1)
+                {
+                    lessonsLearned = 0;
+                }
+
+                lessonsLine += $" ({GetKey(language, "msg:numberoflearnedlessons")} {lessonsLearned})";
+                lines.Add(lessonsLine);
+                if (lessonsLearned == numberOfLessons)
+                {
+                    lines.Add(string.Empty);
+                    lines.Add($"{GetKey(language, "msg:coursecompleted")}" + FormatHelper.EmojiCheckMark);
+                }
+            }
+            else
+            {
+                lines.Add(lessonsLine);
+            }
+
+            return FormatHelper.ConcatTelegramLines(lines);
         }
 
-        public string CourseNotFound(Language language) => "курс не найден";
+        public string CourseNotFound(Language language) => GetKey(language, "msg:coursenotfound");
 
         public string ShowCards(Language language)
         {
@@ -104,7 +143,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string StopCourseLearning(Language language)
         {
-            return GetKey(language, "msg:getnextlesson");
+            return GetKey(language, "msg:stopcourse");
         }
 
         public string GetNextLesson(Language language)
@@ -134,7 +173,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string YouFinishedTheCourse(Language language)
         {
-            return GetKey(language, "msg:finishcoursecongrats");
+            return GetKey(language, "msg:finishcoursecongrats") + FormatHelper.CongratsEmoji;
         }
 
         public string ToTheCoursesList(Language language)
@@ -213,17 +252,17 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string WillRateLaterAnswer(Language language)
         {
-            return FormatHelper.EmojiSmile + GetKey(language, "msg:iwillhideratebtn");
+            return FormatHelper.EmojiConfusedFace + GetKey(language, "msg:iwillhideratebtn");
         }
 
         public string WillNotRateAnswer(Language language)
         {
-            return FormatHelper.EmojiSleepy + GetKey(language, "msg:thatsok");
+            return FormatHelper.EmojiDissapointedFace + GetKey(language, "msg:thatsok");
         }
 
         public string UnknownCommand(Language language)
         {
-            return GetKey(language, "msg:unknowncommand");
+            return FormatHelper.EmojiPockerFace + GetKey(language, "msg:unknowncommand");
         }
 
         private string GetKey(Language language, string key) =>

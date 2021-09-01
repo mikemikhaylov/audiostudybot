@@ -28,8 +28,8 @@
     "en": "Unexpected error has occured. If it happens again, please try again later."
   },
   "msg:help": {
-    "ru": "Команды:\n\n/courses - открыть список курсов\n/learn - начать учиться (быстрый способ получить следующий урок курса, который сейчас изучаете)\n/settings - открыть настройки\n/help - открыть данную инструкцию\n\nВместо команд так же можно использовать встроенные кнопки бота рядом с полем набора сообщения.\n\nБолее подробное описание бота можно найти здесь https://telegra.ph/AudioStudyBot---bot-dlya-izucheniya-slov-09-01\n\nЧат поддержки: https://t.me/audiostudybot_support",
-    "en": "Commands:\n\n/courses - open list of courses\n/learn - start learning (just a simple way to get next lesson for the course you are currently studying)\n/settings - open settings\n/help - open this manual\n\nInstead of these commands you can also use buttons near the \"Write a message...\" field.\n\nMore information about the bot you can find here https://telegra.ph/AudioStudyBot-user-manual-09-01\n\nSupport chat: https://t.me/audiostudybot_support"
+    "ru": "О том, как работает бот, подробнее можно прочитать здесь https://telegra.ph/AudioStudyBot---bot-dlya-izucheniya-slov-09-01\n\nКоманды:\n\n/courses - открыть список курсов\n/learn - начать учиться (быстрый способ получить следующий урок курса, который сейчас изучаете)\n/settings - открыть настройки\n/help - открыть данную инструкцию\n\nВместо команд так же можно использовать встроенные кнопки бота рядом с полем набора сообщения.\n\nЧат поддержки: https://t.me/audiostudybot_support",
+    "en": "More information about how the bot works you can find here https://telegra.ph/AudioStudyBot-user-manual-09-01\n\nCommands:\n\n/courses - open list of courses\n/learn - start learning (just a simple way to get next lesson for the course you are currently studying)\n/settings - open settings\n/help - open this manual\n\nInstead of these commands you can also use buttons near the \"Write a message...\" field.\n\nSupport chat: https://t.me/audiostudybot_support"
   },
   "msg:settingsbtn": {
     "ru": "Настройки",
@@ -84,8 +84,8 @@
     "en": "language"
   },
   "msg:everythingsetup": {
-    "ru": "Здорово!{0} Кажется, мы все настроили. Вот краткая инструкция по командам бота.",
-    "en": "Awesome!{0} Everything seems to be set up. Here is the description of bot commands."
+    "ru": "Здорово!{0} Кажется, мы все настроили.",
+    "en": "Awesome!{0} Everything seems to be set up."
   },
   "msg:ohgreate": {
     "ru": "Здорово! Вы мне тоже нравитесь:) Пожалуйста, поставьте вашу оценку боту тут https://telegramic.org/bot/audiostudybot \nЭто очень важно. Спасибо!",
@@ -120,7 +120,7 @@
     "en": "No courses found. Please try to change filter settings."
   },
   "msg:filter": {
-    "ru": "Фильтер",
+    "ru": "Фильтр",
     "en": "Filter"
   },
   "msg:listofcourses": {
@@ -132,8 +132,8 @@
     "en": "Back"
   },
   "msg:inlinecoursesbtn": {
-    "ru": "Все курсы",
-    "en": "All courses"
+    "ru": "Все Курсы",
+    "en": "All Courses"
   },
   "msg:nocoursestolearn": {
     "ru": "На данный момент, у вас нет курсов для изучения. Пожалуйста, откройте список курсов с помощью кнопки ниже, и начните тот, который хотели бы изучать.",
@@ -145,7 +145,7 @@
   },
   "msg:selectanothercourse": {
     "ru": "Выбрать другой курс",
-    "en": "Select another course"
+    "en": "Select Another Course"
   },
   "msg:nocardsinlesson": {
     "ru": "В уроке нет карточек",
@@ -164,8 +164,8 @@
     "en": "Done!"
   },
   "msg:tothecourseslist": {
-    "ru": "Начать другой",
-    "en": "Start another one"
+    "ru": "Начать Другой",
+    "en": "Start Another One"
   },
   "msg:finishcoursecongrats": {
     "ru": "Поздравляем, вы закончили курс!",
@@ -184,23 +184,47 @@
     "en": "Are you sure?"
   },
   "msg:startover": {
-    "ru": "Начать заново",
-    "en": "Start over"
+    "ru": "Начать Заново",
+    "en": "Start Over"
   },
   "msg:getnextlesson": {
-    "ru": "Получить следующий урок",
-    "en": "Get next lesson"
+    "ru": "Получить Урок",
+    "en": "Get Lesson"
   },
   "msg:stopcourse": {
-    "ru": "Закончить курс",
-    "en": "Stop course"
+    "ru": "Закончить",
+    "en": "Stop"
   },
   "msg:startcourse": {
-    "ru": "Начать курс",
-    "en": "Start course"
+    "ru": "Начать",
+    "en": "Start"
   },
   "msg:showcards": {
-    "ru": "Показать карточки",
-    "en": "Show cards"
+    "ru": "Карточки",
+    "en": "Cards"
+  },
+  "msg:coursenotfound": {
+    "ru": "Курс не найден",
+    "en": "Course not found"
+  },
+  "msg:mainmenutext": {
+    "ru": "Начнем учиться?",
+    "en": "Let's start learning?"
+  },
+  "msg:numberoflessons": {
+    "ru": "Уроков",
+    "en": "Lessons"
+  },
+  "msg:numberofcards": {
+    "ru": "Карточки",
+    "en": "Cards"
+  },
+  "msg:numberoflearnedlessons": {
+    "ru": "пройдено",
+    "en": "learned"
+  },
+  "msg:coursecompleted": {
+    "ru": "Курс завершен",
+    "en": "Course completed"
   }
 }

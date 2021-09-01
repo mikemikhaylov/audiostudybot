@@ -55,7 +55,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares
             }
             else
             {
-                pipelineContext.ResponseMessage = pipelineContext.ResponseMessage.AddText("пожалуйста используйте кнопки языка").SetReplyButtons(
+                pipelineContext.ResponseMessage = pipelineContext.ResponseMessage.AddText(_botLocalization.UnknownCommand(pipelineContext.User.Language)).SetReplyButtons(
                     _buttonsHelper.GetStateButtons(TelegramState.AwaitingForLanguage, pipelineContext.User));
             }
             pipelineContext.Processed = true;

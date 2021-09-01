@@ -32,7 +32,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string InlineBackBtn(Language language);
 
         string Course(Language language, string courseName, string courseDescription, int numberOfCards,
-            int numberOfLessons, bool isMyCourse, int? lessonsLearned);
+            int numberOfLessons, bool isMyCourse, int lessonsLearned);
 
         string CourseNotFound(Language language);
         string ShowCards(Language language);
@@ -62,5 +62,6 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string WillNotRateAnswer(Language language);
         string UnknownCommand(Language language);
         string EveryThingSetUp(Language language);
+        string MainMenuText(Language language);
     }
 }

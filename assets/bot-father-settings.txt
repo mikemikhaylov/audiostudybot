@@ -15,3 +15,4 @@ learn - начать учиться/start learning
 help - открыть справку/open help
 courses - перейти к курсам/go to courses
 settings - открыть настройки/open settings
+start - перейти в главное меню/go to the main menu

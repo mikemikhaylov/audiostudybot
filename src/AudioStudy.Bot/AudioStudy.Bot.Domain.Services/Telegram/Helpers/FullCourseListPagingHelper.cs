@@ -80,7 +80,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         {
             var name = _courseProvider.GetCourseName(user.Language, course);
             return user.Courses?.Any(x => x.Id == course.Id) == true
-                ? FormatHelper.EmojiStar + name
+                ? name + FormatHelper.EmojiStar
                 : name;
         }
 

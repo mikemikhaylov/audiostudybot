@@ -88,7 +88,7 @@ namespace AudioStudy.Bot.DataAccess.Telegram
 
             await _telegramBotClient.SendTextMessageAsync(message.ChatId,
                 SanitizeText(message.Text, _config.TextMaxLength), replyMarkup: replyMarkup,
-                parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
+                parseMode: message.Html ? ParseMode.Html : ParseMode.Default, disableWebPagePreview: true);
         }
 
         public async Task AnswerCallbackQuery(string callBackQueryId)
