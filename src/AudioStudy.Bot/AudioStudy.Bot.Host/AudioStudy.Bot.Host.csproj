@@ -14,6 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\AudioStudy.Bot.Analytics\AudioStudy.Bot.Analytics.csproj" />
       <ProjectReference Include="..\AudioStudy.Bot.Application\AudioStudy.Bot.Application.csproj" />
       <ProjectReference Include="..\AudioStudy.Bot.DataAccess.Db\AudioStudy.Bot.DataAccess.Db.csproj" />
       <ProjectReference Include="..\AudioStudy.Bot.DataAccess.Telegram\AudioStudy.Bot.DataAccess.Telegram.csproj" />

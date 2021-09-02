@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudy.Bot.SharedUtils"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudy.Bot.Courses", "AudioStudy.Bot.Courses\AudioStudy.Bot.Courses.csproj", "{3DE3EA6A-26FC-492B-A7FC-B28E4DBB33F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudy.Bot.Analytics", "AudioStudy.Bot.Analytics\AudioStudy.Bot.Analytics.csproj", "{B35024D3-9E3C-4CE2-9844-9A451B58EE3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{3DE3EA6A-26FC-492B-A7FC-B28E4DBB33F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DE3EA6A-26FC-492B-A7FC-B28E4DBB33F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DE3EA6A-26FC-492B-A7FC-B28E4DBB33F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35024D3-9E3C-4CE2-9844-9A451B58EE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35024D3-9E3C-4CE2-9844-9A451B58EE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35024D3-9E3C-4CE2-9844-9A451B58EE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35024D3-9E3C-4CE2-9844-9A451B58EE3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

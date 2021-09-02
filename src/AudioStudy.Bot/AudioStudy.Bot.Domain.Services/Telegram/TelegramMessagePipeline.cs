@@ -6,6 +6,7 @@ using AudioStudy.Bot.Domain.Model.Telegram;
 using AudioStudy.Bot.Domain.Services.Telegram.Middlewares;
 using AudioStudy.Bot.SharedUtils.Localization;
 using AudioStudy.Bot.SharedUtils.Localization.Enums;
+using AudioStudy.Bot.SharedUtils.Metrics;
 using Microsoft.Extensions.Logging;
 
 namespace AudioStudy.Bot.Domain.Services.Telegram
@@ -15,6 +16,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
         private readonly ILogger<TelegramMessagePipeline> _logger;
         private readonly ITelegramClient _telegramClient;
         private readonly IBotLocalization _botLocalization;
+        private readonly IAnalyticsQueue _analyticsQueue;
         private readonly List<ITelegramPipelineMiddleware> _middlewares;
         
         public TelegramMessagePipeline(
@@ -26,12 +28,14 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
             CommandExecutorMiddleware commandExecutorMiddleware,
             SettingsCheckerMiddleware settingsCheckerMiddleware,
             MenuMiddleware menuMiddleware,
-            InlineKeyboardMiddleware inlineKeyboardMiddleware
+            InlineKeyboardMiddleware inlineKeyboardMiddleware,
+            IAnalyticsQueue analyticsQueue
             )
         {
             _logger = logger;
             _telegramClient = telegramClient;
             _botLocalization = botLocalization;
+            _analyticsQueue = analyticsQueue;
             _middlewares = new List<ITelegramPipelineMiddleware>
             {
                 chatTypeCheckerMiddleware,
@@ -95,6 +99,14 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
                 {
                     _logger.LogError(e, "Sending error");
                 }
+            }
+
+            if (context.User != null)
+            {
+                _analyticsQueue.SendUserAction(new UserAction(context.User.Id, context.Intent)
+                {
+                    NotHandled = context.IntentNotHandled
+                });
             }
         }
     }

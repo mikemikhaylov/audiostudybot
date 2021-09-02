@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using AudioStudy.Bot.Analytics;
 using AudioStudy.Bot.Application;
 using AudioStudy.Bot.DataAccess.Abstractions;
 using AudioStudy.Bot.DataAccess.Db;
@@ -14,6 +15,7 @@ using AudioStudy.Bot.Domain.Services.Telegram.Middlewares;
 using AudioStudy.Bot.Domain.Services.Telegram.Middlewares.MenuSubMiddlewares;
 using AudioStudy.Bot.SharedUtils.Localization;
 using AudioStudy.Bot.SharedUtils.Localization.LocalizationSource;
+using AudioStudy.Bot.SharedUtils.Metrics;
 using AudioStudy.Bot.SharedUtils.Queue;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -42,6 +44,8 @@ namespace AudioStudy.Bot.Host
                     
                     services.AddOptions<TelegramOptions>()
                         .Bind(hostContext.Configuration.GetSection("Telegram")).ValidateDataAnnotations();
+                    services.AddOptions<AnalyticsOptions>()
+                        .Bind(hostContext.Configuration.GetSection("Analytics")).ValidateDataAnnotations();
                     services.AddOptions<UpdatesGetterOptions>()
                         .Bind(hostContext.Configuration.GetSection("UpdatesGetterHostedService"))
                         .ValidateDataAnnotations();
@@ -87,6 +91,7 @@ namespace AudioStudy.Bot.Host
                         x.GetRequiredService<UpdatesQueue<TelegramRequestMessage>>());
                     services.AddHostedService<TelegramPipelineHostedService>();
                     services.AddHostedService<UpdatesGetterHostedService>();
+                    services.AddSingleton<IAnalyticsQueue, AnalyticsQueue>();
                 });
     }
 }
