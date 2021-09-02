@@ -32,10 +32,10 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string InlineBackBtn(Language language);
 
         string Course(Language language, string courseName, string courseDescription, int numberOfCards,
-            int numberOfLessons, bool isMyCourse, int lessonsLearned);
+            int numberOfLessons, bool isMyCourse, int lessonsLearned, bool isPhrasesCourse);
 
         string CourseNotFound(Language language);
-        string ShowCards(Language language);
+        string ShowCards(Language language, bool isPhrasesCourse);
         string StartCourseLearning(Language language);
         string StopCourseLearning(Language language);
         string GetLesson(Language language);

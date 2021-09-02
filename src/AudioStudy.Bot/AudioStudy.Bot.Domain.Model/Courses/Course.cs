@@ -12,5 +12,6 @@ namespace AudioStudy.Bot.Domain.Model.Courses
         public string Language { get; set; }
         public string TranslationLanguage { get; set; }
         public Card[] Cards { get; set; }
+        public CourseType Type { get; set; }
     }
 }

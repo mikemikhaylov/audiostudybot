@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using AudioStudy.Bot.Courses;
 using AudioStudy.Bot.Domain.Model.Courses;
 using AudioStudy.Bot.SharedUtils.Localization.Enums;
@@ -107,10 +108,12 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             {
                 using var stream = typeof(CoursesAnchor).Assembly.GetManifestResourceStream(resource);
                 using var reader = new StreamReader(stream!);
-                var course = JsonSerializer.Deserialize<Course>(reader.ReadToEnd(), new JsonSerializerOptions
+                var settings = new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
-                });
+                };
+                settings.Converters.Add(new JsonStringEnumConverter());
+                var course = JsonSerializer.Deserialize<Course>(reader.ReadToEnd(), settings);
                 CourseValidator.ValidateCourse(course, SupportedLanguages.Keys.ToHashSet());
                 foreach (var card in course!.Cards)
                 {

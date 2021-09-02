@@ -50,6 +50,11 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 throw new Exception($"{course.TranslationLanguage} language is not supported. CourseId {course.Id}");
             }
 
+            if (course.Type != CourseType.Words && course.Type != CourseType.Phrases)
+            {
+                throw new Exception($"{course.Type} course type is not supported. CourseId {course.Id}");
+            }
+
             if (course.Cards == null || !course.Cards.Any())
             {
                 throw new Exception($"{nameof(course.Cards)} should contain items. CourseId {course.Id}");

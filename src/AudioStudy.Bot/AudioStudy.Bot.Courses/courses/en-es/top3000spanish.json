@@ -2,6 +2,7 @@
   "id": "2877cc10-fdef-4352-a491-66044ab2393a",
   "version": 1,
   "weight": 0,
+  "type": "words",
   "name": "TOP 3000 Spanish words",
   "description": "top 3000 most used words",
   "nameTranslation": "ТОП 3000 слов",

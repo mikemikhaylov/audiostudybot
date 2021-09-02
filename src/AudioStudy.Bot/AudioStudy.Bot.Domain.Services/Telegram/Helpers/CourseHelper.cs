@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AudioStudy.Bot.Domain.Model;
+using AudioStudy.Bot.Domain.Model.Courses;
 using AudioStudy.Bot.Domain.Model.Telegram;
 using AudioStudy.Bot.Domain.Model.Telegram.CallbackData;
 using AudioStudy.Bot.Domain.Services.Courses;
@@ -72,7 +73,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             }
             inlineButtons.Add(
             
-                new TelegramInlineBtn(_botLocalization.ShowCards(user.Language),
+                new TelegramInlineBtn(_botLocalization.ShowCards(user.Language, course.Type == CourseType.Phrases),
                     new OpenCourseCardsPageCallbackData(data.CourseId, 0, Consts.CardsPerPage, data.Page, data.PageSize).ToString())
             );
             if (userCourse == null)
@@ -108,7 +109,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             return new TelegramResponseMessage
             {
                 Text = _botLocalization.Course(user.Language, courseName, courseDescription, numberOfCards,
-                    numberOfLessons, isUserCourse, lessonsLearned),
+                    numberOfLessons, isUserCourse, lessonsLearned, course.Type == CourseType.Phrases),
                 Html = true,
                 InlineButtons = inlineButtons.Select((item, inx) => new {item, inx})
                     .GroupBy(x => x.inx / 2)

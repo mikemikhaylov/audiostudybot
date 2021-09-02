@@ -97,7 +97,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string Course(Language language, string courseName, string courseDescription, int numberOfCards,
             int numberOfLessons,
-            bool isMyCourse, int lessonsLearned)
+            bool isMyCourse, int lessonsLearned, bool isPhrasesCourse)
         {
             if (isMyCourse)
             {
@@ -112,7 +112,8 @@ namespace AudioStudy.Bot.SharedUtils.Localization
             }
 
             lines.Add(string.Empty);
-            lines.Add($"<b>{GetKey(language, "msg:numberofcards")}:</b> {numberOfCards}");
+            var totalNumberOfCards = GetKey(language, isPhrasesCourse ? "msg:numberofphrases" : "msg:numberofwords");
+            lines.Add($"<b>{totalNumberOfCards}:</b> {numberOfCards}");
             lines.Add(string.Empty);
             var lessonsLine = $"<b>{GetKey(language, "msg:numberoflessons")}:</b> {numberOfLessons}";
             if (isMyCourse)
@@ -140,9 +141,9 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string CourseNotFound(Language language) => GetKey(language, "msg:coursenotfound");
 
-        public string ShowCards(Language language)
+        public string ShowCards(Language language, bool isPhrasesCourse)
         {
-            return FormatHelper.EmojiCards + GetKey(language, "msg:showcards");
+            return FormatHelper.EmojiCards + GetKey(language, isPhrasesCourse ? "msg:showphrases" : "msg:showwords");
         }
 
         public string StartCourseLearning(Language language)

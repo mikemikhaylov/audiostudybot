@@ -2,6 +2,7 @@
   "id": "b3d8f9e2-1e01-4abd-b5b7-97522f05feab",
   "version": 1,
   "weight": 0,
+  "type": "words",
   "name": "ТОП 3000 слов",
   "description": "топ 300 самых используемых слов",
   "nameTranslation": "TOP 3000 English words",

@@ -203,9 +203,13 @@
     "ru": "Начать",
     "en": "Start"
   },
-  "msg:showcards": {
-    "ru": "Карточки",
-    "en": "Cards"
+  "msg:showwords": {
+    "ru": "Слова",
+    "en": "Words"
+  },
+  "msg:showphrases": {
+    "ru": "Фразы",
+    "en": "Phrases"
   },
   "msg:coursenotfound": {
     "ru": "Курс не найден",
@@ -219,9 +223,13 @@
     "ru": "Уроков",
     "en": "Lessons"
   },
-  "msg:numberofcards": {
-    "ru": "Карточки",
-    "en": "Cards"
+  "msg:numberofwords": {
+    "ru": "Всего слов",
+    "en": "Total number of words"
+  },
+  "msg:numberofphrases": {
+    "ru": "Всего фраз",
+    "en": "Total number of phrases"
   },
   "msg:numberoflearnedlessons": {
     "ru": "пройдено",
