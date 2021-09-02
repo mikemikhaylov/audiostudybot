@@ -19,8 +19,10 @@ using AudioStudy.Bot.SharedUtils.Metrics;
 using AudioStudy.Bot.SharedUtils.Queue;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Polly;
+using X.Extensions.Logging.Telegram;
 
 namespace AudioStudy.Bot.Host
 {
@@ -36,6 +38,12 @@ namespace AudioStudy.Bot.Host
 
         private static IHostBuilder CreateHostBuilder(string[] args) =>
             Microsoft.Extensions.Hosting.Host.CreateDefaultBuilder(args)
+                .ConfigureLogging((context, builder) =>
+                {
+                    if (context.Configuration != null)
+                        builder
+                            .AddTelegram(context.Configuration);
+                })
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHttpClient(Options.DefaultName)
