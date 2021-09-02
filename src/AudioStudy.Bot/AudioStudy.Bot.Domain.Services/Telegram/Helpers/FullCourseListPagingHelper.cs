@@ -56,6 +56,11 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
 
         protected override TelegramInlineBtn[][] GetAdditionalTopButtons(User user, int page, int pageSize)
         {
+            return null;
+        }
+
+        protected override TelegramInlineBtn[][] GetAdditionalBottomButtons(User user, int page, int pageSize)
+        {
             return new[]
             {
                 new[]
@@ -64,11 +69,6 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                         TelegramCallbackDataBase.OpenFilterToString(page, pageSize))
                 }
             };
-        }
-
-        protected override TelegramInlineBtn[][] GetAdditionalBottomButtons(User user, int page, int pageSize)
-        {
-            return null;
         }
 
         protected override string GetOpenCourseData(User user, string courseId, int page, int pageSize)

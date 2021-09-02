@@ -120,8 +120,8 @@
     "en": "No courses found. Please try to change filter settings."
   },
   "msg:filter": {
-    "ru": "Фильтр",
-    "en": "Filter"
+    "ru": "Изменить языки",
+    "en": "Change languages"
   },
   "msg:listofcourses": {
     "ru": "Список курсов:",

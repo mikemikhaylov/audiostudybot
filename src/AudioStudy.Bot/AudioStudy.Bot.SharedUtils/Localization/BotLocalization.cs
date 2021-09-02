@@ -34,6 +34,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
             FormatHelper.EmojiAddAsThumbsUp);
 
         public string MainMenuText(Language language) => GetKey(language, "msg:mainmenutext");
+
         public string LessonNOfN(Language language, int numberOfLessons, int currentLesson)
         {
             return $"<b>{string.Format(GetKey(language, "msg:lessonnofn"), currentLesson, numberOfLessons)}</b>";
@@ -86,10 +87,13 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string NoCoursesMessage(Language language) => GetKey(language, "msg:nocourses");
 
-        public string FilterCoursesBtn(Language language) => GetKey(language, "msg:filter") + FormatHelper.EmojiFilter;
+        public string FilterCoursesBtn(Language language) =>
+            FormatHelper.EmojiLanguage + GetKey(language, "msg:filter");
 
         public string CoursesMessage(Language language) => GetKey(language, "msg:listofcourses");
-        public string InlineBackBtn(Language language) => FormatHelper.EmojiAddAsCancel + GetKey(language, "msg:inlinebackbtn");
+
+        public string InlineBackBtn(Language language) =>
+            FormatHelper.EmojiAddAsCancel + GetKey(language, "msg:inlinebackbtn");
 
         public string Course(Language language, string courseName, string courseDescription, int numberOfCards,
             int numberOfLessons,
@@ -202,7 +206,8 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         }
 
         public string Cards(
-            params (string Text, string Transcription, string Translation, string Usage, string UsageTranslation, bool isNew)[]
+            params (string Text, string Transcription, string Translation, string Usage, string UsageTranslation, bool
+                isNew)[]
                 cards)
         {
             var lines = new List<string>();
@@ -215,15 +220,18 @@ namespace AudioStudy.Bot.SharedUtils.Localization
                 {
                     line += HttpUtility.HtmlEncode($" [{card.Transcription.Trim()}]");
                 }
+
                 if (!string.IsNullOrWhiteSpace(card.Translation))
                 {
                     line += $" - {HttpUtility.HtmlEncode(card.Translation.Trim())}";
                 }
+
                 lines.Add(line);
                 if (!string.IsNullOrWhiteSpace(card.Usage))
                 {
                     lines.Add(HttpUtility.HtmlEncode(card.Usage.Trim()));
                 }
+
                 if (!string.IsNullOrWhiteSpace(card.UsageTranslation))
                 {
                     lines.Add(HttpUtility.HtmlEncode(card.UsageTranslation.Trim()));
@@ -234,6 +242,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
                     lines.Add(string.Empty);
                 }
             }
+
             return FormatHelper.ConcatTelegramLines(lines);
         }
 
@@ -264,7 +273,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
 
         public string CoursesToLearnMessage(Language language)
         {
-            return string.Format(GetKey(language, "msg:choosecoursetolearn"), ChooseAnotherCourse(language));
+            return string.Format(GetKey(language, "msg:choosecoursetolearn"), InlineCoursesBtnLabel(language));
         }
 
         public string NoCoursesToLearnMessage(Language language)
