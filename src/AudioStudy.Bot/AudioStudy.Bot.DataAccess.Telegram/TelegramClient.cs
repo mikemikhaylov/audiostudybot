@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using AudioStudy.Bot.DataAccess.Abstractions;
@@ -17,22 +18,23 @@ namespace AudioStudy.Bot.DataAccess.Telegram
     public class TelegramClient : ITelegramClient
     {
         private readonly ILogger<TelegramClient> _logger;
+        private readonly IHttpClientFactory _clientFactory;
         private readonly TelegramOptions _config;
-        private readonly TelegramBotClient _telegramBotClient;
 
         public TelegramClient(IOptions<TelegramOptions> config,
-            ILogger<TelegramClient> logger)
+            ILogger<TelegramClient> logger,
+            IHttpClientFactory clientFactory)
         {
             _logger = logger;
+            _clientFactory = clientFactory;
             _config = config.Value;
-            _telegramBotClient = new TelegramBotClient(_config.Token);
         }
 
         public async Task<IReadOnlyList<TelegramRequestMessage>> GetUpdatesAsync(int offset, int limit,
             CancellationToken cancellationToken)
         {
             var result =
-                await _telegramBotClient.GetUpdatesAsync(offset, limit, _config.PollingTimeout.Seconds, new[]
+                await GetTelegramBotClient().GetUpdatesAsync(offset, limit, (int)_config.PollingTimeout.TotalSeconds, new[]
                 {
                     UpdateType.Message,
                     UpdateType.CallbackQuery
@@ -55,13 +57,12 @@ namespace AudioStudy.Bot.DataAccess.Telegram
 
         public async Task SendAsync(TelegramResponseMessage message)
         {
-            IReplyMarkup replyMarkup;
-            GetMarkUp(message, out replyMarkup);
+            GetMarkUp(message, out var replyMarkup);
             if (message.CallbackMessageId != null)
             {
                 if (!string.IsNullOrWhiteSpace(message.FileId) || message.IsCaption)
                 {
-                    await _telegramBotClient.EditMessageCaptionAsync(message.ChatId, message.CallbackMessageId.Value,
+                    await GetTelegramBotClient().EditMessageCaptionAsync(message.ChatId, message.CallbackMessageId.Value,
                         SanitizeText(message.Text, _config.CaptionMaxLength),
                         replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null,
                         parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
@@ -69,7 +70,7 @@ namespace AudioStudy.Bot.DataAccess.Telegram
                 else
                 {
                     await
-                        _telegramBotClient.EditMessageTextAsync(message.ChatId, message.CallbackMessageId.Value,
+                        GetTelegramBotClient().EditMessageTextAsync(message.ChatId, message.CallbackMessageId.Value,
                             SanitizeText(message.Text, _config.TextMaxLength), disableWebPagePreview: true,
                             replyMarkup: replyMarkup is InlineKeyboardMarkup markup ? markup : null,
                             parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
@@ -80,22 +81,26 @@ namespace AudioStudy.Bot.DataAccess.Telegram
 
             if (!string.IsNullOrWhiteSpace(message.FileId))
             {
-                await _telegramBotClient.SendAudioAsync(message.ChatId, new InputOnlineFile(message.FileId),
+                await GetTelegramBotClient().SendAudioAsync(message.ChatId, new InputOnlineFile(message.FileId),
                     SanitizeText(message.Text, _config.CaptionMaxLength), replyMarkup: replyMarkup,
                     parseMode: message.Html ? ParseMode.Html : ParseMode.Default);
                 return;
             }
 
-            await _telegramBotClient.SendTextMessageAsync(message.ChatId,
+            await GetTelegramBotClient().SendTextMessageAsync(message.ChatId,
                 SanitizeText(message.Text, _config.TextMaxLength), replyMarkup: replyMarkup,
                 parseMode: message.Html ? ParseMode.Html : ParseMode.Default, disableWebPagePreview: true);
         }
 
         public async Task AnswerCallbackQuery(string callBackQueryId)
         {
-            await _telegramBotClient.AnswerCallbackQueryAsync(callBackQueryId);
+            await GetTelegramBotClient().AnswerCallbackQueryAsync(callBackQueryId);
         }
 
+        private TelegramBotClient GetTelegramBotClient()
+        {
+            return new TelegramBotClient(_config.Token, _clientFactory.CreateClient());
+        }
         private string SanitizeText(string text, int maxLength)
         {
             if (text == null || text.Length <= maxLength)

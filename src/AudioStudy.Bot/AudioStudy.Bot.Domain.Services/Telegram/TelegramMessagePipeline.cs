@@ -59,11 +59,18 @@ namespace AudioStudy.Bot.Domain.Services.Telegram
             catch (Exception e)
             {
                 _logger.LogError(e, "Middleware error");
-                await _telegramClient.SendAsync(new TelegramResponseMessage
+                try
                 {
-                    ChatId = requestMessage.ChatId,
-                    Text = _botLocalization.UnexpectedErrorHasOccured(context.User?.Language ?? Language.Unknown)
-                });
+                    await _telegramClient.SendAsync(new TelegramResponseMessage
+                    {
+                        ChatId = requestMessage.ChatId,
+                        Text = _botLocalization.UnexpectedErrorHasOccured(context.User?.Language ?? Language.Unknown)
+                    });
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Sending error");
+                }
                 return;
             }
             if (context.Processed && context.ResponseMessage != null)

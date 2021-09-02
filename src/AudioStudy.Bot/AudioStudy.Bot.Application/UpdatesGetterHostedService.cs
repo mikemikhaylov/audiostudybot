@@ -37,9 +37,23 @@ namespace AudioStudy.Bot.Application
             _logger.LogInformation("{serviceName} started at: {time}", nameof(UpdatesGetterHostedService), DateTimeOffset.UtcNow);
             while (!stoppingToken.IsCancellationRequested)
             {
-                var updates 
-                    = await _telegramClient.GetUpdatesAsync(_currentOffset, _config.Value.UpdatesBatchSize, stoppingToken);
-                _logger.LogDebug("Got {count} updates", updates.Count);
+                IReadOnlyList<TelegramRequestMessage> updates;
+                try
+                {
+                    updates 
+                        = await _telegramClient.GetUpdatesAsync(_currentOffset, _config.Value.UpdatesBatchSize, stoppingToken);
+                }
+                catch (Exception e)
+                {
+                    if (e is not OperationCanceledException)
+                    {
+                        _logger.LogError(e, "Error getting updates");
+                        await Task.Delay(5000, stoppingToken);
+                        continue;
+                    }
+                    break;
+                }
+                _logger.LogDebug("Got {count} updates" + DateTime.UtcNow, updates.Count);
                 await ProcessUpdates(updates, stoppingToken);
             }
             _logger.LogInformation("{serviceName} finished at: {time}", nameof(UpdatesGetterHostedService), DateTimeOffset.UtcNow);

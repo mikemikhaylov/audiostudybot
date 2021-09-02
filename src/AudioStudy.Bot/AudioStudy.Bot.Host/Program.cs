@@ -17,6 +17,8 @@ using AudioStudy.Bot.SharedUtils.Localization.LocalizationSource;
 using AudioStudy.Bot.SharedUtils.Queue;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
+using Polly;
 
 namespace AudioStudy.Bot.Host
 {
@@ -34,6 +36,10 @@ namespace AudioStudy.Bot.Host
             Microsoft.Extensions.Hosting.Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
+                    services.AddHttpClient(Options.DefaultName)
+                        .AddTransientHttpErrorPolicy(p => 
+                            p.WaitAndRetryAsync(2, _ => TimeSpan.FromMilliseconds(600)));
+                    
                     services.AddOptions<TelegramOptions>()
                         .Bind(hostContext.Configuration.GetSection("Telegram")).ValidateDataAnnotations();
                     services.AddOptions<UpdatesGetterOptions>()
