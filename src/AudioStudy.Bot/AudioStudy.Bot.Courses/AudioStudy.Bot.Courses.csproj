@@ -17,6 +17,14 @@
       <EmbeddedResource Include="lessons\en-ru\top3000\1\lessons_reversed.json" />
       <None Remove="courses\en-ru\top3000-reversed.json" />
       <EmbeddedResource Include="courses\en-ru\top3000-reversed.json" />
+      <None Remove="courses\en-ru\irregular-verbs.json" />
+      <EmbeddedResource Include="courses\en-ru\irregular-verbs.json" />
+      <None Remove="lessons\en-ru\irregular-verbs\1\lessons.json" />
+      <EmbeddedResource Include="lessons\en-ru\irregular-verbs\1\lessons.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="lessons\en-ru\irregular-verbs\1" />
     </ItemGroup>
 
 </Project>

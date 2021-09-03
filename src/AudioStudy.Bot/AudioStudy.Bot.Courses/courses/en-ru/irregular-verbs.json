@@ -1,0 +1,870 @@
+{
+  "id": "b4122cb6-d4e4-4d95-b66e-fbaf016bd4ab",
+  "version": 1,
+  "weight": 0,
+  "type": "words",
+  "name": "Irregular verbs",
+  "description": "200+ most used irregular verbs.\n\nPlease note that some verbs have several Past Simple and Past Participle forms.\n\nIn some cases it can be related to discrepancies between british and american English. Also meaning can change depending on the form. For example \"shone\" и \"shined\". The first one means to give or make light (His boots shone), the second one means to cause to shine (He shined his boots).",
+  "nameTranslation": "Неправильные глаголы",
+  "descriptionTranslation": "200+ самых используемых неправильных глаголов английского языка.\n\nОбратите внимание, некоторые глаголы имеют несколько вторых или третьих форм.\n\nВ каких-то случаях это связано с разницей британского и американского английского, в каких-то это может влиять и на значение. Например shone и shined. Первое это сиять (His boots shone), второе придавать блеск (He shined his boots)",
+  "language": "en",
+  "translationLanguage": "ru",
+  "cards": [
+    {
+      "text": "beset - beset - beset",
+      "translation": "окружать, осаждать"
+    },
+    {
+      "text": "bet - bet - bet",
+      "translation": "держать пари"
+    },
+    {
+      "text": "bid - bid - bid",
+      "translation": "предлагать цену"
+    },
+    {
+      "text": "bid - bid or bade - bidden",
+      "translation": "велеть, просить"
+    },
+    {
+      "text": "broadcast - broadcast - broadcast",
+      "translation": "вещать, распространять, транслировать"
+    },
+    {
+      "text": "burst - burst - burst",
+      "translation": "лопаться, взрываться"
+    },
+    {
+      "text": "cast - cast - cast",
+      "translation": "бросать, кидать, отбрасывать"
+    },
+    {
+      "text": "cost - cost - cost",
+      "translation": "стоить"
+    },
+    {
+      "text": "cut - cut - cut",
+      "translation": "резать, отрезать"
+    },
+    {
+      "text": "fit - fit or fitted - fit or fitted",
+      "translation": "подходить, соответствовать"
+    },
+    {
+      "text": "forecast - forecast or forecasted - forecast or forecasted",
+      "translation": "прогнозировать, предсказывать"
+    },
+    {
+      "text": "hit - hit - hit",
+      "translation": "ударять"
+    },
+    {
+      "text": "hurt - hurt - hurt",
+      "translation": "ранить, обижать"
+    },
+    {
+      "text": "input - input - input",
+      "translation": "вводить (данные)"
+    },
+    {
+      "text": "knit - knit or knitted - knit or knitted",
+      "translation": "вязать"
+    },
+    {
+      "text": "let - let - let",
+      "translation": "позволять"
+    },
+    {
+      "text": "put - put - put",
+      "translation": "класть, помещать"
+    },
+    {
+      "text": "quit - quit or quitted - quit or quitted",
+      "translation": "покидать, бросать, увольняться"
+    },
+    {
+      "text": "read - read - read",
+      "translation": "читать"
+    },
+    {
+      "text": "rid - rid or ridded - rid or ridded",
+      "translation": "освобождать, избавлять"
+    },
+    {
+      "text": "set - set - set",
+      "translation": "устанавливать"
+    },
+    {
+      "text": "shed - shed - shed",
+      "translation": "проливать"
+    },
+    {
+      "text": "shit - shit or shat or shitted - shit or shat or shitted",
+      "translation": "гадить, испражняться"
+    },
+    {
+      "text": "shut - shut - shut",
+      "translation": "закрывать"
+    },
+    {
+      "text": "slit - slit - slit",
+      "translation": "разрезать"
+    },
+    {
+      "text": "split - split - split",
+      "translation": "раскалывать, расщеплять"
+    },
+    {
+      "text": "spread - spread - spread",
+      "translation": "распространяться, распространять"
+    },
+    {
+      "text": "thrust - thrust - thrust",
+      "translation": "толкать"
+    },
+    {
+      "text": "upset - upset - upset",
+      "translation": "огорчать"
+    },
+    {
+      "text": "wed - wed or wedded - wed or wedded",
+      "translation": "вступать в брак"
+    },
+    {
+      "text": "wet - wet or wetted - wet or wetted",
+      "translation": "мочить"
+    },
+    {
+      "text": "awake - awoke - awoken",
+      "translation": "просыпаться, будить"
+    },
+    {
+      "text": "bite - bit - bitten",
+      "translation": "кусать"
+    },
+    {
+      "text": "break - broke - broken",
+      "translation": "ломать"
+    },
+    {
+      "text": "choose - chose - chosen",
+      "translation": "выбирать"
+    },
+    {
+      "text": "forget - forgot - forgotten",
+      "translation": "забывать"
+    },
+    {
+      "text": "freeze - froze - frozen",
+      "translation": "замерзать, замораживать"
+    },
+    {
+      "text": "interweave - interwove - interwoven",
+      "translation": "переплетать, вплетать"
+    },
+    {
+      "text": "speak - spoke - spoken",
+      "translation": "говорить"
+    },
+    {
+      "text": "steal - stole - stolen",
+      "translation": "воровать"
+    },
+    {
+      "text": "wake - woke or waked - woken or waked",
+      "translation": "разбудить, просыпаться"
+    },
+    {
+      "text": "weave - wove or weaved - woven or weaved",
+      "translation": "ткать"
+    },
+    {
+      "text": "arise - arose - arisen",
+      "translation": "возникать, появляться"
+    },
+    {
+      "text": "be - was,were - been",
+      "translation": "быть, являться"
+    },
+    {
+      "text": "beat - beat - beaten",
+      "translation": "бить, побеждать"
+    },
+    {
+      "text": "befall - befell - befallen",
+      "translation": "случаться"
+    },
+    {
+      "text": "disprove - disproved - disproved or disproven",
+      "translation": "опровергать"
+    },
+    {
+      "text": "drive - drove - driven",
+      "translation": "водить машину, ехать"
+    },
+    {
+      "text": "eat - ate - eaten",
+      "translation": "есть"
+    },
+    {
+      "text": "fall - fell - fallen",
+      "translation": "падать"
+    },
+    {
+      "text": "foresee - foresaw - foreseen",
+      "translation": "предвидеть"
+    },
+    {
+      "text": "forgive - forgave - forgiven",
+      "translation": "прощать"
+    },
+    {
+      "text": "forsake - forsook - forsaken",
+      "translation": "оставлять, покидать"
+    },
+    {
+      "text": "give - gave - given",
+      "translation": "давать"
+    },
+    {
+      "text": "mistake - mistook - mistaken",
+      "translation": "ошибаться"
+    },
+    {
+      "text": "overtake - overtook - overtaken",
+      "translation": "догнать"
+    },
+    {
+      "text": "prove - proved - proved or proven",
+      "translation": "доказывать"
+    },
+    {
+      "text": "rise - rose - risen",
+      "translation": "подниматься, повышаться"
+    },
+    {
+      "text": "see - saw - seen",
+      "translation": "видеть"
+    },
+    {
+      "text": "shake - shook - shaken",
+      "translation": "трясти"
+    },
+    {
+      "text": "shave - shaved - shaved or shaven",
+      "translation": "бриться"
+    },
+    {
+      "text": "strive - strove - striven",
+      "translation": "стремиться, стараться"
+    },
+    {
+      "text": "take - took - taken",
+      "translation": "брать"
+    },
+    {
+      "text": "undertake - undertook - undertaken",
+      "translation": "предпринимать"
+    },
+    {
+      "text": "blow - blew - blown",
+      "translation": "дуть, взрываться"
+    },
+    {
+      "text": "draw - drew - drawn",
+      "translation": "рисовать, привлекать"
+    },
+    {
+      "text": "fly - flew - flown",
+      "translation": "летать"
+    },
+    {
+      "text": "grow - grew - grown",
+      "translation": "расти"
+    },
+    {
+      "text": "know - knew - known",
+      "translation": "знать"
+    },
+    {
+      "text": "throw - threw - thrown",
+      "translation": "кидать"
+    },
+    {
+      "text": "withdraw - withdrew - withdrawn",
+      "translation": "снимать со счета, изымать"
+    },
+    {
+      "text": "mow - mowed - mown",
+      "translation": "косить"
+    },
+    {
+      "text": "saw - sawed - sawn or sawed",
+      "translation": "пилить"
+    },
+    {
+      "text": "sew - sewed - sewn or sewed",
+      "translation": "шить"
+    },
+    {
+      "text": "show - showed - shown or showed",
+      "translation": "показывать"
+    },
+    {
+      "text": "sow - sowed - sowed or sown",
+      "translation": "сеять"
+    },
+    {
+      "text": "strew - strewed - strewn or strewed",
+      "translation": "посыпать, усеять"
+    },
+    {
+      "text": "beseech - besought - besought",
+      "translation": "умолять, упрашивать"
+    },
+    {
+      "text": "bring - brought - brought",
+      "translation": "приносить, приводить"
+    },
+    {
+      "text": "buy - bought - bought",
+      "translation": "покупать"
+    },
+    {
+      "text": "catch - caught - caught",
+      "translation": "ловить"
+    },
+    {
+      "text": "fight - fought - fought",
+      "translation": "бороться, сражаться"
+    },
+    {
+      "text": "may - might - might",
+      "translation": "мочь, иметь возможность"
+    },
+    {
+      "text": "seek - sought - sought",
+      "translation": "искать, стремиться"
+    },
+    {
+      "text": "teach - taught - taught",
+      "translation": "учить, преподавать"
+    },
+    {
+      "text": "think - thought - thought",
+      "translation": "думать"
+    },
+    {
+      "text": "creep - crept - crept",
+      "translation": "ползать"
+    },
+    {
+      "text": "keep - kept - kept",
+      "translation": "хранить, держать"
+    },
+    {
+      "text": "sleep - slept - slept",
+      "translation": "спать"
+    },
+    {
+      "text": "sweep - swept - swept",
+      "translation": "мести, подметать"
+    },
+    {
+      "text": "weep - wept - wept",
+      "translation": "плакать"
+    },
+    {
+      "text": "behold - beheld - beheld",
+      "translation": "созерцать, видеть"
+    },
+    {
+      "text": "can - could - could",
+      "translation": "мочь"
+    },
+    {
+      "text": "foretell - foretold - foretold",
+      "translation": "предсказывать"
+    },
+    {
+      "text": "hold - held - held",
+      "translation": "держать, занимать"
+    },
+    {
+      "text": "sell - sold - sold",
+      "translation": "продавать"
+    },
+    {
+      "text": "tell - told - told",
+      "translation": "рассказывать, сказать"
+    },
+    {
+      "text": "withhold - withheld - withheld",
+      "translation": "удерживать"
+    },
+    {
+      "text": "abide - abode - abode",
+      "translation": "соблюдать, придерживаться"
+    },
+    {
+      "text": "bend - bent - bent",
+      "translation": "гнуть, изгибаться"
+    },
+    {
+      "text": "bereave - bereft or bereaved - bereft or bereaved",
+      "translation": "лишать"
+    },
+    {
+      "text": "bind - bound - bound",
+      "translation": "связывать"
+    },
+    {
+      "text": "bleed - bled - bled",
+      "translation": "кровоточить, сочиться"
+    },
+    {
+      "text": "breed - bred - bred",
+      "translation": "порождать, разводить"
+    },
+    {
+      "text": "build - built - built",
+      "translation": "строить"
+    },
+    {
+      "text": "burn - burnt - burnt",
+      "translation": "гореть, жечь"
+    },
+    {
+      "text": "bust - bust or busted - bust or busted",
+      "translation": "разориться, разорить, ломать"
+    },
+    {
+      "text": "cling - clung - clung",
+      "translation": "цепляться, льнуть"
+    },
+    {
+      "text": "deal - dealt - dealt",
+      "translation": "иметь дело, справляться"
+    },
+    {
+      "text": "dig - dug - dug",
+      "translation": "копать"
+    },
+    {
+      "text": "dream - dreamt - dreamt",
+      "translation": "мечтать, видеть сны"
+    },
+    {
+      "text": "dwell - dwelt - dwelt",
+      "translation": "пребывать, обитать"
+    },
+    {
+      "text": "feed - fed - fed",
+      "translation": "кормить"
+    },
+    {
+      "text": "feel - felt - felt",
+      "translation": "чувствовать"
+    },
+    {
+      "text": "find - found - found",
+      "translation": "находить"
+    },
+    {
+      "text": "flee - fled - fled",
+      "translation": "сбегать"
+    },
+    {
+      "text": "fling - flung - flung",
+      "translation": "кидать, бросать, швырнуть"
+    },
+    {
+      "text": "get - got - get or gotten",
+      "translation": "получать, становиться, добираться, достать и так далее"
+    },
+    {
+      "text": "gild - gilt or gilded - gilt or gilded",
+      "translation": "позолотить"
+    },
+    {
+      "text": "grind - ground - ground",
+      "translation": "молоть, растереть"
+    },
+    {
+      "text": "hang - hung - hung",
+      "translation": "висеть, вешать (вещь)"
+    },
+    {
+      "text": "hang - hanged - hanged",
+      "translation": "казнить через повешение"
+    },
+    {
+      "text": "have - had - had",
+      "translation": "иметь"
+    },
+    {
+      "text": "heave - hove or heaved - hove or heaved",
+      "translation": "поднимать, вздыматься, бросать"
+    },
+    {
+      "text": "inlay - inlaid - inlaid",
+      "translation": "инкрустировать"
+    },
+    {
+      "text": "kneel - knelt or kneeled - knelt or kneeled",
+      "translation": "встать на колени,"
+    },
+    {
+      "text": "lay - laid - laid",
+      "translation": "класть"
+    },
+    {
+      "text": "lead - led - led",
+      "translation": "вести, сопровождать"
+    },
+    {
+      "text": "lean - leant or leaned - leant or leaned",
+      "translation": "опираться, наклонять"
+    },
+    {
+      "text": "leap - leapt or leaped - leapt or leaped",
+      "translation": "прыгать, скакать"
+    },
+    {
+      "text": "learn - learnt or learned - learnt or learned",
+      "translation": "учиться, узнавать"
+    },
+    {
+      "text": "leave - left - left",
+      "translation": "оставлять, покидать"
+    },
+    {
+      "text": "lend - lent - lent",
+      "translation": "одалживать"
+    },
+    {
+      "text": "light - lit or lighted - lit or lighted",
+      "translation": "зажигать"
+    },
+    {
+      "text": "lose - lost - lost",
+      "translation": "терять, проигрывать"
+    },
+    {
+      "text": "make - made - made",
+      "translation": "делать, заставлять"
+    },
+    {
+      "text": "mean - meant - meant",
+      "translation": "значить"
+    },
+    {
+      "text": "meet - met - met",
+      "translation": "встречать"
+    },
+    {
+      "text": "mislay - mislaid - mislaid",
+      "translation": "класть не на место, затерять"
+    },
+    {
+      "text": "pay - paid - paid",
+      "translation": "платить"
+    },
+    {
+      "text": "plead - pled or pleaded - pled or pleaded",
+      "translation": "умолять"
+    },
+    {
+      "text": "rebuild - rebuilt - rebuilt",
+      "translation": "перестраивать, восстанавливать"
+    },
+    {
+      "text": "say - said - said",
+      "translation": "сказать"
+    },
+    {
+      "text": "send - sent - sent",
+      "translation": "посылать, отправлять"
+    },
+    {
+      "text": "shine - shone - shone",
+      "translation": "сиять"
+    },
+    {
+      "text": "shine - shined - shined",
+      "translation": "придавать блеск"
+    },
+    {
+      "text": "shoe - shod - shod",
+      "translation": "обувать, подковывать"
+    },
+    {
+      "text": "shoot - shot - shot",
+      "translation": "стрелять"
+    },
+    {
+      "text": "shrink - shrank - shrunk",
+      "translation": "сокращаться, сжиматься"
+    },
+    {
+      "text": "sit - sat - sat",
+      "translation": "сидеть"
+    },
+    {
+      "text": "slide - slid - slid",
+      "translation": "скользить"
+    },
+    {
+      "text": "sling - slung - slung",
+      "translation": "швырять, метать"
+    },
+    {
+      "text": "slink - slunk - slunk",
+      "translation": "красться"
+    },
+    {
+      "text": "smell - smelt or smelled - smelt or smelled",
+      "translation": "пахнуть, понюхать"
+    },
+    {
+      "text": "speed - sped or speeded - sped or speeded",
+      "translation": "спешить, ускорять"
+    },
+    {
+      "text": "spell - spelt or spelled - spelt or spelled",
+      "translation": "писать, произносить слово по буквам"
+    },
+    {
+      "text": "spend - spent - spent",
+      "translation": "тратить"
+    },
+    {
+      "text": "spill - spilt - spilt",
+      "translation": "проливать"
+    },
+    {
+      "text": "spin - spun - spun",
+      "translation": "вращаться, прясть"
+    },
+    {
+      "text": "spit - spat - spat",
+      "translation": "плевать"
+    },
+    {
+      "text": "spoil - spoilt or spoiled - spoilt or spoiled",
+      "translation": "портить, баловать"
+    },
+    {
+      "text": "stand - stood - stood",
+      "translation": "стоять"
+    },
+    {
+      "text": "stick - stuck - stuck",
+      "translation": "придерживаться"
+    },
+    {
+      "text": "sting - stung - stung",
+      "translation": "жалить"
+    },
+    {
+      "text": "stink - stank or stunk - stunk",
+      "translation": "вонять"
+    },
+    {
+      "text": "strike - struck - struck",
+      "translation": "бить, бастовать"
+    },
+    {
+      "text": "string - strung - strung",
+      "translation": "связывать, нанизывать"
+    },
+    {
+      "text": "swing - swung - swung",
+      "translation": "качать, размахивать"
+    },
+    {
+      "text": "unbend - unbent - unbent",
+      "translation": "разгибаться"
+    },
+    {
+      "text": "understand - understood - understood",
+      "translation": "понимать"
+    },
+    {
+      "text": "win - won - won",
+      "translation": "победить"
+    },
+    {
+      "text": "wind - wound - wound",
+      "translation": "заводить, наматывать"
+    },
+    {
+      "text": "withstand - withstood - withstood",
+      "translation": "противостоять, выдерживать"
+    },
+    {
+      "text": "wring - wrung - wrung",
+      "translation": "выжимать, скручивать"
+    },
+    {
+      "text": "bear - bore - born",
+      "translation": "выносить, рожать, терпеть"
+    },
+    {
+      "text": "shear - sheared - shorn",
+      "translation": "стричь, срезать"
+    },
+    {
+      "text": "swear - swore - sworn",
+      "translation": "клясться, присягать, ругаться"
+    },
+    {
+      "text": "tear - tore - torn",
+      "translation": "рвать"
+    },
+    {
+      "text": "wear - wore - worn",
+      "translation": "носить"
+    },
+    {
+      "text": "cleave - cleft - cloven",
+      "translation": "рассечь, раскалывать"
+    },
+    {
+      "text": "forbid - forbade - forbidden",
+      "translation": "запрещать"
+    },
+    {
+      "text": "hide - hid - hidden",
+      "translation": "прятать, прятаться"
+    },
+    {
+      "text": "ride - rode - ridden",
+      "translation": "ехать верхом, ездить"
+    },
+    {
+      "text": "smite - smote - smitten",
+      "translation": "ударять, поражать"
+    },
+    {
+      "text": "stride - strode - stridden",
+      "translation": "шагать"
+    },
+    {
+      "text": "swell - swelled - swollen or swelled",
+      "translation": "опухать, раздуваться, набухать"
+    },
+    {
+      "text": "tread - trod - trod or trodden",
+      "translation": "наступать, ступать"
+    },
+    {
+      "text": "write - wrote - written",
+      "translation": "писать"
+    },
+    {
+      "text": "become - became - become",
+      "translation": "становиться"
+    },
+    {
+      "text": "begin - began - begun",
+      "translation": "начинать, начинаться"
+    },
+    {
+      "text": "clothe - clad or clothed - clad or clothed",
+      "translation": "одевать"
+    },
+    {
+      "text": "come - came - come",
+      "translation": "приходить"
+    },
+    {
+      "text": "dare - durst - dared",
+      "translation": "сметь"
+    },
+    {
+      "text": "dive - dove - dived",
+      "translation": "нырять"
+    },
+    {
+      "text": "do - did - done",
+      "translation": "делать"
+    },
+    {
+      "text": "drink - drank - drunk",
+      "translation": "пить"
+    },
+    {
+      "text": "forego - forewent - foregone",
+      "translation": "отказываться, воздерживаться"
+    },
+    {
+      "text": "go - went - gone",
+      "translation": "идти"
+    },
+    {
+      "text": "hear - heard - heard",
+      "translation": "слышать"
+    },
+    {
+      "text": "hew - hewed - hewn or hewed",
+      "translation": "рубить"
+    },
+    {
+      "text": "lie - lay - lain",
+      "translation": "лежать"
+    },
+    {
+      "text": "mishear - misheard - misheard",
+      "translation": "ослышаться"
+    },
+    {
+      "text": "overcome - overcame - overcome",
+      "translation": "преодолевать"
+    },
+    {
+      "text": "relay - relaid - relaid",
+      "translation": "перекладывать (железнодорожный путь и тому подобное)"
+    },
+    {
+      "text": "relay - relayed - relayed",
+      "translation": "передавать (информацию и тому подобное)"
+    },
+    {
+      "text": "ring - rang - rung",
+      "translation": "звонить, звенеть"
+    },
+    {
+      "text": "run - ran - run",
+      "translation": "бежать"
+    },
+    {
+      "text": "sing - sang - sung",
+      "translation": "петь"
+    },
+    {
+      "text": "sink - sank - sunk",
+      "translation": "тонуть"
+    },
+    {
+      "text": "slay - slew - slain",
+      "translation": "убивать"
+    },
+    {
+      "text": "spring - sprang - sprung",
+      "translation": "возникать, прыгать"
+    },
+    {
+      "text": "swim - swam - swum",
+      "translation": "плавать"
+    },
+    {
+      "text": "undergo - underwent - undergone",
+      "translation": "испытывать, подвергаться"
+    },
+    {
+      "text": "undo - undid - undone",
+      "translation": "отменить, расстегивать"
+    }
+  ]
+}
