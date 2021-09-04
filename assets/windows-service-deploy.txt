@@ -1,0 +1,4 @@
+dotnet publish -r win-x64 -c Release
+sc create AudioStudyBot binpath= "C:\full\path\to\publish\dir\WindowsServiceExample.exe"
+sc start AudioStudyBot
+sc stop AudioStudyBot

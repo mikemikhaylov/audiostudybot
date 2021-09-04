@@ -17,8 +17,18 @@ export default class LessonAudioGenerator {
                 private readonly audioMetadataProvider: AudioMetadataProvider) {
     }
 
-    public async generate(options: { courses: Course[], lessonsDir: string, mediaDir: string, tmpDir: string, botToken: string, chatId: number, pauseFilePath: string, longPauseFilePath: string }): Promise<void> {
-        const {courses, lessonsDir, mediaDir, tmpDir, botToken, chatId, pauseFilePath, longPauseFilePath} = options;
+    public async generate(options: { courses: Course[], lessonsDir: string, mediaDir: string, tmpDir: string, botToken: string, chatId: number, pauseFilePath: string, longPauseFilePath: string, botName: string }): Promise<void> {
+        const {
+            courses,
+            lessonsDir,
+            mediaDir,
+            tmpDir,
+            botToken,
+            chatId,
+            pauseFilePath,
+            longPauseFilePath,
+            botName
+        } = options;
         if (!await this.fileProvider.fileExists(pauseFilePath)) {
             throw new Error('Pause file does not exist');
         }
@@ -33,17 +43,17 @@ export default class LessonAudioGenerator {
             let lessonNumber = 0;
             for (const lesson of courseLessons.lessons) {
                 lessonNumber++;
-                if (lesson.fileId) {
+                if (lesson.fileIds && lesson.fileIds[botName]) {
                     continue;
                 }
                 const audioFiles: string[] = [];
                 for (const card of lesson.cards) {
-                    await this.addPath(audioFiles, mediaDir, card.text,  course.language, true);
+                    await this.addPath(audioFiles, mediaDir, card.text, course.language, true);
                     audioFiles.push(longPauseFilePath);
-                    await this.addPath(audioFiles, mediaDir, card.translation,  course.translationLanguage, false);
+                    await this.addPath(audioFiles, mediaDir, card.translation, course.translationLanguage, false);
                     if (card.usage) {
                         audioFiles.push(pauseFilePath);
-                        await this.addPath(audioFiles, mediaDir, card.usage,  course.language, true);
+                        await this.addPath(audioFiles, mediaDir, card.usage, course.language, true);
                     }
                     audioFiles.push(pauseFilePath);
                 }
@@ -59,7 +69,10 @@ export default class LessonAudioGenerator {
                     filename: fileName
                 });
                 console.log(JSON.stringify(sendingResult));
-                lesson.fileId = sendingResult.audio.file_id;
+                if (!lesson.fileIds) {
+                    lesson.fileIds = {};
+                }
+                lesson.fileIds[botName] = sendingResult.audio.file_id;
                 //it is ok for now
                 await this.fileProvider.writeFile(lessonPath, JSON.stringify(courseLessons, null, 2));
                 await sleep(getRandomArbitrary(1000, 4000));

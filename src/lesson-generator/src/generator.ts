@@ -32,7 +32,8 @@ export default class Generator {
             chatId: config.chatId,
             botToken: config.botToken,
             pauseFilePath: config.pauseFilePath,
-            longPauseFilePath: config.longPauseFilePath
+            longPauseFilePath: config.longPauseFilePath,
+            botName: config.botName
         });
     }
 

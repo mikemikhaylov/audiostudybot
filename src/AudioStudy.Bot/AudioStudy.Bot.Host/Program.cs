@@ -38,6 +38,10 @@ namespace AudioStudy.Bot.Host
 
         private static IHostBuilder CreateHostBuilder(string[] args) =>
             Microsoft.Extensions.Hosting.Host.CreateDefaultBuilder(args)
+                .UseWindowsService(options =>
+                {
+                    options.ServiceName = "AudioStudyBot";
+                })
                 .ConfigureLogging((context, builder) =>
                 {
                     if (context.Configuration != null)
@@ -61,6 +65,8 @@ namespace AudioStudy.Bot.Host
                         .Bind(hostContext.Configuration.GetSection("Queue")).ValidateDataAnnotations();
                     services.AddOptions<DbOptions>()
                         .Bind(hostContext.Configuration.GetSection("Db")).ValidateDataAnnotations();
+                    services.AddOptions<LessonProviderOptions>()
+                        .Bind(hostContext.Configuration.GetSection("Lessons")).ValidateDataAnnotations();
 
                     services.AddSingleton<MongoDbContext>();
                     services.AddSingleton<ILocalizationSource, JsonLocalizationSource>();

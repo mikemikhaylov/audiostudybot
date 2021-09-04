@@ -23,15 +23,16 @@ const courseReverser = new CourseReverser(fileProvider);
         lessonAudioGenerator,
         courseReverser
     ).generate({
-        courseFilePath: '../AudioStudy.Bot/AudioStudy.Bot.Courses/courses/en-ru/top3000.json',
-        reversedCourseFilePath: '../AudioStudy.Bot/AudioStudy.Bot.Courses/courses/en-ru/top3000-reversed.json',
-        courseLessonsDirectory: '../AudioStudy.Bot/AudioStudy.Bot.Courses/lessons/en-ru/top3000/1',
+        courseFilePath: '../AudioStudy.Bot/AudioStudy.Bot.Courses/courses/en-ru/irregular-verbs.json',
+        //reversedCourseFilePath: '../AudioStudy.Bot/AudioStudy.Bot.Courses/courses/en-ru/top3000-reversed.json',
+        courseLessonsDirectory: '../AudioStudy.Bot/AudioStudy.Bot.Courses/lessons/en-ru/irregular-verbs/1',
         mediaOutputDirectory: '../../media_output',
         tmpDir: '../../media_output/tmp',
         botToken: '',
         pauseFilePath: 'assets/1300_pause.mp3',
         longPauseFilePath: 'assets/2500_pause.mp3',
-        chatId: -504745169
+        chatId: -504745169,
+        botName: "Prod"
     });
 })();
 

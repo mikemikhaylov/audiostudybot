@@ -8,6 +8,7 @@ export type GeneratorConfig = {
     pauseFilePath: string;
     longPauseFilePath: string;
     chatId: number;
+    botName: string
 }
 
 export type Course = {
@@ -42,7 +43,7 @@ export type CourseLessons = {
 }
 
 export type Lesson = {
-    fileId?: string;
+    fileIds?: {[key: string]: string};
     cards: LessonCard[];
 }
 
