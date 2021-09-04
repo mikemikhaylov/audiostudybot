@@ -16,29 +16,24 @@
         },
         {
           "text": "bid - bid - bid",
-          "translation": "предлагать цену",
-          "isNew": true
-        },
-        {
-          "text": "bid - bid or bade - bidden",
-          "translation": "велеть, просить",
+          "translation": "предлагать цену, велеть, просить",
           "isNew": true
         },
         {
           "text": "broadcast - broadcast - broadcast",
           "translation": "вещать, распространять, транслировать",
           "isNew": true
-        }
-      ],
-      "fileId": "CQACAgIAAxkDAAID1GEyYOB1qEAnJZRGx0ROKr7rQ5gVAAKhEQACWcmRScz0wQOZ3eI1IAQ"
-    },
-    {
-      "cards": [
+        },
         {
           "text": "burst - burst - burst",
           "translation": "лопаться, взрываться",
           "isNew": true
-        },
+        }
+      ],
+      "fileId": "CQACAgIAAxkDAAIEH2EzNZphc77FTTvGHSHQJ5cp_hdOAAJjEAACWcmZSahqDHcG8SbQIAQ"
+    },
+    {
+      "cards": [
         {
           "text": "cast - cast - cast",
           "translation": "бросать, кидать, отбрасывать",
@@ -57,6 +52,11 @@
         {
           "text": "fit - fit or fitted - fit or fitted",
           "translation": "подходить, соответствовать",
+          "isNew": true
+        },
+        {
+          "text": "forecast - forecast - forecast",
+          "translation": "прогнозировать, предсказывать",
           "isNew": true
         },
         {
@@ -71,29 +71,24 @@
         },
         {
           "text": "bid - bid - bid",
-          "translation": "предлагать цену",
-          "isNew": false
-        },
-        {
-          "text": "bid - bid or bade - bidden",
-          "translation": "велеть, просить",
+          "translation": "предлагать цену, велеть, просить",
           "isNew": false
         },
         {
           "text": "broadcast - broadcast - broadcast",
           "translation": "вещать, распространять, транслировать",
           "isNew": false
+        },
+        {
+          "text": "burst - burst - burst",
+          "translation": "лопаться, взрываться",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID1WEyYORurKvetCGQW94M5orq0siLAAKiEQACWcmRSS4y7n774Ye4IAQ"
+      "fileId": "CQACAgIAAxkDAAIEIGEzNZ2RX8HLPfIEMdcSil7Zm7_3AAJkEAACWcmZSYCgTdSKXN1IIAQ"
     },
     {
       "cards": [
-        {
-          "text": "forecast - forecast or forecasted - forecast or forecasted",
-          "translation": "прогнозировать, предсказывать",
-          "isNew": true
-        },
         {
           "text": "hit - hit - hit",
           "translation": "ударять",
@@ -112,6 +107,11 @@
         {
           "text": "knit - knit or knitted - knit or knitted",
           "translation": "вязать",
+          "isNew": true
+        },
+        {
+          "text": "let - let - let",
+          "translation": "позволять",
           "isNew": true
         },
         {
@@ -126,12 +126,7 @@
         },
         {
           "text": "bid - bid - bid",
-          "translation": "предлагать цену",
-          "isNew": false
-        },
-        {
-          "text": "bid - bid or bade - bidden",
-          "translation": "велеть, просить",
+          "translation": "предлагать цену, велеть, просить",
           "isNew": false
         },
         {
@@ -163,24 +158,24 @@
           "text": "fit - fit or fitted - fit or fitted",
           "translation": "подходить, соответствовать",
           "isNew": false
+        },
+        {
+          "text": "forecast - forecast - forecast",
+          "translation": "прогнозировать, предсказывать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID1mEyYOj_2PDlYNS5VaTEvacTDfgaAAKjEQACWcmRSSQq7PFg6g1YIAQ"
+      "fileId": "CQACAgIAAxkDAAIEIWEzNaIxmVIUqNsPTuoY3K6giIN7AAJlEAACWcmZSUZxoKqFwbvuIAQ"
     },
     {
       "cards": [
-        {
-          "text": "let - let - let",
-          "translation": "позволять",
-          "isNew": true
-        },
         {
           "text": "put - put - put",
           "translation": "класть, помещать",
           "isNew": true
         },
         {
-          "text": "quit - quit or quitted - quit or quitted",
+          "text": "quit - quit - quit",
           "translation": "покидать, бросать, увольняться",
           "isNew": true
         },
@@ -190,8 +185,13 @@
           "isNew": true
         },
         {
-          "text": "rid - rid or ridded - rid or ridded",
+          "text": "rid - rid - rid",
           "translation": "освобождать, избавлять",
+          "isNew": true
+        },
+        {
+          "text": "set - set - set",
+          "translation": "устанавливать",
           "isNew": true
         },
         {
@@ -206,12 +206,7 @@
         },
         {
           "text": "bid - bid - bid",
-          "translation": "предлагать цену",
-          "isNew": false
-        },
-        {
-          "text": "bid - bid or bade - bidden",
-          "translation": "велеть, просить",
+          "translation": "предлагать цену, велеть, просить",
           "isNew": false
         },
         {
@@ -245,7 +240,7 @@
           "isNew": false
         },
         {
-          "text": "forecast - forecast or forecasted - forecast or forecasted",
+          "text": "forecast - forecast - forecast",
           "translation": "прогнозировать, предсказывать",
           "isNew": false
         },
@@ -268,25 +263,20 @@
           "text": "knit - knit or knitted - knit or knitted",
           "translation": "вязать",
           "isNew": false
+        },
+        {
+          "text": "let - let - let",
+          "translation": "позволять",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID12EyYOrREKfgrLy10gad9BAPQ2lOAAKkEQACWcmRScErlKgWyDEYIAQ"
+      "fileId": "CQACAgIAAxkDAAIEImEzNaYY6M7qDw80XzGfQpW2BOkdAAJmEAACWcmZSYMwIRWXlLrQIAQ"
     },
     {
       "cards": [
         {
-          "text": "set - set - set",
-          "translation": "устанавливать",
-          "isNew": true
-        },
-        {
           "text": "shed - shed - shed",
           "translation": "проливать",
-          "isNew": true
-        },
-        {
-          "text": "shit - shit or shat or shitted - shit or shat or shitted",
-          "translation": "гадить, испражняться",
           "isNew": true
         },
         {
@@ -300,9 +290,14 @@
           "isNew": true
         },
         {
-          "text": "burst - burst - burst",
-          "translation": "лопаться, взрываться",
-          "isNew": false
+          "text": "split - split - split",
+          "translation": "раскалывать, расщеплять",
+          "isNew": true
+        },
+        {
+          "text": "spread - spread - spread",
+          "translation": "распространяться, распространять",
+          "isNew": true
         },
         {
           "text": "cast - cast - cast",
@@ -325,7 +320,7 @@
           "isNew": false
         },
         {
-          "text": "forecast - forecast or forecasted - forecast or forecasted",
+          "text": "forecast - forecast - forecast",
           "translation": "прогнозировать, предсказывать",
           "isNew": false
         },
@@ -360,7 +355,7 @@
           "isNew": false
         },
         {
-          "text": "quit - quit or quitted - quit or quitted",
+          "text": "quit - quit - quit",
           "translation": "покидать, бросать, увольняться",
           "isNew": false
         },
@@ -370,25 +365,20 @@
           "isNew": false
         },
         {
-          "text": "rid - rid or ridded - rid or ridded",
+          "text": "rid - rid - rid",
           "translation": "освобождать, избавлять",
+          "isNew": false
+        },
+        {
+          "text": "set - set - set",
+          "translation": "устанавливать",
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID2GEyYOycR2YDtZQggxndf0mIWHR6AAKlEQACWcmRSULsTVXT-5M0IAQ"
+      "fileId": "CQACAgIAAxkDAAIEI2EzNanuE-4yCDvqYe3lPz3sVU81AAJnEAACWcmZSQMpAAFIz31_iiAE"
     },
     {
       "cards": [
-        {
-          "text": "split - split - split",
-          "translation": "раскалывать, расщеплять",
-          "isNew": true
-        },
-        {
-          "text": "spread - spread - spread",
-          "translation": "распространяться, распространять",
-          "isNew": true
-        },
         {
           "text": "thrust - thrust - thrust",
           "translation": "толкать",
@@ -400,8 +390,18 @@
           "isNew": true
         },
         {
-          "text": "wed - wed or wedded - wed or wedded",
+          "text": "wed - wed - wed",
           "translation": "вступать в брак",
+          "isNew": true
+        },
+        {
+          "text": "wet - wet - wet",
+          "translation": "мочить",
+          "isNew": true
+        },
+        {
+          "text": "awake - awoke - awoken",
+          "translation": "просыпаться, будить",
           "isNew": true
         },
         {
@@ -416,12 +416,7 @@
         },
         {
           "text": "bid - bid - bid",
-          "translation": "предлагать цену",
-          "isNew": false
-        },
-        {
-          "text": "bid - bid or bade - bidden",
-          "translation": "велеть, просить",
+          "translation": "предлагать цену, велеть, просить",
           "isNew": false
         },
         {
@@ -430,8 +425,8 @@
           "isNew": false
         },
         {
-          "text": "forecast - forecast or forecasted - forecast or forecasted",
-          "translation": "прогнозировать, предсказывать",
+          "text": "burst - burst - burst",
+          "translation": "лопаться, взрываться",
           "isNew": false
         },
         {
@@ -465,7 +460,7 @@
           "isNew": false
         },
         {
-          "text": "quit - quit or quitted - quit or quitted",
+          "text": "quit - quit - quit",
           "translation": "покидать, бросать, увольняться",
           "isNew": false
         },
@@ -475,7 +470,7 @@
           "isNew": false
         },
         {
-          "text": "rid - rid or ridded - rid or ridded",
+          "text": "rid - rid - rid",
           "translation": "освобождать, избавлять",
           "isNew": false
         },
@@ -490,11 +485,6 @@
           "isNew": false
         },
         {
-          "text": "shit - shit or shat or shitted - shit or shat or shitted",
-          "translation": "гадить, испражняться",
-          "isNew": false
-        },
-        {
           "text": "shut - shut - shut",
           "translation": "закрывать",
           "isNew": false
@@ -503,22 +493,22 @@
           "text": "slit - slit - slit",
           "translation": "разрезать",
           "isNew": false
+        },
+        {
+          "text": "split - split - split",
+          "translation": "раскалывать, расщеплять",
+          "isNew": false
+        },
+        {
+          "text": "spread - spread - spread",
+          "translation": "распространяться, распространять",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID2WEyYPCYcSZWm5P2nbEoVfi-RlvtAAKmEQACWcmRSUJJ80tG5-yZIAQ"
+      "fileId": "CQACAgIAAxkDAAIEJGEzNa1eokTANbce7jPCH5R7vl8KAAJoEAACWcmZSTfobnnUyQRMIAQ"
     },
     {
       "cards": [
-        {
-          "text": "wet - wet or wetted - wet or wetted",
-          "translation": "мочить",
-          "isNew": true
-        },
-        {
-          "text": "awake - awoke - awoken",
-          "translation": "просыпаться, будить",
-          "isNew": true
-        },
         {
           "text": "bite - bit - bitten",
           "translation": "кусать",
@@ -535,9 +525,14 @@
           "isNew": true
         },
         {
-          "text": "burst - burst - burst",
-          "translation": "лопаться, взрываться",
-          "isNew": false
+          "text": "forget - forgot - forgotten",
+          "translation": "забывать",
+          "isNew": true
+        },
+        {
+          "text": "freeze - froze - frozen",
+          "translation": "замерзать, замораживать",
+          "isNew": true
         },
         {
           "text": "cast - cast - cast",
@@ -560,8 +555,8 @@
           "isNew": false
         },
         {
-          "text": "let - let - let",
-          "translation": "позволять",
+          "text": "forecast - forecast - forecast",
+          "translation": "прогнозировать, предсказывать",
           "isNew": false
         },
         {
@@ -570,7 +565,7 @@
           "isNew": false
         },
         {
-          "text": "quit - quit or quitted - quit or quitted",
+          "text": "quit - quit - quit",
           "translation": "покидать, бросать, увольняться",
           "isNew": false
         },
@@ -580,7 +575,7 @@
           "isNew": false
         },
         {
-          "text": "rid - rid or ridded - rid or ridded",
+          "text": "rid - rid - rid",
           "translation": "освобождать, избавлять",
           "isNew": false
         },
@@ -592,11 +587,6 @@
         {
           "text": "shed - shed - shed",
           "translation": "проливать",
-          "isNew": false
-        },
-        {
-          "text": "shit - shit or shat or shitted - shit or shat or shitted",
-          "translation": "гадить, испражняться",
           "isNew": false
         },
         {
@@ -630,25 +620,25 @@
           "isNew": false
         },
         {
-          "text": "wed - wed or wedded - wed or wedded",
+          "text": "wed - wed - wed",
           "translation": "вступать в брак",
+          "isNew": false
+        },
+        {
+          "text": "wet - wet - wet",
+          "translation": "мочить",
+          "isNew": false
+        },
+        {
+          "text": "awake - awoke - awoken",
+          "translation": "просыпаться, будить",
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID2mEyYPITKcqca3_k2zRdkl7U5zKdAAKnEQACWcmRSRFDDYCgKiqsIAQ"
+      "fileId": "CQACAgIAAxkDAAIEJWEzNa85FEUfhPYiFMbDFuklvKWuAAJpEAACWcmZSXUSo0XirwSJIAQ"
     },
     {
       "cards": [
-        {
-          "text": "forget - forgot - forgotten",
-          "translation": "забывать",
-          "isNew": true
-        },
-        {
-          "text": "freeze - froze - frozen",
-          "translation": "замерзать, замораживать",
-          "isNew": true
-        },
         {
           "text": "interweave - interwove - interwoven",
           "translation": "переплетать, вплетать",
@@ -662,6 +652,16 @@
         {
           "text": "steal - stole - stolen",
           "translation": "воровать",
+          "isNew": true
+        },
+        {
+          "text": "wake - woke - woken",
+          "translation": "разбудить, просыпаться",
+          "isNew": true
+        },
+        {
+          "text": "weave - wove or weaved - woven or weaved",
+          "translation": "ткать",
           "isNew": true
         },
         {
@@ -676,12 +676,7 @@
         },
         {
           "text": "bid - bid - bid",
-          "translation": "предлагать цену",
-          "isNew": false
-        },
-        {
-          "text": "bid - bid or bade - bidden",
-          "translation": "велеть, просить",
+          "translation": "предлагать цену, велеть, просить",
           "isNew": false
         },
         {
@@ -690,8 +685,8 @@
           "isNew": false
         },
         {
-          "text": "forecast - forecast or forecasted - forecast or forecasted",
-          "translation": "прогнозировать, предсказывать",
+          "text": "burst - burst - burst",
+          "translation": "лопаться, взрываться",
           "isNew": false
         },
         {
@@ -715,18 +710,13 @@
           "isNew": false
         },
         {
-          "text": "set - set - set",
-          "translation": "устанавливать",
+          "text": "let - let - let",
+          "translation": "позволять",
           "isNew": false
         },
         {
           "text": "shed - shed - shed",
           "translation": "проливать",
-          "isNew": false
-        },
-        {
-          "text": "shit - shit or shat or shitted - shit or shat or shitted",
-          "translation": "гадить, испражняться",
           "isNew": false
         },
         {
@@ -760,12 +750,12 @@
           "isNew": false
         },
         {
-          "text": "wed - wed or wedded - wed or wedded",
+          "text": "wed - wed - wed",
           "translation": "вступать в брак",
           "isNew": false
         },
         {
-          "text": "wet - wet or wetted - wet or wetted",
+          "text": "wet - wet - wet",
           "translation": "мочить",
           "isNew": false
         },
@@ -788,22 +778,22 @@
           "text": "choose - chose - chosen",
           "translation": "выбирать",
           "isNew": false
+        },
+        {
+          "text": "forget - forgot - forgotten",
+          "translation": "забывать",
+          "isNew": false
+        },
+        {
+          "text": "freeze - froze - frozen",
+          "translation": "замерзать, замораживать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID22EyYPV_bVxSGp4gcFXRGbxe4mCEAAKoEQACWcmRSRFx2qybpTkeIAQ"
+      "fileId": "CQACAgIAAxkDAAIEJmEzNbIf8_97fzbjNR6asEDcKvnvAAJqEAACWcmZSawy2D1aGzB7IAQ"
     },
     {
       "cards": [
-        {
-          "text": "wake - woke or waked - woken or waked",
-          "translation": "разбудить, просыпаться",
-          "isNew": true
-        },
-        {
-          "text": "weave - wove or weaved - woven or weaved",
-          "translation": "ткать",
-          "isNew": true
-        },
         {
           "text": "arise - arose - arisen",
           "translation": "возникать, появляться",
@@ -820,9 +810,14 @@
           "isNew": true
         },
         {
-          "text": "burst - burst - burst",
-          "translation": "лопаться, взрываться",
-          "isNew": false
+          "text": "befall - befell - befallen",
+          "translation": "случаться",
+          "isNew": true
+        },
+        {
+          "text": "drive - drove - driven",
+          "translation": "водить машину, ехать",
+          "isNew": true
         },
         {
           "text": "cast - cast - cast",
@@ -845,8 +840,8 @@
           "isNew": false
         },
         {
-          "text": "let - let - let",
-          "translation": "позволять",
+          "text": "forecast - forecast - forecast",
+          "translation": "прогнозировать, предсказывать",
           "isNew": false
         },
         {
@@ -855,7 +850,7 @@
           "isNew": false
         },
         {
-          "text": "quit - quit or quitted - quit or quitted",
+          "text": "quit - quit - quit",
           "translation": "покидать, бросать, увольняться",
           "isNew": false
         },
@@ -865,18 +860,13 @@
           "isNew": false
         },
         {
-          "text": "rid - rid or ridded - rid or ridded",
+          "text": "rid - rid - rid",
           "translation": "освобождать, избавлять",
           "isNew": false
         },
         {
-          "text": "split - split - split",
-          "translation": "раскалывать, расщеплять",
-          "isNew": false
-        },
-        {
-          "text": "spread - spread - spread",
-          "translation": "распространяться, распространять",
+          "text": "set - set - set",
+          "translation": "устанавливать",
           "isNew": false
         },
         {
@@ -890,12 +880,12 @@
           "isNew": false
         },
         {
-          "text": "wed - wed or wedded - wed or wedded",
+          "text": "wed - wed - wed",
           "translation": "вступать в брак",
           "isNew": false
         },
         {
-          "text": "wet - wet or wetted - wet or wetted",
+          "text": "wet - wet - wet",
           "translation": "мочить",
           "isNew": false
         },
@@ -943,27 +933,22 @@
           "text": "steal - stole - stolen",
           "translation": "воровать",
           "isNew": false
+        },
+        {
+          "text": "wake - woke - woken",
+          "translation": "разбудить, просыпаться",
+          "isNew": false
+        },
+        {
+          "text": "weave - wove or weaved - woven or weaved",
+          "translation": "ткать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID3GEyYPY_pGcPCfhM_KwKdOhqXJbrAAKpEQACWcmRSe2HoX7p71UIIAQ"
+      "fileId": "CQACAgIAAxkDAAIEJ2EzNbel581qTfPvG7s2jCt4MoC_AAJrEAACWcmZSfcGUGmSJopbIAQ"
     },
     {
       "cards": [
-        {
-          "text": "befall - befell - befallen",
-          "translation": "случаться",
-          "isNew": true
-        },
-        {
-          "text": "disprove - disproved - disproved or disproven",
-          "translation": "опровергать",
-          "isNew": true
-        },
-        {
-          "text": "drive - drove - driven",
-          "translation": "водить машину, ехать",
-          "isNew": true
-        },
         {
           "text": "eat - ate - eaten",
           "translation": "есть",
@@ -975,9 +960,19 @@
           "isNew": true
         },
         {
-          "text": "forecast - forecast or forecasted - forecast or forecasted",
-          "translation": "прогнозировать, предсказывать",
-          "isNew": false
+          "text": "foresee - foresaw - foreseen",
+          "translation": "предвидеть",
+          "isNew": true
+        },
+        {
+          "text": "forgive - forgave - forgiven",
+          "translation": "прощать",
+          "isNew": true
+        },
+        {
+          "text": "forsake - forsook - forsaken",
+          "translation": "оставлять, покидать",
+          "isNew": true
         },
         {
           "text": "hit - hit - hit",
@@ -1000,18 +995,13 @@
           "isNew": false
         },
         {
-          "text": "set - set - set",
-          "translation": "устанавливать",
+          "text": "let - let - let",
+          "translation": "позволять",
           "isNew": false
         },
         {
           "text": "shed - shed - shed",
           "translation": "проливать",
-          "isNew": false
-        },
-        {
-          "text": "shit - shit or shat or shitted - shit or shat or shitted",
-          "translation": "гадить, испражняться",
           "isNew": false
         },
         {
@@ -1025,13 +1015,13 @@
           "isNew": false
         },
         {
-          "text": "wet - wet or wetted - wet or wetted",
-          "translation": "мочить",
+          "text": "split - split - split",
+          "translation": "раскалывать, расщеплять",
           "isNew": false
         },
         {
-          "text": "awake - awoke - awoken",
-          "translation": "просыпаться, будить",
+          "text": "spread - spread - spread",
+          "translation": "распространяться, распространять",
           "isNew": false
         },
         {
@@ -1075,7 +1065,7 @@
           "isNew": false
         },
         {
-          "text": "wake - woke or waked - woken or waked",
+          "text": "wake - woke - woken",
           "translation": "разбудить, просыпаться",
           "isNew": false
         },
@@ -1098,27 +1088,22 @@
           "text": "beat - beat - beaten",
           "translation": "бить, побеждать",
           "isNew": false
+        },
+        {
+          "text": "befall - befell - befallen",
+          "translation": "случаться",
+          "isNew": false
+        },
+        {
+          "text": "drive - drove - driven",
+          "translation": "водить машину, ехать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID3WEyYPmGfRczNQztOQiOibBAixLBAAKqEQACWcmRSYgIm43Sh4LQIAQ"
+      "fileId": "CQACAgIAAxkDAAIEKGEzNbrWGAIlmNEMFffWya99EDr5AAJsEAACWcmZScmsj5y8MhDaIAQ"
     },
     {
       "cards": [
-        {
-          "text": "foresee - foresaw - foreseen",
-          "translation": "предвидеть",
-          "isNew": true
-        },
-        {
-          "text": "forgive - forgave - forgiven",
-          "translation": "прощать",
-          "isNew": true
-        },
-        {
-          "text": "forsake - forsook - forsaken",
-          "translation": "оставлять, покидать",
-          "isNew": true
-        },
         {
           "text": "give - gave - given",
           "translation": "давать",
@@ -1127,6 +1112,21 @@
         {
           "text": "mistake - mistook - mistaken",
           "translation": "ошибаться",
+          "isNew": true
+        },
+        {
+          "text": "overtake - overtook - overtaken",
+          "translation": "догнать",
+          "isNew": true
+        },
+        {
+          "text": "prove - proved - proved or proven",
+          "translation": "доказывать",
+          "isNew": true
+        },
+        {
+          "text": "rise - rose - risen",
+          "translation": "подниматься, повышаться",
           "isNew": true
         },
         {
@@ -1141,12 +1141,7 @@
         },
         {
           "text": "bid - bid - bid",
-          "translation": "предлагать цену",
-          "isNew": false
-        },
-        {
-          "text": "bid - bid or bade - bidden",
-          "translation": "велеть, просить",
+          "translation": "предлагать цену, велеть, просить",
           "isNew": false
         },
         {
@@ -1155,8 +1150,8 @@
           "isNew": false
         },
         {
-          "text": "let - let - let",
-          "translation": "позволять",
+          "text": "burst - burst - burst",
+          "translation": "лопаться, взрываться",
           "isNew": false
         },
         {
@@ -1165,7 +1160,7 @@
           "isNew": false
         },
         {
-          "text": "quit - quit or quitted - quit or quitted",
+          "text": "quit - quit - quit",
           "translation": "покидать, бросать, увольняться",
           "isNew": false
         },
@@ -1175,18 +1170,13 @@
           "isNew": false
         },
         {
-          "text": "rid - rid or ridded - rid or ridded",
+          "text": "rid - rid - rid",
           "translation": "освобождать, избавлять",
           "isNew": false
         },
         {
-          "text": "split - split - split",
-          "translation": "раскалывать, расщеплять",
-          "isNew": false
-        },
-        {
-          "text": "spread - spread - spread",
-          "translation": "распространяться, распространять",
+          "text": "set - set - set",
+          "translation": "устанавливать",
           "isNew": false
         },
         {
@@ -1200,18 +1190,18 @@
           "isNew": false
         },
         {
-          "text": "wed - wed or wedded - wed or wedded",
+          "text": "wed - wed - wed",
           "translation": "вступать в брак",
           "isNew": false
         },
         {
-          "text": "forget - forgot - forgotten",
-          "translation": "забывать",
+          "text": "wet - wet - wet",
+          "translation": "мочить",
           "isNew": false
         },
         {
-          "text": "freeze - froze - frozen",
-          "translation": "замерзать, замораживать",
+          "text": "awake - awoke - awoken",
+          "translation": "просыпаться, будить",
           "isNew": false
         },
         {
@@ -1230,7 +1220,7 @@
           "isNew": false
         },
         {
-          "text": "wake - woke or waked - woken or waked",
+          "text": "wake - woke - woken",
           "translation": "разбудить, просыпаться",
           "isNew": false
         },
@@ -1260,11 +1250,6 @@
           "isNew": false
         },
         {
-          "text": "disprove - disproved - disproved or disproven",
-          "translation": "опровергать",
-          "isNew": false
-        },
-        {
           "text": "drive - drove - driven",
           "translation": "водить машину, ехать",
           "isNew": false
@@ -1278,27 +1263,27 @@
           "text": "fall - fell - fallen",
           "translation": "падать",
           "isNew": false
+        },
+        {
+          "text": "foresee - foresaw - foreseen",
+          "translation": "предвидеть",
+          "isNew": false
+        },
+        {
+          "text": "forgive - forgave - forgiven",
+          "translation": "прощать",
+          "isNew": false
+        },
+        {
+          "text": "forsake - forsook - forsaken",
+          "translation": "оставлять, покидать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID3mEyYP0LjXBy6Z5RBVXUemiZTTBSAAKrEQACWcmRSc5IQ7vwt4Z-IAQ"
+      "fileId": "CQACAgIAAxkDAAIEKWEzNbzNLAhaDP9StS5kX2QKL3opAAJtEAACWcmZSRgj_McNTJ9sIAQ"
     },
     {
       "cards": [
-        {
-          "text": "overtake - overtook - overtaken",
-          "translation": "догнать",
-          "isNew": true
-        },
-        {
-          "text": "prove - proved - proved or proven",
-          "translation": "доказывать",
-          "isNew": true
-        },
-        {
-          "text": "rise - rose - risen",
-          "translation": "подниматься, повышаться",
-          "isNew": true
-        },
         {
           "text": "see - saw - seen",
           "translation": "видеть",
@@ -1310,9 +1295,19 @@
           "isNew": true
         },
         {
-          "text": "burst - burst - burst",
-          "translation": "лопаться, взрываться",
-          "isNew": false
+          "text": "shave - shaved - shaved or shaven",
+          "translation": "бриться",
+          "isNew": true
+        },
+        {
+          "text": "strive - strove - striven",
+          "translation": "стремиться, стараться",
+          "isNew": true
+        },
+        {
+          "text": "take - took - taken",
+          "translation": "брать",
+          "isNew": true
         },
         {
           "text": "cast - cast - cast",
@@ -1335,18 +1330,13 @@
           "isNew": false
         },
         {
-          "text": "set - set - set",
-          "translation": "устанавливать",
+          "text": "forecast - forecast - forecast",
+          "translation": "прогнозировать, предсказывать",
           "isNew": false
         },
         {
           "text": "shed - shed - shed",
           "translation": "проливать",
-          "isNew": false
-        },
-        {
-          "text": "shit - shit or shat or shitted - shit or shat or shitted",
-          "translation": "гадить, испражняться",
           "isNew": false
         },
         {
@@ -1360,13 +1350,13 @@
           "isNew": false
         },
         {
-          "text": "wet - wet or wetted - wet or wetted",
-          "translation": "мочить",
+          "text": "split - split - split",
+          "translation": "раскалывать, расщеплять",
           "isNew": false
         },
         {
-          "text": "awake - awoke - awoken",
-          "translation": "просыпаться, будить",
+          "text": "spread - spread - spread",
+          "translation": "распространяться, распространять",
           "isNew": false
         },
         {
@@ -1385,13 +1375,13 @@
           "isNew": false
         },
         {
-          "text": "wake - woke or waked - woken or waked",
-          "translation": "разбудить, просыпаться",
+          "text": "forget - forgot - forgotten",
+          "translation": "забывать",
           "isNew": false
         },
         {
-          "text": "weave - wove or weaved - woven or weaved",
-          "translation": "ткать",
+          "text": "freeze - froze - frozen",
+          "translation": "замерзать, замораживать",
           "isNew": false
         },
         {
@@ -1412,11 +1402,6 @@
         {
           "text": "befall - befell - befallen",
           "translation": "случаться",
-          "isNew": false
-        },
-        {
-          "text": "disprove - disproved - disproved or disproven",
-          "translation": "опровергать",
           "isNew": false
         },
         {
@@ -1458,27 +1443,27 @@
           "text": "mistake - mistook - mistaken",
           "translation": "ошибаться",
           "isNew": false
+        },
+        {
+          "text": "overtake - overtook - overtaken",
+          "translation": "догнать",
+          "isNew": false
+        },
+        {
+          "text": "prove - proved - proved or proven",
+          "translation": "доказывать",
+          "isNew": false
+        },
+        {
+          "text": "rise - rose - risen",
+          "translation": "подниматься, повышаться",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID32EyYP_O-sIbO4TCpYfTfdbAYBFaAAKtEQACWcmRSUFF_JkI_YPtIAQ"
+      "fileId": "CQACAgIAAxkDAAIEKmEzNb-pFsGiY4mtZ_vfJNk693wuAAJuEAACWcmZSSIPD_0lh1W3IAQ"
     },
     {
       "cards": [
-        {
-          "text": "shave - shaved - shaved or shaven",
-          "translation": "бриться",
-          "isNew": true
-        },
-        {
-          "text": "strive - strove - striven",
-          "translation": "стремиться, стараться",
-          "isNew": true
-        },
-        {
-          "text": "take - took - taken",
-          "translation": "брать",
-          "isNew": true
-        },
         {
           "text": "undertake - undertook - undertaken",
           "translation": "предпринимать",
@@ -1490,9 +1475,19 @@
           "isNew": true
         },
         {
-          "text": "forecast - forecast or forecasted - forecast or forecasted",
-          "translation": "прогнозировать, предсказывать",
-          "isNew": false
+          "text": "draw - drew - drawn",
+          "translation": "рисовать, привлекать",
+          "isNew": true
+        },
+        {
+          "text": "fly - flew - flown",
+          "translation": "летать",
+          "isNew": true
+        },
+        {
+          "text": "grow - grew - grown",
+          "translation": "расти",
+          "isNew": true
         },
         {
           "text": "hit - hit - hit",
@@ -1515,13 +1510,8 @@
           "isNew": false
         },
         {
-          "text": "split - split - split",
-          "translation": "раскалывать, расщеплять",
-          "isNew": false
-        },
-        {
-          "text": "spread - spread - spread",
-          "translation": "распространяться, распространять",
+          "text": "let - let - let",
+          "translation": "позволять",
           "isNew": false
         },
         {
@@ -1535,18 +1525,18 @@
           "isNew": false
         },
         {
-          "text": "wed - wed or wedded - wed or wedded",
+          "text": "wed - wed - wed",
           "translation": "вступать в брак",
           "isNew": false
         },
         {
-          "text": "forget - forgot - forgotten",
-          "translation": "забывать",
+          "text": "wet - wet - wet",
+          "translation": "мочить",
           "isNew": false
         },
         {
-          "text": "freeze - froze - frozen",
-          "translation": "замерзать, замораживать",
+          "text": "awake - awoke - awoken",
+          "translation": "просыпаться, будить",
           "isNew": false
         },
         {
@@ -1565,18 +1555,13 @@
           "isNew": false
         },
         {
-          "text": "befall - befell - befallen",
-          "translation": "случаться",
+          "text": "wake - woke - woken",
+          "translation": "разбудить, просыпаться",
           "isNew": false
         },
         {
-          "text": "disprove - disproved - disproved or disproven",
-          "translation": "опровергать",
-          "isNew": false
-        },
-        {
-          "text": "drive - drove - driven",
-          "translation": "водить машину, ехать",
+          "text": "weave - wove or weaved - woven or weaved",
+          "translation": "ткать",
           "isNew": false
         },
         {
@@ -1638,27 +1623,27 @@
           "text": "shake - shook - shaken",
           "translation": "трясти",
           "isNew": false
+        },
+        {
+          "text": "shave - shaved - shaved or shaven",
+          "translation": "бриться",
+          "isNew": false
+        },
+        {
+          "text": "strive - strove - striven",
+          "translation": "стремиться, стараться",
+          "isNew": false
+        },
+        {
+          "text": "take - took - taken",
+          "translation": "брать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID4GEyYQLDHEa8JVgi0bd6YQtkex-LAAKuEQACWcmRSebzUGarlBTxIAQ"
+      "fileId": "CQACAgIAAxkDAAIEK2EzNcOzszXkQ4GbXXFLTA_OTvyMAAJvEAACWcmZSXSGKH5ZJoEBIAQ"
     },
     {
       "cards": [
-        {
-          "text": "draw - drew - drawn",
-          "translation": "рисовать, привлекать",
-          "isNew": true
-        },
-        {
-          "text": "fly - flew - flown",
-          "translation": "летать",
-          "isNew": true
-        },
-        {
-          "text": "grow - grew - grown",
-          "translation": "расти",
-          "isNew": true
-        },
         {
           "text": "know - knew - known",
           "translation": "знать",
@@ -1667,6 +1652,21 @@
         {
           "text": "throw - threw - thrown",
           "translation": "кидать",
+          "isNew": true
+        },
+        {
+          "text": "withdraw - withdrew - withdrawn",
+          "translation": "снимать со счета, изымать",
+          "isNew": true
+        },
+        {
+          "text": "mow - mowed - mown",
+          "translation": "косить",
+          "isNew": true
+        },
+        {
+          "text": "saw - sawed - sawn or sawed",
+          "translation": "пилить",
           "isNew": true
         },
         {
@@ -1681,12 +1681,7 @@
         },
         {
           "text": "bid - bid - bid",
-          "translation": "предлагать цену",
-          "isNew": false
-        },
-        {
-          "text": "bid - bid or bade - bidden",
-          "translation": "велеть, просить",
+          "translation": "предлагать цену, велеть, просить",
           "isNew": false
         },
         {
@@ -1695,8 +1690,8 @@
           "isNew": false
         },
         {
-          "text": "let - let - let",
-          "translation": "позволять",
+          "text": "burst - burst - burst",
+          "translation": "лопаться, взрываться",
           "isNew": false
         },
         {
@@ -1705,7 +1700,7 @@
           "isNew": false
         },
         {
-          "text": "quit - quit or quitted - quit or quitted",
+          "text": "quit - quit - quit",
           "translation": "покидать, бросать, увольняться",
           "isNew": false
         },
@@ -1715,18 +1710,13 @@
           "isNew": false
         },
         {
-          "text": "rid - rid or ridded - rid or ridded",
+          "text": "rid - rid - rid",
           "translation": "освобождать, избавлять",
           "isNew": false
         },
         {
-          "text": "wet - wet or wetted - wet or wetted",
-          "translation": "мочить",
-          "isNew": false
-        },
-        {
-          "text": "awake - awoke - awoken",
-          "translation": "просыпаться, будить",
+          "text": "set - set - set",
+          "translation": "устанавливать",
           "isNew": false
         },
         {
@@ -1745,13 +1735,13 @@
           "isNew": false
         },
         {
-          "text": "wake - woke or waked - woken or waked",
-          "translation": "разбудить, просыпаться",
+          "text": "forget - forgot - forgotten",
+          "translation": "забывать",
           "isNew": false
         },
         {
-          "text": "weave - wove or weaved - woven or weaved",
-          "translation": "ткать",
+          "text": "freeze - froze - frozen",
+          "translation": "замерзать, замораживать",
           "isNew": false
         },
         {
@@ -1770,18 +1760,13 @@
           "isNew": false
         },
         {
-          "text": "foresee - foresaw - foreseen",
-          "translation": "предвидеть",
+          "text": "befall - befell - befallen",
+          "translation": "случаться",
           "isNew": false
         },
         {
-          "text": "forgive - forgave - forgiven",
-          "translation": "прощать",
-          "isNew": false
-        },
-        {
-          "text": "forsake - forsook - forsaken",
-          "translation": "оставлять, покидать",
+          "text": "drive - drove - driven",
+          "translation": "водить машину, ехать",
           "isNew": false
         },
         {
@@ -1843,41 +1828,51 @@
           "text": "blow - blew - blown",
           "translation": "дуть, взрываться",
           "isNew": false
+        },
+        {
+          "text": "draw - drew - drawn",
+          "translation": "рисовать, привлекать",
+          "isNew": false
+        },
+        {
+          "text": "fly - flew - flown",
+          "translation": "летать",
+          "isNew": false
+        },
+        {
+          "text": "grow - grew - grown",
+          "translation": "расти",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID4WEyYQUyCuY5HChkm_j2K4DrAAHItQACrxEAAlnJkUlG0iSJuYwycCAE"
+      "fileId": "CQACAgIAAxkDAAIELGEzNcYdYIvH2XxVobdKkNLGNoy7AAJwEAACWcmZSXyawfxXX-iQIAQ"
     },
     {
       "cards": [
-        {
-          "text": "withdraw - withdrew - withdrawn",
-          "translation": "снимать со счета, изымать",
-          "isNew": true
-        },
-        {
-          "text": "mow - mowed - mown",
-          "translation": "косить",
-          "isNew": true
-        },
-        {
-          "text": "saw - sawed - sawn or sawed",
-          "translation": "пилить",
-          "isNew": true
-        },
         {
           "text": "sew - sewed - sewn or sewed",
           "translation": "шить",
           "isNew": true
         },
         {
-          "text": "show - showed - shown or showed",
+          "text": "show - showed - shown",
           "translation": "показывать",
           "isNew": true
         },
         {
-          "text": "burst - burst - burst",
-          "translation": "лопаться, взрываться",
-          "isNew": false
+          "text": "sow - sowed - sown",
+          "translation": "сеять",
+          "isNew": true
+        },
+        {
+          "text": "strew - strewed - strewn or strewed",
+          "translation": "посыпать, усеять",
+          "isNew": true
+        },
+        {
+          "text": "beseech - besought - besought",
+          "translation": "умолять, упрашивать",
+          "isNew": true
         },
         {
           "text": "cast - cast - cast",
@@ -1900,18 +1895,13 @@
           "isNew": false
         },
         {
-          "text": "set - set - set",
-          "translation": "устанавливать",
+          "text": "forecast - forecast - forecast",
+          "translation": "прогнозировать, предсказывать",
           "isNew": false
         },
         {
           "text": "shed - shed - shed",
           "translation": "проливать",
-          "isNew": false
-        },
-        {
-          "text": "shit - shit or shat or shitted - shit or shat or shitted",
-          "translation": "гадить, испражняться",
           "isNew": false
         },
         {
@@ -1925,13 +1915,13 @@
           "isNew": false
         },
         {
-          "text": "forget - forgot - forgotten",
-          "translation": "забывать",
+          "text": "split - split - split",
+          "translation": "раскалывать, расщеплять",
           "isNew": false
         },
         {
-          "text": "freeze - froze - frozen",
-          "translation": "замерзать, замораживать",
+          "text": "spread - spread - spread",
+          "translation": "распространяться, распространять",
           "isNew": false
         },
         {
@@ -1950,18 +1940,13 @@
           "isNew": false
         },
         {
-          "text": "befall - befell - befallen",
-          "translation": "случаться",
+          "text": "wake - woke - woken",
+          "translation": "разбудить, просыпаться",
           "isNew": false
         },
         {
-          "text": "disprove - disproved - disproved or disproven",
-          "translation": "опровергать",
-          "isNew": false
-        },
-        {
-          "text": "drive - drove - driven",
-          "translation": "водить машину, ехать",
+          "text": "weave - wove or weaved - woven or weaved",
+          "translation": "ткать",
           "isNew": false
         },
         {
@@ -1975,18 +1960,18 @@
           "isNew": false
         },
         {
-          "text": "overtake - overtook - overtaken",
-          "translation": "догнать",
+          "text": "foresee - foresaw - foreseen",
+          "translation": "предвидеть",
           "isNew": false
         },
         {
-          "text": "prove - proved - proved or proven",
-          "translation": "доказывать",
+          "text": "forgive - forgave - forgiven",
+          "translation": "прощать",
           "isNew": false
         },
         {
-          "text": "rise - rose - risen",
-          "translation": "подниматься, повышаться",
+          "text": "forsake - forsook - forsaken",
+          "translation": "оставлять, покидать",
           "isNew": false
         },
         {
@@ -2048,27 +2033,27 @@
           "text": "throw - threw - thrown",
           "translation": "кидать",
           "isNew": false
+        },
+        {
+          "text": "withdraw - withdrew - withdrawn",
+          "translation": "снимать со счета, изымать",
+          "isNew": false
+        },
+        {
+          "text": "mow - mowed - mown",
+          "translation": "косить",
+          "isNew": false
+        },
+        {
+          "text": "saw - sawed - sawn or sawed",
+          "translation": "пилить",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID4mEyYQiQwdSKOMP3mPirss03LWwsAAKwEQACWcmRSVwExYzSzI58IAQ"
+      "fileId": "CQACAgIAAxkDAAIELWEzNckGprvsqBzlyCrNglWjb2l1AAJxEAACWcmZSXeF72NB2R1VIAQ"
     },
     {
       "cards": [
-        {
-          "text": "sow - sowed - sowed or sown",
-          "translation": "сеять",
-          "isNew": true
-        },
-        {
-          "text": "strew - strewed - strewn or strewed",
-          "translation": "посыпать, усеять",
-          "isNew": true
-        },
-        {
-          "text": "beseech - besought - besought",
-          "translation": "умолять, упрашивать",
-          "isNew": true
-        },
         {
           "text": "bring - brought - brought",
           "translation": "приносить, приводить",
@@ -2080,9 +2065,19 @@
           "isNew": true
         },
         {
-          "text": "forecast - forecast or forecasted - forecast or forecasted",
-          "translation": "прогнозировать, предсказывать",
-          "isNew": false
+          "text": "catch - caught - caught",
+          "translation": "ловить",
+          "isNew": true
+        },
+        {
+          "text": "fight - fought - fought",
+          "translation": "бороться, сражаться",
+          "isNew": true
+        },
+        {
+          "text": "may - might - might",
+          "translation": "мочь, иметь возможность",
+          "isNew": true
         },
         {
           "text": "hit - hit - hit",
@@ -2105,13 +2100,8 @@
           "isNew": false
         },
         {
-          "text": "split - split - split",
-          "translation": "раскалывать, расщеплять",
-          "isNew": false
-        },
-        {
-          "text": "spread - spread - spread",
-          "translation": "распространяться, распространять",
+          "text": "let - let - let",
+          "translation": "позволять",
           "isNew": false
         },
         {
@@ -2125,18 +2115,18 @@
           "isNew": false
         },
         {
-          "text": "wed - wed or wedded - wed or wedded",
+          "text": "wed - wed - wed",
           "translation": "вступать в брак",
           "isNew": false
         },
         {
-          "text": "wake - woke or waked - woken or waked",
-          "translation": "разбудить, просыпаться",
+          "text": "wet - wet - wet",
+          "translation": "мочить",
           "isNew": false
         },
         {
-          "text": "weave - wove or weaved - woven or weaved",
-          "translation": "ткать",
+          "text": "awake - awoke - awoken",
+          "translation": "просыпаться, будить",
           "isNew": false
         },
         {
@@ -2155,18 +2145,13 @@
           "isNew": false
         },
         {
-          "text": "foresee - foresaw - foreseen",
-          "translation": "предвидеть",
+          "text": "befall - befell - befallen",
+          "translation": "случаться",
           "isNew": false
         },
         {
-          "text": "forgive - forgave - forgiven",
-          "translation": "прощать",
-          "isNew": false
-        },
-        {
-          "text": "forsake - forsook - forsaken",
-          "translation": "оставлять, покидать",
+          "text": "drive - drove - driven",
+          "translation": "водить машину, ехать",
           "isNew": false
         },
         {
@@ -2180,18 +2165,18 @@
           "isNew": false
         },
         {
-          "text": "shave - shaved - shaved or shaven",
-          "translation": "бриться",
+          "text": "overtake - overtook - overtaken",
+          "translation": "догнать",
           "isNew": false
         },
         {
-          "text": "strive - strove - striven",
-          "translation": "стремиться, стараться",
+          "text": "prove - proved - proved or proven",
+          "translation": "доказывать",
           "isNew": false
         },
         {
-          "text": "take - took - taken",
-          "translation": "брать",
+          "text": "rise - rose - risen",
+          "translation": "подниматься, повышаться",
           "isNew": false
         },
         {
@@ -2250,30 +2235,30 @@
           "isNew": false
         },
         {
-          "text": "show - showed - shown or showed",
+          "text": "show - showed - shown",
           "translation": "показывать",
+          "isNew": false
+        },
+        {
+          "text": "sow - sowed - sown",
+          "translation": "сеять",
+          "isNew": false
+        },
+        {
+          "text": "strew - strewed - strewn or strewed",
+          "translation": "посыпать, усеять",
+          "isNew": false
+        },
+        {
+          "text": "beseech - besought - besought",
+          "translation": "умолять, упрашивать",
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID42EyYQorspQP7aLxQugHUhsxCUDOAAKxEQACWcmRSY3t7z5IH2ZKIAQ"
+      "fileId": "CQACAgIAAxkDAAIELmEzNc1YUfZW4_B62f69TV0SVHsaAAJyEAACWcmZSUOkc1wRzEWhIAQ"
     },
     {
       "cards": [
-        {
-          "text": "catch - caught - caught",
-          "translation": "ловить",
-          "isNew": true
-        },
-        {
-          "text": "fight - fought - fought",
-          "translation": "бороться, сражаться",
-          "isNew": true
-        },
-        {
-          "text": "may - might - might",
-          "translation": "мочь, иметь возможность",
-          "isNew": true
-        },
         {
           "text": "seek - sought - sought",
           "translation": "искать, стремиться",
@@ -2285,9 +2270,19 @@
           "isNew": true
         },
         {
-          "text": "let - let - let",
-          "translation": "позволять",
-          "isNew": false
+          "text": "think - thought - thought",
+          "translation": "думать",
+          "isNew": true
+        },
+        {
+          "text": "creep - crept - crept",
+          "translation": "ползать",
+          "isNew": true
+        },
+        {
+          "text": "keep - kept - kept",
+          "translation": "хранить, держать",
+          "isNew": true
         },
         {
           "text": "put - put - put",
@@ -2295,7 +2290,7 @@
           "isNew": false
         },
         {
-          "text": "quit - quit or quitted - quit or quitted",
+          "text": "quit - quit - quit",
           "translation": "покидать, бросать, увольняться",
           "isNew": false
         },
@@ -2305,18 +2300,13 @@
           "isNew": false
         },
         {
-          "text": "rid - rid or ridded - rid or ridded",
+          "text": "rid - rid - rid",
           "translation": "освобождать, избавлять",
           "isNew": false
         },
         {
-          "text": "wet - wet or wetted - wet or wetted",
-          "translation": "мочить",
-          "isNew": false
-        },
-        {
-          "text": "awake - awoke - awoken",
-          "translation": "просыпаться, будить",
+          "text": "set - set - set",
+          "translation": "устанавливать",
           "isNew": false
         },
         {
@@ -2335,18 +2325,13 @@
           "isNew": false
         },
         {
-          "text": "befall - befell - befallen",
-          "translation": "случаться",
+          "text": "forget - forgot - forgotten",
+          "translation": "забывать",
           "isNew": false
         },
         {
-          "text": "disprove - disproved - disproved or disproven",
-          "translation": "опровергать",
-          "isNew": false
-        },
-        {
-          "text": "drive - drove - driven",
-          "translation": "водить машину, ехать",
+          "text": "freeze - froze - frozen",
+          "translation": "замерзать, замораживать",
           "isNew": false
         },
         {
@@ -2360,18 +2345,18 @@
           "isNew": false
         },
         {
-          "text": "overtake - overtook - overtaken",
-          "translation": "догнать",
+          "text": "foresee - foresaw - foreseen",
+          "translation": "предвидеть",
           "isNew": false
         },
         {
-          "text": "prove - proved - proved or proven",
-          "translation": "доказывать",
+          "text": "forgive - forgave - forgiven",
+          "translation": "прощать",
           "isNew": false
         },
         {
-          "text": "rise - rose - risen",
-          "translation": "подниматься, повышаться",
+          "text": "forsake - forsook - forsaken",
+          "translation": "оставлять, покидать",
           "isNew": false
         },
         {
@@ -2385,18 +2370,18 @@
           "isNew": false
         },
         {
-          "text": "draw - drew - drawn",
-          "translation": "рисовать, привлекать",
+          "text": "shave - shaved - shaved or shaven",
+          "translation": "бриться",
           "isNew": false
         },
         {
-          "text": "fly - flew - flown",
-          "translation": "летать",
+          "text": "strive - strove - striven",
+          "translation": "стремиться, стараться",
           "isNew": false
         },
         {
-          "text": "grow - grew - grown",
-          "translation": "расти",
+          "text": "take - took - taken",
+          "translation": "брать",
           "isNew": false
         },
         {
@@ -2430,12 +2415,12 @@
           "isNew": false
         },
         {
-          "text": "show - showed - shown or showed",
+          "text": "show - showed - shown",
           "translation": "показывать",
           "isNew": false
         },
         {
-          "text": "sow - sowed - sowed or sown",
+          "text": "sow - sowed - sown",
           "translation": "сеять",
           "isNew": false
         },
@@ -2458,27 +2443,27 @@
           "text": "buy - bought - bought",
           "translation": "покупать",
           "isNew": false
+        },
+        {
+          "text": "catch - caught - caught",
+          "translation": "ловить",
+          "isNew": false
+        },
+        {
+          "text": "fight - fought - fought",
+          "translation": "бороться, сражаться",
+          "isNew": false
+        },
+        {
+          "text": "may - might - might",
+          "translation": "мочь, иметь возможность",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID5GEyYQ8oxsmD_GhW1pFhyBDruh7iAAKyEQACWcmRSV2VA8BaGLBtIAQ"
+      "fileId": "CQACAgIAAxkDAAIEL2EzNdHb4tGDhRWkKhQ8LAKxWMX6AAJzEAACWcmZSYMVTpgJVYHYIAQ"
     },
     {
       "cards": [
-        {
-          "text": "think - thought - thought",
-          "translation": "думать",
-          "isNew": true
-        },
-        {
-          "text": "creep - crept - crept",
-          "translation": "ползать",
-          "isNew": true
-        },
-        {
-          "text": "keep - kept - kept",
-          "translation": "хранить, держать",
-          "isNew": true
-        },
         {
           "text": "sleep - slept - slept",
           "translation": "спать",
@@ -2490,18 +2475,23 @@
           "isNew": true
         },
         {
-          "text": "set - set - set",
-          "translation": "устанавливать",
-          "isNew": false
+          "text": "weep - wept - wept",
+          "translation": "плакать",
+          "isNew": true
+        },
+        {
+          "text": "behold - beheld - beheld",
+          "translation": "созерцать, видеть",
+          "isNew": true
+        },
+        {
+          "text": "can - could - could",
+          "translation": "мочь",
+          "isNew": true
         },
         {
           "text": "shed - shed - shed",
           "translation": "проливать",
-          "isNew": false
-        },
-        {
-          "text": "shit - shit or shat or shitted - shit or shat or shitted",
-          "translation": "гадить, испражняться",
           "isNew": false
         },
         {
@@ -2515,13 +2505,13 @@
           "isNew": false
         },
         {
-          "text": "forget - forgot - forgotten",
-          "translation": "забывать",
+          "text": "split - split - split",
+          "translation": "раскалывать, расщеплять",
           "isNew": false
         },
         {
-          "text": "freeze - froze - frozen",
-          "translation": "замерзать, замораживать",
+          "text": "spread - spread - spread",
+          "translation": "распространяться, распространять",
           "isNew": false
         },
         {
@@ -2540,18 +2530,13 @@
           "isNew": false
         },
         {
-          "text": "foresee - foresaw - foreseen",
-          "translation": "предвидеть",
+          "text": "wake - woke - woken",
+          "translation": "разбудить, просыпаться",
           "isNew": false
         },
         {
-          "text": "forgive - forgave - forgiven",
-          "translation": "прощать",
-          "isNew": false
-        },
-        {
-          "text": "forsake - forsook - forsaken",
-          "translation": "оставлять, покидать",
+          "text": "weave - wove or weaved - woven or weaved",
+          "translation": "ткать",
           "isNew": false
         },
         {
@@ -2562,186 +2547,6 @@
         {
           "text": "mistake - mistook - mistaken",
           "translation": "ошибаться",
-          "isNew": false
-        },
-        {
-          "text": "shave - shaved - shaved or shaven",
-          "translation": "бриться",
-          "isNew": false
-        },
-        {
-          "text": "strive - strove - striven",
-          "translation": "стремиться, стараться",
-          "isNew": false
-        },
-        {
-          "text": "take - took - taken",
-          "translation": "брать",
-          "isNew": false
-        },
-        {
-          "text": "undertake - undertook - undertaken",
-          "translation": "предпринимать",
-          "isNew": false
-        },
-        {
-          "text": "blow - blew - blown",
-          "translation": "дуть, взрываться",
-          "isNew": false
-        },
-        {
-          "text": "withdraw - withdrew - withdrawn",
-          "translation": "снимать со счета, изымать",
-          "isNew": false
-        },
-        {
-          "text": "mow - mowed - mown",
-          "translation": "косить",
-          "isNew": false
-        },
-        {
-          "text": "saw - sawed - sawn or sawed",
-          "translation": "пилить",
-          "isNew": false
-        },
-        {
-          "text": "sew - sewed - sewn or sewed",
-          "translation": "шить",
-          "isNew": false
-        },
-        {
-          "text": "show - showed - shown or showed",
-          "translation": "показывать",
-          "isNew": false
-        },
-        {
-          "text": "sow - sowed - sowed or sown",
-          "translation": "сеять",
-          "isNew": false
-        },
-        {
-          "text": "strew - strewed - strewn or strewed",
-          "translation": "посыпать, усеять",
-          "isNew": false
-        },
-        {
-          "text": "beseech - besought - besought",
-          "translation": "умолять, упрашивать",
-          "isNew": false
-        },
-        {
-          "text": "bring - brought - brought",
-          "translation": "приносить, приводить",
-          "isNew": false
-        },
-        {
-          "text": "buy - bought - bought",
-          "translation": "покупать",
-          "isNew": false
-        },
-        {
-          "text": "catch - caught - caught",
-          "translation": "ловить",
-          "isNew": false
-        },
-        {
-          "text": "fight - fought - fought",
-          "translation": "бороться, сражаться",
-          "isNew": false
-        },
-        {
-          "text": "may - might - might",
-          "translation": "мочь, иметь возможность",
-          "isNew": false
-        },
-        {
-          "text": "seek - sought - sought",
-          "translation": "искать, стремиться",
-          "isNew": false
-        },
-        {
-          "text": "teach - taught - taught",
-          "translation": "учить, преподавать",
-          "isNew": false
-        }
-      ],
-      "fileId": "CQACAgIAAxkDAAID5WEyYRJdH8aA0NWr3YJ4XpUrz_gdAAKzEQACWcmRSW1YOUgdU2VVIAQ"
-    },
-    {
-      "cards": [
-        {
-          "text": "weep - wept - wept",
-          "translation": "плакать",
-          "isNew": true
-        },
-        {
-          "text": "behold - beheld - beheld",
-          "translation": "созерцать, видеть",
-          "isNew": true
-        },
-        {
-          "text": "can - could - could",
-          "translation": "мочь",
-          "isNew": true
-        },
-        {
-          "text": "foretell - foretold - foretold",
-          "translation": "предсказывать",
-          "isNew": true
-        },
-        {
-          "text": "hold - held - held",
-          "translation": "держать, занимать",
-          "isNew": true
-        },
-        {
-          "text": "split - split - split",
-          "translation": "раскалывать, расщеплять",
-          "isNew": false
-        },
-        {
-          "text": "spread - spread - spread",
-          "translation": "распространяться, распространять",
-          "isNew": false
-        },
-        {
-          "text": "thrust - thrust - thrust",
-          "translation": "толкать",
-          "isNew": false
-        },
-        {
-          "text": "upset - upset - upset",
-          "translation": "огорчать",
-          "isNew": false
-        },
-        {
-          "text": "wed - wed or wedded - wed or wedded",
-          "translation": "вступать в брак",
-          "isNew": false
-        },
-        {
-          "text": "wake - woke or waked - woken or waked",
-          "translation": "разбудить, просыпаться",
-          "isNew": false
-        },
-        {
-          "text": "weave - wove or weaved - woven or weaved",
-          "translation": "ткать",
-          "isNew": false
-        },
-        {
-          "text": "arise - arose - arisen",
-          "translation": "возникать, появляться",
-          "isNew": false
-        },
-        {
-          "text": "be - was,were - been",
-          "translation": "быть, являться",
-          "isNew": false
-        },
-        {
-          "text": "beat - beat - beaten",
-          "translation": "бить, побеждать",
           "isNew": false
         },
         {
@@ -2760,13 +2565,13 @@
           "isNew": false
         },
         {
-          "text": "see - saw - seen",
-          "translation": "видеть",
+          "text": "undertake - undertook - undertaken",
+          "translation": "предпринимать",
           "isNew": false
         },
         {
-          "text": "shake - shook - shaken",
-          "translation": "трясти",
+          "text": "blow - blew - blown",
+          "translation": "дуть, взрываться",
           "isNew": false
         },
         {
@@ -2785,17 +2590,17 @@
           "isNew": false
         },
         {
-          "text": "know - knew - known",
-          "translation": "знать",
+          "text": "sew - sewed - sewn or sewed",
+          "translation": "шить",
           "isNew": false
         },
         {
-          "text": "throw - threw - thrown",
-          "translation": "кидать",
+          "text": "show - showed - shown",
+          "translation": "показывать",
           "isNew": false
         },
         {
-          "text": "sow - sowed - sowed or sown",
+          "text": "sow - sowed - sown",
           "translation": "сеять",
           "isNew": false
         },
@@ -2858,22 +2663,22 @@
           "text": "keep - kept - kept",
           "translation": "хранить, держать",
           "isNew": false
-        },
-        {
-          "text": "sleep - slept - slept",
-          "translation": "спать",
-          "isNew": false
-        },
-        {
-          "text": "sweep - swept - swept",
-          "translation": "мести, подметать",
-          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID5mEyYRggcTCSJWkiTbRsJFJ7vbDlAAK1EQACWcmRSTWqyMDY8LIyIAQ"
+      "fileId": "CQACAgIAAxkDAAIEMGEzNdVCiwnouzlTYP2cSlC7FDrGAAJ0EAACWcmZSd5IlghJpiC-IAQ"
     },
     {
       "cards": [
+        {
+          "text": "foretell - foretold - foretold",
+          "translation": "предсказывать",
+          "isNew": true
+        },
+        {
+          "text": "hold - held - held",
+          "translation": "держать, занимать",
+          "isNew": true
+        },
         {
           "text": "sell - sold - sold",
           "translation": "продавать",
@@ -2890,6 +2695,186 @@
           "isNew": true
         },
         {
+          "text": "thrust - thrust - thrust",
+          "translation": "толкать",
+          "isNew": false
+        },
+        {
+          "text": "upset - upset - upset",
+          "translation": "огорчать",
+          "isNew": false
+        },
+        {
+          "text": "wed - wed - wed",
+          "translation": "вступать в брак",
+          "isNew": false
+        },
+        {
+          "text": "wet - wet - wet",
+          "translation": "мочить",
+          "isNew": false
+        },
+        {
+          "text": "awake - awoke - awoken",
+          "translation": "просыпаться, будить",
+          "isNew": false
+        },
+        {
+          "text": "arise - arose - arisen",
+          "translation": "возникать, появляться",
+          "isNew": false
+        },
+        {
+          "text": "be - was,were - been",
+          "translation": "быть, являться",
+          "isNew": false
+        },
+        {
+          "text": "beat - beat - beaten",
+          "translation": "бить, побеждать",
+          "isNew": false
+        },
+        {
+          "text": "befall - befell - befallen",
+          "translation": "случаться",
+          "isNew": false
+        },
+        {
+          "text": "drive - drove - driven",
+          "translation": "водить машину, ехать",
+          "isNew": false
+        },
+        {
+          "text": "see - saw - seen",
+          "translation": "видеть",
+          "isNew": false
+        },
+        {
+          "text": "shake - shook - shaken",
+          "translation": "трясти",
+          "isNew": false
+        },
+        {
+          "text": "shave - shaved - shaved or shaven",
+          "translation": "бриться",
+          "isNew": false
+        },
+        {
+          "text": "strive - strove - striven",
+          "translation": "стремиться, стараться",
+          "isNew": false
+        },
+        {
+          "text": "take - took - taken",
+          "translation": "брать",
+          "isNew": false
+        },
+        {
+          "text": "know - knew - known",
+          "translation": "знать",
+          "isNew": false
+        },
+        {
+          "text": "throw - threw - thrown",
+          "translation": "кидать",
+          "isNew": false
+        },
+        {
+          "text": "withdraw - withdrew - withdrawn",
+          "translation": "снимать со счета, изымать",
+          "isNew": false
+        },
+        {
+          "text": "mow - mowed - mown",
+          "translation": "косить",
+          "isNew": false
+        },
+        {
+          "text": "saw - sawed - sawn or sawed",
+          "translation": "пилить",
+          "isNew": false
+        },
+        {
+          "text": "bring - brought - brought",
+          "translation": "приносить, приводить",
+          "isNew": false
+        },
+        {
+          "text": "buy - bought - bought",
+          "translation": "покупать",
+          "isNew": false
+        },
+        {
+          "text": "catch - caught - caught",
+          "translation": "ловить",
+          "isNew": false
+        },
+        {
+          "text": "fight - fought - fought",
+          "translation": "бороться, сражаться",
+          "isNew": false
+        },
+        {
+          "text": "may - might - might",
+          "translation": "мочь, иметь возможность",
+          "isNew": false
+        },
+        {
+          "text": "seek - sought - sought",
+          "translation": "искать, стремиться",
+          "isNew": false
+        },
+        {
+          "text": "teach - taught - taught",
+          "translation": "учить, преподавать",
+          "isNew": false
+        },
+        {
+          "text": "think - thought - thought",
+          "translation": "думать",
+          "isNew": false
+        },
+        {
+          "text": "creep - crept - crept",
+          "translation": "ползать",
+          "isNew": false
+        },
+        {
+          "text": "keep - kept - kept",
+          "translation": "хранить, держать",
+          "isNew": false
+        },
+        {
+          "text": "sleep - slept - slept",
+          "translation": "спать",
+          "isNew": false
+        },
+        {
+          "text": "sweep - swept - swept",
+          "translation": "мести, подметать",
+          "isNew": false
+        },
+        {
+          "text": "weep - wept - wept",
+          "translation": "плакать",
+          "isNew": false
+        },
+        {
+          "text": "behold - beheld - beheld",
+          "translation": "созерцать, видеть",
+          "isNew": false
+        },
+        {
+          "text": "can - could - could",
+          "translation": "мочь",
+          "isNew": false
+        }
+      ],
+      "fileId": "CQACAgIAAxkDAAIEMWEzNdkvZ7lu19eb3ukN1kdhle9jAAJ1EAACWcmZSfj64aXdU_rRIAQ"
+    },
+    {
+      "cards": [
+        {
           "text": "abide - abode - abode",
           "translation": "соблюдать, придерживаться",
           "isNew": true
@@ -2900,14 +2885,19 @@
           "isNew": true
         },
         {
-          "text": "wet - wet or wetted - wet or wetted",
-          "translation": "мочить",
-          "isNew": false
+          "text": "bereave - bereft or bereaved - bereft or bereaved",
+          "translation": "лишать",
+          "isNew": true
         },
         {
-          "text": "awake - awoke - awoken",
-          "translation": "просыпаться, будить",
-          "isNew": false
+          "text": "bind - bound - bound",
+          "translation": "связывать",
+          "isNew": true
+        },
+        {
+          "text": "bleed - bled - bled",
+          "translation": "кровоточить, сочиться",
+          "isNew": true
         },
         {
           "text": "bite - bit - bitten",
@@ -2925,18 +2915,13 @@
           "isNew": false
         },
         {
-          "text": "befall - befell - befallen",
-          "translation": "случаться",
+          "text": "forget - forgot - forgotten",
+          "translation": "забывать",
           "isNew": false
         },
         {
-          "text": "disprove - disproved - disproved or disproven",
-          "translation": "опровергать",
-          "isNew": false
-        },
-        {
-          "text": "drive - drove - driven",
-          "translation": "водить машину, ехать",
+          "text": "freeze - froze - frozen",
+          "translation": "замерзать, замораживать",
           "isNew": false
         },
         {
@@ -2950,18 +2935,18 @@
           "isNew": false
         },
         {
-          "text": "shave - shaved - shaved or shaven",
-          "translation": "бриться",
+          "text": "foresee - foresaw - foreseen",
+          "translation": "предвидеть",
           "isNew": false
         },
         {
-          "text": "strive - strove - striven",
-          "translation": "стремиться, стараться",
+          "text": "forgive - forgave - forgiven",
+          "translation": "прощать",
           "isNew": false
         },
         {
-          "text": "take - took - taken",
-          "translation": "брать",
+          "text": "forsake - forsook - forsaken",
+          "translation": "оставлять, покидать",
           "isNew": false
         },
         {
@@ -2975,18 +2960,18 @@
           "isNew": false
         },
         {
-          "text": "withdraw - withdrew - withdrawn",
-          "translation": "снимать со счета, изымать",
+          "text": "draw - drew - drawn",
+          "translation": "рисовать, привлекать",
           "isNew": false
         },
         {
-          "text": "mow - mowed - mown",
-          "translation": "косить",
+          "text": "fly - flew - flown",
+          "translation": "летать",
           "isNew": false
         },
         {
-          "text": "saw - sawed - sawn or sawed",
-          "translation": "пилить",
+          "text": "grow - grew - grown",
+          "translation": "расти",
           "isNew": false
         },
         {
@@ -2995,23 +2980,23 @@
           "isNew": false
         },
         {
-          "text": "show - showed - shown or showed",
+          "text": "show - showed - shown",
           "translation": "показывать",
           "isNew": false
         },
         {
-          "text": "catch - caught - caught",
-          "translation": "ловить",
+          "text": "sow - sowed - sown",
+          "translation": "сеять",
           "isNew": false
         },
         {
-          "text": "fight - fought - fought",
-          "translation": "бороться, сражаться",
+          "text": "strew - strewed - strewn or strewed",
+          "translation": "посыпать, усеять",
           "isNew": false
         },
         {
-          "text": "may - might - might",
-          "translation": "мочь, иметь возможность",
+          "text": "beseech - besought - besought",
+          "translation": "умолять, упрашивать",
           "isNew": false
         },
         {
@@ -3073,27 +3058,27 @@
           "text": "hold - held - held",
           "translation": "держать, занимать",
           "isNew": false
+        },
+        {
+          "text": "sell - sold - sold",
+          "translation": "продавать",
+          "isNew": false
+        },
+        {
+          "text": "tell - told - told",
+          "translation": "рассказывать, сказать",
+          "isNew": false
+        },
+        {
+          "text": "withhold - withheld - withheld",
+          "translation": "удерживать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID52EyYR2b65dK78CtU_lr-ZCCuijwAAK2EQACWcmRSWZJ35iBLHstIAQ"
+      "fileId": "CQACAgIAAxkDAAIEMmEzNdx2SIh9BeGtp1N8xZo1ysTkAAJ2EAACWcmZSU6EfZZHPJiXIAQ"
     },
     {
       "cards": [
-        {
-          "text": "bereave - bereft or bereaved - bereft or bereaved",
-          "translation": "лишать",
-          "isNew": true
-        },
-        {
-          "text": "bind - bound - bound",
-          "translation": "связывать",
-          "isNew": true
-        },
-        {
-          "text": "bleed - bled - bled",
-          "translation": "кровоточить, сочиться",
-          "isNew": true
-        },
         {
           "text": "breed - bred - bred",
           "translation": "порождать, разводить",
@@ -3105,14 +3090,19 @@
           "isNew": true
         },
         {
-          "text": "forget - forgot - forgotten",
-          "translation": "забывать",
-          "isNew": false
+          "text": "burn - burnt - burnt",
+          "translation": "гореть, жечь",
+          "isNew": true
         },
         {
-          "text": "freeze - froze - frozen",
-          "translation": "замерзать, замораживать",
-          "isNew": false
+          "text": "cling - clung - clung",
+          "translation": "цепляться, льнуть",
+          "isNew": true
+        },
+        {
+          "text": "deal - dealt - dealt",
+          "translation": "иметь дело, справляться",
+          "isNew": true
         },
         {
           "text": "interweave - interwove - interwoven",
@@ -3130,18 +3120,13 @@
           "isNew": false
         },
         {
-          "text": "foresee - foresaw - foreseen",
-          "translation": "предвидеть",
+          "text": "wake - woke - woken",
+          "translation": "разбудить, просыпаться",
           "isNew": false
         },
         {
-          "text": "forgive - forgave - forgiven",
-          "translation": "прощать",
-          "isNew": false
-        },
-        {
-          "text": "forsake - forsook - forsaken",
-          "translation": "оставлять, покидать",
+          "text": "weave - wove or weaved - woven or weaved",
+          "translation": "ткать",
           "isNew": false
         },
         {
@@ -3155,18 +3140,18 @@
           "isNew": false
         },
         {
-          "text": "draw - drew - drawn",
-          "translation": "рисовать, привлекать",
+          "text": "overtake - overtook - overtaken",
+          "translation": "догнать",
           "isNew": false
         },
         {
-          "text": "fly - flew - flown",
-          "translation": "летать",
+          "text": "prove - proved - proved or proven",
+          "translation": "доказывать",
           "isNew": false
         },
         {
-          "text": "grow - grew - grown",
-          "translation": "расти",
+          "text": "rise - rose - risen",
+          "translation": "подниматься, повышаться",
           "isNew": false
         },
         {
@@ -3180,18 +3165,18 @@
           "isNew": false
         },
         {
-          "text": "sow - sowed - sowed or sown",
-          "translation": "сеять",
+          "text": "withdraw - withdrew - withdrawn",
+          "translation": "снимать со счета, изымать",
           "isNew": false
         },
         {
-          "text": "strew - strewed - strewn or strewed",
-          "translation": "посыпать, усеять",
+          "text": "mow - mowed - mown",
+          "translation": "косить",
           "isNew": false
         },
         {
-          "text": "beseech - besought - besought",
-          "translation": "умолять, упрашивать",
+          "text": "saw - sawed - sawn or sawed",
+          "translation": "пилить",
           "isNew": false
         },
         {
@@ -3205,18 +3190,18 @@
           "isNew": false
         },
         {
-          "text": "think - thought - thought",
-          "translation": "думать",
+          "text": "catch - caught - caught",
+          "translation": "ловить",
           "isNew": false
         },
         {
-          "text": "creep - crept - crept",
-          "translation": "ползать",
+          "text": "fight - fought - fought",
+          "translation": "бороться, сражаться",
           "isNew": false
         },
         {
-          "text": "keep - kept - kept",
-          "translation": "хранить, держать",
+          "text": "may - might - might",
+          "translation": "мочь, иметь возможность",
           "isNew": false
         },
         {
@@ -3278,46 +3263,51 @@
           "text": "bend - bent - bent",
           "translation": "гнуть, изгибаться",
           "isNew": false
+        },
+        {
+          "text": "bereave - bereft or bereaved - bereft or bereaved",
+          "translation": "лишать",
+          "isNew": false
+        },
+        {
+          "text": "bind - bound - bound",
+          "translation": "связывать",
+          "isNew": false
+        },
+        {
+          "text": "bleed - bled - bled",
+          "translation": "кровоточить, сочиться",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID6GEyYSKb2rj34QE_d6JS6jvDN_imAAK3EQACWcmRSXDb3GtGmCGkIAQ"
+      "fileId": "CQACAgIAAxkDAAIEM2EzNeB6n8HnhuCt7QZpm9NSn9ZWAAJ3EAACWcmZSX4FEvIshVMOIAQ"
     },
     {
       "cards": [
-        {
-          "text": "burn - burnt - burnt",
-          "translation": "гореть, жечь",
-          "isNew": true
-        },
-        {
-          "text": "bust - bust or busted - bust or busted",
-          "translation": "разориться, разорить, ломать",
-          "isNew": true
-        },
-        {
-          "text": "cling - clung - clung",
-          "translation": "цепляться, льнуть",
-          "isNew": true
-        },
-        {
-          "text": "deal - dealt - dealt",
-          "translation": "иметь дело, справляться",
-          "isNew": true
-        },
         {
           "text": "dig - dug - dug",
           "translation": "копать",
           "isNew": true
         },
         {
-          "text": "wake - woke or waked - woken or waked",
-          "translation": "разбудить, просыпаться",
-          "isNew": false
+          "text": "dream - dreamt - dreamt",
+          "translation": "мечтать, видеть сны",
+          "isNew": true
         },
         {
-          "text": "weave - wove or weaved - woven or weaved",
-          "translation": "ткать",
-          "isNew": false
+          "text": "dwell - dwelt - dwelt",
+          "translation": "пребывать, обитать",
+          "isNew": true
+        },
+        {
+          "text": "feed - fed - fed",
+          "translation": "кормить",
+          "isNew": true
+        },
+        {
+          "text": "feel - felt - felt",
+          "translation": "чувствовать",
+          "isNew": true
         },
         {
           "text": "arise - arose - arisen",
@@ -3335,18 +3325,13 @@
           "isNew": false
         },
         {
-          "text": "overtake - overtook - overtaken",
-          "translation": "догнать",
+          "text": "befall - befell - befallen",
+          "translation": "случаться",
           "isNew": false
         },
         {
-          "text": "prove - proved - proved or proven",
-          "translation": "доказывать",
-          "isNew": false
-        },
-        {
-          "text": "rise - rose - risen",
-          "translation": "подниматься, повышаться",
+          "text": "drive - drove - driven",
+          "translation": "водить машину, ехать",
           "isNew": false
         },
         {
@@ -3360,18 +3345,18 @@
           "isNew": false
         },
         {
-          "text": "withdraw - withdrew - withdrawn",
-          "translation": "снимать со счета, изымать",
+          "text": "shave - shaved - shaved or shaven",
+          "translation": "бриться",
           "isNew": false
         },
         {
-          "text": "mow - mowed - mown",
-          "translation": "косить",
+          "text": "strive - strove - striven",
+          "translation": "стремиться, стараться",
           "isNew": false
         },
         {
-          "text": "saw - sawed - sawn or sawed",
-          "translation": "пилить",
+          "text": "take - took - taken",
+          "translation": "брать",
           "isNew": false
         },
         {
@@ -3380,23 +3365,23 @@
           "isNew": false
         },
         {
-          "text": "show - showed - shown or showed",
+          "text": "show - showed - shown",
           "translation": "показывать",
           "isNew": false
         },
         {
-          "text": "catch - caught - caught",
-          "translation": "ловить",
+          "text": "sow - sowed - sown",
+          "translation": "сеять",
           "isNew": false
         },
         {
-          "text": "fight - fought - fought",
-          "translation": "бороться, сражаться",
+          "text": "strew - strewed - strewn or strewed",
+          "translation": "посыпать, усеять",
           "isNew": false
         },
         {
-          "text": "may - might - might",
-          "translation": "мочь, иметь возможность",
+          "text": "beseech - besought - besought",
+          "translation": "умолять, упрашивать",
           "isNew": false
         },
         {
@@ -3410,18 +3395,18 @@
           "isNew": false
         },
         {
-          "text": "weep - wept - wept",
-          "translation": "плакать",
+          "text": "think - thought - thought",
+          "translation": "думать",
           "isNew": false
         },
         {
-          "text": "behold - beheld - beheld",
-          "translation": "созерцать, видеть",
+          "text": "creep - crept - crept",
+          "translation": "ползать",
           "isNew": false
         },
         {
-          "text": "can - could - could",
-          "translation": "мочь",
+          "text": "keep - kept - kept",
+          "translation": "хранить, держать",
           "isNew": false
         },
         {
@@ -3483,195 +3468,10 @@
           "text": "build - built - built",
           "translation": "строить",
           "isNew": false
-        }
-      ],
-      "fileId": "CQACAgIAAxkDAAID6WEyYSXY8K-yTAKpRqKp8EyN_6lpAAK4EQACWcmRSQt6Ur7zKD4LIAQ"
-    },
-    {
-      "cards": [
-        {
-          "text": "dream - dreamt - dreamt",
-          "translation": "мечтать, видеть сны",
-          "isNew": true
-        },
-        {
-          "text": "dwell - dwelt - dwelt",
-          "translation": "пребывать, обитать",
-          "isNew": true
-        },
-        {
-          "text": "feed - fed - fed",
-          "translation": "кормить",
-          "isNew": true
-        },
-        {
-          "text": "feel - felt - felt",
-          "translation": "чувствовать",
-          "isNew": true
-        },
-        {
-          "text": "find - found - found",
-          "translation": "находить",
-          "isNew": true
-        },
-        {
-          "text": "befall - befell - befallen",
-          "translation": "случаться",
-          "isNew": false
-        },
-        {
-          "text": "disprove - disproved - disproved or disproven",
-          "translation": "опровергать",
-          "isNew": false
-        },
-        {
-          "text": "drive - drove - driven",
-          "translation": "водить машину, ехать",
-          "isNew": false
-        },
-        {
-          "text": "eat - ate - eaten",
-          "translation": "есть",
-          "isNew": false
-        },
-        {
-          "text": "fall - fell - fallen",
-          "translation": "падать",
-          "isNew": false
-        },
-        {
-          "text": "shave - shaved - shaved or shaven",
-          "translation": "бриться",
-          "isNew": false
-        },
-        {
-          "text": "strive - strove - striven",
-          "translation": "стремиться, стараться",
-          "isNew": false
-        },
-        {
-          "text": "take - took - taken",
-          "translation": "брать",
-          "isNew": false
-        },
-        {
-          "text": "undertake - undertook - undertaken",
-          "translation": "предпринимать",
-          "isNew": false
-        },
-        {
-          "text": "blow - blew - blown",
-          "translation": "дуть, взрываться",
-          "isNew": false
-        },
-        {
-          "text": "sow - sowed - sowed or sown",
-          "translation": "сеять",
-          "isNew": false
-        },
-        {
-          "text": "strew - strewed - strewn or strewed",
-          "translation": "посыпать, усеять",
-          "isNew": false
-        },
-        {
-          "text": "beseech - besought - besought",
-          "translation": "умолять, упрашивать",
-          "isNew": false
-        },
-        {
-          "text": "bring - brought - brought",
-          "translation": "приносить, приводить",
-          "isNew": false
-        },
-        {
-          "text": "buy - bought - bought",
-          "translation": "покупать",
-          "isNew": false
-        },
-        {
-          "text": "think - thought - thought",
-          "translation": "думать",
-          "isNew": false
-        },
-        {
-          "text": "creep - crept - crept",
-          "translation": "ползать",
-          "isNew": false
-        },
-        {
-          "text": "keep - kept - kept",
-          "translation": "хранить, держать",
-          "isNew": false
-        },
-        {
-          "text": "sleep - slept - slept",
-          "translation": "спать",
-          "isNew": false
-        },
-        {
-          "text": "sweep - swept - swept",
-          "translation": "мести, подметать",
-          "isNew": false
-        },
-        {
-          "text": "sell - sold - sold",
-          "translation": "продавать",
-          "isNew": false
-        },
-        {
-          "text": "tell - told - told",
-          "translation": "рассказывать, сказать",
-          "isNew": false
-        },
-        {
-          "text": "withhold - withheld - withheld",
-          "translation": "удерживать",
-          "isNew": false
-        },
-        {
-          "text": "abide - abode - abode",
-          "translation": "соблюдать, придерживаться",
-          "isNew": false
-        },
-        {
-          "text": "bend - bent - bent",
-          "translation": "гнуть, изгибаться",
-          "isNew": false
-        },
-        {
-          "text": "bereave - bereft or bereaved - bereft or bereaved",
-          "translation": "лишать",
-          "isNew": false
-        },
-        {
-          "text": "bind - bound - bound",
-          "translation": "связывать",
-          "isNew": false
-        },
-        {
-          "text": "bleed - bled - bled",
-          "translation": "кровоточить, сочиться",
-          "isNew": false
-        },
-        {
-          "text": "breed - bred - bred",
-          "translation": "порождать, разводить",
-          "isNew": false
-        },
-        {
-          "text": "build - built - built",
-          "translation": "строить",
-          "isNew": false
         },
         {
           "text": "burn - burnt - burnt",
           "translation": "гореть, жечь",
-          "isNew": false
-        },
-        {
-          "text": "bust - bust or busted - bust or busted",
-          "translation": "разориться, разорить, ломать",
           "isNew": false
         },
         {
@@ -3683,17 +3483,17 @@
           "text": "deal - dealt - dealt",
           "translation": "иметь дело, справляться",
           "isNew": false
-        },
-        {
-          "text": "dig - dug - dug",
-          "translation": "копать",
-          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID6mEyYSr3HJvFkCyr4Me0RxxHTY84AAK5EQACWcmRSbyIsUcvpE78IAQ"
+      "fileId": "CQACAgIAAxkDAAIENGEzNePdAAGdVHeKCLjFUqW_b0QtIwACeBAAAlnJmUmiNamarG-05SAE"
     },
     {
       "cards": [
+        {
+          "text": "find - found - found",
+          "translation": "находить",
+          "isNew": true
+        },
         {
           "text": "flee - fled - fled",
           "translation": "сбегать",
@@ -3705,7 +3505,7 @@
           "isNew": true
         },
         {
-          "text": "get - got - get or gotten",
+          "text": "get - got - got or gotten",
           "translation": "получать, становиться, добираться, достать и так далее",
           "isNew": true
         },
@@ -3715,9 +3515,14 @@
           "isNew": true
         },
         {
-          "text": "grind - ground - ground",
-          "translation": "молоть, растереть",
-          "isNew": true
+          "text": "eat - ate - eaten",
+          "translation": "есть",
+          "isNew": false
+        },
+        {
+          "text": "fall - fell - fallen",
+          "translation": "падать",
+          "isNew": false
         },
         {
           "text": "foresee - foresaw - foreseen",
@@ -3735,13 +3540,13 @@
           "isNew": false
         },
         {
-          "text": "give - gave - given",
-          "translation": "давать",
+          "text": "undertake - undertook - undertaken",
+          "translation": "предпринимать",
           "isNew": false
         },
         {
-          "text": "mistake - mistook - mistaken",
-          "translation": "ошибаться",
+          "text": "blow - blew - blown",
+          "translation": "дуть, взрываться",
           "isNew": false
         },
         {
@@ -3760,13 +3565,13 @@
           "isNew": false
         },
         {
-          "text": "know - knew - known",
-          "translation": "знать",
+          "text": "bring - brought - brought",
+          "translation": "приносить, приводить",
           "isNew": false
         },
         {
-          "text": "throw - threw - thrown",
-          "translation": "кидать",
+          "text": "buy - bought - bought",
+          "translation": "покупать",
           "isNew": false
         },
         {
@@ -3785,13 +3590,13 @@
           "isNew": false
         },
         {
-          "text": "seek - sought - sought",
-          "translation": "искать, стремиться",
+          "text": "sleep - slept - slept",
+          "translation": "спать",
           "isNew": false
         },
         {
-          "text": "teach - taught - taught",
-          "translation": "учить, преподавать",
+          "text": "sweep - swept - swept",
+          "translation": "мести, подметать",
           "isNew": false
         },
         {
@@ -3810,13 +3615,13 @@
           "isNew": false
         },
         {
-          "text": "foretell - foretold - foretold",
-          "translation": "предсказывать",
+          "text": "abide - abode - abode",
+          "translation": "соблюдать, придерживаться",
           "isNew": false
         },
         {
-          "text": "hold - held - held",
-          "translation": "держать, занимать",
+          "text": "bend - bent - bent",
+          "translation": "гнуть, изгибаться",
           "isNew": false
         },
         {
@@ -3847,11 +3652,6 @@
         {
           "text": "burn - burnt - burnt",
           "translation": "гореть, жечь",
-          "isNew": false
-        },
-        {
-          "text": "bust - bust or busted - bust or busted",
-          "translation": "разориться, разорить, ломать",
           "isNew": false
         },
         {
@@ -3888,17 +3688,17 @@
           "text": "feel - felt - felt",
           "translation": "чувствовать",
           "isNew": false
-        },
-        {
-          "text": "find - found - found",
-          "translation": "находить",
-          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID62EyYS4DexvDaNFSJqvpbIdPUScCAAK6EQACWcmRSUA8bXxilfWLIAQ"
+      "fileId": "CQACAgIAAxkDAAIENWEzNeVeRz23tnCjpmASIqjeyT47AAJ5EAACWcmZSQ0VZxWNRtIWIAQ"
     },
     {
       "cards": [
+        {
+          "text": "grind - ground - ground",
+          "translation": "молоть, растереть",
+          "isNew": true
+        },
         {
           "text": "hang - hung - hung",
           "translation": "висеть, вешать (вещь)",
@@ -3915,14 +3715,19 @@
           "isNew": true
         },
         {
-          "text": "heave - hove or heaved - hove or heaved",
-          "translation": "поднимать, вздыматься, бросать",
-          "isNew": true
-        },
-        {
           "text": "inlay - inlaid - inlaid",
           "translation": "инкрустировать",
           "isNew": true
+        },
+        {
+          "text": "give - gave - given",
+          "translation": "давать",
+          "isNew": false
+        },
+        {
+          "text": "mistake - mistook - mistaken",
+          "translation": "ошибаться",
+          "isNew": false
         },
         {
           "text": "overtake - overtook - overtaken",
@@ -3940,13 +3745,13 @@
           "isNew": false
         },
         {
-          "text": "see - saw - seen",
-          "translation": "видеть",
+          "text": "know - knew - known",
+          "translation": "знать",
           "isNew": false
         },
         {
-          "text": "shake - shook - shaken",
-          "translation": "трясти",
+          "text": "throw - threw - thrown",
+          "translation": "кидать",
           "isNew": false
         },
         {
@@ -3965,13 +3770,13 @@
           "isNew": false
         },
         {
-          "text": "sew - sewed - sewn or sewed",
-          "translation": "шить",
+          "text": "seek - sought - sought",
+          "translation": "искать, стремиться",
           "isNew": false
         },
         {
-          "text": "show - showed - shown or showed",
-          "translation": "показывать",
+          "text": "teach - taught - taught",
+          "translation": "учить, преподавать",
           "isNew": false
         },
         {
@@ -3990,13 +3795,13 @@
           "isNew": false
         },
         {
-          "text": "sleep - slept - slept",
-          "translation": "спать",
+          "text": "foretell - foretold - foretold",
+          "translation": "предсказывать",
           "isNew": false
         },
         {
-          "text": "sweep - swept - swept",
-          "translation": "мести, подметать",
+          "text": "hold - held - held",
+          "translation": "держать, занимать",
           "isNew": false
         },
         {
@@ -4015,23 +3820,18 @@
           "isNew": false
         },
         {
-          "text": "abide - abode - abode",
-          "translation": "соблюдать, придерживаться",
+          "text": "breed - bred - bred",
+          "translation": "порождать, разводить",
           "isNew": false
         },
         {
-          "text": "bend - bent - bent",
-          "translation": "гнуть, изгибаться",
+          "text": "build - built - built",
+          "translation": "строить",
           "isNew": false
         },
         {
           "text": "burn - burnt - burnt",
           "translation": "гореть, жечь",
-          "isNew": false
-        },
-        {
-          "text": "bust - bust or busted - bust or busted",
-          "translation": "разориться, разорить, ломать",
           "isNew": false
         },
         {
@@ -4085,7 +3885,7 @@
           "isNew": false
         },
         {
-          "text": "get - got - get or gotten",
+          "text": "get - got - got or gotten",
           "translation": "получать, становиться, добираться, достать и так далее",
           "isNew": false
         },
@@ -4093,14 +3893,9 @@
           "text": "gild - gilt or gilded - gilt or gilded",
           "translation": "позолотить",
           "isNew": false
-        },
-        {
-          "text": "grind - ground - ground",
-          "translation": "молоть, растереть",
-          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID7GEyYTI6Xy0mJNlbqGpvqbmHG6CHAAK7EQACWcmRSYOqd55KWr-2IAQ"
+      "fileId": "CQACAgIAAxkDAAIENmEzNeqpAyXZ0a8X_zLidVwse9VOAAJ6EAACWcmZSYme6LBXuFGvIAQ"
     },
     {
       "cards": [
@@ -4128,6 +3923,16 @@
           "text": "leap - leapt or leaped - leapt or leaped",
           "translation": "прыгать, скакать",
           "isNew": true
+        },
+        {
+          "text": "see - saw - seen",
+          "translation": "видеть",
+          "isNew": false
+        },
+        {
+          "text": "shake - shook - shaken",
+          "translation": "трясти",
+          "isNew": false
         },
         {
           "text": "shave - shaved - shaved or shaven",
@@ -4145,17 +3950,17 @@
           "isNew": false
         },
         {
-          "text": "undertake - undertook - undertaken",
-          "translation": "предпринимать",
+          "text": "sew - sewed - sewn or sewed",
+          "translation": "шить",
           "isNew": false
         },
         {
-          "text": "blow - blew - blown",
-          "translation": "дуть, взрываться",
+          "text": "show - showed - shown",
+          "translation": "показывать",
           "isNew": false
         },
         {
-          "text": "sow - sowed - sowed or sown",
+          "text": "sow - sowed - sown",
           "translation": "сеять",
           "isNew": false
         },
@@ -4170,13 +3975,13 @@
           "isNew": false
         },
         {
-          "text": "bring - brought - brought",
-          "translation": "приносить, приводить",
+          "text": "sleep - slept - slept",
+          "translation": "спать",
           "isNew": false
         },
         {
-          "text": "buy - bought - bought",
-          "translation": "покупать",
+          "text": "sweep - swept - swept",
+          "translation": "мести, подметать",
           "isNew": false
         },
         {
@@ -4195,13 +4000,13 @@
           "isNew": false
         },
         {
-          "text": "foretell - foretold - foretold",
-          "translation": "предсказывать",
+          "text": "abide - abode - abode",
+          "translation": "соблюдать, придерживаться",
           "isNew": false
         },
         {
-          "text": "hold - held - held",
-          "translation": "держать, занимать",
+          "text": "bend - bent - bent",
+          "translation": "гнуть, изгибаться",
           "isNew": false
         },
         {
@@ -4220,13 +4025,8 @@
           "isNew": false
         },
         {
-          "text": "breed - bred - bred",
-          "translation": "порождать, разводить",
-          "isNew": false
-        },
-        {
-          "text": "build - built - built",
-          "translation": "строить",
+          "text": "dig - dug - dug",
+          "translation": "копать",
           "isNew": false
         },
         {
@@ -4265,7 +4065,7 @@
           "isNew": false
         },
         {
-          "text": "get - got - get or gotten",
+          "text": "get - got - got or gotten",
           "translation": "получать, становиться, добираться, достать и так далее",
           "isNew": false
         },
@@ -4295,17 +4095,12 @@
           "isNew": false
         },
         {
-          "text": "heave - hove or heaved - hove or heaved",
-          "translation": "поднимать, вздыматься, бросать",
-          "isNew": false
-        },
-        {
           "text": "inlay - inlaid - inlaid",
           "translation": "инкрустировать",
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID7WEyYTjNi86mSaUx0VCrUyyJ5vWfAAK8EQACWcmRSdcR2Tlg6U03IAQ"
+      "fileId": "CQACAgIAAxkDAAIEN2EzNe6m21f3gNCMTDEf6Uan8zgCAAJ7EAACWcmZSWYGYm5Sx_4SIAQ"
     },
     {
       "cards": [
@@ -4333,6 +4128,16 @@
           "text": "lose - lost - lost",
           "translation": "терять, проигрывать",
           "isNew": true
+        },
+        {
+          "text": "undertake - undertook - undertaken",
+          "translation": "предпринимать",
+          "isNew": false
+        },
+        {
+          "text": "blow - blew - blown",
+          "translation": "дуть, взрываться",
+          "isNew": false
         },
         {
           "text": "draw - drew - drawn",
@@ -4350,13 +4155,13 @@
           "isNew": false
         },
         {
-          "text": "know - knew - known",
-          "translation": "знать",
+          "text": "bring - brought - brought",
+          "translation": "приносить, приводить",
           "isNew": false
         },
         {
-          "text": "throw - threw - thrown",
-          "translation": "кидать",
+          "text": "buy - bought - bought",
+          "translation": "покупать",
           "isNew": false
         },
         {
@@ -4375,13 +4180,13 @@
           "isNew": false
         },
         {
-          "text": "seek - sought - sought",
-          "translation": "искать, стремиться",
+          "text": "foretell - foretold - foretold",
+          "translation": "предсказывать",
           "isNew": false
         },
         {
-          "text": "teach - taught - taught",
-          "translation": "учить, преподавать",
+          "text": "hold - held - held",
+          "translation": "держать, занимать",
           "isNew": false
         },
         {
@@ -4400,23 +4205,18 @@
           "isNew": false
         },
         {
-          "text": "abide - abode - abode",
-          "translation": "соблюдать, придерживаться",
+          "text": "breed - bred - bred",
+          "translation": "порождать, разводить",
           "isNew": false
         },
         {
-          "text": "bend - bent - bent",
-          "translation": "гнуть, изгибаться",
+          "text": "build - built - built",
+          "translation": "строить",
           "isNew": false
         },
         {
           "text": "burn - burnt - burnt",
           "translation": "гореть, жечь",
-          "isNew": false
-        },
-        {
-          "text": "bust - bust or busted - bust or busted",
-          "translation": "разориться, разорить, ломать",
           "isNew": false
         },
         {
@@ -4430,8 +4230,8 @@
           "isNew": false
         },
         {
-          "text": "dig - dug - dug",
-          "translation": "копать",
+          "text": "find - found - found",
+          "translation": "находить",
           "isNew": false
         },
         {
@@ -4445,7 +4245,7 @@
           "isNew": false
         },
         {
-          "text": "get - got - get or gotten",
+          "text": "get - got - got or gotten",
           "translation": "получать, становиться, добираться, достать и так далее",
           "isNew": false
         },
@@ -4472,11 +4272,6 @@
         {
           "text": "have - had - had",
           "translation": "иметь",
-          "isNew": false
-        },
-        {
-          "text": "heave - hove or heaved - hove or heaved",
-          "translation": "поднимать, вздыматься, бросать",
           "isNew": false
         },
         {
@@ -4510,7 +4305,7 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID7mEyYT04dsEscYDaYGcM8-ddESUAA70RAAJZyZFJglNIDQX4zXYgBA"
+      "fileId": "CQACAgIAAxkDAAIEOGEzNfJp9nKMFDJl6dDIRhT7rsxWAAJ8EAACWcmZSVlyO5ymxHr3IAQ"
     },
     {
       "cards": [
@@ -4538,6 +4333,16 @@
           "text": "pay - paid - paid",
           "translation": "платить",
           "isNew": true
+        },
+        {
+          "text": "know - knew - known",
+          "translation": "знать",
+          "isNew": false
+        },
+        {
+          "text": "throw - threw - thrown",
+          "translation": "кидать",
+          "isNew": false
         },
         {
           "text": "withdraw - withdrew - withdrawn",
@@ -4555,13 +4360,13 @@
           "isNew": false
         },
         {
-          "text": "sew - sewed - sewn or sewed",
-          "translation": "шить",
+          "text": "seek - sought - sought",
+          "translation": "искать, стремиться",
           "isNew": false
         },
         {
-          "text": "show - showed - shown or showed",
-          "translation": "показывать",
+          "text": "teach - taught - taught",
+          "translation": "учить, преподавать",
           "isNew": false
         },
         {
@@ -4580,13 +4385,13 @@
           "isNew": false
         },
         {
-          "text": "sleep - slept - slept",
-          "translation": "спать",
+          "text": "abide - abode - abode",
+          "translation": "соблюдать, придерживаться",
           "isNew": false
         },
         {
-          "text": "sweep - swept - swept",
-          "translation": "мести, подметать",
+          "text": "bend - bent - bent",
+          "translation": "гнуть, изгибаться",
           "isNew": false
         },
         {
@@ -4605,13 +4410,8 @@
           "isNew": false
         },
         {
-          "text": "breed - bred - bred",
-          "translation": "порождать, разводить",
-          "isNew": false
-        },
-        {
-          "text": "build - built - built",
-          "translation": "строить",
+          "text": "dig - dug - dug",
+          "translation": "копать",
           "isNew": false
         },
         {
@@ -4635,8 +4435,8 @@
           "isNew": false
         },
         {
-          "text": "find - found - found",
-          "translation": "находить",
+          "text": "grind - ground - ground",
+          "translation": "молоть, растереть",
           "isNew": false
         },
         {
@@ -4652,11 +4452,6 @@
         {
           "text": "have - had - had",
           "translation": "иметь",
-          "isNew": false
-        },
-        {
-          "text": "heave - hove or heaved - hove or heaved",
-          "translation": "поднимать, вздыматься, бросать",
           "isNew": false
         },
         {
@@ -4715,7 +4510,7 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID72EyYUHnB407JoaajpuebEk3HabgAAK-EQACWcmRSag_9i-zD02KIAQ"
+      "fileId": "CQACAgIAAxkDAAIEOWEzNfXYH-fF3ciIWiQ1KLWA8yG0AAJ9EAACWcmZSewmi98cq4H5IAQ"
     },
     {
       "cards": [
@@ -4745,7 +4540,17 @@
           "isNew": true
         },
         {
-          "text": "sow - sowed - sowed or sown",
+          "text": "sew - sewed - sewn or sewed",
+          "translation": "шить",
+          "isNew": false
+        },
+        {
+          "text": "show - showed - shown",
+          "translation": "показывать",
+          "isNew": false
+        },
+        {
+          "text": "sow - sowed - sown",
           "translation": "сеять",
           "isNew": false
         },
@@ -4760,13 +4565,13 @@
           "isNew": false
         },
         {
-          "text": "bring - brought - brought",
-          "translation": "приносить, приводить",
+          "text": "sleep - slept - slept",
+          "translation": "спать",
           "isNew": false
         },
         {
-          "text": "buy - bought - bought",
-          "translation": "покупать",
+          "text": "sweep - swept - swept",
+          "translation": "мести, подметать",
           "isNew": false
         },
         {
@@ -4785,23 +4590,18 @@
           "isNew": false
         },
         {
-          "text": "foretell - foretold - foretold",
-          "translation": "предсказывать",
+          "text": "breed - bred - bred",
+          "translation": "порождать, разводить",
           "isNew": false
         },
         {
-          "text": "hold - held - held",
-          "translation": "держать, занимать",
+          "text": "build - built - built",
+          "translation": "строить",
           "isNew": false
         },
         {
           "text": "burn - burnt - burnt",
           "translation": "гореть, жечь",
-          "isNew": false
-        },
-        {
-          "text": "bust - bust or busted - bust or busted",
-          "translation": "разориться, разорить, ломать",
           "isNew": false
         },
         {
@@ -4815,8 +4615,8 @@
           "isNew": false
         },
         {
-          "text": "dig - dug - dug",
-          "translation": "копать",
+          "text": "find - found - found",
+          "translation": "находить",
           "isNew": false
         },
         {
@@ -4830,18 +4630,13 @@
           "isNew": false
         },
         {
-          "text": "get - got - get or gotten",
+          "text": "get - got - got or gotten",
           "translation": "получать, становиться, добираться, достать и так далее",
           "isNew": false
         },
         {
           "text": "gild - gilt or gilded - gilt or gilded",
           "translation": "позолотить",
-          "isNew": false
-        },
-        {
-          "text": "grind - ground - ground",
-          "translation": "молоть, растереть",
           "isNew": false
         },
         {
@@ -4920,7 +4715,7 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID8GEyYUV3oWcapzATI056r4U72sfGAAK_EQACWcmRSf3VxI2ARZYIIAQ"
+      "fileId": "CQACAgIAAxkDAAIEOmEzNfdYbSHPzl4MdicmxTDw8EJgAAJ-EAACWcmZSR6Xf9uxy7tZIAQ"
     },
     {
       "cards": [
@@ -4948,6 +4743,16 @@
           "text": "sit - sat - sat",
           "translation": "сидеть",
           "isNew": true
+        },
+        {
+          "text": "bring - brought - brought",
+          "translation": "приносить, приводить",
+          "isNew": false
+        },
+        {
+          "text": "buy - bought - bought",
+          "translation": "покупать",
+          "isNew": false
         },
         {
           "text": "catch - caught - caught",
@@ -4965,13 +4770,13 @@
           "isNew": false
         },
         {
-          "text": "seek - sought - sought",
-          "translation": "искать, стремиться",
+          "text": "foretell - foretold - foretold",
+          "translation": "предсказывать",
           "isNew": false
         },
         {
-          "text": "teach - taught - taught",
-          "translation": "учить, преподавать",
+          "text": "hold - held - held",
+          "translation": "держать, занимать",
           "isNew": false
         },
         {
@@ -4990,13 +4795,8 @@
           "isNew": false
         },
         {
-          "text": "abide - abode - abode",
-          "translation": "соблюдать, придерживаться",
-          "isNew": false
-        },
-        {
-          "text": "bend - bent - bent",
-          "translation": "гнуть, изгибаться",
+          "text": "dig - dug - dug",
+          "translation": "копать",
           "isNew": false
         },
         {
@@ -5020,8 +4820,8 @@
           "isNew": false
         },
         {
-          "text": "find - found - found",
-          "translation": "находить",
+          "text": "grind - ground - ground",
+          "translation": "молоть, растереть",
           "isNew": false
         },
         {
@@ -5037,11 +4837,6 @@
         {
           "text": "have - had - had",
           "translation": "иметь",
-          "isNew": false
-        },
-        {
-          "text": "heave - hove or heaved - hove or heaved",
-          "translation": "поднимать, вздыматься, бросать",
           "isNew": false
         },
         {
@@ -5125,7 +4920,7 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID8WEyYUnOP8KfWSmXP2qCTQL-gSkIAALAEQACWcmRSTX-hTNn6u5wIAQ"
+      "fileId": "CQACAgIAAxkDAAIEO2EzNfqNBr8mBkGE6Ea64V08K6IKAAJ_EAACWcmZScD5wssYiB1mIAQ"
     },
     {
       "cards": [
@@ -5153,6 +4948,16 @@
           "text": "speed - sped or speeded - sped or speeded",
           "translation": "спешить, ускорять",
           "isNew": true
+        },
+        {
+          "text": "seek - sought - sought",
+          "translation": "искать, стремиться",
+          "isNew": false
+        },
+        {
+          "text": "teach - taught - taught",
+          "translation": "учить, преподавать",
+          "isNew": false
         },
         {
           "text": "think - thought - thought",
@@ -5170,13 +4975,13 @@
           "isNew": false
         },
         {
-          "text": "sleep - slept - slept",
-          "translation": "спать",
+          "text": "abide - abode - abode",
+          "translation": "соблюдать, придерживаться",
           "isNew": false
         },
         {
-          "text": "sweep - swept - swept",
-          "translation": "мести, подметать",
+          "text": "bend - bent - bent",
+          "translation": "гнуть, изгибаться",
           "isNew": false
         },
         {
@@ -5195,13 +5000,8 @@
           "isNew": false
         },
         {
-          "text": "breed - bred - bred",
-          "translation": "порождать, разводить",
-          "isNew": false
-        },
-        {
-          "text": "build - built - built",
-          "translation": "строить",
+          "text": "find - found - found",
+          "translation": "находить",
           "isNew": false
         },
         {
@@ -5215,18 +5015,13 @@
           "isNew": false
         },
         {
-          "text": "get - got - get or gotten",
+          "text": "get - got - got or gotten",
           "translation": "получать, становиться, добираться, достать и так далее",
           "isNew": false
         },
         {
           "text": "gild - gilt or gilded - gilt or gilded",
           "translation": "позолотить",
-          "isNew": false
-        },
-        {
-          "text": "grind - ground - ground",
-          "translation": "молоть, растереть",
           "isNew": false
         },
         {
@@ -5330,7 +5125,7 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID8mEyYU5ci0OC8pkFVlM0uNWKDRIjAALCEQACWcmRSQ9rAsRaUC3eIAQ"
+      "fileId": "CQACAgIAAxkDAAIEPGEzNf83r2umshERpYTE2bDUL0xwAAKAEAACWcmZSYBzKbAp5uvdIAQ"
     },
     {
       "cards": [
@@ -5358,6 +5153,16 @@
           "text": "spit - spat - spat",
           "translation": "плевать",
           "isNew": true
+        },
+        {
+          "text": "sleep - slept - slept",
+          "translation": "спать",
+          "isNew": false
+        },
+        {
+          "text": "sweep - swept - swept",
+          "translation": "мести, подметать",
+          "isNew": false
         },
         {
           "text": "weep - wept - wept",
@@ -5375,23 +5180,18 @@
           "isNew": false
         },
         {
-          "text": "foretell - foretold - foretold",
-          "translation": "предсказывать",
+          "text": "breed - bred - bred",
+          "translation": "порождать, разводить",
           "isNew": false
         },
         {
-          "text": "hold - held - held",
-          "translation": "держать, занимать",
+          "text": "build - built - built",
+          "translation": "строить",
           "isNew": false
         },
         {
           "text": "burn - burnt - burnt",
           "translation": "гореть, жечь",
-          "isNew": false
-        },
-        {
-          "text": "bust - bust or busted - bust or busted",
-          "translation": "разориться, разорить, ломать",
           "isNew": false
         },
         {
@@ -5405,8 +5205,8 @@
           "isNew": false
         },
         {
-          "text": "dig - dug - dug",
-          "translation": "копать",
+          "text": "grind - ground - ground",
+          "translation": "молоть, растереть",
           "isNew": false
         },
         {
@@ -5422,11 +5222,6 @@
         {
           "text": "have - had - had",
           "translation": "иметь",
-          "isNew": false
-        },
-        {
-          "text": "heave - hove or heaved - hove or heaved",
-          "translation": "поднимать, вздыматься, бросать",
           "isNew": false
         },
         {
@@ -5535,15 +5330,10 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID82EyYVCg5mw3WPLT6pMNSoqoj3rYAALDEQACWcmRSQPMNlkVZNIOIAQ"
+      "fileId": "CQACAgIAAxkDAAIEPWEzNgL45SoeXyDAY4hFp6jQ0FR3AAKBEAACWcmZSX1WAeTQPs14IAQ"
     },
     {
       "cards": [
-        {
-          "text": "spoil - spoilt or spoiled - spoilt or spoiled",
-          "translation": "портить, баловать",
-          "isNew": true
-        },
         {
           "text": "stand - stood - stood",
           "translation": "стоять",
@@ -5560,9 +5350,24 @@
           "isNew": true
         },
         {
-          "text": "stink - stank or stunk - stunk",
+          "text": "stink - stank - stunk",
           "translation": "вонять",
           "isNew": true
+        },
+        {
+          "text": "strike - struck - struck",
+          "translation": "бить, бастовать",
+          "isNew": true
+        },
+        {
+          "text": "foretell - foretold - foretold",
+          "translation": "предсказывать",
+          "isNew": false
+        },
+        {
+          "text": "hold - held - held",
+          "translation": "держать, занимать",
+          "isNew": false
         },
         {
           "text": "sell - sold - sold",
@@ -5580,13 +5385,8 @@
           "isNew": false
         },
         {
-          "text": "abide - abode - abode",
-          "translation": "соблюдать, придерживаться",
-          "isNew": false
-        },
-        {
-          "text": "bend - bent - bent",
-          "translation": "гнуть, изгибаться",
+          "text": "dig - dug - dug",
+          "translation": "копать",
           "isNew": false
         },
         {
@@ -5607,11 +5407,6 @@
         {
           "text": "feel - felt - felt",
           "translation": "чувствовать",
-          "isNew": false
-        },
-        {
-          "text": "find - found - found",
-          "translation": "находить",
           "isNew": false
         },
         {
@@ -5740,15 +5535,10 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID9GEyYVS6R194pxsEYUpz7Dp_1fvEAALEEQACWcmRSTINA9zg2qhyIAQ"
+      "fileId": "CQACAgIAAxkDAAIEPmEzNgUFA9LEUwABv7WIMwAB-OzFlgcAAoIQAAJZyZlJHB1UCQ49IVQgBA"
     },
     {
       "cards": [
-        {
-          "text": "strike - struck - struck",
-          "translation": "бить, бастовать",
-          "isNew": true
-        },
         {
           "text": "string - strung - strung",
           "translation": "связывать, нанизывать",
@@ -5768,6 +5558,21 @@
           "text": "understand - understood - understood",
           "translation": "понимать",
           "isNew": true
+        },
+        {
+          "text": "win - won - won",
+          "translation": "победить",
+          "isNew": true
+        },
+        {
+          "text": "abide - abode - abode",
+          "translation": "соблюдать, придерживаться",
+          "isNew": false
+        },
+        {
+          "text": "bend - bent - bent",
+          "translation": "гнуть, изгибаться",
+          "isNew": false
         },
         {
           "text": "bereave - bereft or bereaved - bereft or bereaved",
@@ -5785,13 +5590,8 @@
           "isNew": false
         },
         {
-          "text": "breed - bred - bred",
-          "translation": "порождать, разводить",
-          "isNew": false
-        },
-        {
-          "text": "build - built - built",
-          "translation": "строить",
+          "text": "find - found - found",
+          "translation": "находить",
           "isNew": false
         },
         {
@@ -5805,18 +5605,13 @@
           "isNew": false
         },
         {
-          "text": "get - got - get or gotten",
+          "text": "get - got - got or gotten",
           "translation": "получать, становиться, добираться, достать и так далее",
           "isNew": false
         },
         {
           "text": "gild - gilt or gilded - gilt or gilded",
           "translation": "позолотить",
-          "isNew": false
-        },
-        {
-          "text": "grind - ground - ground",
-          "translation": "молоть, растереть",
           "isNew": false
         },
         {
@@ -5920,11 +5715,6 @@
           "isNew": false
         },
         {
-          "text": "spoil - spoilt or spoiled - spoilt or spoiled",
-          "translation": "портить, баловать",
-          "isNew": false
-        },
-        {
           "text": "stand - stood - stood",
           "translation": "стоять",
           "isNew": false
@@ -5940,20 +5730,20 @@
           "isNew": false
         },
         {
-          "text": "stink - stank or stunk - stunk",
+          "text": "stink - stank - stunk",
           "translation": "вонять",
+          "isNew": false
+        },
+        {
+          "text": "strike - struck - struck",
+          "translation": "бить, бастовать",
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID9WEyYVhsX5GqR0zGYTCxkRSySN7oAALFEQACWcmRSSlZ4sMNaZv3IAQ"
+      "fileId": "CQACAgIAAxkDAAIEP2EzNgl8OkstaSoR7VI-PYp_YNXOAAKDEAACWcmZSZR89KX3iJmNIAQ"
     },
     {
       "cards": [
-        {
-          "text": "win - won - won",
-          "translation": "победить",
-          "isNew": true
-        },
         {
           "text": "wind - wound - wound",
           "translation": "заводить, наматывать",
@@ -5975,13 +5765,23 @@
           "isNew": true
         },
         {
-          "text": "burn - burnt - burnt",
-          "translation": "гореть, жечь",
+          "text": "shear - sheared - shorn",
+          "translation": "стричь, срезать",
+          "isNew": true
+        },
+        {
+          "text": "breed - bred - bred",
+          "translation": "порождать, разводить",
           "isNew": false
         },
         {
-          "text": "bust - bust or busted - bust or busted",
-          "translation": "разориться, разорить, ломать",
+          "text": "build - built - built",
+          "translation": "строить",
+          "isNew": false
+        },
+        {
+          "text": "burn - burnt - burnt",
+          "translation": "гореть, жечь",
           "isNew": false
         },
         {
@@ -5995,8 +5795,8 @@
           "isNew": false
         },
         {
-          "text": "dig - dug - dug",
-          "translation": "копать",
+          "text": "grind - ground - ground",
+          "translation": "молоть, растереть",
           "isNew": false
         },
         {
@@ -6012,11 +5812,6 @@
         {
           "text": "have - had - had",
           "translation": "иметь",
-          "isNew": false
-        },
-        {
-          "text": "heave - hove or heaved - hove or heaved",
-          "translation": "поднимать, вздыматься, бросать",
           "isNew": false
         },
         {
@@ -6100,11 +5895,6 @@
           "isNew": false
         },
         {
-          "text": "spoil - spoilt or spoiled - spoilt or spoiled",
-          "translation": "портить, баловать",
-          "isNew": false
-        },
-        {
           "text": "stand - stood - stood",
           "translation": "стоять",
           "isNew": false
@@ -6120,7 +5910,7 @@
           "isNew": false
         },
         {
-          "text": "stink - stank or stunk - stunk",
+          "text": "stink - stank - stunk",
           "translation": "вонять",
           "isNew": false
         },
@@ -6148,17 +5938,17 @@
           "text": "understand - understood - understood",
           "translation": "понимать",
           "isNew": false
+        },
+        {
+          "text": "win - won - won",
+          "translation": "победить",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID9mEyYVzf0UJCG--qP5SiPSCMcqQuAALGEQACWcmRSYGY0xCtYaCZIAQ"
+      "fileId": "CQACAgIAAxkDAAIEQGEzNg6L2npX73eNKgZL5kVECwa4AAKEEAACWcmZSZQGeOUAAYmqaiAE"
     },
     {
       "cards": [
-        {
-          "text": "shear - sheared - shorn",
-          "translation": "стричь, срезать",
-          "isNew": true
-        },
         {
           "text": "swear - swore - sworn",
           "translation": "клясться, присягать, ругаться",
@@ -6178,6 +5968,16 @@
           "text": "cleave - cleft - cloven",
           "translation": "рассечь, раскалывать",
           "isNew": true
+        },
+        {
+          "text": "forbid - forbade - forbidden",
+          "translation": "запрещать",
+          "isNew": true
+        },
+        {
+          "text": "dig - dug - dug",
+          "translation": "копать",
+          "isNew": false
         },
         {
           "text": "dream - dreamt - dreamt",
@@ -6200,11 +6000,6 @@
           "isNew": false
         },
         {
-          "text": "find - found - found",
-          "translation": "находить",
-          "isNew": false
-        },
-        {
           "text": "kneel - knelt or kneeled - knelt or kneeled",
           "translation": "встать на колени,",
           "isNew": false
@@ -6280,11 +6075,6 @@
           "isNew": false
         },
         {
-          "text": "spoil - spoilt or spoiled - spoilt or spoiled",
-          "translation": "портить, баловать",
-          "isNew": false
-        },
-        {
           "text": "stand - stood - stood",
           "translation": "стоять",
           "isNew": false
@@ -6300,7 +6090,7 @@
           "isNew": false
         },
         {
-          "text": "stink - stank or stunk - stunk",
+          "text": "stink - stank - stunk",
           "translation": "вонять",
           "isNew": false
         },
@@ -6353,17 +6143,17 @@
           "text": "bear - bore - born",
           "translation": "выносить, рожать, терпеть",
           "isNew": false
+        },
+        {
+          "text": "shear - sheared - shorn",
+          "translation": "стричь, срезать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID92EyYV4sfJtTfy-vS6m3kzW9-8djAAJ5DwACWcmZSce0s1VMz-kHIAQ"
+      "fileId": "CQACAgIAAxkDAAIEQWEzNhVsay_7MckMYsUf9xL7SCWFAAKFEAACWcmZSQsVUvGWbRlqIAQ"
     },
     {
       "cards": [
-        {
-          "text": "forbid - forbade - forbidden",
-          "translation": "запрещать",
-          "isNew": true
-        },
         {
           "text": "hide - hid - hidden",
           "translation": "прятать, прятаться",
@@ -6385,6 +6175,16 @@
           "isNew": true
         },
         {
+          "text": "swell - swelled - swollen or swelled",
+          "translation": "опухать, раздуваться, набухать",
+          "isNew": true
+        },
+        {
+          "text": "find - found - found",
+          "translation": "находить",
+          "isNew": false
+        },
+        {
           "text": "flee - fled - fled",
           "translation": "сбегать",
           "isNew": false
@@ -6395,18 +6195,13 @@
           "isNew": false
         },
         {
-          "text": "get - got - get or gotten",
+          "text": "get - got - got or gotten",
           "translation": "получать, становиться, добираться, достать и так далее",
           "isNew": false
         },
         {
           "text": "gild - gilt or gilded - gilt or gilded",
           "translation": "позолотить",
-          "isNew": false
-        },
-        {
-          "text": "grind - ground - ground",
-          "translation": "молоть, растереть",
           "isNew": false
         },
         {
@@ -6485,11 +6280,6 @@
           "isNew": false
         },
         {
-          "text": "strike - struck - struck",
-          "translation": "бить, бастовать",
-          "isNew": false
-        },
-        {
           "text": "string - strung - strung",
           "translation": "связывать, нанизывать",
           "isNew": false
@@ -6558,19 +6348,19 @@
           "text": "cleave - cleft - cloven",
           "translation": "рассечь, раскалывать",
           "isNew": false
+        },
+        {
+          "text": "forbid - forbade - forbidden",
+          "translation": "запрещать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID-GEyYWAebM6x_AO8McR3NPcKj43_AAJ6DwACWcmZSa2e9NSfEUYcIAQ"
+      "fileId": "CQACAgIAAxkDAAIEQmEzNhn9TXEeIgHiw05gy1DE6oKmAAKGEAACWcmZSYt_ylHBHwLbIAQ"
     },
     {
       "cards": [
         {
-          "text": "swell - swelled - swollen or swelled",
-          "translation": "опухать, раздуваться, набухать",
-          "isNew": true
-        },
-        {
-          "text": "tread - trod - trod or trodden",
+          "text": "tread - trod - trodden",
           "translation": "наступать, ступать",
           "isNew": true
         },
@@ -6590,6 +6380,16 @@
           "isNew": true
         },
         {
+          "text": "come - came - come",
+          "translation": "приходить",
+          "isNew": true
+        },
+        {
+          "text": "grind - ground - ground",
+          "translation": "молоть, растереть",
+          "isNew": false
+        },
+        {
           "text": "hang - hung - hung",
           "translation": "висеть, вешать (вещь)",
           "isNew": false
@@ -6602,11 +6402,6 @@
         {
           "text": "have - had - had",
           "translation": "иметь",
-          "isNew": false
-        },
-        {
-          "text": "heave - hove or heaved - hove or heaved",
-          "translation": "поднимать, вздыматься, бросать",
           "isNew": false
         },
         {
@@ -6665,11 +6460,6 @@
           "isNew": false
         },
         {
-          "text": "spoil - spoilt or spoiled - spoilt or spoiled",
-          "translation": "портить, баловать",
-          "isNew": false
-        },
-        {
           "text": "stand - stood - stood",
           "translation": "стоять",
           "isNew": false
@@ -6685,13 +6475,13 @@
           "isNew": false
         },
         {
-          "text": "stink - stank or stunk - stunk",
+          "text": "stink - stank - stunk",
           "translation": "вонять",
           "isNew": false
         },
         {
-          "text": "win - won - won",
-          "translation": "победить",
+          "text": "strike - struck - struck",
+          "translation": "бить, бастовать",
           "isNew": false
         },
         {
@@ -6763,22 +6553,17 @@
           "text": "stride - strode - stridden",
           "translation": "шагать",
           "isNew": false
+        },
+        {
+          "text": "swell - swelled - swollen or swelled",
+          "translation": "опухать, раздуваться, набухать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID-WEyYWSrs3N7lIiuAb0KtAtNvdiBAAJ7DwACWcmZSSqrIdNa4ALmIAQ"
+      "fileId": "CQACAgIAAxkDAAIEQ2EzNh96ghaoQ28CdN78u1T8dH4zAAKHEAACWcmZSZsu3YBKtusxIAQ"
     },
     {
       "cards": [
-        {
-          "text": "clothe - clad or clothed - clad or clothed",
-          "translation": "одевать",
-          "isNew": true
-        },
-        {
-          "text": "come - came - come",
-          "translation": "приходить",
-          "isNew": true
-        },
         {
           "text": "dare - durst - dared",
           "translation": "сметь",
@@ -6792,6 +6577,16 @@
         {
           "text": "do - did - done",
           "translation": "делать",
+          "isNew": true
+        },
+        {
+          "text": "drink - drank - drunk",
+          "translation": "пить",
+          "isNew": true
+        },
+        {
+          "text": "forego - forewent - foregone",
+          "translation": "отказываться, воздерживаться",
           "isNew": true
         },
         {
@@ -6870,11 +6665,6 @@
           "isNew": false
         },
         {
-          "text": "strike - struck - struck",
-          "translation": "бить, бастовать",
-          "isNew": false
-        },
-        {
           "text": "string - strung - strung",
           "translation": "связывать, нанизывать",
           "isNew": false
@@ -6895,8 +6685,8 @@
           "isNew": false
         },
         {
-          "text": "shear - sheared - shorn",
-          "translation": "стричь, срезать",
+          "text": "win - won - won",
+          "translation": "победить",
           "isNew": false
         },
         {
@@ -6950,7 +6740,7 @@
           "isNew": false
         },
         {
-          "text": "tread - trod - trod or trodden",
+          "text": "tread - trod - trodden",
           "translation": "наступать, ступать",
           "isNew": false
         },
@@ -6968,22 +6758,17 @@
           "text": "begin - began - begun",
           "translation": "начинать, начинаться",
           "isNew": false
+        },
+        {
+          "text": "come - came - come",
+          "translation": "приходить",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID-mEyYWbwgQ926JMZJqAdxMpecTkmAAJ8DwACWcmZSbP1p1WPVtShIAQ"
+      "fileId": "CQACAgIAAxkDAAIERGEzNiQTUkb-fzWMvjxnZ-E5UDOpAAKIEAACWcmZSXAMC_wEFwZcIAQ"
     },
     {
       "cards": [
-        {
-          "text": "drink - drank - drunk",
-          "translation": "пить",
-          "isNew": true
-        },
-        {
-          "text": "forego - forewent - foregone",
-          "translation": "отказываться, воздерживаться",
-          "isNew": true
-        },
         {
           "text": "go - went - gone",
           "translation": "идти",
@@ -6997,6 +6782,16 @@
         {
           "text": "hew - hewed - hewn or hewed",
           "translation": "рубить",
+          "isNew": true
+        },
+        {
+          "text": "lie - lay - lain",
+          "translation": "лежать",
+          "isNew": true
+        },
+        {
+          "text": "mishear - misheard - misheard",
+          "translation": "ослышаться",
           "isNew": true
         },
         {
@@ -7050,11 +6845,6 @@
           "isNew": false
         },
         {
-          "text": "spoil - spoilt or spoiled - spoilt or spoiled",
-          "translation": "портить, баловать",
-          "isNew": false
-        },
-        {
           "text": "stand - stood - stood",
           "translation": "стоять",
           "isNew": false
@@ -7070,13 +6860,13 @@
           "isNew": false
         },
         {
-          "text": "stink - stank or stunk - stunk",
+          "text": "stink - stank - stunk",
           "translation": "вонять",
           "isNew": false
         },
         {
-          "text": "win - won - won",
-          "translation": "победить",
+          "text": "strike - struck - struck",
+          "translation": "бить, бастовать",
           "isNew": false
         },
         {
@@ -7100,8 +6890,8 @@
           "isNew": false
         },
         {
-          "text": "forbid - forbade - forbidden",
-          "translation": "запрещать",
+          "text": "shear - sheared - shorn",
+          "translation": "стричь, срезать",
           "isNew": false
         },
         {
@@ -7130,7 +6920,7 @@
           "isNew": false
         },
         {
-          "text": "tread - trod - trod or trodden",
+          "text": "tread - trod - trodden",
           "translation": "наступать, ступать",
           "isNew": false
         },
@@ -7147,11 +6937,6 @@
         {
           "text": "begin - began - begun",
           "translation": "начинать, начинаться",
-          "isNew": false
-        },
-        {
-          "text": "clothe - clad or clothed - clad or clothed",
-          "translation": "одевать",
           "isNew": false
         },
         {
@@ -7173,22 +6958,22 @@
           "text": "do - did - done",
           "translation": "делать",
           "isNew": false
+        },
+        {
+          "text": "drink - drank - drunk",
+          "translation": "пить",
+          "isNew": false
+        },
+        {
+          "text": "forego - forewent - foregone",
+          "translation": "отказываться, воздерживаться",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID-2EyYWvQeRr8r4TYm5uO1lU8P65NAAJ9DwACWcmZSdWBkiX0O_hTIAQ"
+      "fileId": "CQACAgIAAxkDAAIERWEzNiebhiYDEGChbjPTFZ3ir9B4AAKJEAACWcmZSfEnd04pg1ZuIAQ"
     },
     {
       "cards": [
-        {
-          "text": "lie - lay - lain",
-          "translation": "лежать",
-          "isNew": true
-        },
-        {
-          "text": "mishear - misheard - misheard",
-          "translation": "ослышаться",
-          "isNew": true
-        },
         {
           "text": "overcome - overcame - overcome",
           "translation": "преодолевать",
@@ -7202,6 +6987,16 @@
         {
           "text": "relay - relayed - relayed",
           "translation": "передавать (информацию и тому подобное)",
+          "isNew": true
+        },
+        {
+          "text": "ring - rang - rung",
+          "translation": "звонить, звенеть",
+          "isNew": true
+        },
+        {
+          "text": "run - ran - run",
+          "translation": "бежать",
           "isNew": true
         },
         {
@@ -7255,11 +7050,6 @@
           "isNew": false
         },
         {
-          "text": "strike - struck - struck",
-          "translation": "бить, бастовать",
-          "isNew": false
-        },
-        {
           "text": "string - strung - strung",
           "translation": "связывать, нанизывать",
           "isNew": false
@@ -7280,8 +7070,8 @@
           "isNew": false
         },
         {
-          "text": "shear - sheared - shorn",
-          "translation": "стричь, срезать",
+          "text": "win - won - won",
+          "translation": "победить",
           "isNew": false
         },
         {
@@ -7305,12 +7095,12 @@
           "isNew": false
         },
         {
-          "text": "swell - swelled - swollen or swelled",
-          "translation": "опухать, раздуваться, набухать",
+          "text": "forbid - forbade - forbidden",
+          "translation": "запрещать",
           "isNew": false
         },
         {
-          "text": "tread - trod - trod or trodden",
+          "text": "tread - trod - trodden",
           "translation": "наступать, ступать",
           "isNew": false
         },
@@ -7327,11 +7117,6 @@
         {
           "text": "begin - began - begun",
           "translation": "начинать, начинаться",
-          "isNew": false
-        },
-        {
-          "text": "clothe - clad or clothed - clad or clothed",
-          "translation": "одевать",
           "isNew": false
         },
         {
@@ -7378,22 +7163,22 @@
           "text": "hew - hewed - hewn or hewed",
           "translation": "рубить",
           "isNew": false
+        },
+        {
+          "text": "lie - lay - lain",
+          "translation": "лежать",
+          "isNew": false
+        },
+        {
+          "text": "mishear - misheard - misheard",
+          "translation": "ослышаться",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID_GEyYW_ZKYcEDx0-HqSSuw571vMmAAJ-DwACWcmZScpIPC5rFxRVIAQ"
+      "fileId": "CQACAgIAAxkDAAIERmEzNiva-ROCi8wuhj133ciin1PRAAKKEAACWcmZSUUjUMbbQgKjIAQ"
     },
     {
       "cards": [
-        {
-          "text": "ring - rang - rung",
-          "translation": "звонить, звенеть",
-          "isNew": true
-        },
-        {
-          "text": "run - ran - run",
-          "translation": "бежать",
-          "isNew": true
-        },
         {
           "text": "sing - sang - sung",
           "translation": "петь",
@@ -7407,6 +7192,16 @@
         {
           "text": "slay - slew - slain",
           "translation": "убивать",
+          "isNew": true
+        },
+        {
+          "text": "spring - sprang - sprung",
+          "translation": "возникать, прыгать",
+          "isNew": true
+        },
+        {
+          "text": "swim - swam - swum",
+          "translation": "плавать",
           "isNew": true
         },
         {
@@ -7460,11 +7255,6 @@
           "isNew": false
         },
         {
-          "text": "win - won - won",
-          "translation": "победить",
-          "isNew": false
-        },
-        {
           "text": "wind - wound - wound",
           "translation": "заводить, наматывать",
           "isNew": false
@@ -7485,8 +7275,8 @@
           "isNew": false
         },
         {
-          "text": "forbid - forbade - forbidden",
-          "translation": "запрещать",
+          "text": "shear - sheared - shorn",
+          "translation": "стричь, срезать",
           "isNew": false
         },
         {
@@ -7510,13 +7300,8 @@
           "isNew": false
         },
         {
-          "text": "clothe - clad or clothed - clad or clothed",
-          "translation": "одевать",
-          "isNew": false
-        },
-        {
-          "text": "come - came - come",
-          "translation": "приходить",
+          "text": "swell - swelled - swollen or swelled",
+          "translation": "опухать, раздуваться, набухать",
           "isNew": false
         },
         {
@@ -7583,22 +7368,22 @@
           "text": "relay - relayed - relayed",
           "translation": "передавать (информацию и тому подобное)",
           "isNew": false
+        },
+        {
+          "text": "ring - rang - rung",
+          "translation": "звонить, звенеть",
+          "isNew": false
+        },
+        {
+          "text": "run - ran - run",
+          "translation": "бежать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID_WEyYXFDaRMn3YTk9Gtv9OUq02ZeAAKADwACWcmZSZk9u3nReD9DIAQ"
+      "fileId": "CQACAgIAAxkDAAIER2EzNi_7VoDWo2OORkuMBLk7jh8wAAKLEAACWcmZSfrr7cFPytNZIAQ"
     },
     {
       "cards": [
-        {
-          "text": "spring - sprang - sprung",
-          "translation": "возникать, прыгать",
-          "isNew": true
-        },
-        {
-          "text": "swim - swam - swum",
-          "translation": "плавать",
-          "isNew": true
-        },
         {
           "text": "undergo - underwent - undergone",
           "translation": "испытывать, подвергаться",
@@ -7617,12 +7402,12 @@
         {
           "text": "shoe - shod - shod",
           "translation": "обувать, подковывать",
-          "isNew": false
+          "isNew": true
         },
         {
           "text": "shoot - shot - shot",
           "translation": "стрелять",
-          "isNew": false
+          "isNew": true
         },
         {
           "text": "shrink - shrank - shrunk",
@@ -7632,11 +7417,6 @@
         {
           "text": "sit - sat - sat",
           "translation": "сидеть",
-          "isNew": false
-        },
-        {
-          "text": "spoil - spoilt or spoiled - spoilt or spoiled",
-          "translation": "портить, баловать",
           "isNew": false
         },
         {
@@ -7655,13 +7435,13 @@
           "isNew": false
         },
         {
-          "text": "stink - stank or stunk - stunk",
+          "text": "stink - stank - stunk",
           "translation": "вонять",
           "isNew": false
         },
         {
-          "text": "shear - sheared - shorn",
-          "translation": "стричь, срезать",
+          "text": "strike - struck - struck",
+          "translation": "бить, бастовать",
           "isNew": false
         },
         {
@@ -7685,12 +7465,12 @@
           "isNew": false
         },
         {
-          "text": "swell - swelled - swollen or swelled",
-          "translation": "опухать, раздуваться, набухать",
+          "text": "forbid - forbade - forbidden",
+          "translation": "запрещать",
           "isNew": false
         },
         {
-          "text": "tread - trod - trod or trodden",
+          "text": "tread - trod - trodden",
           "translation": "наступать, ступать",
           "isNew": false
         },
@@ -7710,13 +7490,8 @@
           "isNew": false
         },
         {
-          "text": "drink - drank - drunk",
-          "translation": "пить",
-          "isNew": false
-        },
-        {
-          "text": "forego - forewent - foregone",
-          "translation": "отказываться, воздерживаться",
+          "text": "come - came - come",
+          "translation": "приходить",
           "isNew": false
         },
         {
@@ -7783,9 +7558,19 @@
           "text": "slay - slew - slain",
           "translation": "убивать",
           "isNew": false
+        },
+        {
+          "text": "spring - sprang - sprung",
+          "translation": "возникать, прыгать",
+          "isNew": false
+        },
+        {
+          "text": "swim - swam - swum",
+          "translation": "плавать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID_mEyYXVe4JUTsBYZqgqegw2aeS_3AAKBDwACWcmZSchAHY8NCpN2IAQ"
+      "fileId": "CQACAgIAAxkDAAIESGEzNjIkUAHoGHmVkbJJdMxGsimAAAKMEAACWcmZSaUv6_pPTsSCIAQ"
     },
     {
       "cards": [
@@ -7815,11 +7600,6 @@
           "isNew": true
         },
         {
-          "text": "strike - struck - struck",
-          "translation": "бить, бастовать",
-          "isNew": false
-        },
-        {
           "text": "string - strung - strung",
           "translation": "связывать, нанизывать",
           "isNew": false
@@ -7840,8 +7620,8 @@
           "isNew": false
         },
         {
-          "text": "forbid - forbade - forbidden",
-          "translation": "запрещать",
+          "text": "win - won - won",
+          "translation": "победить",
           "isNew": false
         },
         {
@@ -7865,13 +7645,8 @@
           "isNew": false
         },
         {
-          "text": "clothe - clad or clothed - clad or clothed",
-          "translation": "одевать",
-          "isNew": false
-        },
-        {
-          "text": "come - came - come",
-          "translation": "приходить",
+          "text": "swell - swelled - swollen or swelled",
+          "translation": "опухать, раздуваться, набухать",
           "isNew": false
         },
         {
@@ -7890,13 +7665,13 @@
           "isNew": false
         },
         {
-          "text": "lie - lay - lain",
-          "translation": "лежать",
+          "text": "drink - drank - drunk",
+          "translation": "пить",
           "isNew": false
         },
         {
-          "text": "mishear - misheard - misheard",
-          "translation": "ослышаться",
+          "text": "forego - forewent - foregone",
+          "translation": "отказываться, воздерживаться",
           "isNew": false
         },
         {
@@ -7960,7 +7735,7 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAID_2EyYXmThr6ILwewaIKdW2WQGRvMAAKCDwACWcmZSXrb-6h3UbaXIAQ"
+      "fileId": "CQACAgIAAxkDAAIESWEzNjOFy-G-zoS6fKVO2PAXMX3SAAKNEAACWcmZSQq0yKHn0W0sIAQ"
     },
     {
       "cards": [
@@ -7990,11 +7765,6 @@
           "isNew": true
         },
         {
-          "text": "win - won - won",
-          "translation": "победить",
-          "isNew": false
-        },
-        {
           "text": "wind - wound - wound",
           "translation": "заводить, наматывать",
           "isNew": false
@@ -8015,12 +7785,12 @@
           "isNew": false
         },
         {
-          "text": "swell - swelled - swollen or swelled",
-          "translation": "опухать, раздуваться, набухать",
+          "text": "shear - sheared - shorn",
+          "translation": "стричь, срезать",
           "isNew": false
         },
         {
-          "text": "tread - trod - trod or trodden",
+          "text": "tread - trod - trodden",
           "translation": "наступать, ступать",
           "isNew": false
         },
@@ -8040,13 +7810,8 @@
           "isNew": false
         },
         {
-          "text": "drink - drank - drunk",
-          "translation": "пить",
-          "isNew": false
-        },
-        {
-          "text": "forego - forewent - foregone",
-          "translation": "отказываться, воздерживаться",
+          "text": "come - came - come",
+          "translation": "приходить",
           "isNew": false
         },
         {
@@ -8065,13 +7830,13 @@
           "isNew": false
         },
         {
-          "text": "ring - rang - rung",
-          "translation": "звонить, звенеть",
+          "text": "lie - lay - lain",
+          "translation": "лежать",
           "isNew": false
         },
         {
-          "text": "run - ran - run",
-          "translation": "бежать",
+          "text": "mishear - misheard - misheard",
+          "translation": "ослышаться",
           "isNew": false
         },
         {
@@ -8110,15 +7875,10 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAIEAAFhMmF8B1uF5JxkwoAlh8IeMUEfcAACgw8AAlnJmUk8EMgSvA-8liAE"
+      "fileId": "CQACAgIAAxkDAAIESmEzNjhweF1m0q46mcVZ6UUAASePHAACjhAAAlnJmUlQbY2_4NmWDiAE"
     },
     {
       "cards": [
-        {
-          "text": "spoil - spoilt or spoiled - spoilt or spoiled",
-          "translation": "портить, баловать",
-          "isNew": true
-        },
         {
           "text": "stand - stood - stood",
           "translation": "стоять",
@@ -8135,14 +7895,14 @@
           "isNew": true
         },
         {
-          "text": "stink - stank or stunk - stunk",
+          "text": "stink - stank - stunk",
           "translation": "вонять",
           "isNew": true
         },
         {
-          "text": "shear - sheared - shorn",
-          "translation": "стричь, срезать",
-          "isNew": false
+          "text": "strike - struck - struck",
+          "translation": "бить, бастовать",
+          "isNew": true
         },
         {
           "text": "swear - swore - sworn",
@@ -8165,13 +7925,8 @@
           "isNew": false
         },
         {
-          "text": "clothe - clad or clothed - clad or clothed",
-          "translation": "одевать",
-          "isNew": false
-        },
-        {
-          "text": "come - came - come",
-          "translation": "приходить",
+          "text": "forbid - forbade - forbidden",
+          "translation": "запрещать",
           "isNew": false
         },
         {
@@ -8190,13 +7945,13 @@
           "isNew": false
         },
         {
-          "text": "lie - lay - lain",
-          "translation": "лежать",
+          "text": "drink - drank - drunk",
+          "translation": "пить",
           "isNew": false
         },
         {
-          "text": "mishear - misheard - misheard",
-          "translation": "ослышаться",
+          "text": "forego - forewent - foregone",
+          "translation": "отказываться, воздерживаться",
           "isNew": false
         },
         {
@@ -8215,13 +7970,13 @@
           "isNew": false
         },
         {
-          "text": "spring - sprang - sprung",
-          "translation": "возникать, прыгать",
+          "text": "ring - rang - rung",
+          "translation": "звонить, звенеть",
           "isNew": false
         },
         {
-          "text": "swim - swam - swum",
-          "translation": "плавать",
+          "text": "run - ran - run",
+          "translation": "бежать",
           "isNew": false
         },
         {
@@ -8235,15 +7990,10 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAIEAWEyYYDjIURIZZJbV2LaLKvVmqeXAAKEDwACWcmZSdMFNxmZEachIAQ"
+      "fileId": "CQACAgIAAxkDAAIES2EzNjv6f7EKgVe5R33wkuw3pmBKAAKPEAACWcmZSchm83MJjVx9IAQ"
     },
     {
       "cards": [
-        {
-          "text": "strike - struck - struck",
-          "translation": "бить, бастовать",
-          "isNew": true
-        },
         {
           "text": "string - strung - strung",
           "translation": "связывать, нанизывать",
@@ -8265,9 +8015,9 @@
           "isNew": true
         },
         {
-          "text": "forbid - forbade - forbidden",
-          "translation": "запрещать",
-          "isNew": false
+          "text": "win - won - won",
+          "translation": "победить",
+          "isNew": true
         },
         {
           "text": "hide - hid - hidden",
@@ -8290,13 +8040,8 @@
           "isNew": false
         },
         {
-          "text": "drink - drank - drunk",
-          "translation": "пить",
-          "isNew": false
-        },
-        {
-          "text": "forego - forewent - foregone",
-          "translation": "отказываться, воздерживаться",
+          "text": "swell - swelled - swollen or swelled",
+          "translation": "опухать, раздуваться, набухать",
           "isNew": false
         },
         {
@@ -8315,13 +8060,13 @@
           "isNew": false
         },
         {
-          "text": "ring - rang - rung",
-          "translation": "звонить, звенеть",
+          "text": "lie - lay - lain",
+          "translation": "лежать",
           "isNew": false
         },
         {
-          "text": "run - ran - run",
-          "translation": "бежать",
+          "text": "mishear - misheard - misheard",
+          "translation": "ослышаться",
           "isNew": false
         },
         {
@@ -8338,17 +8083,22 @@
           "text": "slay - slew - slain",
           "translation": "убивать",
           "isNew": false
+        },
+        {
+          "text": "spring - sprang - sprung",
+          "translation": "возникать, прыгать",
+          "isNew": false
+        },
+        {
+          "text": "swim - swam - swum",
+          "translation": "плавать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAIEAmEyYYQ01F_S9-bMjDUeohEAAdK2oAAChQ8AAlnJmUmldnrAE2LvoiAE"
+      "fileId": "CQACAgIAAxkDAAIETGEzNj9TOxa2A7MBTDTtHKzXsP0PAAKQEAACWcmZSc5orn00tPgaIAQ"
     },
     {
       "cards": [
-        {
-          "text": "win - won - won",
-          "translation": "победить",
-          "isNew": true
-        },
         {
           "text": "wind - wound - wound",
           "translation": "заводить, наматывать",
@@ -8370,12 +8120,12 @@
           "isNew": true
         },
         {
-          "text": "swell - swelled - swollen or swelled",
-          "translation": "опухать, раздуваться, набухать",
-          "isNew": false
+          "text": "shear - sheared - shorn",
+          "translation": "стричь, срезать",
+          "isNew": true
         },
         {
-          "text": "tread - trod - trod or trodden",
+          "text": "tread - trod - trodden",
           "translation": "наступать, ступать",
           "isNew": false
         },
@@ -8395,13 +8145,8 @@
           "isNew": false
         },
         {
-          "text": "lie - lay - lain",
-          "translation": "лежать",
-          "isNew": false
-        },
-        {
-          "text": "mishear - misheard - misheard",
-          "translation": "ослышаться",
+          "text": "come - came - come",
+          "translation": "приходить",
           "isNew": false
         },
         {
@@ -8420,13 +8165,13 @@
           "isNew": false
         },
         {
-          "text": "spring - sprang - sprung",
-          "translation": "возникать, прыгать",
+          "text": "ring - rang - rung",
+          "translation": "звонить, звенеть",
           "isNew": false
         },
         {
-          "text": "swim - swam - swum",
-          "translation": "плавать",
+          "text": "run - ran - run",
+          "translation": "бежать",
           "isNew": false
         },
         {
@@ -8440,15 +8185,10 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAIEA2EyYYdvNan3h9NgKCisGEWookxiAAKGDwACWcmZSd5EdnTQFV2NIAQ"
+      "fileId": "CQACAgIAAxkDAAIETWEzNkN1bK_R-yVlbL8efWxpx6a2AAKREAACWcmZSX_SEnfPqWrrIAQ"
     },
     {
       "cards": [
-        {
-          "text": "shear - sheared - shorn",
-          "translation": "стричь, срезать",
-          "isNew": true
-        },
         {
           "text": "swear - swore - sworn",
           "translation": "клясться, присягать, ругаться",
@@ -8470,14 +8210,9 @@
           "isNew": true
         },
         {
-          "text": "clothe - clad or clothed - clad or clothed",
-          "translation": "одевать",
-          "isNew": false
-        },
-        {
-          "text": "come - came - come",
-          "translation": "приходить",
-          "isNew": false
+          "text": "forbid - forbade - forbidden",
+          "translation": "запрещать",
+          "isNew": true
         },
         {
           "text": "dare - durst - dared",
@@ -8495,13 +8230,13 @@
           "isNew": false
         },
         {
-          "text": "ring - rang - rung",
-          "translation": "звонить, звенеть",
+          "text": "drink - drank - drunk",
+          "translation": "пить",
           "isNew": false
         },
         {
-          "text": "run - ran - run",
-          "translation": "бежать",
+          "text": "forego - forewent - foregone",
+          "translation": "отказываться, воздерживаться",
           "isNew": false
         },
         {
@@ -8518,17 +8253,22 @@
           "text": "slay - slew - slain",
           "translation": "убивать",
           "isNew": false
+        },
+        {
+          "text": "spring - sprang - sprung",
+          "translation": "возникать, прыгать",
+          "isNew": false
+        },
+        {
+          "text": "swim - swam - swum",
+          "translation": "плавать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAIEBGEyYYr4ZYjEp-IXdbUQLBlLUbqpAAKHDwACWcmZScYHptrCT-BiIAQ"
+      "fileId": "CQACAgIAAxkDAAIETmEzNkeC0x0FS1TE0Uj7Dff97ReQAAKSEAACWcmZSR8ssO665u35IAQ"
     },
     {
       "cards": [
-        {
-          "text": "forbid - forbade - forbidden",
-          "translation": "запрещать",
-          "isNew": true
-        },
         {
           "text": "hide - hid - hidden",
           "translation": "прятать, прятаться",
@@ -8550,14 +8290,9 @@
           "isNew": true
         },
         {
-          "text": "drink - drank - drunk",
-          "translation": "пить",
-          "isNew": false
-        },
-        {
-          "text": "forego - forewent - foregone",
-          "translation": "отказываться, воздерживаться",
-          "isNew": false
+          "text": "swell - swelled - swollen or swelled",
+          "translation": "опухать, раздуваться, набухать",
+          "isNew": true
         },
         {
           "text": "go - went - gone",
@@ -8575,13 +8310,13 @@
           "isNew": false
         },
         {
-          "text": "spring - sprang - sprung",
-          "translation": "возникать, прыгать",
+          "text": "lie - lay - lain",
+          "translation": "лежать",
           "isNew": false
         },
         {
-          "text": "swim - swam - swum",
-          "translation": "плавать",
+          "text": "mishear - misheard - misheard",
+          "translation": "ослышаться",
           "isNew": false
         },
         {
@@ -8595,17 +8330,12 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAIEBWEyYYxDIr0Q6SjAz407FmQ4pvfXAAKIDwACWcmZSZxvaESakBx5IAQ"
+      "fileId": "CQACAgIAAxkDAAIET2EzNksAAf6Y2eZ3hbF0w4A1pDJIdQACkxAAAlnJmUnX2HEjDYi5HiAE"
     },
     {
       "cards": [
         {
-          "text": "swell - swelled - swollen or swelled",
-          "translation": "опухать, раздуваться, набухать",
-          "isNew": true
-        },
-        {
-          "text": "tread - trod - trod or trodden",
+          "text": "tread - trod - trodden",
           "translation": "наступать, ступать",
           "isNew": true
         },
@@ -8625,14 +8355,9 @@
           "isNew": true
         },
         {
-          "text": "lie - lay - lain",
-          "translation": "лежать",
-          "isNew": false
-        },
-        {
-          "text": "mishear - misheard - misheard",
-          "translation": "ослышаться",
-          "isNew": false
+          "text": "come - came - come",
+          "translation": "приходить",
+          "isNew": true
         },
         {
           "text": "overcome - overcame - overcome",
@@ -8648,22 +8373,22 @@
           "text": "relay - relayed - relayed",
           "translation": "передавать (информацию и тому подобное)",
           "isNew": false
+        },
+        {
+          "text": "ring - rang - rung",
+          "translation": "звонить, звенеть",
+          "isNew": false
+        },
+        {
+          "text": "run - ran - run",
+          "translation": "бежать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAIEBmEyYY5nL-_9tFNHxWoxp_OuZsngAAKJDwACWcmZSdqdkX1SNpuJIAQ"
+      "fileId": "CQACAgIAAxkDAAIEUGEzNk22OF8h9SAgfJRhLxFScoPbAAKUEAACWcmZSV-dBLgQ6HeMIAQ"
     },
     {
       "cards": [
-        {
-          "text": "clothe - clad or clothed - clad or clothed",
-          "translation": "одевать",
-          "isNew": true
-        },
-        {
-          "text": "come - came - come",
-          "translation": "приходить",
-          "isNew": true
-        },
         {
           "text": "dare - durst - dared",
           "translation": "сметь",
@@ -8680,14 +8405,14 @@
           "isNew": true
         },
         {
-          "text": "ring - rang - rung",
-          "translation": "звонить, звенеть",
-          "isNew": false
+          "text": "drink - drank - drunk",
+          "translation": "пить",
+          "isNew": true
         },
         {
-          "text": "run - ran - run",
-          "translation": "бежать",
-          "isNew": false
+          "text": "forego - forewent - foregone",
+          "translation": "отказываться, воздерживаться",
+          "isNew": true
         },
         {
           "text": "sing - sang - sung",
@@ -8703,22 +8428,22 @@
           "text": "slay - slew - slain",
           "translation": "убивать",
           "isNew": false
+        },
+        {
+          "text": "spring - sprang - sprung",
+          "translation": "возникать, прыгать",
+          "isNew": false
+        },
+        {
+          "text": "swim - swam - swum",
+          "translation": "плавать",
+          "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAIEB2EyYZHz2y4BpC7UqXX9092hjrwlAAKKDwACWcmZSbsWFRIs-OU5IAQ"
+      "fileId": "CQACAgIAAxkDAAIEUWEzNlGb7YxZClEYEvudLz2U3vPWAAKVEAACWcmZSTD4DZWlnkctIAQ"
     },
     {
       "cards": [
-        {
-          "text": "drink - drank - drunk",
-          "translation": "пить",
-          "isNew": true
-        },
-        {
-          "text": "forego - forewent - foregone",
-          "translation": "отказываться, воздерживаться",
-          "isNew": true
-        },
         {
           "text": "go - went - gone",
           "translation": "идти",
@@ -8735,14 +8460,14 @@
           "isNew": true
         },
         {
-          "text": "spring - sprang - sprung",
-          "translation": "возникать, прыгать",
-          "isNew": false
+          "text": "lie - lay - lain",
+          "translation": "лежать",
+          "isNew": true
         },
         {
-          "text": "swim - swam - swum",
-          "translation": "плавать",
-          "isNew": false
+          "text": "mishear - misheard - misheard",
+          "translation": "ослышаться",
+          "isNew": true
         },
         {
           "text": "undergo - underwent - undergone",
@@ -8755,20 +8480,10 @@
           "isNew": false
         }
       ],
-      "fileId": "CQACAgIAAxkDAAIECGEyYZX-sjFd3ncbZnSXWV4La7huAAKLDwACWcmZSfYawSH9D0RQIAQ"
+      "fileId": "CQACAgIAAxkDAAIEUmEzNlOvBNUEGPEf_zysH4vmymZ7AAKWEAACWcmZSarT_WqeS67BIAQ"
     },
     {
       "cards": [
-        {
-          "text": "lie - lay - lain",
-          "translation": "лежать",
-          "isNew": true
-        },
-        {
-          "text": "mishear - misheard - misheard",
-          "translation": "ослышаться",
-          "isNew": true
-        },
         {
           "text": "overcome - overcame - overcome",
           "translation": "преодолевать",
@@ -8783,12 +8498,7 @@
           "text": "relay - relayed - relayed",
           "translation": "передавать (информацию и тому подобное)",
           "isNew": true
-        }
-      ],
-      "fileId": "CQACAgIAAxkDAAIECWEyYZipiICdgAkbcfNRbbhmZxufAAKMDwACWcmZSZ7cUYBC_newIAQ"
-    },
-    {
-      "cards": [
+        },
         {
           "text": "ring - rang - rung",
           "translation": "звонить, звенеть",
@@ -8798,7 +8508,12 @@
           "text": "run - ran - run",
           "translation": "бежать",
           "isNew": true
-        },
+        }
+      ],
+      "fileId": "CQACAgIAAxkDAAIEU2EzNlYeTymnbBdst-HdcaqcF_faAAKYEAACWcmZSVFjBnoDMBGlIAQ"
+    },
+    {
+      "cards": [
         {
           "text": "sing - sang - sung",
           "translation": "петь",
@@ -8813,12 +8528,7 @@
           "text": "slay - slew - slain",
           "translation": "убивать",
           "isNew": true
-        }
-      ],
-      "fileId": "CQACAgIAAxkDAAIECmEyYZr1PG0lIEhvhBZs2Pp1P_iUAAKNDwACWcmZSZZ22WT8BHwxIAQ"
-    },
-    {
-      "cards": [
+        },
         {
           "text": "spring - sprang - sprung",
           "translation": "возникать, прыгать",
@@ -8828,7 +8538,12 @@
           "text": "swim - swam - swum",
           "translation": "плавать",
           "isNew": true
-        },
+        }
+      ],
+      "fileId": "CQACAgIAAxkDAAIEVGEzNlhURF4S3_sBJw6sZRynAqHXAAKZEAACWcmZSQMPjpP9To80IAQ"
+    },
+    {
+      "cards": [
         {
           "text": "undergo - underwent - undergone",
           "translation": "испытывать, подвергаться",
@@ -8840,7 +8555,7 @@
           "isNew": true
         }
       ],
-      "fileId": "CQACAgIAAxkDAAIEC2EyYZwYUD3iJzzOO84fj3YJx0N7AAKODwACWcmZSfBzSk9i3X9lIAQ"
+      "fileId": "CQACAgIAAxkDAAIEVWEzNlrhMjPyYYTFoVkYTRYHpNW5AAKaEAACWcmZSY4p8MSK6JjxIAQ"
     }
   ]
 }

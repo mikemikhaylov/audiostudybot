@@ -20,11 +20,7 @@
     },
     {
       "text": "bid - bid - bid",
-      "translation": "предлагать цену"
-    },
-    {
-      "text": "bid - bid or bade - bidden",
-      "translation": "велеть, просить"
+      "translation": "предлагать цену, велеть, просить"
     },
     {
       "text": "broadcast - broadcast - broadcast",
@@ -51,7 +47,7 @@
       "translation": "подходить, соответствовать"
     },
     {
-      "text": "forecast - forecast or forecasted - forecast or forecasted",
+      "text": "forecast - forecast - forecast",
       "translation": "прогнозировать, предсказывать"
     },
     {
@@ -79,7 +75,7 @@
       "translation": "класть, помещать"
     },
     {
-      "text": "quit - quit or quitted - quit or quitted",
+      "text": "quit - quit - quit",
       "translation": "покидать, бросать, увольняться"
     },
     {
@@ -87,7 +83,7 @@
       "translation": "читать"
     },
     {
-      "text": "rid - rid or ridded - rid or ridded",
+      "text": "rid - rid - rid",
       "translation": "освобождать, избавлять"
     },
     {
@@ -97,10 +93,6 @@
     {
       "text": "shed - shed - shed",
       "translation": "проливать"
-    },
-    {
-      "text": "shit - shit or shat or shitted - shit or shat or shitted",
-      "translation": "гадить, испражняться"
     },
     {
       "text": "shut - shut - shut",
@@ -127,11 +119,11 @@
       "translation": "огорчать"
     },
     {
-      "text": "wed - wed or wedded - wed or wedded",
+      "text": "wed - wed - wed",
       "translation": "вступать в брак"
     },
     {
-      "text": "wet - wet or wetted - wet or wetted",
+      "text": "wet - wet - wet",
       "translation": "мочить"
     },
     {
@@ -171,7 +163,7 @@
       "translation": "воровать"
     },
     {
-      "text": "wake - woke or waked - woken or waked",
+      "text": "wake - woke - woken",
       "translation": "разбудить, просыпаться"
     },
     {
@@ -193,10 +185,6 @@
     {
       "text": "befall - befell - befallen",
       "translation": "случаться"
-    },
-    {
-      "text": "disprove - disproved - disproved or disproven",
-      "translation": "опровергать"
     },
     {
       "text": "drive - drove - driven",
@@ -307,11 +295,11 @@
       "translation": "шить"
     },
     {
-      "text": "show - showed - shown or showed",
+      "text": "show - showed - shown",
       "translation": "показывать"
     },
     {
-      "text": "sow - sowed - sowed or sown",
+      "text": "sow - sowed - sown",
       "translation": "сеять"
     },
     {
@@ -435,10 +423,6 @@
       "translation": "гореть, жечь"
     },
     {
-      "text": "bust - bust or busted - bust or busted",
-      "translation": "разориться, разорить, ломать"
-    },
-    {
       "text": "cling - clung - clung",
       "translation": "цепляться, льнуть"
     },
@@ -479,7 +463,7 @@
       "translation": "кидать, бросать, швырнуть"
     },
     {
-      "text": "get - got - get or gotten",
+      "text": "get - got - got or gotten",
       "translation": "получать, становиться, добираться, достать и так далее"
     },
     {
@@ -501,10 +485,6 @@
     {
       "text": "have - had - had",
       "translation": "иметь"
-    },
-    {
-      "text": "heave - hove or heaved - hove or heaved",
-      "translation": "поднимать, вздыматься, бросать"
     },
     {
       "text": "inlay - inlaid - inlaid",
@@ -651,10 +631,6 @@
       "translation": "плевать"
     },
     {
-      "text": "spoil - spoilt or spoiled - spoilt or spoiled",
-      "translation": "портить, баловать"
-    },
-    {
       "text": "stand - stood - stood",
       "translation": "стоять"
     },
@@ -667,7 +643,7 @@
       "translation": "жалить"
     },
     {
-      "text": "stink - stank or stunk - stunk",
+      "text": "stink - stank - stunk",
       "translation": "вонять"
     },
     {
@@ -755,7 +731,7 @@
       "translation": "опухать, раздуваться, набухать"
     },
     {
-      "text": "tread - trod - trod or trodden",
+      "text": "tread - trod - trodden",
       "translation": "наступать, ступать"
     },
     {
@@ -769,10 +745,6 @@
     {
       "text": "begin - began - begun",
       "translation": "начинать, начинаться"
-    },
-    {
-      "text": "clothe - clad or clothed - clad or clothed",
-      "translation": "одевать"
     },
     {
       "text": "come - came - come",
