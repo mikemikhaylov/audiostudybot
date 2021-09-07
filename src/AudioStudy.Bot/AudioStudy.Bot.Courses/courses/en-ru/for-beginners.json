@@ -1,0 +1,1306 @@
+{
+  "id": "13800754-f9d3-43cf-808e-a51cb4d16125",
+  "version": 1,
+  "weight": 0,
+  "type": "words",
+  "name": "For beginners",
+  "nameTranslation": "Для начинающих",
+  "language": "en",
+  "translationLanguage": "ru",
+  "cards": [
+    {
+      "text": "listen",
+      "translation": "cлушать",
+      "transcription": "ˈlɪsn",
+      "usage": "Listen, everybody!",
+      "usageTranslation": "Слушайте, все!"
+    },
+    {
+      "text": "place",
+      "translation": "место",
+      "transcription": "pleɪs",
+      "usage": "Take your place.",
+      "usageTranslation": "Займи своё место."
+    },
+    {
+      "text": "leave",
+      "translation": "оставлять, уходить",
+      "transcription": "liːv",
+      "usage": "Leave immediately!",
+      "usageTranslation": "Уходите немедленно!"
+    },
+    {
+      "text": "rain",
+      "translation": "дождь",
+      "transcription": "reɪn",
+      "usage": "The rain stopped.",
+      "usageTranslation": "Дождь прекратился."
+    },
+    {
+      "text": "sweet",
+      "translation": "сладкий",
+      "transcription": "swiːt",
+      "usage": "Chocolate tastes sweet.",
+      "usageTranslation": "Шоколад на вкус сладкий."
+    },
+    {
+      "text": "talk",
+      "translation": "разговаривать",
+      "transcription": "tɔːk",
+      "usage": "Stop talking.",
+      "usageTranslation": "Прекратите разговаривать."
+    },
+    {
+      "text": "safe",
+      "translation": "безопасный",
+      "transcription": "seɪf",
+      "usage": "Is it safe?",
+      "usageTranslation": "Это безопасно?"
+    },
+    {
+      "text": "body",
+      "translation": "тело",
+      "transcription": "ˈbɒdi",
+      "usage": "Listen to your body.",
+      "usageTranslation": "Прислушивайтесь к своему телу."
+    },
+    {
+      "text": "possible",
+      "translation": "вероятный, возможный",
+      "transcription": "ˈpɒsəbl",
+      "usage": "Is it possible?",
+      "usageTranslation": "Это возможно?"
+    },
+    {
+      "text": "table",
+      "translation": "стол",
+      "transcription": "ˈteɪbl",
+      "usage": "This table is reserved.",
+      "usageTranslation": "Этот столик забронирован."
+    },
+    {
+      "text": "slow",
+      "translation": "медленный",
+      "transcription": "sləʊ",
+      "usage": "Progress was slow.",
+      "usageTranslation": "Прогресс был медленным."
+    },
+    {
+      "text": "hair",
+      "translation": "волосы",
+      "transcription": "heə",
+      "usage": "Brush your hair.",
+      "usageTranslation": "Расчеши волосы."
+    },
+    {
+      "text": "money",
+      "translation": "деньги",
+      "transcription": "ˈmʌni",
+      "usage": "Time is money.",
+      "usageTranslation": "Время - деньги."
+    },
+    {
+      "text": "cheap",
+      "translation": "дешёвый",
+      "transcription": "ʧiːp",
+      "usage": "It looked cheap.",
+      "usageTranslation": "Это выглядело дёшево."
+    },
+    {
+      "text": "study",
+      "translation": "изучать",
+      "transcription": "ˈstʌdi",
+      "usage": "Study hard.",
+      "usageTranslation": "Учись усердно."
+    },
+    {
+      "text": "house",
+      "translation": "дом",
+      "transcription": "haʊs",
+      "usage": "Leave my house.",
+      "usageTranslation": "Уходи из моего дома."
+    },
+    {
+      "text": "black",
+      "translation": "чёрный",
+      "transcription": "blæk",
+      "usage": "Crows are black.",
+      "usageTranslation": "Вороны чёрные."
+    },
+    {
+      "text": "stop",
+      "translation": "прекращать",
+      "transcription": "stɒp",
+      "usage": "Stop that!",
+      "usageTranslation": "Прекрати это!"
+    },
+    {
+      "text": "need",
+      "translation": "нуждаться",
+      "transcription": "niːd",
+      "usage": "Need anything else?",
+      "usageTranslation": "Тебе ещё что-нибудь нужно?"
+    },
+    {
+      "text": "warm",
+      "translation": "теплый",
+      "transcription": "wɔːm",
+      "usage": "Wear warm clothes.",
+      "usageTranslation": "Наденьте тёплую одежду."
+    },
+    {
+      "text": "water",
+      "translation": "вода",
+      "transcription": "ˈwɔːtə",
+      "usage": "Just water, please.",
+      "usageTranslation": "Просто воды, пожалуйста."
+    },
+    {
+      "text": "hand",
+      "translation": "рука",
+      "transcription": "hænd",
+      "usage": "Hands off.",
+      "usageTranslation": "Руки прочь."
+    },
+    {
+      "text": "walk",
+      "translation": "гулять, идти",
+      "transcription": "wɔːk",
+      "usage": "Walk slowly.",
+      "usageTranslation": "Иди медленно."
+    },
+    {
+      "text": "pay",
+      "translation": "платить",
+      "transcription": "peɪ",
+      "usage": "Let me pay.",
+      "usageTranslation": "Позвольте мне заплатить."
+    },
+    {
+      "text": "hot",
+      "translation": "горячий",
+      "transcription": "hɒt",
+      "usage": "Sand is hot.",
+      "usageTranslation": "Песок горячий."
+    },
+    {
+      "text": "start",
+      "translation": "начинать",
+      "transcription": "stɑːt",
+      "usage": "Start over.",
+      "usageTranslation": "Начни сначала."
+    },
+    {
+      "text": "girl",
+      "translation": "девочка",
+      "transcription": "gɜːl",
+      "usage": "Hurry up, girls.",
+      "usageTranslation": "Поспешите, девочки."
+    },
+    {
+      "text": "sister",
+      "translation": "сестра",
+      "transcription": "ˈsɪstə",
+      "usage": "He has one brother and two sisters.",
+      "usageTranslation": "У него один брат и две сестры."
+    },
+    {
+      "text": "father",
+      "translation": "отец",
+      "transcription": "ˈfɑːðə",
+      "usage": "Call his father.",
+      "usageTranslation": "Позвони его отцу."
+    },
+    {
+      "text": "job",
+      "translation": "работа",
+      "transcription": "ʤɒb",
+      "usage": "Finish the job.",
+      "usageTranslation": "Закончи работу."
+    },
+    {
+      "text": "important",
+      "translation": "важный",
+      "transcription": "ɪmˈpɔːtənt",
+      "usage": "Education is important.",
+      "usageTranslation": "Образование важно."
+    },
+    {
+      "text": "hard",
+      "translation": "трудный",
+      "transcription": "hɑːd",
+      "usage": "It's been a hard year.",
+      "usageTranslation": "Это был трудный год."
+    },
+    {
+      "text": "white",
+      "translation": "белый",
+      "transcription": "waɪt",
+      "usage": "Snow is white.",
+      "usageTranslation": "Снег белый."
+    },
+    {
+      "text": "sun",
+      "translation": "солнце",
+      "transcription": "sʌn",
+      "usage": "The sun is rising.",
+      "usageTranslation": "Солнце встаёт."
+    },
+    {
+      "text": "city",
+      "translation": "город",
+      "transcription": "ˈsɪti",
+      "usage": "The city sleeps.",
+      "usageTranslation": "Город спит."
+    },
+    {
+      "text": "thing",
+      "translation": "вещь",
+      "transcription": "θɪŋ",
+      "usage": "Things break.",
+      "usageTranslation": "Вещи ломаются."
+    },
+    {
+      "text": "month",
+      "translation": "месяц",
+      "transcription": "mʌnθ",
+      "usage": "I moved last month.",
+      "usageTranslation": "Я переехал в прошлом месяце."
+    },
+    {
+      "text": "leg",
+      "translation": "нога",
+      "transcription": "Lift your legs.",
+      "usage": "Подними ноги."
+    },
+    {
+      "text": "give",
+      "translation": "давать",
+      "transcription": "gɪv",
+      "usage": "Give me time.",
+      "usageTranslation": "Дай мне время."
+    },
+    {
+      "text": "teach",
+      "translation": "обучать, преподавать",
+      "transcription": "tiːʧ",
+      "usage": "He teaches English.",
+      "usageTranslation": "Он преподаёт английский."
+    },
+    {
+      "text": "ready",
+      "translation": "готовый",
+      "transcription": "ˈrɛdi",
+      "usage": "Dinner is ready.",
+      "usageTranslation": "Ужин готов."
+    },
+    {
+      "text": "get",
+      "translation": "получать",
+      "transcription": "gɛt",
+      "usage": "I didn't get an email from him today.",
+      "usageTranslation": "Сегодня я не получал от него письма."
+    },
+    {
+      "text": "foot",
+      "translation": "ступня",
+      "transcription": "fʊt",
+      "usage": "My foot hurts.",
+      "usageTranslation": "У меня болит ступня."
+    },
+    {
+      "text": "run",
+      "translation": "бежать",
+      "transcription": "rʌn",
+      "usage": "Run fast!",
+      "usageTranslation": "Беги быстро!"
+    },
+    {
+      "text": "cold",
+      "translation": "холодный",
+      "transcription": "kəʊld",
+      "usage": "Cold water, please.",
+      "usageTranslation": "Холодной воды, пожалуйста."
+    },
+    {
+      "text": "face",
+      "translation": "лицо",
+      "transcription": "feɪs",
+      "usage": "Wash your face.",
+      "usageTranslation": "Умой лицо."
+    },
+    {
+      "text": "dark",
+      "translation": "тёмный",
+      "transcription": "dɑːk",
+      "usage": "The sky was dark.",
+      "usageTranslation": "Небо было тёмным."
+    },
+    {
+      "text": "quick",
+      "translation": "быстрый",
+      "transcription": "kwɪk",
+      "usage": "I'm very quick.",
+      "usageTranslation": "Я очень быстрый."
+    },
+    {
+      "text": "morning",
+      "translation": "утро",
+      "transcription": "ˈmɔːnɪŋ",
+      "usage": "Good morning, everybody.",
+      "usageTranslation": "Доброе утро всем."
+    },
+    {
+      "text": "bus",
+      "translation": "автобус",
+      "transcription": "bʌs",
+      "usage": "Take a bus.",
+      "usageTranslation": "Езжай на автобусе."
+    },
+    {
+      "text": "write",
+      "translation": "писать",
+      "transcription": "raɪt",
+      "usage": "Keep writing.",
+      "usageTranslation": "Продолжай писать."
+    },
+    {
+      "text": "work",
+      "translation": "работа, работать",
+      "transcription": "wɜːk",
+      "usage": "Good work!",
+      "usageTranslation": "Хорошая работа!"
+    },
+    {
+      "text": "fast",
+      "translation": "быстрый",
+      "transcription": "fɑːst",
+      "usage": "Run fast!",
+      "usageTranslation": "Беги быстро!"
+    },
+    {
+      "text": "door",
+      "translation": "дверь",
+      "transcription": "dɔː",
+      "usage": "Shut the door.",
+      "usageTranslation": "Закрой дверь."
+    },
+    {
+      "text": "light",
+      "translation": "светлый, свет",
+      "transcription": "laɪt",
+      "usage": "Turn off the light on leaving the room.",
+      "usageTranslation": "Выключайте свет, выходя из комнаты."
+    },
+    {
+      "text": "child",
+      "translation": "ребёнок",
+      "transcription": "ʧaɪld",
+      "usage": "Any child knows it.",
+      "usageTranslation": "Это каждый ребёнок знает."
+    },
+    {
+      "text": "people",
+      "translation": "люди",
+      "transcription": "ˈpiːpl",
+      "usage": "People change.",
+      "usageTranslation": "Люди меняются."
+    },
+    {
+      "text": "part",
+      "translation": "часть",
+      "transcription": "pɑːt",
+      "usage": "I love this part.",
+      "usageTranslation": "Эта часть мне нравится."
+    },
+    {
+      "text": "boy",
+      "translation": "мальчик",
+      "transcription": "bɔɪ",
+      "usage": "Boys, be ambitious.",
+      "usageTranslation": "Мальчики, будьте амбициозными."
+    },
+    {
+      "text": "mother",
+      "translation": "мать",
+      "transcription": "ˈmʌðə",
+      "usage": "Your mother asked about you.",
+      "usageTranslation": "Твоя мать спрашивала о тебе."
+    },
+    {
+      "text": "short",
+      "translation": "короткий",
+      "transcription": "ʃɔːt",
+      "usage": "I like short hair.",
+      "usageTranslation": "Мне нравится короткая стрижка."
+    },
+    {
+      "text": "interesting",
+      "translation": "интересный",
+      "transcription": "ˈɪntrɪstɪŋ",
+      "usage": "Found anything interesting?",
+      "usageTranslation": "Нашли что-то интересное?"
+    },
+    {
+      "text": "question",
+      "translation": "вопрос",
+      "transcription": "ˈkwɛsʧən",
+      "usage": "Good question!",
+      "usageTranslation": "Хороший вопрос."
+    },
+    {
+      "text": "week",
+      "translation": "неделя",
+      "transcription": "wiːk",
+      "usage": "See you next week!",
+      "usageTranslation": "Увидимся на следующей неделе!"
+    },
+    {
+      "text": "hear",
+      "translation": "слышать",
+      "transcription": "hɪə",
+      "usage": "I hear music.",
+      "usageTranslation": "Я слышу музыку."
+    },
+    {
+      "text": "easy",
+      "translation": "лёгкий",
+      "transcription": "ˈiːzi",
+      "usage": "This is easy.",
+      "usageTranslation": "Это легко."
+    },
+    {
+      "text": "right",
+      "translation": "правильный",
+      "transcription": "raɪt",
+      "usage": "You guessed right.",
+      "usageTranslation": "Ты угадал правильно."
+    },
+    {
+      "text": "woman",
+      "translation": "женщина",
+      "transcription": "ˈwʊmən",
+      "usage": "What a woman!",
+      "usageTranslation": "Какая женщина!"
+    },
+    {
+      "text": "star",
+      "translation": "звезда",
+      "transcription": "stɑː",
+      "usage": "Stars are beautiful.",
+      "usageTranslation": "Звёзды прекрасны."
+    },
+    {
+      "text": "understand",
+      "translation": "понимать",
+      "transcription": "ˌʌndəˈstænd",
+      "usage": "Do you understand?",
+      "usageTranslation": "Ты понимаешь?"
+    },
+    {
+      "text": "word",
+      "translation": "слово",
+      "transcription": "wɜːd",
+      "usage": "Not another word!",
+      "usageTranslation": "Больше ни слова!"
+    },
+    {
+      "text": "eye",
+      "translation": "глаз",
+      "transcription": "aɪ",
+      "usage": "Their eyes met.",
+      "usageTranslation": "Их глаза встретились."
+    },
+    {
+      "text": "age",
+      "translation": "возраст",
+      "transcription": "eɪʤ",
+      "usage": "Act your age.",
+      "usageTranslation": "Веди себя соответственно возрасту."
+    },
+    {
+      "text": "tell",
+      "translation": "рассказывать, сказать",
+      "transcription": "tɛl",
+      "usage": "Tell everybody.",
+      "usageTranslation": "Скажи всем."
+    },
+    {
+      "text": "expensive",
+      "translation": "дорогой",
+      "transcription": "ɪksˈpɛnsɪv",
+      "usage": "Cars are expensive.",
+      "usageTranslation": "Машины дорогие."
+    },
+    {
+      "text": "look",
+      "translation": "смотреть",
+      "transcription": "lʊk",
+      "usage": "Look around.",
+      "usageTranslation": "Посмотри вокруг себя."
+    },
+    {
+      "text": "daughter",
+      "translation": "дочь",
+      "transcription": "ˈdɔːtə",
+      "usage": "How old is your daughter?",
+      "usageTranslation": "Сколько лет вашей дочери?"
+    },
+    {
+      "text": "blue",
+      "translation": "голубой",
+      "transcription": "bluː",
+      "usage": "What blue sky!",
+      "usageTranslation": "Какое голубое небо!"
+    },
+    {
+      "text": "car",
+      "translation": "автомобиль",
+      "transcription": "kɑː",
+      "usage": "Cars are expensive.",
+      "usageTranslation": "Машины дороги."
+    },
+    {
+      "text": "say",
+      "translation": "говорить",
+      "transcription": "seɪ",
+      "usage": "Say something.",
+      "usageTranslation": "Скажи что-нибудь."
+    },
+    {
+      "text": "day",
+      "translation": "день",
+      "transcription": "deɪ",
+      "usage": "Happy Thanksgiving Day.",
+      "usageTranslation": "Счастливого Дня Благодарения."
+    },
+    {
+      "text": "time",
+      "translation": "время",
+      "transcription": "taɪm",
+      "usage": "What time is it?",
+      "usageTranslation": "Сколько времени?"
+    },
+    {
+      "text": "school",
+      "translation": "школа",
+      "transcription": "skuːl",
+      "usage": "He disliked school.",
+      "usageTranslation": "Он не любил школу."
+    },
+    {
+      "text": "brother",
+      "translation": "брат",
+      "transcription": "ˈbrʌðə",
+      "usage": "We are brothers.",
+      "usageTranslation": "Мы братья."
+    },
+    {
+      "text": "watch",
+      "translation": "наблюдать, смотреть",
+      "transcription": "wɒʧ",
+      "usage": "Watch me.",
+      "usageTranslation": "Посмотри на меня!"
+    },
+    {
+      "text": "late",
+      "translation": "поздний",
+      "transcription": "leɪt",
+      "usage": "I met her late in the evening.",
+      "usageTranslation": "Я встретил её поздно вечером."
+    },
+    {
+      "text": "man",
+      "translation": "мужчина",
+      "transcription": "mæn",
+      "usage": "Be a man.",
+      "usageTranslation": "Будь мужчиной!"
+    },
+    {
+      "text": "different",
+      "translation": "разный",
+      "transcription": "ˈdɪfrənt",
+      "usage": "Everyone is different.",
+      "usageTranslation": "Все разные."
+    },
+    {
+      "text": "show",
+      "translation": "показывать",
+      "transcription": "ʃəʊ",
+      "usage": "Show yourself!",
+      "usageTranslation": "Покажись!"
+    },
+    {
+      "text": "green",
+      "translation": "зелёный",
+      "transcription": "griːn",
+      "usage": "Green suits you.",
+      "usageTranslation": "Зеленый тебе идет."
+    },
+    {
+      "text": "long",
+      "translation": "длинный",
+      "transcription": "lɒŋ",
+      "usage": "My dog has a long tail.",
+      "usageTranslation": "У моей собаки длинный хвост."
+    },
+    {
+      "text": "fine",
+      "translation": "хороший",
+      "transcription": "faɪn",
+      "usage": "Fine, thanks.",
+      "usageTranslation": "Хорошо, спасибо!"
+    },
+    {
+      "text": "travel",
+      "translation": "путешествовать",
+      "transcription": "ˈtrævl",
+      "usage": "I travel often.",
+      "usageTranslation": "Я часто путешествую."
+    },
+    {
+      "text": "son",
+      "translation": "сын",
+      "transcription": "sʌn",
+      "usage": "Their son became a famous singer.",
+      "usageTranslation": "Их сын стал известным певцом."
+    },
+    {
+      "text": "hour",
+      "translation": "час",
+      "transcription": "'aʊə",
+      "usage": "I slept nine hours.",
+      "usageTranslation": "Я спал девять часов."
+    },
+    {
+      "text": "afternoon",
+      "translation": "после полудня",
+      "transcription": "ˈɑːftəˈnuːn",
+      "usage": "We leave tomorrow afternoon.",
+      "usageTranslation": "Мы уезжаем завтра после полудня."
+    },
+    {
+      "text": "play",
+      "translation": "играть",
+      "transcription": "pleɪ",
+      "usage": "He plays soccer.",
+      "usageTranslation": "Он играет в футбол."
+    },
+    {
+      "text": "fly",
+      "translation": "летать",
+      "transcription": "flaɪ",
+      "usage": "I can fly.",
+      "usageTranslation": "Я могу летать."
+    },
+    {
+      "text": "small",
+      "translation": "маленький",
+      "transcription": "smɔːl",
+      "usage": "She has small feet.",
+      "usageTranslation": "У неё маленькие ступни."
+    },
+    {
+      "text": "street",
+      "translation": "улица",
+      "transcription": "striːt",
+      "usage": "The streets were empty.",
+      "usageTranslation": "Улицы были пусты."
+    },
+    {
+      "text": "wear",
+      "translation": "носить",
+      "transcription": "weə",
+      "usage": "He wears glasses.",
+      "usageTranslation": "Он носит очки."
+    },
+    {
+      "text": "weather",
+      "translation": "погода",
+      "transcription": "ˈwɛðə",
+      "usage": "What lovely weather!",
+      "usageTranslation": "Какая чудная погода!"
+    },
+    {
+      "text": "take",
+      "translation": "брать",
+      "transcription": "teɪk",
+      "usage": "Take my glasses.",
+      "usageTranslation": "Возьми мои очки."
+    },
+    {
+      "text": "old",
+      "translation": "старый",
+      "transcription": "əʊld",
+      "usage": "Hello, old friend!",
+      "usageTranslation": "Привет, старый друг!"
+    },
+    {
+      "text": "night",
+      "translation": "ночь",
+      "transcription": "naɪt",
+      "usage": "Good night!",
+      "usageTranslation": "Спокойной ночи!"
+    },
+    {
+      "text": "learn",
+      "translation": "учиться",
+      "transcription": "lɜːn",
+      "usage": "You learn English.",
+      "usageTranslation": "Ты учишь английский."
+    },
+    {
+      "text": "little",
+      "translation": "маленький",
+      "transcription": "ˈlɪtl",
+      "usage": "He lives in a little cozy house.",
+      "usageTranslation": "Он живёт в маленьком уютном доме."
+    },
+    {
+      "text": "evening",
+      "translation": "вечер",
+      "transcription": "ˈiːvnɪŋ",
+      "usage": "Call me this evening.",
+      "usageTranslation": "Позвони мне сегодня вечером."
+    },
+    {
+      "text": "wall",
+      "translation": "стена",
+      "transcription": "wɔːl",
+      "usage": "Walls have ears.",
+      "usageTranslation": "У стен есть уши."
+    },
+    {
+      "text": "life",
+      "translation": "жизнь",
+      "transcription": "laɪf",
+      "usage": "Enjoy life.",
+      "usageTranslation": "Наслаждайся жизнью."
+    },
+    {
+      "text": "young",
+      "translation": "молодой",
+      "transcription": "jʌŋ",
+      "usage": "He looks young.",
+      "usageTranslation": "Он молодо выглядит."
+    },
+    {
+      "text": "red",
+      "translation": "красный",
+      "transcription": "rɛd",
+      "usage": "Red wine, please.",
+      "usageTranslation": "Красное вино, пожалуйста."
+    },
+    {
+      "text": "make",
+      "translation": "создавать, делать",
+      "transcription": "meɪk",
+      "usage": "Make your choice.",
+      "usageTranslation": "Делай свой выбор."
+    },
+    {
+      "text": "tree",
+      "translation": "дерево",
+      "transcription": "triː",
+      "usage": "Monkeys climb trees.",
+      "usageTranslation": "Обезьяны забираются на деревья."
+    },
+    {
+      "text": "open",
+      "translation": "открывать",
+      "transcription": "ˈəʊpən",
+      "usage": "Open the door.",
+      "usageTranslation": "Открой дверь."
+    },
+    {
+      "text": "know",
+      "translation": "знать",
+      "transcription": "nəʊ",
+      "usage": "Who knows?",
+      "usageTranslation": "Кто знает?"
+    },
+    {
+      "text": "great",
+      "translation": "великолепный",
+      "transcription": "greɪt",
+      "usage": "Great idea.",
+      "usageTranslation": "Великолепная идея."
+    },
+    {
+      "text": "answer",
+      "translation": "ответ, отвечать",
+      "transcription": "ˈɑːnsə",
+      "usage": "Answer me!",
+      "usageTranslation": "Ответь мне!"
+    },
+    {
+      "text": "country",
+      "translation": "страна",
+      "transcription": "ˈkʌntri",
+      "usage": "Leave this country.",
+      "usageTranslation": "Уезжайте из этой страны."
+    },
+    {
+      "text": "year",
+      "translation": "год",
+      "transcription": "jɪə",
+      "usage": "Next year.",
+      "usageTranslation": "В следующем году."
+    },
+    {
+      "text": "big",
+      "translation": "большой",
+      "transcription": "bɪg",
+      "usage": "Russia is big.",
+      "usageTranslation": "Россия большая."
+    },
+    {
+      "text": "good",
+      "translation": "хороший",
+      "transcription": "gʊd",
+      "usage": "Good hunting.",
+      "usageTranslation": "Хорошей охоты."
+    },
+    {
+      "text": "poor",
+      "translation": "бедный",
+      "transcription": "pʊə",
+      "usage": "Tom is poor.",
+      "usageTranslation": "Том беден."
+    },
+    {
+      "text": "brown",
+      "translation": "коричневый",
+      "transcription": "braʊn",
+      "usage": "He has brown eyes.",
+      "usageTranslation": "У него карие глаза."
+    },
+    {
+      "text": "send",
+      "translation": "отправлять",
+      "transcription": "sɛnd",
+      "usage": "Send a telegram!",
+      "usageTranslation": "Отправь телеграмму!"
+    },
+    {
+      "text": "head",
+      "translation": "голова",
+      "transcription": "hɛd",
+      "usage": "His head ached.",
+      "usageTranslation": "У него болела голова."
+    },
+    {
+      "text": "health",
+      "translation": "здоровье",
+      "transcription": "hɛlθ",
+      "usage": "Exercise improves health.",
+      "usageTranslation": "Упражнения укрепляют здоровье."
+    },
+    {
+      "text": "sing",
+      "translation": "петь",
+      "transcription": "sɪŋ",
+      "usage": "Cicadas are singing.",
+      "usageTranslation": "Поют цикады."
+    },
+    {
+      "text": "bread",
+      "translation": "хлеб",
+      "transcription": "brɛd",
+      "usage": "She baked bread.",
+      "usageTranslation": "Она испекла хлеб."
+    },
+    {
+      "text": "Monday",
+      "translation": "понедельник",
+      "transcription": "’mun.dei",
+      "usage": "Monday follows Sunday.",
+      "usageTranslation": "Понедельник идёт за воскресеньем."
+    },
+    {
+      "text": "Tuesday",
+      "translation": "вторник",
+      "transcription": "ˈtjuːzdeɪ",
+      "usage": "He phoned on Tuesday.",
+      "usageTranslation": "Он звонил во вторник."
+    },
+    {
+      "text": "Wednesday",
+      "translation": "среда",
+      "transcription": "ˈwenzdeɪ",
+      "usage": "I'll see you on Wednesday.",
+      "usageTranslation": "Увидимся в среду."
+    },
+    {
+      "text": "Thursday",
+      "translation": "четверг",
+      "transcription": "’thurz.dei",
+      "usage": "Yesterday was Thursday.",
+      "usageTranslation": "Вчера был четверг."
+    },
+    {
+      "text": "Friday",
+      "translation": "пятница",
+      "transcription": "’frai.dei",
+      "usage": "How about Friday?",
+      "usageTranslation": "Как насчёт пятницы?"
+    },
+    {
+      "text": "Saturday",
+      "translation": "суббота",
+      "transcription": "’sa.ta.dei",
+      "usage": "I like Saturdays.",
+      "usageTranslation": "Мне нравятся субботы."
+    },
+    {
+      "text": "Sunday",
+      "translation": "воскресенье",
+      "transcription": "’sun.dei",
+      "usage": "He works Sundays.",
+      "usageTranslation": "Он работает по воскресеньям."
+    },
+    {
+      "text": "January",
+      "translation": "январь",
+      "transcription": "'ʤænju(ə)ri",
+      "usage": "Is it January already?",
+      "usageTranslation": "Уже январь?"
+    },
+    {
+      "text": "February",
+      "translation": "февраль",
+      "transcription": "‘febru (ə)ri",
+      "usage": "February has only 28 days.",
+      "usageTranslation": "В феврале только 28 дней."
+    },
+    {
+      "text": "March",
+      "translation": "март",
+      "transcription": "mɑːʧ",
+      "usage": "He finished school in March.",
+      "usageTranslation": "Он окончил школу в марте."
+    },
+    {
+      "text": "April",
+      "translation": "апрель",
+      "transcription": "‘eipr (ə)l",
+      "usage": "It's April first.",
+      "usageTranslation": "Сегодня первое апреля."
+    },
+    {
+      "text": "May",
+      "translation": "май",
+      "transcription": "meɪ",
+      "usage": "May is my favourite month.",
+      "usageTranslation": "Май - мой любимый месяц."
+    },
+    {
+      "text": "June",
+      "translation": "июнь",
+      "transcription": "ʤuːn",
+      "usage": "Rainy season begins in June.",
+      "usageTranslation": "Сезон дождей начинается в июне."
+    },
+    {
+      "text": "July",
+      "translation": "июль",
+      "transcription": "dʒ u’lai",
+      "usage": "Happy Fourth of July!",
+      "usageTranslation": "С Четвёртым июля!"
+    },
+    {
+      "text": "August",
+      "translation": "август",
+      "transcription": "ɔː'gʌst",
+      "usage": "It was late August.",
+      "usageTranslation": "Был конец августа."
+    },
+    {
+      "text": "September",
+      "translation": "сентябрь",
+      "transcription": "sep’ tembə",
+      "usage": "School reopens in September.",
+      "usageTranslation": "Школа снова откроется в сентябре."
+    },
+    {
+      "text": "October",
+      "translation": "октябрь",
+      "transcription": "ɔk’ təubə",
+      "usage": "October is over.",
+      "usageTranslation": "Октябрь прошёл."
+    },
+    {
+      "text": "November",
+      "translation": "ноябрь",
+      "transcription": "nəu’ vembə",
+      "usage": "My birthday is in November.",
+      "usageTranslation": "Мой день рождения в ноябре."
+    },
+    {
+      "text": "December",
+      "translation": "декабрь",
+      "transcription": "di’s embə",
+      "usage": "Christmas is December 25th.",
+      "usageTranslation": "Рождество двадцать пятого декабря."
+    },
+    {
+      "text": "one",
+      "translation": "один",
+      "transcription": "wʌn",
+      "usage": "Choose one.",
+      "usageTranslation": "Выбери один."
+    },
+    {
+      "text": "two",
+      "translation": "два",
+      "transcription": "tuː",
+      "usage": "Two beers, please.",
+      "usageTranslation": "Два пива, пожалуйста."
+    },
+    {
+      "text": "three",
+      "translation": "три",
+      "transcription": "θriː",
+      "usage": "Three coffees, please.",
+      "usageTranslation": "Три кофе, пожалуйста."
+    },
+    {
+      "text": "four",
+      "translation": "четыре",
+      "transcription": "fɔː",
+      "usage": "Twice two is four.",
+      "usageTranslation": "Дважды два — четыре."
+    },
+    {
+      "text": "five",
+      "translation": "пять",
+      "transcription": "faɪv",
+      "usage": "High five!",
+      "usageTranslation": "Дай пять!"
+    },
+    {
+      "text": "six",
+      "translation": "шeсть",
+      "transcription": "sɪks",
+      "usage": "It's almost six.",
+      "usageTranslation": "Сейчас почти шесть."
+    },
+    {
+      "text": "seven",
+      "translation": "семь",
+      "transcription": "ˈsɛvn",
+      "usage": "They dine at seven.",
+      "usageTranslation": "Они ужинают в семь."
+    },
+    {
+      "text": "eight",
+      "translation": "восемь",
+      "transcription": "eɪt",
+      "usage": "He is eight.",
+      "usageTranslation": "Ему восемь."
+    },
+    {
+      "text": "nine",
+      "translation": "девять",
+      "transcription": "naɪn",
+      "usage": "I slept nine hours.",
+      "usageTranslation": "Я спал девять часов."
+    },
+    {
+      "text": "ten",
+      "translation": "десять",
+      "transcription": "tɛn",
+      "usage": "Count to ten.",
+      "usageTranslation": "Посчитай до десяти."
+    },
+    {
+      "text": "eleven",
+      "translation": "одиннадцать",
+      "transcription": "ɪˈlɛvn",
+      "usage": "This house has eleven rooms.",
+      "usageTranslation": "В этом доме одиннадцать комнат."
+    },
+    {
+      "text": "twelve",
+      "translation": "двенадцать",
+      "transcription": "twɛlv",
+      "usage": "A year has twelve months.",
+      "usageTranslation": "В году двенадцать месяцев."
+    },
+    {
+      "text": "thirteen",
+      "translation": "тринадцать",
+      "transcription": "ˈθɜːˈtiːn",
+      "usage": "I have thirteen cats.",
+      "usageTranslation": "У меня тринадцать кошек."
+    },
+    {
+      "text": "fourteen",
+      "translation": "четырнадцать",
+      "transcription": "ˌfɔː'tiːn",
+      "usage": "Did you say fourteen or forty?",
+      "usageTranslation": "Ты сказал четырнадцать или сорок?"
+    },
+    {
+      "text": "fifteen",
+      "translation": "пятнадцать",
+      "transcription": "ˈfɪfˈtiːn",
+      "usage": "Please wait fifteen minutes.",
+      "usageTranslation": "Подождите пятнадцать минут, пожалуйста."
+    },
+    {
+      "text": "sixteen",
+      "translation": "шестнадцать",
+      "transcription": "ˈsɪksˈtiːn",
+      "usage": "I'm sixteen years old.",
+      "usageTranslation": "Мне шестнадцать лет."
+    },
+    {
+      "text": "seventeen",
+      "translation": "семнадцать",
+      "transcription": "ˈsɛvnˈtiːn",
+      "usage": "She got married at seventeen.",
+      "usageTranslation": "Она вышла замуж в семнадцать лет."
+    },
+    {
+      "text": "eighteen",
+      "translation": "восемнадцать",
+      "transcription": "ˌeɪˈtiːn",
+      "usage": "She said she was over eighteen.",
+      "usageTranslation": "Она сказала, что ей больше восемнадцати."
+    },
+    {
+      "text": "nineteen",
+      "translation": "девятнадцать",
+      "transcription": "ˈnaɪnˈtiːn",
+      "usage": "So I turned nineteen today",
+      "usageTranslation": "Сегодня мне исполнилось девятнадцать."
+    },
+    {
+      "text": "twenty",
+      "translation": "двадцать",
+      "transcription": "ˈtwɛnti",
+      "usage": "Twenty families live here.",
+      "usageTranslation": "Здесь живут двадцать семей."
+    },
+    {
+      "text": "thirty",
+      "translation": "тридцать",
+      "transcription": "ˈθɜːti",
+      "usage": "Wait thirty minutes.",
+      "usageTranslation": "Подожди тридцать минут."
+    },
+    {
+      "text": "forty",
+      "translation": "сорок",
+      "transcription": "ˈfɔːti",
+      "usage": "Forty years passed.",
+      "usageTranslation": "Прошло сорок лет."
+    },
+    {
+      "text": "fifty",
+      "translation": "пятьдесят",
+      "transcription": "ˈfɪfti",
+      "usage": "He had fifty dollars.",
+      "usageTranslation": "У него было пятьдесят долларов."
+    },
+    {
+      "text": "sixty",
+      "translation": "шестьдесят",
+      "transcription": "ˈsɪksti",
+      "usage": "He retired at sixty.",
+      "usageTranslation": "Он вышел на пенсию в шестьдесят лет."
+    },
+    {
+      "text": "seventy",
+      "translation": "семьдесят",
+      "transcription": "ˈsɛvnti",
+      "usage": "Tom lost seventy pounds.",
+      "usageTranslation": "Том потерял семьдесят фунтов."
+    },
+    {
+      "text": "eighty",
+      "translation": "восемьдесят",
+      "transcription": "ˈeɪti",
+      "usage": "This candy costs eighty cents.",
+      "usageTranslation": "Эта конфета стоит восемьдесят центов."
+    },
+    {
+      "text": "ninety",
+      "translation": "девяносто",
+      "transcription": "ˈnaɪnti",
+      "usage": "Please read page ninety-four.",
+      "usageTranslation": "Пожалуйста, прочитай девяносто четвёртую страницу."
+    },
+    {
+      "text": "hundred",
+      "translation": "сто",
+      "transcription": "ˈhʌndrəd",
+      "usage": "Tom saved three hundred dollars.",
+      "usageTranslation": "Том сэкономил триста долларов."
+    },
+    {
+      "text": "thousand",
+      "translation": "тысяча",
+      "transcription": "ˈθaʊzənd",
+      "usage": "Again, a thousand apologies.",
+      "usageTranslation": "Ещё раз приношу тысячу извинений."
+    },
+    {
+      "text": "million",
+      "translation": "миллион",
+      "transcription": "ˈmɪljən",
+      "usage": "It cost 30 million dollars.",
+      "usageTranslation": "Он стоил тридцать миллионов долларов."
+    },
+    {
+      "text": "billion",
+      "translation": "миллиард",
+      "transcription": "ˈbɪljən",
+      "usage": "There are billions of stars in the sky.",
+      "usageTranslation": "В небе миллиарды звезд."
+    },
+    {
+      "text": "first",
+      "translation": "первый",
+      "transcription": "fɜːst",
+      "usage": "Who's first?",
+      "usageTranslation": "Кто первый?"
+    },
+    {
+      "text": "second",
+      "translation": "второй",
+      "transcription": "ˈsɛkənd",
+      "usage": "Second semester has ended.",
+      "usageTranslation": "Закончился второй семестр."
+    },
+    {
+      "text": "half",
+      "translation": "половина",
+      "transcription": "hɑːf",
+      "usage": "Leave me half.",
+      "usageTranslation": "Оставь мне половину."
+    },
+    {
+      "text": "several",
+      "translation": "несколько",
+      "transcription": "ˈsɛvrəl",
+      "usage": "He made several corrections.",
+      "usageTranslation": "Он внёс несколько исправлений."
+    },
+    {
+      "text": "dozen",
+      "translation": "дюжина",
+      "transcription": "ˈdʌzn",
+      "usage": "He bought a dozen eggs.",
+      "usageTranslation": "Он купил дюжину яиц."
+    },
+    {
+      "text": "double",
+      "translation": "двойной",
+      "transcription": "ˈdʌbl",
+      "usage": "She has a double chin.",
+      "usageTranslation": "У неё двойной подбородок."
+    }
+  ]
+}
