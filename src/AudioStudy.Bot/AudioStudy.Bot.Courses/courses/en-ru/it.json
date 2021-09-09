@@ -1,0 +1,1566 @@
+{
+  "id": "d67869f4-52c9-4801-8bca-42f6f14b18d0",
+  "version": 1,
+  "weight": 0,
+  "type": "words",
+  "name": "IT",
+  "nameTranslation": "IT",
+  "language": "en",
+  "translationLanguage": "ru",
+  "cards": [
+    {
+      "text": "gamification",
+      "translation": "геймификация",
+      "transcription": "ˌɡeɪm.ɪ.fɪˈkeɪ.ʃən",
+      "usage": "So we applied these gamification techniques to learning.",
+      "usageTranslation": "Мы применили эти приёмы геймификации к обучению."
+    },
+    {
+      "text": "buffer",
+      "translation": "буфер",
+      "transcription": "ˈbʌfə",
+      "usage": "The clipboard is a buffer that some operating systems provide for short-term storage.",
+      "usageTranslation": "Буфер обмена - это буфер, который некоторые операционные системы предоставляют для краткосрочного хранения информации."
+    },
+    {
+      "text": "subscribe",
+      "translation": "подписываться",
+      "transcription": "səbˈskraɪb",
+      "usage": "Subscribe to our YouTube channel.",
+      "usageTranslation": "Подписывайтесь на наш канал на Ютубе."
+    },
+    {
+      "text": "spam",
+      "translation": "спам",
+      "transcription": "spæm",
+      "usage": "Spam is annoying.",
+      "usageTranslation": "Спам раздражает."
+    },
+    {
+      "text": "cloud services",
+      "translation": "облачные сервисы",
+      "transcription": "klaʊd ˈsɜːvɪsɪz",
+      "usage": "What cloud services do they offer?",
+      "usageTranslation": "Какие облачные сервисы они предоставляет?"
+    },
+    {
+      "text": "programming language",
+      "translation": "язык программирования",
+      "transcription": "ˈprəʊgræmɪŋ ˈlæŋgwɪʤ",
+      "usage": "JavaScript is a programming language.",
+      "usageTranslation": "JavaScript — язык программирования."
+    },
+    {
+      "text": "file",
+      "translation": "файл",
+      "transcription": "faɪl",
+      "usage": "The file has been sent.",
+      "usageTranslation": "Файл отправлен."
+    },
+    {
+      "text": "personal computer",
+      "translation": "персональный компьютер",
+      "transcription": "ˈpɜːsnl kəmˈpjuːtə",
+      "usage": "I have to make money to buy a personal computer.",
+      "usageTranslation": "Мне нужно заработать деньги, чтобы купить персональный компьютер."
+    },
+    {
+      "text": "help",
+      "translation": "помогать",
+      "transcription": "hɛlp",
+      "usage": "Can I help you?",
+      "usageTranslation": "Я могу вам помочь?"
+    },
+    {
+      "text": "select",
+      "translation": "выбирать",
+      "transcription": "sɪˈlɛkt",
+      "usage": "Select the correct answer!",
+      "usageTranslation": "Выберите правильный ответ."
+    },
+    {
+      "text": "sample",
+      "translation": "образец",
+      "transcription": "ˈsɑːmpl",
+      "usage": "This is a free sample.",
+      "usageTranslation": "Это бесплатный образец."
+    },
+    {
+      "text": "screen",
+      "translation": "экран",
+      "transcription": "skriːn",
+      "usage": "The blue screen of death popped up on the screen.",
+      "usageTranslation": "На экране выскочил синий экран смерти."
+    },
+    {
+      "text": "catalog",
+      "translation": "каталог",
+      "transcription": "ˈkætəlɒg",
+      "usage": "Send me a new catalog.",
+      "usageTranslation": "Отправь мне новый каталог."
+    },
+    {
+      "text": "internet service provider (ISP)",
+      "translation": "интернет-провайдер",
+      "transcription": "ˈɪntəˌnɛt ˈsɜːvɪs prəˈvaɪdə (aɪ-ɛs-piː)",
+      "usage": "Internet service provider a company that provides access to the Internet",
+      "usageTranslation": "Провайдер - это компания, которая предоставляет доступ в интернет."
+    },
+    {
+      "text": "monitor",
+      "translation": "монитор",
+      "transcription": "ˈmɒnɪtə",
+      "usage": "It's a cheap monitor.",
+      "usageTranslation": "Это дешёвый монитор."
+    },
+    {
+      "text": "format",
+      "translation": "формат, форматировать",
+      "transcription": "ˈfɔːmæt",
+      "usage": "You should not format this diskette.",
+      "usageTranslation": "Вы не должны форматировать эту дискету."
+    },
+    {
+      "text": "interface",
+      "translation": "интерфейс",
+      "transcription": "ˈɪntəˌfeɪs",
+      "usage": "The interface is very intuitive.",
+      "usageTranslation": "Интерфейс очень интуитивно понятен."
+    },
+    {
+      "text": "deploy",
+      "translation": "развернуть (например релиз на сервер)",
+      "transcription": "dɪˈplɔɪ",
+      "usage": "Did you deploy it in the new server?",
+      "usageTranslation": "Ты развернул это на новый сервер?"
+    },
+    {
+      "text": "generate",
+      "translation": "производить, генерировать",
+      "transcription": "ˈʤɛnəreɪt",
+      "usage": "You should let a computer program generate passwords.",
+      "usageTranslation": "Ты должен позволить компьютерной программе сгенерировать пароли."
+    },
+    {
+      "text": "double-click",
+      "translation": "двойной щелчок мышью",
+      "transcription": "ˈdʌbəlklɪk",
+      "usage": "Double-click the icon.",
+      "usageTranslation": "Дважды щёлкните по иконке."
+    },
+    {
+      "text": "remote administration",
+      "translation": "удаленное администрирование",
+      "transcription": "rɪˈmoʊt ædˌmɪnɪˈstreɪʃən",
+      "usage": "New remote administration plans and services for our customers introduced.",
+      "usageTranslation": "Представлены новые планы удаленного администрирования и услуги для наших клиентов."
+    },
+    {
+      "text": "login",
+      "translation": "имя пользователя",
+      "transcription": "ˈlɒgɪn",
+      "usage": "What's your Skype login name?",
+      "usageTranslation": "Какой у тебя логин в Скайпе?"
+    },
+    {
+      "text": "toolbar",
+      "translation": "панель инструментов",
+      "transcription": "tulbɑr",
+      "usage": "Can you see the toolbar at the bottom of the screen?",
+      "usageTranslation": "Вы видите панель инструментов внизу экрана?"
+    },
+    {
+      "text": "WI-FI",
+      "translation": "беспроводное подключение к интернету, вай-фай",
+      "transcription": "ˌwaɪˈfaɪ",
+      "usage": "Do you know what the Wi-Fi password is?",
+      "usageTranslation": "Вы знаете пароль от Wi-Fi?"
+    },
+    {
+      "text": "Random-access memory (RAM)",
+      "translation": "Оперативное запоминающее устройство (ОЗУ), оперативная память",
+      "transcription": "ˈrændəm-ˈæksɛs ˈmɛməri (ræm)",
+      "usage": "For local programs your computer needs about 512 MB RAM.",
+      "usageTranslation": "Для локальных программ вашему компьютеру требуется около 512 МБ ОЗУ."
+    },
+    {
+      "text": "spreadsheet",
+      "translation": "электронная таблица",
+      "transcription": "ˈsprɛdʃiːt",
+      "usage": "Accountants love spreadsheets.",
+      "usageTranslation": "Бухгалтеры любят электронные таблицы."
+    },
+    {
+      "text": "read only",
+      "translation": "предназначенный только для чтения",
+      "transcription": "rid ˈoʊnli",
+      "usage": "These files are read only.",
+      "usageTranslation": "Эти файлы только для чтения."
+    },
+    {
+      "text": "press",
+      "translation": "нажимать",
+      "transcription": "prɛs",
+      "usage": "Could you press this button?",
+      "usageTranslation": "Ты не мог бы нажать на эту кнопку?"
+    },
+    {
+      "text": "B2C (business-to-consumer)",
+      "translation": "бизнес для клиента",
+      "transcription": "ˈbɪznəs tu kənˈsumər",
+      "usage": "B2B (business-to-business) is the exchange of products between businesses, rather than between businesses and consumers (B2C)",
+      "usageTranslation": "B2B это обмен продуктами между бизнесами, а не бизнесами и потребителями (B2C)."
+    },
+    {
+      "text": "outsourcing",
+      "translation": "аутсорсинг",
+      "transcription": "ˌaʊtˈsɔːsɪŋ",
+      "usage": "Outsourcing is the practice of hiring resources outside of an organization.",
+      "usageTranslation": "Aутсорсинг - это практика найма рабочих ресурсов за пределами организации."
+    },
+    {
+      "text": "mentor",
+      "translation": "наставник",
+      "transcription": "ˈmɛntɔː",
+      "usage": "Failure is the best mentor.",
+      "usageTranslation": "Неудачи – это наилучший наставник."
+    },
+    {
+      "text": "firewall",
+      "translation": "файрвол, межсетевой экран",
+      "transcription": "ˈfaɪəwɔːl",
+      "usage": "A firewall will guarantee Internet security.",
+      "usageTranslation": "Файрвол обеспечит гарантированную безопасность в сети Интернет."
+    },
+    {
+      "text": "data",
+      "translation": "данные",
+      "transcription": "ˈdeɪtə",
+      "usage": "This data is incorrect.",
+      "usageTranslation": "Это неверные данные."
+    },
+    {
+      "text": "send",
+      "translation": "отправлять",
+      "transcription": "sɛnd",
+      "usage": "Send it by mail.",
+      "usageTranslation": "Отправь это по почте."
+    },
+    {
+      "text": "boot disk",
+      "translation": "загрузочный диск",
+      "transcription": "buːt dɪsk",
+      "usage": "You don't need to make a boot disk.",
+      "usageTranslation": "Вам не нужно создавать загрузочный диск."
+    },
+    {
+      "text": "invention",
+      "translation": "изобретение",
+      "transcription": "ɪnˈvɛnʃən",
+      "usage": "His invention is brilliant!",
+      "usageTranslation": "Его изобретение гениально!"
+    },
+    {
+      "text": "knowledge",
+      "translation": "сведения",
+      "transcription": "ˈnɒlɪʤ",
+      "usage": "Your knowledge surprises me.",
+      "usageTranslation": "Твои знания удивляют меня."
+    },
+    {
+      "text": "scroll down",
+      "translation": "прокручивать вниз",
+      "transcription": "skrəʊl daʊn",
+      "usage": "Scroll down to the bottom of the page.",
+      "usageTranslation": "Прокрутите страницу вниз."
+    },
+    {
+      "text": "find",
+      "translation": "найти",
+      "transcription": "faɪnd",
+      "usage": "Where did you find it?",
+      "usageTranslation": "Где ты это нашёл?"
+    },
+    {
+      "text": "privacy policy",
+      "translation": "политика конфиденциальности",
+      "transcription": "ˈpraɪvəsi ˈpɑləsi",
+      "usage": "Our privacy policy describes the information we collect and how we use it.",
+      "usageTranslation": "Наша политика конфиденциальности описывает информацию, которую мы собираем, и то, как мы её используем."
+    },
+    {
+      "text": "technology",
+      "translation": "технология",
+      "transcription": "tɛkˈnɒləʤi",
+      "usage": "Technology is just a tool.",
+      "usageTranslation": "Технологии — это лишь инструмент."
+    },
+    {
+      "text": "manual",
+      "translation": "ручной, руководство",
+      "transcription": "ˈmænjʊəl",
+      "usage": "I don't need the user manual.",
+      "usageTranslation": "Мне не нужна инструкция."
+    },
+    {
+      "text": "close",
+      "translation": "закрыть",
+      "transcription": "kləʊz",
+      "usage": "Close the tab.",
+      "usageTranslation": "Закрой вкладку."
+    },
+    {
+      "text": "space bar",
+      "translation": "клавиша пробела",
+      "transcription": "speɪs bɑː",
+      "usage": "When you're ready to go, just press the space bar.",
+      "usageTranslation": "Когда будешь готова, просто нажми на пробел."
+    },
+    {
+      "text": "agile software development",
+      "translation": "гибкая разработка программного обеспечения",
+      "transcription": "ˈæʤaɪl ˈsɒftweə dɪˈvɛləpmənt",
+      "usage": "Scrum is an agile development methodology",
+      "usageTranslation": "Скрам - это методология гибкой разработки программного обеспечения."
+    },
+    {
+      "text": "iteration",
+      "translation": "итерация",
+      "transcription": "ˌɪtəˈreɪʃən",
+      "usage": "Each iteration lasts about 1-2 months, followed by a new release.",
+      "usageTranslation": "Каждая итерация длится приблизительно 1-2 месяца, после чего выпускается релиз."
+    },
+    {
+      "text": "open-source software",
+      "translation": "программное обеспечение с открытым исходным кодом",
+      "transcription": "ˈoʊpən sɔrs ˈsɔfˌtwɛr",
+      "usage": "Tatoeba is open source software.",
+      "usageTranslation": "Tatoeba - программное обеспечение с открытым исходным текстом."
+    },
+    {
+      "text": "give feedback",
+      "translation": "давать обратную связь",
+      "transcription": "gɪv ˈfidˌbæk",
+      "usage": "And you have to give feedback to nurses who work beneath you.",
+      "usageTranslation": "И ты должна давать обратную связь медсёстрам, подчиняющимся тебе."
+    },
+    {
+      "text": "overload",
+      "translation": "перегрузка",
+      "transcription": "ˈəʊvələʊd",
+      "usage": "The server is overloaded.",
+      "usageTranslation": "Сервер перегружен."
+    },
+    {
+      "text": "scalable",
+      "translation": "масштабируемый",
+      "transcription": "ˈskeɪləbl",
+      "usage": "Scalable solutions",
+      "usageTranslation": "Масштабируемые решения."
+    },
+    {
+      "text": "integration",
+      "translation": "интеграция",
+      "transcription": "ˌɪntɪˈgreɪʃən",
+      "usage": "I am hired as a product integration engineer.",
+      "usageTranslation": "Меня наняли, как инженера по интеграции продукта."
+    },
+    {
+      "text": "backup",
+      "translation": "резервная копия",
+      "transcription": "ˈbækʌp",
+      "usage": "A database backup.",
+      "usageTranslation": "Резервная копия базы данных."
+    },
+    {
+      "text": "hunch",
+      "translation": "предчувствие",
+      "transcription": "hʌnʧ",
+      "usage": "I have a hunch that it will rain.",
+      "usageTranslation": "У меня такое предчувствие, что будет дождь."
+    },
+    {
+      "text": "electronic",
+      "translation": "электронный",
+      "transcription": "ˏelekˊtrɒnɪk",
+      "usage": "What electronic devices do you use the most?",
+      "usageTranslation": "Какими электронными устройствами вы чаще всего пользуетесь?"
+    },
+    {
+      "text": "user manual",
+      "translation": "руководство пользователя",
+      "transcription": "ˈjuːzə ˈmænjʊəl",
+      "usage": "I don't need the user manual.",
+      "usageTranslation": "Мне не нужна инструкция."
+    },
+    {
+      "text": "e-mail",
+      "translation": "электронная почта, электронное письмо",
+      "transcription": "iː meɪl",
+      "usage": "For some reason I couldn't access my e-mail.",
+      "usageTranslation": "По некоторой причине я не мог войти в свою электронную почту."
+    },
+    {
+      "text": "paste",
+      "translation": "вставить",
+      "transcription": "peɪst",
+      "usage": "Paste the link.",
+      "usageTranslation": "Вставьте ссылку."
+    },
+    {
+      "text": "edit",
+      "translation": "редактировать",
+      "transcription": "ˈɛdɪt",
+      "usage": "How often do you edit your profile?",
+      "usageTranslation": "Как часто вы редактируете свой профиль?"
+    },
+    {
+      "text": "automatically",
+      "translation": "автоматически",
+      "transcription": "ˌɔːtəˈmætɪkəli",
+      "usage": "It happens automatically.",
+      "usageTranslation": "Это происходит автоматически."
+    },
+    {
+      "text": "confidential",
+      "translation": "конфиденциальный",
+      "transcription": "ˌkɒnfɪˈdɛnʃəl",
+      "usage": "This information is confidential.",
+      "usageTranslation": "Это конфиденциальная информация."
+    },
+    {
+      "text": "keyboard",
+      "translation": "клавиатура",
+      "transcription": "ˈkiːbɔːd",
+      "usage": "This keyboard is perfect.",
+      "usageTranslation": "Эта клавиатура совершенна."
+    },
+    {
+      "text": "headset",
+      "translation": "наушники",
+      "transcription": "ˈhɛdsɛt",
+      "usage": "Mary took off her headset.",
+      "usageTranslation": "Мэри сняла наушники."
+    },
+    {
+      "text": "flash drive",
+      "translation": "флеш-диск",
+      "transcription": "flæʃ draɪv",
+      "usage": "Have you seen my flash drive?",
+      "usageTranslation": "Ты не видел мою флешку?"
+    },
+    {
+      "text": "data storage",
+      "translation": "хранилище данных",
+      "transcription": "ˈdeɪtə ˈstɔrəʤ",
+      "usage": "Cannot create data storage because access is denied.",
+      "usageTranslation": "Не удается создать хранилище данных из-за отказа в доступе."
+    },
+    {
+      "text": "protect",
+      "translation": "защищать",
+      "transcription": "prəˈtɛkt",
+      "usage": "I can protect you.",
+      "usageTranslation": "Я могу тебя защитить."
+    },
+    {
+      "text": "folder",
+      "translation": "папка",
+      "transcription": "ˈfəʊldə",
+      "usage": "Which folder should I open?",
+      "usageTranslation": "Которую папку мне открыть?"
+    },
+    {
+      "text": "sign up",
+      "translation": "зарегистрироваться на сайте",
+      "transcription": "saɪn ʌp",
+      "usage": "How do I sign up?",
+      "usageTranslation": "Как мне зарегистрироваться?"
+    },
+    {
+      "text": "support",
+      "translation": "поддержка",
+      "transcription": "səˈpɔːt",
+      "usage": "Technical support.",
+      "usageTranslation": "Техническая поддержка."
+    },
+    {
+      "text": "gigabyte",
+      "translation": "гигабайт",
+      "transcription": "ˈgɪgəbaɪt",
+      "usage": "I suppose then an 8-Gigabyte hard drive will be adequate.",
+      "usageTranslation": "Я думаю, 8-гигабайтного жёсткого диска будет достаточно."
+    },
+    {
+      "text": "archive",
+      "translation": "архивировать",
+      "transcription": "ˈɑːkaɪv",
+      "usage": "The documents are physically stored in archive ZIP files.",
+      "usageTranslation": "Документы физически хранятся в архивных файлах формата ZIP."
+    },
+    {
+      "text": "e-book",
+      "translation": "электронная книга",
+      "transcription": "ˈiːbʊk",
+      "usage": "Do you think that e-books will replace paper books?",
+      "usageTranslation": "Вы думаете, электронные книги заменят бумажные?"
+    },
+    {
+      "text": "update",
+      "translation": "обновлять",
+      "transcription": "ʌpˈdeɪt",
+      "usage": "Do you update your website often?",
+      "usageTranslation": "Ты часто обновляешь свой сайт?"
+    },
+    {
+      "text": "address book",
+      "translation": "адресная книга",
+      "transcription": "əˈdrɛs bʊk",
+      "usage": "I left my address book in my room.",
+      "usageTranslation": "Я оставил мою адресную книгу в моей комнате."
+    },
+    {
+      "text": "system administrator",
+      "translation": "системный администратор",
+      "transcription": "ˈsɪstɪm ədˈmɪnɪstreɪtə",
+      "usage": "Please try again or consult your system administrator.",
+      "usageTranslation": "Пожалуйста, повторите попытку или обратитесь за помощью к своему системному администратору."
+    },
+    {
+      "text": "scroll bar",
+      "translation": "полоса прокрутки",
+      "transcription": "skroʊl bɑr",
+      "usage": "Show the scroll bar on the right side of the terminal window.",
+      "usageTranslation": "Показывать полосу прокрутки справа от окна сеанса."
+    },
+    {
+      "text": "cancel",
+      "translation": "отменить",
+      "transcription": "ˈkænsəl",
+      "usage": "I had to cancel the meeting.",
+      "usageTranslation": "Мне пришлось отменить собрание."
+    },
+    {
+      "text": "software development engineer",
+      "translation": "инженер по разработке программного обеспечения",
+      "transcription": "ˈsɒftweə dɪˈvɛləpmənt ˌɛnʤɪˈnɪə",
+      "usage": "Irina is a software engineer now.",
+      "usageTranslation": "Ирина сейчас программист."
+    },
+    {
+      "text": "prototype",
+      "translation": "прототип",
+      "transcription": "ˈprəʊtəʊtaɪp",
+      "usage": "This is only a prototype.",
+      "usageTranslation": "Это всего лишь прототип."
+    },
+    {
+      "text": "link",
+      "translation": "ссылка",
+      "transcription": "lɪŋk",
+      "usage": "Click on the link.",
+      "usageTranslation": "Нажми на ссылку."
+    },
+    {
+      "text": "permission",
+      "translation": "разрешение",
+      "transcription": "pəˈmɪʃən",
+      "usage": "Did you get permission to do that?",
+      "usageTranslation": "Ты получил на это разрешение?"
+    },
+    {
+      "text": "video card",
+      "translation": "видеокарта",
+      "transcription": "ˈvɪdɪəʊ kɑːd",
+      "usage": "You will need a video card to play this game.",
+      "usageTranslation": "Тебе понадобится видеокарта, чтобы играть в эту игру."
+    },
+    {
+      "text": "network",
+      "translation": "сеть",
+      "transcription": "ˈnɛtwɜːk",
+      "usage": "We must not let them infiltrate our network.",
+      "usageTranslation": "Мы не должны позволить им проникнуть в нашу сеть."
+    },
+    {
+      "text": "digital",
+      "translation": "цифровой, электронный",
+      "transcription": "ˈdɪʤɪtl",
+      "usage": "All of my books are digital.",
+      "usageTranslation": "У меня все книги в электронном виде."
+    },
+    {
+      "text": "smartphone",
+      "translation": "смартфон",
+      "transcription": "ˈsmɑːtfəʊn",
+      "usage": "He broke his new smartphone.",
+      "usageTranslation": "Он разбил новый смартфон."
+    },
+    {
+      "text": "registered",
+      "translation": "зарегистрированный",
+      "transcription": "ˈrɛʤɪstəd",
+      "usage": "All participants must be registered.",
+      "usageTranslation": "Все участники должны быть зарегистрированны."
+    },
+    {
+      "text": "freemium",
+      "translation": "фремиум",
+      "transcription": "ˈfriːmiəm",
+      "usage": "Freemium is a pricing strategy by which a basic product is provided free of charge",
+      "usageTranslation": "Фримиум - это ценовая стратегия, когда базовый продукт предоставляется бесплатно."
+    },
+    {
+      "text": "virtual memory",
+      "translation": "виртуальная память",
+      "transcription": "ˈvɜːtjʊəl ˈmɛməri",
+      "usage": "Virtual memory is a memory management technique.",
+      "usageTranslation": "Виртуальная память - это метод управления памятью."
+    },
+    {
+      "text": "enter",
+      "translation": "ввод",
+      "transcription": "ˈɛntə",
+      "usage": "Enter your password.",
+      "usageTranslation": "Введите пароль."
+    },
+    {
+      "text": "search",
+      "translation": "искать",
+      "transcription": "sɜːʧ",
+      "usage": "You can search the Internet using a keyword or phrase.",
+      "usageTranslation": "Вы можете искать в интернете по ключевому слову или фразе."
+    },
+    {
+      "text": "software",
+      "translation": "программное обеспечение",
+      "transcription": "ˈsɒftweə",
+      "usage": "Update your software.",
+      "usageTranslation": "Обновите ваше программное обеспечение."
+    },
+    {
+      "text": "printer",
+      "translation": "принтер",
+      "transcription": "ˈprɪntə",
+      "usage": "The printer needs paper.",
+      "usageTranslation": "В принтер нужно вставить бумагу."
+    },
+    {
+      "text": "output",
+      "translation": "выход",
+      "transcription": "ˈaʊtpʊt",
+      "usage": "Cannot create the output file.",
+      "usageTranslation": "Не удалось создать выходной файл."
+    },
+    {
+      "text": "gesture",
+      "translation": "жест",
+      "transcription": "ˈʤɛsʧə",
+      "usage": "Control iPhone using a few simple gestures — tap, swipe and scroll.",
+      "usageTranslation": "Управляйте своим Айфоном используя несколько простых жестов - там, свайп и скролл."
+    },
+    {
+      "text": "minimum viable product",
+      "translation": "минимально жизнеспособный продукт",
+      "transcription": "ˈmɪnəməm ˈvaɪəbəl ˈprɑdəkt",
+      "usage": "A minimum viable product has just enough core features to effectively deploy the product, and no more.",
+      "usageTranslation": "Минимально жизнеспособный продукт имеет только те основные функции, которые достаточны для развёртывания продукта, и не более того."
+    },
+    {
+      "text": "attempt",
+      "translation": "попытка",
+      "transcription": "əˈtɛmpt",
+      "usage": "The attempt failed.",
+      "usageTranslation": "Попытка провалилась."
+    },
+    {
+      "text": "server",
+      "translation": "сервер",
+      "transcription": "ˈsɜːvə",
+      "usage": "The server is overloaded.",
+      "usageTranslation": "Сервер перегружен."
+    },
+    {
+      "text": "adapter",
+      "translation": "адаптер",
+      "transcription": "əˈdæptə",
+      "usage": "Network adapter.",
+      "usageTranslation": "Сетевой адаптер."
+    },
+    {
+      "text": "print",
+      "translation": "печатать",
+      "transcription": "prɪnt",
+      "usage": "Can you print this document for me?",
+      "usageTranslation": "Ты можешь распечатать для меня этот документ?"
+    },
+    {
+      "text": "laptop",
+      "translation": "ноутбук",
+      "transcription": "ˈlæpˌtɒp",
+      "usage": "Do you have your laptop with you?",
+      "usageTranslation": "У тебя ноутбук с собой?"
+    },
+    {
+      "text": "ensure",
+      "translation": "обеспечивать, гарантировать",
+      "transcription": "ɛnˈʃʊə",
+      "usage": "This medicine will ensure you a good night's sleep.",
+      "usageTranslation": "Это лекарство обеспечит Вам крепкий ночной сон."
+    },
+    {
+      "text": "reply",
+      "translation": "ответ",
+      "transcription": "rɪˈplaɪ",
+      "usage": "Did you get a reply from them?",
+      "usageTranslation": "Ты получил от них ответ?"
+    },
+    {
+      "text": "verify",
+      "translation": "проверить",
+      "transcription": "ˈvɛrɪfaɪ",
+      "usage": "Trust, but verify.",
+      "usageTranslation": "Доверяй, но проверяй!"
+    },
+    {
+      "text": "platform",
+      "translation": "платформа",
+      "transcription": "ˈplætfɔːm",
+      "usage": "Nakido is a file sharing platform.",
+      "usageTranslation": "Nakido — платформа для обмена файлами."
+    },
+    {
+      "text": "flash card",
+      "translation": "флеш-карта",
+      "transcription": "flæʃ kɑːd",
+      "usage": "Have you seen my flash card?",
+      "usageTranslation": "Ты не видел мою флеш карту?"
+    },
+    {
+      "text": "click",
+      "translation": "кликнуть",
+      "transcription": "klɪk",
+      "usage": "Click on the link.",
+      "usageTranslation": "Нажми на ссылку."
+    },
+    {
+      "text": "component",
+      "translation": "компонент",
+      "transcription": "kəmˈpəʊnənt",
+      "usage": "Discipline is the most important component of success.",
+      "usageTranslation": "Дисциплина — важнейшая составляющая успеха."
+    },
+    {
+      "text": "processing",
+      "translation": "обработка",
+      "transcription": "ˈprəʊsɛsɪŋ",
+      "usage": "Data processing.",
+      "usageTranslation": "Обработка данных."
+    },
+    {
+      "text": "access",
+      "translation": "доступ",
+      "transcription": "ˈæksɛs",
+      "usage": "How can I access the printer?",
+      "usageTranslation": "Как мне получить доступ к принтеру?"
+    },
+    {
+      "text": "upload",
+      "translation": "загрузжать файл с компьютера на сайт",
+      "transcription": "ʌpˈləʊd",
+      "usage": "How do we upload photos to your website?",
+      "usageTranslation": "Как нам загрузить фотографии на ваш сайт?"
+    },
+    {
+      "text": "team",
+      "translation": "команда",
+      "transcription": "tiːm",
+      "usage": "Which team are you on?",
+      "usageTranslation": "В какой ты команде?"
+    },
+    {
+      "text": "cut",
+      "translation": "вырезать",
+      "transcription": "kʌt",
+      "usage": "Cut and paste.",
+      "usageTranslation": "Вырежи и вставь."
+    },
+    {
+      "text": "cache",
+      "translation": "кэш",
+      "transcription": "kæʃ",
+      "usage": "There are only two hard things in Computer Science: cache invalidation and naming things.",
+      "usageTranslation": "В программировании есть только две сложные вещи: инвалидация кэша и наименование сущностей."
+    },
+    {
+      "text": "brainstorming",
+      "translation": "мозговой штурм",
+      "transcription": "ˈbreɪnstɔːmɪŋ",
+      "usage": "They had a brainstorming session.",
+      "usageTranslation": "Они провели мозговой штурм."
+    },
+    {
+      "text": "forward",
+      "translation": "пересылать",
+      "transcription": "ˈfɔːwəd",
+      "usage": "How to forward a message?",
+      "usageTranslation": "Как переслать письмо?"
+    },
+    {
+      "text": "open",
+      "translation": "открыть",
+      "transcription": "ˈəʊpən",
+      "usage": "What did you open it with?",
+      "usageTranslation": "Чем ты её открыла?"
+    },
+    {
+      "text": "configuration",
+      "translation": "конфигурация",
+      "transcription": "kənˌfɪgjʊˈreɪʃən",
+      "usage": "The configuration file for your database server is located in this directory.",
+      "usageTranslation": "Файл конфигурации твоего сервера базы данных находится в этом каталоге."
+    },
+    {
+      "text": "database",
+      "translation": "база данных",
+      "transcription": "ˈdeɪtəˌbeɪs",
+      "usage": "PostgreSQL is a popular relational database.",
+      "usageTranslation": "PostgreSQL — популярная реляционная база данных."
+    },
+    {
+      "text": "embed",
+      "translation": "встраивать",
+      "transcription": "ɪmˈbɛd",
+      "usage": "You can embed scripts in the Web page.",
+      "usageTranslation": "Вы можете встраивать скрипты в веб-страницы."
+    },
+    {
+      "text": "scanner",
+      "translation": "сканнер",
+      "transcription": "ˈskænə",
+      "usage": "I have to buy a new scanner.",
+      "usageTranslation": "Мне надо купить новый сканер."
+    },
+    {
+      "text": "antivirus software",
+      "translation": "антивирусные программы",
+      "transcription": "ˈæntɪˌvaɪrəs ˈsɒftweə",
+      "usage": "What antivirus are you using?",
+      "usageTranslation": "Каким антивирусом вы пользуетесь?"
+    },
+    {
+      "text": "query",
+      "translation": "запрос",
+      "transcription": "ˈkwɪəri",
+      "usage": "Structured Query Language.",
+      "usageTranslation": "Язык структурированных запросов."
+    },
+    {
+      "text": "bin",
+      "translation": "корзина",
+      "transcription": "bɪn",
+      "usage": "The bin is empty.",
+      "usageTranslation": "Корзина пуста."
+    },
+    {
+      "text": "icon",
+      "translation": "иконка",
+      "transcription": "ˈaɪkɒn",
+      "usage": "Double-click the icon.",
+      "usageTranslation": "Два раза щелкните на иконку."
+    },
+    {
+      "text": "breakthrough",
+      "translation": "достижение, прорыв",
+      "transcription": "ˈbreɪkˌθruː",
+      "usage": "This is a real breakthrough.",
+      "usageTranslation": "Это настоящий прорыв."
+    },
+    {
+      "text": "default settings",
+      "translation": "настройки по умолчанию",
+      "transcription": "dɪˈfɔːlt ˈsɛtɪŋz",
+      "usage": "Are you using the default settings?",
+      "usageTranslation": "Ты используешь настройки по умолчанию?"
+    },
+    {
+      "text": "error",
+      "translation": "ошибка",
+      "transcription": "ˈɛrə",
+      "usage": "When did the error occur?",
+      "usageTranslation": "При каких обстоятельствах возникла неисправность?"
+    },
+    {
+      "text": "motherboard",
+      "translation": "материнская плата",
+      "transcription": "ˈmʌðəˌbɔːd",
+      "usage": "There's no COM port on this motherboard.",
+      "usageTranslation": "На этой материнке нет COM-порта."
+    },
+    {
+      "text": "kilobyte",
+      "translation": "килобайт",
+      "transcription": "ˈkɪləbaɪt",
+      "usage": "My first computer had only 128 kilobytes of memory!",
+      "usageTranslation": "В моём первом компьютере было только 128 килобайт памяти!"
+    },
+    {
+      "text": "application",
+      "translation": "приложение",
+      "transcription": "ˌæplɪˈkeɪʃ(ə)n",
+      "usage": "Download and install the application.",
+      "usageTranslation": "Скачай и установи приложение."
+    },
+    {
+      "text": "cookie",
+      "translation": "файлы ку́ки",
+      "transcription": "ˈkʊki",
+      "usage": "When you visit the website again, the cookie allows that site to recognize your browser.",
+      "usageTranslation": "При повторном посещении этого веб-сайта файл cookie позволяет сайту распознать ваш браузер."
+    },
+    {
+      "text": "tab",
+      "translation": "вкладка",
+      "transcription": "tæb",
+      "usage": "Close the tab.",
+      "usageTranslation": "Закрой вкладку."
+    },
+    {
+      "text": "power",
+      "translation": "мощность",
+      "transcription": "ˈpaʊə",
+      "usage": "Power saving mode.",
+      "usageTranslation": "Режим энергосбережения."
+    },
+    {
+      "text": "crowdsourcing",
+      "translation": "краудсорсинг",
+      "transcription": "kraʊdˈsɔrsɪŋ",
+      "usage": "Kickstarter is one of the largest crowdfunding sites.",
+      "usageTranslation": "Кикстартер один из крупнейших краудсорсинговых сайтов."
+    },
+    {
+      "text": "notebook",
+      "translation": "ноутбук",
+      "transcription": "ˈnəʊtbʊk",
+      "usage": "My notebook is pink.",
+      "usageTranslation": "Мой ноутбук — розового цвета."
+    },
+    {
+      "text": "exception",
+      "translation": "исключение, ошибка",
+      "transcription": "ɪkˈsɛpʃən",
+      "usage": "Unexpected exception has occured.",
+      "usageTranslation": "Произошла неожиданная ошибка."
+    },
+    {
+      "text": "launch",
+      "translation": "запускать, запуск",
+      "transcription": "lɔːnʧ",
+      "usage": "The satellite launch was broadcast live.",
+      "usageTranslation": "Запуск спутника транслировался в прямом эфире."
+    },
+    {
+      "text": "delete",
+      "translation": "удалять",
+      "transcription": "dɪˈliːt",
+      "usage": "Can you delete my account?",
+      "usageTranslation": "Вы можете удалить мой аккаунт?"
+    },
+    {
+      "text": "scalability",
+      "translation": "масштабируемость",
+      "transcription": "skeɪləˈbɪlɪti",
+      "usage": "Scalability is essential.",
+      "usageTranslation": "Масштабируемость важна."
+    },
+    {
+      "text": "input",
+      "translation": "ввод",
+      "transcription": "ˈɪnpʊt",
+      "usage": "Please input your PIN number.",
+      "usageTranslation": "Пожалуйста, введите свой ПИН-код."
+    },
+    {
+      "text": "tablet",
+      "translation": "планшет",
+      "transcription": "ˈtæblɪt",
+      "usage": "The new tablet costs a fortune.",
+      "usageTranslation": "Новый планшет стоит целое состояние."
+    },
+    {
+      "text": "debug",
+      "translation": "отлаживать",
+      "transcription": "diːˈbʌg",
+      "usage": "Most programmers hate debugging",
+      "usageTranslation": "Большинство программистов ненавидят отладку."
+    },
+    {
+      "text": "B2B (business-to-business)",
+      "translation": "бизнес для бизнеса",
+      "transcription": "ˈbɪznəs tu ˈbɪznəs",
+      "usage": "B2B (business-to-business) is the exchange of products between businesses, rather than between businesses and consumers (B2C)",
+      "usageTranslation": "B2B это обмен продуктами между бизнесами, а не бизнесами и потребителями (B2C)."
+    },
+    {
+      "text": "hack",
+      "translation": "взломать",
+      "transcription": "hæk",
+      "usage": "Someone's going to hack you.",
+      "usageTranslation": "Кто-нибудь тебя взломает."
+    },
+    {
+      "text": "import",
+      "translation": "импортировать",
+      "transcription": "ˈɪmpɔːt",
+      "usage": "We import grain from the United States.",
+      "usageTranslation": "Мы импортируем зерно из Соединенных Штатов."
+    },
+    {
+      "text": "default",
+      "translation": "по умолчанию",
+      "transcription": "dɪˈfɔːlt",
+      "usage": "Are you using the default settings?",
+      "usageTranslation": "Ты используешь настройки по умолчанию?"
+    },
+    {
+      "text": "display",
+      "translation": "отображать, дисплей",
+      "transcription": "dɪsˈpleɪ",
+      "usage": "She displayed her talents.",
+      "usageTranslation": "Она показала свои таланты."
+    },
+    {
+      "text": "playback",
+      "translation": "воспроизведение",
+      "transcription": "ˈpleɪbæk",
+      "usage": "Set playback speed.",
+      "usageTranslation": "Установите скорость воспроизведения."
+    },
+    {
+      "text": "release",
+      "translation": "релиз",
+      "transcription": "rɪˈliːs",
+      "usage": "Each iteration lasts about 1-2 months, followed by a new release.",
+      "usageTranslation": "Каждая итерация длится приблизительно 1-2 месяца, после чего выпускается релиз."
+    },
+    {
+      "text": "viral",
+      "translation": "вирусный",
+      "transcription": "ˈvaɪərəl",
+      "usage": "The video went viral.",
+      "usageTranslation": "Видео стало вирусным."
+    },
+    {
+      "text": "virus",
+      "translation": "вирус",
+      "transcription": "ˈvaɪərəs",
+      "usage": "The computer has a virus.",
+      "usageTranslation": "В компьютере вирус."
+    },
+    {
+      "text": "case-sensitive",
+      "translation": "с учетом регистра клавиатуры",
+      "transcription": "keɪsˈsɛnsətɪv",
+      "usage": "Passwords are usually case sensitive.",
+      "usageTranslation": "Пароли обычно чувствительны к регистру."
+    },
+    {
+      "text": "window",
+      "translation": "окно",
+      "transcription": "ˈwɪndəʊ",
+      "usage": "Close the window.",
+      "usageTranslation": "Закройте окно."
+    },
+    {
+      "text": "unexpected",
+      "translation": "неожиданный",
+      "transcription": "ˌʌnɪksˈpɛktɪd",
+      "usage": "This is an unexpected surprise.",
+      "usageTranslation": "Какой неожиданный сюрприз."
+    },
+    {
+      "text": "meetup",
+      "translation": "неформальная встреча",
+      "transcription": "mitʌp",
+      "usage": "Dribbble Meetups are a chance for designers to socialize",
+      "usageTranslation": "Митапы Дриббла это возможность для дизайнеров социализироваться."
+    },
+    {
+      "text": "underline",
+      "translation": "подчёркивать",
+      "transcription": "ˈʌndəlaɪn",
+      "usage": "Underline all the verbs in the future tense in this text.",
+      "usageTranslation": "Подчеркните все глаголы будущего времени в этом тексте."
+    },
+    {
+      "text": "installer",
+      "translation": "установщик",
+      "transcription": "ɪnˈstɔːlə",
+      "usage": "Tom ran the game installer and waited for the game to finish installing.",
+      "usageTranslation": "Том запустил установку игры и ждал конца процесса."
+    },
+    {
+      "text": "setup",
+      "translation": "установка",
+      "transcription": "ˈsɛtʌp",
+      "usage": "Please setup this program.",
+      "usageTranslation": "Пожалуйста установите эту программу."
+    },
+    {
+      "text": "directory",
+      "translation": "каталог, директория, папка",
+      "transcription": "dəˈrɛktəri",
+      "usage": "The configuration file for your database server is located in this directory.",
+      "usageTranslation": "Файл конфигурации твоего сервера базы данных находится в этом каталоге."
+    },
+    {
+      "text": "accept",
+      "translation": "принимать",
+      "transcription": "əkˈsɛpt",
+      "usage": "We will accept your conditions.",
+      "usageTranslation": "Мы примем ваши условия."
+    },
+    {
+      "text": "modem",
+      "translation": "модем",
+      "transcription": "ˈməʊdəm",
+      "usage": "You should reset the modem.",
+      "usageTranslation": "Вам следует перезагрузить модем."
+    },
+    {
+      "text": "wireless",
+      "translation": "беспроводной",
+      "transcription": "ˈwaɪəlɪs",
+      "usage": "Overall I'm quite satisfied with this gamepad.",
+      "usageTranslation": "В целом я удовлетворем моим беспроводным геймпадом."
+    },
+    {
+      "text": "rollback",
+      "translation": "откат",
+      "transcription": "ˈrolˌbæk",
+      "usage": "Failed to rollback.",
+      "usageTranslation": "Не удалось откатить."
+    },
+    {
+      "text": "capacity",
+      "translation": "емкость",
+      "transcription": "kəˈpæsɪti",
+      "usage": "This elevator's capacity is ten people.",
+      "usageTranslation": "Этот лифт вмещает десять человек."
+    },
+    {
+      "text": "add",
+      "translation": "добавить",
+      "transcription": "æd",
+      "usage": "Could you add me?",
+      "usageTranslation": "Не могли бы вы добавить меня?"
+    },
+    {
+      "text": "driver",
+      "translation": "драйвер",
+      "transcription": "ˈdraɪvə",
+      "usage": "Run the driver's installation program.",
+      "usageTranslation": "Запустите программу установки драйвера."
+    },
+    {
+      "text": "copy",
+      "translation": "копировать",
+      "transcription": "ˈkɒpi",
+      "usage": "Could I get a copy of these?",
+      "usageTranslation": "Могу ли я получить копию этого?"
+    },
+    {
+      "text": "developer",
+      "translation": "разработчик",
+      "transcription": "dɪˈvɛləpə",
+      "usage": "Tom is a software developer.",
+      "usageTranslation": "Том — разработчик программного обеспечения."
+    },
+    {
+      "text": "function",
+      "translation": "функция",
+      "transcription": "ˈfʌnŋkʃən",
+      "usage": "As far as I know, there is no such function.",
+      "usageTranslation": "Насколько я знаю, такой функции нет."
+    },
+    {
+      "text": "graphics card",
+      "translation": "видеокарта",
+      "transcription": "ˈgræfɪks kɑːd",
+      "usage": "The Graphics Card is responsible for rendering an image to your monitor.",
+      "usageTranslation": "Видеокарта ответственна за рендер изображения на ваш монитор."
+    },
+    {
+      "text": "agree",
+      "translation": "cогласиться",
+      "transcription": "əˈgriː",
+      "usage": "I agree with you.",
+      "usageTranslation": "Я с тобой согласен."
+    },
+    {
+      "text": "mark as read",
+      "translation": "отметить как прочитанное",
+      "transcription": "mɑrk æz rid",
+      "usage": "Mark a message as read.",
+      "usageTranslation": "Отметить сообщение, как прочитанное."
+    },
+    {
+      "text": "desktop",
+      "translation": "рабочий стол",
+      "transcription": "ˈdɛsktɒp",
+      "usage": "I created a shortcut on the desktop.",
+      "usageTranslation": "Я создал ярлык на рабочем столе."
+    },
+    {
+      "text": "database administrator",
+      "translation": "администратор базы данных",
+      "transcription": "ˈdeɪtəˌbeɪs ədˈmɪnɪstreɪtə",
+      "usage": "The database administrator would investigate how to make a temporary change to the database.",
+      "usageTranslation": "Администратор базы данных изучит вопрос о том, как можно внести временные изменения в базу данных."
+    },
+    {
+      "text": "pop-up menu",
+      "translation": "всплывающее меню",
+      "transcription": "pɑpʌp ˈmɛnju",
+      "usage": "Right-click and select Paste from the pop-up menu.",
+      "usageTranslation": "Кликните правой кнопкой и выберите Вставить во всплывающем меню."
+    },
+    {
+      "text": "browser",
+      "translation": "браузер",
+      "transcription": "ˈbraʊzə",
+      "usage": "Which browser are you using?",
+      "usageTranslation": "Каким браузером ты пользуешься?"
+    },
+    {
+      "text": "sign in",
+      "translation": "зайти на сайт под своим логином",
+      "transcription": "saɪn ɪn",
+      "usage": "Once you're signed in, check your mail.",
+      "usageTranslation": "Как только вы войдете, проверьте почту."
+    },
+    {
+      "text": "mouse mat",
+      "translation": "коврик для мыши",
+      "transcription": "maʊs mæt",
+      "usage": "Mouse pads for gaming come in different materials.",
+      "usageTranslation": "Игровые коврики для мышек делаются из разных материалов."
+    },
+    {
+      "text": "validation",
+      "translation": "подтверждение, проверка",
+      "transcription": "ˌvælɪˈdeɪʃən",
+      "usage": "Data validation is the process of ensuring quality",
+      "usageTranslation": "Валидация данных - это процесс обеспечения их качества."
+    },
+    {
+      "text": "share",
+      "translation": "поделиться",
+      "transcription": "ʃeə",
+      "usage": "Share it with us.",
+      "usageTranslation": "Поделись этим с нами."
+    },
+    {
+      "text": "commitment",
+      "translation": "обязательство",
+      "transcription": "kəˈmɪtmənt",
+      "usage": "Marriage is a lifelong commitment.",
+      "usageTranslation": "Брак – это обязательство длиною в жизнь."
+    },
+    {
+      "text": "case-insensitive",
+      "translation": "без учета регистра клавиатуры",
+      "transcription": "keɪs-ɪnˈsɛnsɪtɪv",
+      "usage": "Logins are usually case-insensitive.",
+      "usageTranslation": "Логины обычно нечувствительны к регистру."
+    },
+    {
+      "text": "warehouse",
+      "translation": "хранилище",
+      "transcription": "ˈweəhaʊs",
+      "usage": "Data warehouse.",
+      "usageTranslation": "Хранилище данных."
+    },
+    {
+      "text": "vulnerability",
+      "translation": "уязвимость",
+      "transcription": "ˌvʌlnərəˈbɪlɪti",
+      "usage": "System vulnerability.",
+      "usageTranslation": "Системная уязвимость."
+    },
+    {
+      "text": "router",
+      "translation": "маршрутизатор, роутер",
+      "transcription": "ˈruːtə",
+      "usage": "How can a router be used to limit network speed?",
+      "usageTranslation": "Как использовать маршрутизатор, чтобы ограничить скорость сети?"
+    },
+    {
+      "text": "device",
+      "translation": "устройство",
+      "transcription": "dɪˈvaɪs",
+      "usage": "What does this device do?",
+      "usageTranslation": "Что делает это устройство?"
+    },
+    {
+      "text": "connection",
+      "translation": "соединение",
+      "transcription": "kəˈnɛkʃən",
+      "usage": "He has a fast internet connection.",
+      "usageTranslation": "У него быстрое интернет-соединение."
+    },
+    {
+      "text": "web service",
+      "translation": "веб-сервис",
+      "transcription": "wɛb ˈsɜrvəs",
+      "usage": "Please specify the proxy class, which will used to call web service.",
+      "usageTranslation": "Укажите класс прокси, который будет использоваться для вызова веб-сервиса."
+    },
+    {
+      "text": "program",
+      "translation": "программа",
+      "transcription": "ˈprəʊgræm",
+      "usage": "The program was programmed by programmers.",
+      "usageTranslation": "Программа была запрограммирована программистами."
+    },
+    {
+      "text": "hardware",
+      "translation": "компьютерная аппаратура, оборудование",
+      "transcription": "ˈhɑːdweə",
+      "usage": "A list of required hardware is available here.",
+      "usageTranslation": "Список требуемого оборудования доступен здесь."
+    },
+    {
+      "text": "command",
+      "translation": "команда",
+      "transcription": "kəˈmɑːnd",
+      "usage": "Do you know how to use these command line tools?",
+      "usageTranslation": "Вы знаете, как использовать эти средства командной строки?"
+    },
+    {
+      "text": "pixel",
+      "translation": "пиксель",
+      "transcription": "ˈpɪks(ə)l",
+      "usage": "My phone's screen has a broken pixel.",
+      "usageTranslation": "На экране моего телефона есть битый пиксель."
+    },
+    {
+      "text": "webcam",
+      "translation": "вебкамера",
+      "transcription": "ˈwɛbˌkæm",
+      "usage": "I have a built-in webcam.",
+      "usageTranslation": "У меня встроенная веб-камера."
+    },
+    {
+      "text": "protocol",
+      "translation": "протокол",
+      "transcription": "ˈprəʊtəkɒl",
+      "usage": "How can I draw up the protocol correctly?",
+      "usageTranslation": "Как мне правильно оформить протокол?"
+    },
+    {
+      "text": "hotspot",
+      "translation": "точка доступа",
+      "transcription": "ˈhɒtspɒt",
+      "usage": "Wi-Fi Hotspot.",
+      "usageTranslation": "Точка доступа Wi-Fi."
+    },
+    {
+      "text": "taskbar",
+      "translation": "панель задач",
+      "transcription": "tæskbɑr",
+      "usage": "Use the taskbar.",
+      "usageTranslation": "Используйте панель задач."
+    },
+    {
+      "text": "binary",
+      "translation": "двоичный",
+      "transcription": "ˈbaɪnəri",
+      "usage": "There are 10 types of people in the world: those who understand binary, and those who don't.",
+      "usageTranslation": "В мире есть 10 типов людей: те, которые понимают двоичную систему счисления, и те, которые нет."
+    },
+    {
+      "text": "boot",
+      "translation": "запуск, загрузка",
+      "transcription": "buːt",
+      "usage": "If anyone tries to boot the computer up without this disk, the whole thing fries.",
+      "usageTranslation": "Если попробовать загрузить компьютер без этого диска, все сгорит."
+    },
+    {
+      "text": "responsive",
+      "translation": "отзывчивый",
+      "transcription": "rɪsˈpɒnsɪv",
+      "usage": "Responsive user interface.",
+      "usageTranslation": "Отзывчивый пользовательский интерфейс."
+    },
+    {
+      "text": "encrypt",
+      "translation": "шифровать",
+      "transcription": "ɪnˈkrɪpt",
+      "usage": "This file is encrypted.",
+      "usageTranslation": "Этот файл зашифрован."
+    },
+    {
+      "text": "hard disk",
+      "translation": "жёсткий диск",
+      "transcription": "hɑːd dɪsk",
+      "usage": "The hard disk was completely destroyed.",
+      "usageTranslation": "Жёсткий диск был полностью повреждён."
+    },
+    {
+      "text": "scale",
+      "translation": "масштаб, шкала",
+      "transcription": "skeɪl",
+      "usage": "What is the scale of this map?",
+      "usageTranslation": "Каков масштаб этой карты?"
+    },
+    {
+      "text": "operating system",
+      "translation": "операционная система",
+      "transcription": "ˈɒpəreɪtɪŋ ˈsɪstɪm",
+      "usage": "I never update my operating system.",
+      "usageTranslation": "Я никогда не обновляю операционную систему."
+    },
+    {
+      "text": "command line",
+      "translation": "командная строка",
+      "transcription": "kəˈmɑːnd laɪn",
+      "usage": "Do you know how to use these command line tools?",
+      "usageTranslation": "Вы знаете, как использовать эти средства командной строки?"
+    },
+    {
+      "text": "distribution",
+      "translation": "распределение, дистрибутив",
+      "transcription": "ˌdɪstrɪˈbjuːʃən",
+      "usage": "Ubuntu is a popular Linux distribution.",
+      "usageTranslation": "Ubuntu — популярный дистрибутив Linux."
+    },
+    {
+      "text": "user name",
+      "translation": "имя пользователя",
+      "transcription": "ˈjuzər neɪm",
+      "usage": "Go on the page, insert your registered user name and password.",
+      "usageTranslation": "Перейдите на страницу, ввести имя пользователя и пароль."
+    },
+    {
+      "text": "save",
+      "translation": "сохранять",
+      "transcription": "seɪv",
+      "usage": "Save file with another name.",
+      "usageTranslation": "Сохранить файл под другим именем."
+    },
+    {
+      "text": "product",
+      "translation": "продукт",
+      "transcription": "ˈprɒdʌkt",
+      "usage": "Where will this product be used?",
+      "usageTranslation": "Где будет использоваться этот продукт?"
+    },
+    {
+      "text": "resolution",
+      "translation": "разрешение",
+      "transcription": "ˌrɛzəˈluːʃən",
+      "usage": "Screen resolution.",
+      "usageTranslation": "Разрешение экрана."
+    },
+    {
+      "text": "facilitator",
+      "translation": "фасилитатор, помощник",
+      "transcription": "fəˈsɪlɪteɪtə",
+      "usage": "A facilitator is a person who helps a group of people to work together better.",
+      "usageTranslation": "Фасилитатор - человек, который помогает группе людей лучше работать вместе."
+    },
+    {
+      "text": "usability",
+      "translation": "удобство использования",
+      "transcription": "ˌjuːzəˈbɪlɪti",
+      "usage": "Usability is our priority.",
+      "usageTranslation": "Удобство использования наш приоритет."
+    },
+    {
+      "text": "bug",
+      "translation": "баг, ошибка",
+      "transcription": "bʌg",
+      "usage": "The bug has been corrected.",
+      "usageTranslation": "Баг был исправлен."
+    },
+    {
+      "text": "font",
+      "translation": "шрифт",
+      "transcription": "fɒnt",
+      "usage": "I don't like this font.",
+      "usageTranslation": "Мне не нравится этот шрифт."
+    },
+    {
+      "text": "download",
+      "translation": "скачать",
+      "transcription": "ˌdaʊnˈləʊd",
+      "usage": "The download is complete.",
+      "usageTranslation": "Скачивание завершено."
+    },
+    {
+      "text": "account",
+      "translation": "профиль, личные данные пользователя",
+      "transcription": "əˈkaʊnt",
+      "usage": "I do not have an account in these forums.",
+      "usageTranslation": "У меня нет учетной записи на этих форумах."
+    },
+    {
+      "text": "feedback",
+      "translation": "обратная связь",
+      "transcription": "ˈfiːdbæk",
+      "usage": "Thank you for the feedback.",
+      "usageTranslation": "Спасибо вам за обратную связь."
+    },
+    {
+      "text": "property",
+      "translation": "свойство",
+      "transcription": "ˈprɒpəti",
+      "usage": "File properties.",
+      "usageTranslation": "Свойства файлов."
+    },
+    {
+      "text": "intellectual property",
+      "translation": "интеллектуальная собственность",
+      "transcription": "ˌɪntɪˈlɛktjʊəl ˈprɒpəti",
+      "usage": "He also indicated that several law schools provided courses on intellectual property issues.",
+      "usageTranslation": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности."
+    },
+    {
+      "text": "megabyte",
+      "translation": "мегабайт",
+      "transcription": "ˈmɛgəˌbaɪt",
+      "usage": "The file is weighing 7 megabytes.",
+      "usageTranslation": "Файл весит 7 мегабайт."
+    },
+    {
+      "text": "install",
+      "translation": "устанавливать",
+      "transcription": "ɪnˈstɔːl",
+      "usage": "Download and install the application.",
+      "usageTranslation": "Скачай и установи приложение."
+    },
+    {
+      "text": "bluetooth",
+      "translation": "блюту́с, технология беспроводного обмена данными",
+      "transcription": "ˈbluːˌtuːθ",
+      "usage": "Bluetooth is not available on this device.",
+      "usageTranslation": "Блюту́с недоступин на данном устройстве."
+    },
+    {
+      "text": "create",
+      "translation": "создавать",
+      "transcription": "kri(ː)ˈeɪt",
+      "usage": "I have to create a new site.",
+      "usageTranslation": "Я должен создать новый сайт."
+    },
+    {
+      "text": "compatible",
+      "translation": "совместимый",
+      "transcription": "kəmˈpætəbl",
+      "usage": "It's backwards compatible.",
+      "usageTranslation": "У него обратная совместимость."
+    }
+  ]
+}
