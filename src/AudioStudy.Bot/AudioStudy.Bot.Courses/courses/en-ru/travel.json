@@ -1,0 +1,1356 @@
+{
+  "id": "7fb72429-d513-4e0e-9ae1-a535826f62f1",
+  "version": 1,
+  "weight": 0,
+  "type": "words",
+  "name": "Travelling",
+  "nameTranslation": "Путешествия",
+  "language": "en",
+  "translationLanguage": "ru",
+  "cards": [
+    {
+      "text": "guide",
+      "translation": "гид",
+      "transcription": "gaɪd",
+      "usage": "The guide will accompany us.",
+      "usageTranslation": "Гид будет нас сопровождать."
+    },
+    {
+      "text": "double room",
+      "translation": "двухместный номер",
+      "transcription": "ˈdʌbl ruːm",
+      "usage": "Do you have a double room?",
+      "usageTranslation": "У вас есть двухместный номер?"
+    },
+    {
+      "text": "gate",
+      "translation": "выход на посадку",
+      "transcription": "geɪt",
+      "usage": "How do I get to Gate 5?",
+      "usageTranslation": "Как пройти к пятому выходу на посадку?"
+    },
+    {
+      "text": "monument",
+      "translation": "памятник,монумент",
+      "transcription": "ˈmɒnjʊmənt",
+      "usage": "This monument is closed to visitors.",
+      "usageTranslation": "Этот памятник закрыт для посетителей."
+    },
+    {
+      "text": "route",
+      "translation": "маршрут",
+      "transcription": "ruːt",
+      "usage": "I know a shorter route.",
+      "usageTranslation": "Я знаю более короткий маршрут."
+    },
+    {
+      "text": "ocean",
+      "translation": "океан",
+      "transcription": "ˈəʊʃən",
+      "usage": "The ocean was calm.",
+      "usageTranslation": "Океан был спокойным."
+    },
+    {
+      "text": "north",
+      "translation": "север",
+      "transcription": "nɔːθ",
+      "usage": "The wind is blowing from the north.",
+      "usageTranslation": "Ветер дует с севера."
+    },
+    {
+      "text": "helicopter",
+      "translation": "вертолет",
+      "transcription": "ˈhɛlɪkɒptə",
+      "usage": "The helicopter is landing.",
+      "usageTranslation": "Вертолёт приземляется."
+    },
+    {
+      "text": "cab",
+      "translation": "такси",
+      "transcription": "kæb",
+      "usage": "Let's get a cab.",
+      "usageTranslation": "Давай возьмём такси."
+    },
+    {
+      "text": "aisle",
+      "translation": "проход",
+      "transcription": "aɪl",
+      "usage": "His seat in the plane was on the aisle.",
+      "usageTranslation": "Его место в самолёте было в проходе."
+    },
+    {
+      "text": "parking",
+      "translation": "парковка",
+      "transcription": "ˈpɑːkɪŋ",
+      "usage": "Parking prohibited!",
+      "usageTranslation": "Парковка запрещена."
+    },
+    {
+      "text": "car",
+      "translation": "автомобиль, машина",
+      "transcription": "kɑː",
+      "usage": "He has his own car.",
+      "usageTranslation": "У него есть свой автомобиль."
+    },
+    {
+      "text": "distance",
+      "translation": "расстояние",
+      "transcription": "ˈdɪstəns",
+      "usage": "He sat at a distance from me.",
+      "usageTranslation": "Он сидел от меня на расстоянии."
+    },
+    {
+      "text": "bill",
+      "translation": "счёт",
+      "transcription": "bɪl",
+      "usage": "Could I have the bill, please?",
+      "usageTranslation": "Можно мне счёт, пожалуйста?"
+    },
+    {
+      "text": "volcano",
+      "translation": "вулкан",
+      "transcription": "vɒlˈkeɪnəʊ",
+      "usage": "Etna is a volcano in Italy.",
+      "usageTranslation": "Этна - вулкан в Италии."
+    },
+    {
+      "text": "waterfall",
+      "translation": "водопад",
+      "transcription": "ˈwɔːtəfɔːl",
+      "usage": "It's the only waterfall in this mountain range.",
+      "usageTranslation": "Это единственный водопад в этой горной цепи."
+    },
+    {
+      "text": "forest",
+      "translation": "лес",
+      "transcription": "ˈfɒrɪst",
+      "usage": "There are no birds in this forest.",
+      "usageTranslation": "В этом лесу нет птиц."
+    },
+    {
+      "text": "swamp",
+      "translation": "болото",
+      "transcription": "swɒmp",
+      "usage": "The plague came from the swamp.",
+      "usageTranslation": "Мор пришёл с болота."
+    },
+    {
+      "text": "landing",
+      "translation": "посадка",
+      "transcription": "ˈlændɪŋ",
+      "usage": "The landing was perfect.",
+      "usageTranslation": "Посадка была идеальной."
+    },
+    {
+      "text": "park",
+      "translation": "парк",
+      "transcription": "pɑːk",
+      "usage": "He got lost in the park.",
+      "usageTranslation": "Он заблудился в парке."
+    },
+    {
+      "text": "street",
+      "translation": "улица",
+      "transcription": "striːt",
+      "usage": "My house is just across the street.",
+      "usageTranslation": "Мой дом - прямо через улицу."
+    },
+    {
+      "text": "strait",
+      "translation": "пролив",
+      "transcription": "streɪt",
+      "usage": "The Bering Strait separates Asia from North America.",
+      "usageTranslation": "Берингов пролив отделяет Азию от Северной Америки."
+    },
+    {
+      "text": "mile",
+      "translation": "миля",
+      "transcription": "maɪl",
+      "usage": "My house is only a mile from here.",
+      "usageTranslation": "Мой дом всего в миле отсюда."
+    },
+    {
+      "text": "exit",
+      "translation": "выход",
+      "transcription": "ˈɛksɪt",
+      "usage": "All exits are marked with an exit sign.",
+      "usageTranslation": "Все выходы помечены знаками \"выход\"."
+    },
+    {
+      "text": "bridge",
+      "translation": "мост",
+      "transcription": "brɪʤ",
+      "usage": "This bridge was originally a toll bridge.",
+      "usageTranslation": "Проезд по этому мосту изначально был платным."
+    },
+    {
+      "text": "journey",
+      "translation": "путешествие, поездка (обычно сухопутное)",
+      "transcription": "ˈʤɜːni",
+      "usage": "It was a long journey.",
+      "usageTranslation": "Это было длинное путешествие."
+    },
+    {
+      "text": "tunnel",
+      "translation": "туннель, тоннель",
+      "transcription": "ˈtʌnl",
+      "usage": "This tunnel is twice as long as that one.",
+      "usageTranslation": "Этот туннель вдвое длиннее того."
+    },
+    {
+      "text": "capital",
+      "translation": "столица",
+      "transcription": "ˈkæpɪtl",
+      "usage": "London is the capital of England.",
+      "usageTranslation": "Лондон - столица Англии."
+    },
+    {
+      "text": "book",
+      "translation": "бронировать",
+      "transcription": "bʊk",
+      "usage": "To book a table.",
+      "usageTranslation": "Забронировать столик."
+    },
+    {
+      "text": "rainforest",
+      "translation": "тропический лес",
+      "transcription": "ˈreɪnˌfɒrɪst",
+      "usage": "Save the rainforest!",
+      "usageTranslation": "Спасите тропические леса!"
+    },
+    {
+      "text": "taxi",
+      "translation": "такси",
+      "transcription": "ˈtæksi",
+      "usage": "The taxi has arrived.",
+      "usageTranslation": "Такси подъехало."
+    },
+    {
+      "text": "gulf",
+      "translation": "залив",
+      "transcription": "gʌlf",
+      "usage": "A gulf divided him from them.",
+      "usageTranslation": "От них его отделял залив."
+    },
+    {
+      "text": "flight",
+      "translation": "полет,рейс",
+      "transcription": "flaɪt",
+      "usage": "I missed my flight. Can I get on the next flight?",
+      "usageTranslation": "Я пропустил свой рейс. Могу я полететь следующим?"
+    },
+    {
+      "text": "return ticket",
+      "translation": "обратный билет",
+      "transcription": "rɪˈtɜːn ˈtɪkɪt",
+      "usage": "Do you have a return ticket to Japan?",
+      "usageTranslation": "У Вас есть обратный билет в Японию?"
+    },
+    {
+      "text": "suitcase",
+      "translation": "чемодан",
+      "transcription": "ˈsjuːtkeɪs",
+      "usage": "Who does this suitcase belong to?",
+      "usageTranslation": "Кому принадлежит этот чемодан?"
+    },
+    {
+      "text": "flight attendant",
+      "translation": "бортпроводник",
+      "transcription": "flaɪt əˈtɛndənt",
+      "usage": "The flight attendant brought Tom a drink.",
+      "usageTranslation": "Бортпроводник принес Тому выпить."
+    },
+    {
+      "text": "river",
+      "translation": "река",
+      "transcription": "ˈrɪvə",
+      "usage": "I was able to swim across the river.",
+      "usageTranslation": "Я смог переплыть реку."
+    },
+    {
+      "text": "direction",
+      "translation": "направление",
+      "transcription": "dɪˈrɛkʃən",
+      "usage": "Which direction did he go?",
+      "usageTranslation": "В какую сторону он пошёл?"
+    },
+    {
+      "text": "railway station",
+      "translation": "железнодорожный вокзал",
+      "transcription": "ˈreɪlweɪ ˈsteɪʃən",
+      "usage": "Where is the railway station?",
+      "usageTranslation": "Где железнодорожный вокзал?"
+    },
+    {
+      "text": "island",
+      "translation": "остров",
+      "transcription": "ˈaɪlənd",
+      "usage": "There was no life on the island.",
+      "usageTranslation": "На острове не было никакой жизни."
+    },
+    {
+      "text": "subway",
+      "translation": "метро",
+      "transcription": "ˈsʌbweɪ",
+      "usage": "We can get there by subway.",
+      "usageTranslation": "Мы можем добраться туда на метро."
+    },
+    {
+      "text": "shuttle",
+      "translation": "шаттл",
+      "transcription": "ˈʃʌtl",
+      "usage": "My airport shuttle bus leaves at six o'clock.",
+      "usageTranslation": "Шаттл до моего аэропорта отправляется в 6 часов."
+    },
+    {
+      "text": "souvenir",
+      "translation": "сувенир",
+      "transcription": "ˌsuːv(ə)'nɪə",
+      "usage": "Is there a souvenir shop in the hotel?",
+      "usageTranslation": "Есть ли в гостинице сувенирный магазин?"
+    },
+    {
+      "text": "hike",
+      "translation": "поход",
+      "transcription": "haɪk",
+      "usage": "Since it was sunny, we went on a hike.",
+      "usageTranslation": "Так как было солнечно, мы пошли в поход."
+    },
+    {
+      "text": "stopover",
+      "translation": "остановка в пути",
+      "transcription": "ˈstɒpˌəʊvə",
+      "usage": "We had a stopover in Boston.",
+      "usageTranslation": "В Бостоне мы сделали остановку."
+    },
+    {
+      "text": "airline",
+      "translation": "авиакомпания",
+      "transcription": "ˈeəlaɪn",
+      "usage": "The airline lost my bags.",
+      "usageTranslation": "Авиакомпания потеряла мой багаж."
+    },
+    {
+      "text": "address",
+      "translation": "адрес",
+      "transcription": "əˈdrɛs",
+      "usage": "I have your address.",
+      "usageTranslation": "У меня есть твой адрес."
+    },
+    {
+      "text": "postcard",
+      "translation": "открытка",
+      "transcription": "ˈpəʊstkɑːd",
+      "usage": "Send me a postcard.",
+      "usageTranslation": "Отправь мне открытку."
+    },
+    {
+      "text": "key",
+      "translation": "ключ, источник",
+      "transcription": "kiː",
+      "usage": "Get me the key.",
+      "usageTranslation": "Принеси мне ключ."
+    },
+    {
+      "text": "destination",
+      "translation": "пункт назначения",
+      "transcription": "ˌdestɪ'neɪʃən",
+      "usage": "You have reached your destination.",
+      "usageTranslation": "Вы достигли пункта назначения."
+    },
+    {
+      "text": "national park",
+      "translation": "национальный парк",
+      "transcription": "ˈnæʃənl pɑːk",
+      "usage": "Hunting is banned in national parks.",
+      "usageTranslation": "В национальных парках охота запрещена."
+    },
+    {
+      "text": "twin room",
+      "translation": "двухместный номер",
+      "transcription": "twɪn ruːm",
+      "usage": "You are entitled to a private room and will not be expected to share a twin room with colleagues. ",
+      "usageTranslation": "Вы имеете право на личную комнату и мы не будем требовать от вас делить двухместный номер с коллегами. "
+    },
+    {
+      "text": "square",
+      "translation": "площадь, сквер",
+      "transcription": "skweə",
+      "usage": "The demonstrators gathered in the square.",
+      "usageTranslation": "Демонстранты собрались на площади."
+    },
+    {
+      "text": "current",
+      "translation": "течение",
+      "transcription": "ˈkʌrənt",
+      "usage": "The current of this river is rapid.",
+      "usageTranslation": "В этой реке быстрое течение."
+    },
+    {
+      "text": "discount",
+      "translation": "скидка",
+      "transcription": "ˈdɪskaʊnt",
+      "usage": "Is there a discount for children?",
+      "usageTranslation": "Есть ли скидка для детей?"
+    },
+    {
+      "text": "way",
+      "translation": "путь",
+      "transcription": "weɪ",
+      "usage": "You are in my way.",
+      "usageTranslation": "Ты на моем пути."
+    },
+    {
+      "text": "bicycle",
+      "translation": "велосипед",
+      "transcription": "ˈbaɪsɪkl",
+      "usage": "That bicycle is too small for you.",
+      "usageTranslation": "Этот велосипед слишком мал для тебя."
+    },
+    {
+      "text": "insurance",
+      "translation": "страховка",
+      "transcription": "ɪnˈʃʊərəns",
+      "usage": "What does your insurance cover?",
+      "usageTranslation": "Что покрывает страховка?"
+    },
+    {
+      "text": "village",
+      "translation": "деревня",
+      "transcription": "ˈvɪlɪʤ",
+      "usage": "He is from our village.",
+      "usageTranslation": "Он из нашей деревни."
+    },
+    {
+      "text": "delay",
+      "translation": "задерживать",
+      "transcription": "dɪˈleɪ",
+      "usage": "We apologize for the delay.",
+      "usageTranslation": "Мы извиняемся за задержку."
+    },
+    {
+      "text": "doctor",
+      "translation": "врач",
+      "transcription": "ˈdɒktə",
+      "usage": "Do what the doctor said.",
+      "usageTranslation": "Делай, как сказал врач."
+    },
+    {
+      "text": "exhibition",
+      "translation": "выставка",
+      "transcription": "ˌɛksɪˈbɪʃən",
+      "usage": "The exhibition was very impressive.",
+      "usageTranslation": "Выставка была очень впечатляющей."
+    },
+    {
+      "text": "land",
+      "translation": "земля + суша + земля,суша",
+      "transcription": "lænd",
+      "usage": "He sold all his land.",
+      "usageTranslation": "Он продал всю свою землю."
+    },
+    {
+      "text": "public transport",
+      "translation": "общественный транспорт",
+      "transcription": "ˈpʌblɪk ˈtrænspɔːt",
+      "usage": "We use public transport.",
+      "usageTranslation": "Мы используем общественный транспорт."
+    },
+    {
+      "text": "tide",
+      "translation": "прилив и отлив",
+      "transcription": "taɪd",
+      "usage": "Every tide has its ebb.",
+      "usageTranslation": "У каждого прилива есть свой отлив."
+    },
+    {
+      "text": "tips",
+      "translation": "чаевые",
+      "transcription": "tɪps",
+      "usage": "Did you leave a tip?",
+      "usageTranslation": "Вы оставили чаевые?"
+    },
+    {
+      "text": "traffic",
+      "translation": "трафик",
+      "transcription": "ˈtræfɪk",
+      "usage": "I was late because of the traffic.",
+      "usageTranslation": "Я опоздал из-за трафика."
+    },
+    {
+      "text": "trail",
+      "translation": "след, тропа",
+      "transcription": "treɪl",
+      "usage": "Where does this trail lead?",
+      "usageTranslation": "Куда ведёт эта тропа?"
+    },
+    {
+      "text": "sightseeing",
+      "translation": "осмотр достопримечательностей",
+      "transcription": "ˈsaɪtˌsiːɪŋ",
+      "usage": "Do you have any sightseeing tours of this town?",
+      "usageTranslation": "В этом городе есть какие-нибудь экскурсионные туры?"
+    },
+    {
+      "text": "entrance",
+      "translation": "вход",
+      "transcription": "ˈɛntrəns",
+      "usage": "Where is the entrance to the museum?",
+      "usageTranslation": "Где вход в музей?"
+    },
+    {
+      "text": "harbour",
+      "translation": "бухта",
+      "transcription": "ˈhɑːbə",
+      "usage": "The fishing boats leave the harbour.",
+      "usageTranslation": "Рыбацкие лодки покидают бухту."
+    },
+    {
+      "text": "centre",
+      "translation": "центр (BrE)",
+      "transcription": "ˈsɛntə",
+      "usage": "I live in the town centre.",
+      "usageTranslation": "Я живу в центре города."
+    },
+    {
+      "text": "desert",
+      "translation": "пустыня",
+      "transcription": "ˈdɛzət",
+      "usage": "Crossing that desert is dangerous.",
+      "usageTranslation": "Переход через ту пустыню опасен."
+    },
+    {
+      "text": "bench",
+      "translation": "скамейка,скамья",
+      "transcription": "bɛnʧ",
+      "usage": "He is lying on the bench.",
+      "usageTranslation": "Он лежит на скамейке."
+    },
+    {
+      "text": "overweight",
+      "translation": "перевес",
+      "transcription": "ˌəʊvəˈweɪt",
+      "usage": "What to do when your luggage is overweight?",
+      "usageTranslation": "Что делать, если у вас перевес багажа?"
+    },
+    {
+      "text": "bike",
+      "translation": "велосипед",
+      "transcription": "baɪk",
+      "usage": "I will get you a bike for your birthday.",
+      "usageTranslation": "Я подарю тебе велосипед на день рождения."
+    },
+    {
+      "text": "location",
+      "translation": "расположение, местонахождение",
+      "transcription": "ləʊˈkeɪʃən",
+      "usage": "This is the perfect location.",
+      "usageTranslation": "Это идеальное расположение."
+    },
+    {
+      "text": "museum",
+      "translation": "музей",
+      "transcription": "mju(ː)ˈzɪəm",
+      "usage": "Is there a museum in this town?",
+      "usageTranslation": "В этом городе есть музей?"
+    },
+    {
+      "text": "kilometer",
+      "translation": "километр",
+      "transcription": "kɪ'lɔmɪtə",
+      "usage": "I try to swim a kilometer a day.",
+      "usageTranslation": "Я стараюсь проплывать по километру в день."
+    },
+    {
+      "text": "west",
+      "translation": "запад",
+      "transcription": "wɛst",
+      "usage": "The station is to the west of the hotel.",
+      "usageTranslation": "Станция находится к западу от гостиницы."
+    },
+    {
+      "text": "ferry",
+      "translation": "паром",
+      "transcription": "ˈfɛri",
+      "usage": "We took a ferry from the island to the mainland.",
+      "usageTranslation": "Мы перебрались с острова на материк на пароме."
+    },
+    {
+      "text": "globe",
+      "translation": "земной шар",
+      "transcription": "ˈgləʊb",
+      "usage": "I travel to all parts of the globe.",
+      "usageTranslation": "Я путешествую во все части земного шара."
+    },
+    {
+      "text": "tour",
+      "translation": "экскурсия + тур,экскурсия",
+      "transcription": "tuə",
+      "usage": "That tour already has a waiting list.",
+      "usageTranslation": "На этот тур уже очередь ожидающих."
+    },
+    {
+      "text": "canyon",
+      "translation": "каньон",
+      "transcription": "ˈkænjən",
+      "usage": "Have you seen the Grand Canyon?",
+      "usageTranslation": "Вы видели Гранд-Каньон?"
+    },
+    {
+      "text": "sea",
+      "translation": "море",
+      "transcription": "siː",
+      "usage": "He has a house by the sea.",
+      "usageTranslation": "У него дом у моря."
+    },
+    {
+      "text": "ride",
+      "translation": "поездка, ездить",
+      "transcription": "raɪd",
+      "usage": "He can ride a horse.",
+      "usageTranslation": "Он умеет ездить верхом."
+    },
+    {
+      "text": "vehicle",
+      "translation": "транспортное средство, автомобиль",
+      "transcription": "ˈviːɪkl",
+      "usage": "Don't get off while the vehicle is in motion.",
+      "usageTranslation": "Не выходите, пока транспортное движется."
+    },
+    {
+      "text": "passport",
+      "translation": "паспорт",
+      "transcription": "ˈpɑːspɔːt",
+      "usage": "You must show your passport.",
+      "usageTranslation": "Вы должны показать свой паспорт."
+    },
+    {
+      "text": "countryside",
+      "translation": "сельская местность",
+      "transcription": "ˈkʌntrɪˌsaɪd",
+      "usage": "Every summer I go to the countryside.",
+      "usageTranslation": "Каждое лето я езжу в деревню."
+    },
+    {
+      "text": "hotel",
+      "translation": "гостиница",
+      "transcription": "həʊˈtɛl",
+      "usage": "This hotel will not do.",
+      "usageTranslation": "Эта гостиница не подойдёт."
+    },
+    {
+      "text": "cliff",
+      "translation": "утес",
+      "transcription": "klɪf",
+      "usage": "They climbed to the top of a cliff.",
+      "usageTranslation": "Они взобрались на вершину утёса."
+    },
+    {
+      "text": "surface",
+      "translation": "поверхность",
+      "transcription": "ˈsɜːfɪs",
+      "usage": "Its surface was as flat as a mirror.",
+      "usageTranslation": "Его поверхность была гладкой, как зеркало."
+    },
+    {
+      "text": "valley",
+      "translation": "долина",
+      "transcription": "ˈvæli",
+      "usage": "The river runs through the valley.",
+      "usageTranslation": "Река течет по долине."
+    },
+    {
+      "text": "avenue",
+      "translation": "авеню, проспект",
+      "transcription": "ˈævɪnjuː",
+      "usage": "This avenue is wide but not very long.",
+      "usageTranslation": "Этот проспект широкий, но не очень длинный."
+    },
+    {
+      "text": "town",
+      "translation": "город, городок",
+      "transcription": "taʊn",
+      "usage": "What a beautiful town!",
+      "usageTranslation": "Какой красивый город!"
+    },
+    {
+      "text": "declare",
+      "translation": "декларировать",
+      "transcription": "dɪˈkleə",
+      "usage": "Do you have anything to declare?",
+      "usageTranslation": "Есть ли у вас вещи, подлежащие декларированию?"
+    },
+    {
+      "text": "hostel",
+      "translation": "хостел",
+      "transcription": "ˈhɒstəl",
+      "usage": "Have you considered staying in a hostel?",
+      "usageTranslation": "Ты не думал остановиться в хостеле?"
+    },
+    {
+      "text": "window seat",
+      "translation": "место у окна",
+      "transcription": "ˈwɪndəʊ siːt",
+      "usage": "I'd prefer a window seat.",
+      "usageTranslation": "Я бы предпочёл место у окна."
+    },
+    {
+      "text": "pier",
+      "translation": "пирс",
+      "transcription": "pɪə",
+      "usage": "Tom was on the pier.",
+      "usageTranslation": "Том был на пирсе."
+    },
+    {
+      "text": "beach",
+      "translation": "пляж",
+      "transcription": "biːʧ",
+      "usage": "They went to the beach.",
+      "usageTranslation": "Они ушли на пляж."
+    },
+    {
+      "text": "embassy",
+      "translation": "посольство",
+      "transcription": "ˈɛmbəsi",
+      "usage": "This is the American Embassy.",
+      "usageTranslation": "Это американское посольство."
+    },
+    {
+      "text": "market",
+      "translation": "рынок",
+      "transcription": "ˈmɑːkɪt",
+      "usage": "We are going to the market.",
+      "usageTranslation": "Мы идём на рынок."
+    },
+    {
+      "text": "hospital",
+      "translation": "больница",
+      "transcription": "ˈhɒspɪtl",
+      "usage": "We have to get you to the hospital.",
+      "usageTranslation": "Нам надо отвезти вас в больницу."
+    },
+    {
+      "text": "canal",
+      "translation": "канал (искусственный)",
+      "transcription": "kəˈnæl",
+      "usage": "The Panama Canal connects the Atlantic with the Pacific.",
+      "usageTranslation": "Панамский канал соединяет Атлантический океан с Тихим."
+    },
+    {
+      "text": "promontory",
+      "translation": "мыс",
+      "transcription": "ˈprɒməntri",
+      "usage": "The boat sailed around the promontory.",
+      "usageTranslation": "Лодка обогнула мыс."
+    },
+    {
+      "text": "road",
+      "translation": "дорога",
+      "transcription": "rəʊd",
+      "usage": "Is there a shorter road to get there?",
+      "usageTranslation": "Туда можно добраться более короткой дорогой?"
+    },
+    {
+      "text": "restaurant",
+      "translation": "ресторан",
+      "transcription": "ˈrɛstrɒnt",
+      "usage": "I like the atmosphere of this restaurant.",
+      "usageTranslation": "Мне нравится атмосфера, которая царит в этом ресторане."
+    },
+    {
+      "text": "car rental",
+      "translation": "прокат машин",
+      "transcription": "kɑː ˈrɛntl",
+      "usage": "Guests can make use of car rental.",
+      "usageTranslation": "Гости могут воспользоваться прокатом машин."
+    },
+    {
+      "text": "airport",
+      "translation": "аэропорт",
+      "transcription": "ˈeəpɔːt",
+      "usage": "We need to get to the airport.",
+      "usageTranslation": "Нам нужно добраться до аэропорта."
+    },
+    {
+      "text": "hemisphere",
+      "translation": "полушарие",
+      "transcription": "ˈhɛmɪsfɪə",
+      "usage": "The United States is in the Northern Hemisphere.",
+      "usageTranslation": "Соединённые Штаты находятся в Северном полушарии."
+    },
+    {
+      "text": "motorcycle",
+      "translation": "мотоцикл",
+      "transcription": "ˈməʊtəˈsaɪkl",
+      "usage": "I can lend you my motorcycle.",
+      "usageTranslation": "Я могу одолжить тебе свой мотоцикл."
+    },
+    {
+      "text": "jungle",
+      "translation": "джунгли",
+      "transcription": "ˈʤʌŋgl",
+      "usage": "This is the law of the jungle.",
+      "usageTranslation": "Это закон джунглей."
+    },
+    {
+      "text": "fountain",
+      "translation": "фонтан",
+      "transcription": "ˈfaʊntɪn",
+      "usage": "The water from this fountain is clear.",
+      "usageTranslation": "Вода из этого фонтана чистая."
+    },
+    {
+      "text": "wheel",
+      "translation": "колесо",
+      "transcription": "wiːl",
+      "usage": "A unicycle has one wheel.",
+      "usageTranslation": "У моноцикла одно колесо."
+    },
+    {
+      "text": "transfer",
+      "translation": "трансфер",
+      "transcription": "ˈtrænsfə(ː)",
+      "usage": "Transfer to the airport. ",
+      "usageTranslation": "Трансфер в аэропорт. "
+    },
+    {
+      "text": "boarding pass",
+      "translation": "посадочный талон",
+      "transcription": "ˈbɔːdɪŋ pɑːs",
+      "usage": "May I see your boarding pass, please?",
+      "usageTranslation": "Можно взглянуть на ваш посадочный талон?"
+    },
+    {
+      "text": "bay",
+      "translation": "бухта",
+      "transcription": "beɪ",
+      "usage": "The bay has more yachts than sailboats.",
+      "usageTranslation": "В бухте больше яхт, чем парусников."
+    },
+    {
+      "text": "landscape",
+      "translation": "ландшафт",
+      "transcription": "'læn(d)skeɪp",
+      "usage": "The landscape was flat and monotonous.",
+      "usageTranslation": "Ландшафт был плоским и однообразным."
+    },
+    {
+      "text": "world",
+      "translation": "мир",
+      "transcription": "wɜːld",
+      "usage": "What a small world!",
+      "usageTranslation": "Как тесен мир."
+    },
+    {
+      "text": "arrive",
+      "translation": "прибывать",
+      "transcription": "əˈraɪv",
+      "usage": "When did you arrive there?",
+      "usageTranslation": "Во сколько ты туда прибыл?"
+    },
+    {
+      "text": "highway",
+      "translation": "шоссе, автодорога",
+      "transcription": "ˈhaɪweɪ",
+      "usage": "The highway was empty.",
+      "usageTranslation": "Шоссе было пустым."
+    },
+    {
+      "text": "plane",
+      "translation": "самолет",
+      "transcription": "pleɪn",
+      "usage": "I got on the plane.",
+      "usageTranslation": "Я сел в самолёт."
+    },
+    {
+      "text": "coast",
+      "translation": "побережье",
+      "transcription": "kəʊst",
+      "usage": "We drove along the coast.",
+      "usageTranslation": "Мы ехали вдоль побережья."
+    },
+    {
+      "text": "east",
+      "translation": "восток",
+      "transcription": "iːst",
+      "usage": "Head east.",
+      "usageTranslation": "Направляйтесь на восток."
+    },
+    {
+      "text": "northeast",
+      "translation": "северо-восток",
+      "transcription": "ˌnɔːθˈiːst",
+      "usage": "He came from the Northeast.",
+      "usageTranslation": "Он пришел с северо-востока."
+    },
+    {
+      "text": "travel agent",
+      "translation": "туристический агент",
+      "transcription": "ˈtrævl ˈeɪʤənt",
+      "usage": "In all my career as a travel agent, I never visited Africa.",
+      "usageTranslation": "За всю свою карьеру туристического агента я никогда не бывал в Африке."
+    },
+    {
+      "text": "backpack",
+      "translation": "рюкзак",
+      "transcription": "ˈbækˌpæk",
+      "usage": "Give me the backpack.",
+      "usageTranslation": "Дайте мне рюкзак."
+    },
+    {
+      "text": "sand",
+      "translation": "песок",
+      "transcription": "sænd",
+      "usage": "The sand was warm.",
+      "usageTranslation": "Песок был тёплый."
+    },
+    {
+      "text": "transport",
+      "translation": "транспорт",
+      "transcription": "trænˈspɔːt",
+      "usage": "We use public transport.",
+      "usageTranslation": "Мы используем общественный транспорт."
+    },
+    {
+      "text": "customs",
+      "translation": "таможня",
+      "transcription": "ˈkʌstəmz",
+      "usage": "A customs officer.",
+      "usageTranslation": "Офицер таможни."
+    },
+    {
+      "text": "tire",
+      "translation": "шина,покрышка",
+      "transcription": "ˈtaɪə",
+      "usage": "You have a flat tire.",
+      "usageTranslation": "У тебя шину спустило."
+    },
+    {
+      "text": "path",
+      "translation": "тропа",
+      "transcription": "pɑːθ",
+      "usage": "The path was narrow.",
+      "usageTranslation": "Тропа была узкой."
+    },
+    {
+      "text": "walk",
+      "translation": "ходить пешком",
+      "transcription": "wɔːk",
+      "usage": "He will walk.",
+      "usageTranslation": "Он пойдёт пешком."
+    },
+    {
+      "text": "information desk",
+      "translation": "стойка информации",
+      "transcription": "ˌɪnfəˈmeɪʃən dɛsk",
+      "usage": "Please ask at the information desk.",
+      "usageTranslation": "Пожалуйста, спросите в стойке информации."
+    },
+    {
+      "text": "coastline",
+      "translation": "береговая линия",
+      "transcription": "ˈkəʊstlaɪn",
+      "usage": "The city has a long coastline.",
+      "usageTranslation": "У города длинная береговая линия."
+    },
+    {
+      "text": "carry-on",
+      "translation": "ручная кладь",
+      "transcription": "'kærɪɔn",
+      "usage": "What is the size and weight limit for carry-on luggage?",
+      "usageTranslation": "Какой лимит на размер и вес ручной клади?"
+    },
+    {
+      "text": "departure",
+      "translation": "отправление",
+      "transcription": "dɪˈpɑːʧə",
+      "usage": "What is the departure time?",
+      "usageTranslation": "Когда мы отправляемся?"
+    },
+    {
+      "text": "stamp",
+      "translation": "почтовая марка",
+      "transcription": "stæmp",
+      "usage": "Did you put a stamp on the envelope?",
+      "usageTranslation": "Вы наклеили на конверт марку?"
+    },
+    {
+      "text": "schedule",
+      "translation": "расписание, график",
+      "transcription": "ˈʃedjuːl",
+      "usage": "Everything is on schedule.",
+      "usageTranslation": "Всё по графику."
+    },
+    {
+      "text": "global",
+      "translation": "глобальный",
+      "transcription": "ˈgləʊbəl",
+      "usage": "English is a global language.",
+      "usageTranslation": "Английский — всемирный язык."
+    },
+    {
+      "text": "mountain",
+      "translation": "гора",
+      "transcription": "ˈmaʊntɪn",
+      "usage": "I have to climb this mountain.",
+      "usageTranslation": "Я должен взобраться на эту гору."
+    },
+    {
+      "text": "sea level",
+      "translation": "уровень моря",
+      "transcription": "siː ˈlɛvl",
+      "usage": "How high above sea level are we?",
+      "usageTranslation": "Насколько мы высоко над уровнем моря?"
+    },
+    {
+      "text": "train",
+      "translation": "поезд",
+      "transcription": "treɪn",
+      "usage": "We got off the train.",
+      "usageTranslation": "Мы вышли из поезда."
+    },
+    {
+      "text": "police",
+      "translation": "полиция",
+      "transcription": "pəˈliːs",
+      "usage": "Call the police!",
+      "usageTranslation": "Вызовите полицию!"
+    },
+    {
+      "text": "shopping mall",
+      "translation": "торговый центр",
+      "transcription": "ˈʃɒpɪŋ mɔːl",
+      "usage": "Where's the nearest shopping mall?",
+      "usageTranslation": "Где находится ближайший торговый центр?"
+    },
+    {
+      "text": "voyage",
+      "translation": "плавание, морское путешествие",
+      "transcription": "ˈvɔɪɪʤ",
+      "usage": "The long voyage was a trial for us.",
+      "usageTranslation": "Это длинное путешествие было для нас испытанием."
+    },
+    {
+      "text": "passenger",
+      "translation": "пассажир",
+      "transcription": "ˈpæsɪnʤə",
+      "usage": "Is every passenger onboard?",
+      "usageTranslation": "Все пассажиры на борту?"
+    },
+    {
+      "text": "ticket",
+      "translation": "билет",
+      "transcription": "ˈtɪkɪt",
+      "usage": "This is a free ticket.",
+      "usageTranslation": "Это бесплатный билет."
+    },
+    {
+      "text": "Black Sea",
+      "translation": "Чёрное море",
+      "transcription": "blæk siː",
+      "usage": "Have you ever been to the Black Sea?",
+      "usageTranslation": "Вы были когда-нибудь у Чёрного моря?"
+    },
+    {
+      "text": "forward",
+      "translation": "вперед",
+      "transcription": "ˈfɔːwəd",
+      "usage": "Step forward.",
+      "usageTranslation": "Сделай шаг вперёд."
+    },
+    {
+      "text": "baggage",
+      "translation": "багаж",
+      "transcription": "ˈbægɪʤ",
+      "usage": "Let me help you with your baggage.",
+      "usageTranslation": "Позволь мне помочь тебе с твоим багажом."
+    },
+    {
+      "text": "cruise",
+      "translation": "круиз",
+      "transcription": "kruːz",
+      "usage": "Some cruise ships have too many passengers.",
+      "usageTranslation": "На некоторых круизных кораблях слишком много пассажиров."
+    },
+    {
+      "text": "boat",
+      "translation": "корабль",
+      "transcription": "bəʊt",
+      "usage": "He traveled by boat.",
+      "usageTranslation": "Он путешествовал на лодке."
+    },
+    {
+      "text": "help",
+      "translation": "помощь",
+      "transcription": "hɛlp",
+      "usage": "Could you help me?",
+      "usageTranslation": "Вы не могли бы мне помочь?"
+    },
+    {
+      "text": "one-way ticket",
+      "translation": "билет в одну сторону",
+      "transcription": "ˈwʌnˈweɪ ˈtɪkət",
+      "usage": "A one-way ticket to Birmingham, please.",
+      "usageTranslation": "Билет в одну сторону до Бирмингема, пожалуйста."
+    },
+    {
+      "text": "camping",
+      "translation": "кемпинг, поход",
+      "transcription": "ˈkæmpɪŋ",
+      "usage": "We went camping in August.",
+      "usageTranslation": "В августе мы ходили в поход."
+    },
+    {
+      "text": "pharmacy",
+      "translation": "аптека",
+      "transcription": "ˈfɑːməsi",
+      "usage": "Is there a pharmacy nearby?",
+      "usageTranslation": "Здесь поблизости есть аптека?"
+    },
+    {
+      "text": "south",
+      "translation": "юг",
+      "transcription": "saʊθ",
+      "usage": "He must be from the South.",
+      "usageTranslation": "Он, должно быть, с юга."
+    },
+    {
+      "text": "trip",
+      "translation": "поездка, путешествие",
+      "transcription": "trɪp",
+      "usage": "Have a nice trip!",
+      "usageTranslation": "Приятного путешествия!"
+    },
+    {
+      "text": "border",
+      "translation": "граница",
+      "transcription": "ˈbɔːdə",
+      "usage": "The border is closed.",
+      "usageTranslation": "Граница закрыта."
+    },
+    {
+      "text": "city",
+      "translation": "город",
+      "transcription": "ˈsɪti",
+      "usage": "What city is this?",
+      "usageTranslation": "Что это за город?"
+    },
+    {
+      "text": "lake",
+      "translation": "озеро",
+      "transcription": "leɪk",
+      "usage": "The lake was frozen.",
+      "usageTranslation": "Озеро было замерзшим."
+    },
+    {
+      "text": "bus stop",
+      "translation": "автобусная остановка",
+      "transcription": "bʌs stɒp",
+      "usage": "Where is the bus stop?",
+      "usageTranslation": "Где автобусная остановка?"
+    },
+    {
+      "text": "aisle seat",
+      "translation": "место в проходе",
+      "transcription": "aɪl siːt",
+      "usage": "I'd prefer a aisle seat.",
+      "usageTranslation": "Я бы предпочёл место в проходе."
+    },
+    {
+      "text": "visa",
+      "translation": "виза",
+      "transcription": "ˈviːzə",
+      "usage": "I would like a tourist visa.",
+      "usageTranslation": "Я хотел бы получить туристическую визу."
+    },
+    {
+      "text": "country",
+      "translation": "страна",
+      "transcription": "ˈkʌntri",
+      "usage": "Which country are you from?",
+      "usageTranslation": "Из какой Вы страны?"
+    },
+    {
+      "text": "stream",
+      "translation": "ручей",
+      "transcription": "striːm",
+      "usage": "A small stream runs by my house.",
+      "usageTranslation": "Небольшой ручей течёт у моего дома."
+    },
+    {
+      "text": "reception",
+      "translation": "ресепшн",
+      "transcription": "rɪˈsɛpʃən",
+      "usage": "See you at the reception.",
+      "usageTranslation": "Увидимся на ресепшне."
+    },
+    {
+      "text": "post office",
+      "translation": "почта",
+      "transcription": "pəʊst ˈɒfɪs",
+      "usage": "There is a post office close by.",
+      "usageTranslation": "Неподалёку есть почтовое отделение."
+    },
+    {
+      "text": "gasoline",
+      "translation": "бензин",
+      "transcription": "ˈgæsəʊliːn",
+      "usage": "I smell gasoline.",
+      "usageTranslation": "Я чувствую запах бензина."
+    },
+    {
+      "text": "single room",
+      "translation": "одноместный номер",
+      "transcription": "ˈsɪŋgl ruːm",
+      "usage": "Single or double room?",
+      "usageTranslation": "Одноместный или двухместный номер?"
+    },
+    {
+      "text": "peak",
+      "translation": "пик",
+      "transcription": "piːk",
+      "usage": "The peak rises above the clouds.",
+      "usageTranslation": "Пик горы возвышается над облаками."
+    },
+    {
+      "text": "foreigner",
+      "translation": "иностранец",
+      "transcription": "ˈfɒrɪnə",
+      "usage": "He is a foreigner, as is evident from his accent.",
+      "usageTranslation": "Он иностранец, это понятно по его произношению."
+    },
+    {
+      "text": "region",
+      "translation": "область, регион",
+      "transcription": "ˈriːʤən",
+      "usage": "This region is located in a valley.",
+      "usageTranslation": "Этот регион располагается в долине."
+    },
+    {
+      "text": "map",
+      "translation": "карта",
+      "transcription": "mæp",
+      "usage": "Here is the map.",
+      "usageTranslation": "Вот карта."
+    },
+    {
+      "text": "territory",
+      "translation": "территория",
+      "transcription": "ˈtɛrɪtəri",
+      "usage": "That island is American territory.",
+      "usageTranslation": "Этот остров — американская территория."
+    },
+    {
+      "text": "time zone",
+      "translation": "часовой пояс",
+      "transcription": "taɪm zəʊn",
+      "usage": "We have one time zone.",
+      "usageTranslation": "У нас один часовой пояс."
+    },
+    {
+      "text": "accident",
+      "translation": "несчастный случай,случайность,авария",
+      "transcription": "ˈæksɪdənt",
+      "usage": "It was an accident.",
+      "usageTranslation": "Это был несчастный случай."
+    },
+    {
+      "text": "southwest",
+      "translation": "юго-запад",
+      "transcription": "ˌsaʊθˈwɛst",
+      "usage": "The wind is blowing from the southwest.",
+      "usageTranslation": "Ветер дует с юго-запада."
+    },
+    {
+      "text": "theatre",
+      "translation": "театр",
+      "transcription": "ˈθɪətə",
+      "usage": "Every theatre has a cloakroom.",
+      "usageTranslation": "В каждом театре есть гардероб."
+    },
+    {
+      "text": "bus",
+      "translation": "автобус",
+      "transcription": "bʌs",
+      "usage": "Get on the bus.",
+      "usageTranslation": "Садись в автобус."
+    },
+    {
+      "text": "station",
+      "translation": "станция",
+      "transcription": "ˈsteɪʃən",
+      "usage": "This is our station.",
+      "usageTranslation": "Это наша станция."
+    },
+    {
+      "text": "restroom",
+      "translation": "туалет",
+      "transcription": "ˈrɛstrʊm",
+      "usage": "Can you tell me where the restroom is?",
+      "usageTranslation": "Вы не подскажете, где туалет?"
+    },
+    {
+      "text": "currency exchange",
+      "translation": "обмен валюты.",
+      "transcription": "ˈkʌrənsi ɪksˈʧeɪnʤ",
+      "usage": "Where is the closest currency exchange?",
+      "usageTranslation": "Где находится ближайший пункт обмена валюты?"
+    },
+    {
+      "text": "area",
+      "translation": "площадь, пространство, район",
+      "transcription": "ˈeərɪə",
+      "usage": "The area was quiet.",
+      "usageTranslation": "Район был спокойный."
+    },
+    {
+      "text": "hitch-hike",
+      "translation": "путешествовать автостопом",
+      "transcription": "hɪʧhaɪk",
+      "usage": "And I don't like to hitch-hike.",
+      "usageTranslation": "Я не люблю ездить автостопом."
+    },
+    {
+      "text": "northwest",
+      "translation": "северо-запад",
+      "transcription": "ˌnɔːθˈwɛst",
+      "usage": "Russian Protestantism was born in the northwest of Russia.",
+      "usageTranslation": "Русский протестантизм зародился на северо-западе России."
+    },
+    {
+      "text": "arrival",
+      "translation": "прибытие",
+      "transcription": "əˈraɪvəl",
+      "usage": "What is the arrival time?",
+      "usageTranslation": "Каково время прибытия?"
+    },
+    {
+      "text": "southeast",
+      "translation": "юго-восток",
+      "transcription": "ˌsaʊθˈiːst",
+      "usage": "Jim is about to take a trip to southeast Asia.",
+      "usageTranslation": "Джим собирается отправиться в путешествие в Юго-Восточную Азию."
+    },
+    {
+      "text": "ambulance",
+      "translation": "скорая помощь",
+      "transcription": "ˈæmbjʊləns",
+      "usage": "Get me an ambulance.",
+      "usageTranslation": "Вызови мне скорую."
+    },
+    {
+      "text": "peninsula",
+      "translation": "полуостров",
+      "transcription": "pɪˈnɪnsjʊlə",
+      "usage": "Italy is a peninsula.",
+      "usageTranslation": "Италия - это полуостров."
+    },
+    {
+      "text": "zoo",
+      "translation": "зоопарк",
+      "transcription": "zuː",
+      "usage": "He took us to the zoo.",
+      "usageTranslation": "Он взял нас в зоопарк."
+    }
+  ]
+}
