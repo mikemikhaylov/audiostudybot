@@ -25,11 +25,6 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 throw new Exception($"{nameof(course.Name)} is required. CourseId {course.Id}");
             }
 
-            if (string.IsNullOrWhiteSpace(course.Description))
-            {
-                throw new Exception($"{nameof(course.Description)} is required. CourseId {course.Id}");
-            }
-
             if (string.IsNullOrWhiteSpace(course.Language))
             {
                 throw new Exception($"{nameof(course.Language)} is required. CourseId {course.Id}");
@@ -70,7 +65,10 @@ namespace AudioStudy.Bot.Domain.Services.Courses
 
         public static void ValidateCard(Card card)
         {
-            CheckTextLength(JsonSerializer.Serialize(card));
+            CheckTextLength(JsonSerializer.Serialize(card, new JsonSerializerOptions
+            {
+                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+            }));
             if (string.IsNullOrWhiteSpace(card.Text))
             {
                 throw new Exception($"{nameof(card.Text)} is required");

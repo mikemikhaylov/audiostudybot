@@ -1,0 +1,1048 @@
+{
+  "id": "78fa6c68-d6d7-4963-8a05-e7fb9f486e76",
+  "version": 1,
+  "weight": 30,
+  "type": "words",
+  "name": "Phrasal verbs",
+  "nameTranslation": "Фразовые глаголы",
+  "language": "en",
+  "translationLanguage": "ru",
+  "cards": [
+    {
+      "text": "be off",
+      "translation": "уходить",
+      "transcription": "biː ɒf",
+      "usage": "I must be off now.",
+      "usageTranslation": "А сейчас мне надо уходить."
+    },
+    {
+      "text": "pay back",
+      "translation": "расплачиваться",
+      "transcription": "peɪ bæk",
+      "usage": "You should pay back your debts.",
+      "usageTranslation": "Ты должен расплатиться с долгами."
+    },
+    {
+      "text": "let in",
+      "translation": "впускать",
+      "transcription": "lɛt ɪn",
+      "usage": "Let in some fresh air.",
+      "usageTranslation": "Впусти немного свежего воздуха."
+    },
+    {
+      "text": "give away",
+      "translation": "отдавать",
+      "transcription": "gɪv əˈweɪ",
+      "usage": "We're giving this away for free.",
+      "usageTranslation": "Мы отдаём это даром."
+    },
+    {
+      "text": "get away with something",
+      "translation": "избежать наказания за что-то",
+      "transcription": "gɛt əˈweɪ wɪð ˈsʌmθɪŋ",
+      "usage": "You won't get away with this.",
+      "usageTranslation": "Это не сойдёт тебе с рук."
+    },
+    {
+      "text": "calm down",
+      "translation": "успокаивать, успокаиваться",
+      "transcription": "kɑːm daʊn",
+      "usage": "Why don't you just calm down?",
+      "usageTranslation": "Почему бы тебе просто не успокоиться?"
+    },
+    {
+      "text": "call for",
+      "translation": "призывать",
+      "transcription": "kɔːl fɔː",
+      "usage": "I call for a vote!",
+      "usageTranslation": "Я призываю голосовать!"
+    },
+    {
+      "text": "care for",
+      "translation": "заботиться о",
+      "transcription": "keə fɔː",
+      "usage": "Mammals care for their young.",
+      "usageTranslation": "Млекопитающие заботятся о своих детёнышах."
+    },
+    {
+      "text": "take after",
+      "translation": "быть похожим на",
+      "transcription": "teɪk ˈɑːftə",
+      "usage": "I take after Grandma!",
+      "usageTranslation": "Я похож на бабушку!"
+    },
+    {
+      "text": "come in",
+      "translation": "входить",
+      "transcription": "kʌm ɪn",
+      "usage": "Come in and sit down.",
+      "usageTranslation": "Входи и садись."
+    },
+    {
+      "text": "come back",
+      "translation": "возвращаться",
+      "transcription": "kʌm bæk",
+      "usage": "When is she coming back?",
+      "usageTranslation": "Когда она возвращается?"
+    },
+    {
+      "text": "give in",
+      "translation": "сдаваться",
+      "transcription": "gɪv ɪn",
+      "usage": "Don't ever give in.",
+      "usageTranslation": "Никогда не сдавайся."
+    },
+    {
+      "text": "find out",
+      "translation": "узнать",
+      "transcription": "faɪnd aʊt",
+      "usage": "I must find out who did this.",
+      "usageTranslation": "Я должен выяснить, кто это сделал."
+    },
+    {
+      "text": "try out",
+      "translation": "проверять",
+      "transcription": "traɪ aʊt",
+      "usage": "Try it out yourself.",
+      "usageTranslation": "Проверь сам."
+    },
+    {
+      "text": "turn away",
+      "translation": "отклонять, отворачиваться",
+      "transcription": "tɜːn əˈweɪ",
+      "usage": "Why do you turn away?",
+      "usageTranslation": "Почему ты отворачиваешься?"
+    },
+    {
+      "text": "come out",
+      "translation": "публично заявить, выходить",
+      "transcription": "kʌm aʊt",
+      "usage": "You wait for me to come out.",
+      "usageTranslation": "Подождите, пока я сам к вам выйду."
+    },
+    {
+      "text": "cheer up",
+      "translation": "приободрять",
+      "transcription": "ʧɪə ʌp",
+      "usage": "The flowers cheered her up.",
+      "usageTranslation": "Цветы подбодрили его."
+    },
+    {
+      "text": "get away",
+      "translation": "уходить",
+      "transcription": "gɛt əˈweɪ",
+      "usage": "Get away from me.",
+      "usageTranslation": "Уйди от меня!"
+    },
+    {
+      "text": "run into",
+      "translation": "натыкаться",
+      "transcription": "rʌn ˈɪntuː",
+      "usage": "Just ran into Regan.",
+      "usageTranslation": "Только что наткнулся на Регану."
+    },
+    {
+      "text": "look back",
+      "translation": "оглядываться, вспоминать прошлое",
+      "transcription": "lʊk bæk",
+      "usage": "Don't look back.",
+      "usageTranslation": "Не оглядывайся."
+    },
+    {
+      "text": "stand up for",
+      "translation": "отстаивать, вступиться",
+      "transcription": "stænd ʌp fɔː",
+      "usage": "Stand up for Nathan.",
+      "usageTranslation": "Вступитесь за Натана."
+    },
+    {
+      "text": "set off",
+      "translation": "отправляться",
+      "transcription": "sɛt ɒf",
+      "usage": "He set off to Paris.",
+      "usageTranslation": "Он отправился в Париж."
+    },
+    {
+      "text": "hit on",
+      "translation": "приударить за",
+      "transcription": "hɪt ɒn",
+      "usage": "Mark hits on everything that moves.",
+      "usageTranslation": "Марк клеится ко всему"
+    },
+    {
+      "text": "call back",
+      "translation": "перезванивать",
+      "transcription": "kɔːl bæk",
+      "usage": "Let me call you back.",
+      "usageTranslation": "Давай я тебе перезвоню."
+    },
+    {
+      "text": "come along",
+      "translation": "идти с кем-либо",
+      "transcription": "kʌm əˈlɒŋ",
+      "usage": "Come along with us if you like.",
+      "usageTranslation": "Пойдём с нами, если хочешь."
+    },
+    {
+      "text": "check in",
+      "translation": "регистрироваться  в",
+      "transcription": "ʧɛk ɪn",
+      "usage": "Can I check in now?",
+      "usageTranslation": "Я могу зарегистрироваться сейчас?"
+    },
+    {
+      "text": "check up",
+      "translation": "проверить",
+      "transcription": "ʧɛk ʌp",
+      "usage": "Check up on the accuracy of this article.",
+      "usageTranslation": "Проверь точность его статьи."
+    },
+    {
+      "text": "stick to",
+      "translation": "придерживаться",
+      "transcription": "stɪk tuː",
+      "usage": "You must stick to your promise.",
+      "usageTranslation": "Ты должен держать обещание."
+    },
+    {
+      "text": "pass away",
+      "translation": "умереть",
+      "transcription": "pɑːs əˈweɪ",
+      "usage": "He passed away.",
+      "usageTranslation": "Он умер."
+    },
+    {
+      "text": "turn into",
+      "translation": "превращаться",
+      "transcription": "tɜːn ˈɪntuː",
+      "usage": "And some turn into diamonds.",
+      "usageTranslation": "А некоторые превращаются в бриллианты."
+    },
+    {
+      "text": "run out of",
+      "translation": "израсходовать",
+      "transcription": "rʌn aʊt ɒv",
+      "usage": "We have run out of gas.",
+      "usageTranslation": "У нас бензин закончился."
+    },
+    {
+      "text": "carry on",
+      "translation": "продолжать",
+      "transcription": "ˈkæri ɒn",
+      "usage": "We carried on talking.",
+      "usageTranslation": "Мы продолжили говорить."
+    },
+    {
+      "text": "hold up",
+      "translation": "задержать, держаться",
+      "transcription": "həʊld ʌp",
+      "usage": "How're you holding up?",
+      "usageTranslation": "Как вы держитесь?"
+    },
+    {
+      "text": "look into",
+      "translation": "исследовать",
+      "transcription": "lʊk ˈɪntuː",
+      "usage": "What are you looking for?",
+      "usageTranslation": "Что вы ищете?"
+    },
+    {
+      "text": "break down",
+      "translation": "ломаться, ломать",
+      "transcription": "breɪk daʊn",
+      "usage": "Why not break the door down?",
+      "usageTranslation": "Почему бы не выломать дверь?"
+    },
+    {
+      "text": "stand up to",
+      "translation": "давать отпор, противостоять",
+      "transcription": "stænd ʌp tuː",
+      "usage": "Tom never stands up to his father.",
+      "usageTranslation": "Том никогда не дает отпор своему отцу."
+    },
+    {
+      "text": "look for",
+      "translation": "искать",
+      "transcription": "lʊk fɔː",
+      "usage": "What are you looking for?",
+      "usageTranslation": "Что вы ищете?"
+    },
+    {
+      "text": "look out",
+      "translation": "берегись",
+      "transcription": "lʊk aʊt",
+      "usage": "Look out for pickpockets.",
+      "usageTranslation": "Остерегайся карманников."
+    },
+    {
+      "text": "count on",
+      "translation": "рассчитывать на",
+      "transcription": "kaʊnt ɒn",
+      "usage": "I am counting on you.",
+      "usageTranslation": "Я на тебя рассчитываю."
+    },
+    {
+      "text": "put on",
+      "translation": "надевать, поставить",
+      "transcription": "pʊt ɒn",
+      "usage": "Put it on.",
+      "usageTranslation": "Надевай это."
+    },
+    {
+      "text": "check out",
+      "translation": "выселяться, проверить",
+      "transcription": "ʧɛk aʊt",
+      "usage": "Check this out.",
+      "usageTranslation": "Проверь это."
+    },
+    {
+      "text": "show off",
+      "translation": "хвастаться",
+      "transcription": "ʃəʊ ɒf",
+      "usage": "What, so you can show off your tats?",
+      "usageTranslation": "Это, типа, чтобы хвастаться татухами?"
+    },
+    {
+      "text": "break out",
+      "translation": "вырываться, разразиться",
+      "transcription": "breɪk aʊt",
+      "usage": "If war does break out, we can lose everything overnight.",
+      "usageTranslation": "Если разразится война, мы можем всё потерять в одночасье"
+    },
+    {
+      "text": "bring up",
+      "translation": "воспитывать, упоминать",
+      "transcription": "brɪŋ ʌp",
+      "usage": "How do you bring up your children?",
+      "usageTranslation": "Как ты воспитываешь своих детей?"
+    },
+    {
+      "text": "put up",
+      "translation": "мириться, выставить",
+      "transcription": "pʊt ʌp",
+      "usage": "Why do you put up with that?",
+      "usageTranslation": "Почему ты это терпишь?"
+    },
+    {
+      "text": "break up",
+      "translation": "расставаться",
+      "transcription": "breɪk ʌp",
+      "usage": "He will break up with her.",
+      "usageTranslation": "Он с ней расстанется."
+    },
+    {
+      "text": "throw away",
+      "translation": "выкидывать",
+      "transcription": "θrəʊ əˈweɪ",
+      "usage": "Just throw it away.",
+      "usageTranslation": "Просто выброси его."
+    },
+    {
+      "text": "help out",
+      "translation": "выручить",
+      "transcription": "hɛlp aʊt",
+      "usage": "Can you help me out?",
+      "usageTranslation": "Ты можешь меня выручить?"
+    },
+    {
+      "text": "spread out",
+      "translation": "рассредоточиваться",
+      "transcription": "sprɛd aʊt",
+      "usage": "We spread out and began to search through the woods.",
+      "usageTranslation": "Мы разошлись и начали прочёсывать лес."
+    },
+    {
+      "text": "fill out",
+      "translation": "заполнять (форму)",
+      "transcription": "fɪl aʊt",
+      "usage": "Fill this out.",
+      "usageTranslation": "Заполните это."
+    },
+    {
+      "text": "bump into",
+      "translation": "случайно встретить",
+      "transcription": "bʌmp ˈɪntuː",
+      "usage": "I bumped into him in London.",
+      "usageTranslation": "Я наткнулся на него в Лондоне."
+    },
+    {
+      "text": "take out",
+      "translation": "вытащить, вынести",
+      "transcription": "teɪk aʊt",
+      "usage": "Take the garbage out.",
+      "usageTranslation": "Вынеси мусор."
+    },
+    {
+      "text": "let out",
+      "translation": "выпускать",
+      "transcription": "lɛt aʊt",
+      "usage": "Let me out!",
+      "usageTranslation": "Выпустите меня!"
+    },
+    {
+      "text": "hang around",
+      "translation": "бездельничать, болтаться без дела",
+      "transcription": "hæŋ əˈraʊnd",
+      "usage": "Is Tom still hanging around the office?",
+      "usageTranslation": "Том всё ещё околачивается в офисе?"
+    },
+    {
+      "text": "hang up on someone",
+      "translation": "бросить трубку, не дав договорить",
+      "transcription": "hæŋ ʌp ɒn ˈsʌmwʌn",
+      "usage": "Why did Tom hang up on me?",
+      "usageTranslation": "Почему Том бросил трубку?"
+    },
+    {
+      "text": "break off",
+      "translation": "прервать",
+      "transcription": "breɪk ɒf",
+      "usage": "We break off all this messy fighting.",
+      "usageTranslation": "Мы прервем эту грязную борьбу и немного поговорим."
+    },
+    {
+      "text": "grow up",
+      "translation": "взрослеть, расти",
+      "transcription": "grəʊ ʌp",
+      "usage": "What will you do when you grow up?",
+      "usageTranslation": "Что ты будешь делать, когда вырастешь?"
+    },
+    {
+      "text": "make up",
+      "translation": "придумывать",
+      "transcription": "meɪk ʌp",
+      "usage": "You must make up for the loss.",
+      "usageTranslation": "Вы должны возместить ущерб."
+    },
+    {
+      "text": "break into",
+      "translation": "проникнуть в",
+      "transcription": "breɪk ˈɪntuː",
+      "usage": "I hope nobody breaks into my apartment.",
+      "usageTranslation": "Надеюсь, никто не вломится в мою квартиру."
+    },
+    {
+      "text": "give back",
+      "translation": "отдавать",
+      "transcription": "gɪv bæk",
+      "usage": "Give it back to him.",
+      "usageTranslation": "Верни его ему."
+    },
+    {
+      "text": "try on",
+      "translation": "попробовать, примерять",
+      "transcription": "traɪ ɒn",
+      "usage": "Maybe you should try on the red one again?",
+      "usageTranslation": "Может быть еще раз примеришь этот красный?"
+    },
+    {
+      "text": "come up",
+      "translation": "подниматься, появиться",
+      "transcription": "kʌm ʌp wɪθ",
+      "usage": "Nobody has come up yet.",
+      "usageTranslation": "Никто ещё не появился."
+    },
+    {
+      "text": "live up to",
+      "translation": "соответствовать",
+      "transcription": "lɪv ʌp tuː",
+      "usage": "He did not live up to expectations.",
+      "usageTranslation": "Он не жил согласно ожиданиям."
+    },
+    {
+      "text": "stand out",
+      "translation": "выделяться",
+      "transcription": "stænd aʊt",
+      "usage": "He stands out among the painters of his time.",
+      "usageTranslation": "Он выделялся среди прочих художников своего времени."
+    },
+    {
+      "text": "move in",
+      "translation": "въезжать",
+      "transcription": "muːv ɪn",
+      "usage": "We just moved in.",
+      "usageTranslation": "Мы только въехали."
+    },
+    {
+      "text": "pass out",
+      "translation": "терять сознание",
+      "transcription": "pɑːs aʊt",
+      "usage": "Tom almost passed out from the heat.",
+      "usageTranslation": "Том чуть не упал в обморок от жары."
+    },
+    {
+      "text": "catch up",
+      "translation": "нагнать",
+      "transcription": "kæʧ ʌp",
+      "usage": "I will soon catch up with you.",
+      "usageTranslation": "Я догоню тебя скоро."
+    },
+    {
+      "text": "hang on",
+      "translation": "подождать, держаться",
+      "transcription": "hæŋ ɒn",
+      "usage": "Hang on, you're doing just fine.",
+      "usageTranslation": "Держись, все идет нормально."
+    },
+    {
+      "text": "go out",
+      "translation": "выходить, выходить в свет",
+      "transcription": "gəʊ aʊt",
+      "usage": "Don't go out into the open.",
+      "usageTranslation": "Не выходи на открытое место."
+    },
+    {
+      "text": "lie down",
+      "translation": "лечь",
+      "transcription": "laɪ daʊn",
+      "usage": "Lie down on the ground.",
+      "usageTranslation": "Ляг на землю."
+    },
+    {
+      "text": "call on",
+      "translation": "призывать, навещать",
+      "transcription": "kɔːl ɒn",
+      "usage": "I often call on him.",
+      "usageTranslation": "Я часто к нему захожу."
+    },
+    {
+      "text": "get over",
+      "translation": "преодолевать, пережить",
+      "transcription": "gɛt ˈəʊvə",
+      "usage": "I got over that.",
+      "usageTranslation": "Я с этим справился."
+    },
+    {
+      "text": "see off",
+      "translation": "провожать",
+      "transcription": "siː ɒf",
+      "usage": "Could you see me off?",
+      "usageTranslation": "Не могли бы вы проводить меня?"
+    },
+    {
+      "text": "fall behind",
+      "translation": "отставать от",
+      "transcription": "fɔːl bɪˈhaɪnd",
+      "usage": "We read newspapers so that we may not fall behind the times.",
+      "usageTranslation": "Мы читаем газеты, чтобы не отставать от времени."
+    },
+    {
+      "text": "work out",
+      "translation": "тренироваться",
+      "transcription": "wɜːk aʊt",
+      "usage": "I like working out.",
+      "usageTranslation": "Мне нравится заниматься физическими упражнениями."
+    },
+    {
+      "text": "get up",
+      "translation": "вставать",
+      "transcription": "gɛt ʌp",
+      "usage": "When did you get up?",
+      "usageTranslation": "Когда ты встал?"
+    },
+    {
+      "text": "go down",
+      "translation": "опускаться",
+      "transcription": "gəʊ daʊn",
+      "usage": "The sun is going down.",
+      "usageTranslation": "Солнце садится."
+    },
+    {
+      "text": "go ahead",
+      "translation": "вперед, продолжать",
+      "transcription": "gəʊ əˈhɛd",
+      "usage": "Go ahead with your story.",
+      "usageTranslation": "Рассказывай дальше."
+    },
+    {
+      "text": "burst out",
+      "translation": "разражаться",
+      "transcription": "bɜːst aʊt",
+      "usage": "Suddenly the poor child burst out crying.",
+      "usageTranslation": "Девушка разразилась слезами."
+    },
+    {
+      "text": "write down",
+      "translation": "записывать",
+      "transcription": "raɪt daʊn",
+      "usage": "Write down his address.",
+      "usageTranslation": "Запиши его адрес."
+    },
+    {
+      "text": "make up for",
+      "translation": "компенсировать ",
+      "transcription": "meɪk ʌp fɔː",
+      "usage": "You must make up for the loss.",
+      "usageTranslation": "Вы должны возместить ущерб."
+    },
+    {
+      "text": "look forward to",
+      "translation": "ждать с нетерпением",
+      "transcription": "lʊk ˈfɔːwəd",
+      "usage": "I am looking forward to seeing you.",
+      "usageTranslation": "Я с нетерпением жду с тобой встречи."
+    },
+    {
+      "text": "point out",
+      "translation": "указывать, обращать внимание",
+      "transcription": "pɔɪnt aʊt",
+      "usage": "I would like to point out that not all of us are like that.",
+      "usageTranslation": "Я бы хотел отметить, что мы не все такие."
+    },
+    {
+      "text": "hang up",
+      "translation": "повесить телефонную трубку",
+      "transcription": "hæŋ ʌp",
+      "usage": "Why did you hang up?",
+      "usageTranslation": "Почему ты повесил трубку?"
+    },
+    {
+      "text": "carry out",
+      "translation": "выполнять",
+      "transcription": "ˈkæri aʊt",
+      "usage": "We must carry out that plan.",
+      "usageTranslation": "Мы должны осуществить этот план."
+    },
+    {
+      "text": "hold back",
+      "translation": "сдерживаться",
+      "transcription": "həʊld bæk",
+      "usage": "She could not hold back her tears.",
+      "usageTranslation": "Она не смогла сдержать слёз."
+    },
+    {
+      "text": "show up",
+      "translation": "появляться",
+      "transcription": "ʃəʊ ʌp",
+      "usage": "He showed up when we least expected it.",
+      "usageTranslation": "Он появился, когда мы меньше всего этого ожидали."
+    },
+    {
+      "text": "be after",
+      "translation": "преследовать, охотиться",
+      "transcription": "biː ˈɑːftə",
+      "usage": "Lester was after your inheritance.",
+      "usageTranslation": "Лестер охотился за вашим наследством."
+    },
+    {
+      "text": "go through",
+      "translation": "проходить через, преодолеть",
+      "transcription": "gəʊ θruː",
+      "usage": "You will have to go through hardship.",
+      "usageTranslation": "Ты должен будешь преодолеть тяжелое испытание."
+    },
+    {
+      "text": "go up",
+      "translation": "подниматься, увеличиваться",
+      "transcription": "gəʊ ʌp",
+      "usage": "Go up the stairs.",
+      "usageTranslation": "Поднимайтесь по лестнице."
+    },
+    {
+      "text": "put away",
+      "translation": "убирать",
+      "transcription": "pʊt əˈweɪ",
+      "usage": "Put away your toys.",
+      "usageTranslation": "Убери свои игрушки."
+    },
+    {
+      "text": "turn over",
+      "translation": "переворачивать",
+      "transcription": "tɜːn ˈəʊvə",
+      "usage": "Please turn over the page.",
+      "usageTranslation": "Пожалуйста, переверните страницу."
+    },
+    {
+      "text": "get on with",
+      "translation": "ладить",
+      "transcription": "gɛt ɒn wɪð",
+      "usage": "I did not get on with Polya.",
+      "usageTranslation": "Я не ладил с Полей."
+    },
+    {
+      "text": "put down",
+      "translation": "откладывать, положить",
+      "transcription": "pʊt daʊn",
+      "usage": "I said put it down!",
+      "usageTranslation": "Я сказал, положи!"
+    },
+    {
+      "text": "figure out",
+      "translation": "понимать, выяснять",
+      "transcription": "ˈfɪgə aʊt",
+      "usage": "I just figured out who you are.",
+      "usageTranslation": "Я только что понял, кто ты есть."
+    },
+    {
+      "text": "move on",
+      "translation": "двигаться дальше",
+      "transcription": "muːv ɒn",
+      "usage": "Can we move on?",
+      "usageTranslation": "Мы можем двигаться дальше?"
+    },
+    {
+      "text": "pull up",
+      "translation": "подтягиваться, останавливаться, парковаться",
+      "transcription": "pʊl ʌp",
+      "usage": "I pulled up to the house.",
+      "usageTranslation": "Я подъехал к дому."
+    },
+    {
+      "text": "pull away",
+      "translation": "оторваться",
+      "transcription": "pʊl əˈweɪ",
+      "usage": "Captain, we pulled away a little.",
+      "usageTranslation": "Капитан, мы немного оторвались."
+    },
+    {
+      "text": "walk up",
+      "translation": "подойти ближе",
+      "transcription": "wɔk ʌp",
+      "usage": "Tom walked up to the house.",
+      "usageTranslation": "Том подошёл к дому."
+    },
+    {
+      "text": "keep away",
+      "translation": "держаться подальше",
+      "transcription": "kiːp əˈweɪ",
+      "usage": "Keep away from her.",
+      "usageTranslation": "Держись от неё подальше."
+    },
+    {
+      "text": "turn to",
+      "translation": "повернуть",
+      "transcription": "tɜːn tuː",
+      "usage": "He turned to me and frowned.",
+      "usageTranslation": "Он повернулся ко мне и нахмурил брови."
+    },
+    {
+      "text": "fall apart",
+      "translation": "разваливаться на части",
+      "transcription": "fɔːl əˈpɑːt",
+      "usage": "My life is falling apart.",
+      "usageTranslation": "Моя жизнь разваливается на части."
+    },
+    {
+      "text": "cut off",
+      "translation": "отрезать",
+      "transcription": "kʌt ɒf",
+      "usage": "Cut off one head, two more shall take its place.",
+      "usageTranslation": "Отсечешь одну голову на её месте вырастут две."
+    },
+    {
+      "text": "put aside",
+      "translation": "откладывать в сторону",
+      "transcription": "pʊt əˈsaɪd",
+      "usage": "He puts aside some money every month.",
+      "usageTranslation": "Он откладывает немного денег каждый месяц."
+    },
+    {
+      "text": "walk away",
+      "translation": "уходить",
+      "transcription": "wɔːk əˈweɪ",
+      "usage": "You can't walk away from this.",
+      "usageTranslation": "От этого не уйдёшь."
+    },
+    {
+      "text": "turn up",
+      "translation": "делать громче",
+      "transcription": "tɜːn ʌp",
+      "usage": "Turn it up.",
+      "usageTranslation": "Сделай погромче."
+    },
+    {
+      "text": "be up to",
+      "translation": "замышлять",
+      "transcription": "biː ʌp tuː",
+      "usage": "They were up to something.",
+      "usageTranslation": "Они что-то задумали."
+    },
+    {
+      "text": "look after",
+      "translation": "присматривать за",
+      "transcription": "lʊk ˈɑːftə",
+      "usage": "Who would look after that?",
+      "usageTranslation": "Кто за ней присмотрит?"
+    },
+    {
+      "text": "walk around",
+      "translation": "бродить",
+      "transcription": "wɔːk əˈraʊnd",
+      "usage": "I walked around in the field.",
+      "usageTranslation": "Я бродил по полю."
+    },
+    {
+      "text": "pick up",
+      "translation": "заезжать, взять трубку",
+      "transcription": "pɪk ʌp",
+      "usage": "Can I pick you up?",
+      "usageTranslation": "Можно за тобой заехать?"
+    },
+    {
+      "text": "hold on",
+      "translation": "подождать",
+      "transcription": "həʊld ɒn",
+      "usage": "Just a minute, just a minute, hold on.",
+      "usageTranslation": "Минуту, одну минутку, подожди."
+    },
+    {
+      "text": "turn out",
+      "translation": "оказываться",
+      "transcription": "tɜːn aʊt",
+      "usage": "What did it turn out to be?",
+      "usageTranslation": "Чем это оказалось?"
+    },
+    {
+      "text": "fall for",
+      "translation": "влюбиться в",
+      "transcription": "fɔːl fɔː",
+      "usage": "Are you falling for me?",
+      "usageTranslation": "Ты в меня влюбляешься?"
+    },
+    {
+      "text": "set up",
+      "translation": "настраивать, устанавливать",
+      "transcription": "sɛt ʌp",
+      "usage": "The monument was set up in the park.",
+      "usageTranslation": "Памятник был установлен в парке."
+    },
+    {
+      "text": "pull out",
+      "translation": "вытаскивать",
+      "transcription": "pʊl aʊt",
+      "usage": "She pulled him out of the mud.",
+      "usageTranslation": "Она вытащила его из грязи."
+    },
+    {
+      "text": "run out",
+      "translation": "кончаться",
+      "transcription": "rʌn aʊt",
+      "usage": "We have run out of gas.",
+      "usageTranslation": "У нас бензин закончился."
+    },
+    {
+      "text": "give up",
+      "translation": "сдаваться",
+      "transcription": "gɪv ʌp",
+      "usage": "You must not give up.",
+      "usageTranslation": "Ты не должен сдаваться."
+    },
+    {
+      "text": "cut down on",
+      "translation": "сократить",
+      "transcription": "kʌt daʊn ɒn",
+      "usage": "We must cut down our expenses.",
+      "usageTranslation": "Мы должны урезать наши расходы."
+    },
+    {
+      "text": "come by",
+      "translation": "заходи",
+      "transcription": "kʌm baɪ",
+      "usage": "Thanks for coming by.",
+      "usageTranslation": "Спасибо, что зашли."
+    },
+    {
+      "text": "keep up",
+      "translation": "успевать, поддерживать, продолжать",
+      "transcription": "kiːp ʌp",
+      "usage": "I can't keep up with you.",
+      "usageTranslation": "Я не могу за тобой угнаться."
+    },
+    {
+      "text": "get along",
+      "translation": "ладить",
+      "transcription": "gɛt əˈlɒŋ",
+      "usage": "I cannot get along with him.",
+      "usageTranslation": "Я не могу с ним ужиться."
+    },
+    {
+      "text": "turn down",
+      "translation": "отвергать",
+      "transcription": "tɜːn daʊn",
+      "usage": "She turned him down.",
+      "usageTranslation": "Она ему отказала."
+    },
+    {
+      "text": "wake up",
+      "translation": "просыпаться",
+      "transcription": "weɪk ʌp",
+      "usage": "Wake him up.",
+      "usageTranslation": "Разбуди его."
+    },
+    {
+      "text": "take off",
+      "translation": "снимать, взлететь",
+      "transcription": "teɪk ɒf",
+      "usage": "Then I watched her take off her gloves.",
+      "usageTranslation": "А затем смотрел, как она снимает перчатки."
+    },
+    {
+      "text": "let down",
+      "translation": "подводить",
+      "transcription": "lɛt daʊn",
+      "usage": "You let us down.",
+      "usageTranslation": "Ты нас подвёл."
+    },
+    {
+      "text": "speak up",
+      "translation": "высказываться",
+      "transcription": "spiːk ʌp",
+      "usage": "He has the courage to speak up what he thinks right.",
+      "usageTranslation": "У него есть смелость говорить то, что он считает правильным."
+    },
+    {
+      "text": "switch off",
+      "translation": "выключать",
+      "transcription": "swɪʧ ɒf",
+      "usage": "May I switch off the light?",
+      "usageTranslation": "Можно выключить свет?"
+    },
+    {
+      "text": "hang out",
+      "translation": "проводить время",
+      "transcription": "hæŋ aʊt",
+      "usage": "I really like hanging out with you.",
+      "usageTranslation": "Мне очень нравится с тобой проводить время."
+    },
+    {
+      "text": "come across",
+      "translation": "натолкнуться",
+      "transcription": "kʌm əˈkrɒs",
+      "usage": "This technology's unlike anything we've come across.",
+      "usageTranslation": "Эта технология отличается в корне от того, на что мы натолкнулись ранее."
+    },
+    {
+      "text": "clean up",
+      "translation": "прибирать",
+      "transcription": "kliːn ʌp",
+      "usage": "Clean up the kitchen.",
+      "usageTranslation": "Уберитесь на кухне."
+    },
+    {
+      "text": "put off",
+      "translation": "откладывать",
+      "transcription": "pʊt ɒf",
+      "usage": "Never put off till to-morrow the fun you can have to-day.",
+      "usageTranslation": "Не откладывай на завтра веселье, которое может быть сегодня."
+    },
+    {
+      "text": "watch over",
+      "translation": "присматривать за",
+      "transcription": "wɒʧ ˈəʊvə",
+      "usage": "They're watching over us.",
+      "usageTranslation": "Они за нами следят."
+    },
+    {
+      "text": "get back",
+      "translation": "возвращаться",
+      "transcription": "gɛt bæk",
+      "usage": "When will you be back?",
+      "usageTranslation": "Когда ты вернёшься?"
+    },
+    {
+      "text": "stick out",
+      "translation": "торчать",
+      "transcription": "stɪk aʊt",
+      "usage": "Stick out your tongue.",
+      "usageTranslation": "Высунь язык."
+    },
+    {
+      "text": "stand up",
+      "translation": "вставать",
+      "transcription": "stænd ʌp",
+      "usage": "He tried to stand up.",
+      "usageTranslation": "Он попытался встать."
+    },
+    {
+      "text": "take away",
+      "translation": "забрать",
+      "transcription": "teɪk əˈweɪ",
+      "usage": "Take him away.",
+      "usageTranslation": "Заберите его."
+    },
+    {
+      "text": "keep up with",
+      "translation": "идти в ногу с",
+      "transcription": "kiːp ʌp wɪð",
+      "usage": "Try to keep up with him.",
+      "usageTranslation": "Попробуй держаться с ним на ровне."
+    },
+    {
+      "text": "get around",
+      "translation": "обходить",
+      "transcription": "gɛt əˈraʊnd",
+      "usage": "She's good at getting around rules.",
+      "usageTranslation": "Она умеет обходить правила."
+    },
+    {
+      "text": "drop by",
+      "translation": "заходить",
+      "transcription": "drɒp baɪ",
+      "usage": "He often dropped in on me.",
+      "usageTranslation": "Он часто ко мне заходил."
+    },
+    {
+      "text": "pick out",
+      "translation": "выбирать",
+      "transcription": "pɪk aʊt",
+      "usage": "You can pick out any book you like.",
+      "usageTranslation": "Вы можете выбрать любую понравившуюся вам книгу."
+    },
+    {
+      "text": "watch out",
+      "translation": "остерегаться",
+      "transcription": "wɒʧ aʊt",
+      "usage": "Watch out for zombies.",
+      "usageTranslation": "Остерегайтесь зомби."
+    },
+    {
+      "text": "pass on",
+      "translation": "передать",
+      "transcription": "pɑːs ɒn",
+      "usage": "I passed on the job to him.",
+      "usageTranslation": "Я передал работу ему."
+    },
+    {
+      "text": "break in",
+      "translation": "врываться",
+      "transcription": "breɪk ɪn",
+      "usage": "They could break in again.",
+      "usageTranslation": "Они смогут ворваться снова."
+    },
+    {
+      "text": "call off",
+      "translation": "отменять",
+      "transcription": "kɔːl ɒf",
+      "usage": "We called off the wedding.",
+      "usageTranslation": "Мы отменили свадьбу."
+    },
+    {
+      "text": "sit down",
+      "translation": "садиться",
+      "transcription": "sɪt daʊn",
+      "usage": "Sit down with me.",
+      "usageTranslation": "Присядь со мной."
+    },
+    {
+      "text": "bring about",
+      "translation": "вызывать, быть причиной",
+      "transcription": "brɪŋ əˈbaʊt",
+      "usage": "Concussion can bring about temporary lapses in memory.",
+      "usageTranslation": "Сотрясение может вызвать временные провалы в памяти."
+    },
+    {
+      "text": "wear out",
+      "translation": "износиться",
+      "transcription": "weə aʊt",
+      "usage": "My children wear out their shoes quickly.",
+      "usageTranslation": "Мои дети быстро изнашивают свою обувь."
+    },
+    {
+      "text": "go on",
+      "translation": "продолжать",
+      "transcription": "gəʊ ɒn",
+      "usage": "Please go on.",
+      "usageTranslation": "Пожалуйста, продолжай."
+    }
+  ]
+}

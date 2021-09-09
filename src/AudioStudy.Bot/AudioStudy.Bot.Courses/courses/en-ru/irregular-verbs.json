@@ -1,7 +1,7 @@
 {
   "id": "b4122cb6-d4e4-4d95-b66e-fbaf016bd4ab",
   "version": 1,
-  "weight": 0,
+  "weight": 50,
   "type": "words",
   "name": "Irregular verbs",
   "description": "200+ most used irregular verbs.\n\nPlease note that some verbs have several Past Simple and Past Participle forms.\n\nIn some cases it can be related to discrepancies between british and american English. Also meaning can change depending on the form. For example \"shone\" и \"shined\". The first one means to give or make light (His boots shone), the second one means to cause to shine (He shined his boots).",

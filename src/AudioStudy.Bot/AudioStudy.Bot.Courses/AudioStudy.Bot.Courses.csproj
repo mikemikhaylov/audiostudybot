@@ -5,7 +5,48 @@
     <ItemGroup>
       <None Remove="courses\en-ru\irregular-verbs.json" />
       <EmbeddedResource Include="courses\en-ru\irregular-verbs.json" />
+      <None Remove="courses\en-ru\food.json" />
+      <EmbeddedResource Include="courses\en-ru\food.json" />
+      <None Remove="courses\en-ru\for-beginners.json" />
+      <EmbeddedResource Include="courses\en-ru\for-beginners.json" />
+      <None Remove="courses\en-ru\it.json" />
+      <EmbeddedResource Include="courses\en-ru\it.json" />
+      <None Remove="courses\en-ru\phrasal-verbs.json" />
+      <EmbeddedResource Include="courses\en-ru\phrasal-verbs.json" />
+      <None Remove="courses\en-ru\travel.json" />
+      <EmbeddedResource Include="courses\en-ru\travel.json" />
+      <None Remove="courses\en-ru\food-reversed.json" />
+      <EmbeddedResource Include="courses\en-ru\food-reversed.json" />
+      <None Remove="courses\en-ru\for-beginners-reversed.json" />
+      <EmbeddedResource Include="courses\en-ru\for-beginners-reversed.json" />
+      <None Remove="courses\en-ru\it-reversed.json" />
+      <EmbeddedResource Include="courses\en-ru\it-reversed.json" />
+      <None Remove="courses\en-ru\travel-reversed.json" />
+      <EmbeddedResource Include="courses\en-ru\travel-reversed.json" />
+      <None Remove="lessons\en-ru\food\1\lessons.json" />
+      <EmbeddedResource Include="lessons\en-ru\food\1\lessons.json" />
+      <None Remove="lessons\en-ru\food\1\lessons_reversed.json" />
+      <EmbeddedResource Include="lessons\en-ru\food\1\lessons_reversed.json" />
+      <None Remove="lessons\en-ru\for-beginners\1\lessons.json" />
+      <EmbeddedResource Include="lessons\en-ru\for-beginners\1\lessons.json" />
+      <None Remove="lessons\en-ru\for-beginners\1\lessons_reversed.json" />
+      <EmbeddedResource Include="lessons\en-ru\for-beginners\1\lessons_reversed.json" />
       <None Remove="lessons\en-ru\irregular-verbs\1\lessons.json" />
       <EmbeddedResource Include="lessons\en-ru\irregular-verbs\1\lessons.json" />
+      <None Remove="lessons\en-ru\it\1\lessons.json" />
+      <EmbeddedResource Include="lessons\en-ru\it\1\lessons.json" />
+      <None Remove="lessons\en-ru\it\1\lessons_reversed.json" />
+      <EmbeddedResource Include="lessons\en-ru\it\1\lessons_reversed.json" />
+      <None Remove="lessons\en-ru\phrasal-verbs\1\lessons.json" />
+      <EmbeddedResource Include="lessons\en-ru\phrasal-verbs\1\lessons.json" />
+      <None Remove="lessons\en-ru\travel\1\lessons.json" />
+      <EmbeddedResource Include="lessons\en-ru\travel\1\lessons.json" />
+      <None Remove="lessons\en-ru\travel\1\lessons_reversed.json" />
+      <EmbeddedResource Include="lessons\en-ru\travel\1\lessons_reversed.json" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="lessons\en-ru\for-beginners\1" />
+      <Folder Include="lessons\en-ru\phrasal-verbs\1" />
+      <Folder Include="lessons\en-ru\travel\1" />
     </ItemGroup>
 </Project>

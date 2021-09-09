@@ -1,0 +1,1272 @@
+{
+  "id": "083b66d6-0342-43da-9390-65553a5fb5f6",
+  "version": 1,
+  "weight": 20,
+  "type": "words",
+  "name": "Еда",
+  "nameTranslation": "Food",
+  "language": "ru",
+  "translationLanguage": "en",
+  "cards": [
+    {
+      "text": "мандарин",
+      "translation": "mandarine",
+      "usage": "Мандарины богаты витаминами.",
+      "usageTranslation": "Mandarins are rich in vitamins.",
+      "translationTranscription": "mændəˈrin"
+    },
+    {
+      "text": "чеснок",
+      "translation": "garlic",
+      "usage": "Слишком много чеснока.",
+      "usageTranslation": "There's too much garlic.",
+      "translationTranscription": "ˈgɑrlɪk"
+    },
+    {
+      "text": "яйца всмятку",
+      "translation": "soft-boiled eggs",
+      "usage": "Это яйца всмятку.",
+      "usageTranslation": "These eggs are soft-boiled.",
+      "translationTranscription": "sɑft bɔɪld ɛgz"
+    },
+    {
+      "text": "мята",
+      "translation": "mint",
+      "usage": "Мэри принесла Тому чашку чая с мятой.",
+      "usageTranslation": "Mary brought Tom a cup of mint tea.",
+      "translationTranscription": "mɪnt"
+    },
+    {
+      "text": "тунец",
+      "translation": "tuna",
+      "usage": "Тунец может очень быстро плавать.",
+      "usageTranslation": "Tuna can swim very fast.",
+      "translationTranscription": "ˈtunə"
+    },
+    {
+      "text": "пицца",
+      "translation": "pizza",
+      "usage": "Я разносчик пиццы.",
+      "usageTranslation": "I deliver pizzas.",
+      "translationTranscription": "ˈpitsə"
+    },
+    {
+      "text": "огурец",
+      "translation": "cucumber",
+      "usage": "Почисти огурцы.",
+      "usageTranslation": "Peel the cucumbers.",
+      "translationTranscription": "ˈkjukəmbər"
+    },
+    {
+      "text": "земляника, клубника",
+      "translation": "strawberry",
+      "usage": "Эта сумка клубничного цвета.",
+      "usageTranslation": "This purse is strawberry.",
+      "translationTranscription": "ˈstrɔˌbɛri"
+    },
+    {
+      "text": "винная карта",
+      "translation": "wine list",
+      "usage": "Могу я посмотреть карту вин?",
+      "usageTranslation": "Can I see the wine list?",
+      "translationTranscription": "waɪn lɪst"
+    },
+    {
+      "text": "горчица",
+      "translation": "mustard",
+      "usage": "Пожалуйста, две сосиски с горчицей и кетчупом.",
+      "usageTranslation": "I'll have two hot dogs with mustard and ketchup.",
+      "translationTranscription": "ˈmʌstərd"
+    },
+    {
+      "text": "сэндвич",
+      "translation": "sandwich",
+      "usage": "Я выронил сэндвич.",
+      "usageTranslation": "I dropped my sandwich.",
+      "translationTranscription": "ˈsændwɪʧ"
+    },
+    {
+      "text": "обед",
+      "translation": "lunch",
+      "usage": "Оставайся на обед.",
+      "usageTranslation": "Stay for lunch.",
+      "translationTranscription": "lʌnʧ"
+    },
+    {
+      "text": "пряность",
+      "translation": "spice",
+      "usage": "Специи улучшают вкус блюд.",
+      "usageTranslation": "Spices improve dishes.",
+      "translationTranscription": "spaɪs"
+    },
+    {
+      "text": "лимонад",
+      "translation": "lemonade",
+      "usage": "Лимонад холодный.",
+      "usageTranslation": "The lemonade is cold.",
+      "translationTranscription": "ˈlɛməˈneɪd"
+    },
+    {
+      "text": "низкое содержание жира",
+      "translation": "low-fat",
+      "usage": "Мне обезжиренное молоко.",
+      "usageTranslation": "Low-fat milk for me.",
+      "translationTranscription": "lou fˈæt"
+    },
+    {
+      "text": "сливки",
+      "translation": "cream",
+      "usage": "Йогурт делается из молока и сливок.",
+      "usageTranslation": "Yogurt is made from milk and cream.",
+      "translationTranscription": "krim"
+    },
+    {
+      "text": "напиток",
+      "translation": "drink",
+      "usage": "У вас есть безалкогольные напитки?",
+      "usageTranslation": "Do you have alcohol-free drinks?",
+      "translationTranscription": "drɪŋk"
+    },
+    {
+      "text": "соус",
+      "translation": "sauce",
+      "usage": "Голод — лучший соус.",
+      "usageTranslation": "Hunger is the best sauce.",
+      "translationTranscription": "sɔːs"
+    },
+    {
+      "text": "меню",
+      "translation": "menu",
+      "usage": "Вот ваше меню.",
+      "usageTranslation": "Here is your menu.",
+      "translationTranscription": "ˈmɛnju"
+    },
+    {
+      "text": "стейк",
+      "translation": "steak",
+      "usage": "Стейк хорошо прожарен.",
+      "usageTranslation": "The steak is well done.",
+      "translationTranscription": "steɪk"
+    },
+    {
+      "text": "морепродукты",
+      "translation": "seafood",
+      "usage": "Это самый лучший ресторан морепродуктов в этом районе.",
+      "usageTranslation": "This is the best seafood restaurant in this area.",
+      "translationTranscription": "ˈsiˌfud"
+    },
+    {
+      "text": "коктейль",
+      "translation": "cocktail",
+      "usage": "Коктейль сладкий и легко пьётся.",
+      "usageTranslation": "That cocktail is sweet and easy to drink.",
+      "translationTranscription": "ˈkɑkˌteɪl"
+    },
+    {
+      "text": "пончики",
+      "translation": "doughnuts",
+      "usage": "Съешь пончик.",
+      "usageTranslation": "Have a doughnut.",
+      "translationTranscription": "ˈdoʊˌnʌts"
+    },
+    {
+      "text": "мармелад",
+      "translation": "marmalade",
+      "usage": "Том положил немного мармелада на тост.",
+      "usageTranslation": "Tom put some marmalade on his toast.",
+      "translationTranscription": "ˈmɑrməˌleɪd"
+    },
+    {
+      "text": "литр",
+      "translation": "liter",
+      "usage": "Литр молока содержит около тридцати граммов белка.",
+      "usageTranslation": "A liter of milk contains about thirty grams of protein.",
+      "translationTranscription": "ˈlitər"
+    },
+    {
+      "text": "ежевика",
+      "translation": "blackberry",
+      "usage": "Том ест ежевику.",
+      "usageTranslation": "Tom is eating blackberries.",
+      "translationTranscription": "ˈblækˌbɛri"
+    },
+    {
+      "text": "кусок",
+      "translation": "lump",
+      "usage": "Один кусок сахара, пожалуйста.",
+      "usageTranslation": "One lump of sugar, please.",
+      "translationTranscription": "lʌmp"
+    },
+    {
+      "text": "гранат",
+      "translation": "pomegranate",
+      "usage": "Ты купил гранатовый сок?",
+      "usageTranslation": "Did you buy the pomegranate juice?",
+      "translationTranscription": "ˌpɑməˈgrænət"
+    },
+    {
+      "text": "напиток",
+      "translation": "beverage",
+      "usage": "Какой у тебя любимый безалкогольный напиток?",
+      "usageTranslation": "What's your favorite non-alcoholic beverage?",
+      "translationTranscription": "ˈbɛvərɪʤ"
+    },
+    {
+      "text": "блюдо дня",
+      "translation": "special",
+      "usage": "Какое сегодня блюдо дня?",
+      "usageTranslation": "What's the special today?",
+      "translationTranscription": "ˈspɛʃəl"
+    },
+    {
+      "text": "брусника",
+      "translation": "cowberry",
+      "usage": "Я собирал бруснику.",
+      "usageTranslation": "I was picking cowberries.",
+      "translationTranscription": "kaʊˈbɛri"
+    },
+    {
+      "text": "без сахара",
+      "translation": "no sugar",
+      "usage": "Вам без сахара?",
+      "usageTranslation": "No sugar for you?",
+      "translationTranscription": "noʊ ˈʃʊgər"
+    },
+    {
+      "text": "рагу",
+      "translation": "stew",
+      "usage": "Рагу всё ещё тёплое.",
+      "usageTranslation": "The stew is still warm.",
+      "translationTranscription": "stjuː"
+    },
+    {
+      "text": "салфетка",
+      "translation": "napkin",
+      "usage": "Вытри губы салфеткой.",
+      "usageTranslation": "Clean your lips with the napkin.",
+      "translationTranscription": "ˈnæpkɪn"
+    },
+    {
+      "text": "инжир",
+      "translation": "fig",
+      "usage": "Инжир содержит пищевые волокна.",
+      "usageTranslation": "Figs contain dietary fibre.",
+      "translationTranscription": "fɪg"
+    },
+    {
+      "text": "злак, каша",
+      "translation": "cereal",
+      "usage": "Мария предпочитает цельнозерновые злаки.",
+      "usageTranslation": "Mary prefers whole-grain cereals.",
+      "translationTranscription": "ˈsɪriəl"
+    },
+    {
+      "text": "буханка",
+      "translation": "loaf",
+      "usage": "Она купила буханку хлеба.",
+      "usageTranslation": "She bought a loaf of bread.",
+      "translationTranscription": "loʊf"
+    },
+    {
+      "text": "укроп",
+      "translation": "dill",
+      "usage": "Борщ часто подаётся с укропом и сметаной.",
+      "usageTranslation": "Borscht is often garnished with dill and sour cream.",
+      "translationTranscription": "dɪl"
+    },
+    {
+      "text": "острый",
+      "translation": "spicy",
+      "usage": "Слишком остро.",
+      "usageTranslation": "It's too spicy.",
+      "translationTranscription": "ˈspaɪsi"
+    },
+    {
+      "text": "перец",
+      "translation": "pepper",
+      "usage": "Добавьте ещё немного перца.",
+      "usageTranslation": "Add a little more pepper.",
+      "translationTranscription": "ˈpɛpər"
+    },
+    {
+      "text": "креветка",
+      "translation": "shrimp",
+      "usage": "Мой кот обожает креветки.",
+      "usageTranslation": "My cat loves shrimp.",
+      "translationTranscription": "prɔːn"
+    },
+    {
+      "text": "ломтик, нарезать",
+      "translation": "slice",
+      "usage": "Нарежьте огурцы.",
+      "usageTranslation": "Slice the cucumbers.",
+      "translationTranscription": "slaɪs"
+    },
+    {
+      "text": "пиво",
+      "translation": "beer",
+      "usage": "Два пива, пожалуйста.",
+      "usageTranslation": "Two beers, please.",
+      "translationTranscription": "bɪr"
+    },
+    {
+      "text": "шоколад",
+      "translation": "chocolate",
+      "usage": "Том любит горьковатый кофе и шоколад.",
+      "usageTranslation": "Tom prefers coffee and chocolate with a slightly bitter taste.",
+      "translationTranscription": "'ˈtʃɑːklət"
+    },
+    {
+      "text": "хрустящая корочка",
+      "translation": "crispy crust",
+      "usage": "Как сделать хрустящую корочку?",
+      "usageTranslation": "How do you get a crispier crust?",
+      "translationTranscription": "ˈkrɪspi krʌst"
+    },
+    {
+      "text": "газированная вода",
+      "translation": "sparkling water",
+      "usage": "Стакан газированной воды, пожалуйста.",
+      "usageTranslation": "A glass of sparkling water, please.",
+      "translationTranscription": "ˈspɑrklɪŋ ˈwɔtər"
+    },
+    {
+      "text": "апельсин",
+      "translation": "orange",
+      "usage": "Почисти апельсин.",
+      "usageTranslation": "Peel the orange.",
+      "translationTranscription": "ˈɔrənʤ"
+    },
+    {
+      "text": "бобы",
+      "translation": "beans",
+      "usage": "Шоколад делают из какао-бобов.",
+      "usageTranslation": "Chocolate is made from cocoa beans.",
+      "translationTranscription": "binz"
+    },
+    {
+      "text": "пунш",
+      "translation": "punch",
+      "usage": "Хотите стакан пунша?",
+      "usageTranslation": "Would you care for a drink of punch?",
+      "translationTranscription": "pʌnʧ"
+    },
+    {
+      "text": "мороженое",
+      "translation": "ice-cream",
+      "usage": "Том любит мороженое.",
+      "usageTranslation": "I want ice cream.",
+      "translationTranscription": "ˈaɪs krˈiːm"
+    },
+    {
+      "text": "круассан",
+      "translation": "croissant",
+      "usage": "Кофе и круассан, пожалуйста.",
+      "usageTranslation": "I'll have a coffee and a croissant.",
+      "translationTranscription": "'krwɑːsɑːŋ"
+    },
+    {
+      "text": "кетчуп",
+      "translation": "ketchup",
+      "usage": "Пожалуйста, две сосиски с горчицей и кетчупом.",
+      "usageTranslation": "I'll have two hot dogs with mustard and ketchup.",
+      "translationTranscription": "ˈkɛʧəp"
+    },
+    {
+      "text": "яблоко",
+      "translation": "apple",
+      "usage": "Почисти яблоко.",
+      "usageTranslation": "Peel the apple.",
+      "translationTranscription": "ˈæpl"
+    },
+    {
+      "text": "эспрессо",
+      "translation": "espresso",
+      "usage": "У Тома есть эспрессо-машина.",
+      "usageTranslation": "Tom has an espresso machine.",
+      "translationTranscription": "ˌɛˈsprɛsoʊ"
+    },
+    {
+      "text": "чизбургер",
+      "translation": "cheeseburger",
+      "usage": "Том съел двойной чизбургер.",
+      "usageTranslation": "Tom ate a double cheeseburger.",
+      "translationTranscription": "ˈʧizbərgər"
+    },
+    {
+      "text": "морковь",
+      "translation": "carrot",
+      "usage": "Кролики любят морковку.",
+      "usageTranslation": "Rabbits like carrots.",
+      "translationTranscription": "ˈkærət"
+    },
+    {
+      "text": "безалкогольный напиток",
+      "translation": "soft drink",
+      "usage": "У вас есть безалкогольные напитки?",
+      "usageTranslation": "Do you have any soft drinks?",
+      "translationTranscription": "sɑft drɪŋk"
+    },
+    {
+      "text": "куриная грудка",
+      "translation": "chicken breast",
+      "usage": "Обваляйте куриные грудки в муке.",
+      "usageTranslation": "Coat the chicken breast with flour.",
+      "translationTranscription": "ˈtʃɪkɪn brɛst"
+    },
+    {
+      "text": "кокос",
+      "translation": "coconut",
+      "usage": "У кокосов прочная скорлупа.",
+      "usageTranslation": "Coconuts have hard shells.",
+      "translationTranscription": "ˈkoʊkəˌnʌt"
+    },
+    {
+      "text": "банан",
+      "translation": "banana",
+      "usage": "Обезьяны любят бананы.",
+      "usageTranslation": "Monkeys like bananas.",
+      "translationTranscription": "bəˈnænə"
+    },
+    {
+      "text": "вино",
+      "translation": "wine",
+      "usage": "Я принёс вино.",
+      "usageTranslation": "I brought wine.",
+      "translationTranscription": "waɪn"
+    },
+    {
+      "text": "заказать столик",
+      "translation": "book a table",
+      "usage": "Я забронировал столик на четверых.",
+      "usageTranslation": "I have booked a table for four.",
+      "translationTranscription": "bʊk ə ˈteɪbəl"
+    },
+    {
+      "text": "баклажан",
+      "translation": "eggplant",
+      "usage": "Говорят, что в баклажанах много никотина.",
+      "usageTranslation": "They say that an eggplant has lots of nicotine.",
+      "translationTranscription": "ˈɛgˌplænt"
+    },
+    {
+      "text": "сидр",
+      "translation": "cider",
+      "usage": "Я очень люблю яблочный сидр.",
+      "usageTranslation": "I love apple cider.",
+      "translationTranscription": "ˈsaɪdər"
+    },
+    {
+      "text": "цельное зерно",
+      "translation": "whole grain",
+      "usage": "Мария предпочитает цельнозерновые злаки.",
+      "usageTranslation": "Mary prefers whole-grain cereals.",
+      "translationTranscription": "houl grˈeɪːn"
+    },
+    {
+      "text": "брокколи",
+      "translation": "broccoli",
+      "usage": "Ешь брокколи!",
+      "usageTranslation": "Eat your broccoli!",
+      "translationTranscription": "ˈbrɑkəli"
+    },
+    {
+      "text": "чернослив",
+      "translation": "prune",
+      "usage": "Мой кекс с черносливом вкусный.",
+      "usageTranslation": "My prune cake is delicious",
+      "translationTranscription": "prun"
+    },
+    {
+      "text": "пудинг",
+      "translation": "pudding",
+      "usage": "Можно мне ещё пудинга?",
+      "usageTranslation": "Can I have some more pudding?",
+      "translationTranscription": "ˈpʊdɪŋ"
+    },
+    {
+      "text": "горячий шоколад",
+      "translation": "hot chocolate",
+      "usage": "Ммм, горячий шоколад!",
+      "usageTranslation": "Mmm, hot chocolate!",
+      "translationTranscription": "hɑt ˈʧɔklət"
+    },
+    {
+      "text": "гамбургер",
+      "translation": "hamburger",
+      "usage": "Большинство американцев любят гамбургеры.",
+      "usageTranslation": "Most Americans like hamburgers.",
+      "translationTranscription": "ˈhæmbərgər"
+    },
+    {
+      "text": "малина",
+      "translation": "raspberry",
+      "usage": "Малина очень дорогая.",
+      "usageTranslation": "Raspberries are very expensive.",
+      "translationTranscription": "ˈræzˌbɛri"
+    },
+    {
+      "text": "лайм",
+      "translation": "lime",
+      "usage": "Дети играют под лаймовым деревом.",
+      "usageTranslation": "The children are playing under the lime tree.",
+      "translationTranscription": "laɪm"
+    },
+    {
+      "text": "лед",
+      "translation": "ice",
+      "usage": "Лёд растаял.",
+      "usageTranslation": "The ice melted.",
+      "translationTranscription": "aɪs"
+    },
+    {
+      "text": "смузи",
+      "translation": "smoothie",
+      "usage": "Эти дынные коктейли делают меня толстым.",
+      "usageTranslation": "These melon smoothies are making me fat.",
+      "translationTranscription": "ˈsmuːðɪ"
+    },
+    {
+      "text": "майонез",
+      "translation": "mayonnaise",
+      "usage": "Я смешиваю майонез с кетчупом.",
+      "usageTranslation": "I mix mayonnaise with ketchup.",
+      "translationTranscription": "ˈmeɪəˌneɪz"
+    },
+    {
+      "text": "персик",
+      "translation": "peach",
+      "usage": "Персики пушисты.",
+      "usageTranslation": "Peaches are fuzzy.",
+      "translationTranscription": "piʧ"
+    },
+    {
+      "text": "оливки",
+      "translation": "olive",
+      "usage": "Оливковая ветвь символизирует мир.",
+      "usageTranslation": "An olive branch symbolizes peace.",
+      "translationTranscription": "ˈɑləv"
+    },
+    {
+      "text": "лосось",
+      "translation": "salmon",
+      "usage": "Разрежьте лосось на мелкие кусочки.",
+      "usageTranslation": "Cut the salmon into small pieces.",
+      "translationTranscription": "ˈsæmən"
+    },
+    {
+      "text": "вареные яйца",
+      "translation": "boiled eggs",
+      "usage": "Он посыпал щепоткой соли варёное яйцо.",
+      "usageTranslation": "He put a touch of salt on a boiled egg.",
+      "translationTranscription": "bɔɪld ɛgz"
+    },
+    {
+      "text": "капучино",
+      "translation": "cappuccino",
+      "usage": "Итальянцы пьют капучино только по утрам.",
+      "usageTranslation": "Italians only drink cappuccino in the morning.",
+      "translationTranscription": "ˌkæˌpuˈʧinoʊ"
+    },
+    {
+      "text": "лёгкая закуска",
+      "translation": "snack",
+      "usage": "Как насчёт перекусить?",
+      "usageTranslation": "How about a snack?",
+      "translationTranscription": "snæk"
+    },
+    {
+      "text": "изюм",
+      "translation": "raisin",
+      "usage": "Изюм — это высохший виноград.",
+      "usageTranslation": "Raisins are shrivelled grapes.",
+      "translationTranscription": "ˈreɪzɪn"
+    },
+    {
+      "text": "свежий",
+      "translation": "fresh",
+      "usage": "Ешь больше свежих овощей.",
+      "usageTranslation": "Eat more fresh vegetables.",
+      "translationTranscription": "frɛʃ"
+    },
+    {
+      "text": "молоко",
+      "translation": "milk",
+      "usage": "Коровы дают молоко.",
+      "usageTranslation": "Cows give milk.",
+      "translationTranscription": "mɪlk"
+    },
+    {
+      "text": "размер порции",
+      "translation": "portion size",
+      "usage": "Уменьшите размер порций.",
+      "usageTranslation": "Reduce the size of your portions.",
+      "translationTranscription": "pˈɔːʃn̩ sˈaɪz"
+    },
+    {
+      "text": "мука",
+      "translation": "flour",
+      "usage": "Обваляйте куриные грудки в муке.",
+      "usageTranslation": "Coat the chicken breast with flour.",
+      "translationTranscription": "ˈflaʊə"
+    },
+    {
+      "text": "грибы",
+      "translation": "mushrooms",
+      "usage": "Он поел ядовитых грибов.",
+      "usageTranslation": "He ate poisonous mushrooms.",
+      "translationTranscription": "ˈmʌʃrumz"
+    },
+    {
+      "text": "форель",
+      "translation": "trout",
+      "usage": "Он поймал крупную форель.",
+      "usageTranslation": "He caught a large trout.",
+      "translationTranscription": "traʊt"
+    },
+    {
+      "text": "чизкейк",
+      "translation": "cheesecake",
+      "usage": "Этот чизкейк был слишком сладким.",
+      "usageTranslation": "The cheesecake tasted too sweet.",
+      "translationTranscription": "ˈʧizˌkeɪk"
+    },
+    {
+      "text": "свинина",
+      "translation": "pork",
+      "usage": "Ты ешь свинину?",
+      "usageTranslation": "Do you eat pork?",
+      "translationTranscription": "pɔrk"
+    },
+    {
+      "text": "груша",
+      "translation": "pear",
+      "usage": "Эта груша вкусно пахнет.",
+      "usageTranslation": "This pear smells nice.",
+      "translationTranscription": "pɛr"
+    },
+    {
+      "text": "лимон",
+      "translation": "lemon",
+      "usage": "Эти лимоны свежие.",
+      "usageTranslation": "These lemons are fresh.",
+      "translationTranscription": "ˈlɛmən"
+    },
+    {
+      "text": "рис",
+      "translation": "rice",
+      "usage": "Мы посадили рис.",
+      "usageTranslation": "We planted rice.",
+      "translationTranscription": "raɪs"
+    },
+    {
+      "text": "тыква",
+      "translation": "pumpkin",
+      "usage": "Хочешь тыквенного пирога?",
+      "usageTranslation": "Do you want some pumpkin pie?",
+      "translationTranscription": "ˈpʌmpkɪn"
+    },
+    {
+      "text": "горький",
+      "translation": "bitter",
+      "usage": "У этого кофе горький вкус.",
+      "usageTranslation": "This coffee tastes bitter.",
+      "translationTranscription": "ˈbɪtər"
+    },
+    {
+      "text": "арбуз",
+      "translation": "watermelon",
+      "usage": "Бывают арбузы без семечек?",
+      "usageTranslation": "Are there seedless watermelons?",
+      "translationTranscription": "ˈwɔtərˌmɛlən"
+    },
+    {
+      "text": "кофе со сливками",
+      "translation": "coffee with cream",
+      "usage": "Пожалуйста, кофе со сливками и сахаром.",
+      "usageTranslation": "Coffee, please, with cream and sugar.",
+      "translationTranscription": "ˈkɑfi wɪð krim"
+    },
+    {
+      "text": "лист",
+      "translation": "leaf",
+      "usage": "Она дрожала как лист.",
+      "usageTranslation": "She trembled like a leaf.",
+      "translationTranscription": "lif"
+    },
+    {
+      "text": "лук",
+      "translation": "onion",
+      "usage": "Он ненавидит сырой лук.",
+      "usageTranslation": "He hates raw onions.",
+      "translationTranscription": "ˈʌnjən"
+    },
+    {
+      "text": "сырой",
+      "translation": "raw",
+      "usage": "Мы едим рыбу сырой.",
+      "usageTranslation": "We eat fish raw.",
+      "translationTranscription": "rɑ"
+    },
+    {
+      "text": "еда на вынос",
+      "translation": "takeout",
+      "usage": "Давай возьмём еду на вынос.",
+      "usageTranslation": "Let's get takeout.",
+      "translationTranscription": "ˈteɪˌkaʊt"
+    },
+    {
+      "text": "американо",
+      "translation": "Americano",
+      "usage": "Американо это просто черный кофе?",
+      "usageTranslation": "Is an Americano just black coffee?",
+      "translationTranscription": "əˌmɛrɪˈkɑnoʊ"
+    },
+    {
+      "text": "бекон",
+      "translation": "bacon",
+      "usage": "Я почувствовал запах бекона.",
+      "usageTranslation": "I smelled bacon.",
+      "translationTranscription": "ˈbeɪkən"
+    },
+    {
+      "text": "киви",
+      "translation": "kiwi",
+      "usage": "У меня аллергия на киви.",
+      "usageTranslation": "I am allergic to kiwi.",
+      "translationTranscription": "ˈkiwi frut"
+    },
+    {
+      "text": "манго",
+      "translation": "mango",
+      "usage": "Ты любишь манго?",
+      "usageTranslation": "Do you like mangoes?",
+      "translationTranscription": "ˈmæŋgoʊ"
+    },
+    {
+      "text": "вишня",
+      "translation": "cherry",
+      "usage": "Вишни красные.",
+      "usageTranslation": "Cherries are red.",
+      "translationTranscription": "ˈʧɛri"
+    },
+    {
+      "text": "свекла",
+      "translation": "beet",
+      "usage": "Мэри стала красная как свекла.",
+      "usageTranslation": "Mary turned red as a beet.",
+      "translationTranscription": "bit"
+    },
+    {
+      "text": "кукурузные хлопья",
+      "translation": "cornflakes",
+      "usage": "Я ем кукурузные хлопья на завтрак.",
+      "usageTranslation": "I eat cornflakes for breakfast.",
+      "translationTranscription": "kɔrnfleɪks"
+    },
+    {
+      "text": "вишневый пирог",
+      "translation": "cherry pie",
+      "usage": "Хочешь вишнёвого пирога?",
+      "usageTranslation": "Do you want some cherry pie?",
+      "translationTranscription": "ˈʧɛri paɪ"
+    },
+    {
+      "text": "финик",
+      "translation": "date fruit",
+      "usage": "В финиках много антиоксидантов.",
+      "usageTranslation": "Dates are also high in antioxidants.",
+      "translationTranscription": "deɪt fruːt"
+    },
+    {
+      "text": "кленовый сироп",
+      "translation": "maple syrup",
+      "usage": "Вы не передадите мне кленовый сироп?",
+      "usageTranslation": "Could you hand me the maple syrup?",
+      "translationTranscription": "ˈmeɪpəl ˈsɜrəp"
+    },
+    {
+      "text": "белок",
+      "translation": "protein",
+      "usage": "Насекомые состоят из белка.",
+      "usageTranslation": "Insects are full of proteins.",
+      "translationTranscription": "ˈproʊˌtin"
+    },
+    {
+      "text": "крепкий напиток",
+      "translation": "strong drink",
+      "usage": "Для любителей крепких напитков предусмотрен бар.",
+      "usageTranslation": "A bar is provided for those who like strong drinks.",
+      "translationTranscription": "strɔŋ drɪŋk"
+    },
+    {
+      "text": "десерт",
+      "translation": "dessert",
+      "usage": "Что на десерт?",
+      "usageTranslation": "What is for dessert?",
+      "translationTranscription": "dɪˈzɜrt"
+    },
+    {
+      "text": "хорошо прожаренный",
+      "translation": "well-done",
+      "usage": "Стейк хорошо прожарен.",
+      "usageTranslation": "The steak is well done.",
+      "translationTranscription": "wɛl-dʌn"
+    },
+    {
+      "text": "гарнир",
+      "translation": "side dish",
+      "usage": "Томаты могут подаваться как гарнир.",
+      "usageTranslation": "Tomatoes may be served as a side dish.",
+      "translationTranscription": "saɪd dɪʃ"
+    },
+    {
+      "text": "помидор",
+      "translation": "tomato",
+      "usage": "Я выращиваю помидоры.",
+      "usageTranslation": "I grow tomatoes.",
+      "translationTranscription": "təˈmeɪˌtoʊ"
+    },
+    {
+      "text": "рыбный ресторан",
+      "translation": "seafood restaurant",
+      "usage": "Это лучший ресторан морской кухни в окрестностях.",
+      "usageTranslation": "This is the best seafood restaurant in the neighborhood.",
+      "translationTranscription": "ˈsiˌfud ˈrɛstəˌrɑnt"
+    },
+    {
+      "text": "какао",
+      "translation": "cocoa",
+      "usage": "Как насчёт чашки какао?",
+      "usageTranslation": "How about a cup of cocoa?",
+      "translationTranscription": "ˈkoʊkoʊ"
+    },
+    {
+      "text": "тушеная говядина",
+      "translation": "beef stew",
+      "usage": "На обед у меня была тушёная говядина.",
+      "usageTranslation": "I had beef stew for lunch.",
+      "translationTranscription": "bif stu"
+    },
+    {
+      "text": "ужин",
+      "translation": "dinner",
+      "usage": "Я приготовил ужин.",
+      "usageTranslation": "I cooked dinner.",
+      "translationTranscription": "ˈdɪnər"
+    },
+    {
+      "text": "витамины",
+      "translation": "vitamins",
+      "usage": "Даже в шоколаде содержатся витамины.",
+      "usageTranslation": "Even chocolate has vitamins.",
+      "translationTranscription": "ˈvaɪtəmənz"
+    },
+    {
+      "text": "сэндвич с ветчиной",
+      "translation": "ham sandwich",
+      "usage": "Давай я сделаю тебе бутерброд с ветчиной.",
+      "usageTranslation": "Let me make you a ham sandwich.",
+      "translationTranscription": "hæm ˈsændwɪʧ"
+    },
+    {
+      "text": "салат",
+      "translation": "salad",
+      "usage": "Кто принёс салат?",
+      "usageTranslation": "Who brought the salad?",
+      "translationTranscription": "ˈsæləd"
+    },
+    {
+      "text": "попкорн",
+      "translation": "popcorn",
+      "usage": "Где мой попкорн?",
+      "usageTranslation": "Where's my popcorn?",
+      "translationTranscription": "ˈpɑpˌkɔrn"
+    },
+    {
+      "text": "чай с молоком",
+      "translation": "milk tea",
+      "usage": "Я никогда не пил чай с молоком.",
+      "usageTranslation": "I've never drank milk with tea.",
+      "translationTranscription": "mɪlk ti"
+    },
+    {
+      "text": "горох",
+      "translation": "pea",
+      "usage": "Братья-близнецы — как две горошинки.",
+      "usageTranslation": "The twin brothers are like two peas.",
+      "translationTranscription": "piː"
+    },
+    {
+      "text": "виноград",
+      "translation": "grapes",
+      "usage": "Эти виноградины кислые на вкус.",
+      "usageTranslation": "These grapes taste sour.",
+      "translationTranscription": "greɪps"
+    },
+    {
+      "text": "ветчина",
+      "translation": "ham",
+      "usage": "Давай я сделаю тебе бутерброд с ветчиной.",
+      "usageTranslation": "Let me make you a ham sandwich.",
+      "translationTranscription": "hæm"
+    },
+    {
+      "text": "спелый",
+      "translation": "ripe",
+      "usage": "Спелые бананы имеют жёлтый цвет.",
+      "usageTranslation": "Ripe bananas are yellow.",
+      "translationTranscription": "raɪp"
+    },
+    {
+      "text": "фасоль",
+      "translation": "bean",
+      "usage": "Ненавижу фасоль.",
+      "usageTranslation": "I hate beans.",
+      "translationTranscription": "bin"
+    },
+    {
+      "text": "куриный суп",
+      "translation": "chicken soup",
+      "usage": "Ваш куриный суп восхитителен.",
+      "usageTranslation": "Your chicken soup is great.",
+      "translationTranscription": "ˈʧɪkən sup"
+    },
+    {
+      "text": "молочные продукты",
+      "translation": "dairy products",
+      "usage": "Я редко ем молочные продукты.",
+      "usageTranslation": "I seldom eat dairy products.",
+      "translationTranscription": "ˈdɛri ˈprɑdəkts"
+    },
+    {
+      "text": "чай",
+      "translation": "tea",
+      "usage": "Ещё чаю?",
+      "usageTranslation": "More tea?",
+      "translationTranscription": "ti"
+    },
+    {
+      "text": "столик на двоих",
+      "translation": "table for two",
+      "usage": "Я бы хотел зарезервировать столик на двоих.",
+      "usageTranslation": "I'd like to reserve a table for two.",
+      "translationTranscription": "ˈteɪbəl fɔr tu"
+    },
+    {
+      "text": "кислый",
+      "translation": "sour",
+      "usage": "Лимон кислый.",
+      "usageTranslation": "Lemon is sour.",
+      "translationTranscription": "ˈsaʊər"
+    },
+    {
+      "text": "паб",
+      "translation": "pub",
+      "usage": "Где ближайший паб?",
+      "usageTranslation": "Where is the nearest pub?",
+      "translationTranscription": "pʌb"
+    },
+    {
+      "text": "сыр",
+      "translation": "cheese",
+      "usage": "Скажи \"сыр\".",
+      "usageTranslation": "Say cheese.",
+      "translationTranscription": "ʧiz"
+    },
+    {
+      "text": "приятного аппетита",
+      "translation": "enjoy your meal",
+      "usage": "Угощайтесь, приятного аппетита!",
+      "usageTranslation": "Please help yourself. Enjoy your meal!",
+      "translationTranscription": "ɪndʒˈɔɪː jɔː mˈiːl"
+    },
+    {
+      "text": "абрикос",
+      "translation": "apricot",
+      "usage": "Персики крупнее, чем абрикосы.",
+      "usageTranslation": "Peaches are larger than apricots.",
+      "translationTranscription": "ˈæprɪkɑːt"
+    },
+    {
+      "text": "грейпфрут",
+      "translation": "grapefruit",
+      "usage": "Я съел половину грейпфрута на завтрак.",
+      "usageTranslation": "I had half a grapefruit for breakfast.",
+      "translationTranscription": "ˈgreɪpˌfrut"
+    },
+    {
+      "text": "средней прожарки",
+      "translation": "medium rare",
+      "usage": "Я люблю стейк не слишком прожаренный.",
+      "usageTranslation": "I like my steak medium rare.",
+      "translationTranscription": "ˈmidiəm rɛr"
+    },
+    {
+      "text": "перекусывать",
+      "translation": "have a snack",
+      "usage": "Нельзя ли нам чего-нибудь перекусить?",
+      "usageTranslation": "Can't we have a snack or something?",
+      "translationTranscription": "hæv ə snæk"
+    },
+    {
+      "text": "черника",
+      "translation": "blueberry",
+      "usage": "Мне очень нравится черничное мороженое.",
+      "usageTranslation": "I really like blueberry ice cream.",
+      "translationTranscription": "ˈbluˌbɛri"
+    },
+    {
+      "text": "сельдерей",
+      "translation": "celery",
+      "usage": "Сельдерей можно покрошить в салат.",
+      "usageTranslation": "Celery can be chopped up in a salad!",
+      "translationTranscription": "ˈsɛləri"
+    },
+    {
+      "text": "закуска",
+      "translation": "starter",
+      "usage": "Мы заказали кучу закусок.",
+      "usageTranslation": "We ordered a bunch of starters.",
+      "translationTranscription": "ˈstɑrtər"
+    },
+    {
+      "text": "кипеть",
+      "translation": "boil",
+      "usage": "Вскипяти немного воды.",
+      "usageTranslation": "Boil some water.",
+      "translationTranscription": "bɔɪl"
+    },
+    {
+      "text": "конфета",
+      "translation": "candy",
+      "usage": "Попробуй эту конфету.",
+      "usageTranslation": "Try this candy.",
+      "translationTranscription": "ˈkændi"
+    },
+    {
+      "text": "картофель фри",
+      "translation": "French fries",
+      "usage": "Все любят картошку фри.",
+      "usageTranslation": "Everybody likes french fries.",
+      "translationTranscription": "frɛnʧ fraɪz"
+    },
+    {
+      "text": "картофель",
+      "translation": "potato",
+      "usage": "Свари картошку.",
+      "usageTranslation": "Boil those potatoes.",
+      "translationTranscription": "pəˈteɪˌtoʊ"
+    },
+    {
+      "text": "кофе без кофеина",
+      "translation": "decaffeinated coffee",
+      "usage": "Я пью кофе только без кофеина.",
+      "usageTranslation": "I only drink decaffeinated coffee.",
+      "translationTranscription": "diˈkæfəˌneɪtɪd ˈkɑfi"
+    },
+    {
+      "text": "вафли",
+      "translation": "waffles",
+      "usage": "Мы испекли вафли.",
+      "usageTranslation": "We made waffles.",
+      "translationTranscription": "ˈwɑfəlz"
+    },
+    {
+      "text": "еда для вегетарианцев",
+      "translation": "vegetarian food",
+      "usage": "В этом индийском ресторане подают только вегетарианскую пищу.",
+      "usageTranslation": "This Indian restaurant only serves vegetarian food.",
+      "translationTranscription": "ˌvɛʤəˈtɛriən fud"
+    },
+    {
+      "text": "шампанское",
+      "translation": "champagne",
+      "usage": "Пробка от шампанского вылетела.",
+      "usageTranslation": "The champagne cork popped out.",
+      "translationTranscription": "ʃæmˈpeɪn"
+    },
+    {
+      "text": "приправа",
+      "translation": "seasoning",
+      "usage": "Смесь приправ.",
+      "usageTranslation": "Seasoning blend",
+      "translationTranscription": "ˈfleɪvərɪŋ"
+    },
+    {
+      "text": "ананас",
+      "translation": "pineapple",
+      "usage": "Я ем ананасовый шербет.",
+      "usageTranslation": "I eat pineapple sherbert.",
+      "translationTranscription": "ˈpaɪˌnæpəl"
+    },
+    {
+      "text": "кукуруза",
+      "translation": "maize",
+      "usage": "Генетически модифицированная кукуруза.",
+      "usageTranslation": "Genetically modified maize",
+      "translationTranscription": "meɪz"
+    },
+    {
+      "text": "печенье",
+      "translation": "biscuit",
+      "usage": "Хватит печенья!",
+      "usageTranslation": "No more biscuits!",
+      "translationTranscription": "ˈbɪskɪt"
+    },
+    {
+      "text": "блин",
+      "translation": "pancake",
+      "usage": "Переверни блин.",
+      "usageTranslation": "Flip the pancake over.",
+      "translationTranscription": "ˈpænˌkeɪk"
+    },
+    {
+      "text": "авокадо",
+      "translation": "avocado",
+      "usage": "Авокадо - это фрукт.",
+      "usageTranslation": "Avocado is a fruit.",
+      "translationTranscription": "ˌævəˈkɑːdoʊ"
+    },
+    {
+      "text": "торт",
+      "translation": "cake",
+      "usage": "Разрежь торт.",
+      "usageTranslation": "Cut the cake.",
+      "translationTranscription": "keɪk"
+    },
+    {
+      "text": "молочный коктейль",
+      "translation": "milkshake",
+      "usage": "Сделайте мне, пожалуйста, молочный коктейль.",
+      "usageTranslation": "Please make a milkshake for me.",
+      "translationTranscription": "ˈmɪlkˌʃeɪk"
+    },
+    {
+      "text": "калории",
+      "translation": "calories",
+      "usage": "В воде ноль калорий.",
+      "usageTranslation": "Water has zero calories.",
+      "translationTranscription": "kˈæləriz"
+    },
+    {
+      "text": "мёд",
+      "translation": "honey",
+      "usage": "Пчёлы делают мёд.",
+      "usageTranslation": "Bees make honey.",
+      "translationTranscription": "ˈhʌni"
+    },
+    {
+      "text": "сосиска",
+      "translation": "sausage",
+      "usage": "Колбаса слишком жирная.",
+      "usageTranslation": "The sausage is too fat.",
+      "translationTranscription": "ˈsɔsəʤ"
+    },
+    {
+      "text": "завтрак",
+      "translation": "breakfast",
+      "usage": "Завтрак готов.",
+      "usageTranslation": "Breakfast is ready.",
+      "translationTranscription": "ˈbrɛkfəst"
+    },
+    {
+      "text": "основное блюдо",
+      "translation": "main course",
+      "usage": "Обычно мы заказываем осьминога гриль перед главным блюдом.",
+      "usageTranslation": "We usually order grilled octopus before the main course.",
+      "translationTranscription": "meɪn kɔrs"
+    },
+    {
+      "text": "жарить на гриле",
+      "translation": "grill",
+      "usage": "Обычно мы заказываем осьминога гриль перед главным блюдом.",
+      "usageTranslation": "We usually order grilled octopus before the main course.",
+      "translationTranscription": "grɪl"
+    },
+    {
+      "text": "сок",
+      "translation": "juice",
+      "usage": "Мы продаём апельсиновый сок.",
+      "usageTranslation": "We sell orange juice.",
+      "translationTranscription": "ʤus"
+    },
+    {
+      "text": "соль",
+      "translation": "salt",
+      "usage": "Передай соль.",
+      "usageTranslation": "Pass the salt.",
+      "translationTranscription": "sɔlt"
+    },
+    {
+      "text": "чипсы",
+      "translation": "crisps",
+      "usage": "Эмили купила пакетик чипсов.",
+      "usageTranslation": "Emily bought a packet of crisps.",
+      "translationTranscription": "krɪsps"
+    },
+    {
+      "text": "латте",
+      "translation": "latte",
+      "usage": "Латте - напиток итальянского происхождения",
+      "usageTranslation": "Latte is a coffee drink of Italian origin",
+      "translationTranscription": "ˈlɑˌteɪ"
+    },
+    {
+      "text": "еда",
+      "translation": "meal",
+      "usage": "Мы заказали еду.",
+      "usageTranslation": "We ordered the meal.",
+      "translationTranscription": "mil"
+    },
+    {
+      "text": "кофе",
+      "translation": "coffee",
+      "usage": "Том любит горьковатый кофе и шоколад.",
+      "usageTranslation": "Tom prefers coffee and chocolate with a slightly bitter taste.",
+      "translationTranscription": "ˈkɑfi"
+    },
+    {
+      "text": "имбирь",
+      "translation": "ginger",
+      "usage": "Это имбирный напиток.",
+      "usageTranslation": "This is a ginger drink.",
+      "translationTranscription": "ˈʤɪnʤər"
+    },
+    {
+      "text": "дыня",
+      "translation": "melon",
+      "usage": "Разрежь дыню на шесть равных частей.",
+      "usageTranslation": "Cut the melon into six equal pieces.",
+      "translationTranscription": "ˈmɛlən"
+    },
+    {
+      "text": "попросить счет",
+      "translation": "ask for the bill",
+      "usage": "Ты попросил у официанта счёт?",
+      "usageTranslation": "Did you ask the waiter for the bill?",
+      "translationTranscription": "æsk fɔr ðə bɪl"
+    },
+    {
+      "text": "слива",
+      "translation": "plum",
+      "usage": "Эти сливы уже созрели.",
+      "usageTranslation": "These plums are ripe.",
+      "translationTranscription": "plʌm"
+    },
+    {
+      "text": "капуста",
+      "translation": "cabbage",
+      "usage": "Капусту можно есть сырой.",
+      "usageTranslation": "Cabbage can be eaten raw.",
+      "translationTranscription": "ˈkæbəʤ"
+    },
+    {
+      "text": "йогурт",
+      "translation": "yogurt",
+      "usage": "У этого йогурта странный вкус.",
+      "usageTranslation": "This yogurt tastes strange.",
+      "translationTranscription": "ˈjoʊɡərt"
+    }
+  ]
+}
