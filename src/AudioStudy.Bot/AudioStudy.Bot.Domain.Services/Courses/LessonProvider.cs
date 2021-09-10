@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using AudioStudy.Bot.Courses;
 using AudioStudy.Bot.Domain.Model.Courses;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 namespace AudioStudy.Bot.Domain.Services.Courses
@@ -12,14 +13,16 @@ namespace AudioStudy.Bot.Domain.Services.Courses
     public class LessonProvider : ILessonProvider
     {
         private readonly IOptions<LessonProviderOptions> _config;
+        private readonly ILogger<LessonProvider> _logger;
 
         private static bool _lessonsByCourseSet;
         private static readonly object LessonsByCourseLock = new();
         private static Dictionary<string, Dictionary<int, Lesson[]>> _lessonsByCourse;
         
-        public LessonProvider(IOptions<LessonProviderOptions> config)
+        public LessonProvider(IOptions<LessonProviderOptions> config, ILogger<LessonProvider> logger)
         {
             _config = config;
+            _logger = logger;
         }
 
         public Lesson[] GetCourseLessons(string courseId, int courseVersion)
@@ -70,7 +73,9 @@ namespace AudioStudy.Bot.Domain.Services.Courses
 
         public void Load()
         {
+            _logger.LogInformation("Starting loading lessons at: {time}.", DateTimeOffset.UtcNow);
             var tmp = GetCourseLessons(string.Empty, 0);
+            _logger.LogInformation("Finished loading lessons at: {time}.", DateTimeOffset.UtcNow);
         }
 
         private CourseLessons[] GetCourseLessons()

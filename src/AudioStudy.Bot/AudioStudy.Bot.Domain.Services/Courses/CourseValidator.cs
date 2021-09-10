@@ -63,12 +63,14 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             }
         }
 
-        public static void ValidateCard(Card card)
+        private static readonly JsonSerializerOptions Options = new()
         {
-            CheckTextLength(JsonSerializer.Serialize(card, new JsonSerializerOptions
-            {
-                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
-            }));
+            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+        };
+
+        private static void ValidateCard(Card card)
+        {
+            CheckTextLength(JsonSerializer.Serialize(card, Options));
             if (string.IsNullOrWhiteSpace(card.Text))
             {
                 throw new Exception($"{nameof(card.Text)} is required");

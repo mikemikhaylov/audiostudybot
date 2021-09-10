@@ -7,11 +7,19 @@ using System.Text.Json.Serialization;
 using AudioStudy.Bot.Courses;
 using AudioStudy.Bot.Domain.Model.Courses;
 using AudioStudy.Bot.SharedUtils.Localization.Enums;
+using Microsoft.Extensions.Logging;
 
 namespace AudioStudy.Bot.Domain.Services.Courses
 {
     public class CourseProvider : ICourseProvider
     {
+        private readonly ILogger<CourseProvider> _logger;
+
+        public CourseProvider(ILogger<CourseProvider> logger)
+        {
+            _logger = logger;
+        }
+        
         private static readonly Lazy<Course[]> Courses = new(GetAllCourses);
 
         private static readonly Lazy<Dictionary<string, Course>> CoursesById = new(() =>
@@ -92,10 +100,12 @@ namespace AudioStudy.Bot.Domain.Services.Courses
 
         public void Load()
         {
+            _logger.LogInformation("Starting loading courses at: {time}.", DateTimeOffset.UtcNow);
             var loaded = Courses.Value;
             var tmp = CoursesLanguages.Value;
             var tmp2 = TranslationLanguages.Value;
             var tmp3 = CoursesById.Value;
+            _logger.LogInformation("Finished loading courses at: {time}.", DateTimeOffset.UtcNow);
         }
 
         private static Course[] GetAllCourses()
