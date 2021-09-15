@@ -19,7 +19,6 @@
       <EmbeddedResource Include="courses\en-ru\food-reversed.json" />
       <None Remove="courses\en-ru\for-beginners-reversed.json" />
       <EmbeddedResource Include="courses\en-ru\for-beginners-reversed.json" />
-      <None Remove="courses\en-ru\it-reversed.json" />
       <None Remove="courses\en-ru\travel-reversed.json" />
       <EmbeddedResource Include="courses\en-ru\travel-reversed.json" />
       <None Remove="lessons\en-ru\food\1\lessons.json" />
@@ -102,6 +101,8 @@
       <EmbeddedResource Include="lessons\en-ru\most_frequent_words_801-1000\1\lessons.json" />
       <None Remove="lessons\en-ru\most_frequent_words_1-200\1\lessons.json" />
       <EmbeddedResource Include="lessons\en-ru\most_frequent_words_1-200\1\lessons.json" />
+      <None Remove="courses\en-ru\it-reversed.json" />
+      <EmbeddedResource Include="courses\en-ru\it-reversed.json" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="lessons\en-ru\for-beginners\1" />
