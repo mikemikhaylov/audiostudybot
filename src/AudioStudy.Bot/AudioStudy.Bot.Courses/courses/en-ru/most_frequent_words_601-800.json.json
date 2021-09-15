@@ -1,0 +1,1414 @@
+{
+  "id": "36b8c375-3517-4838-9cc9-90d939e57e0a",
+  "version": 1,
+  "weight": 80,
+  "type": "words",
+  "name": "Most frequent words 601-800",
+  "nameTranslation": "Топ частотных слов 601-800",
+  "language": "en",
+  "translationLanguage": "ru",
+  "description": "The course is based on data from https://www.wordfrequency.info/ which in turn is based on Corpus of Contemporary American English (COCA).\n\nMore specifically on this free sample https://www.wordfrequency.info/samples/wordFrequency.xlsx",
+  "descriptionTranslation": "Курс основан на списке частотных слов, опубликованном на https://www.wordfrequency.info/, который в свою очередь основан на корпусе современного американского английского языка (Corpus of Contemporary American English).\n\nБолее конкретно на этом бесплатном образце https://www.wordfrequency.info/samples/wordFrequency.xlsx",
+  "cards": [
+    {
+      "text": "red",
+      "translation": "красный",
+      "transcription": "rɛd",
+      "usage": "She's wearing red.",
+      "usageTranslation": "Она одета в красное."
+    },
+    {
+      "text": "hair",
+      "translation": "волосы",
+      "transcription": "heə",
+      "usage": "My hair curls easily.",
+      "usageTranslation": "У меня слегка вьются волосы."
+    },
+    {
+      "text": "condition",
+      "translation": "условие, состояние",
+      "transcription": "kənˈdɪʃən",
+      "usage": "She's in good physical condition.",
+      "usageTranslation": "Она в хорошей физической форме."
+    },
+    {
+      "text": "wall",
+      "translation": "стена",
+      "transcription": "wɔːl",
+      "usage": "We're building a wall.",
+      "usageTranslation": "Мы строим стену."
+    },
+    {
+      "text": "daughter",
+      "translation": "дочь",
+      "transcription": "ˈdɔːtə",
+      "usage": "Bring your daughter.",
+      "usageTranslation": "Приводи свою дочь."
+    },
+    {
+      "text": "deal",
+      "translation": "сделка, справляться",
+      "transcription": "diːl",
+      "usage": "Deal with it.",
+      "usageTranslation": "Разбирайся с этим."
+    },
+    {
+      "text": "author",
+      "translation": "автор",
+      "transcription": "ˈɔːθə",
+      "usage": "Who's the author of this story?",
+      "usageTranslation": "Кто автор этого рассказа?"
+    },
+    {
+      "text": "truth",
+      "translation": "правда",
+      "transcription": "truːθ",
+      "usage": "Does truth matter?",
+      "usageTranslation": "Имеет ли правда значение?"
+    },
+    {
+      "text": "upon",
+      "translation": "на",
+      "transcription": "əˈpɒn",
+      "usage": "Science rests upon observation.",
+      "usageTranslation": "Наука основывается на наблюдении."
+    },
+    {
+      "text": "husband",
+      "translation": "муж",
+      "transcription": "ˈhʌzbənd",
+      "usage": "My husband is jealous.",
+      "usageTranslation": "У меня ревнивый муж."
+    },
+    {
+      "text": "period",
+      "translation": "период, точка",
+      "transcription": "ˈpɪərɪəd",
+      "usage": "Which period of history are you studying?",
+      "usageTranslation": "Какой период истории ты изучаешь?"
+    },
+    {
+      "text": "series",
+      "translation": "ряд, серия",
+      "transcription": "ˈsɪəriːz",
+      "usage": "They gave a series of concerts.",
+      "usageTranslation": "Они дали серию концертов."
+    },
+    {
+      "text": "order",
+      "translation": "заказывать, приказ",
+      "transcription": "ˈɔːrdər",
+      "usage": "It's an order.",
+      "usageTranslation": "Это приказ."
+    },
+    {
+      "text": "officer",
+      "translation": "офицер",
+      "transcription": "ˈɒfɪsə",
+      "usage": "She's a police officer.",
+      "usageTranslation": "Она офицер полиции."
+    },
+    {
+      "text": "close",
+      "translation": "закрывать, близко",
+      "transcription": "kləʊz",
+      "usage": "Close the window.",
+      "usageTranslation": "Закройте окно."
+    },
+    {
+      "text": "land",
+      "translation": "земля",
+      "transcription": "lænd",
+      "usage": "They cultivated the land.",
+      "usageTranslation": "Они возделывали землю."
+    },
+    {
+      "text": "note",
+      "translation": "заметка",
+      "transcription": "nəʊt",
+      "usage": "I wrote the note.",
+      "usageTranslation": "Я писал заметку."
+    },
+    {
+      "text": "computer",
+      "translation": "компьютер",
+      "transcription": "kəmˈpjuːtə",
+      "usage": "Reboot the computer.",
+      "usageTranslation": "Перезагрузи компьютер."
+    },
+    {
+      "text": "thought",
+      "translation": "мысль",
+      "transcription": "θɔːt",
+      "usage": "Everybody thought so.",
+      "usageTranslation": "Все так подумали."
+    },
+    {
+      "text": "economy",
+      "translation": "экономика",
+      "transcription": "i(ː)ˈkɒnəmi",
+      "usage": "The Japanese economy developed rapidly.",
+      "usageTranslation": "Японская экономика развилась стремительно."
+    },
+    {
+      "text": "goal",
+      "translation": "цель",
+      "transcription": "gəʊl",
+      "usage": "She achieved her goal.",
+      "usageTranslation": "Она достигла своей цели."
+    },
+    {
+      "text": "bank",
+      "translation": "банк, банка",
+      "transcription": "bæŋk",
+      "usage": "I'm a bank employee.",
+      "usageTranslation": "Я банковский служащий."
+    },
+    {
+      "text": "behavior",
+      "translation": "поведение",
+      "transcription": "bɪˈheɪvjə",
+      "usage": "Tom's behavior was unacceptable.",
+      "usageTranslation": "Поведение Тома было неприемлемым."
+    },
+    {
+      "text": "sound",
+      "translation": "звук, крепкий",
+      "transcription": "saʊnd",
+      "usage": "Does this sound stupid?",
+      "usageTranslation": "Это звучит глупо?"
+    },
+    {
+      "text": "certainly",
+      "translation": "конечно",
+      "transcription": "ˈsɜːtnli",
+      "usage": "That's certainly possible.",
+      "usageTranslation": "Это, определённо, возможно."
+    },
+    {
+      "text": "nearly",
+      "translation": "почти, близко",
+      "transcription": "ˈnɪəli",
+      "usage": "It's nearly dawn.",
+      "usageTranslation": "Уже почти рассвело."
+    },
+    {
+      "text": "increase",
+      "translation": "возрастать, увеличивать",
+      "transcription": "ɪnˈkriːs",
+      "usage": "They demanded a salary increase.",
+      "usageTranslation": "Они требовали повысить зарплату."
+    },
+    {
+      "text": "act",
+      "translation": "действовать, исполнять роль, играть",
+      "transcription": "ækt",
+      "usage": "Act. Don't talk.",
+      "usageTranslation": "Делай. Не говори."
+    },
+    {
+      "text": "north",
+      "translation": "север ",
+      "transcription": "nɔːθ",
+      "usage": "Head north.",
+      "usageTranslation": "Двигайся на север."
+    },
+    {
+      "text": "blood",
+      "translation": "кровь",
+      "transcription": "blʌd",
+      "usage": "Blood flows through blood vessels.",
+      "usageTranslation": "Кровь течёт по кровеносным сосудам."
+    },
+    {
+      "text": "culture",
+      "translation": "культура",
+      "transcription": "ˈkʌlʧə",
+      "usage": "This country has a rich culture.",
+      "usageTranslation": "У этой страны богатая культура."
+    },
+    {
+      "text": "medical",
+      "translation": "медицинский",
+      "transcription": "ˈmɛdɪkəl",
+      "usage": "Do you have medical insurance?",
+      "usageTranslation": "У тебя есть медицинская страховка?"
+    },
+    {
+      "text": "everybody",
+      "translation": "все",
+      "transcription": "ˈɛvrɪbɒdi",
+      "usage": "Everybody knows everybody.",
+      "usageTranslation": "Каждый знает каждого."
+    },
+    {
+      "text": "top",
+      "translation": "вершина, лучший",
+      "transcription": "tɒp",
+      "usage": "We climbed to the top.",
+      "usageTranslation": "Мы вскарабкались на вершину."
+    },
+    {
+      "text": "difficult",
+      "translation": "сложный",
+      "transcription": "ˈdɪfɪkəlt",
+      "usage": "It was difficult.",
+      "usageTranslation": "Это было трудно."
+    },
+    {
+      "text": "language",
+      "translation": "язык",
+      "transcription": "ˈlæŋgwɪʤ",
+      "usage": "Choose a language.",
+      "usageTranslation": "Выберите язык."
+    },
+    {
+      "text": "window",
+      "translation": "окно ",
+      "transcription": "ˈwɪndəʊ",
+      "usage": "Don't open the window.",
+      "usageTranslation": "Не открывайте окно."
+    },
+    {
+      "text": "response",
+      "translation": "ответ",
+      "transcription": "rɪsˈpɒns",
+      "usage": "Thanks for your response.",
+      "usageTranslation": "Спасибо тебе за ответ."
+    },
+    {
+      "text": "population",
+      "translation": "население",
+      "transcription": "ˌpɒpjʊˈleɪʃən",
+      "usage": "The population is increasing.",
+      "usageTranslation": "Население увеличивается."
+    },
+    {
+      "text": "lie",
+      "translation": "лежать, лгать, ложь",
+      "transcription": "laɪ",
+      "usage": "You wouldn't lie.",
+      "usageTranslation": "Ты бы не солгал."
+    },
+    {
+      "text": "tree",
+      "translation": "дерево",
+      "transcription": "triː",
+      "usage": "That's a lemon tree.",
+      "usageTranslation": "Это - лимонное дерево."
+    },
+    {
+      "text": "park",
+      "translation": "парковаться, парк",
+      "transcription": "pɑːk",
+      "usage": "The parking was transformed into a park.",
+      "usageTranslation": "Парковку переделали в парк."
+    },
+    {
+      "text": "worker",
+      "translation": "работник, рабочий",
+      "transcription": "ˈwɜːkə",
+      "usage": "We need more workers.",
+      "usageTranslation": "Нам нужно больше рабочих."
+    },
+    {
+      "text": "draw",
+      "translation": "рисовать, привлекать",
+      "transcription": "drɔː",
+      "usage": "Draw a straight line.",
+      "usageTranslation": "Нарисуй прямую линию."
+    },
+    {
+      "text": "drop",
+      "translation": "капать, ронять, капля",
+      "transcription": "drɒp",
+      "usage": "Drop your weapons!",
+      "usageTranslation": "Бросайте оружие!"
+    },
+    {
+      "text": "push",
+      "translation": "толкать",
+      "transcription": "pʊʃ",
+      "usage": "Push harder.",
+      "usageTranslation": "Толкай сильнее."
+    },
+    {
+      "text": "Earth",
+      "translation": "земля",
+      "transcription": "ɜːθ",
+      "usage": "We live on Earth.",
+      "usageTranslation": "Мы живём на Земле."
+    },
+    {
+      "text": "private",
+      "translation": "персональный, частный, рядовой солдат",
+      "transcription": "ˈpraɪvɪt",
+      "usage": "This is private property.",
+      "usageTranslation": "Это частная собственность."
+    },
+    {
+      "text": "tonight",
+      "translation": "сегодня вечером",
+      "transcription": "təˈnaɪt",
+      "usage": "Wait until tonight.",
+      "usageTranslation": "Подожди до вечера."
+    },
+    {
+      "text": "race",
+      "translation": "гонка",
+      "transcription": "reɪs",
+      "usage": "It was a tough race.",
+      "usageTranslation": "Это была тяжёлая гонка."
+    },
+    {
+      "text": "letter",
+      "translation": "письмо, буква",
+      "transcription": "ˈlɛtə",
+      "usage": "I received your letter.",
+      "usageTranslation": "Я получил твоё письмо."
+    },
+    {
+      "text": "gun",
+      "translation": "пистолет, оружие, орудие",
+      "transcription": "gʌn",
+      "usage": "Is your gun loaded?",
+      "usageTranslation": "У тебя ружьё заряжено?"
+    },
+    {
+      "text": "simple",
+      "translation": "простой",
+      "transcription": "ˈsɪmpl",
+      "usage": "That's too simple.",
+      "usageTranslation": "Это слишком просто."
+    },
+    {
+      "text": "wonder",
+      "translation": "удивляться, интересоваться, чудо",
+      "transcription": "ˈwʌndə",
+      "usage": "I wonder what happened.",
+      "usageTranslation": "Интересно, что случилось."
+    },
+    {
+      "text": "involve",
+      "translation": "вовлекать",
+      "transcription": "ɪnˈvɒlv",
+      "usage": "I didn't want to involve her.",
+      "usageTranslation": "Я не хотел её вмешивать."
+    },
+    {
+      "text": "hell",
+      "translation": "ад",
+      "transcription": "hɛl",
+      "usage": "War is hell.",
+      "usageTranslation": "Война - это ад."
+    },
+    {
+      "text": "poor",
+      "translation": "бедный",
+      "transcription": "pʊə",
+      "usage": "Poor girl.",
+      "usageTranslation": "Бедная девочка."
+    },
+    {
+      "text": "answer",
+      "translation": "ответ, отвечать",
+      "transcription": "ˈɑːnsə",
+      "usage": "Answer the question.",
+      "usageTranslation": "Ответь на вопрос."
+    },
+    {
+      "text": "nature",
+      "translation": "природа",
+      "transcription": "ˈneɪʧə",
+      "usage": "He's good by nature.",
+      "usageTranslation": "Он от природы добрый."
+    },
+    {
+      "text": "administration",
+      "translation": "администрация",
+      "transcription": "ədˌmɪnɪsˈtreɪʃ(ə)n",
+      "usage": "The administration approved the budget.",
+      "usageTranslation": "Администрация утвердила бюджет."
+    },
+    {
+      "text": "common",
+      "translation": "общий",
+      "transcription": "ˈkɒmən",
+      "usage": "We have common tastes.",
+      "usageTranslation": "У нас общие вкусы."
+    },
+    {
+      "text": "message",
+      "translation": "сообщение",
+      "transcription": "ˈmɛsɪʤ",
+      "usage": "Please leave a message.",
+      "usageTranslation": "Пожалуйста, оставьте сообщение."
+    },
+    {
+      "text": "song",
+      "translation": "песня",
+      "transcription": "sɒŋ",
+      "usage": "Please sing a song.",
+      "usageTranslation": "Пожалуйста, спой песню."
+    },
+    {
+      "text": "enjoy",
+      "translation": "наслаждаться",
+      "transcription": "ɪnˈʤɔɪ",
+      "usage": "I enjoy poker.",
+      "usageTranslation": "Я обожаю покер."
+    },
+    {
+      "text": "similar",
+      "translation": "похожий, подобный",
+      "transcription": "ˈsɪmɪlə",
+      "usage": "Something similar happened to me.",
+      "usageTranslation": "Нечто подобное случилось со мной."
+    },
+    {
+      "text": "congress",
+      "translation": "конгресс",
+      "transcription": "ˈkɒŋgrɛs",
+      "usage": "The Library of Congress has a Youtube channel.",
+      "usageTranslation": "У Библиотеки Конгресса США есть канал на YouTube."
+    },
+    {
+      "text": "attack",
+      "translation": "атаковать, атака",
+      "transcription": "əˈtæk",
+      "usage": "Bears can attack people.",
+      "usageTranslation": "Медведи могут нападать на людей."
+    },
+    {
+      "text": "past",
+      "translation": "прошлое",
+      "transcription": "pɑːst",
+      "usage": "Future needs past.",
+      "usageTranslation": "Будущее нуждается в прошлом."
+    },
+    {
+      "text": "hot",
+      "translation": "горячий",
+      "transcription": "hɒt",
+      "usage": "Yesterday was hot.",
+      "usageTranslation": "Вчера было жарко."
+    },
+    {
+      "text": "seek",
+      "translation": "искать",
+      "transcription": "siːk",
+      "usage": "He decided to seek information elsewhere.",
+      "usageTranslation": "Он решил искать информацию в другом месте."
+    },
+    {
+      "text": "amount",
+      "translation": "количество, сумма",
+      "transcription": "əˈmaʊnt",
+      "usage": "This amount includes tax.",
+      "usageTranslation": "В эту сумму включены налоги."
+    },
+    {
+      "text": "analysis",
+      "translation": "анализ",
+      "transcription": "əˈnæləsɪs",
+      "usage": "She persists in saying that her analysis is correct.",
+      "usageTranslation": "Она настаивает, что её анализ правильный."
+    },
+    {
+      "text": "store",
+      "translation": "магазин, запас, склад, хранить",
+      "transcription": "stɔː",
+      "usage": "The store was closed.",
+      "usageTranslation": "Магазин был закрыт."
+    },
+    {
+      "text": "defense",
+      "translation": "оборона",
+      "transcription": "dɪˈfɛns",
+      "usage": "Attack is the best form of defense.",
+      "usageTranslation": "Наступление - лучшая защита."
+    },
+    {
+      "text": "bill",
+      "translation": "счёт",
+      "transcription": "bɪl",
+      "usage": "The bill, please.",
+      "usageTranslation": "Счет, пожалуйста."
+    },
+    {
+      "text": "cell",
+      "translation": "ячейка, мобильный телефон",
+      "transcription": "sɛl",
+      "usage": "Do you have a cell phone?",
+      "usageTranslation": "У тебя есть мобильный телефон?"
+    },
+    {
+      "text": "performance",
+      "translation": "выступление, выполнение, производительность",
+      "transcription": "pəˈfɔːməns",
+      "usage": "His performance was amazing.",
+      "usageTranslation": "Его выступление было потрясающим."
+    },
+    {
+      "text": "hospital",
+      "translation": "больница",
+      "transcription": "ˈhɒspɪtl",
+      "usage": "The hospital is crowded.",
+      "usageTranslation": "Больница переполнена."
+    },
+    {
+      "text": "bed",
+      "translation": "кровать",
+      "transcription": "bɛd",
+      "usage": "Make your bed.",
+      "usageTranslation": "Застели свою постель."
+    },
+    {
+      "text": "board",
+      "translation": "доска, совет, правление",
+      "transcription": "bɔːd",
+      "usage": "Don't erase the board.",
+      "usageTranslation": "Не стирай с доски."
+    },
+    {
+      "text": "protect",
+      "translation": "защищать",
+      "transcription": "prəˈtɛkt",
+      "usage": "Tom will protect you.",
+      "usageTranslation": "Том тебя защитит."
+    },
+    {
+      "text": "century",
+      "translation": "век",
+      "transcription": "ˈsɛnʧʊri",
+      "usage": "A century is one hundred years.",
+      "usageTranslation": "Век — это сто лет."
+    },
+    {
+      "text": "summer",
+      "translation": "лето",
+      "transcription": "ˈsʌmə",
+      "usage": "Summer has ended.",
+      "usageTranslation": "Лето закончилось."
+    },
+    {
+      "text": "material",
+      "translation": "материал, материальный",
+      "transcription": "məˈtɪərɪəl",
+      "usage": "This material stretches easily.",
+      "usageTranslation": "Этот материал легко тянется."
+    },
+    {
+      "text": "individual",
+      "translation": "личный, личность",
+      "transcription": "ˌɪndɪˈvɪdjʊəl",
+      "usage": "He's a rather rare individual.",
+      "usageTranslation": "Он довольно редкий индивидуум."
+    },
+    {
+      "text": "recently",
+      "translation": "недавно",
+      "transcription": "ˈriːsntli",
+      "usage": "They moved here recently.",
+      "usageTranslation": "Они переехали сюда недавно."
+    },
+    {
+      "text": "example",
+      "translation": "пример",
+      "transcription": "ɪgˈzɑːmpl",
+      "usage": "Give me another example.",
+      "usageTranslation": "Приведи мне другой пример."
+    },
+    {
+      "text": "represent",
+      "translation": "представлять",
+      "transcription": "ˌrɛprɪˈzɛnt",
+      "usage": "I represent an American firm.",
+      "usageTranslation": "Я представляю американскую фирму."
+    },
+    {
+      "text": "fill",
+      "translation": "наполнять",
+      "transcription": "fɪl",
+      "usage": "Fill the bucket with water.",
+      "usageTranslation": "Наполни ведро водой."
+    },
+    {
+      "text": "animal",
+      "translation": "животное, животный",
+      "transcription": "ˈænɪməl",
+      "usage": "Is this animal holy?",
+      "usageTranslation": "Это животное священно?"
+    },
+    {
+      "text": "fail",
+      "translation": "потерпеть неудачу, провал",
+      "transcription": "feɪl",
+      "usage": "We can't fail again.",
+      "usageTranslation": "Мы не можем потерпеть неудачу снова."
+    },
+    {
+      "text": "factor",
+      "translation": "фактор",
+      "transcription": "ˈfæktə",
+      "usage": "Health is an important factor of happiness.",
+      "usageTranslation": "Здоровье - важный фактор счастья."
+    },
+    {
+      "text": "natural",
+      "translation": "естественный, природный",
+      "transcription": "ˈnæʧrəl",
+      "usage": "It's completely natural.",
+      "usageTranslation": "Это совершенно естественно."
+    },
+    {
+      "text": "sir",
+      "translation": "сэр",
+      "transcription": "sɜː",
+      "usage": "Your table is ready, sir.",
+      "usageTranslation": "Ваш столик готов, сэр."
+    },
+    {
+      "text": "agency",
+      "translation": "агентство",
+      "transcription": "ˈeɪʤənsi",
+      "usage": "Tom started an advertising agency.",
+      "usageTranslation": "Том основал рекламное агентство."
+    },
+    {
+      "text": "usually",
+      "translation": "обычно",
+      "transcription": "ˈjuːʒʊəli",
+      "usage": "We usually win.",
+      "usageTranslation": "Мы обычно побеждаем."
+    },
+    {
+      "text": "significant",
+      "translation": "значительный",
+      "transcription": "sɪgˈnɪfɪkənt",
+      "usage": "This product has significant shortcomings.",
+      "usageTranslation": "У этого продукта есть существенные недостатки."
+    },
+    {
+      "text": "ability",
+      "translation": "способность",
+      "transcription": "əˈbɪlɪti",
+      "usage": "He overestimated his ability.",
+      "usageTranslation": "Он переоценил свои возможности."
+    },
+    {
+      "text": "mile",
+      "translation": "миля",
+      "transcription": "maɪl",
+      "usage": "The bridge is approximately a mile long.",
+      "usageTranslation": "Мост примерно в милю длинной."
+    },
+    {
+      "text": "statement",
+      "translation": "высказывание, утверждение",
+      "transcription": "ˈsteɪtmənt",
+      "usage": "I have a brief statement.",
+      "usageTranslation": "У меня короткое заявление."
+    },
+    {
+      "text": "entire",
+      "translation": "полный, весь",
+      "transcription": "ɪnˈtaɪə",
+      "usage": "The entire town was under water.",
+      "usageTranslation": "Весь город был под водой."
+    },
+    {
+      "text": "democrat",
+      "translation": "демократ",
+      "transcription": "ˈdɛməkræt",
+      "usage": "Democrats and Republicans worked together.",
+      "usageTranslation": "Демократы и республиканцы работали вместе."
+    },
+    {
+      "text": "floor",
+      "translation": "пол, этаж",
+      "transcription": "flɔː",
+      "usage": "Sweep the floor.",
+      "usageTranslation": "Подмети пол."
+    },
+    {
+      "text": "serious",
+      "translation": "серьёзный",
+      "transcription": "ˈsɪərɪəs",
+      "usage": "It's nothing serious.",
+      "usageTranslation": "Ничего серьёзного."
+    },
+    {
+      "text": "career",
+      "translation": "карьера",
+      "transcription": "kəˈrɪə",
+      "usage": "His political career has ended.",
+      "usageTranslation": "Его политическая карьера закончилась."
+    },
+    {
+      "text": "dollar",
+      "translation": "доллар",
+      "transcription": "ˈdɒlə",
+      "usage": "How much is the dollar now?",
+      "usageTranslation": "Сколько сейчас стоит доллар?"
+    },
+    {
+      "text": "vote",
+      "translation": "голос, голосование",
+      "transcription": "vəʊt",
+      "usage": "Everybody should vote.",
+      "usageTranslation": "Все должны голосовать."
+    },
+    {
+      "text": "compare",
+      "translation": "сравнивать",
+      "transcription": "kəmˈpeə",
+      "usage": "Don't compare yourself to them.",
+      "usageTranslation": "Не сравнивай себя с ними."
+    },
+    {
+      "text": "south",
+      "translation": "юг",
+      "transcription": "saʊθ",
+      "usage": "I'm from South Korea.",
+      "usageTranslation": "Я из Южной Кореи."
+    },
+    {
+      "text": "forward",
+      "translation": "дальше, вперед",
+      "transcription": "ˈfɔːwəd",
+      "usage": "Take another step forward.",
+      "usageTranslation": "Сделай ещё шаг вперёд."
+    },
+    {
+      "text": "subject",
+      "translation": "тема, подчиненный",
+      "transcription": "ˈsʌbʤekt",
+      "usage": "Change the subject.",
+      "usageTranslation": "Смени тему."
+    },
+    {
+      "text": "financial",
+      "translation": "финансовый",
+      "transcription": "faɪˈnænʃəl",
+      "usage": "Will I receive financial aid?",
+      "usageTranslation": "Я получу финансовую помощь?"
+    },
+    {
+      "text": "identify",
+      "translation": "идентифицировать",
+      "transcription": "aɪˈdɛntɪfaɪ",
+      "usage": "Can you identify the problem areas?",
+      "usageTranslation": "Ты можешь определить проблемные места?"
+    },
+    {
+      "text": "beautiful",
+      "translation": "красивый",
+      "transcription": "ˈbjuːtəfʊl",
+      "usage": "That is beautiful.",
+      "usageTranslation": "Это красиво."
+    },
+    {
+      "text": "decade",
+      "translation": "десятилетие",
+      "transcription": "ˈdɛkeɪd",
+      "usage": "I've been working here for many decades.",
+      "usageTranslation": "Я уже много десятков лет работаю здесь."
+    },
+    {
+      "text": "bit",
+      "translation": "кусочек, частица",
+      "transcription": "bit",
+      "usage": "Wait a bit.",
+      "usageTranslation": "Подожди чуть-чуть."
+    },
+    {
+      "text": "reduce",
+      "translation": "сокращать",
+      "transcription": "rɪˈdjuːs",
+      "usage": "That would reduce costs.",
+      "usageTranslation": "Это сократило бы расходы."
+    },
+    {
+      "text": "sister",
+      "translation": "сестра",
+      "transcription": "ˈsɪstə",
+      "usage": "She's his sister.",
+      "usageTranslation": "Она его сестра."
+    },
+    {
+      "text": "quality",
+      "translation": "качество",
+      "transcription": "ˈkwɒlɪti",
+      "usage": "The quality of translation has improved.",
+      "usageTranslation": "Качество перевода улучшилось."
+    },
+    {
+      "text": "quickly",
+      "translation": "быстро",
+      "transcription": "ˈkwɪkli",
+      "usage": "Squirrels move quickly.",
+      "usageTranslation": "Белки быстро двигаются."
+    },
+    {
+      "text": "press",
+      "translation": "нажимать",
+      "transcription": "prɛs",
+      "usage": "Press the button.",
+      "usageTranslation": "Нажми на кнопку."
+    },
+    {
+      "text": "worry",
+      "translation": "беспокоиться",
+      "transcription": "ˈwʌri",
+      "usage": "Don't worry.",
+      "usageTranslation": "Не волнуйся."
+    },
+    {
+      "text": "accept",
+      "translation": "принимать",
+      "transcription": "əkˈsɛpt",
+      "usage": "I accept your apology.",
+      "usageTranslation": "Я принимаю ваши извинения."
+    },
+    {
+      "text": "enter",
+      "translation": "ввод",
+      "transcription": "ˈɛntə",
+      "usage": "Enter your password.",
+      "usageTranslation": "Введите пароль."
+    },
+    {
+      "text": "mention",
+      "translation": "упоминать",
+      "transcription": "ˈmɛnʃən",
+      "usage": "Don't even mention it.",
+      "usageTranslation": "Даже не упоминай об этом."
+    },
+    {
+      "text": "thus",
+      "translation": "следовательно, таким образом",
+      "transcription": "ðʌs",
+      "usage": "Thus, the tyrant succeeded in conquering the kingdom.",
+      "usageTranslation": "Таким образом, тирану удалось захватить королевство."
+    },
+    {
+      "text": "plant",
+      "translation": "растение, сажать",
+      "transcription": "plɑːnt",
+      "usage": "Plant a tree over here.",
+      "usageTranslation": "Посади дерево вон там."
+    },
+    {
+      "text": "movement",
+      "translation": "движение",
+      "transcription": "ˈmuːvmənt",
+      "usage": "Squirrels are quick of movement.",
+      "usageTranslation": "Белки двигаются быстро."
+    },
+    {
+      "text": "scene",
+      "translation": "сцена",
+      "transcription": "siːn",
+      "usage": "I'm imagining that scene.",
+      "usageTranslation": "Я представляю себе эту сцену."
+    },
+    {
+      "text": "section",
+      "translation": "часть, отдел, раздел",
+      "transcription": "ˈsɛkʃən",
+      "usage": "Skip that section.",
+      "usageTranslation": "Пропустите этот раздел."
+    },
+    {
+      "text": "treatment",
+      "translation": "лечение, обращение",
+      "transcription": "ˈtriːtmənt",
+      "usage": "The treatment is going successfully.",
+      "usageTranslation": "Лечение идёт успешно."
+    },
+    {
+      "text": "wish",
+      "translation": "желать",
+      "transcription": "wɪʃ",
+      "usage": "As you wish.",
+      "usageTranslation": "Как пожелаете."
+    },
+    {
+      "text": "benefit",
+      "translation": "выгода",
+      "transcription": "ˈbɛnɪfɪt",
+      "usage": "Yoga has many health benefits.",
+      "usageTranslation": "Йога даёт много пользы для здоровья."
+    },
+    {
+      "text": "interesting",
+      "translation": "интересный ",
+      "transcription": "ˈɪntrɪstɪŋ",
+      "usage": "It seems interesting.",
+      "usageTranslation": "Выглядит интересно."
+    },
+    {
+      "text": "west",
+      "translation": "запад",
+      "transcription": "wɛst",
+      "usage": "The giraffe herd headed West.",
+      "usageTranslation": "Стадо жирафов направилось на запад."
+    },
+    {
+      "text": "candidate",
+      "translation": "кандидат",
+      "transcription": "ˈkændɪdɪt",
+      "usage": "What candidate should I vote for?",
+      "usageTranslation": "За какого кандидата мне голосовать?"
+    },
+    {
+      "text": "approach",
+      "translation": "подход",
+      "transcription": "əˈprəʊʧ",
+      "usage": "I suggest a different approach.",
+      "usageTranslation": "Я предлагаю другой подход."
+    },
+    {
+      "text": "determine",
+      "translation": "определять",
+      "transcription": "dɪˈtɜːmɪn",
+      "usage": "We weren't able to determine her whereabouts.",
+      "usageTranslation": "Мы не смогли определить её местонахождение."
+    },
+    {
+      "text": "resource",
+      "translation": "ресурсы",
+      "transcription": "rɪˈsɔːs",
+      "usage": "Time is the most valuable resource a person possesses.",
+      "usageTranslation": "Время – ценнейший ресурс, которым владеет человек."
+    },
+    {
+      "text": "claim",
+      "translation": "утверждать, требовать",
+      "transcription": "kleɪm",
+      "usage": "Fight oppression, claim your freedom.",
+      "usageTranslation": "Борись с угнетением, требуй свободу."
+    },
+    {
+      "text": "prove",
+      "translation": "доказывать",
+      "transcription": "pruːv",
+      "usage": "That doesn't prove anything.",
+      "usageTranslation": "Это ничего не доказывает."
+    },
+    {
+      "text": "sort",
+      "translation": "сортировать, тип, разновидность",
+      "transcription": "sɔːt",
+      "usage": "This sort of thing happens.",
+      "usageTranslation": "Такого рода вещи случаются."
+    },
+    {
+      "text": "size",
+      "translation": "размер",
+      "transcription": "saɪz",
+      "usage": "What size are you?",
+      "usageTranslation": "Какой у тебя размер?"
+    },
+    {
+      "text": "somebody",
+      "translation": "кто-то",
+      "transcription": "ˈsʌmbədi",
+      "usage": "Somebody just called.",
+      "usageTranslation": "Кто-то только что звонил."
+    },
+    {
+      "text": "knowledge",
+      "translation": "знания",
+      "transcription": "ˈnɒlɪʤ",
+      "usage": "I get knowledge by reading books.",
+      "usageTranslation": "Я получаю знания, читая книги."
+    },
+    {
+      "text": "rather",
+      "translation": "довольно, до некоторой степени, скорее",
+      "transcription": "ˈrɑːðə",
+      "usage": "That is rather unexpected.",
+      "usageTranslation": "Это довольно неожиданно."
+    },
+    {
+      "text": "hang",
+      "translation": "вешать",
+      "transcription": "hæŋ",
+      "usage": "Clouds hang in the air.",
+      "usageTranslation": "Облака висят в воздухе."
+    },
+    {
+      "text": "sport",
+      "translation": "спорт",
+      "transcription": "spɔːt",
+      "usage": "Sport knows no borders.",
+      "usageTranslation": "Спорт не знает границ."
+    },
+    {
+      "text": "TV",
+      "translation": "телевизор, телевидение",
+      "transcription": "ˌtiːˈviː",
+      "usage": "Don't watch TV.",
+      "usageTranslation": "Не смотри телевизор."
+    },
+    {
+      "text": "loss",
+      "translation": "потеря",
+      "transcription": "lɒs",
+      "usage": "Tom's diet resulted in weight loss.",
+      "usageTranslation": "Диета Тома привела к потере веса."
+    },
+    {
+      "text": "argue",
+      "translation": "спорить",
+      "transcription": "ˈɑːgjuː",
+      "usage": "Some people argue just for the sake of arguing.",
+      "usageTranslation": "Некоторые люди спорят только для того, чтобы спорить."
+    },
+    {
+      "text": "left",
+      "translation": "левый",
+      "transcription": "lɛft",
+      "usage": "We left together.",
+      "usageTranslation": "Мы ушли вместе."
+    },
+    {
+      "text": "meeting",
+      "translation": "совещание, встреча",
+      "transcription": "ˈmiːtɪŋ",
+      "usage": "The meeting was canceled.",
+      "usageTranslation": "Встреча была отменена."
+    },
+    {
+      "text": "skill",
+      "translation": "навык, мастерство",
+      "transcription": "skɪl",
+      "usage": "Fluency in English is a very marketable skill today.",
+      "usageTranslation": "Свободное владение английским сейчас очень востребованный навык."
+    },
+    {
+      "text": "card",
+      "translation": "карта",
+      "transcription": "kɑːd",
+      "usage": "Please insert your card.",
+      "usageTranslation": "Пожалуйста, вставьте карту."
+    },
+    {
+      "text": "feeling",
+      "translation": "чувство",
+      "transcription": "ˈfiːlɪŋ",
+      "usage": "I'm feeling tired.",
+      "usageTranslation": "Я чувствую себя уставшим."
+    },
+    {
+      "text": "despite",
+      "translation": "несмотря на",
+      "transcription": "dɪsˈpaɪt",
+      "usage": "He succeeded, despite the difficulties.",
+      "usageTranslation": "Он преуспел, несмотря на трудности."
+    },
+    {
+      "text": "degree",
+      "translation": "степень, градус",
+      "transcription": "dɪˈgriː",
+      "usage": "She received a doctor's degree.",
+      "usageTranslation": "Она получила докторскую степень."
+    },
+    {
+      "text": "crime",
+      "translation": "преступление",
+      "transcription": "kraɪm",
+      "usage": "It's not a crime.",
+      "usageTranslation": "Это не преступление."
+    },
+    {
+      "text": "sign",
+      "translation": "подпись, знак",
+      "transcription": "saɪn",
+      "usage": "Just sign here.",
+      "usageTranslation": "Просто подпишите здесь."
+    },
+    {
+      "text": "occur",
+      "translation": "происходить, приходить на ум",
+      "transcription": "əˈkɜː",
+      "usage": "Did it not occur to you to close the windows?",
+      "usageTranslation": "Тебе не пришло в голову закрыть окна?"
+    },
+    {
+      "text": "imagine",
+      "translation": "воображать",
+      "transcription": "ɪˈmæʤɪn",
+      "usage": "Can you imagine that?",
+      "usageTranslation": "Можешь себе это представить?"
+    },
+    {
+      "text": "near",
+      "translation": "близкий, около",
+      "transcription": "nɪə",
+      "usage": "Don't stand near me.",
+      "usageTranslation": "Не стой рядом со мной."
+    },
+    {
+      "text": "king",
+      "translation": "корольь",
+      "transcription": "kɪŋ",
+      "usage": "The king is ill.",
+      "usageTranslation": "Король болен."
+    },
+    {
+      "text": "box",
+      "translation": "коробка, бокс",
+      "transcription": "bɒks",
+      "usage": "The box is empty.",
+      "usageTranslation": "Коробка пуста."
+    },
+    {
+      "text": "present",
+      "translation": "настоящее, дарить, подарок",
+      "transcription": "prɪ'zent",
+      "usage": "Choose a present carefully.",
+      "usageTranslation": "Выбирай подарок тщательно."
+    },
+    {
+      "text": "seven",
+      "translation": "семь",
+      "transcription": "ˈsɛvn",
+      "usage": "Seven dollars, please.",
+      "usageTranslation": "Семь долларов, пожалуйста."
+    },
+    {
+      "text": "foreign",
+      "translation": "иностранный",
+      "transcription": "ˈfɒrɪn",
+      "usage": "We encourage foreign investment.",
+      "usageTranslation": "Мы поощряем иностранные инвестиции."
+    },
+    {
+      "text": "laugh",
+      "translation": "смеяться",
+      "transcription": "lɑːf",
+      "usage": "Don't make me laugh.",
+      "usageTranslation": "Не смеши меня."
+    },
+    {
+      "text": "disease",
+      "translation": "заболевание",
+      "transcription": "dɪˈziːz",
+      "usage": "Doctors are fighting against disease.",
+      "usageTranslation": "Врачи борются с болезнью."
+    },
+    {
+      "text": "lady",
+      "translation": "дама, леди",
+      "transcription": "ˈleɪdi",
+      "usage": "Not so fast, young lady!",
+      "usageTranslation": "Не так быстро, юная леди!"
+    },
+    {
+      "text": "beyond",
+      "translation": "за пределами,",
+      "transcription": "bɪˈjɒnd",
+      "usage": "It's beyond my comprehension.",
+      "usageTranslation": "Это за гранью моего понимания."
+    },
+    {
+      "text": "discuss",
+      "translation": "обсуждать",
+      "transcription": "dɪsˈkʌs",
+      "usage": "Let's discuss this later.",
+      "usageTranslation": "Давайте обсудим это позже."
+    },
+    {
+      "text": "finish",
+      "translation": "заканчивать",
+      "transcription": "ˈfɪnɪʃ",
+      "usage": "Let him finish.",
+      "usageTranslation": "Позвольте ему закончить."
+    },
+    {
+      "text": "design",
+      "translation": "проектирование, проектировать, дизайн",
+      "transcription": "dɪˈzaɪn",
+      "usage": "What a beautiful design!",
+      "usageTranslation": "Какой красивый дизайн!"
+    },
+    {
+      "text": "concern",
+      "translation": "беспокойство, беспокоить, затрагивать",
+      "transcription": "kənˈsɜːn",
+      "usage": "Thanks for your concern.",
+      "usageTranslation": "Спасибо за беспокойство."
+    },
+    {
+      "text": "ball",
+      "translation": "мяч",
+      "transcription": "bɔːl",
+      "usage": "Catch the ball.",
+      "usageTranslation": "Лови мяч."
+    },
+    {
+      "text": "east",
+      "translation": "восток",
+      "transcription": "iːst",
+      "usage": "The moon rises in the east.",
+      "usageTranslation": "Луна восходит на востоке."
+    },
+    {
+      "text": "recognize",
+      "translation": "признавать, осознавать",
+      "transcription": "ˈrɛkəgnaɪz",
+      "usage": "I didn't recognize you.",
+      "usageTranslation": "Я тебя не узнал."
+    },
+    {
+      "text": "apply",
+      "translation": "обращаться с заявлением, касаться, применять",
+      "transcription": "əˈplaɪ",
+      "usage": "Rules apply to everyone.",
+      "usageTranslation": "Правила касаются всех."
+    },
+    {
+      "text": "prepare",
+      "translation": "готовиться, готовить",
+      "transcription": "prɪˈpeə",
+      "usage": "Prepare for combat.",
+      "usageTranslation": "Готовьтесь к бою."
+    },
+    {
+      "text": "network",
+      "translation": "сеть",
+      "transcription": "ˈnɛtwɜːk",
+      "usage": "Their job is to connect the computers to the network.",
+      "usageTranslation": "Их работа — подключать компьютеры к сети."
+    },
+    {
+      "text": "huge",
+      "translation": "огромный",
+      "transcription": "hjuːʤ",
+      "usage": "The demand is huge.",
+      "usageTranslation": "Спрос огромен."
+    },
+    {
+      "text": "success",
+      "translation": "успех",
+      "transcription": "səkˈsɛs",
+      "usage": "Careful preparations ensure success.",
+      "usageTranslation": "Внимательная подготовка гарантирует успех."
+    },
+    {
+      "text": "district",
+      "translation": "район, квартал",
+      "transcription": "ˈdɪstrɪkt",
+      "usage": "This district is notorious for air pollution.",
+      "usageTranslation": "Этот район печально знаменит загрязнением воздуха."
+    },
+    {
+      "text": "cup",
+      "translation": "чашка",
+      "transcription": "kʌp",
+      "usage": "Have another cup.",
+      "usageTranslation": "Выпей ещё чашечку."
+    },
+    {
+      "text": "physical",
+      "translation": "физический",
+      "transcription": "ˈfɪzɪkəl",
+      "usage": "He's in good physical condition.",
+      "usageTranslation": "Он в хорошей физической форме."
+    },
+    {
+      "text": "growth",
+      "translation": "рост",
+      "transcription": "grəʊθ",
+      "usage": "More money for education will spur economic growth.",
+      "usageTranslation": "Больше денег на образование будет стимулировать экономический рост."
+    },
+    {
+      "text": "rise",
+      "translation": "подниматься, увеличиваться",
+      "transcription": "raɪz",
+      "usage": "Prices continued to rise.",
+      "usageTranslation": "Цены продолжили расти."
+    },
+    {
+      "text": "hi",
+      "translation": "привет",
+      "transcription": "haɪ",
+      "usage": "Hi, everybody!",
+      "usageTranslation": "Всем привет!"
+    },
+    {
+      "text": "standard",
+      "translation": "стандарт, стандартный",
+      "transcription": "ˈstændəd",
+      "usage": "It's standard procedure.",
+      "usageTranslation": "Это стандартная процедура."
+    },
+    {
+      "text": "fan",
+      "translation": "вентилятор, фанат",
+      "transcription": "fæn",
+      "usage": "The fan is making noise.",
+      "usageTranslation": "Вентилятор шумит."
+    },
+    {
+      "text": "theory",
+      "translation": "теория",
+      "transcription": "ˈθɪəri",
+      "usage": "That's an interesting theory.",
+      "usageTranslation": "Это интересная теория."
+    },
+    {
+      "text": "staff",
+      "translation": "персонал",
+      "transcription": "stɑːf",
+      "usage": "Staff members only.",
+      "usageTranslation": "Вход только для персонала."
+    },
+    {
+      "text": "hurt",
+      "translation": "причинить боль, ранить",
+      "transcription": "hɜːt",
+      "usage": "Tom was hurt.",
+      "usageTranslation": "Том был ранен."
+    },
+    {
+      "text": "legal",
+      "translation": "правовой, законный",
+      "transcription": "ˈliːgəl",
+      "usage": "I know my legal rights.",
+      "usageTranslation": "Я знаю свои законные права."
+    },
+    {
+      "text": "September",
+      "translation": "сентябрь",
+      "transcription": "sɛpˈtɛmbə",
+      "usage": "Thirty days has September, April, June and November.",
+      "usageTranslation": "Тридцать дней бывает в сентябре, апреле, июне и ноябре."
+    },
+    {
+      "text": "outside",
+      "translation": "снаружи, наружний",
+      "transcription": "ˌaʊtˈsaɪd",
+      "usage": "It's raining outside.",
+      "usageTranslation": "Снаружи идёт дождь."
+    },
+    {
+      "text": "strategy",
+      "translation": "стратегия",
+      "transcription": "ˈstrætɪʤi",
+      "usage": "We need a new strategy.",
+      "usageTranslation": "Нам нужна новая стратегия."
+    },
+    {
+      "text": "clearly",
+      "translation": "ясно, очевидно",
+      "transcription": "ˈklɪəli",
+      "usage": "It is clearly inevitable.",
+      "usageTranslation": "Это, очевидно, неизбежно."
+    }
+  ]
+}

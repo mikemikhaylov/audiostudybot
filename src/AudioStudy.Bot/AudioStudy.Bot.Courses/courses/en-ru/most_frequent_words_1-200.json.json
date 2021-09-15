@@ -1,0 +1,1414 @@
+{
+  "id": "cedfc737-91ea-4b27-8c12-85dd17aa094f",
+  "version": 1,
+  "weight": 50,
+  "type": "words",
+  "name": "Most frequent words 1-200",
+  "nameTranslation": "Топ частотных слов 1-200",
+  "language": "en",
+  "translationLanguage": "ru",
+  "description": "The course is based on data from https://www.wordfrequency.info/ which in turn is based on Corpus of Contemporary American English (COCA).\n\nMore specifically on this free sample https://www.wordfrequency.info/samples/wordFrequency.xlsx",
+  "descriptionTranslation": "Курс основан на списке частотных слов, опубликованном на https://www.wordfrequency.info/, который в свою очередь основан на корпусе современного американского английского языка (Corpus of Contemporary American English).\n\nБолее конкретно на этом бесплатном образце https://www.wordfrequency.info/samples/wordFrequency.xlsx",
+  "cards": [
+    {
+      "text": "be",
+      "translation": "быть",
+      "transcription": "biː",
+      "usage": "Be happy!",
+      "usageTranslation": "Будь счастлив!"
+    },
+    {
+      "text": "and",
+      "translation": "и",
+      "transcription": "ænd",
+      "usage": "Love and Peace.",
+      "usageTranslation": "Любовь и мир."
+    },
+    {
+      "text": "in",
+      "translation": "в, через",
+      "transcription": "ɪn",
+      "usage": "What's in fashion in Paris?",
+      "usageTranslation": "Что в моде в Париже?"
+    },
+    {
+      "text": "I",
+      "translation": "я",
+      "transcription": "aɪ",
+      "usage": "I think I can.",
+      "usageTranslation": "Я думаю, что я могу."
+    },
+    {
+      "text": "you",
+      "translation": "вы, ты",
+      "transcription": "juː",
+      "usage": "Thank you!",
+      "usageTranslation": "Спасибо тебе."
+    },
+    {
+      "text": "it",
+      "translation": "оно",
+      "transcription": "ɪt",
+      "usage": "It was worth it.",
+      "usageTranslation": "Оно того стоило."
+    },
+    {
+      "text": "have",
+      "translation": "иметь, должен",
+      "transcription": "hæv",
+      "usage": "You have everything.",
+      "usageTranslation": "У тебя есть всё."
+    },
+    {
+      "text": "that",
+      "translation": "это",
+      "transcription": "ðæt",
+      "usage": "That worked.",
+      "usageTranslation": "Это работало."
+    },
+    {
+      "text": "for",
+      "translation": "для, за",
+      "transcription": "fɔː",
+      "usage": "For you?",
+      "usageTranslation": "Для вас?"
+    },
+    {
+      "text": "do",
+      "translation": "делать",
+      "transcription": "duː",
+      "usage": "Do not do that.",
+      "usageTranslation": "Не делай этого."
+    },
+    {
+      "text": "he",
+      "translation": "он",
+      "transcription": "hiː",
+      "usage": "He smiled.",
+      "usageTranslation": "Он улыбнулся."
+    },
+    {
+      "text": "with",
+      "translation": "с",
+      "transcription": "wɪð",
+      "usage": "With pleasure!",
+      "usageTranslation": "С удовольствием!"
+    },
+    {
+      "text": "this",
+      "translation": "этот",
+      "transcription": "ðɪs",
+      "usage": "Read this.",
+      "usageTranslation": "Прочти это."
+    },
+    {
+      "text": "we",
+      "translation": "мы",
+      "transcription": "wiː",
+      "usage": "We won.",
+      "usageTranslation": "Мы выиграли."
+    },
+    {
+      "text": "not",
+      "translation": "не, нет",
+      "transcription": "nɒt",
+      "usage": "Not yet.",
+      "usageTranslation": "Ещё нет."
+    },
+    {
+      "text": "but",
+      "translation": "но",
+      "transcription": "bʌt",
+      "usage": "But she's innocent!",
+      "usageTranslation": "Но она не виновата!"
+    },
+    {
+      "text": "they",
+      "translation": "они",
+      "transcription": "ðeɪ",
+      "usage": "They kissed.",
+      "usageTranslation": "Они поцеловали."
+    },
+    {
+      "text": "say",
+      "translation": "говорить",
+      "transcription": "seɪ",
+      "usage": "Say what you want to say.",
+      "usageTranslation": "Скажи то, что хочешь сказать."
+    },
+    {
+      "text": "what",
+      "translation": "что, какой",
+      "transcription": "wɒt",
+      "usage": "What happened?",
+      "usageTranslation": "Что случилось?"
+    },
+    {
+      "text": "his",
+      "translation": "его",
+      "transcription": "hɪz",
+      "usage": "His answer depends on his mood.",
+      "usageTranslation": "Его ответ зависит от настроения."
+    },
+    {
+      "text": "from",
+      "translation": "из, от",
+      "transcription": "frɒm",
+      "usage": "I'm from England.",
+      "usageTranslation": "Я из Англии."
+    },
+    {
+      "text": "go",
+      "translation": "идти",
+      "transcription": "gəʊ",
+      "usage": "Go home.",
+      "usageTranslation": "Идите домой."
+    },
+    {
+      "text": "or",
+      "translation": "или",
+      "transcription": "ɔː",
+      "usage": "Large or small?",
+      "usageTranslation": "Большой или маленький?"
+    },
+    {
+      "text": "get",
+      "translation": "получать, становиться, добираться",
+      "transcription": "gɛt",
+      "usage": "And what do you get in return?",
+      "usageTranslation": "А что вы получаете взамен?"
+    },
+    {
+      "text": "she",
+      "translation": "она",
+      "transcription": "ʃiː",
+      "usage": "She smiled.",
+      "usageTranslation": "Она улыбнулась."
+    },
+    {
+      "text": "my",
+      "translation": "мой",
+      "transcription": "maɪ",
+      "usage": "My life, my rules.",
+      "usageTranslation": "Моя жизнь — мои правила."
+    },
+    {
+      "text": "can",
+      "translation": "мочь, жестяная банка",
+      "transcription": "kæn",
+      "usage": "Can I open a can?",
+      "usageTranslation": "Могу я открыть банку?"
+    },
+    {
+      "text": "as",
+      "translation": "как, так как, в качестве",
+      "transcription": "æz",
+      "usage": "Come as soon as possible.",
+      "usageTranslation": "Приходи как можно скорее."
+    },
+    {
+      "text": "know",
+      "translation": "знать",
+      "transcription": "nəʊ",
+      "usage": "I know you know.",
+      "usageTranslation": "Я знаю, что ты знаешь."
+    },
+    {
+      "text": "if",
+      "translation": "если",
+      "transcription": "ɪf",
+      "usage": "If you wish.",
+      "usageTranslation": "Если ты хочешь."
+    },
+    {
+      "text": "me",
+      "translation": "мне, я",
+      "transcription": "miː",
+      "usage": "Answer me.",
+      "usageTranslation": "Ответь мне."
+    },
+    {
+      "text": "your",
+      "translation": "твой",
+      "transcription": "jɔː",
+      "usage": "What's your major?",
+      "usageTranslation": "Какая у тебя специальность?"
+    },
+    {
+      "text": "all",
+      "translation": "все, весь",
+      "transcription": "ɔːl",
+      "usage": "All belongs to all.",
+      "usageTranslation": "Всё принадлежит всем."
+    },
+    {
+      "text": "who",
+      "translation": "кто",
+      "transcription": "hʊ",
+      "usage": "Who knows?",
+      "usageTranslation": "Кто знает?"
+    },
+    {
+      "text": "about",
+      "translation": "о, вокруг, приблизительно",
+      "transcription": "əˈbaʊt",
+      "usage": "Think about it.",
+      "usageTranslation": "Подумай об этом."
+    },
+    {
+      "text": "their",
+      "translation": "их",
+      "transcription": "ðeə",
+      "usage": "Their lips met.",
+      "usageTranslation": "Их губы встретились."
+    },
+    {
+      "text": "will",
+      "translation": "буду, воля, желать",
+      "transcription": "wɪl",
+      "usage": "She was a beauty, with a quick intelligence and a strong will.",
+      "usageTranslation": "Она была красавица, с быстрым умом и сильной волей."
+    },
+    {
+      "text": "so",
+      "translation": "так, таким образом, для того, чтобы",
+      "transcription": "səʊ",
+      "usage": "Everyone thinks so.",
+      "usageTranslation": "Все так думают."
+    },
+    {
+      "text": "would",
+      "translation": "было бы, бы",
+      "transcription": "wʊd",
+      "usage": "What would happen?",
+      "usageTranslation": "Что бы случилось?"
+    },
+    {
+      "text": "make",
+      "translation": "создавать, делать",
+      "transcription": "meɪk",
+      "usage": "Make coffee.",
+      "usageTranslation": "Сделайте кофе."
+    },
+    {
+      "text": "just",
+      "translation": "только, как раз, просто",
+      "transcription": "ʤʌst",
+      "usage": "Just water, please.",
+      "usageTranslation": "Только воду, пожалуйста."
+    },
+    {
+      "text": "up",
+      "translation": "наверху, вверх",
+      "transcription": "ʌp",
+      "usage": "Hands up!",
+      "usageTranslation": "Руки вверх!"
+    },
+    {
+      "text": "think",
+      "translation": "думать",
+      "transcription": "θɪŋk",
+      "usage": "Think about it.",
+      "usageTranslation": "Подумай об этом."
+    },
+    {
+      "text": "time",
+      "translation": "время, раз",
+      "transcription": "taɪm",
+      "usage": "Time is up.",
+      "usageTranslation": "Время вышло."
+    },
+    {
+      "text": "there",
+      "translation": "там",
+      "transcription": "ðeə",
+      "usage": "Wait there.",
+      "usageTranslation": "Жди там."
+    },
+    {
+      "text": "see",
+      "translation": "видеть",
+      "transcription": "siː",
+      "usage": "Let me see.",
+      "usageTranslation": "Дай посмотреть."
+    },
+    {
+      "text": "her",
+      "translation": "её",
+      "transcription": "hɜː",
+      "usage": "Ask her her name.",
+      "usageTranslation": "Спроси у неё, как её зовут."
+    },
+    {
+      "text": "out",
+      "translation": "вне, из",
+      "transcription": "aʊt",
+      "usage": "He's out.",
+      "usageTranslation": "Он снаружи."
+    },
+    {
+      "text": "one",
+      "translation": "один",
+      "transcription": "wʌn",
+      "usage": "One plus one equals two.",
+      "usageTranslation": "Один плюс один равняется двум."
+    },
+    {
+      "text": "come",
+      "translation": "приходить, становиться",
+      "transcription": "kʌm",
+      "usage": "Come home.",
+      "usageTranslation": "Возвращайся домой."
+    },
+    {
+      "text": "people",
+      "translation": "люди",
+      "transcription": "ˈpiːpl",
+      "usage": "People change.",
+      "usageTranslation": "Люди меняются."
+    },
+    {
+      "text": "take",
+      "translation": "брать",
+      "transcription": "teɪk",
+      "usage": "Take everything.",
+      "usageTranslation": "Бери всё."
+    },
+    {
+      "text": "year",
+      "translation": "год",
+      "transcription": "jɪə",
+      "usage": "What year is it?",
+      "usageTranslation": "Какой это год?"
+    },
+    {
+      "text": "him",
+      "translation": "его",
+      "transcription": "hɪm",
+      "usage": "Catch him.",
+      "usageTranslation": "Лови его."
+    },
+    {
+      "text": "them",
+      "translation": "их",
+      "transcription": "ðɛm",
+      "usage": "Ignore them.",
+      "usageTranslation": "Игнорируй их."
+    },
+    {
+      "text": "some",
+      "translation": "немного, некоторые, какой-то",
+      "transcription": "sʌm",
+      "usage": "Here's some water.",
+      "usageTranslation": "Вот немного воды."
+    },
+    {
+      "text": "want",
+      "translation": "хотеть",
+      "transcription": "wɒnt",
+      "usage": "I want exactly what you want.",
+      "usageTranslation": "Я хочу именно то, что ты хочешь."
+    },
+    {
+      "text": "how",
+      "translation": "как",
+      "transcription": "haʊ",
+      "usage": "How interesting!",
+      "usageTranslation": "Как интересно!"
+    },
+    {
+      "text": "when",
+      "translation": "когда",
+      "transcription": "wɛn",
+      "usage": "When is Halloween?",
+      "usageTranslation": "Когда Хэллоуин?"
+    },
+    {
+      "text": "which",
+      "translation": "который, какой",
+      "transcription": "wɪʧ",
+      "usage": "Which side won?",
+      "usageTranslation": "Какая из сторон победила?"
+    },
+    {
+      "text": "now",
+      "translation": "сейчас, теперь",
+      "transcription": "naʊ",
+      "usage": "Now means now.",
+      "usageTranslation": "Сейчас - значит сейчас."
+    },
+    {
+      "text": "like",
+      "translation": "как, нравиться, похожий",
+      "transcription": "laɪk",
+      "usage": "I don't like men like him.",
+      "usageTranslation": "Мне не нравятся такие мужчины, как он."
+    },
+    {
+      "text": "other",
+      "translation": "другой, иной",
+      "transcription": "ˈʌðə",
+      "usage": "Other times, other manners.",
+      "usageTranslation": "Другие времена, другие нравы."
+    },
+    {
+      "text": "could",
+      "translation": "мог",
+      "transcription": "kʊd",
+      "usage": "Anything could happen.",
+      "usageTranslation": "Могло случиться что угодно."
+    },
+    {
+      "text": "our",
+      "translation": "наш",
+      "transcription": "ˈaʊə",
+      "usage": "Our house, our rules.",
+      "usageTranslation": "Наш дом, наши правила."
+    },
+    {
+      "text": "into",
+      "translation": "в",
+      "transcription": "ˈɪntuː",
+      "usage": "Come into my room.",
+      "usageTranslation": "Заходи ко мне в комнату."
+    },
+    {
+      "text": "here",
+      "translation": "здесь",
+      "transcription": "hɪə",
+      "usage": "Sign here.",
+      "usageTranslation": "Подпиши здесь."
+    },
+    {
+      "text": "then",
+      "translation": "затем, тогда",
+      "transcription": "ðɛn",
+      "usage": "I was eighteen then.",
+      "usageTranslation": "Мне тогда было восемнадцать."
+    },
+    {
+      "text": "than",
+      "translation": "чем",
+      "transcription": "ðæn",
+      "usage": "Better than nothing.",
+      "usageTranslation": "Лучше, чем ничего."
+    },
+    {
+      "text": "look",
+      "translation": "смотреть",
+      "transcription": "lʊk",
+      "usage": "Look again.",
+      "usageTranslation": "Посмотри ещё раз."
+    },
+    {
+      "text": "way",
+      "translation": "способ, путь",
+      "transcription": "weɪ",
+      "usage": "He blocked my way.",
+      "usageTranslation": "Он загородил мне путь."
+    },
+    {
+      "text": "more",
+      "translation": "более, больше, больше, ещё",
+      "transcription": "mɔː",
+      "usage": "Read more.",
+      "usageTranslation": "Читай больше!"
+    },
+    {
+      "text": "these",
+      "translation": "эти",
+      "transcription": "ðiːz",
+      "usage": "These things happen.",
+      "usageTranslation": "Эти вещи случаются."
+    },
+    {
+      "text": "no",
+      "translation": "нет",
+      "transcription": "nəʊ",
+      "usage": "No means no.",
+      "usageTranslation": "Нет значит нет."
+    },
+    {
+      "text": "thing",
+      "translation": "вещь",
+      "transcription": "θɪŋ",
+      "usage": "Promise me one thing.",
+      "usageTranslation": "Пообещай мне одну вещь."
+    },
+    {
+      "text": "well",
+      "translation": "хорошо, скважина, колодец",
+      "transcription": "wɛl",
+      "usage": "Well said!",
+      "usageTranslation": "Хорошо сказано!"
+    },
+    {
+      "text": "because",
+      "translation": "потому что",
+      "transcription": "bɪˈkɒz",
+      "usage": "Because it's too big.",
+      "usageTranslation": "Потому что он слишком большой."
+    },
+    {
+      "text": "also",
+      "translation": "тоже, также",
+      "transcription": "ˈɔːlsəʊ",
+      "usage": "Clowns also cry.",
+      "usageTranslation": "Клоуны тоже плачут."
+    },
+    {
+      "text": "two",
+      "translation": "два",
+      "transcription": "tuː",
+      "usage": "Two coffees, please.",
+      "usageTranslation": "Два кофе, пожалуйста."
+    },
+    {
+      "text": "use",
+      "translation": "использовать",
+      "transcription": "juːz",
+      "usage": "Use your head!",
+      "usageTranslation": "Используй свою голову!"
+    },
+    {
+      "text": "tell",
+      "translation": "сказать",
+      "transcription": "tɛl",
+      "usage": "Tell everybody.",
+      "usageTranslation": "Скажи всем."
+    },
+    {
+      "text": "good",
+      "translation": "хороший",
+      "transcription": "gʊd",
+      "usage": "Good question!",
+      "usageTranslation": "Хороший вопрос."
+    },
+    {
+      "text": "first",
+      "translation": "первый",
+      "transcription": "fɜːst",
+      "usage": "It's April first.",
+      "usageTranslation": "Сегодня первое апреля."
+    },
+    {
+      "text": "man",
+      "translation": "мужчина",
+      "transcription": "mæn",
+      "usage": "Let's talk man to man.",
+      "usageTranslation": "Давай поговорим как мужчина с мужчиной."
+    },
+    {
+      "text": "day",
+      "translation": "день",
+      "transcription": "deɪ",
+      "usage": "It's getting warmer day by day.",
+      "usageTranslation": "С каждым днём становится всё теплее."
+    },
+    {
+      "text": "find",
+      "translation": "находить",
+      "transcription": "faɪnd",
+      "usage": "Find the cat.",
+      "usageTranslation": "Найдите кошку."
+    },
+    {
+      "text": "give",
+      "translation": "давать",
+      "transcription": "gɪv",
+      "usage": "Give me time.",
+      "usageTranslation": "Дай мне время."
+    },
+    {
+      "text": "new",
+      "translation": "новый",
+      "transcription": "njuː",
+      "usage": "It's brand new.",
+      "usageTranslation": "Он совсем новый."
+    },
+    {
+      "text": "us",
+      "translation": "нам",
+      "transcription": "ʌs",
+      "usage": "Join us.",
+      "usageTranslation": "Присоединяйся к нам."
+    },
+    {
+      "text": "any",
+      "translation": "любой, сколько-нибудь, что-нибудь",
+      "transcription": "ˈɛni",
+      "usage": "Press any key.",
+      "usageTranslation": "Нажмите любую клавишу."
+    },
+    {
+      "text": "those",
+      "translation": "те",
+      "transcription": "ðəʊz",
+      "usage": "Open those doors!",
+      "usageTranslation": "Откройте те двери!"
+    },
+    {
+      "text": "very",
+      "translation": "очень, как раз, тот самый",
+      "transcription": "ˈvɛri",
+      "usage": "It's very, very important.",
+      "usageTranslation": "Это очень, очень важно."
+    },
+    {
+      "text": "need",
+      "translation": "нуждаться",
+      "transcription": "niːd",
+      "usage": "I need money.",
+      "usageTranslation": "Я нуждаюсь в деньгах."
+    },
+    {
+      "text": "back",
+      "translation": "спина, оборотная сторона, задняя часть",
+      "transcription": "bæk",
+      "usage": "Look back!",
+      "usageTranslation": "Посмотри назад!"
+    },
+    {
+      "text": "should",
+      "translation": "следует, должно быть",
+      "transcription": "ʃud",
+      "usage": "We should study.",
+      "usageTranslation": "Нам следует учиться."
+    },
+    {
+      "text": "even",
+      "translation": "даже, равный, ровный",
+      "transcription": "ˈiːvən",
+      "usage": "That's even better.",
+      "usageTranslation": "Это даже лучше."
+    },
+    {
+      "text": "only",
+      "translation": "только, всего лишь, единственный",
+      "transcription": "ˈəʊnli",
+      "usage": "Adults only.",
+      "usageTranslation": "Только для взрослых."
+    },
+    {
+      "text": "many",
+      "translation": "много",
+      "transcription": "ˈmɛni",
+      "usage": "Many fish died.",
+      "usageTranslation": "Много рыбы погибло."
+    },
+    {
+      "text": "really",
+      "translation": "действительно, в самом деле",
+      "transcription": "ˈrɪəli",
+      "usage": "It's really, really strange.",
+      "usageTranslation": "Это очень и очень странно."
+    },
+    {
+      "text": "work",
+      "translation": "работа, работать",
+      "transcription": "wɜːk",
+      "usage": "That won't work.",
+      "usageTranslation": "Это не сработает!"
+    },
+    {
+      "text": "life",
+      "translation": "жизнь",
+      "transcription": "laɪf",
+      "usage": "Enjoy life.",
+      "usageTranslation": "Наслаждайся жизнью."
+    },
+    {
+      "text": "why",
+      "translation": "почему",
+      "transcription": "waɪ",
+      "usage": "And why not?",
+      "usageTranslation": "А почему нет?"
+    },
+    {
+      "text": "right",
+      "translation": "правильный",
+      "transcription": "raɪt",
+      "usage": "You guessed right.",
+      "usageTranslation": "Вы угадали правильно."
+    },
+    {
+      "text": "down",
+      "translation": "вниз",
+      "transcription": "daʊn",
+      "usage": "Well, I'm going down.",
+      "usageTranslation": "Что ж, я иду вниз."
+    },
+    {
+      "text": "try",
+      "translation": "пытаться",
+      "transcription": "traɪ",
+      "usage": "Let's try something.",
+      "usageTranslation": "Давайте что-нибудь попробуем!"
+    },
+    {
+      "text": "let",
+      "translation": "позволять, допустить",
+      "transcription": "lɛt",
+      "usage": "Let me pay.",
+      "usageTranslation": "Позвольте мне заплатить."
+    },
+    {
+      "text": "something",
+      "translation": "что-нибудь",
+      "transcription": "ˈsʌmθɪŋ",
+      "usage": "Let's play something.",
+      "usageTranslation": "Давай сыграем во что-нибудь."
+    },
+    {
+      "text": "too",
+      "translation": "слишком, тоже",
+      "transcription": "tuː",
+      "usage": "I'm fine too.",
+      "usageTranslation": "У меня тоже всё хорошо."
+    },
+    {
+      "text": "call",
+      "translation": "звонок, звонить, вызывать, призыв",
+      "transcription": "kɔːl",
+      "usage": "Call security!",
+      "usageTranslation": "Вызовите охрану!"
+    },
+    {
+      "text": "woman",
+      "translation": "женщина",
+      "transcription": "ˈwʊmən",
+      "usage": "What a woman!",
+      "usageTranslation": "Какая женщина!"
+    },
+    {
+      "text": "may",
+      "translation": "мочь, май",
+      "transcription": "meɪ",
+      "usage": "May I smoke?",
+      "usageTranslation": "Я могу закурить?"
+    },
+    {
+      "text": "still",
+      "translation": "всё ещё, неподвижный, тихий",
+      "transcription": "stɪl",
+      "usage": "You're still young.",
+      "usageTranslation": "Ты все еще молода."
+    },
+    {
+      "text": "through",
+      "translation": "посредством, через, насквозь",
+      "transcription": "θruː",
+      "usage": "Breathe through your nose.",
+      "usageTranslation": "Дыши через нос."
+    },
+    {
+      "text": "mean",
+      "translation": "иметь в виду, средний, подлый",
+      "transcription": "miːn",
+      "usage": "It doesn't mean anything!",
+      "usageTranslation": "Это ничего не значит."
+    },
+    {
+      "text": "after",
+      "translation": "после, за, вслед за",
+      "transcription": "ˈɑːftə",
+      "usage": "Repeat after me.",
+      "usageTranslation": "Повторяйте за мной."
+    },
+    {
+      "text": "never",
+      "translation": "никогда",
+      "transcription": "ˈnɛvə",
+      "usage": "Never say never.",
+      "usageTranslation": "Никогда не говори никогда."
+    },
+    {
+      "text": "world",
+      "translation": "мир",
+      "transcription": "wɜːld",
+      "usage": "Hello, world!",
+      "usageTranslation": "Здравствуй, мир!"
+    },
+    {
+      "text": "feel",
+      "translation": "чувствовать",
+      "transcription": "fiːl",
+      "usage": "I feel happy.",
+      "usageTranslation": "Я чувствую себя счастливым."
+    },
+    {
+      "text": "great",
+      "translation": "великолепный ",
+      "transcription": "greɪt",
+      "usage": "Tom felt great.",
+      "usageTranslation": "Том чувствовал себя великолепно."
+    },
+    {
+      "text": "last",
+      "translation": "последний, длиться",
+      "transcription": "lɑːst",
+      "usage": "Hope dies last.",
+      "usageTranslation": "Надежда умирает последней."
+    },
+    {
+      "text": "child",
+      "translation": "ребёнок",
+      "transcription": "ʧaɪld",
+      "usage": "Any child knows that.",
+      "usageTranslation": "Это любой ребёнок знает."
+    },
+    {
+      "text": "over",
+      "translation": "больше, над, повсюду",
+      "transcription": "ˈəʊvə",
+      "usage": "Hands over your head.",
+      "usageTranslation": "И руки над головой."
+    },
+    {
+      "text": "ask",
+      "translation": "спрашивать",
+      "transcription": "ɑːsk",
+      "usage": "Don't ask me. Ask her.",
+      "usageTranslation": "Не спрашивай меня. Спроси её."
+    },
+    {
+      "text": "school",
+      "translation": "школа",
+      "transcription": "skuːl",
+      "usage": "Tom skipped school.",
+      "usageTranslation": "Том пропустил школу."
+    },
+    {
+      "text": "state",
+      "translation": "состояние, государство, штат, государственный, заявлять, формулировать",
+      "transcription": "steɪt",
+      "usage": "Germany is a federal state.",
+      "usageTranslation": "Германия - федеративное государство."
+    },
+    {
+      "text": "much",
+      "translation": "много",
+      "transcription": "mʌʧ",
+      "usage": "The old songs were much, much better.",
+      "usageTranslation": "Старые песни были намного, намного лучше."
+    },
+    {
+      "text": "talk",
+      "translation": "разговаривать",
+      "transcription": "tɔːk",
+      "usage": "Act. Don't talk.",
+      "usageTranslation": "Делай. Не говори."
+    },
+    {
+      "text": "keep",
+      "translation": "держать, хранить, продолжать",
+      "transcription": "kiːp",
+      "usage": "Keep working.",
+      "usageTranslation": "Продолжай работать."
+    },
+    {
+      "text": "leave",
+      "translation": "оставлять, уходить",
+      "transcription": "liːv",
+      "usage": "Everybody leave.",
+      "usageTranslation": "Всем выйти."
+    },
+    {
+      "text": "put",
+      "translation": "класть, ставить",
+      "transcription": "pʊt",
+      "usage": "Put it there.",
+      "usageTranslation": "Положи это туда."
+    },
+    {
+      "text": "help",
+      "translation": "помощь",
+      "transcription": "hɛlp",
+      "usage": "Help me help you.",
+      "usageTranslation": "Помогите мне помочь вам."
+    },
+    {
+      "text": "big",
+      "translation": "большой",
+      "transcription": "bɪg",
+      "usage": "Russia is big.",
+      "usageTranslation": "Россия большая."
+    },
+    {
+      "text": "where",
+      "translation": "где",
+      "transcription": "weə",
+      "usage": "Where are you?",
+      "usageTranslation": "Где ты?"
+    },
+    {
+      "text": "same",
+      "translation": "тот же самый, одинаковый",
+      "transcription": "seɪm",
+      "usage": "We're the same age.",
+      "usageTranslation": "Мы одинакового возраста."
+    },
+    {
+      "text": "own",
+      "translation": "владеть, собственный",
+      "transcription": "əʊn",
+      "usage": "I own a yacht.",
+      "usageTranslation": "Я владею яхтой."
+    },
+    {
+      "text": "while",
+      "translation": "в то время, тогда как",
+      "transcription": "waɪl",
+      "usage": "Eat while it's warm.",
+      "usageTranslation": "Ешь, пока тёплое."
+    },
+    {
+      "text": "start",
+      "translation": "начинать",
+      "transcription": "stɑːt",
+      "usage": "Start over.",
+      "usageTranslation": "Начинай сначала."
+    },
+    {
+      "text": "three",
+      "translation": "три",
+      "transcription": "θriː",
+      "usage": "Three hours passed.",
+      "usageTranslation": "Прошло три часа."
+    },
+    {
+      "text": "high",
+      "translation": "высокий",
+      "transcription": "haɪ",
+      "usage": "Danger! High voltage.",
+      "usageTranslation": "Опасно! Высокое напряжение."
+    },
+    {
+      "text": "every",
+      "translation": "каждый",
+      "transcription": "ˈɛvri",
+      "usage": "Exercise every day.",
+      "usageTranslation": "Тренируйтесь каждый день."
+    },
+    {
+      "text": "another",
+      "translation": "ещё один",
+      "transcription": "əˈnʌðə",
+      "usage": "Have another cookie.",
+      "usageTranslation": "Возьми ещё одно печенье."
+    },
+    {
+      "text": "become",
+      "translation": "становиться",
+      "transcription": "bɪˈkʌm",
+      "usage": "We've become good friends.",
+      "usageTranslation": "Мы стали хорошими друзьями."
+    },
+    {
+      "text": "most",
+      "translation": "наиболее, больше всего, большинство",
+      "transcription": "məʊst",
+      "usage": "Most people agree.",
+      "usageTranslation": "Большинство людей согласно."
+    },
+    {
+      "text": "between",
+      "translation": "между",
+      "transcription": "bɪˈtwiːn",
+      "usage": "Read between the lines.",
+      "usageTranslation": "Читайте между строк."
+    },
+    {
+      "text": "happen",
+      "translation": "случаться",
+      "transcription": "ˈhæpən",
+      "usage": "Nothing will happen.",
+      "usageTranslation": "Ничего не случится."
+    },
+    {
+      "text": "family",
+      "translation": "семья",
+      "transcription": "ˈfæmɪli",
+      "usage": "We're practically family.",
+      "usageTranslation": "Мы практически семья."
+    },
+    {
+      "text": "president",
+      "translation": "президент, директор, председатель",
+      "transcription": "ˈprɛzɪdənt",
+      "usage": "They demanded that President resign.",
+      "usageTranslation": "Они потребовали, чтобы президент подал в отставку."
+    },
+    {
+      "text": "old",
+      "translation": "старый",
+      "transcription": "əʊld",
+      "usage": "We're old friends.",
+      "usageTranslation": "Мы старые друзья."
+    },
+    {
+      "text": "yes",
+      "translation": "да",
+      "transcription": "jɛs",
+      "usage": "Yes, mistress.",
+      "usageTranslation": "Да, госпожа."
+    },
+    {
+      "text": "house",
+      "translation": "дом",
+      "transcription": "haʊs",
+      "usage": "My house is your house.",
+      "usageTranslation": "Мой дом - твой дом."
+    },
+    {
+      "text": "show",
+      "translation": "показывать",
+      "transcription": "ʃəʊ",
+      "usage": "Show your cards.",
+      "usageTranslation": "Покажи свои карты."
+    },
+    {
+      "text": "again",
+      "translation": "ещё раз, снова",
+      "transcription": "əˈgɛn",
+      "usage": "Sorry again!",
+      "usageTranslation": "Ещё раз простите!"
+    },
+    {
+      "text": "student",
+      "translation": "студент",
+      "transcription": "ˈstjuːdənt",
+      "usage": "She's my student.",
+      "usageTranslation": "Она моя студентка."
+    },
+    {
+      "text": "seem",
+      "translation": "казаться",
+      "transcription": "siːm",
+      "usage": "You seem happy.",
+      "usageTranslation": "Ты кажешся счастливым."
+    },
+    {
+      "text": "might",
+      "translation": "мог, мощь",
+      "transcription": "maɪt",
+      "usage": "This might work.",
+      "usageTranslation": "Это может сработать."
+    },
+    {
+      "text": "part",
+      "translation": "часть",
+      "transcription": "pɑːt",
+      "usage": "I love this part.",
+      "usageTranslation": "Эта часть мне нравится."
+    },
+    {
+      "text": "hear",
+      "translation": "слышать",
+      "transcription": "hɪə",
+      "usage": "I hear music.",
+      "usageTranslation": "Я слышу музыку."
+    },
+    {
+      "text": "place",
+      "translation": "место",
+      "transcription": "pleɪs",
+      "usage": "Take your place.",
+      "usageTranslation": "Займи своё место."
+    },
+    {
+      "text": "problem",
+      "translation": "проблема",
+      "transcription": "ˈprɒbləm",
+      "usage": "Problem solved!",
+      "usageTranslation": "Проблема решена!"
+    },
+    {
+      "text": "believe",
+      "translation": "верить, полагать",
+      "transcription": "bɪˈliːv",
+      "usage": "I can't believe I believed him.",
+      "usageTranslation": "Не могу поверить, что я ему поверил."
+    },
+    {
+      "text": "country",
+      "translation": "страна",
+      "transcription": "ˈkʌntri",
+      "usage": "Leave this country.",
+      "usageTranslation": "Уезжайте из этой страны."
+    },
+    {
+      "text": "always",
+      "translation": "всегда",
+      "transcription": "ˈɔːlweɪz",
+      "usage": "He's always busy.",
+      "usageTranslation": "Он всегда занят."
+    },
+    {
+      "text": "week",
+      "translation": "неделя",
+      "transcription": "wiːk",
+      "usage": "See you next week!",
+      "usageTranslation": "Увидимся на следующей неделе!"
+    },
+    {
+      "text": "point",
+      "translation": "указывать, точка, суть",
+      "transcription": "pɔɪnt",
+      "usage": "Don't point at others.",
+      "usageTranslation": "Не показывай на других."
+    },
+    {
+      "text": "hand",
+      "translation": "рука",
+      "transcription": "hænd",
+      "usage": "Shake my hand.",
+      "usageTranslation": "Пожми мне руку."
+    },
+    {
+      "text": "off",
+      "translation": "прочь, вдали, выключенный",
+      "transcription": "ɒf",
+      "usage": "Hands off.",
+      "usageTranslation": "Руки прочь."
+    },
+    {
+      "text": "play",
+      "translation": "играть",
+      "transcription": "pleɪ",
+      "usage": "Let's play soccer.",
+      "usageTranslation": "Давайте поиграем в футбол."
+    },
+    {
+      "text": "turn",
+      "translation": "поворачивать, очередь",
+      "transcription": "tɜːn",
+      "usage": "Turn left here.",
+      "usageTranslation": "Поверните здесь налево."
+    },
+    {
+      "text": "few",
+      "translation": "несколько, мало",
+      "transcription": "fjuː",
+      "usage": "Few tourists come here.",
+      "usageTranslation": "Сюда приезжает мало туристов."
+    },
+    {
+      "text": "group",
+      "translation": "группа",
+      "transcription": "gruːp",
+      "usage": "The whole group is laughing.",
+      "usageTranslation": "Вся группа смеётся."
+    },
+    {
+      "text": "such",
+      "translation": "такой",
+      "transcription": "sʌʧ",
+      "usage": "Such a wonderful music!",
+      "usageTranslation": "Такая красивая музыка!"
+    },
+    {
+      "text": "against",
+      "translation": "против",
+      "transcription": "əˈgɛnst",
+      "usage": "I'm against corruption.",
+      "usageTranslation": "Я против коррупции."
+    },
+    {
+      "text": "run",
+      "translation": "бежать",
+      "transcription": "rʌn",
+      "usage": "Run fast!",
+      "usageTranslation": "Беги быстро!"
+    },
+    {
+      "text": "guy",
+      "translation": "парень",
+      "transcription": "gaɪ",
+      "usage": "You're a good guy.",
+      "usageTranslation": "Ты хороший парень."
+    },
+    {
+      "text": "case",
+      "translation": "случай, корпус, регистр, чемодан",
+      "transcription": "keɪs",
+      "usage": "State your case briefly.",
+      "usageTranslation": "Кратко изложите ваш случай."
+    },
+    {
+      "text": "question",
+      "translation": "вопрос",
+      "transcription": "ˈkwɛsʧən",
+      "usage": "Answer the question.",
+      "usageTranslation": "Ответь на вопрос."
+    },
+    {
+      "text": "night",
+      "translation": "ночь",
+      "transcription": "naɪt",
+      "usage": "Good night!",
+      "usageTranslation": "Доброй ночи."
+    },
+    {
+      "text": "live",
+      "translation": "жить, живой",
+      "transcription": "lɪv",
+      "usage": "Live and fight!",
+      "usageTranslation": "Живи и борись!"
+    },
+    {
+      "text": "game",
+      "translation": "игра",
+      "transcription": "geɪm",
+      "usage": "Game over.",
+      "usageTranslation": "Конец игры."
+    },
+    {
+      "text": "number",
+      "translation": "число, количество",
+      "transcription": "ˈnʌmbə",
+      "usage": "You are number one!",
+      "usageTranslation": "Ты - номер один!"
+    },
+    {
+      "text": "write",
+      "translation": "писать",
+      "transcription": "raɪt",
+      "usage": "Write a report.",
+      "usageTranslation": "Напишите отчет."
+    },
+    {
+      "text": "bring",
+      "translation": "приносить, приводить",
+      "transcription": "brɪŋ",
+      "usage": "Bring tea immediately!",
+      "usageTranslation": "Немедленно принеси чай!"
+    },
+    {
+      "text": "without",
+      "translation": "без",
+      "transcription": "wɪˈðaʊt",
+      "usage": "Without a doubt!",
+      "usageTranslation": "Без сомнения!"
+    },
+    {
+      "text": "money",
+      "translation": "деньги",
+      "transcription": "ˈmʌni",
+      "usage": "Time is money.",
+      "usageTranslation": "Время - деньги."
+    },
+    {
+      "text": "lot",
+      "translation": "много, лот",
+      "transcription": "lɒt",
+      "usage": "I want a lot.",
+      "usageTranslation": "Мне надо много."
+    },
+    {
+      "text": "book",
+      "translation": "книга, бронировать",
+      "transcription": "bʊk",
+      "usage": "Read this book.",
+      "usageTranslation": "Прочитай эту книгу."
+    },
+    {
+      "text": "system",
+      "translation": "система",
+      "transcription": "ˈsɪstɪm",
+      "usage": "The system is rotten.",
+      "usageTranslation": "Система прогнила."
+    },
+    {
+      "text": "government",
+      "translation": "правительство",
+      "transcription": "ˈgʌvənmənt",
+      "usage": "This government is corrupt.",
+      "usageTranslation": "Правительство коррумпировано."
+    },
+    {
+      "text": "next",
+      "translation": "следующий",
+      "transcription": "nɛkst",
+      "usage": "Maybe next time!",
+      "usageTranslation": "Может быть, в следующий раз!"
+    },
+    {
+      "text": "city",
+      "translation": "город",
+      "transcription": "ˈsɪti",
+      "usage": "What a beautiful city!",
+      "usageTranslation": "Какой прекрасный город!"
+    },
+    {
+      "text": "company",
+      "translation": "компания",
+      "transcription": "ˈkʌmpəni",
+      "usage": "He founded the company.",
+      "usageTranslation": "Он основал компанию."
+    },
+    {
+      "text": "story",
+      "translation": "рассказ, история",
+      "transcription": "ˈstɔːri",
+      "usage": "The story continues.",
+      "usageTranslation": "История продолжается."
+    },
+    {
+      "text": "today",
+      "translation": "сегодня",
+      "transcription": "təˈdeɪ",
+      "usage": "I'm free today.",
+      "usageTranslation": "Я сегодня свободен."
+    },
+    {
+      "text": "job",
+      "translation": "работа",
+      "transcription": "ʤɒb",
+      "usage": "Finish the job.",
+      "usageTranslation": "Закончи работу."
+    },
+    {
+      "text": "move",
+      "translation": "двигать, движение",
+      "transcription": "muːv",
+      "usage": "Don't move, please.",
+      "usageTranslation": "Пожалуйста, не двигайтесь."
+    },
+    {
+      "text": "must",
+      "translation": "должен",
+      "transcription": "mʌst",
+      "usage": "We must act.",
+      "usageTranslation": "Мы должны действовать."
+    },
+    {
+      "text": "bad",
+      "translation": "плохой",
+      "transcription": "bæd",
+      "usage": "This is bad.",
+      "usageTranslation": "Это плохо."
+    },
+    {
+      "text": "friend",
+      "translation": "друг",
+      "transcription": "frɛnd",
+      "usage": "My dear friend!",
+      "usageTranslation": "Мой дорогой друг!"
+    },
+    {
+      "text": "during",
+      "translation": "в течение, во время",
+      "transcription": "ˈdjʊərɪŋ",
+      "usage": "They talked during the movie.",
+      "usageTranslation": "Во время фильма они разговаривали."
+    },
+    {
+      "text": "begin",
+      "translation": "начинать",
+      "transcription": "bɪˈgɪn",
+      "usage": "Calm down and begin at the beginning.",
+      "usageTranslation": "Успокойся и начни с начала."
+    }
+  ]
+}

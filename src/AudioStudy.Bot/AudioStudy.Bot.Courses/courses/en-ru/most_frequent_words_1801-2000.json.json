@@ -1,0 +1,1414 @@
+{
+  "id": "4b5b31c2-6e87-471c-9f0b-61aee1ccb04c",
+  "version": 1,
+  "weight": 140,
+  "type": "words",
+  "name": "Most frequent words 1801-2000",
+  "nameTranslation": "Топ частотных слов 1801-2000",
+  "language": "en",
+  "translationLanguage": "ru",
+  "description": "The course is based on data from https://www.wordfrequency.info/ which in turn is based on Corpus of Contemporary American English (COCA).\n\nMore specifically on this free sample https://www.wordfrequency.info/samples/wordFrequency.xlsx",
+  "descriptionTranslation": "Курс основан на списке частотных слов, опубликованном на https://www.wordfrequency.info/, который в свою очередь основан на корпусе современного американского английского языка (Corpus of Contemporary American English).\n\nБолее конкретно на этом бесплатном образце https://www.wordfrequency.info/samples/wordFrequency.xlsx",
+  "cards": [
+    {
+      "text": "trail",
+      "translation": "след, тропа",
+      "transcription": "treɪl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "brown",
+      "translation": "коричневый",
+      "transcription": "braʊn",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "fashion",
+      "translation": "манера, стиль, мода",
+      "transcription": "ˈfæʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "length",
+      "translation": "длина, длительность",
+      "transcription": "lɛŋgθ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "sheet",
+      "translation": "лист, простыня, парус",
+      "transcription": "ʃiːt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "funding",
+      "translation": "финансирование",
+      "transcription": "ˈfʌndɪŋ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "meanwhile",
+      "translation": "тем временем",
+      "transcription": "ˈmiːnˈwaɪl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "fault",
+      "translation": "ошибка, вина, неисправность",
+      "transcription": "fɔːlt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "barely",
+      "translation": "едва",
+      "transcription": "ˈbeəli",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "eliminate",
+      "translation": "устранять",
+      "transcription": "ɪˈlɪmɪneɪt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "motion",
+      "translation": "движение",
+      "transcription": "ˈməʊʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "essential",
+      "translation": "важнейший, существенный",
+      "transcription": "ɪˈsɛnʃəl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "apart",
+      "translation": "отдельно, порознь",
+      "transcription": "əˈpɑːt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "combination",
+      "translation": "сочетание, комбинация",
+      "transcription": "ˌkɒmbɪˈneɪʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "limited",
+      "translation": "ограниченный",
+      "transcription": "ˈlɪmɪtɪd",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "description",
+      "translation": "описание",
+      "transcription": "dɪsˈkrɪpʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "mix",
+      "translation": "смесь, смешивать",
+      "transcription": "mɪks",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "snow",
+      "translation": "снег",
+      "transcription": "snəʊ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "implement",
+      "translation": "implement",
+      "transcription": "ˈɪmplɪmənt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "proper",
+      "translation": "надлежащий",
+      "transcription": "ˈprɒpə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "marketing",
+      "translation": "маркетинг",
+      "transcription": "ˈmɑːkɪtɪŋ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "approve",
+      "translation": "одобрять",
+      "transcription": "əˈpruːv",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "bomb",
+      "translation": "бомба",
+      "transcription": "bɒm",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "slip",
+      "translation": "соскальзывать, скользить",
+      "transcription": "slɪp",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "regional",
+      "translation": "региональный",
+      "transcription": "ˈriːʤənl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "muscle",
+      "translation": "мышца, мускул",
+      "transcription": "ˈmʌsl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "false",
+      "translation": "ошибочный, фальшивый, неверный",
+      "transcription": "fɔːls",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "creation",
+      "translation": "создание",
+      "transcription": "kri(ː)ˈeɪʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "typically",
+      "translation": "как правило, типично",
+      "transcription": "ˈtɪpɪk(ə)li",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "spending",
+      "translation": "трата, расходы",
+      "transcription": "ˈspɛndɪŋ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "instrument",
+      "translation": "инструмент",
+      "transcription": "ˈɪnstrʊmənt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "mass",
+      "translation": "масса, множество",
+      "transcription": "mæs",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "thick",
+      "translation": "толстый",
+      "transcription": "θɪk",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "kiss",
+      "translation": "целовать, поцелуй",
+      "transcription": "kɪs",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "inspire",
+      "translation": "вдохновлять",
+      "transcription": "ɪnˈspaɪə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "separate",
+      "translation": "отдельный, отделять",
+      "transcription": "ˈsɛp(ə)rət",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "noise",
+      "translation": "шум",
+      "transcription": "nɔɪz",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "yellow",
+      "translation": "жёлтый",
+      "transcription": "ˈjɛləʊ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "aim",
+      "translation": "цель, целиться",
+      "transcription": "eɪm",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "e-mail",
+      "translation": "электронная почта, электронное письмо",
+      "transcription": "iː meɪl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "cycle",
+      "translation": "цикл",
+      "transcription": "ˈsaɪkl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "signal",
+      "translation": "сигнал",
+      "transcription": "ˈsɪgnl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "app",
+      "translation": "приложение",
+      "transcription": "æp",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "golden",
+      "translation": "золотой",
+      "transcription": "ˈgəʊldən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "reject",
+      "translation": "отклонять, отвергать",
+      "transcription": "rɪˈʤekt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "inform",
+      "translation": "информировать",
+      "transcription": "ɪnˈfɔːm",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "perception",
+      "translation": "понимание, восприятие",
+      "transcription": "pəˈsɛpʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "visitor",
+      "translation": "посетитель",
+      "transcription": "ˈvɪzɪtə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "cast",
+      "translation": "отбрасывать, бросать, актерский состав",
+      "transcription": "kɑːst",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "contrast",
+      "translation": "отличие, контраст",
+      "transcription": "ˈkɒntrɑːst",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "judgment",
+      "translation": "суждение, осуждение",
+      "transcription": "ˈʤʌʤmənt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "representative",
+      "translation": "представитель",
+      "transcription": "ˌrɛprɪˈzɛntətɪv",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "regime",
+      "translation": "режим",
+      "transcription": "reɪˈʒiːm",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "merely",
+      "translation": "только, всего лишь",
+      "transcription": "ˈmɪəli",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "producer",
+      "translation": "производитель, продюсер",
+      "transcription": "prəˈdjuːsə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "route",
+      "translation": "маршрут",
+      "transcription": "ruːt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "typical",
+      "translation": "типичный",
+      "transcription": "ˈtɪpɪk(ə)l",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "analyst",
+      "translation": "аналитик",
+      "transcription": "ˈænəlɪst",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "elect",
+      "translation": "избирать",
+      "transcription": "ɪˈlɛkt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "smell",
+      "translation": "запах, чувствовать запах",
+      "transcription": "smɛl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "disability",
+      "translation": "инвалидность",
+      "transcription": "ˌdɪsəˈbɪlɪti",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "comparison",
+      "translation": "сравнение",
+      "transcription": "kəmˈpærɪsən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "rating",
+      "translation": "оценка, рейтинг",
+      "transcription": "ˈreɪtɪŋ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "campus",
+      "translation": "кампус, университетский городок",
+      "transcription": "ˈkæmpəs",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "assess",
+      "translation": "оценивать",
+      "transcription": "əˈsɛs",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "solid",
+      "translation": "прочный, твёрдый",
+      "transcription": "ˈsɒlɪd",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "branch",
+      "translation": "филиал, ветвь",
+      "transcription": "brɑːnʧ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "mad",
+      "translation": "сумасшедший",
+      "transcription": "mæd",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "somewhat",
+      "translation": "отчасти",
+      "transcription": "ˈsʌmwɒt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "gentleman",
+      "translation": "джентльмен",
+      "transcription": "ˈʤɛntlmən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "opposition",
+      "translation": "оппозиция",
+      "transcription": "ˌɒpəˈzɪʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "suspect",
+      "translation": "подозревать, подозреваемый",
+      "transcription": "sə'spekt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "aside",
+      "translation": "в сторону",
+      "transcription": "əˈsaɪd",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "athlete",
+      "translation": "атлет",
+      "transcription": "ˈæθliːt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "opening",
+      "translation": "церемония открытия, открытие, вакантное место, отверстие",
+      "transcription": "ˈəʊpnɪŋ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "prayer",
+      "translation": "молитва",
+      "transcription": "preə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "frequently",
+      "translation": "часто",
+      "transcription": "ˈfriːkwəntli",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "employ",
+      "translation": "нанимать, использовать",
+      "transcription": "ɪmˈplɔɪ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "basketball",
+      "translation": "баскетбол",
+      "transcription": "ˈbɑːskɪtˌbɔːl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "existing",
+      "translation": "существующий",
+      "transcription": "ɪgˈzɪstɪŋ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "revolution",
+      "translation": "революция",
+      "transcription": "ˌrɛvəˈluːʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "click",
+      "translation": "кликнуть",
+      "transcription": "klɪk",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "emotion",
+      "translation": "эмоция",
+      "transcription": "ɪˈməʊʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "platform",
+      "translation": "платформа",
+      "transcription": "ˈplætfɔːm",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "frame",
+      "translation": "кадр, рама, каркас",
+      "transcription": "freɪm",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "appeal",
+      "translation": "призыв, привлекательность, апелляция",
+      "transcription": "əˈpiːl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "quote",
+      "translation": "цитировать, кавычки, расценка",
+      "transcription": "kwəʊt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "brand",
+      "translation": "торговая марка, бренд",
+      "transcription": "brænd",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "enable",
+      "translation": "включить",
+      "transcription": "ɪˈneɪbl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "legislation",
+      "translation": "законодательство",
+      "transcription": "ˌlɛʤɪsˈleɪʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "addition",
+      "translation": "дополнение",
+      "transcription": "əˈdɪʃ(ə)n",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "lab",
+      "translation": "лаборатория",
+      "transcription": "læb",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "oppose",
+      "translation": "выступать против",
+      "transcription": "əˈpəʊz",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "row",
+      "translation": "ряд",
+      "transcription": "rəʊ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "immigration",
+      "translation": "иммиграция",
+      "transcription": "ˌɪmɪˈgreɪʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "asset",
+      "translation": "актив",
+      "transcription": "ˈæsɛt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "observation",
+      "translation": "наблюдение",
+      "transcription": "ˌɒbzə(ː)ˈveɪʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "taste",
+      "translation": "вкус",
+      "transcription": "teɪst",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "decline",
+      "translation": "ухудшаться, идти на убыль",
+      "transcription": "dɪˈklaɪn",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "attract",
+      "translation": "привлекать, притягивать",
+      "transcription": "əˈtrækt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "household",
+      "translation": "домочадцы",
+      "transcription": "ˈhaʊshəʊld",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "breathe",
+      "translation": "дышать",
+      "transcription": "briːð",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "existence",
+      "translation": "существование",
+      "transcription": "ɪgˈzɪstəns",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "mirror",
+      "translation": "зеркало",
+      "transcription": "ˈmɪrə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "pilot",
+      "translation": "пилот",
+      "transcription": "ˈpaɪlət",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "relief",
+      "translation": "облегчение",
+      "transcription": "rɪˈliːf",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "milk",
+      "translation": "молоко",
+      "transcription": "mɪlk",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "warning",
+      "translation": "предупреждение",
+      "transcription": "ˈwɔːnɪŋ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "heaven",
+      "translation": "небеса",
+      "transcription": "ˈhɛvn",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "flow",
+      "translation": "струиться, течь, поток",
+      "transcription": "fləʊ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "literally",
+      "translation": "буквально",
+      "transcription": "ˈlɪtərəli",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "quit",
+      "translation": "прекращать, бросать, уходить, увольняться",
+      "transcription": "kwɪt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "calorie",
+      "translation": "калория",
+      "transcription": "ˈkæləri",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "seed",
+      "translation": "семя, сеять",
+      "transcription": "siːd",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "vast",
+      "translation": "огромный",
+      "transcription": "vɑːst",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "bike",
+      "translation": "велосипед",
+      "transcription": "baɪk",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "German",
+      "translation": "немецкий",
+      "transcription": "ˈʤɜːmən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "employer",
+      "translation": "работодатель",
+      "transcription": "ɪmˈplɔɪə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "drag",
+      "translation": "тянуть, тащить",
+      "transcription": "dræg",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "technical",
+      "translation": "технический",
+      "transcription": "ˈtɛknɪkəl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "disaster",
+      "translation": "катастрофа",
+      "transcription": "dɪˈzɑːstə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "display",
+      "translation": "отображать, дисплей",
+      "transcription": "dɪsˈpleɪ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "sale",
+      "translation": "продажа, распродажа",
+      "transcription": "seɪl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "bathroom",
+      "translation": "ванная комната",
+      "transcription": "ˈbɑːθru(ː)m",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "succeed",
+      "translation": "успех",
+      "transcription": "səkˈsiːd",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "consistent",
+      "translation": "последовательный, согласующийся",
+      "transcription": "kənˈsɪstənt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "agenda",
+      "translation": "повестка",
+      "transcription": "əˈʤɛndə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "enforcement",
+      "translation": "принуждение",
+      "transcription": "ɪnˈfɔːsmənt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "diet",
+      "translation": "диета",
+      "transcription": "ˈdaɪət",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "silence",
+      "translation": "тишина",
+      "transcription": "ˈsaɪləns",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "journalist",
+      "translation": "журналист",
+      "transcription": "ˈʤɜːnəlɪst",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "bible",
+      "translation": "библия",
+      "transcription": "ˈbaɪbl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "queen",
+      "translation": "королева",
+      "transcription": "kwiːn",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "divide",
+      "translation": "делить",
+      "transcription": "dɪˈvaɪd",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "expense",
+      "translation": "трата",
+      "transcription": "ɪksˈpɛns",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "cream",
+      "translation": "сливки",
+      "transcription": "kriːm",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "exposure",
+      "translation": "подверженность воздействию, показ, экспозиция",
+      "transcription": "ɪksˈpəʊʒə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "priority",
+      "translation": "приоритет",
+      "transcription": "praɪˈɒrɪti",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "soil",
+      "translation": "почва",
+      "transcription": "sɔɪl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "angel",
+      "translation": "ангел",
+      "transcription": "ˈeɪnʤəl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "journey",
+      "translation": "путешествие, поездка",
+      "transcription": "ˈʤɜːni",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "relevant",
+      "translation": "релевантный, соответствующие",
+      "transcription": "ˈrɛlɪvənt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "tank",
+      "translation": "танк, бак, резервуар",
+      "transcription": "tæŋk",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "cheese",
+      "translation": "сыр",
+      "transcription": "ʧiːz",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "schedule",
+      "translation": "расписание, график",
+      "transcription": "ˈʃedjuːl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "bedroom",
+      "translation": "спальня",
+      "transcription": "ˈbɛdru(ː)m",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "tone",
+      "translation": "интонация, тон, настроение",
+      "transcription": "təʊn",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "selection",
+      "translation": "выбор, естественный отбор, подборка",
+      "transcription": "sɪˈlɛkʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "perfectly",
+      "translation": "совершенно, идеально",
+      "transcription": "ˈpɜːfɪktli",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "wheel",
+      "translation": "колесо",
+      "transcription": "wiːl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "gap",
+      "translation": "разрыв, зазор, пробел",
+      "transcription": "gæp",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "veteran",
+      "translation": "ветеран",
+      "transcription": "ˈvɛtərən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "disagree",
+      "translation": "не соглашаться",
+      "transcription": "ˌdɪsəˈgriː",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "characteristic",
+      "translation": "свойство, характеристика",
+      "transcription": "ˌkærɪktəˈrɪstɪk",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "protein",
+      "translation": "протеин, белок",
+      "transcription": "ˈprəʊtiːn",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "resolution",
+      "translation": "разрешение, резолюция",
+      "transcription": "ˌrɛzəˈluːʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "regard",
+      "translation": "внимание, отношение, пожелание",
+      "transcription": "rɪˈgɑːd",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "fewer",
+      "translation": "меньше, несколько",
+      "transcription": "ˈfjuːə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "engineer",
+      "translation": "инженер",
+      "transcription": "ˌɛnʤɪˈnɪə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "dish",
+      "translation": "блюдо",
+      "transcription": "dɪʃ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "waste",
+      "translation": "тратить впустую",
+      "transcription": "weɪst",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "print",
+      "translation": "печатать",
+      "transcription": "prɪnt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "depression",
+      "translation": "депрессия",
+      "transcription": "dɪˈprɛʃən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "dude",
+      "translation": "чувак",
+      "transcription": "duːd",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "upper",
+      "translation": "верхний",
+      "transcription": "ˈʌpə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "wrap",
+      "translation": "заворачивать, охватывать, обертка",
+      "transcription": "ræp",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "CEO",
+      "translation": "генеральный директор, главный исполнительный директор",
+      "transcription": "ˌsiː iː ˈəʊ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "visual",
+      "translation": "визуальный",
+      "transcription": "ˈvɪzjʊəl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "initiative",
+      "translation": "инициатива",
+      "transcription": "ɪˈnɪʃɪətɪv",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "rush",
+      "translation": "торопиться, порыв",
+      "transcription": "rʌʃ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "gate",
+      "translation": "ворота, выход на посадку",
+      "transcription": "geɪt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "whenever",
+      "translation": "когда бы ни ",
+      "transcription": "wɛnˈɛvə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "entry",
+      "translation": "запись, вход, вхождение",
+      "transcription": "ˈɛntri",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "Japanese",
+      "translation": "японский",
+      "transcription": "ˌʤæpəˈniːz",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "gray",
+      "translation": "серый",
+      "transcription": "greɪ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "assistance",
+      "translation": "помощь",
+      "transcription": "əˈsɪstəns",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "height",
+      "translation": "высота, рост ",
+      "transcription": "hait",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "compete",
+      "translation": "соревноваться",
+      "transcription": "kəmˈpiːt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "essentially",
+      "translation": "по существу",
+      "transcription": "ɪˈsɛnʃəli",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "phase",
+      "translation": "фаза",
+      "transcription": "feɪz",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "recover",
+      "translation": "восстанавливаться",
+      "transcription": "rɪˈkʌvə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "criticism",
+      "translation": "критика",
+      "transcription": "ˈkrɪtɪsɪzm",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "faculty",
+      "translation": "факультет",
+      "transcription": "ˈfækəlti",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "achievement",
+      "translation": "достижение",
+      "transcription": "əˈʧiːvmənt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "alcohol",
+      "translation": "алкоголь",
+      "transcription": "ˈælkəhɒl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "therapy",
+      "translation": "лечение, терапия",
+      "transcription": "ˈθɛrəpi",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "offense",
+      "translation": "оскорбление, обида, правонарушение",
+      "transcription": "əˈfɛns",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "killer",
+      "translation": "убийца",
+      "transcription": "ˈkɪlə",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "personality",
+      "translation": "индивидуальность, характер",
+      "transcription": "ˌpɜːsəˈnælɪti",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "landscape",
+      "translation": "ландшаф",
+      "transcription": "'læn(d)skeɪp",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "deeply",
+      "translation": "глубоко",
+      "transcription": "ˈdiːpli",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "reasonable",
+      "translation": "благоразумный",
+      "transcription": "ˈriːznəbl",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "suck",
+      "translation": "сосать",
+      "transcription": "sʌk",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "transition",
+      "translation": "перемещение, переход,",
+      "transcription": "trænˈsɪʒən",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "fairly",
+      "translation": "весьма, довольно-таки, честно",
+      "transcription": "ˈfeəli",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "column",
+      "translation": "колонна",
+      "transcription": "ˈkɒləm",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "wash",
+      "translation": "мыть",
+      "transcription": "wɒʃ",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "button",
+      "translation": "кнопка, пуговица",
+      "transcription": "ˈbʌtn",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "opponent",
+      "translation": "противник, оппонент",
+      "transcription": "əˈpəʊnənt",
+      "usage": "",
+      "usageTranslation": ""
+    },
+    {
+      "text": "pour",
+      "translation": "наливать",
+      "transcription": "pɔː",
+      "usage": "",
+      "usageTranslation": ""
+    }
+  ]
+}

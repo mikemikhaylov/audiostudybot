@@ -43,6 +43,36 @@
       <EmbeddedResource Include="lessons\en-ru\travel\1\lessons.json" />
       <None Remove="lessons\en-ru\travel\1\lessons_reversed.json" />
       <EmbeddedResource Include="lessons\en-ru\travel\1\lessons_reversed.json" />
+      <None Remove="courses\en-ru\most_frequent_words_1-200.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_1-200.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_1001-1200.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_1001-1200.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_1201-1400.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_1201-1400.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_1401-1600.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_1401-1600.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_1601-1800.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_1601-1800.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_1801-2000.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_1801-2000.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_2001-2200.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_2001-2200.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_201-400.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_201-400.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_2201-2400.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_2201-2400.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_2401-2600.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_2401-2600.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_2601-2800.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_2601-2800.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_2801-3000.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_2801-3000.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_401-600.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_401-600.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_601-800.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_601-800.json.json" />
+      <None Remove="courses\en-ru\most_frequent_words_801-1000.json.json" />
+      <EmbeddedResource Include="courses\en-ru\most_frequent_words_801-1000.json.json" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="lessons\en-ru\for-beginners\1" />
