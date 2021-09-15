@@ -1,5 +1,5 @@
 {
-  "id": "453b0f9d-6ddd-41a9-b79a-927f2605847e",
+  "id": "4f13a546-38ed-4ffd-b09e-8e463977fb8f",
   "version": 1,
   "weight": 40,
   "type": "words",
@@ -187,7 +187,7 @@
       "text": "развернуть (например релиз на сервер)",
       "translation": "deploy",
       "usage": "Ты развернул это на новый сервер?",
-      "usageTranslation": "Did you deploy it in the new server?",
+      "usageTranslation": "Did you deploy it to the new server?",
       "translationTranscription": "dɪˈplɔɪ"
     },
     {
