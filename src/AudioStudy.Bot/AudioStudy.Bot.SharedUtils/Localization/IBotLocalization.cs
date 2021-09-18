@@ -52,7 +52,7 @@ namespace AudioStudy.Bot.SharedUtils.Localization
         string NoCardsInCourse(Language language);
         string NoCardsInLesson(Language language);
         string BackToTheCourse(Language language);
-        string CurrentlyLearningCourse(Language language, (string name, int totalNumberOfLessons) course);
+        string CurrentlyLearningCourse(Language language, (string name, int totalNumberOfLessons, int lessonsLearned) course);
         string ChooseAnotherCourse(Language language);
         string CoursesToLearnMessage(Language language);
         string NoCoursesToLearnMessage(Language language);

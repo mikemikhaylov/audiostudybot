@@ -18,14 +18,17 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
         private readonly IBotLocalization _botLocalization;
         private readonly ICourseProvider _courseProvider;
         private readonly IUserService _userService;
+        private readonly ILessonProvider _lessonProvider;
 
         public LearnHelper(IBotLocalization botLocalization,
             ICourseProvider courseProvider,
-            IUserService userService) : base(botLocalization)
+            IUserService userService,
+            ILessonProvider lessonProvider) : base(botLocalization)
         {
             _botLocalization = botLocalization;
             _courseProvider = courseProvider;
             _userService = userService;
+            _lessonProvider = lessonProvider;
         }
 
         private Task<TelegramResponseMessage> GetFirstPageAsync(User user)
@@ -51,11 +54,15 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
                 await _userService.UpdateAsync(user, UserUpdateCommand.Factory.UpdateLearningCourse(null));
                 return await GetFirstPageAsync(user);
             }
+            var userCourse = user.Courses?.FirstOrDefault(x => x.Id == course.Id);
+            var numberOfLessons = _lessonProvider.GetCourseLessons(course.Id, userCourse?.Version ?? course.Version)
+                .Length;
+            var lessonsLearned = userCourse == null ? 0 : (userCourse.LastLesson < 0 ? 0 : userCourse.LastLesson + 1);
 
             return new TelegramResponseMessage
             {
                 Text = _botLocalization.CurrentlyLearningCourse(user.Language,
-                    (_courseProvider.GetCourseName(user.Language, course), 0)),
+                    (_courseProvider.GetCourseName(user.Language, course), numberOfLessons, lessonsLearned)),
                 Html = true,
                 InlineButtons = new[]
                 {

@@ -262,9 +262,13 @@ namespace AudioStudy.Bot.SharedUtils.Localization
             return InlineBackBtn(language);
         }
 
-        public string CurrentlyLearningCourse(Language language, (string name, int totalNumberOfLessons) course)
+        public string CurrentlyLearningCourse(Language language, (string name, int totalNumberOfLessons, int lessonsLearned) course)
         {
-            return $"<b>{GetKey(language, "msg:course")}:</b> {course.name}";
+            return FormatHelper.ConcatTelegramLines(
+                $"<b>{GetKey(language, "msg:course")}:</b> {course.name}",
+                string.Empty,
+                $"<b>{GetKey(language, "msg:numberoflessons")}:</b> {course.totalNumberOfLessons} ({GetKey(language, "msg:numberoflearnedlessons")} {course.lessonsLearned})"
+                );
         }
 
         public string ChooseAnotherCourse(Language language)

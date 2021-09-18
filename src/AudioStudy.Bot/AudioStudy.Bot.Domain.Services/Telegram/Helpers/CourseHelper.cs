@@ -62,7 +62,7 @@ namespace AudioStudy.Bot.Domain.Services.Telegram.Helpers
             var inlineButtons = new List<TelegramInlineBtn>();
             if (userCourse != null)
             {
-                if (lessonsLearned < numberOfCards)
+                if (lessonsLearned < numberOfLessons)
                 {
                     inlineButtons.Add(
                 
