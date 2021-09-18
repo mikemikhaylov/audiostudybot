@@ -29,7 +29,7 @@
   },
   "msg:help": {
     "ru": "О том, как работает бот, подробнее можно прочитать здесь https://telegra.ph/AudioStudyBot---bot-dlya-izucheniya-slov-09-01\n\nКоманды:\n\n/courses - открыть список курсов\n/learn - начать учиться (быстрый способ получить следующий урок курса, который сейчас изучаете)\n/settings - открыть настройки\n/help - открыть данную инструкцию\n\nВместо команд так же можно использовать встроенные кнопки бота рядом с полем набора сообщения.\n\nЧат поддержки: https://t.me/audiostudybot_support",
-    "en": "More information about how the bot works you can find here https://telegra.ph/AudioStudyBot-user-manual-09-01\n\nCommands:\n\n/courses - open list of courses\n/learn - start learning (just a simple way to get next lesson for the course you are currently studying)\n/settings - open settings\n/help - open this manual\n\nInstead of these commands you can also use buttons near the \"Write a message...\" field.\n\nSupport chat: https://t.me/audiostudybot_support"
+    "en": "More information about how the bot works you can find here https://telegra.ph/AudioStudyBot-user-manual-09-01\n\nCommands:\n\n/courses - open the list of courses\n/learn - start learning (just a simple way to get a next lesson for the course you are currently studying)\n/settings - open settings\n/help - open this manual\n\nInstead of these commands you can also use buttons near the \"Write a message...\" field.\n\nSupport chat: https://t.me/audiostudybot_support"
   },
   "msg:settingsbtn": {
     "ru": "Настройки",
@@ -141,7 +141,7 @@
   },
   "msg:choosecoursetolearn": {
     "ru": "Выберите курс для изучения. Только курсы, которые вы начали, перечислены здесь. Нажмите кнопку \"{0}\", если вы хотите начать другой курс.",
-    "en": "Select course to learn. Only courses you started are listed here. Click the \"{0}\" button, if you want to start another course."
+    "en": "Select a course to learn. Only courses you have started are listed here. Click the \"{0}\" button if you want to start another course."
   },
   "msg:selectanothercourse": {
     "ru": "Другой курс",
