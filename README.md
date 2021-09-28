@@ -111,6 +111,8 @@ npm run start
 
 The output is audio files which it also uploads to Telegram and JSON files with lessons. Don't forget to add the lessons file as an embedded resource to this [project](src/AudioStudy.Bot/AudioStudy.Bot.Courses/AudioStudy.Bot.Courses.csproj).
 
+The spaced repetition algorithm is encapsulated in [lesson-generator.ts](src/lesson-generator/src/lesson-generator.ts)
+
 
 ## Telegram Bot
 
