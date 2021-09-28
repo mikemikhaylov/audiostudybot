@@ -73,7 +73,9 @@ Be aware that Telegram maximum lenght for audio caption is 1024, so please don't
 If you want add a course in this repository then please just add it to this [directory](src/AudioStudy.Bot/AudioStudy.Bot.Courses/courses). I will do everything else myself. If you want to run your own instance of the bot, don't forget to add course file as an embedded resourse in this  [project](src/AudioStudy.Bot/AudioStudy.Bot.Courses/AudioStudy.Bot.Courses.csproj).
 
 ## Lesson Generator
-Node.js app so you have to have Node.js installed to run it. 
+Node.js app so you have to have Node.js installed to run it.
+
+Source code is [here](src/lesson-generator/).
 
 Befor running it you need to sign up for [Amazon Web Services](https://aws.amazon.com/) to be able to use Amazon Polly for text-to-speech functionality. It has a free tier for 1 year.
 
@@ -81,25 +83,25 @@ Then you have to get your [credentials](https://docs.aws.amazon.com/sdk-for-java
 
 Also before running it you have to set necessary parameters in [index.ts](src/lesson-generator/src/index.ts).
 
-```courseFilePath``` - 'path/to/course.json'.
+```courseFilePath``` - *String.* 'path/to/course.json'.
 
-```reversedCourseFilePath``` - if you want to generate reversed course (e.g. from English-Spanish course generate Spanish-English) from ```courseFilePath``` specify where to put the output.
+```reversedCourseFilePath``` - *String.* If you want to generate reversed course (e.g. from English-Spanish course generate Spanish-English) from ```courseFilePath``` specify where to put the output. *Optional.*
 
-```courseLessonsDirectory``` - output directory for lessons JSON files. Should be empty.
+```courseLessonsDirectory``` - *String.* Output directory for lessons JSON files. Should be empty.
 
-```mediaOutputDirectory``` - where to put generated audiofiles.
+```mediaOutputDirectory``` - *String.* Where to put generated audiofiles.
 
-```tmpDir``` - where to put temporary audiofiles.
+```tmpDir``` - *String.* Where to put temporary audiofiles.
 
-```botToken``` - Telegram bot token.
+```botToken``` - *String.* Telegram bot token.
 
-```pauseFilePath``` - path to mp3 file with a pause.
+```pauseFilePath``` - *String.* Path to mp3 file with a pause.
 
-```longPauseFilePath``` - path to mp3 file with a long pause.
+```longPauseFilePath``` - *String.* Path to mp3 file with a long pause.
 
-```chatId``` - chat ID where to upload audiofiles for later usage.
+```chatId``` - *String.* Chat ID where to upload audiofiles for later usage.
 
-```botName``` - arbitrary string, should be the same as ```Lessons.BotName``` in the [appsettings.json](src/AudioStudy.Bot/AudioStudy.Bot.Host/appsettings.json).
+```botName``` - *String.* Arbitrary string, should be the same as ```Lessons.BotName``` in the [appsettings.json](src/AudioStudy.Bot/AudioStudy.Bot.Host/appsettings.json).
        
 To run it use the following command.
 
@@ -109,7 +111,17 @@ npm run start
 
 ## Telegram Bot
 
-## References
+.NET 5 app. You need to have [dotnet](https://dotnet.microsoft.com/download/dotnet) installed to run it.
+
+Source code is [here](src/AudioStudy.Bot).
+
+Configuration can be found in [appsettings.json](src/AudioStudy.Bot/AudioStudy.Bot.Host/appsettings.json).
+
+## Credits
+
+The 'Most frequent words...' English courses are based on free samples from [wordfrequency.info](https://www.wordfrequency.info/).
+
+Some of the usage examples are from [tatoeba.org](https://tatoeba.org/). Tatoeba's data is released under CC-BY 2.0 FR. 
 
 ## Disclaimer
 Not the prettiest code I've ever wtitten.
