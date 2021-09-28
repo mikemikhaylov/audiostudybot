@@ -70,7 +70,7 @@ You can find existing courses [here](src/AudioStudy.Bot/AudioStudy.Bot.Courses/c
 
 Be aware that Telegram maximum length for the audio caption is 1024, so please don't use cards with a lot of text in them.
 
-If you want to add a course to this repository then please just add it to this [directory](src/AudioStudy.Bot/AudioStudy.Bot.Courses/courses). I will do everything else myself. If you want to run your own instance of the bot, don't forget to add the course file as an embedded resourse in this  [project](src/AudioStudy.Bot/AudioStudy.Bot.Courses/AudioStudy.Bot.Courses.csproj).
+If you want to add a course to this repository then please just add it to this [directory](src/AudioStudy.Bot/AudioStudy.Bot.Courses/courses). I will do everything else myself. If you want to run your own instance of the bot, don't forget to add the course file as an embedded resource to this [project](src/AudioStudy.Bot/AudioStudy.Bot.Courses/AudioStudy.Bot.Courses.csproj).
 
 ## Lesson Generator
 Node.js app so you have to have Node.js installed to run it.
@@ -108,6 +108,9 @@ To run it use the following command.
 ```js
 npm run start
 ```
+
+The output is audio files which it also uploads to Telegram and JSON files with lessons. Don't forget to add the lessons file as an embedded resource to this [project](src/AudioStudy.Bot/AudioStudy.Bot.Courses/AudioStudy.Bot.Courses.csproj).
+
 
 ## Telegram Bot
 
