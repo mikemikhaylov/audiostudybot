@@ -6,7 +6,7 @@ The second one is Telegram bot that you can use to deliver/distribute/consume th
 
 If you are not interested in studying the source code or adding new courses you can go straight to the bot and check it out: 
 
-[https://t.me/audiostudybot](https://t.me/audiostudybot)
+👉👉👉 [https://t.me/audiostudybot](https://t.me/audiostudybot)
 
 ## Adding New Courses
 You can find existing courses [here](src/AudioStudy.Bot/AudioStudy.Bot.Courses/courses). Basically a course have the following JSON stricture.
@@ -73,8 +73,43 @@ Be aware that Telegram maximum lenght for audio caption is 1024, so please don't
 If you want add a course in this repository then please just add it to this [directory](src/AudioStudy.Bot/AudioStudy.Bot.Courses/courses). I will do everything else myself. If you want to run your own instance of the bot, don't forget to add course file as an embedded resourse in this  [project](src/AudioStudy.Bot/AudioStudy.Bot.Courses/AudioStudy.Bot.Courses.csproj).
 
 ## Lesson Generator
+Node.js app so you have to have Node.js installed to run it. 
+
+Befor running it you need to sign up for [Amazon Web Services](https://aws.amazon.com/) to be able to use Amazon Polly for text-to-speech functionality. It has a free tier for 1 year.
+
+Then you have to get your [credentials](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-your-credentials.html), and set it locally for example using [AWS CLI](https://aws.amazon.com/en/cli/) and ``aws configure`` command.
+
+Also before running it you have to set necessary parameters in [index.ts](src/lesson-generator/src/index.ts).
+
+```courseFilePath``` - 'path/to/course.json'.
+
+```reversedCourseFilePath``` - if you want to generate reversed course (e.g. from English-Spanish course generate Spanish-English) from ```courseFilePath``` specify where to put the output.
+
+```courseLessonsDirectory``` - output directory for lessons JSON files. Should be empty.
+
+```mediaOutputDirectory``` - where to put generated audiofiles.
+
+```tmpDir``` - where to put temporary audiofiles.
+
+```botToken``` - Telegram bot token.
+
+```pauseFilePath``` - path to mp3 file with a pause.
+
+```longPauseFilePath``` - path to mp3 file with a long pause.
+
+```chatId``` - chat ID where to upload audiofiles for later usage.
+
+```botName``` - arbitrary string, should be the same as ```Lessons.BotName``` in the [appsettings.json](src/AudioStudy.Bot/AudioStudy.Bot.Host/appsettings.json).
+       
+To run it use the following command.
+
+```js
+npm run start
+```
 
 ## Telegram Bot
+
+## References
 
 ## Disclaimer
 Not the prettiest code I've ever wtitten.
