@@ -41,8 +41,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGFmFCOIWAzh0rRnNYwHmaOvzTsi3hAALhFAACmoERSpXZ89CmlwRZIAQ",
-        "Dev": "CQACAgIAAxkDAAIKNWFCOnmk-Y_DAAGMswABtX6a6V2BpA8AAlUVAAKagRFKkKxVPxbPt6MgBA"
+        "Prod": "CQACAgIAAxkDAAIWNWFgchYo_5ma86BoVma86IsrTtvyAAJqEwAC8nMJS7bM1-GufuECIQQ",
+        "Dev": "CQACAgIAAxkDAAILTGFgdCWSsoxWzxczOdCCxHkq83YqAALlEwAC8nMJSwwS1JcssT0wIQQ"
       }
     },
     {
@@ -50,29 +50,29 @@
         {
           "text": "полоса прокрутки",
           "translation": "scroll bar",
-          "usage": "Показывать полосу прокрутки справа от окна сеанса.",
-          "usageTranslation": "Show the scroll bar on the right side of the terminal window.",
+          "usage": "Показывать полосу прокрутки справа от окна.",
+          "usageTranslation": "Show the scroll bar on the right side of the window.",
           "isNew": true
         },
         {
           "text": "интернет-провайдер",
           "translation": "internet service provider (ISP)",
-          "usage": "Провайдер - это компания, которая предоставляет доступ в интернет.",
-          "usageTranslation": "Internet service provider a company that provides access to the Internet",
+          "usage": "Провайдер предоставляет доступ в интернет.",
+          "usageTranslation": "Internet service provider provides access to the Internet",
           "isNew": true
         },
         {
           "text": "интеллектуальная собственность",
           "translation": "intellectual property",
-          "usage": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности.",
-          "usageTranslation": "He also indicated that several law schools provided courses on intellectual property issues.",
+          "usage": "У них проблемы с интеллектуальной собственностью.",
+          "usageTranslation": "They have intellectual property issues.",
           "isNew": true
         },
         {
           "text": "удаленное администрирование",
           "translation": "remote administration",
-          "usage": "Представлены новые планы удаленного администрирования и услуги для наших клиентов.",
-          "usageTranslation": "New remote administration plans and services for our customers introduced.",
+          "usage": "Представлены новые планы удаленного администрирования.",
+          "usageTranslation": "New remote administration plans introduced.",
           "isNew": true
         },
         {
@@ -119,8 +119,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGF2FCOIj7571AHBIPWH1uzjdMBasLAALiFAACmoERSlxtk8qS8XbHIAQ",
-        "Dev": "CQACAgIAAxkDAAIKNmFCOn5FTUXJhQJoIbjbDuvgz34aAAJWFQACmoERSnYFxMoRVvHWIAQ"
+        "Prod": "CQACAgIAAxkDAAIWNmFgchoOuBX48ML4g9U1bdyGen5fAAJrEwAC8nMJS4QH_s_4EbBMIQQ",
+        "Dev": "CQACAgIAAxkDAAILTWFgdCkRn5b15vXzlLVqdFOt4KmJAALmEwAC8nMJSxA_UDquWlAiIQQ"
       }
     },
     {
@@ -198,29 +198,29 @@
         {
           "text": "полоса прокрутки",
           "translation": "scroll bar",
-          "usage": "Показывать полосу прокрутки справа от окна сеанса.",
-          "usageTranslation": "Show the scroll bar on the right side of the terminal window.",
+          "usage": "Показывать полосу прокрутки справа от окна.",
+          "usageTranslation": "Show the scroll bar on the right side of the window.",
           "isNew": false
         },
         {
           "text": "интернет-провайдер",
           "translation": "internet service provider (ISP)",
-          "usage": "Провайдер - это компания, которая предоставляет доступ в интернет.",
-          "usageTranslation": "Internet service provider a company that provides access to the Internet",
+          "usage": "Провайдер предоставляет доступ в интернет.",
+          "usageTranslation": "Internet service provider provides access to the Internet",
           "isNew": false
         },
         {
           "text": "интеллектуальная собственность",
           "translation": "intellectual property",
-          "usage": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности.",
-          "usageTranslation": "He also indicated that several law schools provided courses on intellectual property issues.",
+          "usage": "У них проблемы с интеллектуальной собственностью.",
+          "usageTranslation": "They have intellectual property issues.",
           "isNew": false
         },
         {
           "text": "удаленное администрирование",
           "translation": "remote administration",
-          "usage": "Представлены новые планы удаленного администрирования и услуги для наших клиентов.",
-          "usageTranslation": "New remote administration plans and services for our customers introduced.",
+          "usage": "Представлены новые планы удаленного администрирования.",
+          "usageTranslation": "New remote administration plans introduced.",
           "isNew": false
         },
         {
@@ -232,8 +232,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGGGFCOI6cdg4BBm0b3Q1pbIaQ6WkSAALjFAACmoERSiBPQt8q3npyIAQ",
-        "Dev": "CQACAgIAAxkDAAIKN2FCOoChnoqKf28WuHbCn4vSnFlDAAJXFQACmoERSk-axCqPDS8pIAQ"
+        "Prod": "CQACAgIAAxkDAAIWN2Fgch2vAT38sPojWxhosLEqevz5AAJsEwAC8nMJSyYxAtnQYi6AIQQ",
+        "Dev": "CQACAgIAAxkDAAILTmFgdCoFnz8m-e1ZzcA5dn0ip5yNAALnEwAC8nMJSxhxTmgOrdcDIQQ"
       }
     },
     {
@@ -311,29 +311,29 @@
         {
           "text": "полоса прокрутки",
           "translation": "scroll bar",
-          "usage": "Показывать полосу прокрутки справа от окна сеанса.",
-          "usageTranslation": "Show the scroll bar on the right side of the terminal window.",
+          "usage": "Показывать полосу прокрутки справа от окна.",
+          "usageTranslation": "Show the scroll bar on the right side of the window.",
           "isNew": false
         },
         {
           "text": "интернет-провайдер",
           "translation": "internet service provider (ISP)",
-          "usage": "Провайдер - это компания, которая предоставляет доступ в интернет.",
-          "usageTranslation": "Internet service provider a company that provides access to the Internet",
+          "usage": "Провайдер предоставляет доступ в интернет.",
+          "usageTranslation": "Internet service provider provides access to the Internet",
           "isNew": false
         },
         {
           "text": "интеллектуальная собственность",
           "translation": "intellectual property",
-          "usage": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности.",
-          "usageTranslation": "He also indicated that several law schools provided courses on intellectual property issues.",
+          "usage": "У них проблемы с интеллектуальной собственностью.",
+          "usageTranslation": "They have intellectual property issues.",
           "isNew": false
         },
         {
           "text": "удаленное администрирование",
           "translation": "remote administration",
-          "usage": "Представлены новые планы удаленного администрирования и услуги для наших клиентов.",
-          "usageTranslation": "New remote administration plans and services for our customers introduced.",
+          "usage": "Представлены новые планы удаленного администрирования.",
+          "usageTranslation": "New remote administration plans introduced.",
           "isNew": false
         },
         {
@@ -380,8 +380,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGGWFCOJMpVQU7_w8S4q0g-2Rtb-voAALkFAACmoERSr7RgQ3xv2zwIAQ",
-        "Dev": "CQACAgIAAxkDAAIKOGFCOoSIL3FI6M9qfSDWTYGWX1c4AAJYFQACmoERStuiJfefa2eeIAQ"
+        "Prod": "CQACAgIAAxkDAAIWOGFgciApKkkthlim05FU_dH70voSAAJtEwAC8nMJS9T8qVVpUdCnIQQ",
+        "Dev": "CQACAgIAAxkDAAILT2FgdC47ZZRG9RY1XHJnrIywVEi5AALoEwAC8nMJS_iNcAQLwhZHIQQ"
       }
     },
     {
@@ -424,29 +424,29 @@
         {
           "text": "полоса прокрутки",
           "translation": "scroll bar",
-          "usage": "Показывать полосу прокрутки справа от окна сеанса.",
-          "usageTranslation": "Show the scroll bar on the right side of the terminal window.",
+          "usage": "Показывать полосу прокрутки справа от окна.",
+          "usageTranslation": "Show the scroll bar on the right side of the window.",
           "isNew": false
         },
         {
           "text": "интернет-провайдер",
           "translation": "internet service provider (ISP)",
-          "usage": "Провайдер - это компания, которая предоставляет доступ в интернет.",
-          "usageTranslation": "Internet service provider a company that provides access to the Internet",
+          "usage": "Провайдер предоставляет доступ в интернет.",
+          "usageTranslation": "Internet service provider provides access to the Internet",
           "isNew": false
         },
         {
           "text": "интеллектуальная собственность",
           "translation": "intellectual property",
-          "usage": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности.",
-          "usageTranslation": "He also indicated that several law schools provided courses on intellectual property issues.",
+          "usage": "У них проблемы с интеллектуальной собственностью.",
+          "usageTranslation": "They have intellectual property issues.",
           "isNew": false
         },
         {
           "text": "удаленное администрирование",
           "translation": "remote administration",
-          "usage": "Представлены новые планы удаленного администрирования и услуги для наших клиентов.",
-          "usageTranslation": "New remote administration plans and services for our customers introduced.",
+          "usage": "Представлены новые планы удаленного администрирования.",
+          "usageTranslation": "New remote administration plans introduced.",
           "isNew": false
         },
         {
@@ -528,8 +528,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGGmFCOJcSgrQmu1Tk5QKc-lZUNDFGAALlFAACmoERSshhpcxy2_R6IAQ",
-        "Dev": "CQACAgIAAxkDAAIKOWFCOog8T9iM9yXRqU_OyQLpxPFvAAJZFQACmoERSnuAJUQh_vwkIAQ"
+        "Prod": "CQACAgIAAxkDAAIWOWFgciKhNIcLFclJ5XsNRzD4LWEdAAJuEwAC8nMJS__3E3FYrvA0IQQ",
+        "Dev": "CQACAgIAAxkDAAILUGFgdDBrkAOL6JtL7hnAIMc0uUp5AALpEwAC8nMJS7VBkbr3jmAzIQQ"
       }
     },
     {
@@ -567,372 +567,6 @@
           "translation": "exception",
           "usage": "Произошла неожиданная ошибка.",
           "usageTranslation": "Unexpected exception has occured.",
-          "isNew": true
-        },
-        {
-          "text": "вкладка",
-          "translation": "tab",
-          "usage": "Закрой вкладку.",
-          "usageTranslation": "Close the tab.",
-          "isNew": false
-        },
-        {
-          "text": "буфер",
-          "translation": "buffer",
-          "usage": "Буфер обмена - это буфер, который некоторые операционные системы предоставляют для краткосрочного хранения информации.",
-          "usageTranslation": "The clipboard is a buffer that some operating systems provide for short-term storage.",
-          "isNew": false
-        },
-        {
-          "text": "запуск, загрузка",
-          "translation": "boot",
-          "usage": "Если попробовать загрузить компьютер без этого диска, все сгорит.",
-          "usageTranslation": "If anyone tries to boot the computer up without this disk, the whole thing fries.",
-          "isNew": false
-        },
-        {
-          "text": "программное обеспечение",
-          "translation": "software",
-          "usage": "Обновите ваше программное обеспечение.",
-          "usageTranslation": "Update your software.",
-          "isNew": false
-        },
-        {
-          "text": "пересылать",
-          "translation": "forward",
-          "usage": "Как переслать письмо?",
-          "usageTranslation": "How to forward a message?",
-          "isNew": false
-        },
-        {
-          "text": "ответ",
-          "translation": "reply",
-          "usage": "Ты получил от них ответ?",
-          "usageTranslation": "Did you get a reply from them?",
-          "isNew": false
-        },
-        {
-          "text": "гибкая разработка программного обеспечения",
-          "translation": "agile software development",
-          "usage": "Скрам - это методология гибкой разработки программного обеспечения.",
-          "usageTranslation": "Scrum is an agile development methodology",
-          "isNew": false
-        },
-        {
-          "text": "устанавливать",
-          "translation": "install",
-          "usage": "Скачай и установи приложение.",
-          "usageTranslation": "Download and install the application.",
-          "isNew": false
-        },
-        {
-          "text": "запрос",
-          "translation": "query",
-          "usage": "Язык структурированных запросов.",
-          "usageTranslation": "Structured Query Language.",
-          "isNew": false
-        },
-        {
-          "text": "ошибка",
-          "translation": "error",
-          "usage": "При каких обстоятельствах возникла неисправность?",
-          "usageTranslation": "When did the error occur?",
-          "isNew": false
-        },
-        {
-          "text": "маршрутизатор, роутер",
-          "translation": "router",
-          "usage": "Как использовать маршрутизатор, чтобы ограничить скорость сети?",
-          "usageTranslation": "How can a router be used to limit network speed?",
-          "isNew": false
-        },
-        {
-          "text": "интерфейс",
-          "translation": "interface",
-          "usage": "Интерфейс очень интуитивно понятен.",
-          "usageTranslation": "The interface is very intuitive.",
-          "isNew": false
-        },
-        {
-          "text": "облачные сервисы",
-          "translation": "cloud services",
-          "usage": "Какие облачные сервисы они предоставляет?",
-          "usageTranslation": "What cloud services do they offer?",
-          "isNew": false
-        },
-        {
-          "text": "функция",
-          "translation": "function",
-          "usage": "Насколько я знаю, такой функции нет.",
-          "usageTranslation": "As far as I know, there is no such function.",
-          "isNew": false
-        },
-        {
-          "text": "отметить как прочитанное",
-          "translation": "mark as read",
-          "usage": "Отметить сообщение, как прочитанное.",
-          "usageTranslation": "Mark a message as read.",
-          "isNew": false
-        },
-        {
-          "text": "имя пользователя",
-          "translation": "login",
-          "usage": "Какой у тебя логин в Скайпе?",
-          "usageTranslation": "What's your Skype login name?",
-          "isNew": false
-        },
-        {
-          "text": "геймификация",
-          "translation": "gamification",
-          "usage": "Мы применили эти приёмы геймификации к обучению.",
-          "usageTranslation": "So we applied these gamification techniques to learning.",
-          "isNew": false
-        },
-        {
-          "text": "обновлять",
-          "translation": "update",
-          "usage": "Ты часто обновляешь свой сайт?",
-          "usageTranslation": "Do you update your website often?",
-          "isNew": false
-        },
-        {
-          "text": "помогать",
-          "translation": "help",
-          "usage": "Я могу вам помочь?",
-          "usageTranslation": "Can I help you?",
-          "isNew": false
-        },
-        {
-          "text": "жест",
-          "translation": "gesture",
-          "usage": "Управляйте своим Айфоном используя несколько простых жестов - там, свайп и скролл.",
-          "usageTranslation": "Control iPhone using a few simple gestures — tap, swipe and scroll.",
-          "isNew": false
-        }
-      ],
-      "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGG2FCOJpoGilmZ5oOla653hS68ykcAALmFAACmoERSoDtY2SNW5ZkIAQ",
-        "Dev": "CQACAgIAAxkDAAIKOmFCOooQTvvh7kXoPHtxCWF62DceAAJaFQACmoERSh60Ek5beP7LIAQ"
-      }
-    },
-    {
-      "cards": [
-        {
-          "text": "достижение, прорыв",
-          "translation": "breakthrough",
-          "usage": "Это настоящий прорыв.",
-          "usageTranslation": "This is a real breakthrough.",
-          "isNew": true
-        },
-        {
-          "text": "администратор базы данных",
-          "translation": "database administrator",
-          "usage": "Администратор базы данных изучит вопрос о том, как можно внести временные изменения в базу данных.",
-          "usageTranslation": "The database administrator would investigate how to make a temporary change to the database.",
-          "isNew": true
-        },
-        {
-          "text": "искать",
-          "translation": "search",
-          "usage": "Вы можете искать в интернете по ключевому слову или фразе.",
-          "usageTranslation": "You can search the Internet using a keyword or phrase.",
-          "isNew": true
-        },
-        {
-          "text": "печатать",
-          "translation": "print",
-          "usage": "Ты можешь распечатать для меня этот документ?",
-          "usageTranslation": "Can you print this document for me?",
-          "isNew": true
-        },
-        {
-          "text": "удобство использования",
-          "translation": "usability",
-          "usage": "Удобство использования наш приоритет.",
-          "usageTranslation": "Usability is our priority.",
-          "isNew": true
-        },
-        {
-          "text": "полоса прокрутки",
-          "translation": "scroll bar",
-          "usage": "Показывать полосу прокрутки справа от окна сеанса.",
-          "usageTranslation": "Show the scroll bar on the right side of the terminal window.",
-          "isNew": false
-        },
-        {
-          "text": "интернет-провайдер",
-          "translation": "internet service provider (ISP)",
-          "usage": "Провайдер - это компания, которая предоставляет доступ в интернет.",
-          "usageTranslation": "Internet service provider a company that provides access to the Internet",
-          "isNew": false
-        },
-        {
-          "text": "интеллектуальная собственность",
-          "translation": "intellectual property",
-          "usage": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности.",
-          "usageTranslation": "He also indicated that several law schools provided courses on intellectual property issues.",
-          "isNew": false
-        },
-        {
-          "text": "удаленное администрирование",
-          "translation": "remote administration",
-          "usage": "Представлены новые планы удаленного администрирования и услуги для наших клиентов.",
-          "usageTranslation": "New remote administration plans and services for our customers introduced.",
-          "isNew": false
-        },
-        {
-          "text": "защищать",
-          "translation": "protect",
-          "usage": "Я могу тебя защитить.",
-          "usageTranslation": "I can protect you.",
-          "isNew": false
-        },
-        {
-          "text": "маршрутизатор, роутер",
-          "translation": "router",
-          "usage": "Как использовать маршрутизатор, чтобы ограничить скорость сети?",
-          "usageTranslation": "How can a router be used to limit network speed?",
-          "isNew": false
-        },
-        {
-          "text": "интерфейс",
-          "translation": "interface",
-          "usage": "Интерфейс очень интуитивно понятен.",
-          "usageTranslation": "The interface is very intuitive.",
-          "isNew": false
-        },
-        {
-          "text": "облачные сервисы",
-          "translation": "cloud services",
-          "usage": "Какие облачные сервисы они предоставляет?",
-          "usageTranslation": "What cloud services do they offer?",
-          "isNew": false
-        },
-        {
-          "text": "функция",
-          "translation": "function",
-          "usage": "Насколько я знаю, такой функции нет.",
-          "usageTranslation": "As far as I know, there is no such function.",
-          "isNew": false
-        },
-        {
-          "text": "отметить как прочитанное",
-          "translation": "mark as read",
-          "usage": "Отметить сообщение, как прочитанное.",
-          "usageTranslation": "Mark a message as read.",
-          "isNew": false
-        },
-        {
-          "text": "имя пользователя",
-          "translation": "login",
-          "usage": "Какой у тебя логин в Скайпе?",
-          "usageTranslation": "What's your Skype login name?",
-          "isNew": false
-        },
-        {
-          "text": "геймификация",
-          "translation": "gamification",
-          "usage": "Мы применили эти приёмы геймификации к обучению.",
-          "usageTranslation": "So we applied these gamification techniques to learning.",
-          "isNew": false
-        },
-        {
-          "text": "обновлять",
-          "translation": "update",
-          "usage": "Ты часто обновляешь свой сайт?",
-          "usageTranslation": "Do you update your website often?",
-          "isNew": false
-        },
-        {
-          "text": "помогать",
-          "translation": "help",
-          "usage": "Я могу вам помочь?",
-          "usageTranslation": "Can I help you?",
-          "isNew": false
-        },
-        {
-          "text": "жест",
-          "translation": "gesture",
-          "usage": "Управляйте своим Айфоном используя несколько простых жестов - там, свайп и скролл.",
-          "usageTranslation": "Control iPhone using a few simple gestures — tap, swipe and scroll.",
-          "isNew": false
-        },
-        {
-          "text": "развернуть (например релиз на сервер)",
-          "translation": "deploy",
-          "usage": "Ты развернул это на новый сервер?",
-          "usageTranslation": "Did you deploy it to the new server?",
-          "isNew": false
-        },
-        {
-          "text": "неожиданный",
-          "translation": "unexpected",
-          "usage": "Какой неожиданный сюрприз.",
-          "usageTranslation": "This is an unexpected surprise.",
-          "isNew": false
-        },
-        {
-          "text": "конфиденциальный",
-          "translation": "confidential",
-          "usage": "Это конфиденциальная информация.",
-          "usageTranslation": "This information is confidential.",
-          "isNew": false
-        },
-        {
-          "text": "предназначенный только для чтения",
-          "translation": "read only",
-          "usage": "Эти файлы только для чтения.",
-          "usageTranslation": "These files are read only.",
-          "isNew": false
-        },
-        {
-          "text": "исключение, ошибка",
-          "translation": "exception",
-          "usage": "Произошла неожиданная ошибка.",
-          "usageTranslation": "Unexpected exception has occured.",
-          "isNew": false
-        }
-      ],
-      "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGHGFCOJ6SdRASEEELp38XMtQicV_5AALnFAACmoERSql7WsfwhyF2IAQ",
-        "Dev": "CQACAgIAAxkDAAIKO2FCOo_w6XtNFvWN-npbGI4rOulbAAJbFQACmoERSmLZ4fKI_8AyIAQ"
-      }
-    },
-    {
-      "cards": [
-        {
-          "text": "загрузжать файл с компьютера на сайт",
-          "translation": "upload",
-          "usage": "Как нам загрузить фотографии на ваш сайт?",
-          "usageTranslation": "How do we upload photos to your website?",
-          "isNew": true
-        },
-        {
-          "text": "архивировать",
-          "translation": "archive",
-          "usage": "Документы физически хранятся в архивных файлах формата ZIP.",
-          "usageTranslation": "The documents are physically stored in archive ZIP files.",
-          "isNew": true
-        },
-        {
-          "text": "клавиша пробела",
-          "translation": "space bar",
-          "usage": "Когда будешь готова, просто нажми на пробел.",
-          "usageTranslation": "When you're ready to go, just press the space bar.",
-          "isNew": true
-        },
-        {
-          "text": "база данных",
-          "translation": "database",
-          "usage": "PostgreSQL — популярная реляционная база данных.",
-          "usageTranslation": "PostgreSQL is a popular relational database.",
-          "isNew": true
-        },
-        {
-          "text": "скачать",
-          "translation": "download",
-          "usage": "Скачивание завершено.",
-          "usageTranslation": "The download is complete.",
           "isNew": true
         },
         {
@@ -1006,6 +640,372 @@
           "isNew": false
         },
         {
+          "text": "маршрутизатор, роутер",
+          "translation": "router",
+          "usage": "Как использовать маршрутизатор, чтобы ограничить скорость сети?",
+          "usageTranslation": "How can a router be used to limit network speed?",
+          "isNew": false
+        },
+        {
+          "text": "интерфейс",
+          "translation": "interface",
+          "usage": "Интерфейс очень интуитивно понятен.",
+          "usageTranslation": "The interface is very intuitive.",
+          "isNew": false
+        },
+        {
+          "text": "облачные сервисы",
+          "translation": "cloud services",
+          "usage": "Какие облачные сервисы они предоставляет?",
+          "usageTranslation": "What cloud services do they offer?",
+          "isNew": false
+        },
+        {
+          "text": "функция",
+          "translation": "function",
+          "usage": "Насколько я знаю, такой функции нет.",
+          "usageTranslation": "As far as I know, there is no such function.",
+          "isNew": false
+        },
+        {
+          "text": "отметить как прочитанное",
+          "translation": "mark as read",
+          "usage": "Отметить сообщение, как прочитанное.",
+          "usageTranslation": "Mark a message as read.",
+          "isNew": false
+        },
+        {
+          "text": "имя пользователя",
+          "translation": "login",
+          "usage": "Какой у тебя логин в Скайпе?",
+          "usageTranslation": "What's your Skype login name?",
+          "isNew": false
+        },
+        {
+          "text": "геймификация",
+          "translation": "gamification",
+          "usage": "Мы применили эти приёмы геймификации к обучению.",
+          "usageTranslation": "So we applied these gamification techniques to learning.",
+          "isNew": false
+        },
+        {
+          "text": "обновлять",
+          "translation": "update",
+          "usage": "Ты часто обновляешь свой сайт?",
+          "usageTranslation": "Do you update your website often?",
+          "isNew": false
+        },
+        {
+          "text": "помогать",
+          "translation": "help",
+          "usage": "Я могу вам помочь?",
+          "usageTranslation": "Can I help you?",
+          "isNew": false
+        },
+        {
+          "text": "жест",
+          "translation": "gesture",
+          "usage": "Управляйте своим Айфоном используя несколько простых жестов - там, свайп и скролл.",
+          "usageTranslation": "Control iPhone using a few simple gestures — tap, swipe and scroll.",
+          "isNew": false
+        }
+      ],
+      "fileIds": {
+        "Prod": "CQACAgIAAxkDAAIWOmFgciWuVH-gX5-fWiHu4zyb48Z3AAJvEwAC8nMJS1yenC8FpLilIQQ",
+        "Dev": "CQACAgIAAxkDAAILUWFgdDKId55DXnbhZgb016pGbDgAA-oTAALycwlLEilf2NtBI4whBA"
+      }
+    },
+    {
+      "cards": [
+        {
+          "text": "достижение, прорыв",
+          "translation": "breakthrough",
+          "usage": "Это настоящий прорыв.",
+          "usageTranslation": "This is a real breakthrough.",
+          "isNew": true
+        },
+        {
+          "text": "администратор базы данных",
+          "translation": "database administrator",
+          "usage": "Администратор базы данных изучит вопрос о том, как можно внести временные изменения в базу данных.",
+          "usageTranslation": "The database administrator would investigate how to make a temporary change to the database.",
+          "isNew": true
+        },
+        {
+          "text": "искать",
+          "translation": "search",
+          "usage": "Вы можете искать в интернете по ключевому слову или фразе.",
+          "usageTranslation": "You can search the Internet using a keyword or phrase.",
+          "isNew": true
+        },
+        {
+          "text": "печатать",
+          "translation": "print",
+          "usage": "Ты можешь распечатать для меня этот документ?",
+          "usageTranslation": "Can you print this document for me?",
+          "isNew": true
+        },
+        {
+          "text": "удобство использования",
+          "translation": "usability",
+          "usage": "Удобство использования наш приоритет.",
+          "usageTranslation": "Usability is our priority.",
+          "isNew": true
+        },
+        {
+          "text": "полоса прокрутки",
+          "translation": "scroll bar",
+          "usage": "Показывать полосу прокрутки справа от окна.",
+          "usageTranslation": "Show the scroll bar on the right side of the window.",
+          "isNew": false
+        },
+        {
+          "text": "интернет-провайдер",
+          "translation": "internet service provider (ISP)",
+          "usage": "Провайдер предоставляет доступ в интернет.",
+          "usageTranslation": "Internet service provider provides access to the Internet",
+          "isNew": false
+        },
+        {
+          "text": "интеллектуальная собственность",
+          "translation": "intellectual property",
+          "usage": "У них проблемы с интеллектуальной собственностью.",
+          "usageTranslation": "They have intellectual property issues.",
+          "isNew": false
+        },
+        {
+          "text": "удаленное администрирование",
+          "translation": "remote administration",
+          "usage": "Представлены новые планы удаленного администрирования.",
+          "usageTranslation": "New remote administration plans introduced.",
+          "isNew": false
+        },
+        {
+          "text": "защищать",
+          "translation": "protect",
+          "usage": "Я могу тебя защитить.",
+          "usageTranslation": "I can protect you.",
+          "isNew": false
+        },
+        {
+          "text": "маршрутизатор, роутер",
+          "translation": "router",
+          "usage": "Как использовать маршрутизатор, чтобы ограничить скорость сети?",
+          "usageTranslation": "How can a router be used to limit network speed?",
+          "isNew": false
+        },
+        {
+          "text": "интерфейс",
+          "translation": "interface",
+          "usage": "Интерфейс очень интуитивно понятен.",
+          "usageTranslation": "The interface is very intuitive.",
+          "isNew": false
+        },
+        {
+          "text": "облачные сервисы",
+          "translation": "cloud services",
+          "usage": "Какие облачные сервисы они предоставляет?",
+          "usageTranslation": "What cloud services do they offer?",
+          "isNew": false
+        },
+        {
+          "text": "функция",
+          "translation": "function",
+          "usage": "Насколько я знаю, такой функции нет.",
+          "usageTranslation": "As far as I know, there is no such function.",
+          "isNew": false
+        },
+        {
+          "text": "отметить как прочитанное",
+          "translation": "mark as read",
+          "usage": "Отметить сообщение, как прочитанное.",
+          "usageTranslation": "Mark a message as read.",
+          "isNew": false
+        },
+        {
+          "text": "имя пользователя",
+          "translation": "login",
+          "usage": "Какой у тебя логин в Скайпе?",
+          "usageTranslation": "What's your Skype login name?",
+          "isNew": false
+        },
+        {
+          "text": "геймификация",
+          "translation": "gamification",
+          "usage": "Мы применили эти приёмы геймификации к обучению.",
+          "usageTranslation": "So we applied these gamification techniques to learning.",
+          "isNew": false
+        },
+        {
+          "text": "обновлять",
+          "translation": "update",
+          "usage": "Ты часто обновляешь свой сайт?",
+          "usageTranslation": "Do you update your website often?",
+          "isNew": false
+        },
+        {
+          "text": "помогать",
+          "translation": "help",
+          "usage": "Я могу вам помочь?",
+          "usageTranslation": "Can I help you?",
+          "isNew": false
+        },
+        {
+          "text": "жест",
+          "translation": "gesture",
+          "usage": "Управляйте своим Айфоном используя несколько простых жестов - там, свайп и скролл.",
+          "usageTranslation": "Control iPhone using a few simple gestures — tap, swipe and scroll.",
+          "isNew": false
+        },
+        {
+          "text": "развернуть (например релиз на сервер)",
+          "translation": "deploy",
+          "usage": "Ты развернул это на новый сервер?",
+          "usageTranslation": "Did you deploy it to the new server?",
+          "isNew": false
+        },
+        {
+          "text": "неожиданный",
+          "translation": "unexpected",
+          "usage": "Какой неожиданный сюрприз.",
+          "usageTranslation": "This is an unexpected surprise.",
+          "isNew": false
+        },
+        {
+          "text": "конфиденциальный",
+          "translation": "confidential",
+          "usage": "Это конфиденциальная информация.",
+          "usageTranslation": "This information is confidential.",
+          "isNew": false
+        },
+        {
+          "text": "предназначенный только для чтения",
+          "translation": "read only",
+          "usage": "Эти файлы только для чтения.",
+          "usageTranslation": "These files are read only.",
+          "isNew": false
+        },
+        {
+          "text": "исключение, ошибка",
+          "translation": "exception",
+          "usage": "Произошла неожиданная ошибка.",
+          "usageTranslation": "Unexpected exception has occured.",
+          "isNew": false
+        }
+      ],
+      "fileIds": {
+        "Prod": "CQACAgIAAxkDAAIWO2Fgcik7hmAxPneATiPlAkqaghR6AAJwEwAC8nMJS2yFCH_EpDSMIQQ",
+        "Dev": "CQACAgIAAxkDAAILUmFgdDc2vjMogRRYtLHG6tIPJ-GHAALrEwAC8nMJS5SC9dtTDizlIQQ"
+      }
+    },
+    {
+      "cards": [
+        {
+          "text": "загрузжать файл с компьютера на сайт",
+          "translation": "upload",
+          "usage": "Как нам загрузить фотографии на ваш сайт?",
+          "usageTranslation": "How do we upload photos to your website?",
+          "isNew": true
+        },
+        {
+          "text": "архивировать",
+          "translation": "archive",
+          "usage": "Документы физически хранятся в архивных файлах формата ZIP.",
+          "usageTranslation": "The documents are physically stored in archive ZIP files.",
+          "isNew": true
+        },
+        {
+          "text": "клавиша пробела",
+          "translation": "space bar",
+          "usage": "Когда будешь готова, просто нажми на пробел.",
+          "usageTranslation": "When you're ready to go, just press the space bar.",
+          "isNew": true
+        },
+        {
+          "text": "база данных",
+          "translation": "database",
+          "usage": "PostgreSQL — популярная реляционная база данных.",
+          "usageTranslation": "PostgreSQL is a popular relational database.",
+          "isNew": true
+        },
+        {
+          "text": "скачать",
+          "translation": "download",
+          "usage": "Скачивание завершено.",
+          "usageTranslation": "The download is complete.",
+          "isNew": true
+        },
+        {
+          "text": "вкладка",
+          "translation": "tab",
+          "usage": "Закрой вкладку.",
+          "usageTranslation": "Close the tab.",
+          "isNew": false
+        },
+        {
+          "text": "буфер",
+          "translation": "buffer",
+          "usage": "Буфер обмена - это буфер, который некоторые операционные системы предоставляют для краткосрочного хранения информации.",
+          "usageTranslation": "The clipboard is a buffer that some operating systems provide for short-term storage.",
+          "isNew": false
+        },
+        {
+          "text": "запуск, загрузка",
+          "translation": "boot",
+          "usage": "Если попробовать загрузить компьютер без этого диска, все сгорит.",
+          "usageTranslation": "If anyone tries to boot the computer up without this disk, the whole thing fries.",
+          "isNew": false
+        },
+        {
+          "text": "программное обеспечение",
+          "translation": "software",
+          "usage": "Обновите ваше программное обеспечение.",
+          "usageTranslation": "Update your software.",
+          "isNew": false
+        },
+        {
+          "text": "пересылать",
+          "translation": "forward",
+          "usage": "Как переслать письмо?",
+          "usageTranslation": "How to forward a message?",
+          "isNew": false
+        },
+        {
+          "text": "ответ",
+          "translation": "reply",
+          "usage": "Ты получил от них ответ?",
+          "usageTranslation": "Did you get a reply from them?",
+          "isNew": false
+        },
+        {
+          "text": "гибкая разработка программного обеспечения",
+          "translation": "agile software development",
+          "usage": "Скрам - это методология гибкой разработки программного обеспечения.",
+          "usageTranslation": "Scrum is an agile development methodology",
+          "isNew": false
+        },
+        {
+          "text": "устанавливать",
+          "translation": "install",
+          "usage": "Скачай и установи приложение.",
+          "usageTranslation": "Download and install the application.",
+          "isNew": false
+        },
+        {
+          "text": "запрос",
+          "translation": "query",
+          "usage": "Язык структурированных запросов.",
+          "usageTranslation": "Structured Query Language.",
+          "isNew": false
+        },
+        {
+          "text": "ошибка",
+          "translation": "error",
+          "usage": "При каких обстоятельствах возникла неисправность?",
+          "usageTranslation": "When did the error occur?",
+          "isNew": false
+        },
+        {
           "text": "имя пользователя",
           "translation": "login",
           "usage": "Какой у тебя логин в Скайпе?",
@@ -1112,8 +1112,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGHWFCOKEcG7RH0IqRoWQlSeA6xC9SAALoFAACmoERSlUCoTFH3FbwIAQ",
-        "Dev": "CQACAgIAAxkDAAIKPGFCOpKJAwuxiSPdJbpwN6tMeE0eAAJcFQACmoERSpL8xU7vu3DdIAQ"
+        "Prod": "CQACAgIAAxkDAAIWPGFgciwSw2hxq9urGbynZFyy4syUAAJxEwAC8nMJSwcSz4M0oOLKIQQ",
+        "Dev": "CQACAgIAAxkDAAILU2FgdDpNc6WaAAFow0BbZuyE2S-jswAC7BMAAvJzCUsCkB_XXORwJiEE"
       }
     },
     {
@@ -1156,29 +1156,29 @@
         {
           "text": "полоса прокрутки",
           "translation": "scroll bar",
-          "usage": "Показывать полосу прокрутки справа от окна сеанса.",
-          "usageTranslation": "Show the scroll bar on the right side of the terminal window.",
+          "usage": "Показывать полосу прокрутки справа от окна.",
+          "usageTranslation": "Show the scroll bar on the right side of the window.",
           "isNew": false
         },
         {
           "text": "интернет-провайдер",
           "translation": "internet service provider (ISP)",
-          "usage": "Провайдер - это компания, которая предоставляет доступ в интернет.",
-          "usageTranslation": "Internet service provider a company that provides access to the Internet",
+          "usage": "Провайдер предоставляет доступ в интернет.",
+          "usageTranslation": "Internet service provider provides access to the Internet",
           "isNew": false
         },
         {
           "text": "интеллектуальная собственность",
           "translation": "intellectual property",
-          "usage": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности.",
-          "usageTranslation": "He also indicated that several law schools provided courses on intellectual property issues.",
+          "usage": "У них проблемы с интеллектуальной собственностью.",
+          "usageTranslation": "They have intellectual property issues.",
           "isNew": false
         },
         {
           "text": "удаленное администрирование",
           "translation": "remote administration",
-          "usage": "Представлены новые планы удаленного администрирования и услуги для наших клиентов.",
-          "usageTranslation": "New remote administration plans and services for our customers introduced.",
+          "usage": "Представлены новые планы удаленного администрирования.",
+          "usageTranslation": "New remote administration plans introduced.",
           "isNew": false
         },
         {
@@ -1330,8 +1330,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGHmFCOKPx1an5DCgv5XxEoEop4IAGAALpFAACmoERSoH0RpbHTEGJIAQ",
-        "Dev": "CQACAgIAAxkDAAIKPWFCOpeyFtUji0Sdhrf-TdwDsSJjAAJdFQACmoERSqEMlQL3VnxNIAQ"
+        "Prod": "CQACAgIAAxkDAAIWPWFgci7uFllBVhPVFFvruyhXkE8aAAJyEwAC8nMJS1HCY7XC263wIQQ",
+        "Dev": "CQACAgIAAxkDAAILVGFgdD3-Vnd6ltxyKTTvFulZmmCyAALtEwAC8nMJS1lmHycVQHjqIQQ"
       }
     },
     {
@@ -1548,8 +1548,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGH2FCOKexSzJsFZ_5kFRR1xVDuLx9AALqFAACmoERStf_3H2VMdc4IAQ",
-        "Dev": "CQACAgIAAxkDAAIKPmFCOpl8f17Fp52GpD1Sl8i7As1aAAJeFQACmoERSij-EvRdp5J0IAQ"
+        "Prod": "CQACAgIAAxkDAAIWPmFgcjEvnKWrlRLWwYk7pzbDOeEZAAJzEwAC8nMJSy0003D5EnHqIQQ",
+        "Dev": "CQACAgIAAxkDAAILVWFgdEAqlZKj9gRlzBMh8ye7S3tnAALuEwAC8nMJSyVTCYg-iu_8IQQ"
       }
     },
     {
@@ -1801,8 +1801,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGIGFCOKv1jMO4iDO3GWdjv1zdQ5x9AALrFAACmoERSq9rsColfkf1IAQ",
-        "Dev": "CQACAgIAAxkDAAIKP2FCOpwyaQZG3pr4tBOXpDIScD2vAAJgFQACmoERSu8SePG6k6pbIAQ"
+        "Prod": "CQACAgIAAxkDAAIWP2FgcjZc859y1_ooNGblcnb-L7tAAAJ0EwAC8nMJS0V6QiujyV18IQQ",
+        "Dev": "CQACAgIAAxkDAAILVmFgdEQt0JxSIiMSJJFmUkHa8H6xAALvEwAC8nMJS5YElnaepZPGIQQ"
       }
     },
     {
@@ -1845,29 +1845,29 @@
         {
           "text": "полоса прокрутки",
           "translation": "scroll bar",
-          "usage": "Показывать полосу прокрутки справа от окна сеанса.",
-          "usageTranslation": "Show the scroll bar on the right side of the terminal window.",
+          "usage": "Показывать полосу прокрутки справа от окна.",
+          "usageTranslation": "Show the scroll bar on the right side of the window.",
           "isNew": false
         },
         {
           "text": "интернет-провайдер",
           "translation": "internet service provider (ISP)",
-          "usage": "Провайдер - это компания, которая предоставляет доступ в интернет.",
-          "usageTranslation": "Internet service provider a company that provides access to the Internet",
+          "usage": "Провайдер предоставляет доступ в интернет.",
+          "usageTranslation": "Internet service provider provides access to the Internet",
           "isNew": false
         },
         {
           "text": "интеллектуальная собственность",
           "translation": "intellectual property",
-          "usage": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности.",
-          "usageTranslation": "He also indicated that several law schools provided courses on intellectual property issues.",
+          "usage": "У них проблемы с интеллектуальной собственностью.",
+          "usageTranslation": "They have intellectual property issues.",
           "isNew": false
         },
         {
           "text": "удаленное администрирование",
           "translation": "remote administration",
-          "usage": "Представлены новые планы удаленного администрирования и услуги для наших клиентов.",
-          "usageTranslation": "New remote administration plans and services for our customers introduced.",
+          "usage": "Представлены новые планы удаленного администрирования.",
+          "usageTranslation": "New remote administration plans introduced.",
           "isNew": false
         },
         {
@@ -2054,8 +2054,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGIWFCOLBt6EOegNuMhpopzrkrYgs2AALsFAACmoERSvENskCdks6xIAQ",
-        "Dev": "CQACAgIAAxkDAAIKQGFCOp6vc1bdUURGiaCyRxCKfweeAAJhFQACmoERSlJbw_ocnzGoIAQ"
+        "Prod": "CQACAgIAAxkDAAIWQGFgcjpalhtzZ5yPVJpHH7f4L49fAAJ1EwAC8nMJS08CrOMwHQ7YIQQ",
+        "Dev": "CQACAgIAAxkDAAILV2FgdEitiw3jiMy5SRJsxgsle9NWAALwEwAC8nMJSxVhXOM-zlDIIQQ"
       }
     },
     {
@@ -2307,8 +2307,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGImFCOLTfSMcBydH73hrd7xOO9DXgAALtFAACmoERSjLQhiOIs3O0IAQ",
-        "Dev": "CQACAgIAAxkDAAIKQWFCOqFu7nPkNgYhkQ0jyUWHsEXjAAJiFQACmoERShjVfjz4yfPQIAQ"
+        "Prod": "CQACAgIAAxkDAAIWQWFgcjywp2JB47lPKJTCN8sq7BOCAAJ2EwAC8nMJSwu0O8PSsfDDIQQ",
+        "Dev": "CQACAgIAAxkDAAILWGFgdEwvgs5RcYhh29wV0EkOYUd1AALxEwAC8nMJS-FdMoxhKZDQIQQ"
       }
     },
     {
@@ -2595,8 +2595,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGI2FCOLhGHkA2-LltRYXt3LxC1nxdAALuFAACmoERSqmXHTg00jp6IAQ",
-        "Dev": "CQACAgIAAxkDAAIKQmFCOqS5LCljMjtn4qjyLRHVZXB8AAJkFQACmoERSrZPPCLulpoZIAQ"
+        "Prod": "CQACAgIAAxkDAAIWQmFgckCGV_SA2kQvKrqhZ4-7lRJ4AAJ3EwAC8nMJSxqNXzpNnXsCIQQ",
+        "Dev": "CQACAgIAAxkDAAILWWFgdE8cnI3Zmg0t98QxENrFsjWkAALyEwAC8nMJSzoq0aud91abIQQ"
       }
     },
     {
@@ -2639,29 +2639,29 @@
         {
           "text": "полоса прокрутки",
           "translation": "scroll bar",
-          "usage": "Показывать полосу прокрутки справа от окна сеанса.",
-          "usageTranslation": "Show the scroll bar on the right side of the terminal window.",
+          "usage": "Показывать полосу прокрутки справа от окна.",
+          "usageTranslation": "Show the scroll bar on the right side of the window.",
           "isNew": false
         },
         {
           "text": "интернет-провайдер",
           "translation": "internet service provider (ISP)",
-          "usage": "Провайдер - это компания, которая предоставляет доступ в интернет.",
-          "usageTranslation": "Internet service provider a company that provides access to the Internet",
+          "usage": "Провайдер предоставляет доступ в интернет.",
+          "usageTranslation": "Internet service provider provides access to the Internet",
           "isNew": false
         },
         {
           "text": "интеллектуальная собственность",
           "translation": "intellectual property",
-          "usage": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности.",
-          "usageTranslation": "He also indicated that several law schools provided courses on intellectual property issues.",
+          "usage": "У них проблемы с интеллектуальной собственностью.",
+          "usageTranslation": "They have intellectual property issues.",
           "isNew": false
         },
         {
           "text": "удаленное администрирование",
           "translation": "remote administration",
-          "usage": "Представлены новые планы удаленного администрирования и услуги для наших клиентов.",
-          "usageTranslation": "New remote administration plans and services for our customers introduced.",
+          "usage": "Представлены новые планы удаленного администрирования.",
+          "usageTranslation": "New remote administration plans introduced.",
           "isNew": false
         },
         {
@@ -2883,8 +2883,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGJGFCOLwnkHmOR-glrrmW8Qsjnvt9AALvFAACmoERSrwhjJtPBFqsIAQ",
-        "Dev": "CQACAgIAAxkDAAIKQ2FCOqmdvQxXn0GLZA1YzlNh5E5YAAJlFQACmoERSnBlYdxUExSdIAQ"
+        "Prod": "CQACAgIAAxkDAAIWQ2FgckUQGcDZuXCy3F2LncFN_HIXAAJ4EwAC8nMJSz5ASgft7kHxIQQ",
+        "Dev": "CQACAgIAAxkDAAILWmFgdFMeleytzP-1rZcUoYGQKGvrAALzEwAC8nMJS-reeNyizqB6IQQ"
       }
     },
     {
@@ -3171,8 +3171,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGJWFCOMDtm-c5WirhA8VGAAEHJKFHiQAC8BQAApqBEUrHSHRnAn42IiAE",
-        "Dev": "CQACAgIAAxkDAAIKRGFCOq0R1qw4Oe3xEkRwL9Co1g1AAAJmFQACmoERSl12ZqjNd-2vIAQ"
+        "Prod": "CQACAgIAAxkDAAIWRGFgckpIKq-JyMIafRlsVTNZ-SGrAAJ5EwAC8nMJS0E0p9v94gVJIQQ",
+        "Dev": "CQACAgIAAxkDAAILW2FgdFhGhSMaGyS5wjeDzLfgfirjAAL1EwAC8nMJSwxzfY-LVeYAASEE"
       }
     },
     {
@@ -3459,8 +3459,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGJmFCOMVUPcC3eo_XgGkE9Avn6aA9AALxFAACmoERSi_6t0It_sDnIAQ",
-        "Dev": "CQACAgIAAxkDAAIKRWFCOrB-kKFl1mF1IUK_Z_V-U2MlAAJnFQACmoERSjedHzBI6I9YIAQ"
+        "Prod": "CQACAgIAAxkDAAIWRWFgck-DFk1npBIrU0kJRi--_N00AAJ6EwAC8nMJS7P5D12w17H6IQQ",
+        "Dev": "CQACAgIAAxkDAAILXGFgdFqe2DY5P4LpcS_cBV6P_eaFAAL2EwAC8nMJS9UAAbj9J9r9QCEE"
       }
     },
     {
@@ -3747,8 +3747,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGJ2FCOMn9g75LKsAQ4rWRl9JKBJ8JAALyFAACmoERSo_cmcsxfwbsIAQ",
-        "Dev": "CQACAgIAAxkDAAIKRmFCOrUAAduog5r1ZLANHvorGfs-RwACaBUAApqBEUrIgGbldASmQiAE"
+        "Prod": "CQACAgIAAxkDAAIWRmFgclG3YV1XKHs4yGWOhH1Ks1BsAAJ7EwAC8nMJS5j5at_19d1mIQQ",
+        "Dev": "CQACAgIAAxkDAAILXWFgdF3ou7vCsAdAWMVnGPtvLtEDAAL3EwAC8nMJS0bSWNEYrrSpIQQ"
       }
     },
     {
@@ -4035,8 +4035,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGKGFCOMwULPLmVyYB9px9pNR66A_kAALzFAACmoERSvGJB3h5rYEEIAQ",
-        "Dev": "CQACAgIAAxkDAAIKR2FCOrj3r-1SZA7GG_7KPRAVMI3AAAJpFQACmoERSoO1GkI4DC-nIAQ"
+        "Prod": "CQACAgIAAxkDAAIWR2FgclXg82_21G-EY9GaucEaqB3AAAJ8EwAC8nMJS_cGkPVZ1MWdIQQ",
+        "Dev": "CQACAgIAAxkDAAILXmFgdGCEdLYxhksqO0NU9jeYEISIAAL5EwAC8nMJS3AkuU9lLwspIQQ"
       }
     },
     {
@@ -4323,8 +4323,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGKWFCOM_ih3IsAjLuJifHGR8m0lKHAAL0FAACmoERSv1eSmonFfqlIAQ",
-        "Dev": "CQACAgIAAxkDAAIKSGFCOr2bCEde4Nmb_XaTZ8N6pUO5AAJqFQACmoERSlv34aLLRs9cIAQ"
+        "Prod": "CQACAgIAAxkDAAIWSGFgclqWCGDgLdD5W5Hv8JLtRF0yAAJ9EwAC8nMJS4UVcNT_CrVrIQQ",
+        "Dev": "CQACAgIAAxkDAAILX2FgdGLCNiFMKhHla8UbZzhd7EEaAAL6EwAC8nMJS2iK0cmPtIECIQQ"
       }
     },
     {
@@ -4611,8 +4611,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGKmFCONXbAoz7kwABgR_RcSpa7dtafwAC9RQAApqBEUqBBx5V5vvfvCAE",
-        "Dev": "CQACAgIAAxkDAAIKSWFCOsCDolL1OFoxnawUDUKToGbXAAJrFQACmoERSmJX3eh7dKHNIAQ"
+        "Prod": "CQACAgIAAxkDAAIWSWFgcl2_by3GLuFgf3z0tBNRXPOWAAJ-EwAC8nMJS-stGqB92mUtIQQ",
+        "Dev": "CQACAgIAAxkDAAILYGFgdGamHv62J1VJzEMVPKLH9UVRAAL7EwAC8nMJS1Bc4jmp1T0DIQQ"
       }
     },
     {
@@ -4899,8 +4899,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGK2FCONmJrhsGZfvncWjU2jtZ39kuAAL2FAACmoERSi8IlUZR-2qgIAQ",
-        "Dev": "CQACAgIAAxkDAAIKSmFCOsNfTN1CteijmPEeOsVqNkWGAAJsFQACmoERSmz1Cyj-rXQXIAQ"
+        "Prod": "CQACAgIAAxkDAAIWSmFgcmDG4BIXyZn0IIucdSjEKjukAAJ_EwAC8nMJS70rEWT_WhS2IQQ",
+        "Dev": "CQACAgIAAxkDAAILYWFgdGsypvwQd8aTOnvuAsDmLoRmAAL8EwAC8nMJS2aHAsBJAtxhIQQ"
       }
     },
     {
@@ -5187,8 +5187,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGLGFCON0NuwzcAeG7QMWn5Z_eiPuXAAL3FAACmoERStH_DTudNVFbIAQ",
-        "Dev": "CQACAgIAAxkDAAIKS2FCOsfs78brHfOkJ1F687oaMNKvAAJtFQACmoERSprQEPKELEMGIAQ"
+        "Prod": "CQACAgIAAxkDAAIWS2FgcmR4dUOyBvuQsun3jrv2vj8jAAKAEwAC8nMJSy8B5SSziDpCIQQ",
+        "Dev": "CQACAgIAAxkDAAILYmFgdG8mnfrdw6EgkS7qXGVZLiZ5AAL9EwAC8nMJS1Jd-f3CVVbxIQQ"
       }
     },
     {
@@ -5475,8 +5475,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGLWFCOOEY2eVKGaMEFgHOZoDJbMK3AAL4FAACmoERShp1j4IG-QABTyAE",
-        "Dev": "CQACAgIAAxkDAAIKTGFCOslGeK2rhQy39-an0bZT_65fAAJuFQACmoERSmYv4TUF2IwiIAQ"
+        "Prod": "CQACAgIAAxkDAAIWTGFgcmd7Qapz0e5BEZ7Ccdqw2JkwAAKBEwAC8nMJSzTTeXbm9oKDIQQ",
+        "Dev": "CQACAgIAAxkDAAILY2FgdHPhIxw98uxcPjOEZYJ4JWiOAAL-EwAC8nMJS-9Ul-D1kfbiIQQ"
       }
     },
     {
@@ -5763,8 +5763,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGLmFCOOXXAhQsVN3qIhsBgePeR3xiAAL5FAACmoERSpSHTaFXY01EIAQ",
-        "Dev": "CQACAgIAAxkDAAIKTWFCOs5hMHJi6Fru-tZKtA7okcX0AAJvFQACmoERSoylbpML9IjgIAQ"
+        "Prod": "CQACAgIAAxkDAAIWTWFgcmpmW97DupHB1sOpzQlmn4R0AAKCEwAC8nMJS15AK98fNBq5IQQ",
+        "Dev": "CQACAgIAAxkDAAILZGFgdHjbvRZqtjX-RjO3ZL_Li04UAAIBFAAC8nMJS2UFQGNZCh6nIQQ"
       }
     },
     {
@@ -6051,8 +6051,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGL2FCOOkEpCBm6a8WoESxgOMOhiKGAAL6FAACmoERSuwE3RSIAqwTIAQ",
-        "Dev": "CQACAgIAAxkDAAIKTmFCOtEKvEcH4b9tg5WaDfiZ0SIQAAJwFQACmoERSozoE4fyAcWgIAQ"
+        "Prod": "CQACAgIAAxkDAAIWTmFgcm9PUlAapLfruNxFSV2BBGMHAAKDEwAC8nMJSyleUl8d56y2IQQ",
+        "Dev": "CQACAgIAAxkDAAILZWFgdH1I_Yis4bxo1e89wVu4r4AvAAICFAAC8nMJS7LmYKRqMVl6IQQ"
       }
     },
     {
@@ -6339,8 +6339,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGMGFCOO0C_PFVKlzMj4tGCVntPJMYAAL7FAACmoERSs0D7fsCNLIdIAQ",
-        "Dev": "CQACAgIAAxkDAAIKT2FCOtZAss2pgwrdVN_k-iLuUnilAAJxFQACmoERSinSfB7k4yQ_IAQ"
+        "Prod": "CQACAgIAAxkDAAIWT2FgcnLfarLu5qpKHSJxMFqNosk0AAKEEwAC8nMJS9mfLkhA7AwMIQQ",
+        "Dev": "CQACAgIAAxkDAAILZmFgdIEXHXB8KPnPPlUiJMyN8WuQAAIDFAAC8nMJS7hJ8O1ag-n3IQQ"
       }
     },
     {
@@ -6627,8 +6627,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGMWFCOPCubhjEhsg0OeECa2VCh4_gAAL8FAACmoERSj7X8wU6kZirIAQ",
-        "Dev": "CQACAgIAAxkDAAIKUGFCOtv2Il8LGeM6F6Bja384Z0M9AAJyFQACmoERSgUvuM6oU52qIAQ"
+        "Prod": "CQACAgIAAxkDAAIWUGFgcnSTOzVMBE_YacWnI4A461wnAAKFEwAC8nMJS4JVi6s46RARIQQ",
+        "Dev": "CQACAgIAAxkDAAILZ2FgdIR0SM2dUL0LBgVhdItH-QcrAAIEFAAC8nMJS8tpfQirmdzmIQQ"
       }
     },
     {
@@ -6915,8 +6915,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGMmFCOPMxyocpzNzgHZB4PLhTVmRWAAL9FAACmoERSoVQ9Ip_J7fEIAQ",
-        "Dev": "CQACAgIAAxkDAAIKUWFCOt7BRdOMJ9iM4tsYLXW_dd5FAAJzFQACmoERShyh9YSqBAYiIAQ"
+        "Prod": "CQACAgIAAxkDAAIWUWFgcnjgxjH55O7iNpXV3Od7KyXsAAKGEwAC8nMJS8LWG2umLakMIQQ",
+        "Dev": "CQACAgIAAxkDAAILaGFgdIc58IIucA-iK186npoqdtS7AAIFFAAC8nMJS1KSWmFy0qjCIQQ"
       }
     },
     {
@@ -7203,8 +7203,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGM2FCOPamGgYHgxwRGvJAWmPMEhF3AAL-FAACmoERSi16-3dBHr_LIAQ",
-        "Dev": "CQACAgIAAxkDAAIKUmFCOuDA1s3f9lgUisqP96YGD50LAAJ0FQACmoERSjuCE0-WxoTuIAQ"
+        "Prod": "CQACAgIAAxkDAAIWUmFgcn2EZxsBwitAgsww8c6Xfs_lAAKHEwAC8nMJS8hxA1HLVllEIQQ",
+        "Dev": "CQACAgIAAxkDAAILaWFgdIuVkY5taM_6f4aWUk30w60dAAIGFAAC8nMJS9Kl6fvmCtJ3IQQ"
       }
     },
     {
@@ -7491,8 +7491,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGNGFCOPof-hThvM9G261YyHwznlyuAAL_FAACmoERShVEzANm4hF-IAQ",
-        "Dev": "CQACAgIAAxkDAAIKU2FCOuPaDS2ZdMbiK2dUT-O8JuYJAAJ1FQACmoERSs1i0vm4_RDhIAQ"
+        "Prod": "CQACAgIAAxkDAAIWU2FgcoAjqRcQkHgshH83iKOUBAN1AAKIEwAC8nMJS8ynwnnbfX58IQQ",
+        "Dev": "CQACAgIAAxkDAAILamFgdI4Zx8fcV6lURBmaGRgEvp11AAIHFAAC8nMJS5gzBdBmKhgfIQQ"
       }
     },
     {
@@ -7779,8 +7779,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGNWFCOPwkuHqmbPj_3kInxAnO3umsAAMVAAKagRFKEPD_y690rV4gBA",
-        "Dev": "CQACAgIAAxkDAAIKVGFCOubn1-XX8Wc65XIJGi6w8y2dAAJ2FQACmoERStUcQo8YOP1nIAQ"
+        "Prod": "CQACAgIAAxkDAAIWVGFgcoRx7nogUBamLjFrUme3__I2AAKKEwAC8nMJS0KuwgxdSOsaIQQ",
+        "Dev": "CQACAgIAAxkDAAILa2FgdJMiiIBCux1rbCQRpsu25kteAAIIFAAC8nMJS70EEWhf_w6uIQQ"
       }
     },
     {
@@ -8067,8 +8067,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGNmFCOP8OxccAAeyZNmlCPB8aZccrywACARUAApqBEUqy0vMXDbWEwSAE",
-        "Dev": "CQACAgIAAxkDAAIKVWFCOutbSDBUT5TrHcJqGVvq6-LdAAJ3FQACmoERSk3G2XfST8FZIAQ"
+        "Prod": "CQACAgIAAxkDAAIWVWFgcoe6XHGLNTeET3Gfyy4yNRnqAAKLEwAC8nMJS6Taacwu3qRMIQQ",
+        "Dev": "CQACAgIAAxkDAAILbGFgdJVs-sHZGcnAVRGmQjFi8nlwAAIJFAAC8nMJSwI7oNpqXb2vIQQ"
       }
     },
     {
@@ -8355,8 +8355,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGN2FCOQK1DmMrxUtGj-QDFUvOFUmAAAICFQACmoERStYzYoNNfPuwIAQ",
-        "Dev": "CQACAgIAAxkDAAIKVmFCOu2uDjxq-qYTHmFCe_6qdMIvAAJ4FQACmoERSiXkNguOI44ZIAQ"
+        "Prod": "CQACAgIAAxkDAAIWVmFgcooHnCJs4eUCmHt_zCrOSweyAAKMEwAC8nMJS69J9vhm0hC5IQQ",
+        "Dev": "CQACAgIAAxkDAAILbWFgdJmoLUNLsAOB0wABneoUBw4VqAACChQAAvJzCUvN2XsuaGb4LyEE"
       }
     },
     {
@@ -8643,8 +8643,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGOGFCOQeCSyvEaFZoHg6k-1kG_TGVAAIDFQACmoERSunN17IoGxCSIAQ",
-        "Dev": "CQACAgIAAxkDAAIKV2FCOvFJa26Wr5W2WjOVpNXlg2wxAAJ5FQACmoERSkvjb3_P_g8QIAQ"
+        "Prod": "CQACAgIAAxkDAAIWV2Fgco2qLV3wDwK4XP3ueWENQbeaAAKNEwAC8nMJSzaUXNvo0a_9IQQ",
+        "Dev": "CQACAgIAAxkDAAILbmFgdJ649CGkzhSNyl6KlDIuUi1qAAILFAAC8nMJS254WUsc0FL3IQQ"
       }
     },
     {
@@ -8931,8 +8931,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGOWFCOQkIsllL6A33xdoJo7_I25BLAAIEFQACmoERSqSfRzWuoBuhIAQ",
-        "Dev": "CQACAgIAAxkDAAIKWGFCOvYi2UsEND25SJVViYGSsDC_AAJ6FQACmoERSmbzOASstRE1IAQ"
+        "Prod": "CQACAgIAAxkDAAIWWGFgcpG67cV3wRRurv0D7_-S04MhAAKOEwAC8nMJSyXIP0EqN1hQIQQ",
+        "Dev": "CQACAgIAAxkDAAILb2FgdKLKcxb9JLwPjh9tgtMP21H9AAIMFAAC8nMJS1y6ggroybPNIQQ"
       }
     },
     {
@@ -9219,8 +9219,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGOmFCOQ7E9TXnKHJ5NPBsWx-dwZFcAAIFFQACmoERSpSaiVDosHwXIAQ",
-        "Dev": "CQACAgIAAxkDAAIKWWFCOvqHESfnho5GDqdLLrFjKyH-AAJ7FQACmoERSh1Ou-eg-V_OIAQ"
+        "Prod": "CQACAgIAAxkDAAIWWWFgcpWv8oTxXs6uVJr7wrtER66PAAKPEwAC8nMJS47KTmme2V2hIQQ",
+        "Dev": "CQACAgIAAxkDAAILcGFgdKVtPinb7uR9Smv9Z1jEYJ3IAAINFAAC8nMJSwABrYf0FaoIYiEE"
       }
     },
     {
@@ -9507,8 +9507,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGO2FCORLK5l-B3h94sbRBLpiDIr6qAAIGFQACmoERSqm9W1TrZfDLIAQ",
-        "Dev": "CQACAgIAAxkDAAIKWmFCOv2jtsRk8jj0_ouj3UoXy3yZAAJ8FQACmoERSgNQvGwjLRhFIAQ"
+        "Prod": "CQACAgIAAxkDAAIWWmFgcpl_0VgG27EnEveJTggoFyUWAAKQEwAC8nMJS9gGMPedljKmIQQ",
+        "Dev": "CQACAgIAAxkDAAILcWFgdKgRC1moxOPx5O3lB6wuNMz5AAIOFAAC8nMJSxioI39FiCMfIQQ"
       }
     },
     {
@@ -9795,8 +9795,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGPGFCORZAhyCvZ6AJEuogihMLBy2QAAIHFQACmoERSjS5T4PopquGIAQ",
-        "Dev": "CQACAgIAAxkDAAIKW2FCOwABMi6gsBFy18zzlTRua7lMuQACfRUAApqBEUp6p5FgzRLszyAE"
+        "Prod": "CQACAgIAAxkDAAIWW2FgcpyA12jnbl3QXyJj0wVXOuMCAAKREwAC8nMJSzeLoIbkYhhpIQQ",
+        "Dev": "CQACAgIAAxkDAAILcmFgdKpHUQQYTaAkx0eLVFwXU0AWAAIPFAAC8nMJS9jPd1okCWSmIQQ"
       }
     },
     {
@@ -10083,8 +10083,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGPWFCORlJXjZdPes2xCoSCubEXv0VAAIIFQACmoERSudOMMP4zacyIAQ",
-        "Dev": "CQACAgIAAxkDAAIKXGFCOwMKzm-B_mZblrk2jTltWYNfAAJ-FQACmoERSvk-K1FvvuiXIAQ"
+        "Prod": "CQACAgIAAxkDAAIWXGFgcqGftkxxBEE5A-krQXc4t57OAAKSEwAC8nMJS5ExrYFQpTwMIQQ",
+        "Dev": "CQACAgIAAxkDAAILc2FgdK25IlDcnDm6F5m2qXOtolKUAAIQFAAC8nMJS6wVE1tiibPxIQQ"
       }
     },
     {
@@ -10371,8 +10371,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGPmFCOR6mBYqdT17yed48kCNKyQEqAAIJFQACmoERSqWtsaXjn1pgIAQ",
-        "Dev": "CQACAgIAAxkDAAIKXWFCOwUHTt5OB0fItbcGGR4_lJSlAAJ_FQACmoERSnCqw2E3If_eIAQ"
+        "Prod": "CQACAgIAAxkDAAIWXWFgcqQwzSFxYmSPH0sm1yywWJ1mAAKTEwAC8nMJS-ray2W9QV5-IQQ",
+        "Dev": "CQACAgIAAxkDAAILdGFgdLGB_PSHA1xBYBzkQuxHaKWNAAIRFAAC8nMJS2T4Yi_bTEHUIQQ"
       }
     },
     {
@@ -10659,8 +10659,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGP2FCOSEf8JE-l3NyJcO27Rcply2-AAIKFQACmoERSqX2FxnzJAl3IAQ",
-        "Dev": "CQACAgIAAxkDAAIKXmFCOwlvJn5ZTAblzubAf2sfesuOAAKAFQACmoERSsGk1QtVBBwCIAQ"
+        "Prod": "CQACAgIAAxkDAAIWXmFgcqky22NXkq8pZw5kgMi7LpHCAAKUEwAC8nMJS06OY-gjTJdZIQQ",
+        "Dev": "CQACAgIAAxkDAAILdWFgdLW9yolXklE_CvDNwAm6LIOuAAISFAAC8nMJS8305bZqoGPvIQQ"
       }
     },
     {
@@ -10947,8 +10947,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGQGFCOSWtTp_zuIsQoIPjDDBjxBt_AAILFQACmoERSohb3NuNk9LTIAQ",
-        "Dev": "CQACAgIAAxkDAAIKX2FCOw0gwyeSRTVYlJ38lnjcNraRAAKBFQACmoERSudg6uvaz5NxIAQ"
+        "Prod": "CQACAgIAAxkDAAIWX2Fgcq0ar1k907nxcu8pQRW_z4LEAAKVEwAC8nMJS0o8MfE9qOmNIQQ",
+        "Dev": "CQACAgIAAxkDAAILdmFgdLj4Ye0uoI8qRyL3_Lz7JWc2AAITFAAC8nMJSybNdGafK9h2IQQ"
       }
     },
     {
@@ -11235,8 +11235,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGQWFCOSejE-9iKLuVQEI4ugQeIDKpAAIMFQACmoERSv6-YNAePfAVIAQ",
-        "Dev": "CQACAgIAAxkDAAIKYGFCOxLF9Mw59cfCoGNJWkIq_gErAAKCFQACmoERSr3NOVEKnXNoIAQ"
+        "Prod": "CQACAgIAAxkDAAIWYGFgcrCdZTErJG1HiGMAAcRWng8o2AAClhMAAvJzCUtIZ9IgCVflbCEE",
+        "Dev": "CQACAgIAAxkDAAILd2FgdL3Sxvb6tc3GQOQnVTua56aOAAIUFAAC8nMJS_cNkWgd_KlYIQQ"
       }
     },
     {
@@ -11502,8 +11502,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGQmFCOSpCV9W27GGMTFWyEaN0DNtNAAINFQACmoERSmgYoPjNukqUIAQ",
-        "Dev": "CQACAgIAAxkDAAIKYWFCOxbsI4dJ5LRy6NBHoGi-gze9AAKDFQACmoERSulUml7ud9clIAQ"
+        "Prod": "CQACAgIAAxkDAAIWYWFgcrIAAdcq4yV0sePwms-yY58XCQAClxMAAvJzCUtEHT7Qi1xvOSEE",
+        "Dev": "CQACAgIAAxkDAAILeGFgdL9WRbI1Qb18hLxVZ_9puFdIAAIVFAAC8nMJS3M1hTGKkMzDIQQ"
       }
     },
     {
@@ -11734,8 +11734,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGQ2FCOS4ImFOs-1gZuk_gKoCM7490AAIOFQACmoERSgcixq0stGdnIAQ",
-        "Dev": "CQACAgIAAxkDAAIKYmFCOxuCMimyKzl4xTItrWN32I-YAAKEFQACmoERSjQOxz-KbOylIAQ"
+        "Prod": "CQACAgIAAxkDAAIWYmFgcrY20N71tzIg5sq-0Sp2rxYjAAKYEwAC8nMJS1DuP8qDmsKNIQQ",
+        "Dev": "CQACAgIAAxkDAAILeWFgdMHSWxrwreOuNxm3mbBNhoBAAAIWFAAC8nMJS9wi36xnbV5sIQQ"
       }
     },
     {
@@ -11931,8 +11931,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGRGFCOTPNyQ3nBXpjYNX8yNAWfNDTAAIPFQACmoERSmuMG4ojlBoJIAQ",
-        "Dev": "CQACAgIAAxkDAAIKY2FCOx84NWVn7Sp7VuShKmeg6tS9AAKFFQACmoERSkmCplkWWL3PIAQ"
+        "Prod": "CQACAgIAAxkDAAIWY2FgcrkaENzKXDGG1DzEew_lt50vAAKZEwAC8nMJSyqYSbGKeal9IQQ",
+        "Dev": "CQACAgIAAxkDAAILemFgdMRvkdwvVoL-QG4XImYTPhkkAAIXFAAC8nMJS4rtmRZKB3b1IQQ"
       }
     },
     {
@@ -12093,8 +12093,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGRWFCOTfiIdmP9V-tvZ69KMzAPncxAAIQFQACmoERSg3mIAhWeQfhIAQ",
-        "Dev": "CQACAgIAAxkDAAIKZGFCOyRvphNQZiAhZ7GqI-e4faQgAAKGFQACmoERShVqonkKxkfhIAQ"
+        "Prod": "CQACAgIAAxkDAAIWZGFgcr6iUKs9qpemy3_edTNKl1aTAAKaEwAC8nMJS6O2qMCx1ttUIQQ",
+        "Dev": "CQACAgIAAxkDAAILe2FgdMd6DOAbUCgsSEtXai8QEcZkAAIYFAAC8nMJS6dsmc1IW6RtIQQ"
       }
     },
     {
@@ -12241,8 +12241,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGRmFCOTrsnXHWHarV_UsAAQcUdOp1hQACERUAApqBEUr5-xILl2gMHSAE",
-        "Dev": "CQACAgIAAxkDAAIKZWFCOycE1puAiCxyW6wrS7K0FG1xAAKHFQACmoERSrw9O_KlKPHhIAQ"
+        "Prod": "CQACAgIAAxkDAAIWZWFgcsEaOrInFBttUZRUu4ExukkVAAKbEwAC8nMJS7Fqef03mppEIQQ",
+        "Dev": "CQACAgIAAxkDAAILfGFgdMvS6sP_ify1TI5TMbIbH44YAAIZFAAC8nMJS_I0yvyC0wasIQQ"
       }
     },
     {
@@ -12368,8 +12368,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGR2FCOT0ZGnNsm7LGPEV2EBRCt1V-AAISFQACmoERSuSgr83T6JVOIAQ",
-        "Dev": "CQACAgIAAxkDAAIKZmFCOyy9y17wAAFoLqD7VntDxBEpOwACiBUAApqBEUpDn9sHxWkWByAE"
+        "Prod": "CQACAgIAAxkDAAIWZmFgcsRAqax_hfYAAQndWhliPLOK3gACnBMAAvJzCUs3re_rZH84diEE",
+        "Dev": "CQACAgIAAxkDAAILfWFgdM8liWWI2lRkgKa4oKYMmtf_AAIaFAAC8nMJS7AsIP7mrggRIQQ"
       }
     },
     {
@@ -12481,8 +12481,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGSGFCOUHyE4nLwEmucIiMUakY7Db4AAITFQACmoERSkVRQvMDjDXlIAQ",
-        "Dev": "CQACAgIAAxkDAAIKZ2FCOy-F4B70hILL7eTTS9CcFZS5AAKJFQACmoERShEhw6ndcMHxIAQ"
+        "Prod": "CQACAgIAAxkDAAIWZ2FgcsfHljynmLTBX5om2KmiyjkUAAKdEwAC8nMJS5MVzqvCMcWKIQQ",
+        "Dev": "CQACAgIAAxkDAAILfmFgdNPJAAFofr_n9yN3ZXfX2EzQIgACGxQAAvJzCUsEke9wBWCSIiEE"
       }
     },
     {
@@ -12573,8 +12573,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGSWFCOUa1MOlqZWN70vgx2tnPkRxDAAIUFQACmoERSgnqJtUC64TmIAQ",
-        "Dev": "CQACAgIAAxkDAAIKaGFCOzRR6QpqP51XKDDlGMWcsO_6AAKKFQACmoERSmSFhG9c8edAIAQ"
+        "Prod": "CQACAgIAAxkDAAIWaGFgcspnHRUrsnmqn55ssw2MAAG4-QACnhMAAvJzCUuTr4DHc3KGKSEE",
+        "Dev": "CQACAgIAAxkDAAILf2FgdNUP1sS_UaXm3N7vAVNwZ4q7AAIcFAAC8nMJS8V-E3N1_edcIQQ"
       }
     },
     {
@@ -12651,8 +12651,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGSmFCOUjb-PzOPli1j9u1fIEAAY4qRQACFRUAApqBEUoXpxbcoF5MICAE",
-        "Dev": "CQACAgIAAxkDAAIKaWFCOzd18gygkPxIfzR54N92o1EZAAKLFQACmoERSoUwnhHE3vfvIAQ"
+        "Prod": "CQACAgIAAxkDAAIWaWFgcsxvP5KLNe21iibQEgbwSZIEAAKfEwAC8nMJSwgqvct-bOc5IQQ",
+        "Dev": "CQACAgIAAxkDAAILgGFgdNgxRPverm3QSnGN_CW_7uUOAAIdFAAC8nMJSy77Zkv3F0qvIQQ"
       }
     },
     {
@@ -12729,8 +12729,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGS2FCOUoCbITWQI1bW_pUis1DAR1JAAIWFQACmoERSn1Egv0Da-msIAQ",
-        "Dev": "CQACAgIAAxkDAAIKamFCOzvUqztqV5l3eoddCMs5avDWAAKMFQACmoERSsNqRmh3zKPQIAQ"
+        "Prod": "CQACAgIAAxkDAAIWamFgcs9WMpa6D79Uy1y8rILQKZV1AAKgEwAC8nMJS1iXXRwBeipvIQQ",
+        "Dev": "CQACAgIAAxkDAAILgWFgdNwxvoVyJ5klTKsPUbULllnKAAIeFAAC8nMJS9Vs4dLAm0bmIQQ"
       }
     },
     {
@@ -12786,8 +12786,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGTGFCOU0oUM6uHmiE63XmNIvTAAGFAAMXFQACmoERSstt_KL5RCsDIAQ",
-        "Dev": "CQACAgIAAxkDAAIKa2FCOz7DVD8zmhOqQ9zS6g3TYEyNAAKNFQACmoERSupQCEILoMj_IAQ"
+        "Prod": "CQACAgIAAxkDAAIWa2FgctMIT8TrSBAQh6KijhGezokFAAKiEwAC8nMJS5RRA1_jq2suIQQ",
+        "Dev": "CQACAgIAAxkDAAILgmFgdN8FsQ0yAAFuSQYhQsUUr9xN9wACHxQAAvJzCUuLq1dlBYyUgCEE"
       }
     },
     {
@@ -12829,8 +12829,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGTWFCOVAkuxLlbsesiFaTOzWLxf5SAAIYFQACmoERSl4LUxP-Jh_1IAQ",
-        "Dev": "CQACAgIAAxkDAAIKbGFCO0JDRgABwRl4TNh7v-zpgdEeVgACjhUAApqBEUoCdevt_26oJyAE"
+        "Prod": "CQACAgIAAxkDAAIWbGFgctRz12qPKVj1A4KcRVOvoO-hAAKkEwAC8nMJS2GyU4OAwkMGIQQ",
+        "Dev": "CQACAgIAAxkDAAILg2FgdOJxQtA7x20_YA1duZwLaqmZAAIgFAAC8nMJS800WLXaSNcQIQQ"
       }
     },
     {
@@ -12872,8 +12872,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGTmFCOVJASyHtKZepyeAKsE1lhRQyAAIZFQACmoERSlmwOfjdEO7MIAQ",
-        "Dev": "CQACAgIAAxkDAAIKbWFCO0MCi_JubRCegO-b7RSUxHLsAAKPFQACmoERSpctnldPtpB5IAQ"
+        "Prod": "CQACAgIAAxkDAAIWbWFgctb7yGTGlCcnopkckEtBw-V3AAKlEwAC8nMJS4PDDDBbrXxqIQQ",
+        "Dev": "CQACAgIAAxkDAAILhGFgdOZ5LBUFuJ5l3N9HgxHU_FwcAAIhFAAC8nMJS-6Wq2Q0R-hLIQQ"
       }
     },
     {
@@ -12894,8 +12894,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAIGT2FCOVbnmPVT19B592c6phmuE1IHAAIaFQACmoERSv6ghSBlv-B2IAQ",
-        "Dev": "CQACAgIAAxkDAAIKbmFCO0YEZgxJkOPzO_EJ4XXn17yzAAKQFQACmoERSu6gWXvnI4ZLIAQ"
+        "Prod": "CQACAgIAAxkDAAIWbmFgctk7iTbj0GWh-P1HF_oAAXz3cwACphMAAvJzCUtknpnx79ldbSEE",
+        "Dev": "CQACAgIAAxkDAAILhWFgdOknakqgsyBdiXBf3QRa5Xq9AAIiFAAC8nMJS7Gzmb_6nFNvIQQ"
       }
     }
   ]

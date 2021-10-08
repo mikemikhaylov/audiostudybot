@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using AudioStudy.Bot.Domain.Model.Courses;
+using AudioStudy.Bot.Domain.Services.Telegram;
 
 namespace AudioStudy.Bot.Domain.Services.Courses
 {
@@ -49,18 +50,11 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             {
                 throw new Exception($"{course.Type} course type is not supported. CourseId {course.Id}");
             }
-
-            if (course.Cards == null || !course.Cards.Any())
-            {
-                throw new Exception($"{nameof(course.Cards)} should contain items. CourseId {course.Id}");
-            }
-
+            
             CheckTextLength(course.Id, course.Name, course.Description, course.NameTranslation,
                 course.DescriptionTranslation);
-            foreach (var card in course.Cards)
-            {
-                ValidateCard(card);
-            }
+
+            ValidateCards(course.Id, course.Cards);
         }
 
         private static readonly JsonSerializerOptions Options = new()
@@ -68,9 +62,28 @@ namespace AudioStudy.Bot.Domain.Services.Courses
             Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
         };
 
+        private static void ValidateCards(string courseId, IList<Card> cards)
+        {
+            if (cards == null || !cards.Any())
+            {
+                throw new Exception($"{nameof(cards)} should contain items. CourseId {courseId}");
+            }
+
+            foreach (var batch in cards.Select((item, inx) => new { item, inx })
+                .GroupBy(x => x.inx / Consts.CardsPerPage)
+                .Select(g => g.Select(x => x.item)))
+            {
+                CheckTextLength(string.Join(Environment.NewLine, batch.Select(x=> 
+                    $"{x.Text} {x.Transcription} {x.Translation} {x.Usage} {x.UsageTranslation}")));
+            }
+            foreach (var card in cards)
+            {
+                ValidateCard(card);
+            }
+        }
+        
         private static void ValidateCard(Card card)
         {
-            CheckTextLength(JsonSerializer.Serialize(card, Options));
             if (string.IsNullOrWhiteSpace(card.Text))
             {
                 throw new Exception($"{nameof(card.Text)} is required");
@@ -101,14 +114,7 @@ namespace AudioStudy.Bot.Domain.Services.Courses
                 {
                     throw new Exception($"{nameof(lesson.FileId)} is required");
                 }
-                if (lesson.Cards == null || !lesson.Cards.Any())
-                {
-                    throw new Exception($"{nameof(lesson.Cards)} is required.");
-                }
-                foreach (var card in lesson.Cards)
-                {
-                    ValidateCard(card);
-                }
+                ValidateCards(courseLessons.CourseId, lesson.Cards);
             }
         }
 

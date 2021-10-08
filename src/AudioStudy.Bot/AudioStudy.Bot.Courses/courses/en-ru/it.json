@@ -47,29 +47,29 @@
       "text": "scroll bar",
       "translation": "полоса прокрутки",
       "transcription": "skroʊl bɑr",
-      "usage": "Show the scroll bar on the right side of the terminal window.",
-      "usageTranslation": "Показывать полосу прокрутки справа от окна сеанса."
+      "usage": "Show the scroll bar on the right side of the window.",
+      "usageTranslation": "Показывать полосу прокрутки справа от окна."
     },
     {
       "text": "internet service provider (ISP)",
       "translation": "интернет-провайдер",
       "transcription": "ˈɪntəˌnɛt ˈsɜːvɪs prəˈvaɪdə (aɪ-ɛs-piː)",
-      "usage": "Internet service provider a company that provides access to the Internet",
-      "usageTranslation": "Провайдер - это компания, которая предоставляет доступ в интернет."
+      "usage": "Internet service provider provides access to the Internet",
+      "usageTranslation": "Провайдер предоставляет доступ в интернет."
     },
     {
       "text": "intellectual property",
       "translation": "интеллектуальная собственность",
       "transcription": "ˌɪntɪˈlɛktjʊəl ˈprɒpəti",
-      "usage": "He also indicated that several law schools provided courses on intellectual property issues.",
-      "usageTranslation": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности."
+      "usage": "They have intellectual property issues.",
+      "usageTranslation": "У них проблемы с интеллектуальной собственностью."
     },
     {
       "text": "remote administration",
       "translation": "удаленное администрирование",
       "transcription": "rɪˈmoʊt ædˌmɪnɪˈstreɪʃən",
-      "usage": "New remote administration plans and services for our customers introduced.",
-      "usageTranslation": "Представлены новые планы удаленного администрирования и услуги для наших клиентов."
+      "usage": "New remote administration plans introduced.",
+      "usageTranslation": "Представлены новые планы удаленного администрирования."
     },
     {
       "text": "protect",

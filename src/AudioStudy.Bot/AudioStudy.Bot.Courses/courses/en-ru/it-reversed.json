@@ -46,29 +46,29 @@
     {
       "text": "полоса прокрутки",
       "translation": "scroll bar",
-      "usage": "Показывать полосу прокрутки справа от окна сеанса.",
-      "usageTranslation": "Show the scroll bar on the right side of the terminal window.",
+      "usage": "Показывать полосу прокрутки справа от окна.",
+      "usageTranslation": "Show the scroll bar on the right side of the window.",
       "translationTranscription": "skroʊl bɑr"
     },
     {
       "text": "интернет-провайдер",
       "translation": "internet service provider (ISP)",
-      "usage": "Провайдер - это компания, которая предоставляет доступ в интернет.",
-      "usageTranslation": "Internet service provider a company that provides access to the Internet",
+      "usage": "Провайдер предоставляет доступ в интернет.",
+      "usageTranslation": "Internet service provider provides access to the Internet",
       "translationTranscription": "ˈɪntəˌnɛt ˈsɜːvɪs prəˈvaɪdə (aɪ-ɛs-piː)"
     },
     {
       "text": "интеллектуальная собственность",
       "translation": "intellectual property",
-      "usage": "Он сообщил также, что в нескольких юридических вузах читаются курсы лекций по вопросам интеллектуальной собственности.",
-      "usageTranslation": "He also indicated that several law schools provided courses on intellectual property issues.",
+      "usage": "У них проблемы с интеллектуальной собственностью.",
+      "usageTranslation": "They have intellectual property issues.",
       "translationTranscription": "ˌɪntɪˈlɛktjʊəl ˈprɒpəti"
     },
     {
       "text": "удаленное администрирование",
       "translation": "remote administration",
-      "usage": "Представлены новые планы удаленного администрирования и услуги для наших клиентов.",
-      "usageTranslation": "New remote administration plans and services for our customers introduced.",
+      "usage": "Представлены новые планы удаленного администрирования.",
+      "usageTranslation": "New remote administration plans introduced.",
       "translationTranscription": "rɪˈmoʊt ædˌmɪnɪˈstreɪʃən"
     },
     {
