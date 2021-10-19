@@ -10850,7 +10850,7 @@
           "translation": "туристический агент",
           "usage": "In all my career as a travel agent, I never visited Africa.",
           "usageTranslation": "За всю свою карьеру туристического агента я никогда не бывал в Африке.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "backpack",
@@ -10858,7 +10858,7 @@
           "translation": "рюкзак",
           "usage": "Give me the backpack.",
           "usageTranslation": "Дайте мне рюкзак.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sand",
@@ -10866,7 +10866,7 @@
           "translation": "песок",
           "usage": "The sand was warm.",
           "usageTranslation": "Песок был тёплый.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "transport",
@@ -11138,7 +11138,7 @@
           "translation": "шина,покрышка",
           "usage": "You have a flat tire.",
           "usageTranslation": "У тебя шину спустило.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "path",
@@ -11146,7 +11146,7 @@
           "translation": "тропа",
           "usage": "The path was narrow.",
           "usageTranslation": "Тропа была узкой.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "walk",
@@ -11154,7 +11154,7 @@
           "translation": "ходить пешком",
           "usage": "He will walk.",
           "usageTranslation": "Он пойдёт пешком.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "information desk",
@@ -11162,7 +11162,7 @@
           "translation": "стойка информации",
           "usage": "Please ask at the information desk.",
           "usageTranslation": "Пожалуйста, спросите в стойке информации.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "coastline",
@@ -11170,7 +11170,7 @@
           "translation": "береговая линия",
           "usage": "The city has a long coastline.",
           "usageTranslation": "У города длинная береговая линия.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "voyage",
@@ -11402,7 +11402,7 @@
           "translation": "ручная кладь",
           "usage": "What is the size and weight limit for carry-on luggage?",
           "usageTranslation": "Какой лимит на размер и вес ручной клади?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "departure",
@@ -11410,7 +11410,7 @@
           "translation": "отправление",
           "usage": "What is the departure time?",
           "usageTranslation": "Когда мы отправляемся?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "stamp",
@@ -11418,7 +11418,7 @@
           "translation": "почтовая марка",
           "usage": "Did you put a stamp on the envelope?",
           "usageTranslation": "Вы наклеили на конверт марку?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "schedule",
@@ -11426,7 +11426,7 @@
           "translation": "расписание, график",
           "usage": "Everything is on schedule.",
           "usageTranslation": "Всё по графику.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "global",
@@ -11434,7 +11434,7 @@
           "translation": "глобальный",
           "usage": "English is a global language.",
           "usageTranslation": "Английский — всемирный язык.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "baggage",
@@ -11626,7 +11626,7 @@
           "translation": "гора",
           "usage": "I have to climb this mountain.",
           "usageTranslation": "Я должен взобраться на эту гору.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sea level",
@@ -11634,7 +11634,7 @@
           "translation": "уровень моря",
           "usage": "How high above sea level are we?",
           "usageTranslation": "Насколько мы высоко над уровнем моря?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "train",
@@ -11642,7 +11642,7 @@
           "translation": "поезд",
           "usage": "We got off the train.",
           "usageTranslation": "Мы вышли из поезда.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "police",
@@ -11650,7 +11650,7 @@
           "translation": "полиция",
           "usage": "Call the police!",
           "usageTranslation": "Вызовите полицию!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "shopping mall",
@@ -11658,7 +11658,7 @@
           "translation": "торговый центр",
           "usage": "Where's the nearest shopping mall?",
           "usageTranslation": "Где находится ближайший торговый центр?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "camping",
@@ -11810,7 +11810,7 @@
           "translation": "плавание, морское путешествие",
           "usage": "The long voyage was a trial for us.",
           "usageTranslation": "Это длинное путешествие было для нас испытанием.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "passenger",
@@ -11818,7 +11818,7 @@
           "translation": "пассажир",
           "usage": "Is every passenger onboard?",
           "usageTranslation": "Все пассажиры на борту?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ticket",
@@ -11826,7 +11826,7 @@
           "translation": "билет",
           "usage": "This is a free ticket.",
           "usageTranslation": "Это бесплатный билет.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "Black Sea",
@@ -11834,7 +11834,7 @@
           "translation": "Чёрное море",
           "usage": "Have you ever been to the Black Sea?",
           "usageTranslation": "Вы были когда-нибудь у Чёрного моря?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "forward",
@@ -11842,7 +11842,7 @@
           "translation": "вперед",
           "usage": "Step forward.",
           "usageTranslation": "Сделай шаг вперёд.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "city",
@@ -11978,7 +11978,7 @@
           "translation": "багаж",
           "usage": "Let me help you with your baggage.",
           "usageTranslation": "Позволь мне помочь тебе с твоим багажом.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "cruise",
@@ -11986,7 +11986,7 @@
           "translation": "круиз",
           "usage": "Some cruise ships have too many passengers.",
           "usageTranslation": "На некоторых круизных кораблях слишком много пассажиров.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "boat",
@@ -11994,7 +11994,7 @@
           "translation": "корабль",
           "usage": "He traveled by boat.",
           "usageTranslation": "Он путешествовал на лодке.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "help",
@@ -12002,7 +12002,7 @@
           "translation": "помощь",
           "usage": "Could you help me?",
           "usageTranslation": "Вы не могли бы мне помочь?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "one-way ticket",
@@ -12010,7 +12010,7 @@
           "translation": "билет в одну сторону",
           "usage": "A one-way ticket to Birmingham, please.",
           "usageTranslation": "Билет в одну сторону до Бирмингема, пожалуйста.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "country",
@@ -12122,7 +12122,7 @@
           "translation": "кемпинг, поход",
           "usage": "We went camping in August.",
           "usageTranslation": "В августе мы ходили в поход.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "pharmacy",
@@ -12130,7 +12130,7 @@
           "translation": "аптека",
           "usage": "Is there a pharmacy nearby?",
           "usageTranslation": "Здесь поблизости есть аптека?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "south",
@@ -12138,7 +12138,7 @@
           "translation": "юг",
           "usage": "He must be from the South.",
           "usageTranslation": "Он, должно быть, с юга.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "trip",
@@ -12146,7 +12146,7 @@
           "translation": "поездка, путешествие",
           "usage": "Have a nice trip!",
           "usageTranslation": "Приятного путешествия!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "border",
@@ -12154,7 +12154,7 @@
           "translation": "граница",
           "usage": "The border is closed.",
           "usageTranslation": "Граница закрыта.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "single room",
@@ -12250,7 +12250,7 @@
           "translation": "город",
           "usage": "What city is this?",
           "usageTranslation": "Что это за город?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "lake",
@@ -12258,7 +12258,7 @@
           "translation": "озеро",
           "usage": "The lake was frozen.",
           "usageTranslation": "Озеро было замерзшим.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bus stop",
@@ -12266,7 +12266,7 @@
           "translation": "автобусная остановка",
           "usage": "Where is the bus stop?",
           "usageTranslation": "Где автобусная остановка?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "aisle seat",
@@ -12274,7 +12274,7 @@
           "translation": "место в проходе",
           "usage": "I'd prefer a aisle seat.",
           "usageTranslation": "Я бы предпочёл место в проходе.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "visa",
@@ -12282,7 +12282,7 @@
           "translation": "виза",
           "usage": "I would like a tourist visa.",
           "usageTranslation": "Я хотел бы получить туристическую визу.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "territory",
@@ -12354,7 +12354,7 @@
           "translation": "страна",
           "usage": "Which country are you from?",
           "usageTranslation": "Из какой Вы страны?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "stream",
@@ -12362,7 +12362,7 @@
           "translation": "ручей",
           "usage": "A small stream runs by my house.",
           "usageTranslation": "Небольшой ручей течёт у моего дома.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "reception",
@@ -12370,7 +12370,7 @@
           "translation": "ресепшн",
           "usage": "See you at the reception.",
           "usageTranslation": "Увидимся на ресепшне.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "post office",
@@ -12378,7 +12378,7 @@
           "translation": "почта",
           "usage": "There is a post office close by.",
           "usageTranslation": "Неподалёку есть почтовое отделение.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "gasoline",
@@ -12386,7 +12386,7 @@
           "translation": "бензин",
           "usage": "I smell gasoline.",
           "usageTranslation": "Я чувствую запах бензина.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bus",
@@ -12442,7 +12442,7 @@
           "translation": "одноместный номер",
           "usage": "Single or double room?",
           "usageTranslation": "Одноместный или двухместный номер?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "peak",
@@ -12450,7 +12450,7 @@
           "translation": "пик",
           "usage": "The peak rises above the clouds.",
           "usageTranslation": "Пик горы возвышается над облаками.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "foreigner",
@@ -12458,7 +12458,7 @@
           "translation": "иностранец",
           "usage": "He is a foreigner, as is evident from his accent.",
           "usageTranslation": "Он иностранец, это понятно по его произношению.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "region",
@@ -12466,7 +12466,7 @@
           "translation": "область, регион",
           "usage": "This region is located in a valley.",
           "usageTranslation": "Этот регион располагается в долине.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "map",
@@ -12474,7 +12474,7 @@
           "translation": "карта",
           "usage": "Here is the map.",
           "usageTranslation": "Вот карта.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "hitch-hike",
@@ -12530,7 +12530,7 @@
           "translation": "территория",
           "usage": "That island is American territory.",
           "usageTranslation": "Этот остров — американская территория.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "time zone",
@@ -12538,7 +12538,7 @@
           "translation": "часовой пояс",
           "usage": "We have one time zone.",
           "usageTranslation": "У нас один часовой пояс.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "accident",
@@ -12546,7 +12546,7 @@
           "translation": "несчастный случай,случайность,авария",
           "usage": "It was an accident.",
           "usageTranslation": "Это был несчастный случай.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "southwest",
@@ -12554,7 +12554,7 @@
           "translation": "юго-запад",
           "usage": "The wind is blowing from the southwest.",
           "usageTranslation": "Ветер дует с юго-запада.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "theatre",
@@ -12562,7 +12562,7 @@
           "translation": "театр",
           "usage": "Every theatre has a cloakroom.",
           "usageTranslation": "В каждом театре есть гардероб.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "peninsula",
@@ -12594,7 +12594,7 @@
           "translation": "автобус",
           "usage": "Get on the bus.",
           "usageTranslation": "Садись в автобус.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "station",
@@ -12602,7 +12602,7 @@
           "translation": "станция",
           "usage": "This is our station.",
           "usageTranslation": "Это наша станция.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "restroom",
@@ -12610,7 +12610,7 @@
           "translation": "туалет",
           "usage": "Can you tell me where the restroom is?",
           "usageTranslation": "Вы не подскажете, где туалет?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "currency exchange",
@@ -12618,7 +12618,7 @@
           "translation": "обмен валюты.",
           "usage": "Where is the closest currency exchange?",
           "usageTranslation": "Где находится ближайший пункт обмена валюты?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "area",
@@ -12626,7 +12626,7 @@
           "translation": "площадь, пространство, район",
           "usage": "The area was quiet.",
           "usageTranslation": "Район был спокойный.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -12642,7 +12642,7 @@
           "translation": "путешествовать автостопом",
           "usage": "And I don't like to hitch-hike.",
           "usageTranslation": "Я не люблю ездить автостопом.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "northwest",
@@ -12650,7 +12650,7 @@
           "translation": "северо-запад",
           "usage": "Russian Protestantism was born in the northwest of Russia.",
           "usageTranslation": "Русский протестантизм зародился на северо-западе России.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "arrival",
@@ -12658,7 +12658,7 @@
           "translation": "прибытие",
           "usage": "What is the arrival time?",
           "usageTranslation": "Каково время прибытия?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "southeast",
@@ -12666,7 +12666,7 @@
           "translation": "юго-восток",
           "usage": "Jim is about to take a trip to southeast Asia.",
           "usageTranslation": "Джим собирается отправиться в путешествие в Юго-Восточную Азию.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ambulance",
@@ -12674,7 +12674,7 @@
           "translation": "скорая помощь",
           "usage": "Get me an ambulance.",
           "usageTranslation": "Вызови мне скорую.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -12690,7 +12690,7 @@
           "translation": "полуостров",
           "usage": "Italy is a peninsula.",
           "usageTranslation": "Италия - это полуостров.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "zoo",
@@ -12698,7 +12698,7 @@
           "translation": "зоопарк",
           "usage": "He took us to the zoo.",
           "usageTranslation": "Он взял нас в зоопарк.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {

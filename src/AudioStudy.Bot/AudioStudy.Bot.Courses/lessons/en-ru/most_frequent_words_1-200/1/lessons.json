@@ -11490,7 +11490,7 @@
           "translation": "в то время, тогда как",
           "usage": "Eat while it's warm.",
           "usageTranslation": "Ешь, пока тёплое.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "start",
@@ -11498,7 +11498,7 @@
           "translation": "начинать",
           "usage": "Start over.",
           "usageTranslation": "Начинай сначала.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "three",
@@ -11506,7 +11506,7 @@
           "translation": "три",
           "usage": "Three hours passed.",
           "usageTranslation": "Прошло три часа.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "high",
@@ -11514,7 +11514,7 @@
           "translation": "высокий",
           "usage": "Danger! High voltage.",
           "usageTranslation": "Опасно! Высокое напряжение.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "every",
@@ -11522,7 +11522,7 @@
           "translation": "каждый",
           "usage": "Exercise every day.",
           "usageTranslation": "Тренируйтесь каждый день.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "show",
@@ -11778,7 +11778,7 @@
           "translation": "ещё один",
           "usage": "Have another cookie.",
           "usageTranslation": "Возьми ещё одно печенье.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "become",
@@ -11786,7 +11786,7 @@
           "translation": "становиться",
           "usage": "We've become good friends.",
           "usageTranslation": "Мы стали хорошими друзьями.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "most",
@@ -11794,7 +11794,7 @@
           "translation": "наиболее, больше всего, большинство",
           "usage": "Most people agree.",
           "usageTranslation": "Большинство людей согласно.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "between",
@@ -11802,7 +11802,7 @@
           "translation": "между",
           "usage": "Read between the lines.",
           "usageTranslation": "Читайте между строк.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "happen",
@@ -11810,7 +11810,7 @@
           "translation": "случаться",
           "usage": "Nothing will happen.",
           "usageTranslation": "Ничего не случится.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "part",
@@ -12026,7 +12026,7 @@
           "translation": "семья",
           "usage": "We're practically family.",
           "usageTranslation": "Мы практически семья.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "president",
@@ -12034,7 +12034,7 @@
           "translation": "президент, директор, председатель",
           "usage": "They demanded that President resign.",
           "usageTranslation": "Они потребовали, чтобы президент подал в отставку.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "old",
@@ -12042,7 +12042,7 @@
           "translation": "старый",
           "usage": "We're old friends.",
           "usageTranslation": "Мы старые друзья.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "yes",
@@ -12050,7 +12050,7 @@
           "translation": "да",
           "usage": "Yes, mistress.",
           "usageTranslation": "Да, госпожа.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "house",
@@ -12058,7 +12058,7 @@
           "translation": "дом",
           "usage": "My house is your house.",
           "usageTranslation": "Мой дом - твой дом.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "country",
@@ -12234,7 +12234,7 @@
           "translation": "показывать",
           "usage": "Show your cards.",
           "usageTranslation": "Покажи свои карты.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "again",
@@ -12242,7 +12242,7 @@
           "translation": "ещё раз, снова",
           "usage": "Sorry again!",
           "usageTranslation": "Ещё раз простите!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "student",
@@ -12250,7 +12250,7 @@
           "translation": "студент",
           "usage": "She's my student.",
           "usageTranslation": "Она моя студентка.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "seem",
@@ -12258,7 +12258,7 @@
           "translation": "казаться",
           "usage": "You seem happy.",
           "usageTranslation": "Ты кажешся счастливым.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "might",
@@ -12266,7 +12266,7 @@
           "translation": "мог, мощь",
           "usage": "This might work.",
           "usageTranslation": "Это может сработать.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "off",
@@ -12402,7 +12402,7 @@
           "translation": "часть",
           "usage": "I love this part.",
           "usageTranslation": "Эта часть мне нравится.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "hear",
@@ -12410,7 +12410,7 @@
           "translation": "слышать",
           "usage": "I hear music.",
           "usageTranslation": "Я слышу музыку.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "place",
@@ -12418,7 +12418,7 @@
           "translation": "место",
           "usage": "Take your place.",
           "usageTranslation": "Займи своё место.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "problem",
@@ -12426,7 +12426,7 @@
           "translation": "проблема",
           "usage": "Problem solved!",
           "usageTranslation": "Проблема решена!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "believe",
@@ -12434,7 +12434,7 @@
           "translation": "верить, полагать",
           "usage": "I can't believe I believed him.",
           "usageTranslation": "Не могу поверить, что я ему поверил.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "such",
@@ -12570,7 +12570,7 @@
           "translation": "страна",
           "usage": "Leave this country.",
           "usageTranslation": "Уезжайте из этой страны.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "always",
@@ -12578,7 +12578,7 @@
           "translation": "всегда",
           "usage": "He's always busy.",
           "usageTranslation": "Он всегда занят.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "week",
@@ -12586,7 +12586,7 @@
           "translation": "неделя",
           "usage": "See you next week!",
           "usageTranslation": "Увидимся на следующей неделе!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "point",
@@ -12594,7 +12594,7 @@
           "translation": "указывать, точка, суть",
           "usage": "Don't point at others.",
           "usageTranslation": "Не показывай на других.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "hand",
@@ -12602,7 +12602,7 @@
           "translation": "рука",
           "usage": "Shake my hand.",
           "usageTranslation": "Пожми мне руку.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "question",
@@ -12698,7 +12698,7 @@
           "translation": "прочь, вдали, выключенный",
           "usage": "Hands off.",
           "usageTranslation": "Руки прочь.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "play",
@@ -12706,7 +12706,7 @@
           "translation": "играть",
           "usage": "Let's play soccer.",
           "usageTranslation": "Давайте поиграем в футбол.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "turn",
@@ -12714,7 +12714,7 @@
           "translation": "поворачивать, очередь",
           "usage": "Turn left here.",
           "usageTranslation": "Поверните здесь налево.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "few",
@@ -12722,7 +12722,7 @@
           "translation": "несколько, мало",
           "usage": "Few tourists come here.",
           "usageTranslation": "Сюда приезжает мало туристов.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "group",
@@ -12730,7 +12730,7 @@
           "translation": "группа",
           "usage": "The whole group is laughing.",
           "usageTranslation": "Вся группа смеётся.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "write",
@@ -12826,7 +12826,7 @@
           "translation": "такой",
           "usage": "Such a wonderful music!",
           "usageTranslation": "Такая красивая музыка!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "against",
@@ -12834,7 +12834,7 @@
           "translation": "против",
           "usage": "I'm against corruption.",
           "usageTranslation": "Я против коррупции.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "run",
@@ -12842,7 +12842,7 @@
           "translation": "бежать",
           "usage": "Run fast!",
           "usageTranslation": "Беги быстро!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "guy",
@@ -12850,7 +12850,7 @@
           "translation": "парень",
           "usage": "You're a good guy.",
           "usageTranslation": "Ты хороший парень.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "case",
@@ -12858,7 +12858,7 @@
           "translation": "случай, корпус, регистр, чемодан",
           "usage": "State your case briefly.",
           "usageTranslation": "Кратко изложите ваш случай.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "book",
@@ -12914,7 +12914,7 @@
           "translation": "вопрос",
           "usage": "Answer the question.",
           "usageTranslation": "Ответь на вопрос.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "night",
@@ -12922,7 +12922,7 @@
           "translation": "ночь",
           "usage": "Good night!",
           "usageTranslation": "Доброй ночи.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "live",
@@ -12930,7 +12930,7 @@
           "translation": "жить, живой",
           "usage": "Live and fight!",
           "usageTranslation": "Живи и борись!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "game",
@@ -12938,7 +12938,7 @@
           "translation": "игра",
           "usage": "Game over.",
           "usageTranslation": "Конец игры.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "number",
@@ -12946,7 +12946,7 @@
           "translation": "число, количество",
           "usage": "You are number one!",
           "usageTranslation": "Ты - номер один!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "company",
@@ -13002,7 +13002,7 @@
           "translation": "писать",
           "usage": "Write a report.",
           "usageTranslation": "Напишите отчет.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bring",
@@ -13010,7 +13010,7 @@
           "translation": "приносить, приводить",
           "usage": "Bring tea immediately!",
           "usageTranslation": "Немедленно принеси чай!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "without",
@@ -13018,7 +13018,7 @@
           "translation": "без",
           "usage": "Without a doubt!",
           "usageTranslation": "Без сомнения!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "money",
@@ -13026,7 +13026,7 @@
           "translation": "деньги",
           "usage": "Time is money.",
           "usageTranslation": "Время - деньги.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "lot",
@@ -13034,7 +13034,7 @@
           "translation": "много, лот",
           "usage": "I want a lot.",
           "usageTranslation": "Мне надо много.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "must",
@@ -13090,7 +13090,7 @@
           "translation": "книга, бронировать",
           "usage": "Read this book.",
           "usageTranslation": "Прочитай эту книгу.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "system",
@@ -13098,7 +13098,7 @@
           "translation": "система",
           "usage": "The system is rotten.",
           "usageTranslation": "Система прогнила.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "government",
@@ -13106,7 +13106,7 @@
           "translation": "правительство",
           "usage": "This government is corrupt.",
           "usageTranslation": "Правительство коррумпировано.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "next",
@@ -13114,7 +13114,7 @@
           "translation": "следующий",
           "usage": "Maybe next time!",
           "usageTranslation": "Может быть, в следующий раз!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "city",
@@ -13122,7 +13122,7 @@
           "translation": "город",
           "usage": "What a beautiful city!",
           "usageTranslation": "Какой прекрасный город!",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -13138,7 +13138,7 @@
           "translation": "компания",
           "usage": "He founded the company.",
           "usageTranslation": "Он основал компанию.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "story",
@@ -13146,7 +13146,7 @@
           "translation": "рассказ, история",
           "usage": "The story continues.",
           "usageTranslation": "История продолжается.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "today",
@@ -13154,7 +13154,7 @@
           "translation": "сегодня",
           "usage": "I'm free today.",
           "usageTranslation": "Я сегодня свободен.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "job",
@@ -13162,7 +13162,7 @@
           "translation": "работа",
           "usage": "Finish the job.",
           "usageTranslation": "Закончи работу.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "move",
@@ -13170,7 +13170,7 @@
           "translation": "двигать, движение",
           "usage": "Don't move, please.",
           "usageTranslation": "Пожалуйста, не двигайтесь.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -13186,7 +13186,7 @@
           "translation": "должен",
           "usage": "We must act.",
           "usageTranslation": "Мы должны действовать.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bad",
@@ -13194,7 +13194,7 @@
           "translation": "плохой",
           "usage": "This is bad.",
           "usageTranslation": "Это плохо.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "friend",
@@ -13202,7 +13202,7 @@
           "translation": "друг",
           "usage": "My dear friend!",
           "usageTranslation": "Мой дорогой друг!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "during",
@@ -13210,7 +13210,7 @@
           "translation": "в течение, во время",
           "usage": "They talked during the movie.",
           "usageTranslation": "Во время фильма они разговаривали.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "begin",
@@ -13218,7 +13218,7 @@
           "translation": "начинать",
           "usage": "Calm down and begin at the beginning.",
           "usageTranslation": "Успокойся и начни с начала.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {

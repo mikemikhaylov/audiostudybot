@@ -11490,7 +11490,7 @@
           "translation": "ткань, бумажная салфетка",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "concentration",
@@ -11498,7 +11498,7 @@
           "translation": "концентрация",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "developer",
@@ -11506,7 +11506,7 @@
           "translation": "разработчик",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "found",
@@ -11514,7 +11514,7 @@
           "translation": "основывать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ballot",
@@ -11522,7 +11522,7 @@
           "translation": "избирательный бюллетень",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "expansion",
@@ -11778,7 +11778,7 @@
           "translation": "поглощать, потреблять",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "overcome",
@@ -11786,7 +11786,7 @@
           "translation": "преодолевать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "biological",
@@ -11794,7 +11794,7 @@
           "translation": "биологический",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "chamber",
@@ -11802,7 +11802,7 @@
           "translation": "комната",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "similarly",
@@ -11810,7 +11810,7 @@
           "translation": "подобным образом",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "awful",
@@ -12026,7 +12026,7 @@
           "translation": "сметь, осмеливаться",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "developing",
@@ -12034,7 +12034,7 @@
           "translation": "развивающийся",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "tiger",
@@ -12042,7 +12042,7 @@
           "translation": "тигр",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ratio",
@@ -12050,7 +12050,7 @@
           "translation": "соотношение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "lover",
@@ -12058,7 +12058,7 @@
           "translation": "возлюбленный, любовник",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "preparation",
@@ -12234,7 +12234,7 @@
           "translation": "расширение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "encounter",
@@ -12242,7 +12242,7 @@
           "translation": "сталкиваться",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "occasionally",
@@ -12250,7 +12250,7 @@
           "translation": "время от времени",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "unemployment",
@@ -12258,7 +12258,7 @@
           "translation": "безработица",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "pet",
@@ -12266,7 +12266,7 @@
           "translation": "питомец",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "publisher",
@@ -12402,7 +12402,7 @@
           "translation": "ужасный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "laboratory",
@@ -12410,7 +12410,7 @@
           "translation": "лаборатория",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "administrator",
@@ -12418,7 +12418,7 @@
           "translation": "администратор",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "quarterback",
@@ -12426,7 +12426,7 @@
           "translation": "квотербек, защитник",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "rocket",
@@ -12434,7 +12434,7 @@
           "translation": "ракета,взмывать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "rank",
@@ -12570,7 +12570,7 @@
           "translation": "подготовка",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "relative",
@@ -12578,7 +12578,7 @@
           "translation": "родственник, родственный, относительный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "confident",
@@ -12586,7 +12586,7 @@
           "translation": "уверенный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "strategic",
@@ -12594,7 +12594,7 @@
           "translation": "стратегический",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "marine",
@@ -12602,7 +12602,7 @@
           "translation": "морской",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "variation",
@@ -12698,7 +12698,7 @@
           "translation": "издатель",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "innovation",
@@ -12706,7 +12706,7 @@
           "translation": "инновация",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "highlight",
@@ -12714,7 +12714,7 @@
           "translation": "выделять, выделять цветом",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "nut",
@@ -12722,7 +12722,7 @@
           "translation": "орех",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "fighter",
@@ -12730,7 +12730,7 @@
           "translation": "боец, истребитель, воин",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "correspondent",
@@ -12826,7 +12826,7 @@
           "translation": "классифицировать, звание, ранг",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "electricity",
@@ -12834,7 +12834,7 @@
           "translation": "электричество, заряд",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "instance",
@@ -12842,7 +12842,7 @@
           "translation": "случай, пример, образец",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "fortune",
@@ -12850,7 +12850,7 @@
           "translation": "везение, целое состояние",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "freeze",
@@ -12858,7 +12858,7 @@
           "translation": "замерзать, замораживать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "testify",
@@ -12914,7 +12914,7 @@
           "translation": "разновидность",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "armed",
@@ -12922,7 +12922,7 @@
           "translation": "вооружённый",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "negotiate",
@@ -12930,7 +12930,7 @@
           "translation": "вести переговоры",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "laughter",
@@ -12938,7 +12938,7 @@
           "translation": "смех",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "wisdom",
@@ -12946,7 +12946,7 @@
           "translation": "мудрость",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "shame",
@@ -13002,7 +13002,7 @@
           "translation": "корреспондент, соответствующий",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "mixture",
@@ -13010,7 +13010,7 @@
           "translation": "смесь",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "assistant",
@@ -13018,7 +13018,7 @@
           "translation": "помощник",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "retain",
@@ -13026,7 +13026,7 @@
           "translation": "сохранять, сдерживать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "tomato",
@@ -13034,7 +13034,7 @@
           "translation": "помидор",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "tube",
@@ -13090,7 +13090,7 @@
           "translation": "свидетельствовать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ingredient",
@@ -13098,7 +13098,7 @@
           "translation": "ингредиент",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "galaxy",
@@ -13106,7 +13106,7 @@
           "translation": "галактика",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "qualify",
@@ -13114,7 +13114,7 @@
           "translation": "квалифицировать, заслуживать, подходить",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "scheme",
@@ -13122,7 +13122,7 @@
           "translation": "схема",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -13138,7 +13138,7 @@
           "translation": "стыд",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "concentrate",
@@ -13146,7 +13146,7 @@
           "translation": "концентрировать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "contest",
@@ -13154,7 +13154,7 @@
           "translation": "конкурс",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "introduction",
@@ -13162,7 +13162,7 @@
           "translation": "знакомство, введение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "boundary",
@@ -13170,7 +13170,7 @@
           "translation": "граница, предел",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -13186,7 +13186,7 @@
           "translation": "труба",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "versus",
@@ -13194,7 +13194,7 @@
           "translation": " против",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "chef",
@@ -13202,7 +13202,7 @@
           "translation": "повар",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "regularly",
@@ -13210,7 +13210,7 @@
           "translation": "регулярно",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ugly",
@@ -13218,7 +13218,7 @@
           "translation": "уродливый",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {

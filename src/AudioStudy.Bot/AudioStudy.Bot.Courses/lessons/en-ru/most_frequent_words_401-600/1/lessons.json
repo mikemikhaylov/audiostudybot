@@ -11490,7 +11490,7 @@
           "translation": "продукт",
           "usage": "It's a niche product.",
           "usageTranslation": "Это нишевой товар.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "realize",
@@ -11498,7 +11498,7 @@
           "translation": "осознавать",
           "usage": "Do you realize what's happening?",
           "usageTranslation": "Вы осознаёте, что происходит?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "save",
@@ -11506,7 +11506,7 @@
           "translation": "спасать",
           "usage": "Save frequently.",
           "usageTranslation": "Почаще сохраняйтесь.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "arm",
@@ -11514,7 +11514,7 @@
           "translation": "рука (от кисти до плеча), вооружаться",
           "usage": "Relax your arm.",
           "usageTranslation": "Расслабь свою руку.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "technology",
@@ -11522,7 +11522,7 @@
           "translation": "технология",
           "usage": "Technology is just a tool.",
           "usageTranslation": "Технологии — это лишь инструмент.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "soon",
@@ -11778,7 +11778,7 @@
           "translation": "ловить",
           "usage": "Cats catch mice.",
           "usageTranslation": "Кошки ловят мышей.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "comment",
@@ -11786,7 +11786,7 @@
           "translation": "комментарий, комментировать",
           "usage": "Delete this comment.",
           "usageTranslation": "Удали этот комментарий.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "term",
@@ -11794,7 +11794,7 @@
           "translation": "срок, термин, условие",
           "usage": "The president said he would not run for the second term.",
           "usageTranslation": "Президент сказал, что он не будет баллотироваться на второй срок.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "color",
@@ -11802,7 +11802,7 @@
           "translation": "цвет",
           "usage": "What color are cucumbers?",
           "usageTranslation": "Какого цвета огурцы?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "cover",
@@ -11810,7 +11810,7 @@
           "translation": "накрывать, обложка",
           "usage": "Read this book from cover to cover.",
           "usageTranslation": "Прочти эту книгу от корки до корки.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ground",
@@ -12026,7 +12026,7 @@
           "translation": "описывать",
           "usage": "Words cannot describe it.",
           "usageTranslation": "Это невозможно описать словами.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "guess",
@@ -12034,7 +12034,7 @@
           "translation": "догадываться, предположение, догадка",
           "usage": "Guess who won.",
           "usageTranslation": "Угадай, кто выиграл.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "choice",
@@ -12042,7 +12042,7 @@
           "translation": "выбор",
           "usage": "It's your choice.",
           "usageTranslation": "Это твой выбор.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "source",
@@ -12050,7 +12050,7 @@
           "translation": "источник",
           "usage": "I can't reveal my source.",
           "usageTranslation": "Я не могу раскрыть свой источник.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "mom",
@@ -12058,7 +12058,7 @@
           "translation": "мама",
           "usage": "Ask mom!",
           "usageTranslation": "Спроси у мамы!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "itself",
@@ -12234,7 +12234,7 @@
           "translation": "скоро",
           "usage": "Christmas is soon.",
           "usageTranslation": "Скоро Рождество.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "director",
@@ -12242,7 +12242,7 @@
           "translation": "директор, режиссёр",
           "usage": "I am the executive director of the museum.",
           "usageTranslation": "Я исполнительный директор музея.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "international",
@@ -12250,7 +12250,7 @@
           "translation": "международный",
           "usage": "Happy International Women's Day!",
           "usageTranslation": "С Международным женским днём!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "rule",
@@ -12258,7 +12258,7 @@
           "translation": "правило, править",
           "usage": "You broke the rule.",
           "usageTranslation": "Ты нарушил правило.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "campaign",
@@ -12266,7 +12266,7 @@
           "translation": "кампания",
           "usage": "We started a campaign against smoking.",
           "usageTranslation": "Мы начали компанию против курения.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "whatever",
@@ -12402,7 +12402,7 @@
           "translation": "земля, основание",
           "usage": "This is holy ground.",
           "usageTranslation": "Это святая земля.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "election",
@@ -12410,7 +12410,7 @@
           "translation": "выборы, избрание",
           "usage": "The election results depress me.",
           "usageTranslation": "Результаты выборов меня удручают.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "check",
@@ -12418,7 +12418,7 @@
           "translation": "проверка, отмечать галочкой, чек",
           "usage": "Let me check.",
           "usageTranslation": "Дай я проверю.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "page",
@@ -12426,7 +12426,7 @@
           "translation": "страница",
           "usage": "Turn the page.",
           "usageTranslation": "Переверни страницу.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "fight",
@@ -12434,7 +12434,7 @@
           "translation": "драться, бороться, спор",
           "usage": "Fight like men.",
           "usageTranslation": "Сражайтесь, как мужчины.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "rest",
@@ -12570,7 +12570,7 @@
           "translation": "себя",
           "usage": "History repeats itself.",
           "usageTranslation": "История повторяется.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "test",
@@ -12578,7 +12578,7 @@
           "translation": "экзамен, тест, тестировать",
           "usage": "That was a test.",
           "usageTranslation": "Это было испытание.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "patient",
@@ -12586,7 +12586,7 @@
           "translation": "пациент, терпеливый",
           "usage": "Above all, be patient.",
           "usageTranslation": "Прежде всего, будь терпелив.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "produce",
@@ -12594,7 +12594,7 @@
           "translation": "производить",
           "usage": "Nuclear energy is used to produce electricity.",
           "usageTranslation": "Атомная энергия используется для производства электричества.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "certain",
@@ -12602,7 +12602,7 @@
           "translation": "уверенный, определённый",
           "usage": "Are you certain about this? Absolutely certain?",
           "usageTranslation": "Вы в этом уверены? Точно уверены?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "opportunity",
@@ -12698,7 +12698,7 @@
           "translation": "какой бы ни, что бы ни",
           "usage": "Whatever happens, don't panic.",
           "usageTranslation": "Что бы ни случилось, не паникуй.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "half",
@@ -12706,7 +12706,7 @@
           "translation": "половина",
           "usage": "Give me half.",
           "usageTranslation": "Дай мне половину.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "video",
@@ -12714,7 +12714,7 @@
           "translation": "видео",
           "usage": "I watched the Youtube video.",
           "usageTranslation": "Я смотрел видео на Ютубе.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "throw",
@@ -12722,7 +12722,7 @@
           "translation": "бросать",
           "usage": "Don't throw stones.",
           "usageTranslation": "Не кидайся камнями.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "third",
@@ -12730,7 +12730,7 @@
           "translation": "треть",
           "usage": "What's your third wish?",
           "usageTranslation": "Какое твоё третье желание?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "single",
@@ -12826,7 +12826,7 @@
           "translation": "отдыхать",
           "usage": "You need rest.",
           "usageTranslation": "Ты нуждаешься в отдыхе.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "recent",
@@ -12834,7 +12834,7 @@
           "translation": "новый, недавний",
           "usage": "Are these recent pictures?",
           "usageTranslation": "Это недавние фотографии?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "available",
@@ -12842,7 +12842,7 @@
           "translation": "доступный, свободный",
           "usage": "Tickets are available online.",
           "usageTranslation": "Билеты доступны онлайн.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "step",
@@ -12850,7 +12850,7 @@
           "translation": "шаг",
           "usage": "Be sure to follow them step by step.",
           "usageTranslation": "Обязательно следуй за ними шаг за шагом.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ready",
@@ -12858,7 +12858,7 @@
           "translation": "готовый",
           "usage": "Dinner is ready.",
           "usageTranslation": "Ужин готов.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "dad",
@@ -12914,7 +12914,7 @@
           "translation": "возможность",
           "usage": "Don't waste the opportunity.",
           "usageTranslation": "Не упусти возможность!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "official",
@@ -12922,7 +12922,7 @@
           "translation": "официальный",
           "usage": "Switzerland has several official languages.",
           "usageTranslation": "В Швейцарии несколько официальных языков.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "oil",
@@ -12930,7 +12930,7 @@
           "translation": "масло",
           "usage": "This is olive oil.",
           "usageTranslation": "Это оливковое масло.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "organization",
@@ -12938,7 +12938,7 @@
           "translation": "организация",
           "usage": "That organization depends on voluntary contributions.",
           "usageTranslation": "Эта организация зависит от добровольных пожертвований.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "character",
@@ -12946,7 +12946,7 @@
           "translation": "характер, персонаж",
           "usage": "He's my favorite character.",
           "usageTranslation": "Он - мой любимый персонаж.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "general",
@@ -13002,7 +13002,7 @@
           "translation": "единственный, одинокий",
           "usage": "Tom is still single.",
           "usageTranslation": "Том всё ещё один.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "current",
@@ -13010,7 +13010,7 @@
           "translation": "течение, текущий, поток",
           "usage": "Tom's current whereabouts are unknown.",
           "usageTranslation": "Текущее местонахождение Тома неизвестно.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "likely",
@@ -13018,7 +13018,7 @@
           "translation": "вероятный, вероятный",
           "usage": "That's hardly likely.",
           "usageTranslation": "Едва ли это возможно.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "county",
@@ -13026,7 +13026,7 @@
           "translation": "графство, округ",
           "usage": "This county is poor in natural resources.",
           "usageTranslation": "Этот округ беден природными ресурсами.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "future",
@@ -13034,7 +13034,7 @@
           "translation": "будущее",
           "usage": "Nobody knows the future.",
           "usageTranslation": "Никто не знает будущего.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "risk",
@@ -13090,7 +13090,7 @@
           "translation": "папа",
           "usage": "Happy birthday, Dad.",
           "usageTranslation": "С днём рождения, папа!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "whose",
@@ -13098,7 +13098,7 @@
           "translation": "чей",
           "usage": "Whose books are these?",
           "usageTranslation": "Чьи это книги?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "shoot",
@@ -13106,7 +13106,7 @@
           "translation": "стрелять",
           "usage": "Please don't shoot.",
           "usageTranslation": "Пожалуйста, не стреляй.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "industry",
@@ -13114,7 +13114,7 @@
           "translation": "промышленность,",
           "usage": "The German auto industry produces excellent cars.",
           "usageTranslation": "Немецкая автопромышленность производит превосходные автомобили.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "list",
@@ -13122,7 +13122,7 @@
           "translation": "список, перечислять",
           "usage": "Make a list.",
           "usageTranslation": "Составьте список.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -13138,7 +13138,7 @@
           "translation": "общий, генерал",
           "usage": "The general strike paralyzed the whole country.",
           "usageTranslation": "Всеобщая забастовка парализовала всю страну.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "stuff",
@@ -13146,7 +13146,7 @@
           "translation": "штука, вещество, личные вещи, набивать, фаршировать",
           "usage": "Leave my stuff alone.",
           "usageTranslation": "Оставьте мои вещи в покое.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "figure",
@@ -13154,7 +13154,7 @@
           "translation": "думать, полагать, цифра, фигура",
           "usage": "Go figure.",
           "usageTranslation": "Поди пойми!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "attention",
@@ -13162,7 +13162,7 @@
           "translation": "внимание",
           "usage": "Get Tom's attention.",
           "usageTranslation": "Привлеки внимание Тома.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "forget",
@@ -13170,7 +13170,7 @@
           "translation": "забывать",
           "usage": "Forget about it.",
           "usageTranslation": "Забудь об этом.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -13186,7 +13186,7 @@
           "translation": "риск",
           "usage": "There's absolutely no risk.",
           "usageTranslation": "Нет абсолютно никакого риска.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "focus",
@@ -13194,7 +13194,7 @@
           "translation": "внимание, концентрироваться",
           "usage": "Focus on your breathing.",
           "usageTranslation": "Сосредоточься на своём дыхании.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "short",
@@ -13202,7 +13202,7 @@
           "translation": "короткий",
           "usage": "She likes short skirts.",
           "usageTranslation": "Ей нравятся короткие юбки.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "fire",
@@ -13210,7 +13210,7 @@
           "translation": "увольнять, огонь",
           "usage": "Let's fire Tom.",
           "usageTranslation": "Давай уволим Тома.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "dog",
@@ -13218,7 +13218,7 @@
           "translation": "собака",
           "usage": "Beware of dog.",
           "usageTranslation": "Остерегайся собаки.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {

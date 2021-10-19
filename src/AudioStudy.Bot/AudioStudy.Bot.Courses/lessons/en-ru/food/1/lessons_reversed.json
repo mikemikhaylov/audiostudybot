@@ -8942,35 +8942,35 @@
           "translation": "side dish",
           "usage": "Томаты могут подаваться как гарнир.",
           "usageTranslation": "Tomatoes may be served as a side dish.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "помидор",
           "translation": "tomato",
           "usage": "Я выращиваю помидоры.",
           "usageTranslation": "I grow tomatoes.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "рыбный ресторан",
           "translation": "seafood restaurant",
           "usage": "Это лучший ресторан морской кухни в окрестностях.",
           "usageTranslation": "This is the best seafood restaurant in the neighborhood.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "какао",
           "translation": "cocoa",
           "usage": "Как насчёт чашки какао?",
           "usageTranslation": "How about a cup of cocoa?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "тушеная говядина",
           "translation": "beef stew",
           "usage": "На обед у меня была тушёная говядина.",
           "usageTranslation": "I had beef stew for lunch.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "фасоль",
@@ -9195,35 +9195,35 @@
           "translation": "dinner",
           "usage": "Я приготовил ужин.",
           "usageTranslation": "I cooked dinner.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "витамины",
           "translation": "vitamins",
           "usage": "Даже в шоколаде содержатся витамины.",
           "usageTranslation": "Even chocolate has vitamins.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "сэндвич с ветчиной",
           "translation": "ham sandwich",
           "usage": "Давай я сделаю тебе бутерброд с ветчиной.",
           "usageTranslation": "Let me make you a ham sandwich.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "салат",
           "translation": "salad",
           "usage": "Кто принёс салат?",
           "usageTranslation": "Who brought the salad?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "попкорн",
           "translation": "popcorn",
           "usage": "Где мой попкорн?",
           "usageTranslation": "Where's my popcorn?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "кислый",
@@ -9413,35 +9413,35 @@
           "translation": "milk tea",
           "usage": "Я никогда не пил чай с молоком.",
           "usageTranslation": "I've never drank milk with tea.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "горох",
           "translation": "pea",
           "usage": "Братья-близнецы — как две горошинки.",
           "usageTranslation": "The twin brothers are like two peas.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "виноград",
           "translation": "grapes",
           "usage": "Эти виноградины кислые на вкус.",
           "usageTranslation": "These grapes taste sour.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ветчина",
           "translation": "ham",
           "usage": "Давай я сделаю тебе бутерброд с ветчиной.",
           "usageTranslation": "Let me make you a ham sandwich.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "спелый",
           "translation": "ripe",
           "usage": "Спелые бананы имеют жёлтый цвет.",
           "usageTranslation": "Ripe bananas are yellow.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "грейпфрут",
@@ -9596,35 +9596,35 @@
           "translation": "bean",
           "usage": "Ненавижу фасоль.",
           "usageTranslation": "I hate beans.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "куриный суп",
           "translation": "chicken soup",
           "usage": "Ваш куриный суп восхитителен.",
           "usageTranslation": "Your chicken soup is great.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "молочные продукты",
           "translation": "dairy products",
           "usage": "Я редко ем молочные продукты.",
           "usageTranslation": "I seldom eat dairy products.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "чай",
           "translation": "tea",
           "usage": "Ещё чаю?",
           "usageTranslation": "More tea?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "столик на двоих",
           "translation": "table for two",
           "usage": "Я бы хотел зарезервировать столик на двоих.",
           "usageTranslation": "I'd like to reserve a table for two.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "закуска",
@@ -9744,35 +9744,35 @@
           "translation": "sour",
           "usage": "Лимон кислый.",
           "usageTranslation": "Lemon is sour.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "паб",
           "translation": "pub",
           "usage": "Где ближайший паб?",
           "usageTranslation": "Where is the nearest pub?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "сыр",
           "translation": "cheese",
           "usage": "Скажи \"сыр\".",
           "usageTranslation": "Say cheese.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "приятного аппетита",
           "translation": "enjoy your meal",
           "usage": "Угощайтесь, приятного аппетита!",
           "usageTranslation": "Please help yourself. Enjoy your meal!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "абрикос",
           "translation": "apricot",
           "usage": "Персики крупнее, чем абрикосы.",
           "usageTranslation": "Peaches are larger than apricots.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "кофе без кофеина",
@@ -9892,35 +9892,35 @@
           "translation": "grapefruit",
           "usage": "Я съел половину грейпфрута на завтрак.",
           "usageTranslation": "I had half a grapefruit for breakfast.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "средней прожарки",
           "translation": "medium rare",
           "usage": "Я люблю стейк не слишком прожаренный.",
           "usageTranslation": "I like my steak medium rare.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "перекусывать",
           "translation": "have a snack",
           "usage": "Нельзя ли нам чего-нибудь перекусить?",
           "usageTranslation": "Can't we have a snack or something?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "черника",
           "translation": "blueberry",
           "usage": "Мне очень нравится черничное мороженое.",
           "usageTranslation": "I really like blueberry ice cream.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "сельдерей",
           "translation": "celery",
           "usage": "Сельдерей можно покрошить в салат.",
           "usageTranslation": "Celery can be chopped up in a salad!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ананас",
@@ -10005,35 +10005,35 @@
           "translation": "starter",
           "usage": "Мы заказали кучу закусок.",
           "usageTranslation": "We ordered a bunch of starters.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "кипеть",
           "translation": "boil",
           "usage": "Вскипяти немного воды.",
           "usageTranslation": "Boil some water.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "конфета",
           "translation": "candy",
           "usage": "Попробуй эту конфету.",
           "usageTranslation": "Try this candy.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "картофель фри",
           "translation": "French fries",
           "usage": "Все любят картошку фри.",
           "usageTranslation": "Everybody likes french fries.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "картофель",
           "translation": "potato",
           "usage": "Свари картошку.",
           "usageTranslation": "Boil those potatoes.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "торт",
@@ -10118,35 +10118,35 @@
           "translation": "decaffeinated coffee",
           "usage": "Я пью кофе только без кофеина.",
           "usageTranslation": "I only drink decaffeinated coffee.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "вафли",
           "translation": "waffles",
           "usage": "Мы испекли вафли.",
           "usageTranslation": "We made waffles.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "еда для вегетарианцев",
           "translation": "vegetarian food",
           "usage": "В этом индийском ресторане подают только вегетарианскую пищу.",
           "usageTranslation": "This Indian restaurant only serves vegetarian food.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "шампанское",
           "translation": "champagne",
           "usage": "Пробка от шампанского вылетела.",
           "usageTranslation": "The champagne cork popped out.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "приправа",
           "translation": "seasoning",
           "usage": "Смесь приправ.",
           "usageTranslation": "Seasoning blend",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "завтрак",
@@ -10196,35 +10196,35 @@
           "translation": "pineapple",
           "usage": "Я ем ананасовый шербет.",
           "usageTranslation": "I eat pineapple sherbert.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "кукуруза",
           "translation": "maize",
           "usage": "Генетически модифицированная кукуруза.",
           "usageTranslation": "Genetically modified maize",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "печенье",
           "translation": "biscuit",
           "usage": "Хватит печенья!",
           "usageTranslation": "No more biscuits!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "блин",
           "translation": "pancake",
           "usage": "Переверни блин.",
           "usageTranslation": "Flip the pancake over.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "авокадо",
           "translation": "avocado",
           "usage": "Авокадо - это фрукт.",
           "usageTranslation": "Avocado is a fruit.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "чипсы",
@@ -10274,35 +10274,35 @@
           "translation": "cake",
           "usage": "Разрежь торт.",
           "usageTranslation": "Cut the cake.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "молочный коктейль",
           "translation": "milkshake",
           "usage": "Сделайте мне, пожалуйста, молочный коктейль.",
           "usageTranslation": "Please make a milkshake for me.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "калории",
           "translation": "calories",
           "usage": "В воде ноль калорий.",
           "usageTranslation": "Water has zero calories.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "мёд",
           "translation": "honey",
           "usage": "Пчёлы делают мёд.",
           "usageTranslation": "Bees make honey.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "сосиска",
           "translation": "sausage",
           "usage": "Колбаса слишком жирная.",
           "usageTranslation": "The sausage is too fat.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "дыня",
@@ -10352,35 +10352,35 @@
           "translation": "breakfast",
           "usage": "Завтрак готов.",
           "usageTranslation": "Breakfast is ready.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "основное блюдо",
           "translation": "main course",
           "usage": "Обычно мы заказываем осьминога гриль перед главным блюдом.",
           "usageTranslation": "We usually order grilled octopus before the main course.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "жарить на гриле",
           "translation": "grill",
           "usage": "Обычно мы заказываем осьминога гриль перед главным блюдом.",
           "usageTranslation": "We usually order grilled octopus before the main course.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "сок",
           "translation": "juice",
           "usage": "Мы продаём апельсиновый сок.",
           "usageTranslation": "We sell orange juice.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "соль",
           "translation": "salt",
           "usage": "Передай соль.",
           "usageTranslation": "Pass the salt.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -10395,35 +10395,35 @@
           "translation": "crisps",
           "usage": "Эмили купила пакетик чипсов.",
           "usageTranslation": "Emily bought a packet of crisps.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "латте",
           "translation": "latte",
           "usage": "Латте - напиток итальянского происхождения",
           "usageTranslation": "Latte is a coffee drink of Italian origin",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "еда",
           "translation": "meal",
           "usage": "Мы заказали еду.",
           "usageTranslation": "We ordered the meal.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "кофе",
           "translation": "coffee",
           "usage": "Том любит горьковатый кофе и шоколад.",
           "usageTranslation": "Tom prefers coffee and chocolate with a slightly bitter taste.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "имбирь",
           "translation": "ginger",
           "usage": "Это имбирный напиток.",
           "usageTranslation": "This is a ginger drink.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -10438,35 +10438,35 @@
           "translation": "melon",
           "usage": "Разрежь дыню на шесть равных частей.",
           "usageTranslation": "Cut the melon into six equal pieces.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "попросить счет",
           "translation": "ask for the bill",
           "usage": "Ты попросил у официанта счёт?",
           "usageTranslation": "Did you ask the waiter for the bill?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "слива",
           "translation": "plum",
           "usage": "Эти сливы уже созрели.",
           "usageTranslation": "These plums are ripe.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "капуста",
           "translation": "cabbage",
           "usage": "Капусту можно есть сырой.",
           "usageTranslation": "Cabbage can be eaten raw.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "йогурт",
           "translation": "yogurt",
           "usage": "У этого йогурта странный вкус.",
           "usageTranslation": "This yogurt tastes strange.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {

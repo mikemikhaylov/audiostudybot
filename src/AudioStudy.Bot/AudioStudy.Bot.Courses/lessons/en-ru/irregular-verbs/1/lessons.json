@@ -7515,22 +7515,22 @@
         {
           "text": "shoe - shod - shod",
           "translation": "обувать, подковывать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "shoot - shot - shot",
           "translation": "стрелять",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "shrink - shrank - shrunk",
           "translation": "сокращаться, сжиматься",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sit - sat - sat",
           "translation": "сидеть",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "slide - slid - slid",
@@ -7698,27 +7698,27 @@
         {
           "text": "sling - slung - slung",
           "translation": "швырять, метать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "slink - slunk - slunk",
           "translation": "красться",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "smell - smelt or smelled - smelt or smelled",
           "translation": "пахнуть, понюхать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "speed - sped or speeded - sped or speeded",
           "translation": "спешить, ускорять",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "spell - spelt or spelled - spelt or spelled",
           "translation": "писать, произносить слово по буквам",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "swing - swung - swung",
@@ -7861,27 +7861,27 @@
         {
           "text": "spend - spent - spent",
           "translation": "тратить",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "spill - spilt - spilt",
           "translation": "проливать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "spin - spun - spun",
           "translation": "вращаться, прясть",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "spit - spat - spat",
           "translation": "плевать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "stand - stood - stood",
           "translation": "стоять",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "withstand - withstood - withstood",
@@ -7999,27 +7999,27 @@
         {
           "text": "stick - stuck - stuck",
           "translation": "придерживаться",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sting - stung - stung",
           "translation": "жалить",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "stink - stank - stunk",
           "translation": "вонять",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "strike - struck - struck",
           "translation": "бить, бастовать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "string - strung - strung",
           "translation": "связывать, нанизывать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "tear - tore - torn",
@@ -8112,27 +8112,27 @@
         {
           "text": "swing - swung - swung",
           "translation": "качать, размахивать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "unbend - unbent - unbent",
           "translation": "разгибаться",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "understand - understood - understood",
           "translation": "понимать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "win - won - won",
           "translation": "победить",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "wind - wound - wound",
           "translation": "заводить, наматывать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ride - rode - ridden",
@@ -8220,27 +8220,27 @@
         {
           "text": "withstand - withstood - withstood",
           "translation": "противостоять, выдерживать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "wring - wrung - wrung",
           "translation": "выжимать, скручивать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bear - bore - born",
           "translation": "выносить, рожать, терпеть",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "shear - sheared - shorn",
           "translation": "стричь, срезать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "swear - swore - sworn",
           "translation": "клясться, присягать, ругаться",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "write - wrote - written",
@@ -8308,27 +8308,27 @@
         {
           "text": "tear - tore - torn",
           "translation": "рвать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "wear - wore - worn",
           "translation": "носить",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "cleave - cleft - cloven",
           "translation": "рассечь, раскалывать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "forbid - forbade - forbidden",
           "translation": "запрещать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "hide - hid - hidden",
           "translation": "прятать, прятаться",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "dive - dove - dived",
@@ -8391,27 +8391,27 @@
         {
           "text": "ride - rode - ridden",
           "translation": "ехать верхом, ездить",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "smite - smote - smitten",
           "translation": "ударять, поражать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "stride - strode - stridden",
           "translation": "шагать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "swell - swelled - swollen or swelled",
           "translation": "опухать, раздуваться, набухать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "tread - trod - trodden",
           "translation": "наступать, ступать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "hear - heard - heard",
@@ -8454,27 +8454,27 @@
         {
           "text": "write - wrote - written",
           "translation": "писать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "become - became - become",
           "translation": "становиться",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "begin - began - begun",
           "translation": "начинать, начинаться",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "come - came - come",
           "translation": "приходить",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "dare - durst - dared",
           "translation": "сметь",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "relay - relaid - relaid",
@@ -8512,27 +8512,27 @@
         {
           "text": "dive - dove - dived",
           "translation": "нырять",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "do - did - done",
           "translation": "делать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "drink - drank - drunk",
           "translation": "пить",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "forego - forewent - foregone",
           "translation": "отказываться, воздерживаться",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "go - went - gone",
           "translation": "идти",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sink - sank - sunk",
@@ -8570,27 +8570,27 @@
         {
           "text": "hear - heard - heard",
           "translation": "слышать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "hew - hewed - hewn or hewed",
           "translation": "рубить",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "lie - lay - lain",
           "translation": "лежать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "mishear - misheard - misheard",
           "translation": "ослышаться",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "overcome - overcame - overcome",
           "translation": "преодолевать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "undo - undid - undone",
@@ -8608,27 +8608,27 @@
         {
           "text": "relay - relaid - relaid",
           "translation": "перекладывать (железнодорожный путь и тому подобное)",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "relay - relayed - relayed",
           "translation": "передавать (информацию и тому подобное)",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ring - rang - rung",
           "translation": "звонить, звенеть",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "run - ran - run",
           "translation": "бежать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sing - sang - sung",
           "translation": "петь",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -8641,27 +8641,27 @@
         {
           "text": "sink - sank - sunk",
           "translation": "тонуть",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "slay - slew - slain",
           "translation": "убивать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "spring - sprang - sprung",
           "translation": "возникать, прыгать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "swim - swam - swum",
           "translation": "плавать",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "undergo - underwent - undergone",
           "translation": "испытывать, подвергаться",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -8674,7 +8674,7 @@
         {
           "text": "undo - undid - undone",
           "translation": "отменить, расстегивать",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {

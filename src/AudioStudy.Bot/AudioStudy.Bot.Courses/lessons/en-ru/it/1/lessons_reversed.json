@@ -11260,21 +11260,21 @@
           "translation": "bluetooth",
           "usage": "Блюту́с недоступин на данном устройстве.",
           "usageTranslation": "Bluetooth is not available on this device.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "сеть",
           "translation": "network",
           "usage": "Мы не должны позволить им проникнуть в нашу сеть.",
           "usageTranslation": "We must not let them infiltrate our network.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "зарегистрироваться на сайте",
           "translation": "sign up",
           "usage": "Как мне зарегистрироваться?",
           "usageTranslation": "How do I sign up?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "прототип",
@@ -11513,35 +11513,35 @@
           "translation": "delete",
           "usage": "Вы можете удалить мой аккаунт?",
           "usageTranslation": "Can you delete my account?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "без учета регистра клавиатуры",
           "translation": "case-insensitive",
           "usage": "Логины обычно нечувствительны к регистру.",
           "usageTranslation": "Logins are usually case-insensitive.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "Оперативное запоминающее устройство (ОЗУ), оперативная память",
           "translation": "Random-access memory (RAM)",
           "usage": "Для локальных программ вашему компьютеру требуется около 512 МБ ОЗУ.",
           "usageTranslation": "For local programs your computer needs about 512 MB RAM.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "имя пользователя",
           "translation": "user name",
           "usage": "Перейдите на страницу, ввести имя пользователя и пароль.",
           "usageTranslation": "Go on the page, insert your registered user name and password.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "платформа",
           "translation": "platform",
           "usage": "Nakido — платформа для обмена файлами.",
           "usageTranslation": "Nakido is a file sharing platform.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "устройство",
@@ -11745,35 +11745,35 @@
           "translation": "server",
           "usage": "Сервер перегружен.",
           "usageTranslation": "The server is overloaded.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "продукт",
           "translation": "product",
           "usage": "Где будет использоваться этот продукт?",
           "usageTranslation": "Where will this product be used?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "компонент",
           "translation": "component",
           "usage": "Дисциплина — важнейшая составляющая успеха.",
           "usageTranslation": "Discipline is the most important component of success.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "кликнуть",
           "translation": "click",
           "usage": "Нажми на ссылку.",
           "usageTranslation": "Click on the link.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "отображать, дисплей",
           "translation": "display",
           "usage": "Она показала свои таланты.",
           "usageTranslation": "She displayed her talents.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "приложение",
@@ -11942,35 +11942,35 @@
           "translation": "directory",
           "usage": "Файл конфигурации твоего сервера базы данных находится в этом каталоге.",
           "usageTranslation": "The configuration file for your database server is located in this directory.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "обратная связь",
           "translation": "feedback",
           "usage": "Спасибо вам за обратную связь.",
           "usageTranslation": "Thank you for the feedback.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "электронный",
           "translation": "electronic",
           "usage": "Какими электронными устройствами вы чаще всего пользуетесь?",
           "usageTranslation": "What electronic devices do you use the most?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "шрифт",
           "translation": "font",
           "usage": "Мне не нравится этот шрифт.",
           "usageTranslation": "I don't like this font.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "загрузочный диск",
           "translation": "boot disk",
           "usage": "Вам не нужно создавать загрузочный диск.",
           "usageTranslation": "You don't need to make a boot disk.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "подписываться",
@@ -12104,35 +12104,35 @@
           "translation": "device",
           "usage": "Что делает это устройство?",
           "usageTranslation": "What does this device do?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "интеграция",
           "translation": "integration",
           "usage": "Меня наняли, как инженера по интеграции продукта.",
           "usageTranslation": "I am hired as a product integration engineer.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "давать обратную связь",
           "translation": "give feedback",
           "usage": "И ты должна давать обратную связь медсёстрам, подчиняющимся тебе.",
           "usageTranslation": "And you have to give feedback to nurses who work beneath you.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "хранилище",
           "translation": "warehouse",
           "usage": "Хранилище данных.",
           "usageTranslation": "Data warehouse.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ноутбук",
           "translation": "notebook",
           "usage": "Мой ноутбук — розового цвета.",
           "usageTranslation": "My notebook is pink.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "обеспечивать, гарантировать",
@@ -12252,35 +12252,35 @@
           "translation": "application",
           "usage": "Скачай и установи приложение.",
           "usageTranslation": "Download and install the application.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "корзина",
           "translation": "bin",
           "usage": "Корзина пуста.",
           "usageTranslation": "The bin is empty.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "панель инструментов",
           "translation": "toolbar",
           "usage": "Вы видите панель инструментов внизу экрана?",
           "usageTranslation": "Can you see the toolbar at the bottom of the screen?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "хранилище данных",
           "translation": "data storage",
           "usage": "Не удается создать хранилище данных из-за отказа в доступе.",
           "usageTranslation": "Cannot create data storage because access is denied.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "принимать",
           "translation": "accept",
           "usage": "Мы примем ваши условия.",
           "usageTranslation": "We will accept your conditions.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "сканнер",
@@ -12379,35 +12379,35 @@
           "translation": "subscribe",
           "usage": "Подписывайтесь на наш канал на Ютубе.",
           "usageTranslation": "Subscribe to our YouTube channel.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "мощность, энергия",
           "translation": "power",
           "usage": "Режим энергосбережения.",
           "usageTranslation": "Power saving mode.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "жёсткий диск",
           "translation": "hard disk",
           "usage": "Жёсткий диск был полностью повреждён.",
           "usageTranslation": "The hard disk was completely destroyed.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "принтер",
           "translation": "printer",
           "usage": "В принтер нужно вставить бумагу.",
           "usageTranslation": "The printer needs paper.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "двоичный",
           "translation": "binary",
           "usage": "В мире есть 10 типов людей: те, которые понимают двоичную систему счисления, и те, которые нет.",
           "usageTranslation": "There are 10 types of people in the world: those who understand binary, and those who don't.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "флеш-карта",
@@ -12492,35 +12492,35 @@
           "translation": "ensure",
           "usage": "Это лекарство обеспечит Вам крепкий ночной сон.",
           "usageTranslation": "This medicine will ensure you a good night's sleep.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "электронная почта, электронное письмо",
           "translation": "e-mail",
           "usage": "По некоторой причине я не мог войти в свою электронную почту.",
           "usageTranslation": "For some reason I couldn't access my e-mail.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "системный администратор",
           "translation": "system administrator",
           "usage": "Пожалуйста, повторите попытку или обратитесь за помощью к своему системному администратору.",
           "usageTranslation": "Please try again or consult your system administrator.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "разрешение",
           "translation": "resolution",
           "usage": "Разрешение экрана.",
           "usageTranslation": "Screen resolution.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "отменить",
           "translation": "cancel",
           "usage": "Мне пришлось отменить собрание.",
           "usageTranslation": "I had to cancel the meeting.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "наставник",
@@ -12584,35 +12584,35 @@
           "translation": "scanner",
           "usage": "Мне надо купить новый сканер.",
           "usageTranslation": "I have to buy a new scanner.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "цифровой, электронный",
           "translation": "digital",
           "usage": "У меня все книги в электронном виде.",
           "usageTranslation": "All of my books are digital.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "антивирусные программы",
           "translation": "antivirus software",
           "usage": "Каким антивирусом вы пользуетесь?",
           "usageTranslation": "What antivirus are you using?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "резервная копия",
           "translation": "backup",
           "usage": "Резервная копия базы данных.",
           "usageTranslation": "A database backup.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "инженер по разработке программного обеспечения",
           "translation": "software development engineer",
           "usage": "Ирина сейчас программист.",
           "usageTranslation": "Irina is a software engineer now.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "формат, форматировать",
@@ -12662,35 +12662,35 @@
           "translation": "flash card",
           "usage": "Ты не видел мою флеш карту?",
           "usageTranslation": "Have you seen my flash card?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "распределение, дистрибутив",
           "translation": "distribution",
           "usage": "Ubuntu — популярный дистрибутив Linux.",
           "usageTranslation": "Ubuntu is a popular Linux distribution.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "релиз",
           "translation": "release",
           "usage": "Каждая итерация длится приблизительно 1-2 месяца, после чего выпускается релиз.",
           "usageTranslation": "Each iteration lasts about 1-2 months, followed by a new release.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "гигабайт",
           "translation": "gigabyte",
           "usage": "Я думаю, 8-гигабайтного жёсткого диска будет достаточно.",
           "usageTranslation": "I suppose then an 8-Gigabyte hard drive will be adequate.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "видеокарта",
           "translation": "video card",
           "usage": "Тебе понадобится видеокарта, чтобы играть в эту игру.",
           "usageTranslation": "You will need a video card to play this game.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "отзывчивый",
@@ -12740,35 +12740,35 @@
           "translation": "mentor",
           "usage": "Неудачи – это наилучший наставник.",
           "usageTranslation": "Failure is the best mentor.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "виртуальная память",
           "translation": "virtual memory",
           "usage": "Виртуальная память - это метод управления памятью.",
           "usageTranslation": "Virtual memory is a memory management technique.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "бизнес для бизнеса",
           "translation": "B2B (business-to-business)",
           "usage": "B2B это обмен продуктами между бизнесами, а не бизнесами и потребителями (B2C).",
           "usageTranslation": "B2B (business-to-business) is the exchange of products between businesses, rather than between businesses and consumers (B2C)",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "выход",
           "translation": "output",
           "usage": "Не удалось создать выходной файл.",
           "usageTranslation": "Cannot create the output file.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "итерация",
           "translation": "iteration",
           "usage": "Каждая итерация длится приблизительно 1-2 месяца, после чего выпускается релиз.",
           "usageTranslation": "Each iteration lasts about 1-2 months, followed by a new release.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "каталог",
@@ -12797,35 +12797,35 @@
           "translation": "format",
           "usage": "Вы не должны форматировать эту дискету.",
           "usageTranslation": "You should not format this diskette.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "мегабайт",
           "translation": "megabyte",
           "usage": "Файл весит 7 мегабайт.",
           "usageTranslation": "The file is weighing 7 megabytes.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "программа",
           "translation": "program",
           "usage": "Программа была запрограммирована программистами.",
           "usageTranslation": "The program was programmed by programmers.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "спам",
           "translation": "spam",
           "usage": "Спам раздражает.",
           "usageTranslation": "Spam is annoying.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "технология",
           "translation": "technology",
           "usage": "Технологии — это лишь инструмент.",
           "usageTranslation": "Technology is just a tool.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -12840,35 +12840,35 @@
           "translation": "responsive",
           "usage": "Отзывчивый пользовательский интерфейс.",
           "usageTranslation": "Responsive user interface.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "вирус",
           "translation": "virus",
           "usage": "В компьютере вирус.",
           "usageTranslation": "The computer has a virus.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "материнская плата",
           "translation": "motherboard",
           "usage": "На этой материнке нет COM-порта.",
           "usageTranslation": "There's no COM port on this motherboard.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ссылка",
           "translation": "link",
           "usage": "Нажми на ссылку.",
           "usageTranslation": "Click on the link.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "подчёркивать",
           "translation": "underline",
           "usage": "Подчеркните все глаголы будущего времени в этом тексте.",
           "usageTranslation": "Underline all the verbs in the future tense in this text.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -12883,14 +12883,14 @@
           "translation": "catalog",
           "usage": "Отправь мне новый каталог.",
           "usageTranslation": "Send me a new catalog.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "вставить",
           "translation": "paste",
           "usage": "Вставьте ссылку.",
           "usageTranslation": "Paste the link.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {

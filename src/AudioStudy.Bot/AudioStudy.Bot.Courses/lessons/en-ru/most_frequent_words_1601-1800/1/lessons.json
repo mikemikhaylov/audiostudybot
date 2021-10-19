@@ -11490,7 +11490,7 @@
           "translation": "обязательно",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "liberal",
@@ -11498,7 +11498,7 @@
           "translation": "либеральный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "expectation",
@@ -11506,7 +11506,7 @@
           "translation": "ожидание",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "accuse",
@@ -11514,7 +11514,7 @@
           "translation": "обвинять",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "knock",
@@ -11522,7 +11522,7 @@
           "translation": "стучать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "confidence",
@@ -11778,7 +11778,7 @@
           "translation": "прежде",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "wing",
@@ -11786,7 +11786,7 @@
           "translation": "крыло",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "corporation",
@@ -11794,7 +11794,7 @@
           "translation": "корпорация",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sector",
@@ -11802,7 +11802,7 @@
           "translation": "сектор",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "fat",
@@ -11810,7 +11810,7 @@
           "translation": "жир, толстый",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "speaker",
@@ -12026,7 +12026,7 @@
           "translation": "эксперимент",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "match",
@@ -12034,7 +12034,7 @@
           "translation": "спичка, сочетаться, совпадать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "thin",
@@ -12042,7 +12042,7 @@
           "translation": "тонкий",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "farmer",
@@ -12050,7 +12050,7 @@
           "translation": "фермер",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "rare",
@@ -12058,7 +12058,7 @@
           "translation": "редкий, непрожаренный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "interaction",
@@ -12234,7 +12234,7 @@
           "translation": "уверенность",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bunch",
@@ -12242,7 +12242,7 @@
           "translation": "гроздь, набор, связка, группа",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bet",
@@ -12250,7 +12250,7 @@
           "translation": "держать пари",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "cite",
@@ -12258,7 +12258,7 @@
           "translation": "цитировать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "northern",
@@ -12266,7 +12266,7 @@
           "translation": "северный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "nurse",
@@ -12402,7 +12402,7 @@
           "translation": "выступающий, спикер, динамик",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "breast",
@@ -12410,7 +12410,7 @@
           "translation": "грудь",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "contribution",
@@ -12418,7 +12418,7 @@
           "translation": "вклад,",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "leaf",
@@ -12426,7 +12426,7 @@
           "translation": "лист",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "creative",
@@ -12434,7 +12434,7 @@
           "translation": "творческий",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "difficulty",
@@ -12570,7 +12570,7 @@
           "translation": "взаимодействие",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "hat",
@@ -12578,7 +12578,7 @@
           "translation": "шляпа",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "doubt",
@@ -12586,7 +12586,7 @@
           "translation": "сомнение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "pursue",
@@ -12594,7 +12594,7 @@
           "translation": "преследовать, продолжать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "overall",
@@ -12602,7 +12602,7 @@
           "translation": "общий, комбинезон",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "aid",
@@ -12698,7 +12698,7 @@
           "translation": "медсестра, ухаживать, нянчить, ухаживать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "long-term",
@@ -12706,7 +12706,7 @@
           "translation": "долгосрочный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "gene",
@@ -12714,7 +12714,7 @@
           "translation": "ген",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "package",
@@ -12722,7 +12722,7 @@
           "translation": "упаковка, сверток, пакет",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "weird",
@@ -12730,7 +12730,7 @@
           "translation": "странный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "airport",
@@ -12826,7 +12826,7 @@
           "translation": "затруднение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "hardly",
@@ -12834,7 +12834,7 @@
           "translation": "едва",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "daddy",
@@ -12842,7 +12842,7 @@
           "translation": "папочка",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "estimate",
@@ -12850,7 +12850,7 @@
           "translation": "оценивать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "era",
@@ -12858,7 +12858,7 @@
           "translation": "эра",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "channel",
@@ -12914,7 +12914,7 @@
           "translation": "помощь, способствовать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "invest",
@@ -12922,7 +12922,7 @@
           "translation": "инвестировать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "personally",
@@ -12930,7 +12930,7 @@
           "translation": "лично, персонально",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "notion",
@@ -12938,7 +12938,7 @@
           "translation": "представление, понятие",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "explanation",
@@ -12946,7 +12946,7 @@
           "translation": "объяснение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "purchase",
@@ -13002,7 +13002,7 @@
           "translation": "аэропорт",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "chain",
@@ -13010,7 +13010,7 @@
           "translation": "цепь",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "expose",
@@ -13018,7 +13018,7 @@
           "translation": "разоблачать, подвергать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "lock",
@@ -13026,7 +13026,7 @@
           "translation": "запирать, замо́к",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "convince",
@@ -13034,7 +13034,7 @@
           "translation": "убеждать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "pray",
@@ -13090,7 +13090,7 @@
           "translation": "канал",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "carefully",
@@ -13098,7 +13098,7 @@
           "translation": "осторожно",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "tear",
@@ -13106,7 +13106,7 @@
           "translation": "рвать, слеза",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "estate",
@@ -13114,7 +13114,7 @@
           "translation": "имущество",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "initial",
@@ -13122,7 +13122,7 @@
           "translation": "первоначальный, инициал",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -13138,7 +13138,7 @@
           "translation": "покупать, покупка",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "guide",
@@ -13146,7 +13146,7 @@
           "translation": "гид",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "forth",
@@ -13154,7 +13154,7 @@
           "translation": "вперёд, далее",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bond",
@@ -13162,7 +13162,7 @@
           "translation": "связь, узы",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "birthday",
@@ -13170,7 +13170,7 @@
           "translation": "день рождения",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -13186,7 +13186,7 @@
           "translation": "молиться",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "improvement",
@@ -13194,7 +13194,7 @@
           "translation": "улучшение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ancient",
@@ -13202,7 +13202,7 @@
           "translation": "древний",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ought",
@@ -13210,7 +13210,7 @@
           "translation": "должен",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "escape",
@@ -13218,7 +13218,7 @@
           "translation": "сбегать, избегать,",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {

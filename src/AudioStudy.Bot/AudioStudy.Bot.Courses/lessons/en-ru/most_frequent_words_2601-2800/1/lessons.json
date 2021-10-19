@@ -11490,7 +11490,7 @@
           "translation": "образ жизни",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sweep",
@@ -11498,7 +11498,7 @@
           "translation": "подметать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "naked",
@@ -11506,7 +11506,7 @@
           "translation": "обнаженный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sufficient",
@@ -11514,7 +11514,7 @@
           "translation": "достаточный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "lion",
@@ -11522,7 +11522,7 @@
           "translation": "лев",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "adviser",
@@ -11778,7 +11778,7 @@
           "translation": "потребление",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "capability",
@@ -11786,7 +11786,7 @@
           "translation": "возможность",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "emission",
@@ -11794,7 +11794,7 @@
           "translation": "эмиссия, выделение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sidebar",
@@ -11802,7 +11802,7 @@
           "translation": "боковая колонка",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "dealer",
@@ -11810,7 +11810,7 @@
           "translation": "торговец, дилер",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "tragedy",
@@ -12026,7 +12026,7 @@
           "translation": "измерение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "vital",
@@ -12034,7 +12034,7 @@
           "translation": "жизненно важный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "impressive",
@@ -12042,7 +12042,7 @@
           "translation": "впечатляющий",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bake",
@@ -12050,7 +12050,7 @@
           "translation": "печь",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "fantastic",
@@ -12058,7 +12058,7 @@
           "translation": "фантастический",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "attractive",
@@ -12234,7 +12234,7 @@
           "translation": "советник",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "yield",
@@ -12242,7 +12242,7 @@
           "translation": "урожай, доходность, уступать, давать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "mere",
@@ -12250,7 +12250,7 @@
           "translation": "всего лишь",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "imagination",
@@ -12258,7 +12258,7 @@
           "translation": "воображение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "radical",
@@ -12266,7 +12266,7 @@
           "translation": "радикальный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "scandal",
@@ -12402,7 +12402,7 @@
           "translation": "трагедия",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "scary",
@@ -12410,7 +12410,7 @@
           "translation": "страшный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "consultant",
@@ -12418,7 +12418,7 @@
           "translation": "консультант",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "lieutenant",
@@ -12426,7 +12426,7 @@
           "translation": "лейтенант",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "upset",
@@ -12434,7 +12434,7 @@
           "translation": "огорчать, огорченный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "rat",
@@ -12570,7 +12570,7 @@
           "translation": "привлекательный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "acre",
@@ -12578,7 +12578,7 @@
           "translation": "акр",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "drawing",
@@ -12586,7 +12586,7 @@
           "translation": "рисунок, рисование",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "defeat",
@@ -12594,7 +12594,7 @@
           "translation": "поражение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "newly",
@@ -12602,7 +12602,7 @@
           "translation": "недавно",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ban",
@@ -12698,7 +12698,7 @@
           "translation": "скандал",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ambassador",
@@ -12706,7 +12706,7 @@
           "translation": "посол",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bench",
@@ -12714,7 +12714,7 @@
           "translation": "скамейка",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "counter",
@@ -12722,7 +12722,7 @@
           "translation": "прилавок, стойка, счётчик, предотвращать",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "odds",
@@ -12730,7 +12730,7 @@
           "translation": "шансы",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "literary",
@@ -12826,7 +12826,7 @@
           "translation": "крыса",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "horror",
@@ -12834,7 +12834,7 @@
           "translation": "ужас",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "vulnerable",
@@ -12842,7 +12842,7 @@
           "translation": "уязвимый",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "prevention",
@@ -12850,7 +12850,7 @@
           "translation": "предотвращение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "segment",
@@ -12858,7 +12858,7 @@
           "translation": "сегмент",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "strip",
@@ -12914,7 +12914,7 @@
           "translation": "запрещать, ",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "tail",
@@ -12922,7 +12922,7 @@
           "translation": "хвост",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "constitute",
@@ -12930,7 +12930,7 @@
           "translation": "составлять",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "badly",
@@ -12938,7 +12938,7 @@
           "translation": "плохо",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bless",
@@ -12946,7 +12946,7 @@
           "translation": "благословлять",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "feedback",
@@ -13002,7 +13002,7 @@
           "translation": "литературный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "magic",
@@ -13010,7 +13010,7 @@
           "translation": "магия, магический",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "implementation",
@@ -13018,7 +13018,7 @@
           "translation": "реализация",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "legitimate",
@@ -13026,7 +13026,7 @@
           "translation": "законный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "slight",
@@ -13034,7 +13034,7 @@
           "translation": "слабый, легкий",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "cooperation",
@@ -13090,7 +13090,7 @@
           "translation": "полоска, стриптиз, раздеваться",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "desperate",
@@ -13098,7 +13098,7 @@
           "translation": "отчаявшийся",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "distant",
@@ -13106,7 +13106,7 @@
           "translation": "далекий",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "preference",
@@ -13114,7 +13114,7 @@
           "translation": "предпочтение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "politically",
@@ -13122,7 +13122,7 @@
           "translation": "политически",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -13138,7 +13138,7 @@
           "translation": "обратная связь",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "health-care",
@@ -13146,7 +13146,7 @@
           "translation": "здравоохранение",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "Italian",
@@ -13154,7 +13154,7 @@
           "translation": "итальянский",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "detailed",
@@ -13162,7 +13162,7 @@
           "translation": "подробный, детальный",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "buyer",
@@ -13170,7 +13170,7 @@
           "translation": "покупатель",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -13186,7 +13186,7 @@
           "translation": "сотрудни",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "incredibly",
@@ -13194,7 +13194,7 @@
           "translation": "невероятно",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "orange",
@@ -13202,7 +13202,7 @@
           "translation": "апельсин",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "killing",
@@ -13210,7 +13210,7 @@
           "translation": "убийство",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sue",
@@ -13218,7 +13218,7 @@
           "translation": "подавать в суд",
           "usage": "",
           "usageTranslation": "",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {

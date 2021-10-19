@@ -7906,7 +7906,7 @@
           "translation": "компенсировать ",
           "usage": "You must make up for the loss.",
           "usageTranslation": "Вы должны возместить ущерб.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "look forward to",
@@ -7914,7 +7914,7 @@
           "translation": "ждать с нетерпением",
           "usage": "I am looking forward to seeing you.",
           "usageTranslation": "Я с нетерпением жду с тобой встречи.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "point out",
@@ -8194,7 +8194,7 @@
           "translation": "сдерживаться",
           "usage": "She could not hold back her tears.",
           "usageTranslation": "Она не смогла сдержать слёз.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "show up",
@@ -8202,7 +8202,7 @@
           "translation": "появляться",
           "usage": "He showed up when we least expected it.",
           "usageTranslation": "Он появился, когда мы меньше всего этого ожидали.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "be after",
@@ -8210,7 +8210,7 @@
           "translation": "преследовать, охотиться",
           "usage": "Lester was after your inheritance.",
           "usageTranslation": "Лестер охотился за вашим наследством.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "go through",
@@ -8218,7 +8218,7 @@
           "translation": "проходить через, преодолеть",
           "usage": "You will have to go through hardship.",
           "usageTranslation": "Ты должен будешь преодолеть тяжелое испытание.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "go up",
@@ -8226,7 +8226,7 @@
           "translation": "подниматься, увеличиваться",
           "usage": "Go up the stairs.",
           "usageTranslation": "Поднимайтесь по лестнице.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "turn to",
@@ -8466,7 +8466,7 @@
           "translation": "убирать",
           "usage": "Put away your toys.",
           "usageTranslation": "Убери свои игрушки.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "turn over",
@@ -8474,7 +8474,7 @@
           "translation": "переворачивать",
           "usage": "Please turn over the page.",
           "usageTranslation": "Пожалуйста, переверните страницу.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "get on with",
@@ -8482,7 +8482,7 @@
           "translation": "ладить",
           "usage": "I did not get on with Polya.",
           "usageTranslation": "Я не ладил с Полей.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "put down",
@@ -8490,7 +8490,7 @@
           "translation": "откладывать, положить",
           "usage": "I said put it down!",
           "usageTranslation": "Я сказал, положи!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "figure out",
@@ -8498,7 +8498,7 @@
           "translation": "понимать, выяснять",
           "usage": "I just figured out who you are.",
           "usageTranslation": "Я только что понял, кто ты есть.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "turn up",
@@ -8698,7 +8698,7 @@
           "translation": "двигаться дальше",
           "usage": "Can we move on?",
           "usageTranslation": "Мы можем двигаться дальше?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "pull up",
@@ -8706,7 +8706,7 @@
           "translation": "подтягиваться, останавливаться, парковаться",
           "usage": "I pulled up to the house.",
           "usageTranslation": "Я подъехал к дому.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "pull away",
@@ -8714,7 +8714,7 @@
           "translation": "оторваться",
           "usage": "Captain, we pulled away a little.",
           "usageTranslation": "Капитан, мы немного оторвались.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "walk up",
@@ -8722,7 +8722,7 @@
           "translation": "подойти ближе",
           "usage": "Tom walked up to the house.",
           "usageTranslation": "Том подошёл к дому.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "keep away",
@@ -8730,7 +8730,7 @@
           "translation": "держаться подальше",
           "usage": "Keep away from her.",
           "usageTranslation": "Держись от неё подальше.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "hold on",
@@ -8890,7 +8890,7 @@
           "translation": "повернуть",
           "usage": "He turned to me and frowned.",
           "usageTranslation": "Он повернулся ко мне и нахмурил брови.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "fall apart",
@@ -8898,7 +8898,7 @@
           "translation": "разваливаться на части",
           "usage": "My life is falling apart.",
           "usageTranslation": "Моя жизнь разваливается на части.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "cut off",
@@ -8906,7 +8906,7 @@
           "translation": "отрезать",
           "usage": "Cut off one head, two more shall take its place.",
           "usageTranslation": "Отсечешь одну голову на её месте вырастут две.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "put aside",
@@ -8914,7 +8914,7 @@
           "translation": "откладывать в сторону",
           "usage": "He puts aside some money every month.",
           "usageTranslation": "Он откладывает немного денег каждый месяц.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "walk away",
@@ -8922,7 +8922,7 @@
           "translation": "уходить",
           "usage": "You can't walk away from this.",
           "usageTranslation": "От этого не уйдёшь.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "run out",
@@ -9058,7 +9058,7 @@
           "translation": "делать громче",
           "usage": "Turn it up.",
           "usageTranslation": "Сделай погромче.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "be up to",
@@ -9066,7 +9066,7 @@
           "translation": "замышлять",
           "usage": "They were up to something.",
           "usageTranslation": "Они что-то задумали.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "look after",
@@ -9074,7 +9074,7 @@
           "translation": "присматривать за",
           "usage": "Who would look after that?",
           "usageTranslation": "Кто за ней присмотрит?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "walk around",
@@ -9082,7 +9082,7 @@
           "translation": "бродить",
           "usage": "I walked around in the field.",
           "usageTranslation": "Я бродил по полю.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "pick up",
@@ -9090,7 +9090,7 @@
           "translation": "заезжать, взять трубку",
           "usage": "Can I pick you up?",
           "usageTranslation": "Можно за тобой заехать?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "get along",
@@ -9210,7 +9210,7 @@
           "translation": "подождать",
           "usage": "Just a minute, just a minute, hold on.",
           "usageTranslation": "Минуту, одну минутку, подожди.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "turn out",
@@ -9218,7 +9218,7 @@
           "translation": "оказываться",
           "usage": "What did it turn out to be?",
           "usageTranslation": "Чем это оказалось?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "fall for",
@@ -9226,7 +9226,7 @@
           "translation": "влюбиться в",
           "usage": "Are you falling for me?",
           "usageTranslation": "Ты в меня влюбляешься?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "set up",
@@ -9234,7 +9234,7 @@
           "translation": "настраивать, устанавливать",
           "usage": "The monument was set up in the park.",
           "usageTranslation": "Памятник был установлен в парке.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "pull out",
@@ -9242,7 +9242,7 @@
           "translation": "вытаскивать",
           "usage": "She pulled him out of the mud.",
           "usageTranslation": "Она вытащила его из грязи.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "speak up",
@@ -9338,7 +9338,7 @@
           "translation": "кончаться",
           "usage": "We have run out of gas.",
           "usageTranslation": "У нас бензин закончился.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "give up",
@@ -9346,7 +9346,7 @@
           "translation": "сдаваться",
           "usage": "You must not give up.",
           "usageTranslation": "Ты не должен сдаваться.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "cut down on",
@@ -9354,7 +9354,7 @@
           "translation": "сократить",
           "usage": "We must cut down our expenses.",
           "usageTranslation": "Мы должны урезать наши расходы.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "come by",
@@ -9362,7 +9362,7 @@
           "translation": "заходи",
           "usage": "Thanks for coming by.",
           "usageTranslation": "Спасибо, что зашли.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "keep up",
@@ -9370,7 +9370,7 @@
           "translation": "успевать, поддерживать, продолжать",
           "usage": "I can't keep up with you.",
           "usageTranslation": "Я не могу за тобой угнаться.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "put off",
@@ -9450,7 +9450,7 @@
           "translation": "ладить",
           "usage": "I cannot get along with him.",
           "usageTranslation": "Я не могу с ним ужиться.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "turn down",
@@ -9458,7 +9458,7 @@
           "translation": "отвергать",
           "usage": "She turned him down.",
           "usageTranslation": "Она ему отказала.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "wake up",
@@ -9466,7 +9466,7 @@
           "translation": "просыпаться",
           "usage": "Wake him up.",
           "usageTranslation": "Разбуди его.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "take off",
@@ -9474,7 +9474,7 @@
           "translation": "снимать, взлететь",
           "usage": "Then I watched her take off her gloves.",
           "usageTranslation": "А затем смотрел, как она снимает перчатки.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "let down",
@@ -9482,7 +9482,7 @@
           "translation": "подводить",
           "usage": "You let us down.",
           "usageTranslation": "Ты нас подвёл.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "take away",
@@ -9538,7 +9538,7 @@
           "translation": "высказываться",
           "usage": "He has the courage to speak up what he thinks right.",
           "usageTranslation": "У него есть смелость говорить то, что он считает правильным.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "switch off",
@@ -9546,7 +9546,7 @@
           "translation": "выключать",
           "usage": "May I switch off the light?",
           "usageTranslation": "Можно выключить свет?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "hang out",
@@ -9554,7 +9554,7 @@
           "translation": "проводить время",
           "usage": "I really like hanging out with you.",
           "usageTranslation": "Мне очень нравится с тобой проводить время.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "come across",
@@ -9562,7 +9562,7 @@
           "translation": "натолкнуться",
           "usage": "This technology's unlike anything we've come across.",
           "usageTranslation": "Эта технология отличается в корне от того, на что мы натолкнулись ранее.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "clean up",
@@ -9570,7 +9570,7 @@
           "translation": "прибирать",
           "usage": "Clean up the kitchen.",
           "usageTranslation": "Уберитесь на кухне.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "watch out",
@@ -9626,7 +9626,7 @@
           "translation": "откладывать",
           "usage": "Never put off till to-morrow the fun you can have to-day.",
           "usageTranslation": "Не откладывай на завтра веселье, которое может быть сегодня.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "watch over",
@@ -9634,7 +9634,7 @@
           "translation": "присматривать за",
           "usage": "They're watching over us.",
           "usageTranslation": "Они за нами следят.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "get back",
@@ -9642,7 +9642,7 @@
           "translation": "возвращаться",
           "usage": "When will you be back?",
           "usageTranslation": "Когда ты вернёшься?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "stick out",
@@ -9650,7 +9650,7 @@
           "translation": "торчать",
           "usage": "Stick out your tongue.",
           "usageTranslation": "Высунь язык.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "stand up",
@@ -9658,7 +9658,7 @@
           "translation": "вставать",
           "usage": "He tried to stand up.",
           "usageTranslation": "Он попытался встать.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "bring about",
@@ -9698,7 +9698,7 @@
           "translation": "забрать",
           "usage": "Take him away.",
           "usageTranslation": "Заберите его.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "keep up with",
@@ -9706,7 +9706,7 @@
           "translation": "идти в ногу с",
           "usage": "Try to keep up with him.",
           "usageTranslation": "Попробуй держаться с ним на ровне.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "get around",
@@ -9714,7 +9714,7 @@
           "translation": "обходить",
           "usage": "She's good at getting around rules.",
           "usageTranslation": "Она умеет обходить правила.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "drop by",
@@ -9722,7 +9722,7 @@
           "translation": "заходить",
           "usage": "He often dropped in on me.",
           "usageTranslation": "Он часто ко мне заходил.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "pick out",
@@ -9730,7 +9730,7 @@
           "translation": "выбирать",
           "usage": "You can pick out any book you like.",
           "usageTranslation": "Вы можете выбрать любую понравившуюся вам книгу.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -9746,7 +9746,7 @@
           "translation": "остерегаться",
           "usage": "Watch out for zombies.",
           "usageTranslation": "Остерегайтесь зомби.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "pass on",
@@ -9754,7 +9754,7 @@
           "translation": "передать",
           "usage": "I passed on the job to him.",
           "usageTranslation": "Я передал работу ему.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "break in",
@@ -9762,7 +9762,7 @@
           "translation": "врываться",
           "usage": "They could break in again.",
           "usageTranslation": "Они смогут ворваться снова.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "call off",
@@ -9770,7 +9770,7 @@
           "translation": "отменять",
           "usage": "We called off the wedding.",
           "usageTranslation": "Мы отменили свадьбу.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "sit down",
@@ -9778,7 +9778,7 @@
           "translation": "садиться",
           "usage": "Sit down with me.",
           "usageTranslation": "Присядь со мной.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
@@ -9794,7 +9794,7 @@
           "translation": "вызывать, быть причиной",
           "usage": "Concussion can bring about temporary lapses in memory.",
           "usageTranslation": "Сотрясение может вызвать временные провалы в памяти.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "wear out",
@@ -9802,7 +9802,7 @@
           "translation": "износиться",
           "usage": "My children wear out their shoes quickly.",
           "usageTranslation": "Мои дети быстро изнашивают свою обувь.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "go on",
@@ -9810,7 +9810,7 @@
           "translation": "продолжать",
           "usage": "Please go on.",
           "usageTranslation": "Пожалуйста, продолжай.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {

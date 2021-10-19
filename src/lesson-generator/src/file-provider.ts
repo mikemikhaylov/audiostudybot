@@ -17,12 +17,12 @@ export default class FileProvider {
         for (const sub of await fs.promises.readdir(directory)) {
             const res = resolve(directory, sub);
             if (fs.lstatSync(res).isDirectory()) {
-                result = result.concat(await this.getAllFilesInDirectory(sub, filter))
+                result = result.concat(await this.getAllFilesInDirectory(res, filter))
             } else if (!filter || filter(sub)) {
-                result.push(sub);
+                result.push(res);
             }
         }
-        return result.map(x => resolve(directory, x));
+        return result;
     }
 
     public async readFile(path: string): Promise<string> {
