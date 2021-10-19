@@ -41,8 +41,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICJWE6Wlt9GOI9TnsTzQlJs4jWvXOKAAIpFQACw63RSaD1xm2D4l5AIAQ",
-        "Dev": "CQACAgIAAxkDAAIGemE6XEJecsIWG6r3mneblrywraIdAAKOFQACw63RSR-KsYgZ-spmIAQ"
+        "Dev": "CQACAgIAAxkDAAILuGFuuzVLKC725b5I_haE4Vt8Ih-qAALDDwAC9yB4S2ZI67JdWfJjIQQ",
+        "Prod": "CQACAgIAAxkDAAInvWFuvQ7c_nEp6PgE7MY9Z3d9fyzUAAIoEAAC9yB4S49jj4CcnW8zIQQ"
       }
     },
     {
@@ -119,8 +119,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICJmE6WmKIzTYDJuw-o8ZkhcMQh7cQAAIqFQACw63RSanXYVNIEV9YIAQ",
-        "Dev": "CQACAgIAAxkDAAIGe2E6XEZo9HEOj62Zl2KJN6GhMPe1AAKPFQACw63RSS82QI_4pmNDIAQ"
+        "Dev": "CQACAgIAAxkDAAILuWFuuzcwxJtTFmzDBY-4aF9VG7gIAALEDwAC9yB4S3_ioNyx6ZQjIQQ",
+        "Prod": "CQACAgIAAxkDAAInvmFuvRKJPG2MmJjHgGgHD6RVFs14AAIqEAAC9yB4S39A6VaFcaVWIQQ"
       }
     },
     {
@@ -232,8 +232,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICJ2E6Wml9pMvvfe8Gtkow0ddg7TIlAAIrFQACw63RSdr4TPwTjBO_IAQ",
-        "Dev": "CQACAgIAAxkDAAIGfGE6XEpFcq8GEn31o5vnuIUmV4-DAAKQFQACw63RSS5oWGuHm6RgIAQ"
+        "Dev": "CQACAgIAAxkDAAILumFuuzlGIwHpYq8FuuwvUP3OduzbAALFDwAC9yB4S4iU1MeosZPyIQQ",
+        "Prod": "CQACAgIAAxkDAAInv2FuvRbEk8IHFEhL4q-N-J0VNE-9AAIrEAAC9yB4S0Ifr4GLok9yIQQ"
       }
     },
     {
@@ -267,7 +267,7 @@
           "isNew": true
         },
         {
-          "text": "теплый",
+          "text": "тёплый",
           "translation": "warm",
           "usage": "Наденьте тёплую одежду.",
           "usageTranslation": "Wear warm clothes.",
@@ -380,8 +380,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICKGE6Wm0bqtfLkXS5a2ZsQ3msOUPtAAIsFQACw63RSXY1zl7RtGouIAQ",
-        "Dev": "CQACAgIAAxkDAAIGfWE6XE2bbHKpHauy2SwXN9yi_xbiAAKRFQACw63RSWnU05jrE5VUIAQ"
+        "Dev": "CQACAgIAAxkDAAILu2Fuuzx-5WWH7f4-ex7wpUWqTP7pAALGDwAC9yB4S57f8CNTllo8IQQ",
+        "Prod": "CQACAgIAAxkDAAInwGFuvRu_f7hlO12923EXYO2lUyBVAAIsEAAC9yB4S3HYoMggDOiZIQQ"
       }
     },
     {
@@ -520,7 +520,7 @@
           "isNew": false
         },
         {
-          "text": "теплый",
+          "text": "тёплый",
           "translation": "warm",
           "usage": "Наденьте тёплую одежду.",
           "usageTranslation": "Wear warm clothes.",
@@ -528,8 +528,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICKWE6Wm_uQAK59GPrMbuLNWAHnZ0JAAItFQACw63RSSH9v8Q3tiDSIAQ",
-        "Dev": "CQACAgIAAxkDAAIGfmE6XE_L2FEBsp66h2-keAwcOSzyAAKSFQACw63RSVmpkUwf69TlIAQ"
+        "Dev": "CQACAgIAAxkDAAILvGFuu0BsgSKEb2W8EzWen8ymdriUAALHDwAC9yB4S1Wis_HiEOCyIQQ",
+        "Prod": "CQACAgIAAxkDAAInwWFuvR8-m1zRlxgICNCH3rx6GU8qAAItEAAC9yB4S8UmQgWd95d2IQQ"
       }
     },
     {
@@ -668,7 +668,7 @@
           "isNew": false
         },
         {
-          "text": "теплый",
+          "text": "тёплый",
           "translation": "warm",
           "usage": "Наденьте тёплую одежду.",
           "usageTranslation": "Wear warm clothes.",
@@ -711,8 +711,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICKmE6WnEOR6lLkdmr5A9mdBWvkVehAAIuFQACw63RSY4TgPhpN72aIAQ",
-        "Dev": "CQACAgIAAxkDAAIGf2E6XFKjyFv_nEofUMLXURrXh3YyAAKTFQACw63RSXsQnw1Aa6ZMIAQ"
+        "Dev": "CQACAgIAAxkDAAILvWFuu0MdRK9MQjY4AAEumJCJAWZYQQACyA8AAvcgeEuYXQ-LZB7JbSEE",
+        "Prod": "CQACAgIAAxkDAAInwmFuvSNKSk5Y1W_hECwMI-5Z_9CTAAIuEAAC9yB4Sz8JrnaOVszDIQQ"
       }
     },
     {
@@ -816,7 +816,7 @@
           "isNew": false
         },
         {
-          "text": "теплый",
+          "text": "тёплый",
           "translation": "warm",
           "usage": "Наденьте тёплую одежду.",
           "usageTranslation": "Wear warm clothes.",
@@ -894,8 +894,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICK2E6WnOsSpirpQEubdOZ-PSeutO6AAIvFQACw63RSRu3tYoMQXZEIAQ",
-        "Dev": "CQACAgIAAxkDAAIGgGE6XFXdoMkRrCoDeatFEPyD_eqCAAKUFQACw63RSQjihzJaaYvXIAQ"
+        "Dev": "CQACAgIAAxkDAAILvmFuu0q12i6KOKlJtowNkEzicXGJAALJDwAC9yB4S4rTUqyLc44ZIQQ",
+        "Prod": "CQACAgIAAxkDAAInw2FuvSdji2CH6NPmi-rF-jHCeibjAAIvEAAC9yB4S0z8JWZaWZ_5IQQ"
       }
     },
     {
@@ -917,7 +917,8 @@
         {
           "text": "нога",
           "translation": "leg",
-          "usageTranslation": "Подними ноги.",
+          "usage": "Подними ноги.",
+          "usageTranslation": "Lift your legs.",
           "isNew": true
         },
         {
@@ -1111,8 +1112,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICLGE6WnYidF78yD7V5rBc0hYgAXCbAAIwFQACw63RSezCDRkinBxAIAQ",
-        "Dev": "CQACAgIAAxkDAAIGgWE6XFmeDcN1vzxMSeqUjxYIdpTlAAKVFQACw63RSdmtBEsMG223IAQ"
+        "Dev": "CQACAgIAAxkDAAILv2Fuu007ZoiWO6XYH85K-LspO_GUAALKDwAC9yB4SzYrgPoaC1EeIQQ",
+        "Prod": "CQACAgIAAxkDAAInxGFuvSr5Ui25616x40jUytg2qjlJAAIwEAAC9yB4S_8wA_EihQsMIQQ"
       }
     },
     {
@@ -1216,7 +1217,7 @@
           "isNew": false
         },
         {
-          "text": "теплый",
+          "text": "тёплый",
           "translation": "warm",
           "usage": "Наденьте тёплую одежду.",
           "usageTranslation": "Wear warm clothes.",
@@ -1309,7 +1310,8 @@
         {
           "text": "нога",
           "translation": "leg",
-          "usageTranslation": "Подними ноги.",
+          "usage": "Подними ноги.",
+          "usageTranslation": "Lift your legs.",
           "isNew": false
         },
         {
@@ -1328,8 +1330,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICLWE6Wnt4uwM1Tjn02m9co7IqmjzZAAIxFQACw63RScdcq8FfXyPfIAQ",
-        "Dev": "CQACAgIAAxkDAAIGgmE6XF0fWpv3Po5SvYW84kbUm5N0AAKWFQACw63RSdu2D21lwtXYIAQ"
+        "Dev": "CQACAgIAAxkDAAILwGFuu0-J2Fwst7LF9MQJ_cd0PZhqAALLDwAC9yB4S0pW7cTZQeNmIQQ",
+        "Prod": "CQACAgIAAxkDAAInxWFuvSw8mkOYbrwTTzDvlbQpScyjAAIxEAAC9yB4S_rD4VaMkgtHIQQ"
       }
     },
     {
@@ -1491,7 +1493,8 @@
         {
           "text": "нога",
           "translation": "leg",
-          "usageTranslation": "Подними ноги.",
+          "usage": "Подними ноги.",
+          "usageTranslation": "Lift your legs.",
           "isNew": false
         },
         {
@@ -1545,8 +1548,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICLmE6Wn49MI_W9TUNgMU9pYV_flA1AAIyFQACw63RSXhgEKxR1ZQFIAQ",
-        "Dev": "CQACAgIAAxkDAAIGg2E6XGABZYbYGlinFgdS2tDSkeJJAAKXFQACw63RSX6HpoZVrPAwIAQ"
+        "Dev": "CQACAgIAAxkDAAILwWFuu1SSNP7vIFLR4sQ8_qPrOdFdAALMDwAC9yB4S5K73EP1bylHIQQ",
+        "Prod": "CQACAgIAAxkDAAInxmFuvTFkJRn-AAEswXsto6QQaR7wDQACMhAAAvcgeEtRlyVuSfMs7SEE"
       }
     },
     {
@@ -1650,7 +1653,7 @@
           "isNew": false
         },
         {
-          "text": "теплый",
+          "text": "тёплый",
           "translation": "warm",
           "usage": "Наденьте тёплую одежду.",
           "usageTranslation": "Wear warm clothes.",
@@ -1708,7 +1711,8 @@
         {
           "text": "нога",
           "translation": "leg",
-          "usageTranslation": "Подними ноги.",
+          "usage": "Подними ноги.",
+          "usageTranslation": "Lift your legs.",
           "isNew": false
         },
         {
@@ -1797,8 +1801,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICL2E6WoF-BguJ781QR6jbjODgsozYAAIzFQACw63RSXuY5_vC0Zc9IAQ",
-        "Dev": "CQACAgIAAxkDAAIGhGE6XGPIgA79DH08MCFXD6brwOrYAAKYFQACw63RSYq18NWR5bEJIAQ"
+        "Dev": "CQACAgIAAxkDAAILwmFuu1gb9oVc0skj4PiWeOij3_0IAALNDwAC9yB4S2WIMJiaIsstIQQ",
+        "Prod": "CQACAgIAAxkDAAInx2FuvTXYEijP-y0CKS_wTbqu2GFoAAIzEAAC9yB4S1-jSovfGSWmIQQ"
       }
     },
     {
@@ -2050,8 +2054,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICMGE6WoPPMl0a7U1RbRnT0xIY970hAAI0FQACw63RSUURMw6sHTqZIAQ",
-        "Dev": "CQACAgIAAxkDAAIGhWE6XGfzENwrQgjRhEHii1osUSpHAAKZFQACw63RSZ2wE7qtW9iAIAQ"
+        "Dev": "CQACAgIAAxkDAAILw2Fuu1wJhpUs5RsRCpE8rX6FYMkBAALODwAC9yB4Szw224QloubKIQQ",
+        "Prod": "CQACAgIAAxkDAAInyGFuvTrwbioG16wFEWaQaX5HV66-AAI0EAAC9yB4S3IwTif3rNvJIQQ"
       }
     },
     {
@@ -2178,7 +2182,8 @@
         {
           "text": "нога",
           "translation": "leg",
-          "usageTranslation": "Подними ноги.",
+          "usage": "Подними ноги.",
+          "usageTranslation": "Lift your legs.",
           "isNew": false
         },
         {
@@ -2302,8 +2307,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICMWE6Woe1kuC6zeTqqE9mNMRuwB9qAAI1FQACw63RSYq5udXN5lbnIAQ",
-        "Dev": "CQACAgIAAxkDAAIGhmE6XGsJoJ4W-mSd9_JUY1f-bYDNAAKaFQACw63RSdMXdZbvQcGoIAQ"
+        "Dev": "CQACAgIAAxkDAAILxGFuu2HUfhEKtpQGMEpMzKmpDlADAALPDwAC9yB4S0PzIgz5EeFtIQQ",
+        "Prod": "CQACAgIAAxkDAAInyWFuvT5PUlBoLd9Ixw4t6GQqoGCQAAI1EAAC9yB4SxszDCQ6IO4DIQQ"
       }
     },
     {
@@ -2407,7 +2412,7 @@
           "isNew": false
         },
         {
-          "text": "теплый",
+          "text": "тёплый",
           "translation": "warm",
           "usage": "Наденьте тёплую одежду.",
           "usageTranslation": "Wear warm clothes.",
@@ -2590,8 +2595,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICMmE6WoycgczRoEZBCnatNA3KLPPXAAI2FQACw63RSXi_2FuIAmxEIAQ",
-        "Dev": "CQACAgIAAxkDAAIGh2E6XG58u-sy7WNn4o4_e3FgbneMAAKbFQACw63RSffGibW1r7k0IAQ"
+        "Dev": "CQACAgIAAxkDAAILxWFuu2Xb4sTW0PZlo1E3bXsKqlFBAALQDwAC9yB4Sy12x9ZvcUc3IQQ",
+        "Prod": "CQACAgIAAxkDAAInymFuvUNNsVWkM-cFqUkiE1AeX6iPAAI2EAAC9yB4S5WC3sNpb8c4IQQ"
       }
     },
     {
@@ -2718,7 +2723,8 @@
         {
           "text": "нога",
           "translation": "leg",
-          "usageTranslation": "Подними ноги.",
+          "usage": "Подними ноги.",
+          "usageTranslation": "Lift your legs.",
           "isNew": false
         },
         {
@@ -2877,8 +2883,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICM2E6WpDgfx_rPXQoorhLtNjoMu5NAAI3FQACw63RSc8UqaPiFfT-IAQ",
-        "Dev": "CQACAgIAAxkDAAIGiGE6XHEQwOgqnAerK7WKE3AGbGTXAAKcFQACw63RSRVMKwVvj0_VIAQ"
+        "Dev": "CQACAgIAAxkDAAILxmFuu2eJQP4TOHFTjNSAPwjlOFCXAALRDwAC9yB4S5SaHOj2B_GAIQQ",
+        "Prod": "CQACAgIAAxkDAAIny2FuvUS_efCQW_R5iTc1mutslPSIAAI3EAAC9yB4S3uOXRdlKWsTIQQ"
       }
     },
     {
@@ -3165,8 +3171,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICNGE6WpaJ881XgsTthS0YnzowanQMAAI4FQACw63RSSJ6n25fzzFaIAQ",
-        "Dev": "CQACAgIAAxkDAAIGiWE6XHVPaJVHHkFqhS0f_Y-_5JudAAKdFQACw63RSTAmwbWs4Yd9IAQ"
+        "Dev": "CQACAgIAAxkDAAILx2Fuu2sW_y90ICD4T7dfWEfxh68NAALSDwAC9yB4SyLAcySHoYs5IQQ",
+        "Prod": "CQACAgIAAxkDAAInzGFuvUfPybjipnm8RqrVvmNX9PpVAAI4EAAC9yB4S3_s3qNk1MUcIQQ"
       }
     },
     {
@@ -3235,7 +3241,7 @@
           "isNew": false
         },
         {
-          "text": "теплый",
+          "text": "тёплый",
           "translation": "warm",
           "usage": "Наденьте тёплую одежду.",
           "usageTranslation": "Wear warm clothes.",
@@ -3453,8 +3459,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICNWE6WpkB6VxPW9f-GXUL1qr4_07QAAI5FQACw63RSQoCTb_bZScCIAQ",
-        "Dev": "CQACAgIAAxkDAAIGimE6XHnpRIOPKVr-pzkZjItncSBRAAKeFQACw63RSZJmPzuXfno8IAQ"
+        "Dev": "CQACAgIAAxkDAAILyGFuu3CDlQtaOFmiKr3a-ti6wv6PAALTDwAC9yB4S-ZS8ULAJq7nIQQ",
+        "Prod": "CQACAgIAAxkDAAInzWFuvUrsO3UmkEEKlEaONILWj2FCAAI5EAAC9yB4S_yNmkwbdtL6IQQ"
       }
     },
     {
@@ -3546,7 +3552,8 @@
         {
           "text": "нога",
           "translation": "leg",
-          "usageTranslation": "Подними ноги.",
+          "usage": "Подними ноги.",
+          "usageTranslation": "Lift your legs.",
           "isNew": false
         },
         {
@@ -3740,8 +3747,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICNmE6WpwhI-Xt16xes2Q5yVf4kS5xAAI6FQACw63RSbP6X8Gp1O8DIAQ",
-        "Dev": "CQACAgIAAxkDAAIGi2E6XH0zmfoeKsXdJLZvYvDRvty_AAKfFQACw63RSdzfWBtiXNmQIAQ"
+        "Dev": "CQACAgIAAxkDAAILyWFuu3arqIvaqU6aZh6iDAW2UOJPAALUDwAC9yB4S-XKRrO0zG1aIQQ",
+        "Prod": "CQACAgIAAxkDAAInzmFuvU5n6GmZj_7HP5KkT0iuHfZsAAI6EAAC9yB4S58NiV3lXakKIQQ"
       }
     },
     {
@@ -4028,8 +4035,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICN2E6Wp7rw750X9LDjXPYM_g3EaNAAAI7FQACw63RSZxSl2Fqwt-CIAQ",
-        "Dev": "CQACAgIAAxkDAAIGjGE6XIHf2VVFTMtyJfuQ2jJv1SM8AAKgFQACw63RSacp33s2Fes0IAQ"
+        "Dev": "CQACAgIAAxkDAAILymFuu3khhsEAAY0aq4Y5EGKQ-6lG2wAC1Q8AAvcgeEttRkut686wGCEE",
+        "Prod": "CQACAgIAAxkDAAInz2FuvVHU9tsr00VJVEMVIO_EIE3vAAI7EAAC9yB4SzqsJiyR29ZjIQQ"
       }
     },
     {
@@ -4316,8 +4323,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICOGE6WqM5zzygS5HTEApoCRorvqAuAAI8FQACw63RSYSslH7x1lxpIAQ",
-        "Dev": "CQACAgIAAxkDAAIGjWE6XISaJWdZzMd1adrVw_Wq0V9_AAKhFQACw63RSU2wcgWFDZ7dIAQ"
+        "Dev": "CQACAgIAAxkDAAILy2Fuu32DxCoahGxEUwZHHJB--r1IAALWDwAC9yB4S7snKDiiJ4ZuIQQ",
+        "Prod": "CQACAgIAAxkDAAIn0GFuvVQ3_GNsMcNNRTVp9J0vGB-kAAI8EAAC9yB4SzWk6QTf1wb-IQQ"
       }
     },
     {
@@ -4374,7 +4381,8 @@
         {
           "text": "нога",
           "translation": "leg",
-          "usageTranslation": "Подними ноги.",
+          "usage": "Подними ноги.",
+          "usageTranslation": "Lift your legs.",
           "isNew": false
         },
         {
@@ -4603,8 +4611,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICOWE6WqdJVIl5DhndqgKjkm2Eox3zAAI9FQACw63RSeIMk1x6OAKxIAQ",
-        "Dev": "CQACAgIAAxkDAAIGjmE6XIdyUF1ES5eYYkl45MwIaWCFAAKiFQACw63RSSRWibcGpAcJIAQ"
+        "Dev": "CQACAgIAAxkDAAILzGFuu4IO0KdMPK7XeadYwO6RMVgdAALXDwAC9yB4S9UWws-3G6UjIQQ",
+        "Prod": "CQACAgIAAxkDAAIn0WFuvVeo1LoU1L1bT2Kr2qz8AAE8YgACPRAAAvcgeEsac5YJj82G2yEE"
       }
     },
     {
@@ -4891,8 +4899,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICOmE6Wq20jq1ZPj99T3DKG1sNTvc2AAI-FQACw63RSXFs6VmWEuVxIAQ",
-        "Dev": "CQACAgIAAxkDAAIGj2E6XIwFWiMmHFPiCmOnBdfYGHvIAAKjFQACw63RSbauk4mYjm93IAQ"
+        "Dev": "CQACAgIAAxkDAAILzWFuu4VITmb57nLdDPKn5WaxPJA8AALYDwAC9yB4Swz07G_Oglw7IQQ",
+        "Prod": "CQACAgIAAxkDAAIn0mFuvVoG95fX4GgEIrCfujq0avUaAAI-EAAC9yB4S_XRKL_w6FWsIQQ"
       }
     },
     {
@@ -5179,8 +5187,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICO2E6WrF-MnO7-AoiEIMimFo55U0xAAI_FQACw63RSZ8u5dlWHgXHIAQ",
-        "Dev": "CQACAgIAAxkDAAIGkGE6XI_e6FpcCmZ0M7mLdK3a43OVAAKkFQACw63RSSdgS8OVUJhPIAQ"
+        "Dev": "CQACAgIAAxkDAAILzmFuu4hzp2fdb2EBWLCfZHYOFmtIAALZDwAC9yB4S_xKmPUU18lHIQQ",
+        "Prod": "CQACAgIAAxkDAAIn02FuvV4AAT5bx57nNeSmr9Z0qzQ6bAACPxAAAvcgeEsM1V0oNllFUSEE"
       }
     },
     {
@@ -5467,8 +5475,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICPGE6WrX1N0tBtfkVqt0pbLtMnCUgAAJAFQACw63RSaxF74EceSQgIAQ",
-        "Dev": "CQACAgIAAxkDAAIGkWE6XJLe9GRFXLab5FOrNZJsuu_fAAKlFQACw63RSfvu0UqCKXP_IAQ"
+        "Dev": "CQACAgIAAxkDAAILz2Fuu4zGjMFXyEJ6XkzYC3bmz1s4AALaDwAC9yB4S9fpQOBQi0cIIQQ",
+        "Prod": "CQACAgIAAxkDAAIn1GFuvWO45Zesrbk1ztmXoED57N8BAAJAEAAC9yB4S3MhctpQasujIQQ"
       }
     },
     {
@@ -5755,8 +5763,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICPWE6Wrqd790UbMowFMBRS1HjY0BZAAJBFQACw63RSZu-H57nDPWdIAQ",
-        "Dev": "CQACAgIAAxkDAAIGkmE6XJTNfOpjxgca9sPno13XvqXIAAKmFQACw63RScjYKXFv8CVhIAQ"
+        "Dev": "CQACAgIAAxkDAAIL0GFuu48MWyFA6b_-EA5Qtw0vx53hAALbDwAC9yB4S5dWW8appHh0IQQ",
+        "Prod": "CQACAgIAAxkDAAIn1WFuvWfs1u1W39zHpqurXi9Yh0m8AAJBEAAC9yB4S61R8Eh5v3VTIQQ"
       }
     },
     {
@@ -6043,8 +6051,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICPmE6Wr1i8ZsEA0ROxKLRKOzUstn6AAJCFQACw63RSdGjwGJb9GiaIAQ",
-        "Dev": "CQACAgIAAxkDAAIGk2E6XJlwrDRtO2_hMYJ5_lo-Aea9AAKnFQACw63RSf2-zGxWctctIAQ"
+        "Dev": "CQACAgIAAxkDAAIL0WFuu5QNhwkn3g11JE1eTPfisT0FAALcDwAC9yB4S00X0sPT_wGAIQQ",
+        "Prod": "CQACAgIAAxkDAAIn1mFuvWvEqijmENMLGjIygYz3u2opAAJCEAAC9yB4S-T0lE9inN81IQQ"
       }
     },
     {
@@ -6331,8 +6339,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICP2E6WsHDVYeZqSd2S8XYVOHZaW-6AAJDFQACw63RSSSIOcO39-VdIAQ",
-        "Dev": "CQACAgIAAxkDAAIGlGE6XJs8-FqW43XLeBed7_UdlUQxAAKpFQACw63RSeW6VGmDlPhiIAQ"
+        "Dev": "CQACAgIAAxkDAAIL0mFuu5gNZHarCsFmFRz41kE26D9wAALdDwAC9yB4S7ZgfmygNehuIQQ",
+        "Prod": "CQACAgIAAxkDAAIn12FuvXBSIo1JpAtx3ERbkrKfmZ6SAAJDEAAC9yB4S2UWlv41wE2SIQQ"
       }
     },
     {
@@ -6619,8 +6627,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICQGE6WsV3H0vjzuFsBpbhFMrQN8KpAAJEFQACw63RSXoXUv39JlenIAQ",
-        "Dev": "CQACAgIAAxkDAAIGlWE6XJ4Ngo-Uro90hImPmB7d1l4wAAKqFQACw63RSTh8S0Yid09cIAQ"
+        "Dev": "CQACAgIAAxkDAAIL02Fuu5qZ4vmyuB4W1auoDahS9F-GAALeDwAC9yB4S42DFUwRYyRbIQQ",
+        "Prod": "CQACAgIAAxkDAAIn2GFuvXIoDN5KmadnawoiUBTJnX8rAAJEEAAC9yB4S-5Jm5snWcNlIQQ"
       }
     },
     {
@@ -6907,8 +6915,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICQWE6WsfT3V-ikzXF2mqqk221Fr3pAAJFFQACw63RSWsri2LhSv3gIAQ",
-        "Dev": "CQACAgIAAxkDAAIGlmE6XKOs-f8gVv-8uif8v5BoYzX9AAKrFQACw63RSVBSdFA_4r1rIAQ"
+        "Dev": "CQACAgIAAxkDAAIL1GFuu55nWof2RJ0iZs1gCi2Q2WrpAALfDwAC9yB4SxFhLbyIYuAiIQQ",
+        "Prod": "CQACAgIAAxkDAAIn2WFuvXapyD_vl2gugsOUmMM2W_cIAAJFEAAC9yB4SzYB4HVTavzfIQQ"
       }
     },
     {
@@ -7195,8 +7203,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICQmE6WsxMtjtCFp_TSAQyeMrzAZfaAAJGFQACw63RSeidvTQQ6R2zIAQ",
-        "Dev": "CQACAgIAAxkDAAIGl2E6XKcpd2fCSgYPxCEC87l5t-3GAAKsFQACw63RSZEkgJB7tMMRIAQ"
+        "Dev": "CQACAgIAAxkDAAIL1WFuu6J3-IM_6Nl6qUQOHyEEuqgdAALhDwAC9yB4S0_O0GQH-HEiIQQ",
+        "Prod": "CQACAgIAAxkDAAIn2mFuvXmnt-SMocIXB880JmGOBhUmAAJGEAAC9yB4S7uI9HtI0Me6IQQ"
       }
     },
     {
@@ -7483,8 +7491,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICQ2E6Ws-R1qijTLlnfBQGpv_o_kdwAAJHFQACw63RSbtLtwTCONy-IAQ",
-        "Dev": "CQACAgIAAxkDAAIGmGE6XKqVr9-2XcW0AAG6ByAdOtxt3gACrRUAAsOt0Unhz_0HjfLrRCAE"
+        "Dev": "CQACAgIAAxkDAAIL1mFuu6YvyQHs4z_RF1OX7YCD3jwyAALiDwAC9yB4S8PvNtk_NwmCIQQ",
+        "Prod": "CQACAgIAAxkDAAIn22FuvX48fY-aKriY1Nocmv3VqelGAAJIEAAC9yB4Swrh1wyESGK6IQQ"
       }
     },
     {
@@ -7771,8 +7779,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICRGE6WtFxwxrpMp5G3VWJtQF6toQWAAJIFQACw63RSa3VftIXnejyIAQ",
-        "Dev": "CQACAgIAAxkDAAIGmWE6XK4MAkglV0T7wFChyqm0o2bUAAKuFQACw63RSTPAfInZIa5CIAQ"
+        "Dev": "CQACAgIAAxkDAAIL12Fuu6pxxgtlzAUII6ZAUzCrKXosAALjDwAC9yB4S0mYt3Z917l_IQQ",
+        "Prod": "CQACAgIAAxkDAAIn3GFuvYJ7NYizClhEaVhdLqPsdGSPAAJKEAAC9yB4SyUEhGkVt1WqIQQ"
       }
     },
     {
@@ -8059,8 +8067,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICRWE6WtaeYtcLXf6vJx0vSn15iOUFAAJJFQACw63RSVRVCvGN4lNjIAQ",
-        "Dev": "CQACAgIAAxkDAAIGmmE6XLB20GHqYPO6s7iL_XG2THlxAAKvFQACw63RSdRfx0c2YSOoIAQ"
+        "Dev": "CQACAgIAAxkDAAIL2GFuu64j2e_25qWQry7sdzb0zAbSAALkDwAC9yB4SwL3AvOxSppKIQQ",
+        "Prod": "CQACAgIAAxkDAAIn3WFuvYQPV-XT7DNyfCj0PQ6HxunyAAJLEAAC9yB4S2P_FueO5eTUIQQ"
       }
     },
     {
@@ -8347,8 +8355,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICRmE6Wti5YwcnnpasHubSLDDmPaAdAAJKFQACw63RSdyG8-kXUfOJIAQ",
-        "Dev": "CQACAgIAAxkDAAIGm2E6XLRXyTrGv5TZeBX1vbO_uCEDAAKwFQACw63RSVo2mJCW9Lw4IAQ"
+        "Dev": "CQACAgIAAxkDAAIL2WFuu7Ks7UQra1P6d3qWVlmX_ahpAALlDwAC9yB4S28oQ-3w_u_mIQQ",
+        "Prod": "CQACAgIAAxkDAAIn3mFuvYj73Skr4PTzD_8OXCBUpX4jAAJMEAAC9yB4S0R1bQKuFvg8IQQ"
       }
     },
     {
@@ -8635,8 +8643,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICR2E6Wt3tXmMnrqKLjg816j_3w8s3AAJLFQACw63RSReJH3AaXsyxIAQ",
-        "Dev": "CQACAgIAAxkDAAIGnGE6XLbIdHuPfKDyID_QzIe_v9KkAAKxFQACw63RSZAVdV7AYhA1IAQ"
+        "Dev": "CQACAgIAAxkDAAIL2mFuu7QZQ5Bji9tyVfDoFNMZ7mNbAALmDwAC9yB4S6BpJVOcPl0wIQQ",
+        "Prod": "CQACAgIAAxkDAAIn32FuvYzEoJclz99uN7UbsHtESkAXAAJNEAAC9yB4SzuCIpxpr9IoIQQ"
       }
     },
     {
@@ -8923,8 +8931,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICSGE6WuGvtmZdVblwFq3iQVo5XoJKAAJMFQACw63RSWt7iOiIWd7WIAQ",
-        "Dev": "CQACAgIAAxkDAAIGnWE6XLqC6tHVQJN2oITEr2k3ARHxAAKzFQACw63RSaJIGAbmqQ-MIAQ"
+        "Dev": "CQACAgIAAxkDAAIL22Fuu7apmo56lkRquPYAAb2j8EPExwAC5w8AAvcgeEtlldho0EwAATAhBA",
+        "Prod": "CQACAgIAAxkDAAIn4GFuvZHxZTMAAQrroV0VJ6P5UOnxVQACThAAAvcgeEu0dcxEPIPioSEE"
       }
     },
     {
@@ -9211,8 +9219,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICSWE6WuZRKexxQeGp7V-W53X6qSkBAAJNFQACw63RSWMuQIyQX65wIAQ",
-        "Dev": "CQACAgIAAxkDAAIGnmE6XL4zV2pX_gw0v42XEK2rVLYiAAK0FQACw63RSbcnVxop-EYPIAQ"
+        "Dev": "CQACAgIAAxkDAAIL3GFuu7u7d91PK8OufuXFk_hLQq1zAALoDwAC9yB4SxcCZT-UD7J7IQQ",
+        "Prod": "CQACAgIAAxkDAAIn4WFuvZWL3R7ImWVTIjC10Uvh1vUiAAJPEAAC9yB4S1JF4xLED8b4IQQ"
       }
     },
     {
@@ -9222,35 +9230,35 @@
           "translation": "big",
           "usage": "Россия большая.",
           "usageTranslation": "Russia is big.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "хороший",
           "translation": "good",
           "usage": "Хорошей охоты.",
           "usageTranslation": "Good hunting.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "бедный",
           "translation": "poor",
           "usage": "Том беден.",
           "usageTranslation": "Tom is poor.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "коричневый",
           "translation": "brown",
           "usage": "У него карие глаза.",
           "usageTranslation": "He has brown eyes.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "отправлять",
           "translation": "send",
           "usage": "Отправь телеграмму!",
           "usageTranslation": "Send a telegram!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "воскресенье",
@@ -9464,8 +9472,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICSmE6Wum_iPjNa4QzGhse1bQvz0yQAAJOFQACw63RSb5FE5bKJedoIAQ",
-        "Dev": "CQACAgIAAxkDAAIGn2E6XMJO3W8OYJFxGriYdkW2uxR3AAK1FQACw63RSYdH9TOYh3GsIAQ"
+        "Dev": "CQACAgIAAxkDAAIL3WFuu79S2CqoOiblIrRQpcL814FeAALpDwAC9yB4S2ZshF_zd6CCIQQ",
+        "Prod": "CQACAgIAAxkDAAIn4mFuvZgwsdyhNaA7vy6syhVaGMf7AAJQEAAC9yB4S4yYQLobCqeEIQQ"
       }
     },
     {
@@ -9475,35 +9483,35 @@
           "translation": "head",
           "usage": "У него болела голова.",
           "usageTranslation": "His head ached.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "здоровье",
           "translation": "health",
           "usage": "Упражнения укрепляют здоровье.",
           "usageTranslation": "Exercise improves health.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "петь",
           "translation": "sing",
           "usage": "Поют цикады.",
           "usageTranslation": "Cicadas are singing.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "хлеб",
           "translation": "bread",
           "usage": "Она испекла хлеб.",
           "usageTranslation": "She baked bread.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "понедельник",
           "translation": "Monday",
           "usage": "Понедельник идёт за воскресеньем.",
           "usageTranslation": "Monday follows Sunday.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "май",
@@ -9682,8 +9690,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICS2E6Wu2hQ5uMs0CP9B4blxf-YIPEAAJPFQACw63RSeptnSZJ6gABnyAE",
-        "Dev": "CQACAgIAAxkDAAIGoGE6XMerWi382vEHjQ7pe8WvvSrTAAK3FQACw63RSayywbVD2E5_IAQ"
+        "Dev": "CQACAgIAAxkDAAIL3mFuu8GD4AABJxqG-k59RBlqPRMQIwAC6g8AAvcgeEuVQ-YyxZxN4SEE",
+        "Prod": "CQACAgIAAxkDAAIn42FuvZyF8I2anuf96G-L6RBNWoeZAAJREAAC9yB4S2EkYTcytxtHIQQ"
       }
     },
     {
@@ -9693,35 +9701,35 @@
           "translation": "Tuesday",
           "usage": "Он звонил во вторник.",
           "usageTranslation": "He phoned on Tuesday.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "среда",
           "translation": "Wednesday",
           "usage": "Увидимся в среду.",
           "usageTranslation": "I'll see you on Wednesday.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "четверг",
           "translation": "Thursday",
           "usage": "Вчера был четверг.",
           "usageTranslation": "Yesterday was Thursday.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "пятница",
           "translation": "Friday",
           "usage": "Как насчёт пятницы?",
           "usageTranslation": "How about Friday?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "суббота",
           "translation": "Saturday",
           "usage": "Мне нравятся субботы.",
           "usageTranslation": "I like Saturdays.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "октябрь",
@@ -9865,8 +9873,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICTGE6WvCBBtMJGrA8wSHANUpfOkpwAAJQFQACw63RSbi7wNn_-TNuIAQ",
-        "Dev": "CQACAgIAAxkDAAIGoWE6XMi7doCgRiWWLv2kwghGMUFkAAK4FQACw63RSb03hagnYJ19IAQ"
+        "Dev": "CQACAgIAAxkDAAIL32Fuu8QqaDn1kawKmaqTxORqMGKqAALrDwAC9yB4S80WBnXlytlyIQQ",
+        "Prod": "CQACAgIAAxkDAAIn5GFuvaBxDtZpXQqPrnM_2QyxoVrwAAJSEAAC9yB4S7uNCA4s_xNSIQQ"
       }
     },
     {
@@ -9876,35 +9884,35 @@
           "translation": "Sunday",
           "usage": "Он работает по воскресеньям.",
           "usageTranslation": "He works Sundays.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "январь",
           "translation": "January",
           "usage": "Уже январь?",
           "usageTranslation": "Is it January already?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "февраль",
           "translation": "February",
           "usage": "В феврале только 28 дней.",
           "usageTranslation": "February has only 28 days.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "март",
           "translation": "March",
           "usage": "Он окончил школу в марте.",
           "usageTranslation": "He finished school in March.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "апрель",
           "translation": "April",
           "usage": "Сегодня первое апреля.",
           "usageTranslation": "It's April first.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "три",
@@ -10013,8 +10021,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICTWE6WvSd_sgsRWFW0tJ0f3AH077tAAJRFQACw63RSSGZEX6UDv3cIAQ",
-        "Dev": "CQACAgIAAxkDAAIGomE6XMydEBdHq_IKz6XAHx3xZ92gAAK5FQACw63RSXcl-9_fn22XIAQ"
+        "Dev": "CQACAgIAAxkDAAIL4GFuu8hoMEZUpuqqnoxVtDAxRpzSAALsDwAC9yB4Sw5v0lmSKLZqIQQ",
+        "Prod": "CQACAgIAAxkDAAIn5WFuvaIvJ2JfJI-DNlyb2uLLq5uDAAJTEAAC9yB4S2riDD2LyU1_IQQ"
       }
     },
     {
@@ -10024,35 +10032,35 @@
           "translation": "May",
           "usage": "Май - мой любимый месяц.",
           "usageTranslation": "May is my favourite month.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "июнь",
           "translation": "June",
           "usage": "Сезон дождей начинается в июне.",
           "usageTranslation": "Rainy season begins in June.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "июль",
           "translation": "July",
           "usage": "С Четвёртым июля!",
           "usageTranslation": "Happy Fourth of July!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "август",
           "translation": "August",
           "usage": "Был конец августа.",
           "usageTranslation": "It was late August.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "сентябрь",
           "translation": "September",
           "usage": "Школа снова откроется в сентябре.",
           "usageTranslation": "School reopens in September.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "восемь",
@@ -10161,8 +10169,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICTmE6WvikhRiaWTmZB1-DvokCpaZGAAJSFQACw63RSS_ObWf4fcOoIAQ",
-        "Dev": "CQACAgIAAxkDAAIGo2E6XM9kSsOq58z1WgSxdu7K-8DlAAK6FQACw63RSaGHIR8dmJcjIAQ"
+        "Dev": "CQACAgIAAxkDAAIL4WFuu80xEMQS1HEbR9GmdhiD4DdcAALtDwAC9yB4Swxm6taXu_FuIQQ",
+        "Prod": "CQACAgIAAxkDAAIn5mFuvadCYMKOVxhXLV2e91NmrBq_AAJVEAAC9yB4S-o5eNKn0jfzIQQ"
       }
     },
     {
@@ -10172,35 +10180,35 @@
           "translation": "October",
           "usage": "Октябрь прошёл.",
           "usageTranslation": "October is over.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "ноябрь",
           "translation": "November",
           "usage": "Мой день рождения в ноябре.",
           "usageTranslation": "My birthday is in November.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "декабрь",
           "translation": "December",
           "usage": "Рождество двадцать пятого декабря.",
           "usageTranslation": "Christmas is December 25th.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "один",
           "translation": "one",
           "usage": "Выбери один.",
           "usageTranslation": "Choose one.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "два",
           "translation": "two",
           "usage": "Два пива, пожалуйста.",
           "usageTranslation": "Two beers, please.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "тринадцать",
@@ -10274,8 +10282,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICT2E6Wvttu_joMH3OUd0NC1iX45noAAJTFQACw63RSf3FyiODQa1sIAQ",
-        "Dev": "CQACAgIAAxkDAAIGpGE6XNPvUu6SdZVAr1WMkkskWrbJAAK7FQACw63RSVtrQx0yQlHZIAQ"
+        "Dev": "CQACAgIAAxkDAAIL4mFuu9F2DVi3nzg9x7HDm7VKpxx4AALuDwAC9yB4S1UfElq-F_T6IQQ",
+        "Prod": "CQACAgIAAxkDAAIn52FuvaqAw_XZRMyCyclEZea9O2wsAAJWEAAC9yB4S5KHw4jaXRafIQQ"
       }
     },
     {
@@ -10285,35 +10293,35 @@
           "translation": "three",
           "usage": "Три кофе, пожалуйста.",
           "usageTranslation": "Three coffees, please.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "четыре",
           "translation": "four",
           "usage": "Дважды два — четыре.",
           "usageTranslation": "Twice two is four.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "пять",
           "translation": "five",
           "usage": "Дай пять!",
           "usageTranslation": "High five!",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "шeсть",
           "translation": "six",
           "usage": "Сейчас почти шесть.",
           "usageTranslation": "It's almost six.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "семь",
           "translation": "seven",
           "usage": "Они ужинают в семь.",
           "usageTranslation": "They dine at seven.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "восемнадцать",
@@ -10387,8 +10395,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICUGE6Wv1ZlY1C-gx6y6Z9tFDubBf9AAJUFQACw63RSX258W3X7Be3IAQ",
-        "Dev": "CQACAgIAAxkDAAIGpWE6XNa_42zP0tuC9ToPcA2A9LVKAAK8FQACw63RSd7UNIaA2UxXIAQ"
+        "Dev": "CQACAgIAAxkDAAIL42Fuu9R_p2y2pdgKzssDnOMKB4guAALvDwAC9yB4S_iMa0-qBwQ-IQQ",
+        "Prod": "CQACAgIAAxkDAAIn6GFuva0jvAQdsEEVGysOzVoEooY7AAJXEAAC9yB4S8ksFENFI8p-IQQ"
       }
     },
     {
@@ -10398,35 +10406,35 @@
           "translation": "eight",
           "usage": "Ему восемь.",
           "usageTranslation": "He is eight.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "девять",
           "translation": "nine",
           "usage": "Я спал девять часов.",
           "usageTranslation": "I slept nine hours.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "десять",
           "translation": "ten",
           "usage": "Посчитай до десяти.",
           "usageTranslation": "Count to ten.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "одиннадцать",
           "translation": "eleven",
           "usage": "В этом доме одиннадцать комнат.",
           "usageTranslation": "This house has eleven rooms.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "двенадцать",
           "translation": "twelve",
           "usage": "В году двенадцать месяцев.",
           "usageTranslation": "A year has twelve months.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "пятьдесят",
@@ -10465,8 +10473,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICUWE6WwGuQsfdusah3bQfpULo1A_-AAJVFQACw63RSezY1Y_pdD-LIAQ",
-        "Dev": "CQACAgIAAxkDAAIGpmE6XNfmlAKiQ6U1_xkijWo0EKjkAAK9FQACw63RSdwyL8JxoN8hIAQ"
+        "Dev": "CQACAgIAAxkDAAIL5GFuu9lQ0awTtAYuI6ou8MRXnxO1AALwDwAC9yB4S0PBGuaP5-EUIQQ",
+        "Prod": "CQACAgIAAxkDAAIn6WFuvbBwoY_TCW6AfH6NLyOvpSeUAAJYEAAC9yB4S61LwwjYOFVrIQQ"
       }
     },
     {
@@ -10476,35 +10484,35 @@
           "translation": "thirteen",
           "usage": "У меня тринадцать кошек.",
           "usageTranslation": "I have thirteen cats.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "четырнадцать",
           "translation": "fourteen",
           "usage": "Ты сказал четырнадцать или сорок?",
           "usageTranslation": "Did you say fourteen or forty?",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "пятнадцать",
           "translation": "fifteen",
           "usage": "Подождите пятнадцать минут, пожалуйста.",
           "usageTranslation": "Please wait fifteen minutes.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "шестнадцать",
           "translation": "sixteen",
           "usage": "Мне шестнадцать лет.",
           "usageTranslation": "I'm sixteen years old.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "семнадцать",
           "translation": "seventeen",
           "usage": "Она вышла замуж в семнадцать лет.",
           "usageTranslation": "She got married at seventeen.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "сто",
@@ -10543,8 +10551,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICUmE6WwSivMr33puFvD7_3_m-cgAEVhUAAsOt0Ulm3o4JfWbu3yAE",
-        "Dev": "CQACAgIAAxkDAAIGp2E6XNvxe3WiYijiTUf9BkLOYAVSAAK-FQACw63RSSl5NvHyYoRoIAQ"
+        "Dev": "CQACAgIAAxkDAAIL5WFuu9wWFhiG9l3NpKO-z1lTSEsxAALxDwAC9yB4S7ITprr5WpagIQQ",
+        "Prod": "CQACAgIAAxkDAAIn6mFuvbENW6N1t-EMKGFgDr3xu-W2AAJZEAAC9yB4S_DoToQu2NiHIQQ"
       }
     },
     {
@@ -10554,35 +10562,35 @@
           "translation": "eighteen",
           "usage": "Она сказала, что ей больше восемнадцати.",
           "usageTranslation": "She said she was over eighteen.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "девятнадцать",
           "translation": "nineteen",
           "usage": "Сегодня мне исполнилось девятнадцать.",
           "usageTranslation": "So I turned nineteen today",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "двадцать",
           "translation": "twenty",
           "usage": "Здесь живут двадцать семей.",
           "usageTranslation": "Twenty families live here.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "тридцать",
           "translation": "thirty",
           "usage": "Подожди тридцать минут.",
           "usageTranslation": "Wait thirty minutes.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "сорок",
           "translation": "forty",
           "usage": "Прошло сорок лет.",
           "usageTranslation": "Forty years passed.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "второй",
@@ -10621,8 +10629,8 @@
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICU2E6WwpcFWdxcrcKNWsInJkYMb47AAJXFQACw63RSQtzrfiJglIIIAQ",
-        "Dev": "CQACAgIAAxkDAAIGqGE6XN-6qUX7Uwl9dVvEeraiAYH8AAK_FQACw63RSQRKdCnEAAGPiiAE"
+        "Dev": "CQACAgIAAxkDAAIL5mFuu98-evOPzEFqxieOEYuQZVYYAALyDwAC9yB4Sw-kfoNSPR1aIQQ",
+        "Prod": "CQACAgIAAxkDAAIn62FuvbXQBSlKY8JhI88fFpyssdKBAAJbEAAC9yB4S_kAAUY0FBoqLiEE"
       }
     },
     {
@@ -10632,40 +10640,40 @@
           "translation": "fifty",
           "usage": "У него было пятьдесят долларов.",
           "usageTranslation": "He had fifty dollars.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "шестьдесят",
           "translation": "sixty",
           "usage": "Он вышел на пенсию в шестьдесят лет.",
           "usageTranslation": "He retired at sixty.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "семьдесят",
           "translation": "seventy",
           "usage": "Том потерял семьдесят фунтов.",
           "usageTranslation": "Tom lost seventy pounds.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "восемьдесят",
           "translation": "eighty",
           "usage": "Эта конфета стоит восемьдесят центов.",
           "usageTranslation": "This candy costs eighty cents.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "девяносто",
           "translation": "ninety",
           "usage": "Пожалуйста, прочитай девяносто четвёртую страницу.",
           "usageTranslation": "Please read page ninety-four.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICVGE6Ww3BM0oxnnVA2kPSjfNpsTZeAAJYFQACw63RSWG85O6JZmhqIAQ",
-        "Dev": "CQACAgIAAxkDAAIGqWE6XOMFDnIpEBIFafSQydrdSVv0AALAFQACw63RSW-PKq0jt7PPIAQ"
+        "Dev": "CQACAgIAAxkDAAIL52Fuu-Tk_Lmn8Ar3oZ7njkIw7LD8AALzDwAC9yB4S94n3xWLxCVNIQQ",
+        "Prod": "CQACAgIAAxkDAAIn7GFuvbdJHzCsHyVuzcSRey35W24LAAJcEAAC9yB4S_Wpk4gRTcorIQQ"
       }
     },
     {
@@ -10675,40 +10683,40 @@
           "translation": "hundred",
           "usage": "Том сэкономил триста долларов.",
           "usageTranslation": "Tom saved three hundred dollars.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "тысяча",
           "translation": "thousand",
           "usage": "Ещё раз приношу тысячу извинений.",
           "usageTranslation": "Again, a thousand apologies.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "миллион",
           "translation": "million",
           "usage": "Он стоил тридцать миллионов долларов.",
           "usageTranslation": "It cost 30 million dollars.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "миллиард",
           "translation": "billion",
           "usage": "В небе миллиарды звезд.",
           "usageTranslation": "There are billions of stars in the sky.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "первый",
           "translation": "first",
           "usage": "Кто первый?",
           "usageTranslation": "Who's first?",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICVWE6WxAL--QCwNLgJ6H-lj7X6jH2AAJZFQACw63RSeVxd3R3JwcOIAQ",
-        "Dev": "CQACAgIAAxkDAAIGqmE6XOUBAgP5tY4__G4Y-X-L3AgPAALBFQACw63RSWhuJxN5h144IAQ"
+        "Dev": "CQACAgIAAxkDAAIL6GFuu-YAAX-OefDihnzY7sme3GeAAwAC9A8AAvcgeEv6HaF-_VNr2SEE",
+        "Prod": "CQACAgIAAxkDAAIn7WFuvbnw5Sk97VYXAkbb_Le2gdYbAAJdEAAC9yB4S_JcOzF4SWcdIQQ"
       }
     },
     {
@@ -10718,40 +10726,40 @@
           "translation": "second",
           "usage": "Закончился второй семестр.",
           "usageTranslation": "Second semester has ended.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "половина",
           "translation": "half",
           "usage": "Оставь мне половину.",
           "usageTranslation": "Leave me half.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "несколько",
           "translation": "several",
           "usage": "Он внёс несколько исправлений.",
           "usageTranslation": "He made several corrections.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "дюжина",
           "translation": "dozen",
           "usage": "Он купил дюжину яиц.",
           "usageTranslation": "He bought a dozen eggs.",
-          "isNew": true
+          "isNew": false
         },
         {
           "text": "двойной",
           "translation": "double",
           "usage": "У неё двойной подбородок.",
           "usageTranslation": "She has a double chin.",
-          "isNew": true
+          "isNew": false
         }
       ],
       "fileIds": {
-        "Prod": "CQACAgIAAxkDAAICVmE6WxQKsSloCc74RgWPUkkqMshyAAJaFQACw63RSY0G-AABtvgEhiAE",
-        "Dev": "CQACAgIAAxkDAAIGq2E6XOmrD6zcFpVR4cmBSjkSjoyUAALCFQACw63RSd_IHXDy6Xf1IAQ"
+        "Dev": "CQACAgIAAxkDAAIL6WFuu-op-KmBXrLfqCPFMmJr02q8AAL1DwAC9yB4SzkCBlHswHrFIQQ",
+        "Prod": "CQACAgIAAxkDAAIn7mFuvb0c-csa9ZPbKN5W2y3hMLErAAJeEAAC9yB4S3CsFialh4kiIQQ"
       }
     }
   ]

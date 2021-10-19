@@ -20,6 +20,7 @@ export default class Generator {
         const reversedCourse = config.reversedCourseFilePath ? await this.courseReverser.reverseCourse(course, config.reversedCourseFilePath) : undefined;
 
         await this.lessonGenerator.generate(course, reversedCourse, config.courseLessonsDirectory);
+
         await this.courseAudioGenerator.generate(course, config.mediaOutputDirectory);
         if (reversedCourse) {
             await this.courseAudioGenerator.generate(reversedCourse, config.mediaOutputDirectory);

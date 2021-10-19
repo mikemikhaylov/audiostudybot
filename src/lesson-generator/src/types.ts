@@ -48,3 +48,8 @@ export type Lesson = {
 }
 
 export type Speed = 'slow' | 'medium' | 'fast';
+
+export type DayCard = {
+    index: number,
+    isNew: boolean
+}

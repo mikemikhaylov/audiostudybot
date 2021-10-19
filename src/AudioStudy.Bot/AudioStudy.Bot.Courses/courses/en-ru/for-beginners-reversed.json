@@ -142,7 +142,7 @@
       "translationTranscription": "niːd"
     },
     {
-      "text": "теплый",
+      "text": "тёплый",
       "translation": "warm",
       "usage": "Наденьте тёплую одежду.",
       "usageTranslation": "Wear warm clothes.",
@@ -270,8 +270,9 @@
     {
       "text": "нога",
       "translation": "leg",
-      "usageTranslation": "Подними ноги.",
-      "translationTranscription": "Lift your legs."
+      "usage": "Подними ноги.",
+      "usageTranslation": "Lift your legs.",
+      "translationTranscription": "lɛg"
     },
     {
       "text": "давать",
