@@ -1,3 +1,5 @@
+const fs = require("fs");
+
 const setsToImport = [
     'food',
     'for-beginners',
@@ -21,3 +23,21 @@ const setsToImport = [
     'phrasal-verbs',
     'travel'
 ]
+
+for (const setToImport of setsToImport) {
+    const set = JSON.parse(fs.readFileSync(`../src/AudioStudy.Bot/AudioStudy.Bot.Courses/courses/en-ru/${setToImport}.json`));
+    const lines = [];
+    for (const card of set.cards) {
+        if(card.usage && card.usageTranslation) {
+            lines.push(`${card.text};${card.translation};${card.usage};${card.usageTranslation}`)
+        }
+        else if(card.usage) {
+            lines.push(`${card.text};${card.translation};${card.usage}`)
+        }
+        else {
+            lines.push(`${card.text};${card.translation}`)
+        }
+    }
+    fs.writeFileSync(`./csv/${setToImport}.csv`, lines.join('\n'));
+    console.log('ok');
+}
