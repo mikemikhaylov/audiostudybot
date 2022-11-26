@@ -18,7 +18,7 @@ async function start() {
         }
         catch(ex) {
             console.log(ex);
-            break;
+            continue;
         }
     }
     console.log('finished start')
