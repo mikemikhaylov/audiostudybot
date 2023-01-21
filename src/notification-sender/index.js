@@ -18,7 +18,6 @@ async function start() {
         }
         catch(ex) {
             console.log(ex);
-            continue;
         }
     }
     console.log('finished start')
